@@ -34,6 +34,11 @@ import { CURIOSIDADES } from "./historias/curiosidades";
    ========================================================================== */
 
 type FotoComun = {
+  /* Vacío cuando la procedencia todavía no está confirmada, y entonces la
+     banda no pinta ninguna línea. Antes caía «Imagen del proyecto.» por
+     defecto, que no es un relleno sino una afirmación falsa sobre una
+     fotografía que no es nuestra. Quien avisa de que falta es
+     `scripts/portadas.mjs` y la fila del CSV. */
   autor: string;
   licencia: string;
   /**

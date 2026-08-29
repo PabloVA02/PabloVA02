@@ -1,5 +1,17 @@
 {
-  "_": "Solo los temas donde el recorte automático no acierta. x/y es dónde está el motivo en tanto por uno; zoom acerca. Lo lee scripts/portadas.mjs.",
-  "por-que-te-mareas-en-el-coche": { "x": 0.16, "y": 0.62 },
-  "por-que-se-corta-la-leche": { "x": 0.56, "y": 0.52, "zoom": 1.3 }
+  "_": "Solo los temas donde el recorte automático no acierta. LA CLAVE ES EL NOMBRE DEL ARCHIVO de originales/ sin extensión, que es el identificador del tema: si se renombra la foto hay que renombrar la clave, o el encuadre se pierde en silencio. x/y es dónde está el motivo en tanto por uno; zoom acerca. Lo lee scripts/portadas.mjs.",
+  "el-conductor-no-se-marea-nunca": {
+    "x": 0.16,
+    "y": 0.62
+  },
+  "la-leche-cortada-es-queso-a-medio-empezar": {
+    "x": 0.56,
+    "y": 0.52,
+    "zoom": 1.3
+  },
+  "las-rayas-no-son-un-camuflaje": {
+    "x": 0.3,
+    "y": 0.52,
+    "zoom": 1.8
+  }
 }

@@ -5,19 +5,33 @@ import type { Short } from "../shorts";
 import p_la_costra_no_esta_curando_nada from "../../portadas/la-costra-no-esta-curando-nada.avif";
 import p_la_gravedad_no_es_una_fuerza from "../../portadas/la-gravedad-no-es-una-fuerza.avif";
 import p_el_bostezo_no_tiene_que_ver_con_el_oxigeno from "../../portadas/el-bostezo-no-tiene-que-ver-con-el-oxigeno.avif";
+import p_hay_un_sensor_dentro_del_diente from "../../portadas/hay-un-sensor-dentro-del-diente.avif";
+import p_el_cielo_deberia_ser_violeta from "../../portadas/el-cielo-deberia-ser-violeta.avif";
+import p_la_sal_no_viene_del_mar from "../../portadas/la-sal-no-viene-del-mar.avif";
+import p_la_miel_no_se_conserva from "../../portadas/la-miel-no-se-conserva.avif";
+import p_las_rayas_no_son_un_camuflaje from "../../portadas/las-rayas-no-son-un-camuflaje.avif";
+import p_el_amarillo_ya_estaba from "../../portadas/el-amarillo-ya-estaba.avif";
+import p_la_cebolla_entera_no_lleva_nada from "../../portadas/la-cebolla-entera-no-lleva-nada.avif";
 import p_te_ensenaron_mal_como_se_forma_una_nube from "../../portadas/te-ensenaron-mal-como-se-forma-una-nube.avif";
+import p_un_flamenco_nace_gris from "../../portadas/un-flamenco-nace-gris.avif";
+import p_a_los_tres_anos_te_acordabas from "../../portadas/a-los-tres-anos-te-acordabas.avif";
+import p_la_unica_especie_que_se_sonroja from "../../portadas/la-unica-especie-que-se-sonroja.avif";
 import p_el_picante_no_es_un_sabor from "../../portadas/el-picante-no-es-un-sabor.avif";
+import p_un_patinador_no_derrite_el_hielo from "../../portadas/un-patinador-no-derrite-el-hielo.avif";
 import p_la_leche_cortada_es_queso_a_medio_empezar from "../../portadas/la-leche-cortada-es-queso-a-medio-empezar.avif";
+import p_no_es_falta_de_riego from "../../portadas/no-es-falta-de-riego.avif";
 import p_el_conductor_no_se_marea_nunca from "../../portadas/el-conductor-no-se-marea-nunca.avif";
 import p_en_invierno_estamos_mas_cerca_del_sol from "../../portadas/en-invierno-estamos-mas-cerca-del-sol.avif";
+import p_erizar_un_pelaje_que_ya_no_tienes from "../../portadas/erizar-un-pelaje-que-ya-no-tienes.avif";
 import p_tiritar_desperdiciar_energia from "../../portadas/tiritar-desperdiciar-energia.avif";
+import p_nadie_oyo_su_voz_hasta_1877 from "../../portadas/nadie-oyo-su-voz-hasta-1877.avif";
 import p_por_que_vuelan_los_aviones_es_falso from "../../portadas/por-que-vuelan-los-aviones-es-falso.avif";
 
 /* ==========================================================================
    CURIOSIDADES — LO ESCRIBE `scripts/catalogo.mjs`, NO SE EDITA A MANO
 
    Sale de los `.md` de Pablo, que están en
-   `referencia/textos-de-pablo/shorts-28ago/` con su cabecera. Para
+   `referencia/textos-de-pablo/shorts/` con su cabecera. Para
    rehacerlo:
 
        node scripts/catalogo.mjs > src/historias/curiosidades.ts
@@ -26,7 +40,7 @@ import p_por_que_vuelan_los_aviones_es_falso from "../../portadas/por-que-vuelan
    reparte en pantallas es la app, midiendo el móvil de quien lee. Es la
    regla 3 de `.claude/skills/paginado-shorts/SKILL.md`.
 
-   Hoy entran 11 de 35: solo los que tienen portada.
+   Hoy entran 25 de 85: solo los que tienen portada.
    ========================================================================== */
 
 export const CURIOSIDADES: Short[] = [
@@ -158,8 +172,7 @@ export const CURIOSIDADES: Short[] = [
     fotos: [
       {
         local: p_la_gravedad_no_es_una_fuerza,
-        autor:
-          "Imagen del proyecto.",
+        autor: "",
         licencia: "Pendiente de confirmar con Pablo",
         alt:
           "Decenas de líneas finas en rojo, magenta y violeta sobre negro, girando en espiral " +
@@ -498,6 +511,797 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "hay-un-sensor-dentro-del-diente",
+    titulo: "Por qué duele el frío en un diente",
+    categoria: "Cuerpo humano",
+    color: "var(--slate)",
+    /* Serie «por-que-duele-el-frio-en-un-diente», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Hay un sensor de frío dentro de tus dientes» */
+    encargo: "Hay un sensor de frío dentro de tus dientes",
+    fotos: [
+      {
+        local: p_hay_un_sensor_dentro_del_diente,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Hay un sensor de frío dentro de tus dientes",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Durante sesenta años la explicación fue el movimiento de un líquido",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Que un sorbo de agua helada te dispare un latigazo en una muela es una experiencia tan " +
+          "común que uno da por hecho que está resuelta desde siempre. No lo estaba. Hasta 2021 " +
+          "no se supo cómo funciona, y la explicación que se manejaba mientras tanto era muy " +
+          "distinta de lo que uno imaginaría.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La versión clásica se llama <strong>teoría hidrodinámica</strong> y viene de los años " +
+          "sesenta. La dentina, la capa que hay bajo el esmalte, no es maciza: está atravesada " +
+          "por miles de conductos microscópicos llenos de líquido, que van desde la superficie " +
+          "hasta la pulpa, donde están los nervios. La idea era que el frío hace que ese líquido " +
+          "se mueva dentro de los túbulos, y que ese movimiento arrastra y deforma mecánicamente " +
+          "las terminaciones nerviosas del interior, que responden con dolor. Es decir, el diente " +
+          "no notaría el frío: notaría un empujón provocado por el frío.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Encajaba bien con lo que se observa. Explica por qué duele más cuando el esmalte está " +
+          "desgastado o hay caries, porque entonces los túbulos quedan abiertos al exterior. " +
+          "Explica por qué también molesta el aire frío, o el azúcar, que altera el líquido por " +
+          "ósmosis. Y explica por qué el dolor es tan inmediato y tan agudo. Durante sesenta años " +
+          "fue la respuesta, aunque nadie hubiera encontrado el mecanismo molecular que la " +
+          "sostuviera.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La explicación clásica decía que el diente no siente el frío: siente un líquido " +
+          "moviéndose por dentro por culpa del frío.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y en 2021 encontraron el detector",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En marzo de 2021, un equipo dirigido por Katharina Zimmermann, en la Universidad de " +
+          "Erlangen-Núremberg, publicó en <em>Science Advances</em> algo que nadie había buscado " +
+          "en ese sitio. Fueron a mirar los <strong>odontoblastos</strong>, unas células que " +
+          "forman una capa entre la pulpa y la dentina y cuyo trabajo conocido era fabricar " +
+          "dentina. Células de construcción, no de sensores.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y resulta que llevan encima un canal iónico llamado <strong>TRPC5</strong> que " +
+          "responde al frío. Cuando la temperatura baja, ese canal se abre, la célula se activa y " +
+          "dispara una señal que llega a los nervios de la pulpa. O sea que en el diente hay un " +
+          "detector de frío de verdad, molecular y específico, en unas células que se creían " +
+          "dedicadas a otra cosa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo comprobaron por varios lados. En ratones sin ese canal, la sensibilidad al frío en " +
+          "los dientes desaparecía, y en dientes con la dentina expuesta la respuesta era mucho " +
+          "mayor, que es exactamente el cuadro clínico de un diente sensible.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene decir cómo queda la teoría antigua, porque no ha caído. Los propios autores " +
+          "lo dicen con claridad: el hallazgo no descarta el movimiento de líquido en los " +
+          "túbulos, sino que añade un mecanismo que hasta ahora faltaba. Lo más probable es que " +
+          "las dos cosas ocurran a la vez y se refuercen.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay un detalle que dice mucho sobre lo poco que sabemos de nuestro propio cuerpo. " +
+          "Los dientes son de las partes que más nos duelen, la odontología es una profesión " +
+          "antiquísima y estas células estaban perfectamente descritas al microscopio desde hace " +
+          "más de un siglo. Nadie había pensado en preguntarles si además sentían.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Unas células que se creían dedicadas a fabricar dentina llevaban encima un detector de " +
+          "frío, y nadie lo había mirado.",
+      },
+    ],
+  },
+  {
+    id: "el-cielo-deberia-ser-violeta",
+    titulo: "Por qué el cielo es azul",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    /* Serie «por-que-el-cielo-es-azul», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Según la física, el cielo debería ser violeta» */
+    encargo: "Según la física, el cielo debería ser violeta",
+    fotos: [
+      {
+        local: p_el_cielo_deberia_ser_violeta,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Según la física, el cielo debería ser violeta",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La regla que explica el azul explica demasiado",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación estándar de por qué el cielo es azul es correcta y se puede resumir en " +
+          "una línea: las moléculas del aire dispersan mucho más las longitudes de onda cortas " +
+          "que las largas, así que el azul rebota por todo el cielo mientras el rojo sigue de " +
+          "largo. La proporción exacta la fijó lord Rayleigh, y es brutal: la dispersión es " +
+          "inversamente proporcional a la cuarta potencia de la longitud de onda. Eso significa " +
+          "que una diferencia pequeña en el color se convierte en una diferencia enorme en cuánto " +
+          "se dispersa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema aparece en cuanto aplicas esa regla hasta el final, y es una de esas " +
+          "objeciones que un niño hace sin esfuerzo y un adulto se salta sin darse cuenta. El " +
+          "azul está en torno a los 450 nanómetros. El violeta, en torno a los 400, es decir, " +
+          "todavía más corto. Si la regla dice que cuanto más corta es la onda más se dispersa, " +
+          "entonces el violeta debería dispersarse aproximadamente una vez y media más que el " +
+          "azul. El cielo no debería ser azul: debería ser violeta, y bastante intenso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y no lo es. Así que la explicación de manual, siendo cierta, está incompleta, y lo que " +
+          "falta no es un detalle: es todo un segundo capítulo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El violeta se dispersa más que el azul. Si la dispersión fuera lo único que cuenta, el " +
+          "cielo sería violeta.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Faltan tres cosas, y una de ellas eres tú",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La respuesta completa tiene tres piezas, y ninguna está en el aire.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La primera está en el Sol. La luz solar no lleva la misma cantidad de cada color: su " +
+          "emisión no es plana, y hay bastante menos violeta que azul saliendo de la estrella. Da " +
+          "igual que el violeta se disperse una vez y media mejor si de entrada hay menos violeta " +
+          "con el que trabajar. La regla multiplica, pero multiplica sobre lo que hay.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La segunda está en la parte alta de la atmósfera, que absorbe una porción de la luz " +
+          "más energética antes de que llegue abajo. Otro mordisco al violeta que ya venía " +
+          "escaso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y la tercera está en tu ojo, que es la que hace que esto deje de ser un problema de " +
+          "física y pase a ser también un problema de percepción. Tu retina no mide longitudes de " +
+          "onda: tiene tres tipos de conos con sensibilidades distintas y solapadas, y el color " +
+          "que percibes es el resultado de comparar cuánto se ha excitado cada uno. Ante la " +
+          "mezcla que llega del cielo —mucho azul, algo de violeta, un poco de todo lo demás— tus " +
+          "conos responden de una manera que el cerebro traduce como azul. La sensibilidad al " +
+          "violeta puro, además, es notablemente más baja que al azul.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Así que la pregunta «¿de qué color es el cielo?» no tiene una respuesta que dependa " +
+          "solo del cielo. El cielo emite una mezcla concreta de longitudes de onda, y azul es el " +
+          "nombre que le pone tu sistema visual a esa mezcla. Un animal con otros conos vería " +
+          "otra cosa mirando exactamente el mismo aire.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El color del cielo no está solo en el cielo. La mitad de la respuesta está en cómo son " +
+          "el Sol y tus ojos.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? De la misma regla salen los atardeceres. Cuando el Sol está bajo, su luz " +
+          "atraviesa muchísimo más aire para llegar a ti, y por el camino se va dispersando lo " +
+          "que más se dispersa, que es el azul. Lo que sobrevive al viaje y te llega directo es " +
+          "lo que menos se dispersaba: el rojo y el naranja. El atardecer no es un fenómeno " +
+          "distinto del cielo azul, es el mismo visto desde el otro lado.",
+      },
+    ],
+  },
+  {
+    id: "la-sal-no-viene-del-mar",
+    titulo: "Por qué el mar es salado",
+    categoria: "Planeta Tierra",
+    color: "var(--ochre)",
+    /* Serie «por-que-el-mar-es-salado», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La sal del mar no viene del mar» */
+    encargo: "La sal del mar no viene del mar",
+    fotos: [
+      {
+        local: p_la_sal_no_viene_del_mar,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La sal del mar no viene del mar",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La trajo la lluvia, piedra a piedra",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Uno da por hecho que la sal es una propiedad del mar, algo que forma parte de su " +
+          "naturaleza igual que el agua o el oleaje. Y no es así en absoluto: casi toda esa sal " +
+          "estuvo antes en tierra firme, dentro de las rocas, y hasta el mar la llevaron los " +
+          "ríos. Los mismos ríos que llamamos de agua dulce.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El proceso empieza con la lluvia, y empieza porque la lluvia no es agua pura. Al caer, " +
+          "el agua disuelve dióxido de carbono de la atmósfera y se vuelve ligeramente ácida. No " +
+          "lo bastante para notarlo, pero sí lo bastante para atacar la roca sobre la que cae, " +
+          "lentamente y sin parar. Ese ataque va arrancando iones de los minerales —sodio, cloro, " +
+          "calcio, magnesio, potasio— y esos iones quedan disueltos en el agua que escurre.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Después llega la parte de logística. El agua de escorrentía baja a los arroyos, los " +
+          "arroyos a los ríos y los ríos al mar, arrastrando en disolución todo lo que han ido " +
+          "arrancando por el camino. Un río lleva una cantidad de sal tan pequeña que no la notas " +
+          "al beber, y por eso lo llamamos dulce; pero lleva algo, y lleva ese algo todos los " +
+          "días desde hace miles de millones de años.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y en el mar ocurre lo que cierra el circuito. El agua se evapora y vuelve a la " +
+          "atmósfera, pero la sal no se evapora: se queda. Entra agua con sal disuelta, sale agua " +
+          "sin sal, y lo que queda dentro se va concentrando. El océano funciona, en ese sentido, " +
+          "como una olla puesta al fuego a la que no dejas de añadirle caldo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El mar no fabrica sal. Lleva miles de millones de años recibiéndola de tierra firme y " +
+          "quedándosela cuando el agua se evapora.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y hay una segunda fuente en el fondo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La historia de los ríos es la principal y es la que explica el grueso del asunto, pero " +
+          "se quedaría coja sin la otra mitad, que ocurre donde nadie la ve.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En las dorsales oceánicas, esas cordilleras submarinas donde la corteza se está " +
+          "creando, el agua del mar se filtra por las grietas de la roca, baja hasta zonas " +
+          "próximas al magma y se calienta muchísimo. El agua caliente y a presión es un " +
+          "disolvente extraordinariamente agresivo, así que ataca la roca volcánica que atraviesa " +
+          "y le arranca minerales. Y luego vuelve a salir por las fuentes hidrotermales cargada " +
+          "con todo eso. Es la misma operación que hace la lluvia sobre los continentes, hecha " +
+          "bajo el agua, a temperaturas absurdas y con la roca recién salida del horno.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El resultado global de las dos vías es un mar con unos 35 gramos de sal por cada kilo " +
+          "de agua. Esa cifra cuesta de dimensionar hasta que la conviertes en algo que se pueda " +
+          "ver, así que aquí va la conversión del Servicio Geológico de Estados Unidos: si " +
+          "sacaras toda la sal disuelta en los océanos y la extendieras uniformemente sobre la " +
+          "superficie de todas las tierras emergidas del planeta, formaría una capa de más de " +
+          "ciento sesenta metros de espesor. Un edificio de cuarenta plantas, sobre cada metro " +
+          "cuadrado de tierra firme del mundo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Toda la sal del océano, repartida sobre las tierras emergidas, formaría una capa de " +
+          "más de ciento sesenta metros.",
+      },
+    ],
+  },
+  {
+    id: "la-miel-no-se-conserva",
+    titulo: "Por qué la miel nunca caduca",
+    categoria: "Cocina",
+    color: "var(--clay)",
+    /* Serie «por-que-la-miel-nunca-caduca», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La miel no se conserva: mata lo que se le acerca» */
+    encargo: "La miel no se conserva: mata lo que se le acerca",
+    fotos: [
+      {
+        local: p_la_miel_no_se_conserva,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La miel no se conserva: mata lo que se le acerca",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tres defensas montadas una encima de otra",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Abre el armario de la cocina y compara dos tarros. La mermelada que abriste hace tres " +
+          "meses tiene que vivir en la nevera y aun así acabará criando moho en la superficie. El " +
+          "bote de miel lleva ahí dos años, a temperatura ambiente, con la cuchara metida más de " +
+          "una vez, y no le ha pasado absolutamente nada. Las dos cosas son azúcar disuelto en " +
+          "agua, y sin embargo una se estropea y la otra no. La diferencia no es que la miel " +
+          "«aguante mejor»: es que la miel es un sitio activamente hostil para cualquier cosa que " +
+          "intente vivir en ella.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La primera defensa es el agua, o mejor dicho su ausencia. El néctar que recogen las " +
+          "abejas es agua en su mayor parte, en torno a un setenta u ochenta por ciento, y lo que " +
+          "sale del panal tiene menos de un veinte. Esa diferencia no la pone el sol: la ponen " +
+          "las abejas, que van deshidratando el néctar en las celdas batiendo las alas para mover " +
+          "el aire hasta que el líquido se espesa. Lo que importa no es solo cuánta agua queda, " +
+          "sino cuánta de esa agua está disponible para alguien más, y esa magnitud tiene nombre " +
+          "técnico: la <strong>actividad de agua</strong>. En la miel ronda el 0,56 y el 0,62, " +
+          "por debajo del mínimo que necesitan las bacterias y los mohos para funcionar. Una " +
+          "bacteria que caiga ahí dentro no solo no encuentra agua: la miel se la saca a ella por " +
+          "ósmosis y la deja seca.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La segunda defensa es la acidez. La miel tiene un pH de entre 3,2 y 4,5, más ácida que " +
+          "muchas cosas que consideramos ácidas, y a esos niveles la mayor parte de los " +
+          "microorganismos que estropean alimentos ni siquiera arrancan.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y la tercera es la que casi nadie espera. Las abejas, mientras procesan el néctar, le " +
+          "añaden una enzima propia llamada <strong>glucosa oxidasa</strong>. Esa enzima está " +
+          "inactiva mientras la miel está concentrada, pero en cuanto se diluye un poco entra en " +
+          "funcionamiento y produce dos cosas: ácido glucónico, que es de donde viene buena parte " +
+          "de esa acidez, y <strong>peróxido de hidrógeno</strong>, que es exactamente el agua " +
+          "oxigenada del botiquín. En cantidades pequeñísimas y liberado poco a poco, pero es " +
+          "eso.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La miel no es un alimento que se conserva bien. Es un desinfectante que además está " +
+          "bueno.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Por eso hay miel en los hospitales",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con esa combinación no sorprende que la miel se haya usado sobre heridas desde la " +
+          "Antigüedad, y sí sorprende un poco que haya vuelto a hacerlo la medicina moderna " +
+          "después de décadas dándola por superstición. Hoy existen apósitos de <strong>miel de " +
+          "grado médico</strong> con autorización sanitaria para tratar heridas y quemaduras, y " +
+          "se emplean sobre todo en úlceras difíciles y lesiones que no terminan de cerrar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene subrayar bien la diferencia, porque aquí es fácil hacerse daño. La miel de " +
+          "esos apósitos no es la del bote de tu cocina: procede normalmente de un tipo concreto " +
+          "de planta, se produce en condiciones controladas y se esteriliza por irradiación antes " +
+          "de envasarla. La miel de mesa no está esterilizada, y esa es una distinción con " +
+          "consecuencias serias, no un tecnicismo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De hecho, ese mismo detalle está detrás de la única advertencia sanitaria importante " +
+          "que arrastra la miel. Puede contener esporas de <em>Clostridium botulinum</em>, que a " +
+          "un adulto no le hacen nada porque su flora intestinal las mantiene a raya, pero que en " +
+          "un bebé de menos de un año pueden germinar y producir botulismo infantil. Por eso " +
+          "ninguna miel, por buena que sea, debe dársele a un niño antes del año de vida. Un " +
+          "ambiente que mata bacterias no es lo mismo que un ambiente estéril.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La miel impide que las bacterias crezcan, pero no elimina lo que ya trae dentro. Por " +
+          "eso ningún bebé de menos de un año debe probarla.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Haz la cuenta de lo que cuesta secar el néctar. Si entra con un setenta " +
+          "y cinco por ciento de agua y sale con menos de un veinte, para producir un solo kilo " +
+          "de miel las abejas han tenido que evaporar del orden de tres kilos de agua, celda a " +
+          "celda y batiendo las alas. Esa deshidratación es la mitad del trabajo de una colmena, " +
+          "y es también la mitad de la razón por la que el resultado no se estropea.",
+      },
+    ],
+  },
+  {
+    id: "las-rayas-no-son-un-camuflaje",
+    titulo: "Por qué las cebras tienen rayas",
+    categoria: "Naturaleza",
+    color: "var(--teal)",
+    /* Serie «por-que-las-cebras-tienen-rayas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Las rayas de la cebra no son un camuflaje» */
+    encargo: "Las rayas de la cebra no son un camuflaje",
+    fotos: [
+      {
+        local: p_las_rayas_no_son_un_camuflaje,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Las rayas de la cebra no son un camuflaje",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cinco explicaciones, y cuatro se cayeron",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Darwin y Wallace ya discutían sobre esto en el siglo XIX sin ponerse de acuerdo, y " +
+          "desde entonces la pregunta ha acumulado una lista de respuestas razonables que " +
+          "competían entre sí. Eran básicamente cinco. Que las rayas camuflan a la cebra entre la " +
+          "hierba alta y la luz temblona de la sabana. Que confunden al depredador cuando la " +
+          "manada arranca a correr, porque un montón de rayas en movimiento cuesta de seguir con " +
+          "la vista. Que ayudan a regular la temperatura, creando corrientes de aire entre las " +
+          "bandas blancas y las negras. Que sirven para reconocerse unas a otras, ya que el " +
+          "patrón es único en cada animal como una huella dactilar. Y una quinta bastante menos " +
+          "épica: que espantan a las moscas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 2014, un equipo dirigido por Tim Caro las puso a prueba de una manera que no se le " +
+          "había ocurrido a nadie. En vez de discutir cuál sonaba mejor, cogieron el mapa. Fueron " +
+          "especie por especie y subespecie por subespecie, anotaron cuánta raya tenía cada una y " +
+          "en qué parte del cuerpo, y cruzaron ese dato con todo lo que podría explicarlo: la " +
+          "presencia de bosque, el área de caza de los grandes depredadores, la temperatura, y la " +
+          "distribución geográfica de las moscas que pican.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El resultado fue de una limpieza incómoda. Las rayas no aparecen donde hay más leones. " +
+          "No aparecen donde hace más calor. No aparecen donde hay más árboles entre los que " +
+          "esconderse. Aparecen exactamente donde se dan varios meses seguidos de condiciones " +
+          "ideales para que se reproduzcan los tábanos. Cuatro hipótesis se quedaron sin apoyo, y " +
+          "la que ganó fue la única que no tenía ninguna grandeza.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Las rayas no coinciden con los leones, ni con el calor, ni con los bosques. Coinciden " +
+          "con las moscas.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "No es un depredador con dientes: es un insecto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuesta aceptar la respuesta porque estropea una imagen buenísima. La cebra rayada " +
+          "huyendo de la leona en la sabana dorada es una de las estampas más repetidas de la " +
+          "naturaleza, y resulta que las rayas no tienen mucho que ver con eso. De hecho, hay un " +
+          "detalle que debería habernos hecho sospechar antes: los leones cazan sobre todo de " +
+          "noche y al amanecer, cuando el contraste de las rayas apenas se percibe, y varios " +
+          "trabajos han encontrado que a distancias medias un depredador ve la silueta de una " +
+          "cebra perfectamente. Como sistema antileones, sería un desastre.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que sí encaja es la otra escala, la pequeña. Los tábanos y las moscas del género " +
+          "<em>Glossina</em> no matan de una dentellada: chupan sangre, provocan heridas que se " +
+          "infectan y transmiten enfermedades como la tripanosomiasis, que es capaz de arrasar " +
+          "poblaciones enteras de ungulados. Una sola de esas moscas no impresiona a nadie. Un " +
+          "verano entero con miles de ellas encima puede desangrar y enfermar a un animal grande, " +
+          "y eso sí es una presión evolutiva sostenida, todos los días, durante millones de años.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La evolución no premia lo espectacular, premia lo que mata más. Y en la sabana lo que " +
+          "mata más no siempre es lo que tiene dientes.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El sistema de defensa más llamativo de África no está diseñado contra los leones. Está " +
+          "diseñado contra unos insectos de dos centímetros.",
+      },
+    ],
+  },
+  {
+    id: "el-amarillo-ya-estaba",
+    titulo: "Por qué las hojas cambian de color",
+    categoria: "Naturaleza",
+    color: "var(--sage)",
+    /* Serie «por-que-las-hojas-cambian-de-color», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El amarillo llevaba ahí todo el año, escondido» */
+    encargo: "El amarillo llevaba ahí todo el año, escondido",
+    fotos: [
+      {
+        local: p_el_amarillo_ya_estaba,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El amarillo llevaba ahí todo el año, escondido",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La hoja no se vuelve amarilla: deja de ser verde",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La manera natural de contarlo es decir que en otoño las hojas cambian de color, como " +
+          "si el árbol pintara algo encima. Y en el caso del amarillo y del naranja, lo que " +
+          "ocurre es exactamente lo contrario: no se añade nada, se quita.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esos tonos los producen los <strong>carotenoides</strong>, los mismos pigmentos de la " +
+          "zanahoria y del pimiento, y están dentro de la hoja durante toda la temporada, desde " +
+          "que brota en primavera. Lo que pasa es que no se ven, porque encima hay una cantidad " +
+          "enorme de clorofila, que es intensamente verde y lo tapa todo. La hoja del mes de " +
+          "julio ya es amarilla por debajo; solo que hay demasiado verde delante.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En otoño, el árbol deja de mantener la clorofila y esta se degrada. Y al desaparecer " +
+          "el verde queda a la vista lo que ya había. El álamo que se vuelve dorado en noviembre " +
+          "no ha fabricado ese dorado: lo ha destapado.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La hoja no se pone amarilla. Se le retira el verde que llevaba encima.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y no se está muriendo: la están vaciando",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora la parte que cambia por completo la lectura de la escena. Uno mira un bosque en " +
+          "otoño y ve una especie de muerte lenta y melancólica, cosa que además la literatura " +
+          "lleva siglos alimentando. Lo que hay en realidad es una operación de desmontaje " +
+          "bastante fría y muy bien planificada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una hoja es una inversión cara, y lo más caro que lleva dentro es el " +
+          "<strong>nitrógeno</strong>, un elemento que la planta consigue con dificultad del " +
+          "suelo y que necesita para casi todo. Y da la casualidad de que buena parte de ese " +
+          "nitrógeno está precisamente en la clorofila. Así que cuando llega el otoño y la hoja " +
+          "va a dejar de ser rentable —menos luz, menos horas, riesgo de heladas—, el árbol no la " +
+          "abandona sin más: la desmonta pieza a pieza y se lleva el material de vuelta al tronco " +
+          "y a las raíces, donde lo guarda para fabricar las hojas del año siguiente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir, la degradación de la clorofila no es un síntoma del deterioro: es el " +
+          "objetivo de la maniobra. El árbol está recuperando su nitrógeno, y el color amarillo " +
+          "que tanto nos gusta es simplemente lo que se ve cuando ya se ha llevado casi todo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Solo cuando el vaciado está hecho, el árbol corta. En la base del pecíolo se forma una " +
+          "capa de células de corcho, la <strong>capa de abscisión</strong>, que va cerrando los " +
+          "conductos que llevaban agua y minerales hasta la hoja. Cuando termina de sellar, la " +
+          "hoja queda desconectada y cae con el primer viento. No se desprende porque esté muerta " +
+          "y se suelte: se suelta porque el árbol ha terminado de sacarle lo aprovechable y ha " +
+          "decidido soltarla.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El otoño no es el árbol muriéndose por partes. Es un desmontaje ordenado para " +
+          "recuperar el material antes de tirar la pieza.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Eso explica por qué una helada fuerte y temprana estropea el otoño. Si " +
+          "el frío mata la hoja de golpe, el árbol no llega a completar el desmontaje: la hoja se " +
+          "queda marrón y cae con el nitrógeno dentro. Los otoños espectaculares son los de los " +
+          "descensos de temperatura graduales, que le dan tiempo al árbol a hacer bien su " +
+          "trabajo.",
+      },
+    ],
+  },
+  {
+    id: "la-cebolla-entera-no-lleva-nada",
+    titulo: "Por qué lloras al cortar cebolla",
+    categoria: "Cocina",
+    color: "var(--ochre)",
+    /* Serie «por-que-lloras-al-cortar-cebolla», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La cebolla entera no lleva dentro nada que te haga llorar» */
+    encargo: "La cebolla entera no lleva dentro nada que te haga llorar",
+    fotos: [
+      {
+        local: p_la_cebolla_entera_no_lleva_nada,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La cebolla entera no lleva dentro nada que te haga llorar",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dos sustancias guardadas en armarios distintos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Coge una cebolla, pélala entera y acércatela a la cara. No pasa nada. Puedes tenerla " +
+          "en la mano el rato que quieras, olerla de cerca y seguir con los ojos secos. Ese " +
+          "detalle, que parece una tontería, es en realidad la clave de todo el asunto: la " +
+          "sustancia que te hace llorar <strong>no está</strong> dentro de la cebolla. Se fabrica " +
+          "en el momento en que la rompes, y se fabrica en unos segundos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El montaje es el de un arma de dos componentes, de esas que se guardan separadas " +
+          "precisamente porque juntas son peligrosas. Por un lado, las células de la cebolla " +
+          "almacenan un compuesto de azufre bastante inofensivo, un derivado de aminoácido que el " +
+          "bulbo ha ido construyendo con el azufre que absorbe del suelo. Por otro lado, en " +
+          "compartimentos distintos dentro de la misma célula, guarda una enzima llamada " +
+          "<strong>alinasa</strong>. Mientras las paredes celulares están intactas, cada cosa " +
+          "vive en su armario y no ocurre absolutamente nada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El cuchillo rompe esa separación. Al cortar revientas miles de células y mezclas lo " +
+          "que estaba separado, la alinasa se encuentra por fin con su sustrato y empieza a " +
+          "trabajar. El producto de esa primera reacción es un compuesto inestable que dura " +
+          "poquísimo, y ahí entra la segunda enzima, la <strong>sintasa del factor " +
+          "lacrimógeno</strong>, que lo transforma en la molécula que de verdad te interesa: el " +
+          "<em>syn</em>-propanotial-S-óxido, un gas ligero que se evapora de inmediato y sube " +
+          "derecho hacia tu cara.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La cebolla no guarda el gas: guarda las piezas por separado y las monta cuando la " +
+          "rompes.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y en el ojo se convierte en ácido",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que ocurre cuando ese gas llega a tu ojo también tiene su parte de mala suerte. La " +
+          "superficie del ojo está permanentemente cubierta por una película de lágrima, es " +
+          "decir, por agua. Y el <em>syn</em>-propanotial-S-óxido reacciona con el agua " +
+          "produciendo compuestos ácidos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "O sea que no es que el gas «irrite» de manera vaga: es que al tocarte el ojo se " +
+          "convierte en un ácido suave, justo encima de la córnea, que es una de las superficies " +
+          "con más terminaciones nerviosas por milímetro cuadrado de todo tu cuerpo. Esas " +
+          "terminaciones disparan, el cerebro recibe un aviso de daño químico en el ojo y activa " +
+          "la única respuesta rápida que tiene disponible: abrir las glándulas lagrimales y lavar " +
+          "la zona a base de líquido. Por eso lloras, y por eso llorar funciona.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Todo esto, además, tiene un motivo desde el punto de vista de la planta, que no está " +
+          "pensando en tu cena. Un bulbo pasa la vida enterrado, quieto y lleno de reservas, que " +
+          "es exactamente el perfil de la víctima ideal para cualquier animal o insecto que " +
+          "excave. No puede huir ni esconderse, así que su defensa consiste en garantizar que " +
+          "morderla salga caro: en el instante en que algo le rompe los tejidos, se dispara la " +
+          "reacción y el atacante recibe una descarga química en los ojos y en las mucosas. La " +
+          "cebolla no te está atacando a ti. Está haciendo lo mismo que lleva haciendo con los " +
+          "gusanos del suelo desde mucho antes de que existieran las cocinas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El gas se vuelve ácido al tocar la lágrima. No es una irritación difusa: es una " +
+          "quemadura química diminuta sobre la córnea.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? De ahí sale el único truco casero que tiene fundamento real: cortar la " +
+          "cebolla fría. El frío ralentiza las enzimas y reduce mucho la evaporación del gas, así " +
+          "que una cebolla que ha pasado un rato en la nevera produce menos y lo lanza más " +
+          "despacio. Cortarla bajo un chorro de agua funciona por lo mismo, porque el gas se " +
+          "disuelve antes de llegar a tu cara.",
+      },
+    ],
+  },
+  {
     id: "te-ensenaron-mal-como-se-forma-una-nube",
     titulo: "Por qué llueve",
     categoria: "Naturaleza",
@@ -601,6 +1405,354 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Una nube se forma cuando el agua deja de tener fuerza para escaparse, no cuando al " +
           "aire se le acaba el hueco.",
+      },
+    ],
+  },
+  {
+    id: "un-flamenco-nace-gris",
+    titulo: "Por qué los flamencos son rosas",
+    categoria: "Naturaleza",
+    color: "var(--slate)",
+    /* Serie «por-que-los-flamencos-son-rosas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un flamenco nace gris y se pinta comiendo» */
+    encargo: "Un flamenco nace gris y se pinta comiendo",
+    fotos: [
+      {
+        local: p_un_flamenco_nace_gris,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un flamenco nace gris y se pinta comiendo",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La prueba llegó cuando los flamencos de los zoos se volvieron blancos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un flamenco recién salido del huevo no tiene nada de rosa. Es una bola de plumón gris, " +
+          "con el pico recto y las patas hinchadas y rosadas que se le vuelven negras en cuestión " +
+          "de una semana. El color por el que conocemos a la especie no viene de fábrica: se " +
+          "adquiere después, y se adquiere comiendo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De hecho, la manera en que se demostró tiene su gracia, porque fue un fracaso el que " +
+          "dio la pista. Durante décadas, los flamencos de los zoológicos iban perdiendo el color " +
+          "hasta quedarse de un blanco sucio bastante deprimente, y nadie sabía qué estaban " +
+          "haciendo mal. Los animales comían, se reproducían y estaban sanos; simplemente dejaban " +
+          "de ser rosas. La respuesta estaba en el menú. En libertad, un flamenco filtra agua " +
+          "salobre y se alimenta de microalgas y de pequeños crustáceos cargados de " +
+          "<strong>carotenoides</strong>, que son los mismos pigmentos que dan color a la " +
+          "zanahoria y al pimiento rojo. En un zoo comían pienso, y en el pienso no había nada de " +
+          "eso. Desde que se les empezó a suplementar la dieta con esos pigmentos, los flamencos " +
+          "de cautividad volvieron a ser rosas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que ocurre por dentro es más interesante que un simple teñido. El flamenco no " +
+          "absorbe el color y ya está: su hígado descompone los carotenoides que llegan con la " +
+          "comida y va depositando los pigmentos resultantes en las plumas mientras crecen, y " +
+          "también en el pico y en las patas. Eso significa que el color se fabrica pluma a " +
+          "pluma, con material importado del exterior, y que hay que reponerlo continuamente.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El rosa del flamenco no lo produce el animal. Lo importa con la comida y lo va " +
+          "colocando en cada pluma que le crece.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Por eso el color dice la verdad sobre el pájaro",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Que el color venga de fuera tiene una consecuencia que la evolución no ha dejado " +
+          "pasar. Un pigmento que hay que salir a buscar, filtrar del barro y procesar en el " +
+          "hígado es caro, y por tanto no todos los individuos pueden permitírselo por igual.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un flamenco muy rosa está anunciando, sin poder mentir, que come bien, que ocupa una " +
+          "buena zona de alimentación y que su organismo está en condiciones de procesar todo ese " +
+          "material. Uno pálido está anunciando lo contrario, aunque no quiera. Los biólogos " +
+          "llaman a esto una <strong>señal honesta</strong>: una característica que no se puede " +
+          "falsificar porque su producción cuesta exactamente aquello que pretende demostrar. Y " +
+          "como cabía esperar, los flamencos se fijan. Los individuos más intensos tienden a " +
+          "emparejarse antes y a conseguir mejores sitios en la colonia.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Merece la pena quedarse con el mecanismo completo, porque explica de golpe varias " +
+          "cosas que parecían inconexas: por qué el color varía tanto entre unas poblaciones y " +
+          "otras, por qué un mismo animal cambia de tono a lo largo del año, y por qué se apaga " +
+          "cuando el bicho pasa por un mal momento. No es un adorno fijo pintado en el " +
+          "nacimiento. Es un informe actualizado del estado del animal, colgado por fuera.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un flamenco pálido no puede fingir estar sano. El color cuesta exactamente lo que " +
+          "demuestra.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? El mismo principio funciona en tu cocina. La yema de huevo, la carne del " +
+          "salmón y la de las truchas de piscifactoría deben su color a carotenoides de la dieta " +
+          "del animal, y en todos esos casos se ajusta el pienso para conseguir el tono que el " +
+          "comprador espera. Un salmón de piscifactoría sin ese suplemento tendría la carne gris.",
+      },
+    ],
+  },
+  {
+    id: "a-los-tres-anos-te-acordabas",
+    titulo: "Por qué no recuerdas tus primeros años",
+    categoria: "Cuerpo humano",
+    color: "var(--clay)",
+    /* Serie «por-que-no-recuerdas-tus-primeros-anos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «A los tres años te acordabas perfectamente» */
+    encargo: "A los tres años te acordabas perfectamente",
+    fotos: [
+      {
+        local: p_a_los_tres_anos_te_acordabas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "A los tres años te acordabas perfectamente",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No es que no grabaras: es que se te borró después",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El nombre del fenómeno se lo puso Freud a principios del siglo XX. Le llamó " +
+          "<strong>amnesia infantil</strong> y lo explicó como él explicaba casi todo: nuestros " +
+          "primeros años estarían llenos de material tan incómodo que la mente adulta acaba " +
+          "reprimiéndolos y sellándolos bajo llave. El nombre se quedó y sigue usándose en los " +
+          "congresos de neurociencia; la explicación, en cambio, no ha resistido nada bien el " +
+          "paso del tiempo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que casi todos suponemos hoy es distinto pero igual de intuitivo: que un niño muy " +
+          "pequeño todavía no tiene la maquinaria montada para grabar recuerdos, y que por eso no " +
+          "queda nada de esa época. Suena razonable, y es fácil de comprobar que es falso. " +
+          "Siéntate delante de un niño de tres años y pregúntale por su cumpleaños, por el día " +
+          "que fue al zoo o por la vez que se cayó de la bici. Te lo cuenta. Con menos palabras y " +
+          "menos orden que un adulto, pero te lo cuenta, y lo cuenta bien. La grabación estaba " +
+          "hecha.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La prueba definitiva la montó un equipo dirigido por Patricia Bauer con un diseño que " +
+          "resuelve el problema de raíz. Grabaron a 83 niños de tres años charlando con sus " +
+          "madres sobre seis cosas que les habían pasado hacía poco: un cumpleaños, una " +
+          "excursión, lo de siempre. Esas grabaciones son la clave del asunto, porque documentan " +
+          "que el recuerdo existía y qué contenía exactamente. Después, cada niño volvió una sola " +
+          "vez, a una edad de entre cinco y nueve años, y le preguntaron por aquellos mismos " +
+          "episodios.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entre los cinco y los siete años, los niños recordaban todavía entre el 63 y el 72 % " +
+          "de aquellos sucesos. Entre los ocho y los nueve, la cifra se desplomaba a alrededor " +
+          "del 35 %. Es decir, el olvido no ocurre en la cuna. Ocurre bastante más tarde, cuando " +
+          "el niño ya va al colegio, ya sabe leer y ya tiene una vida perfectamente consciente.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El olvido de tus primeros años no te pasó de bebé. Te pasó alrededor de los siete, " +
+          "cuando ya ibas al colegio.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Los que sobreviven son los que se contaron bien",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay un detalle del estudio que da un giro interesante al asunto, y es que los " +
+          "recuerdos que aguantaban y los que se caían no eran iguales entre sí.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los niños más pequeños del grupo conservaban muchos más episodios, pero los contaban " +
+          "de manera pobre y desordenada, sin fechas ni lugar ni un hilo claro. Los mayores " +
+          "conservaban muchísimos menos, y sin embargo los que les quedaban estaban mucho mejor " +
+          "construidos, con principio, escenario y desenlace. Dicho de otro modo, lo que ocurre " +
+          "entre los cinco y los nueve años no es solamente una pérdida: es una criba. Se cae la " +
+          "mayoría del material y sobrevive una minoría que además está mejor montada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué distingue a los supervivientes? Es simple: parece que sobrevive lo que se " +
+          "convirtió en relato. Los investigadores encontraron que los niños cuyas madres " +
+          "charlaban con ellos siguiendo el hilo de lo que el crío contaba, en vez de " +
+          "interrogarlos con preguntas cerradas, formaban desde el principio recuerdos más ricos " +
+          "y mejor estructurados. Un episodio que se ha contado varias veces, con orden y con " +
+          "detalles, se ancla; un episodio que nunca llegó a convertirse en historia se disuelve.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Eso encaja con algo que se sospecha desde hace tiempo: que el lenguaje y la memoria " +
+          "autobiográfica crecen juntos, y que un niño empieza a conservar su propia vida cuando " +
+          "aprende a narrarla. No es toda la explicación, ni mucho menos, pero es una pieza que " +
+          "se puede medir.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los recuerdos que aguantan no son los más intensos. Son los que alguien convirtió en " +
+          "una historia contada varias veces.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Este estudio pertenece a una categoría rarísima dentro de la " +
+          "investigación sobre la memoria: aquellos en los que los científicos tienen la " +
+          "grabación original del recuerdo. Casi siempre hay que fiarse de lo que la persona dice " +
+          "que le pasó, sin manera de contrastarlo. Aquí sabían exactamente qué había recordado " +
+          "cada niño a los tres años, y podían medir con precisión cuánto quedaba años después.",
+      },
+    ],
+  },
+  {
+    id: "la-unica-especie-que-se-sonroja",
+    titulo: "Por qué nos sonrojamos",
+    categoria: "Cuerpo humano",
+    color: "var(--teal)",
+    /* Serie «por-que-nos-sonrojamos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Somos la única especie que se sonroja» */
+    encargo: "Somos la única especie que se sonroja",
+    fotos: [
+      {
+        local: p_la_unica_especie_que_se_sonroja,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Somos la única especie que se sonroja",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Darwin le dedicó un capítulo entero y lo dejó sin resolver",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1872, en <em>La expresión de las emociones en el hombre y en los animales</em>, " +
+          "Darwin se ocupó del rubor con una atención que sorprende. Recopiló testimonios de " +
+          "médicos y misioneros de medio mundo para comprobar si ocurría en todas las poblaciones " +
+          "humanas, preguntó por los ciegos de nacimiento, se interesó por si se podía provocar a " +
+          "voluntad. Y lo describió con una frase que se ha citado desde entonces:",
+      },
+      {
+        b: "cita",
+        texto:
+          "El rubor es la más peculiar y la más humana de todas las expresiones.",
+        autor: "Charles Darwin, <em>La expresión de las emociones en el hombre y en los animales</em>, 1872",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No lo decía por hacer literatura. Lo decía porque el rubor es un caso rarísimo dentro " +
+          "de su propio marco explicativo. Casi todas las expresiones que estudió tienen " +
+          "parientes claros en otros animales: la sonrisa se parece a un gesto de sumisión de los " +
+          "primates, el ceño fruncido protege los ojos, el miedo eriza el pelo. El rubor no. " +
+          "Ninguna otra especie conocida se pone roja de vergüenza, y no es que sea difícil de " +
+          "detectar bajo el pelo: es que el circuito no existe.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay una segunda rareza, que es la que lo hace tan incómodo de vivir. No se puede " +
+          "fingir y no se puede reprimir. Puedes forzar una sonrisa, puedes fingir sorpresa, " +
+          "puedes disimular el miedo con bastante éxito. El rubor no obedece a nadie: aparece " +
+          "cuando quiere, normalmente en el peor momento posible, y el esfuerzo por evitarlo " +
+          "tiende a empeorarlo. Es la única expresión facial humana que funciona con total " +
+          "independencia de tu voluntad.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Puedes fingir una sonrisa y disimular el miedo. El rubor es la única expresión que no " +
+          "obedece a nadie.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo que hace la sangre en tu cara va a contracorriente",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El mecanismo también tiene su parte extraña, y para verla hay que compararla con lo " +
+          "que hace el resto del cuerpo en la misma situación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando te llevas un susto o entras en estado de alerta, se activa el sistema nervioso " +
+          "simpático, y una de sus órdenes clásicas es cerrar los vasos sanguíneos de la piel. " +
+          "Tiene toda la lógica: se retira sangre de la superficie, donde no hace falta, y se " +
+          "manda a los músculos y a los órganos, que es donde va a hacer falta si hay que correr " +
+          "o pelear. Por eso la gente se queda pálida al asustarse, y por eso se te quedan las " +
+          "manos frías.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la cara ocurre lo contrario. Ante la vergüenza, los vasos de las mejillas, el " +
+          "cuello y las orejas se dilatan y dejan pasar más sangre, no menos, y por eso la piel " +
+          "se enrojece y notas calor. Es la misma activación general del organismo produciendo, " +
+          "en una zona muy concreta, el efecto opuesto al que produce en todas las demás.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y esa excepción está bien delimitada: el rubor de la vergüenza afecta a la cara, al " +
+          "cuello y a la parte alta del pecho, precisamente las zonas que quedan a la vista " +
+          "cuando hablas con alguien. No te enrojecen las rodillas. Una respuesta corporal que " +
+          "solo aparece donde otro puede verla es una pista bastante clara sobre para qué está.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El susto te deja pálido porque el cuerpo retira sangre de la piel. En la cara, la " +
+          "vergüenza hace justo lo contrario.",
       },
     ],
   },
@@ -719,6 +1871,113 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "La capsaicina abre el mismo receptor que detecta el calor que quema. Para tu sistema " +
           "nervioso, un chile y una sartén mandan el mismo mensaje.",
+      },
+    ],
+  },
+  {
+    id: "un-patinador-no-derrite-el-hielo",
+    titulo: "Por qué resbala el hielo",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    /* Serie «por-que-resbala-el-hielo», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un patinador no derrite el hielo que pisa» */
+    encargo: "Un patinador no derrite el hielo que pisa",
+    fotos: [
+      {
+        local: p_un_patinador_no_derrite_el_hielo,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un patinador no derrite el hielo que pisa",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La explicación de siempre lleva un siglo desmontada",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La versión que todos hemos oído es tan redonda que da pena tocarla. El hielo resbala, " +
+          "dicen, porque el peso del patinador concentrado en el filo de la cuchilla ejerce una " +
+          "presión enorme, y esa presión baja el punto de fusión y derrite una película de agua " +
+          "sobre la que uno se desliza. Tiene la ventaja de sonar a física de verdad, y encima es " +
+          "física de verdad: la idea la propuso James Thomson a mediados del siglo XIX y su " +
+          "hermano, que era nada menos que lord Kelvin, la confirmó experimentalmente. El hielo, " +
+          "efectivamente, se derrite si lo aprietas lo suficiente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema aparece cuando alguien se molesta en calcular cuánto es «lo suficiente». " +
+          "Lo hizo John Joly en 1886, y el resultado deja el asunto bastante claro. Con la " +
+          "presión que ejerce una cuchilla de patinaje, unas 466 atmósferas, el punto de fusión " +
+          "del hielo baja hasta los −3,5 °C. Es una bajada real y medible, y es del todo " +
+          "insuficiente para explicar lo que vemos, porque el patinaje artístico se practica " +
+          "idealmente en torno a los −5,5 °C y el hockey sobre pistas a unos −9 °C. A esas " +
+          "temperaturas, según ese mecanismo, el hielo no debería derretirse en absoluto bajo la " +
+          "cuchilla, y sin embargo la gente patina. Y si te vas a la nieve, el argumento se hunde " +
+          "del todo: se puede esquiar perfectamente a −30 °C, donde harían falta presiones " +
+          "absurdas que ningún esquiador podría generar ni acercándose.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Con el peso de un patinador el hielo se derrite hasta los −3,5 °C. El hockey se juega " +
+          "a −9 °C, y a esa temperatura la presión no derrite nada.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El rozamiento tampoco lo explica del todo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La siguiente candidata parece más sensata, y durante décadas fue la favorita. En 1939, " +
+          "Frank Bowden y Terence Hughes propusieron que lo que funde el hielo no es la presión " +
+          "sino el calor del rozamiento: al deslizarte generas fricción, la fricción calienta, el " +
+          "calor derrite una capa finísima de agua y esa agua te lubrica. Lo pusieron a prueba en " +
+          "una cueva de hielo de los Alpes suizos, comparando esquís de metal con esquís de " +
+          "madera, y encontraron exactamente lo que la idea predecía, así que el mecanismo existe " +
+          "y contribuye de verdad. Nadie discute esa parte.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que ocurre es que el rozamiento tiene un fallo de calendario difícil de esquivar. " +
+          "Para que el rozamiento caliente hace falta que ya te estés moviendo, y el hielo " +
+          "resbala desde el primer instante, antes de que hayas hecho nada. Piénsalo con un " +
+          "ejemplo que habrás vivido: te bajas del coche en una mañana helada, apoyas un pie en " +
+          "una placa de hielo y te vas al suelo sin haber deslizado un centímetro. Ahí no ha " +
+          "habido fricción previa, no ha habido calor, no ha habido tiempo. La superficie ya " +
+          "estaba resbaladiza cuando la pisaste.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Así que las dos explicaciones clásicas describen fenómenos reales que sí participan, y " +
+          "ninguna de las dos llega a la conclusión. Falta algo que esté ahí antes de que " +
+          "aparezca el peso y antes de que aparezca el movimiento, y ese algo tardó bastante en " +
+          "tomarse en serio.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El rozamiento calienta, pero necesita que ya te estés moviendo. El hielo te tira al " +
+          "suelo desde el primer paso.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Lo de Joly no fue un cálculo teórico de despacho. Fue de los primeros en " +
+          "medir experimentalmente la presión real que ejerce el filo de un patín sobre el hielo, " +
+          "en vez de suponerla, y precisamente por eso su número resultó tan incómodo para la " +
+          "explicación que él mismo estaba comprobando.",
       },
     ],
   },
@@ -846,6 +2105,105 @@ export const CURIOSIDADES: Short[] = [
           "bote, en vez de dejar que siga acidificando hasta separarse del suero. Un yogur al que " +
           "se le escapa el punto acaba con un charco amarillento encima: ese líquido es suero, y " +
           "significa que la separación había empezado.",
+      },
+    ],
+  },
+  {
+    id: "no-es-falta-de-riego",
+    titulo: "Por qué se te duerme una pierna",
+    categoria: "Cuerpo humano",
+    color: "var(--ochre)",
+    /* Serie «por-que-se-te-duerme-una-pierna», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «No es que no te llegue la sangre a la pierna» */
+    encargo: "No es que no te llegue la sangre a la pierna",
+    fotos: [
+      {
+        local: p_no_es_falta_de_riego,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "No es que no te llegue la sangre a la pierna",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La explicación popular confunde el cable con el motor",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Llevas veinte minutos sentado con las piernas cruzadas, te levantas y la pierna no " +
+          "responde. Está ahí, la ves, pero no la sientes y no te obedece bien. La explicación " +
+          "que da todo el mundo es siempre la misma: se ha cortado la circulación, la sangre no " +
+          "llegaba y por eso la pierna «se ha dormido». Suena bien y tiene una parte de verdad, " +
+          "pero se equivoca en lo esencial, porque señala al órgano equivocado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que se ha quedado sin funcionar no es el músculo: es el nervio. Un nervio es un " +
+          "cable, y su trabajo consiste en llevar señales eléctricas en las dos direcciones, del " +
+          "cerebro a la pierna y de la pierna al cerebro. Cuando pasas mucho rato apoyando el " +
+          "peso sobre un punto por el que discurre un nervio grande, lo estás aplastando contra " +
+          "un hueso, y un nervio comprimido deja de transmitir. Deja de mandar hacia arriba la " +
+          "información del tacto, la presión y la posición, y deja de bajar bien las órdenes de " +
+          "movimiento.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La sensación de ausencia, ese vacío raro que no es dolor ni frío ni nada, es " +
+          "exactamente eso: la falta de información. El cerebro no está recibiendo el flujo " +
+          "constante de datos que le llega de una pierna normal, y esa ausencia se siente como " +
+          "una especie de hueco. La pierna sigue perfectamente viva; lo que ha caído es la línea.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La que se duerme no es la pierna: es el cable que la conecta con tu cerebro.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La sangre sí interviene, pero no como te la contaron",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora la parte honesta, porque la explicación popular no es del todo un disparate. " +
+          "Cuando aplastas un nervio, también aplastas los pequeños vasos que lo alimentan a él, " +
+          "y un nervio privado de oxígeno y glucosa también deja de conducir. O sea que en la " +
+          "práctica intervienen las dos cosas a la vez: la deformación mecánica del nervio y la " +
+          "falta de riego de ese mismo nervio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pero fíjate en la diferencia, porque cambia por completo la imagen mental del asunto. " +
+          "La versión popular imagina una pierna entera desabastecida de sangre, con la carne " +
+          "quedándose sin oxígeno; y eso, además de ser mucho más grave, tardaría muchísimo más " +
+          "en producirse y no se arreglaría en treinta segundos como se arregla esto. Lo que " +
+          "ocurre es algo mucho más localizado: un punto concreto de un cable concreto, del " +
+          "grosor de un lápiz, que está siendo pinzado contra un hueso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De hecho, la prueba está en la velocidad de la recuperación. Cambias de postura y en " +
+          "menos de un minuto la pierna vuelve entera. Si el problema fuera un tejido muscular " +
+          "privado de riego durante veinte minutos, no se resolvería con levantarse. Un nervio " +
+          "que deja de estar pinzado, en cambio, recupera la conducción casi inmediatamente, " +
+          "porque no ha habido daño: solo interrupción.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Se arregla en medio minuto, y eso ya te dice que no era la carne. Era una " +
+          "interrupción, no una avería.",
       },
     ],
   },
@@ -1093,6 +2451,115 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "erizar-un-pelaje-que-ya-no-tienes",
+    titulo: "Por qué tenemos piel de gallina",
+    categoria: "Cuerpo humano",
+    color: "var(--slate)",
+    /* Serie «por-que-tenemos-piel-de-gallina», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Se te eriza un pelaje que perdiste hace millones de años» */
+    encargo: "Se te eriza un pelaje que perdiste hace millones de años",
+    fotos: [
+      {
+        local: p_erizar_un_pelaje_que_ya_no_tienes,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Se te eriza un pelaje que perdiste hace millones de años",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Darwin ya lo señaló como una reliquia",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1872, en <em>La expresión de las emociones en el hombre y en los animales</em>, " +
+          "Darwin dedicó un buen rato a un detalle que a casi nadie le parecía digno de estudio: " +
+          "que a las personas se les erizara el vello. Le interesaba porque era exactamente el " +
+          "tipo de rasgo que buscaba, uno que solo tiene sentido si miras a los parientes. Un " +
+          "gato asustado se hincha. Un perro levanta el pelo del lomo. Un erizo entero es esa " +
+          "idea llevada al extremo. Y nosotros hacemos el mismo gesto, con el mismo mecanismo, " +
+          "sin nada que levantar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que ocurre bajo la piel es de una sencillez casi mecánica. Cada folículo del que " +
+          "sale un pelo tiene enganchado un músculo diminuto, el <strong>erector del " +
+          "pelo</strong>, y cuando ese músculo se contrae tira de la base del folículo y lo " +
+          "endereza. El pelo, que estaba tumbado, se pone de punta. Y como la base del folículo " +
+          "se hunde al inclinarse el músculo, la piel de alrededor se abulta en ese punto: eso es " +
+          "cada uno de los granitos que ves. La piel de gallina no es una reacción de la piel, es " +
+          "el resultado visible de unos cuantos miles de músculos microscópicos tirando a la vez.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En un animal con pelaje, ese gesto hace dos cosas útiles y las hace bien. Con frío, el " +
+          "pelo erguido atrapa una capa de aire entre los pelos y contra la piel, y ese aire " +
+          "quieto es un aislante excelente: el animal se pone un abrigo más grueso sin cambiar de " +
+          "abrigo. Y ante una amenaza, un pelaje erizado multiplica la silueta, que es la manera " +
+          "más barata que existe de parecer más grande sin serlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En ti no hace ninguna de las dos. El vello que te queda es demasiado corto y demasiado " +
+          "escaso para atrapar nada, y desde luego nadie te ha visto nunca más grande por tener " +
+          "la piel de gallina. El mecanismo se conserva íntegro y el resultado es puramente " +
+          "decorativo, que es la definición de manual de un rasgo vestigial.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El músculo funciona perfectamente. Lo que falta es el pelaje que tendría que levantar.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Por eso te pasa con el frío y con el miedo, que no se parecen en nada",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay un detalle de la piel de gallina que suele pasarse por alto y que encaja " +
+          "perfectamente con lo anterior: la disparan cosas que no tienen nada que ver entre sí. " +
+          "El frío al salir de la ducha, un susto, una escena de una película, una canción. Si " +
+          "fuera un termostato, la segunda mitad de esa lista no debería estar ahí.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación es que el músculo erector del pelo no obedece a la temperatura, sino al " +
+          "<strong>sistema nervioso simpático</strong>, que es el que gestiona la respuesta de " +
+          "alerta del organismo. Ese sistema se activa cuando hay que producir calor y también " +
+          "cuando hay que prepararse para reaccionar deprisa, y en los dos casos ordena lo mismo " +
+          "a lo largo de todo el cuerpo: acelerar el corazón, cerrar los vasos de la piel, " +
+          "dilatar las pupilas, y de paso erizar el pelo. No son dos mecanismos distintos que " +
+          "casualmente coinciden. Es un solo mecanismo con dos motivos para encenderse.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y eso explica por qué la piel de gallina llega siempre acompañada. Casi nunca aparece " +
+          "sola: viene con el escalofrío, con el corazón acelerado o con esa sensación de " +
+          "recorrido por la espalda. Estás viendo la parte más visible de una respuesta que está " +
+          "ocurriendo entera por debajo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El pelo no lo levanta la temperatura, lo levanta la alarma. Por eso el frío y el miedo " +
+          "hacen exactamente lo mismo.",
+      },
+    ],
+  },
+  {
     id: "tiritar-desperdiciar-energia",
     titulo: "Por qué tiritamos",
     categoria: "Cuerpo humano",
@@ -1212,6 +2679,114 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Un recién nacido casi no puede tiritar. Genera calor quemando grasa parda directamente " +
           "en sus mitocondrias, sin mover un solo músculo.",
+      },
+    ],
+  },
+  {
+    id: "nadie-oyo-su-voz-hasta-1877",
+    titulo: "Por qué tu voz grabada suena rara",
+    categoria: "Ciencia",
+    color: "var(--clay)",
+    /* Serie «por-que-tu-voz-grabada-suena-rara», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Nadie oyó su propia voz hasta 1877» */
+    encargo: "Nadie oyó su propia voz hasta 1877",
+    fotos: [
+      {
+        local: p_nadie_oyo_su_voz_hasta_1877,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Nadie oyó su propia voz hasta 1877",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Doscientas mil generaciones sin saber cómo sonaban",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa en todo lo que un ser humano podía saber de sí mismo antes de la tecnología " +
+          "moderna. Cómo era su cara, con solo asomarse a un charco quieto o a un espejo de " +
+          "bronce. Cómo olía, cómo se movía, cómo eran sus manos. Todo eso estaba disponible " +
+          "desde siempre y para cualquiera.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Su voz, no. Durante toda la historia de la especie, ningún ser humano tuvo manera de " +
+          "oír su propia voz como la oían los demás. La escuchaba constantemente, desde dentro, " +
+          "pero jamás desde fuera. Y como no había con qué compararla, nadie sospechaba siquiera " +
+          "que hubiera dos versiones distintas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Eso terminó en 1877, cuando Edison presentó el fonógrafo, el primer aparato capaz de " +
+          "registrar un sonido y volver a reproducirlo. Hubo un intento anterior, el " +
+          "fonoautógrafo de Édouard-Léon Scott de Martinville, que en 1857 ya conseguía dibujar " +
+          "la forma de una onda sonora sobre papel ahumado, pero no podía reproducirla: servía " +
+          "para ver el sonido, no para escucharlo. Con Edison, por primera vez, una persona pudo " +
+          "oír su propia voz saliendo de un sitio que no era su cabeza.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y con ese aparato apareció, de golpe, una sensación que ningún ser humano había tenido " +
+          "antes: la de no reconocerse.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una persona podía verse la cara desde que existen los charcos. Oírse la voz solo es " +
+          "posible desde hace siglo y medio.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Tu cráneo hace de altavoz de graves",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación de por qué no te reconoces está en que tu voz te llega por dos caminos " +
+          "a la vez, y solo uno de ellos existe para los demás.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El primero es el evidente: el sonido sale de tu boca, viaja por el aire, entra por el " +
+          "conducto auditivo y llega al oído interno. Ese es el único camino que tiene cualquier " +
+          "otra persona para oírte, y es también el único que capta un micrófono.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El segundo es interno. Al hablar, las cuerdas vocales hacen vibrar el tejido y los " +
+          "<strong>huesos de tu cráneo</strong>, y esa vibración llega directamente al oído " +
+          "interno por dentro, sin pasar por el aire. Y aquí está la clave: el hueso no transmite " +
+          "todas las frecuencias por igual. Conduce mucho mejor las graves que las agudas, así " +
+          "que ese segundo canal te está entregando una versión de tu voz con los graves " +
+          "reforzados.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que tú oyes cuando hablas es la suma de las dos cosas: la voz que sale de tu boca, " +
+          "más un refuerzo de graves que te entrega tu propio esqueleto. Por eso tu voz te suena " +
+          "más grave, más llena y más resonante de lo que es. Y por eso una grabación, que solo " +
+          "contiene la mitad aérea, te suena más aguda y más delgada de lo que esperabas. No es " +
+          "que el micrófono la deforme: es que le falta el bajo que ponías tú.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Tu cráneo te está poniendo un refuerzo de graves que nadie más oye. La grabación no es " +
+          "peor: le falta tu esqueleto.",
       },
     ],
   },

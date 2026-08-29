@@ -6,8 +6,8 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts con el texto de Pablo | **35** | los 35 del 28 de agosto, en doce series |
-| de esos, **vivos en la app** | **11** | los otros 24 esperan portada |
+| shorts con el texto de Pablo | **85** | en 24 series; quedan 11 temas en su `COLA.md` |
+| de esos, **vivos en la app** | **25** | los otros 60 esperan portada |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **339** | 79 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
@@ -27,6 +27,95 @@ commits—, así que no se perdió ninguno, se escribió mal el número. Un dato
 inventado en este documento es peor que no tenerlo: la siguiente sesión lo lee
 como cierto y no lo vuelve a mirar.
 
+## OCHENTA Y CINCO SHORTS, VEINTICINCO VIVOS — 29 de agosto de 2026
+
+Pablo mandó `shorts2908.zip`: el corpus entero otra vez, **85 `.md` en 24
+series**, y catorce fotografías. Los 35 de anoche vienen dentro sin tocar
+—comprobado byte a byte—, así que son 50 shorts nuevos.
+
+La carpeta pasa a llamarse **`referencia/textos-de-pablo/shorts/`**, sin fecha:
+manda el corpus entero cada vez, y un nombre con fecha envejece al día
+siguiente.
+
+### Lo que trae además de los textos
+
+- **`COLA.md`** — su lista de temas, con `[x]` los escritos y `[ ]` los que
+  faltan. Quedan once pendientes. Es lo que hay que mirar para saber qué viene.
+- **`FUENTES-IMAGENES.md`** — dónde busca las imágenes y qué permite cada
+  licencia. Es la respuesta a la pregunta de las portadas, aunque no dice de
+  dónde sale CADA una.
+- **`FORMATO.md`** actualizado, pero solo en su parte: dónde guarda él los
+  ficheros y cómo reconstruye su Word. La cabecera no cambia.
+
+**Esos tres van en la raíz y NO son shorts.** El guion los tomaba por temas
+—pedía una portada para «Cola de temas»— porque filtraba por nombre de archivo.
+Ahora filtra por la regla que escribió él: un short vive dentro de la carpeta
+de su serie, nunca suelto en la raíz.
+
+### Las catorce portadas
+
+Cada `.md` dice en su cabecera cómo se llama su imagen, así que el reparto sale
+solo: `Cebolla.jpg` → `la-cebolla-entera-no-lleva-nada.avif`, y así las
+catorce. Procesadas a 1440 × 2560, **262 kB de media en AVIF**.
+
+Dos se quedan cortas y hay que saberlo: **`erizar-un-pelaje-que-ya-no-tienes`
+(1406 px)** y **`por-que-vuelan-los-aviones-es-falso` (1286 px)**, las dos
+porque el original no daba más. La segunda ya estaba así de antes.
+
+**La cebra necesitó encuadre a mano.** La foto es casi 9:16 ya, así que no se
+recortaba nada y los animales salían diminutos en medio de la llanura. Con
+`{ x: 0.30, y: 0.52, zoom: 1.8 }` llenan la pantalla.
+
+**Y ahí apareció un fallo callado en `assets/recortes.json`:** sus dos entradas
+estaban con el nombre VIEJO de las fotos —`por-que-te-mareas-en-el-coche`— y el
+guion busca por el nombre del archivo de `originales/`. Se renombraron las fotos
+al identificador del tema y las claves se quedaron atrás, así que los dos
+encuadres que Pablo dio por buenos se habrían perdido en la siguiente pasada,
+sin decir nada. Corregidas, y el `_` del fichero ahora avisa de que la clave es
+el nombre del archivo.
+
+### Nada de créditos inventados
+
+La banda de la portada llevaba **«Imagen del proyecto.»** cuando no había
+crédito. Eso no es un relleno: es afirmar que la fotografía es nuestra, y de
+estas catorce no lo es ninguna. Ahora, sin crédito, **no se pinta la línea**.
+Quien avisa de que falta es `portadas.mjs` —lo canta al terminar— y la fila del
+CSV, que es donde debe estar.
+
+**Faltan las procedencias de las catorce.** Sin fuente, URL y licencia en
+`assets/portadas.csv` una portada no debería entrar; entran porque él las
+mandó, pero la fila está a medias y hay que cerrarla.
+
+### El tamaño: caben los veinticinco, y no ha hecho falta borrar nada
+
+Pablo lo dejó dicho por si acaso: «si no caben borras las que teníamos, que esas
+ya he comprobado que están bien». **No ha hecho falta.** Con las 24 portadas a
+900 de ancho el simulador se iba a 16,8 MB, por encima del tope de 16. Bajando
+solo el ancho de las portadas DEL SIMULADOR a 700 —los AVIF de `portadas/`
+siguen a 1440— se queda en **15,1 MB** con los veinticinco dentro.
+
+Y la calidad no se pierde donde importa, porque **el mirador de shorts sí las
+lleva a 1440**: pesa 8,6 MB de los 16 que puede. Ese es el sitio para juzgar un
+encuadre; `movil.html` es para ver la app entera.
+
+**El orden de los recortes, para la próxima vez que no quepa:**
+
+1. `--portadas-ancho` en `movil.html`, que es lo que se acaba de hacer. A 700
+   quedan unos 0,9 MB de aire, o sea unas seis portadas más.
+2. `--cubiertas-ancho`, hoy en 296 y 4,9 MB. Son las miniaturas de la
+   estantería y se ven pequeñas.
+3. Y ya sí, dejar shorts fuera del simulador, que es lo que él autorizó. Los
+   `.md` y los AVIF no se borran nunca: lo que se recorta es el escaparate.
+
+### Cómo queda
+
+25 shorts vivos de 85 escritos. Todas las comprobaciones en verde:
+
+    huerfanas   0 palabras sueltas, 0 recortadas, mismo margen en las 129
+    puntofinal  121 de 129 acaban en punto (94 %), ninguna pisa el indicador
+    rayos       48 rayos pintados, 0 partidos
+    huecos      3 pantallas pasan de 3 renglones, las tres por un ⚡ o un 💡
+
 ## LOS TREINTA Y CINCO SHORTS Y EL PUNTO FINAL — 28 de agosto de 2026, noche
 
 Es el estado de HOY. Lo de debajo —«Diez temas y el paginado en tiempo real»—
@@ -36,8 +125,9 @@ números y sus nombres de carpeta ya no valen.
 ### De dónde salen los shorts
 
 Pablo escribe los textos en `.md` con cabecera y los manda en carpetas por
-serie. Están en **`referencia/textos-de-pablo/shorts-28ago/`**, doce carpetas y
-35 ficheros, y el formato lo escribió él: `referencia/textos-de-pablo/FORMATO.md`.
+serie. Están en **`referencia/textos-de-pablo/shorts/`** —aquella noche eran
+doce carpetas y 35 ficheros; el 29 pasaron a 24 y 85—, y el formato lo escribió
+él: `FORMATO.md`, dentro de esa misma carpeta.
 
     node scripts/catalogo.mjs > src/historias/curiosidades.ts
 
@@ -246,7 +336,7 @@ bloques. Sin medir nada: eso es de la app.
 ### Los diez temas
 
 **Esta tabla es de la tarde y ya no vale.** Esa noche Pablo mandó los 35 de
-`shorts-28ago/` y estos diez se quedaron atrás; los títulos, sin embargo, son
+`shorts/` y estos diez se quedaron atrás; los títulos, sin embargo, son
 los que él quiso recuperar por la noche, así que aquí están las palabras
 exactas. El estado de verdad es el de la sección de arriba.
 

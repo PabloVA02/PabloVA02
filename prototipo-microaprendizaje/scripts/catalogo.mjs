@@ -3,7 +3,7 @@
 
        node scripts/catalogo.mjs > src/historias/curiosidades.ts
 
-   Lee TODOS los `.md` de `referencia/textos-de-pablo/shorts-28ago/` —que es
+   Lee TODOS los `.md` de `referencia/textos-de-pablo/shorts/` —que es
    como los manda él desde el 28 de agosto, en carpetas por serie y con
    cabecera— y escribe el fichero que compila la app.
 
@@ -29,7 +29,7 @@ import { fileURLToPath } from "node:url";
 import { leeTema } from "./temas.mjs";
 
 const AQUI = fileURLToPath(new URL("..", import.meta.url));
-const TEXTOS = join(AQUI, "referencia", "textos-de-pablo", "shorts-28ago");
+const TEXTOS = join(AQUI, "referencia", "textos-de-pablo", "shorts");
 const PORTADAS = join(AQUI, "portadas");
 
 /* Lo único que no viene en su cabecera: el color del cartel —que se sigue
@@ -37,18 +37,41 @@ const PORTADAS = join(AQUI, "portadas");
    lo trae `credito_portada`. El color va por serie para que una serie se
    reconozca de un vistazo en el muro. */
 const COLOR = {
-  "cuanto-le-queda-al-sol": "var(--ochre)",
+  "como-cicatrizan-las-heridas": "var(--clay)",
   "como-funciona-la-gravedad": "var(--plum)",
-  "por-que-llueve": "var(--slate)",
+  "cuanto-le-queda-al-sol": "var(--ochre)",
   "por-que-bostezamos": "var(--clay)",
-  "por-que-vuelan-los-aviones": "var(--teal)",
-  "por-que-tiritamos": "var(--slate)",
+  "por-que-crecen-las-unas-despues-de-morir": "var(--ochre)",
+  "por-que-crujen-los-nudillos": "var(--plum)",
+  "por-que-duele-el-frio-en-un-diente": "var(--slate)",
+  "por-que-duelen-las-agujetas": "var(--clay)",
+  "por-que-el-cafe-te-despierta": "var(--teal)",
+  "por-que-el-cielo-es-azul": "var(--sage)",
+  "por-que-el-mar-es-salado": "var(--ochre)",
+  "por-que-el-tiempo-pasa-mas-rapido": "var(--plum)",
+  "por-que-la-gente-mayor-huele-distinto": "var(--slate)",
+  "por-que-la-miel-nunca-caduca": "var(--clay)",
+  "por-que-las-cebras-tienen-rayas": "var(--teal)",
+  "por-que-las-hojas-cambian-de-color": "var(--sage)",
+  "por-que-lloras-al-cortar-cebolla": "var(--ochre)",
+  "por-que-llueve": "var(--slate)",
+  "por-que-los-espejos-invierten": "var(--plum)",
+  "por-que-los-flamencos-son-rosas": "var(--slate)",
+  "por-que-no-puedes-hacerte-cosquillas": "var(--plum)",
+  "por-que-no-recuerdas-tus-primeros-anos": "var(--clay)",
+  "por-que-nos-sonrojamos": "var(--teal)",
   "por-que-pica-el-picante": "var(--clay)",
+  "por-que-resbala-el-hielo": "var(--sage)",
+  "por-que-se-corta-la-leche": "var(--sage)",
+  "por-que-se-te-duerme-una-pierna": "var(--ochre)",
   "por-que-te-mareas-en-el-coche": "var(--teal)",
   "por-que-tenemos-estaciones": "var(--sage)",
-  "como-cicatrizan-las-heridas": "var(--clay)",
-  "por-que-se-corta-la-leche": "var(--sage)",
-  "por-que-no-puedes-hacerte-cosquillas": "var(--plum)",
+  "por-que-tenemos-hipo": "var(--plum)",
+  "por-que-tenemos-piel-de-gallina": "var(--slate)",
+  "por-que-tiritamos": "var(--slate)",
+  "por-que-tu-voz-grabada-suena-rara": "var(--clay)",
+  "por-que-vuelan-los-aviones": "var(--teal)",
+  "sueltos": "var(--sage)",
 };
 /* EL TÍTULO DEL SHORT ES EL DE SU SERIE, y esto lo pidió Pablo el 28 de
    agosto: «cambia a los títulos que estaban antes: cuánto le queda al Sol,
@@ -85,6 +108,30 @@ const SERIE = {
   /* Serie nueva del 28 de agosto: no estaba en el catálogo viejo, así que el
      título se escribe con la misma regla que los otros once. */
   "por-que-no-puedes-hacerte-cosquillas": "Por qué no puedes hacerte cosquillas",
+  /* Las veintidós del 29 de agosto. El título sale del nombre de la carpeta,
+     que se lo puso él: es la pregunta tal cual, y es lo que pide `MOLDE.md`. */
+  "por-que-resbala-el-hielo": "Por qué resbala el hielo",
+  "por-que-las-cebras-tienen-rayas": "Por qué las cebras tienen rayas",
+  "por-que-no-recuerdas-tus-primeros-anos": "Por qué no recuerdas tus primeros años",
+  "por-que-la-miel-nunca-caduca": "Por qué la miel nunca caduca",
+  "por-que-los-flamencos-son-rosas": "Por qué los flamencos son rosas",
+  "por-que-lloras-al-cortar-cebolla": "Por qué lloras al cortar cebolla",
+  "por-que-el-cafe-te-despierta": "Por qué el café te despierta",
+  "por-que-se-te-duerme-una-pierna": "Por qué se te duerme una pierna",
+  "por-que-tenemos-piel-de-gallina": "Por qué tenemos piel de gallina",
+  "por-que-tu-voz-grabada-suena-rara": "Por qué tu voz grabada suena rara",
+  "por-que-el-cielo-es-azul": "Por qué el cielo es azul",
+  "por-que-el-mar-es-salado": "Por qué el mar es salado",
+  "por-que-las-hojas-cambian-de-color": "Por qué las hojas cambian de color",
+  "por-que-nos-sonrojamos": "Por qué nos sonrojamos",
+  "por-que-tenemos-hipo": "Por qué tenemos hipo",
+  "por-que-duele-el-frio-en-un-diente": "Por qué duele el frío en un diente",
+  "por-que-la-gente-mayor-huele-distinto": "Por qué la gente mayor huele distinto",
+  "por-que-el-tiempo-pasa-mas-rapido": "Por qué el tiempo pasa más rápido",
+  "por-que-duelen-las-agujetas": "Por qué duelen las agujetas",
+  "por-que-crujen-los-nudillos": "Por qué crujen los nudillos",
+  "por-que-los-espejos-invierten": "Por qué los espejos invierten",
+  "por-que-crecen-las-unas-despues-de-morir": "Por qué crecen las uñas después de morir",
 };
 
 /* El pie y el texto alternativo de cada fotografía. Van aquí y no en la
@@ -107,7 +154,9 @@ const FOTOS = {
   "el-conductor-no-se-marea-nunca": { autor: "Fotografía de Elif, en Pexels.", licencia: "Pexels License", fuente: "https://www.pexels.com/photo/17729653/", alt: "Un coche blanco antiguo detenido en una carretera recta que cruza una llanura seca, en tonos sepia." },
   "en-invierno-estamos-mas-cerca-del-sol": { autor: "Fotografía de Canan Cetin, en Pexels.", licencia: "Pexels License", fuente: "https://www.pexels.com/photo/29343620/", alt: "Una rama de hojas amarillas de otoño contra el cielo, con las copas verdes de los pinos al fondo." },
   "la-costra-no-esta-curando-nada": { autor: "Fotografía de MART PRODUCTION, en Pexels.", licencia: "Pexels License", fuente: "https://www.pexels.com/photo/7699367/", alt: "Un puño cerrado visto de cerca, con las costras oscuras de dos heridas recientes en los nudillos." },
-  "la-gravedad-no-es-una-fuerza": { autor: "Imagen del proyecto.", licencia: "Pendiente de confirmar con Pablo", alt: "Decenas de líneas finas en rojo, magenta y violeta sobre negro, girando en espiral hacia un punto oscuro." },
+  /* Sin crédito: su procedencia tampoco está confirmada, y «imagen del
+     proyecto» era una suposición mía, no un dato suyo. */
+  "la-gravedad-no-es-una-fuerza": { autor: "", licencia: "Pendiente de confirmar con Pablo", alt: "Decenas de líneas finas en rojo, magenta y violeta sobre negro, girando en espiral hacia un punto oscuro." },
   "la-leche-cortada-es-queso-a-medio-empezar": { autor: "Fotografía de Ly, en Pexels.", licencia: "Pexels License", fuente: "https://www.pexels.com/photo/8183877/", alt: "Una jarra de cristal llena de leche sobre una tabla de madera, con luz suave de ventana." },
 };
 
@@ -129,14 +178,21 @@ const cadena = (t, sangria) => {
 };
 
 /* Todos los `.md`, en el orden de las carpetas y por `orden` dentro de cada
-   serie, que es el que él les dio. */
+   serie, que es el que él les dio.
+
+   SOLO LOS DE DENTRO DE UNA CARPETA. Los `.md` sueltos en la raíz NO son
+   shorts: son sus documentos —`FORMATO.md`, `COLA.md`, `FUENTES-IMAGENES.md`—
+   y lo dice él mismo en el formato: «nunca sueltos en la raíz; cada tema tiene
+   su propia subcarpeta con el nombre de su serie». Estuvo un rato filtrando
+   por nombre —`!== "FORMATO.md"`— y el 29 de agosto llegaron dos documentos
+   más y se colaron los dos: el guion pedía una portada para «Cola de temas».
+   Filtrar por la regla y no por la lista de nombres se arregla una vez. */
 const rutas = [];
 for (const d of readdirSync(TEXTOS).sort()) {
   const p = join(TEXTOS, d);
-  if (statSync(p).isDirectory()) for (const f of readdirSync(p).sort()) { if (f.endsWith(".md")) rutas.push(join(p, f)); }
-  else if (f_es_md(d)) rutas.push(p);
+  if (!statSync(p).isDirectory()) continue;
+  for (const f of readdirSync(p).sort()) if (f.endsWith(".md")) rutas.push(join(p, f));
 }
-function f_es_md(n) { return n.endsWith(".md") && n !== "FORMATO.md"; }
 
 /** El título que se pinta: el de la serie si la hay, y si no el suyo. */
 function tituloDe(t) {
@@ -162,7 +218,7 @@ L.push("/* =====================================================================
 L.push("   CURIOSIDADES — LO ESCRIBE `scripts/catalogo.mjs`, NO SE EDITA A MANO");
 L.push("");
 L.push("   Sale de los `.md` de Pablo, que están en");
-L.push("   `referencia/textos-de-pablo/shorts-28ago/` con su cabecera. Para");
+L.push("   `referencia/textos-de-pablo/shorts/` con su cabecera. Para");
 L.push("   rehacerlo:");
 L.push("");
 L.push("       node scripts/catalogo.mjs > src/historias/curiosidades.ts");
@@ -189,7 +245,14 @@ for (const t of dentro) {
   L.push("    fotos: [");
   L.push("      {");
   L.push(f.commons ? `        archivo: ${JSON.stringify(f.commons)},` : `        local: p_${t.id.replace(/-/g, "_")},`);
-  L.push(`        autor:\n          ${cadena(c.credito_portada || f.autor || "Imagen del proyecto.", "          ")},`);
+  /* SIN CRÉDITO INVENTADO. Aquí ponía «Imagen del proyecto.» cuando no había
+     nada, y eso no es un relleno: es decir que la fotografía es nuestra. De
+     las catorce del 29 de agosto no lo es ninguna. Vacío, y la banda no pinta
+     línea; quien avisa de que falta es `portadas.mjs` y la fila del CSV. */
+  const credito = c.credito_portada || f.autor || "";
+  L.push(credito
+    ? `        autor:\n          ${cadena(credito, "          ")},`
+    : `        autor: "",`);
   L.push(`        licencia: ${JSON.stringify(f.licencia ?? "Pexels License")},`);
   if (f.fuente) L.push(`        fuente:\n          ${JSON.stringify(f.fuente)},`);
   if (f.foco) L.push(`        foco: ${JSON.stringify(f.foco)},`);

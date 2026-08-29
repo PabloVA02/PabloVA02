@@ -37,3 +37,29 @@ Va entre `---` al principio del archivo. Todos los campos son obligatorios salvo
 - Al partir un párrafo entre dos páginas: mínimo 2 líneas a cada lado. Los párrafos largos se parten, no se evitan.
 - Márgenes de libro: los mismos a izquierda y derecha, y el inferior igual o algo mayor que el superior. Fijos en todas las páginas. El indicador de página va dentro del margen inferior, sin añadir espacio.
 - Los `## ` no se separan de su primer párrafo.
+
+## Dónde se guarda cada short
+
+Cada tema tiene su propia subcarpeta dentro de esta carpeta, con el nombre de su
+`serie`, y dentro va un `.md` por short numerado con su `orden`. Por ejemplo:
+
+```
+por-que-resbala-el-hielo/01-un-patinador-no-derrite-el-hielo.md
+por-que-resbala-el-hielo/02-el-hielo-ya-esta-mojado.md
+```
+
+Nunca sueltos en la raíz: el documento Word se construye recorriendo subcarpetas,
+y un `.md` suelto en la raíz no aparecería en él.
+
+## Al terminar: reconstruir el documento
+
+Después de guardar los `.md` nuevos y de marcar la cola, hay que ejecutar siempre:
+
+```
+cd /Users/administrador/Documents/Shorts && python3 _construir-documento.py
+```
+
+Ese script regenera `Shorts.docx` con todos los shorts de todas las subcarpetas.
+Es idempotente, así que se puede ejecutar las veces que haga falta, pero nunca
+antes de haber guardado los archivos. La línea que imprime dice cuántas series y
+cuántos shorts ha metido: comprueba que ahí están los tuyos.

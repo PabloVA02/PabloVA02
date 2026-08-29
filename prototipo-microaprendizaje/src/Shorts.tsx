@@ -1356,7 +1356,15 @@ function PaginaShort({
               el degradado con el que la banda se disuelve en la página, sigue
               estando entero —la licencia CC BY-SA obliga y aquí se cumple— y
               deja de interrumpir. */}
-          <p className="muro-credito">{fotoDe(short, paso)?.autor ?? short.encargo}</p>
+          {/* Y si no hay crédito, NO SE PINTA NADA. Estuvo cayendo «Imagen del
+              proyecto.» por defecto, y eso no es un hueco vacío: es una
+              afirmación, y falsa, sobre catorce fotografías que no son
+              nuestras. Mejor la banda sin línea hasta que Pablo diga de dónde
+              salen; el aviso de que falta lo da `portadas.mjs` y la fila del
+              CSV, que es donde tiene que darse. */}
+          {(fotoDe(short, paso)?.autor ?? short.encargo) ? (
+            <p className="muro-credito">{fotoDe(short, paso)?.autor ?? short.encargo}</p>
+          ) : null}
         </div>
         )}
 
