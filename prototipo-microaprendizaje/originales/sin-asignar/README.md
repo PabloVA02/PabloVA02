@@ -53,6 +53,8 @@ tiene forma de portada. Con una versión vertical de lo mismo valdría.
 
 ## Las que sí dan la talla y solo esperan su texto
 
+**Cielo y espacio**, de la tanda de las 18:00:
+
 | archivo | píxeles | 9:16 da | sale a |
 |---|---|---|---|
 | `AuroraBoreal.jpg` | 5000 × 7500 | 4219 | 2160 |
@@ -66,9 +68,24 @@ tiene forma de portada. Con una versión vertical de lo mismo valdría.
 | `Galaxia.jpg` | 2003 × 3000 | 1688 | 1688 |
 | `Cohete.jpg` | 1888 × 2956 | 1663 | 1663 |
 
-Las tres últimas pasan el suelo pero por poco: 1663, 1688 y 1846. No hay nada
-que arreglar —se ven bien en el mejor móvil— pero si aparece una versión mayor
-de esas mismas, mejor esa.
+**Bichos y plantas**, de la de las 18:37. **Las nueve pasan el suelo**, siete
+llegan al techo y ninguna hay que descartarla:
+
+| archivo | píxeles | 9:16 da | sale a |
+|---|---|---|---|
+| `Luciernagas.jpg` | 3996 × 5858 | 3295 | 2160 |
+| `Arbol.jpg` | 4000 × 6000 | 3375 | 2160 |
+| `Pulpo.jpg` | 3456 × 5184 | 2916 | 2160 |
+| `ariel_hernandez-butterfly-10303163.jpg` | 3888 × 5184 | 2916 | 2160 |
+| `Girsasol.jpg` | 3024 × 4032 | 2268 | 2160 |
+| `BallenaAzul.jpg` | 3000 × 4000 | 2250 | 2160 |
+| `AbejaHexagonal.jpg` | 2918 × 3891 | 2189 | 2160 |
+| `Buho.jpg` | 2280 × 3420 | 1924 | 1924 |
+| `Colibri.jpg` | 2484 × 3312 | 1863 | 1863 |
+
+Cinco pasan el suelo pero sin llegar al techo: 1663, 1688, 1846, 1863 y 1924.
+No hay nada que arreglar —se ven bien en el mejor móvil que existe— pero si
+aparece una versión mayor de esas mismas, mejor esa.
 
 ## Cómo se meten cuando lleguen los textos
 
