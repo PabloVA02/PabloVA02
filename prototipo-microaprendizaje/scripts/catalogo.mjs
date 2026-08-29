@@ -23,7 +23,7 @@
    las portadas del `CLAUDE.md` leída al revés: si él dice cómo se llama la
    imagen, así se llama el tema.
    ========================================================================== */
-import { existsSync, readdirSync, statSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { leeTema } from "./temas.mjs";
@@ -38,22 +38,35 @@ const PORTADAS = join(AQUI, "portadas");
    reconozca de un vistazo en el muro. */
 const COLOR = {
   "como-cicatrizan-las-heridas": "var(--clay)",
+  "como-era-de-verdad-un-gladiador-romano": "var(--ochre)",
   "como-funciona-la-gravedad": "var(--plum)",
+  "como-se-construyeron-las-piramides": "var(--slate)",
+  "como-se-descifraron-los-jeroglificos": "var(--clay)",
   "como-se-forma-un-arcoiris": "var(--ochre)",
   "como-se-hace-el-vino": "var(--plum)",
   "como-se-hace-la-cerveza": "var(--slate)",
+  "como-se-hizo-el-primer-pan": "var(--clay)",
   "como-vuelan-los-cohetes": "var(--plum)",
+  "cual-es-el-animal-mas-venenoso-del-mundo": "var(--teal)",
+  "cual-es-el-idioma-mas-antiguo-que-se-sigue-hablando": "var(--sage)",
   "cual-es-el-ser-vivo-mas-grande-del-planeta": "var(--slate)",
+  "cual-fue-el-primer-videojuego": "var(--ochre)",
   "cuantas-estrellas-hay-en-el-universo": "var(--clay)",
+  "cuanto-duro-de-verdad-el-imperio-romano": "var(--plum)",
   "cuanto-le-queda-al-sol": "var(--ochre)",
   "cuanto-tiempo-le-queda-a-la-luna": "var(--teal)",
   "de-donde-sale-el-alcohol": "var(--slate)",
+  "de-donde-sale-el-azucar": "var(--clay)",
+  "de-donde-viene-el-chocolate": "var(--teal)",
+  "de-donde-viene-el-viento": "var(--sage)",
   "el-animal-mas-grande-del-mundo": "var(--sage)",
   "fuimos-la-unica-especie-humana": "var(--ochre)",
   "hasta-que-altura-puede-crecer-un-arbol": "var(--ochre)",
+  "llegaron-los-vikingos-a-america-antes-que-colon": "var(--sage)",
   "para-que-sirven-las-huellas-dactilares": "var(--plum)",
   "por-que-bostezamos": "var(--clay)",
   "por-que-brillan-las-luciernagas": "var(--plum)",
+  "por-que-cayo-el-imperio-romano": "var(--ochre)",
   "por-que-crecen-las-unas-despues-de-morir": "var(--ochre)",
   "por-que-crujen-los-nudillos": "var(--plum)",
   "por-que-duele-el-frio-en-un-diente": "var(--slate)",
@@ -69,12 +82,16 @@ const COLOR = {
   "por-que-el-mar-brilla-de-noche": "var(--teal)",
   "por-que-el-mar-es-azul": "var(--sage)",
   "por-que-el-mar-es-salado": "var(--ochre)",
+  "por-que-el-mar-muerto-se-esta-secando": "var(--plum)",
+  "por-que-el-platano-no-tiene-semillas": "var(--slate)",
+  "por-que-el-teclado-esta-en-qwerty": "var(--clay)",
   "por-que-el-tiempo-pasa-mas-rapido": "var(--plum)",
   "por-que-hay-auroras-boreales": "var(--ochre)",
   "por-que-la-gente-mayor-huele-distinto": "var(--slate)",
   "por-que-la-luna-nos-ensena-siempre-la-misma-cara": "var(--plum)",
   "por-que-la-luna-se-ve-enorme-en-el-horizonte": "var(--slate)",
   "por-que-la-miel-nunca-caduca": "var(--clay)",
+  "por-que-la-zanahoria-es-naranja": "var(--teal)",
   "por-que-las-abejas-hacen-celdas-hexagonales": "var(--teal)",
   "por-que-las-cebras-tienen-rayas": "var(--teal)",
   "por-que-las-hojas-cambian-de-color": "var(--sage)",
@@ -86,6 +103,7 @@ const COLOR = {
   "por-que-los-espejos-invierten": "var(--plum)",
   "por-que-los-flamencos-son-rosas": "var(--slate)",
   "por-que-los-girasoles-siguen-al-sol": "var(--ochre)",
+  "por-que-los-mapas-mienten-sobre-el-tamano-de-los-paises": "var(--sage)",
   "por-que-los-pelirrojos-necesitan-mas-anestesia": "var(--sage)",
   "por-que-no-hay-dos-copos-de-nieve-iguales": "var(--plum)",
   "por-que-no-puedes-hacerte-cosquillas": "var(--plum)",
@@ -94,6 +112,7 @@ const COLOR = {
   "por-que-nos-sonrojamos": "var(--teal)",
   "por-que-pica-el-picante": "var(--clay)",
   "por-que-pica-la-picadura-de-mosquito": "var(--ochre)",
+  "por-que-recuerdas-mal-cosas-que-juras-haber-vivido": "var(--plum)",
   "por-que-resbala-el-hielo": "var(--sage)",
   "por-que-ronronean-los-gatos": "var(--plum)",
   "por-que-se-corta-la-leche": "var(--sage)",
@@ -113,8 +132,14 @@ const COLOR = {
   "por-que-un-pulpo-se-camufla-si-es-daltonico": "var(--teal)",
   "por-que-un-rayo-hace-zigzag": "var(--sage)",
   "por-que-vuelan-los-aviones": "var(--teal)",
+  "que-es-realmente-el-queso": "var(--plum)",
   "que-es-una-galaxia": "var(--sage)",
+  "que-fue-la-ruta-de-la-seda": "var(--slate)",
+  "que-fue-realmente-la-peste-negra": "var(--clay)",
+  "que-hay-en-el-fondo-de-la-fosa-de-las-marianas": "var(--teal)",
   "que-paises-tienen-bomba-atomica": "var(--ochre)",
+  "que-paso-realmente-en-pompeya": "var(--sage)",
+  "quien-construyo-stonehenge-y-para-que": "var(--ochre)",
   "sueltos": "var(--sage)",
 };
 /* EL TÍTULO DEL SHORT ES EL DE SU SERIE, y esto lo pidió Pablo el 28 de
@@ -224,6 +249,32 @@ const SERIE = {
   "por-que-se-te-queda-una-cancion-pegada": "Por qué se te queda una canción pegada",
   "por-que-te-da-flato-al-correr": "Por qué te da flato al correr",
   "fuimos-la-unica-especie-humana": "Fuimos la única especie humana",
+  /* Las veinticinco de historia y comida del 29 por la madrugada. */
+  "como-era-de-verdad-un-gladiador-romano": "Cómo era de verdad un gladiador romano",
+  "como-se-construyeron-las-piramides": "Cómo se construyeron las pirámides",
+  "como-se-descifraron-los-jeroglificos": "Cómo se descifraron los jeroglíficos",
+  "como-se-hizo-el-primer-pan": "Cómo se hizo el primer pan",
+  "cual-es-el-animal-mas-venenoso-del-mundo": "Cuál es el animal más venenoso",
+  "cual-es-el-idioma-mas-antiguo-que-se-sigue-hablando": "Cuál es el idioma más antiguo",
+  "cual-fue-el-primer-videojuego": "Cuál fue el primer videojuego",
+  "cuanto-duro-de-verdad-el-imperio-romano": "Cuánto duró de verdad el Imperio romano",
+  "de-donde-sale-el-azucar": "De dónde sale el azúcar",
+  "de-donde-viene-el-chocolate": "De dónde viene el chocolate",
+  "de-donde-viene-el-viento": "De dónde viene el viento",
+  "llegaron-los-vikingos-a-america-antes-que-colon": "Llegaron los vikingos antes que Colón",
+  "por-que-cayo-el-imperio-romano": "Por qué cayó el Imperio romano",
+  "por-que-el-mar-muerto-se-esta-secando": "Por qué el mar Muerto se está secando",
+  "por-que-el-platano-no-tiene-semillas": "Por qué el plátano no tiene semillas",
+  "por-que-el-teclado-esta-en-qwerty": "Por qué el teclado está en QWERTY",
+  "por-que-la-zanahoria-es-naranja": "Por qué la zanahoria es naranja",
+  "por-que-los-mapas-mienten-sobre-el-tamano-de-los-paises": "Por qué los mapas mienten sobre el tamaño",
+  "por-que-recuerdas-mal-cosas-que-juras-haber-vivido": "Por qué recuerdas mal cosas que juras haber vivido",
+  "que-es-realmente-el-queso": "Qué es realmente el queso",
+  "que-fue-la-ruta-de-la-seda": "Qué fue la Ruta de la Seda",
+  "que-fue-realmente-la-peste-negra": "Qué fue realmente la peste negra",
+  "que-hay-en-el-fondo-de-la-fosa-de-las-marianas": "Qué hay en el fondo de las Marianas",
+  "que-paso-realmente-en-pompeya": "Qué pasó realmente en Pompeya",
+  "quien-construyo-stonehenge-y-para-que": "Quién construyó Stonehenge y para qué",
 };
 
 /* El pie y el texto alternativo de cada fotografía. Van aquí y no en la
@@ -291,11 +342,36 @@ function tituloDe(t) {
   return SERIE[t.cabecera.serie] ?? t.titulo;
 }
 
+/* EL ESCAPARATE, que no es lo mismo que la app.
+ *
+ * `movil.html` es UN SOLO fichero HTML con las portadas empotradas dentro y un
+ * tope de publicación de 16 MB. A partir de unas sesenta portadas no cabe, y
+ * apretar más la calidad estropea justo lo que Pablo va a mirar. Él lo dejó
+ * resuelto: «si no caben borras las que teníamos ya, que esas ya he comprobado
+ * que están bien».
+ *
+ * Así que con `--vitrina` se genera un catálogo recortado, SOLO para compilar
+ * el simulador, con los shorts de `assets/vitrina.json` fuera. La app de verdad
+ * y el repositorio los siguen teniendo todos: lo que se recorta es la vitrina,
+ * no el producto.
+ *
+ * La lista se escribe A MANO y es lo correcto: aquí los temas salen por orden
+ * alfabético de carpeta, así que no hay forma de calcular «los N más viejos»
+ * sin inventarse una antigüedad que el dato no tiene.
+ */
+const vitrina = process.argv.includes("--vitrina");
+const fueraDeVitrina = new Set(
+  vitrina
+    ? JSON.parse(readFileSync(join(AQUI, "assets", "vitrina.json"), "utf8")).fuera
+    : [],
+);
+
 const dentro = [];
 const fuera = [];
 for (const ruta of rutas) {
   const t = leeTema(ruta);
   if (!existsSync(join(PORTADAS, `${t.id}.avif`))) { fuera.push(t); continue; }
+  if (fueraDeVitrina.has(t.id)) continue;
   dentro.push(t);
 }
 
@@ -374,7 +450,10 @@ for (const t of dentro) {
 L.push("];");
 console.log(L.join("\n"));
 
-console.error(`\n${dentro.length} shorts dentro · ${fuera.length} esperando portada:`);
+console.error(
+  `\n${dentro.length} shorts dentro · ${fuera.length} esperando portada` +
+    (vitrina ? ` · ${fueraDeVitrina.size} fuera del escaparate a propósito` : "") + ":",
+);
 for (const t of fuera) console.error(`   ${t.id}.avif      ${t.titulo.slice(0, 52)}`);
 
 /* Y EL AVISO DE LOS TÍTULOS REPETIDOS. Hoy no hay ninguno porque de cada serie

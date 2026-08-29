@@ -1,0 +1,18 @@
+{
+  "_": "LOS SHORTS QUE NO VAN AL SIMULADOR. No se borran de la app ni del repositorio: solo se quedan fuera de movil.html, que es un solo fichero HTML con un tope de 16 MB y ya no le caben todas las portadas empotradas. Lo autorizó Pablo: «si no caben borras las que teníamos ya, que esas ya he comprobado que están bien». Se escribe a mano y a propósito: el catálogo va por orden alfabético de carpeta y ahí no hay ninguna noción de qué es antiguo. Para volver a meter uno, se quita de la lista. Lo lee scripts/catalogo.mjs con --vitrina.",
+  "cuando": "29 de agosto de 2026",
+  "fuera": [
+    "la-costra-no-esta-curando-nada",
+    "la-gravedad-no-es-una-fuerza",
+    "al-sol-le-quedan-cinco-mil-millones",
+    "el-bostezo-no-tiene-que-ver-con-el-oxigeno",
+    "te-ensenaron-mal-como-se-forma-una-nube",
+    "el-picante-no-es-un-sabor",
+    "la-leche-cortada-es-queso-a-medio-empezar",
+    "el-conductor-no-se-marea-nunca",
+    "en-invierno-estamos-mas-cerca-del-sol",
+    "tiritar-desperdiciar-energia",
+    "por-que-vuelan-los-aviones-es-falso"
+  ],
+  "por-que-estos": "Son los once primeros, los del 28 de agosto. Él los revisó uno a uno esa noche y dijo que estaban bien, así que son los que menos falta hace volver a mirar."
+}
