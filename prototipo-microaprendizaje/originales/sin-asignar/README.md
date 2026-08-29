@@ -32,12 +32,12 @@ portada pequeña.
 | archivo | píxeles | 9:16 da | le faltan | para qué era |
 |---|---|---|---|---|
 | `CRUJIRSENUDILLOS.avif` | 900 × 601 | **338** | 1.306 | Por qué crujen los nudillos |
-| `BombaAtómica.jpg` | 960 × 1147 | **645** | 999 | — |
+| `BombaAtómica.jpg` | 960 × 1147 | **645** | 999 | Qué países tienen bomba atómica |
 | `HuellaDactilar.avif` | 900 × 1350 | **759** | 885 | Para qué sirven las huellas |
 | `Pelirrojo.avif` | 900 × 1350 | **759** | 885 | Los pelirrojos y la anestesia |
 | `Resaca.avif` | 900 × 1350 | **759** | 885 | Por qué duele la resaca |
 | `VenasAzules.jpg` | 2648 × 2358 | **1326** | 318 | Por qué se ven azules las venas |
-| `CopoDeNieve.jpg` | 1944 × 2592 | **1458** | 186 | — |
+| `CopoDeNieve.jpg` | 1944 × 2592 | **1458** | 186 | Por qué no hay dos copos iguales |
 
 Los cinco primeros son casos de libro: **900 px de ancho justos y ya en AVIF**,
 que es la marca de una imagen guardada de una vista previa —la página de
@@ -48,44 +48,24 @@ La foto grande existe; lo que se guardó fue la chica.
 al recortarla a 9:16 se queda en 1326. No es que la imagen sea mala, es que no
 tiene forma de portada. Con una versión vertical de lo mismo valdría.
 
-**Las cuatro con tema apuntado bloquean un short que ya está escrito.** Son lo
-único que les falta para salir en la app.
+**Las siete bloquean un short que ya está escrito.** Son lo único que les falta
+para salir en la app, y por eso están todas apuntadas con su tema.
 
-## Las que sí dan la talla y solo esperan su texto
+Y hay **cuatro series más sin ninguna fotografía todavía**, que no es lo mismo
+que tenerla mala: «Cuál es el ser vivo más grande», «Por qué el cielo es negro
+de noche», «Por qué el mar brilla de noche» y «Por qué la Luna enseña siempre
+la misma cara». Esas esperan imagen, no repuesto.
 
-**Cielo y espacio**, de la tanda de las 18:00:
+## Ya no queda ninguna esperando texto
 
-| archivo | píxeles | 9:16 da | sale a |
-|---|---|---|---|
-| `AuroraBoreal.jpg` | 5000 × 7500 | 4219 | 2160 |
-| `MarAzulPorque.jpg` | 4000 × 6000 | 3375 | 2160 |
-| `Glaciar.jpg` | 3903 × 5742 | 3230 | 2160 |
-| `LunaHorizonte.jpg` | 3822 × 5733 | 3225 | 2160 |
-| `Estrellas.jpg` | 3648 × 5472 | 3078 | 2160 |
-| `CuantoLeQuedaalaluna.jpg` | 3032 × 5391 | 3032 | 2160 |
-| `Arcoiris.jpg` | 3264 × 4928 | 2772 | 2160 |
-| `Rayo.jpg` | 2459 × 3281 | 1846 | 1846 |
-| `Galaxia.jpg` | 2003 × 3000 | 1688 | 1688 |
-| `Cohete.jpg` | 1888 × 2956 | 1663 | 1663 |
+Las diecinueve que estaban aquí de las tandas de las 18:00 y las 18:37 —aurora,
+mar, glaciar, luna, estrellas, galaxia, arcoíris, rayo, cohete, luciérnagas,
+árbol, pulpo, mariposa, girasol, ballena, abeja, búho, colibrí y la de cuánto
+le queda a la Luna— **entraron esa misma noche**, en cuanto llegaron sus textos.
 
-**Bichos y plantas**, de la de las 18:37. **Las nueve pasan el suelo**, siete
-llegan al techo y ninguna hay que descartarla:
-
-| archivo | píxeles | 9:16 da | sale a |
-|---|---|---|---|
-| `Luciernagas.jpg` | 3996 × 5858 | 3295 | 2160 |
-| `Arbol.jpg` | 4000 × 6000 | 3375 | 2160 |
-| `Pulpo.jpg` | 3456 × 5184 | 2916 | 2160 |
-| `ariel_hernandez-butterfly-10303163.jpg` | 3888 × 5184 | 2916 | 2160 |
-| `Girsasol.jpg` | 3024 × 4032 | 2268 | 2160 |
-| `BallenaAzul.jpg` | 3000 × 4000 | 2250 | 2160 |
-| `AbejaHexagonal.jpg` | 2918 × 3891 | 2189 | 2160 |
-| `Buho.jpg` | 2280 × 3420 | 1924 | 1924 |
-| `Colibri.jpg` | 2484 × 3312 | 1863 | 1863 |
-
-Cinco pasan el suelo pero sin llegar al techo: 1663, 1688, 1846, 1863 y 1924.
-No hay nada que arreglar —se ven bien en el mejor móvil que existe— pero si
-aparece una versión mayor de esas mismas, mejor esa.
+Lo que queda abajo es solo lo que no da la calidad. Si esta carpeta se vacía
+del todo algún día, mejor: querrá decir que no hay ninguna imagen pequeña
+esperando.
 
 ## Cómo se meten cuando lleguen los textos
 
