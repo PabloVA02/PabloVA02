@@ -57,8 +57,15 @@ const RECORTES = join(AQUI, "assets", "recortes.json");
 /* Las tres medidas de la regla, juntas y en un solo sitio. */
 const ANCHO = 1440;
 const ALTO = 2560; // 9:16 exacto
-const AVIF = 65;
-const WEBP = 85;
+/* CALIDAD, SUBIDA EL 29 DE AGOSTO. Pablo: «ya siempre sabes que las portadas
+   deben ir a la máxima calidad que permite un móvil, que se vea lo mejor
+   posible a la mejor calidad posible». El 65 del `CLAUDE.md` era su número de
+   la primera tanda, cuando todavía se pensaba en el peso; con «sin límite
+   estricto de peso» escrito al lado, 65 se quedaba corto sin motivo. A 80 la
+   media pasa de 262 a unos 400 kB, que sigue dentro de lo que él llamó normal,
+   y los degradados grandes —el cielo, la miel, el hielo— dejan de bandearse. */
+const AVIF = 80;
+const WEBP = 90;
 
 const COLUMNAS = [
   "archivo", "tema", "fuente", "url_original", "licencia", "autor",

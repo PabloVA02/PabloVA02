@@ -79,3 +79,56 @@ identificables.
 `assets/portadas.csv` con nombre de archivo, sitio de origen, URL exacta,
 licencia y fecha de descarga. Es la única prueba de que la adquisición fue
 legal, y el día que alguien pregunte no se puede reconstruir de memoria.
+
+---
+
+# Qué tamaño tienen que tener las portadas
+
+## Al descargar: lo más grande que haya
+
+Del banco de imágenes se baja siempre **la versión original**, la más grande
+disponible. No se decide ahí la calidad final: se guarda el máximo y se recorta y
+comprime después. Reducir una imagen no cuesta nada; ampliarla la estropea sin
+remedio, y el día que quieras cambiar de tamaño querrás tener el original.
+
+Esos originales van a `originales/`, fuera del repositorio de código y con copia
+de seguridad aparte. Es lo único del proyecto que no se puede volver a generar.
+
+## Lo que se publica en la app
+
+| uso | tamaño | formato | peso objetivo |
+|---|---|---|---|
+| Portada a pantalla completa | **1440 × 2560** (9:16) | AVIF, con WebP de reserva | 150–250 KB |
+| Miniatura del feed o de listas | **480 × 854** | AVIF / WebP | 30–50 KB |
+
+**1440 píxeles de ancho es el mínimo para que se vea perfecta en cualquier
+móvil.** Es el ancho físico de las pantallas más densas que hay (los Galaxy
+Ultra), y por encima de eso ningún teléfono actual puede mostrar más detalle:
+solo estarías gastando datos y memoria a cambio de nada.
+
+## El peso del archivo no es lo que puede tirar la app
+
+Esta es la parte que casi nadie tiene en cuenta y la que de verdad hace fallar
+una aplicación con muchas imágenes.
+
+Un AVIF de 200 KB **no ocupa 200 KB en memoria**. Ocupa lo que ocupe una vez
+descomprimido, y eso se calcula así: ancho × alto × 4 bytes. Para una portada de
+1440 × 2560 son unos **14 MB de RAM por imagen**. Diez portadas cargadas a la vez
+son 140 MB, y ahí es donde el sistema empieza a matar la aplicación.
+
+De modo que la regla es esta:
+
+- **Nunca decodificar una imagen más grande de lo que se va a mostrar.** Si en el
+  feed la portada ocupa una tarjeta pequeña, se carga la miniatura, no la de
+  1440. Las librerías de imágenes lo hacen si les indicas el tamaño de destino.
+- **Limitar la caché en memoria** a un número concreto de imágenes o a una
+  fracción del montón disponible, y dejar que el resto viva en la caché de disco.
+- Una sola portada a pantalla completa cargada de golpe no es problema. Veinte
+  cargadas «por si acaso» sí lo son.
+
+## Y la cuenta de las mil portadas
+
+Mil portadas a 200 KB son unos 200 MB, más las miniaturas. Eso no se empaqueta
+dentro de la aplicación: se sirve desde un almacenamiento externo y se descarga
+según hace falta, guardando en caché de disco lo ya visto. En la app solo van las
+imágenes de la primera pantalla, para que arranque con algo mientras carga.

@@ -93,9 +93,23 @@ portada nueva. El guion que lo hace todo es
 
 - **Proporción vertical 9:16** y **1440 px de ancho** —o sea 1440 × 2560—, que
   es la resolución nativa del móvil más exigente del mercado.
-- **AVIF calidad 65** como formato principal.
-- **WebP calidad 85** de respaldo, para lo que no admita AVIF.
+- **AVIF calidad 80** como formato principal.
+- **WebP calidad 90** de respaldo, para lo que no admita AVIF.
 - **Sin límite estricto de peso.** Lo normal serán 300-500 kB y está bien.
+
+  Los dos primeros números eran 65 y 85, de la primera tanda. Los subió él el
+  29 de agosto: «ya siempre sabes que las portadas deben ir a la máxima calidad
+  que permite un móvil, que se vea lo mejor posible a la mejor calidad
+  posible». Con «sin límite estricto de peso» escrito justo debajo, 65 se
+  quedaba corto sin ganar nada.
+
+- **Y una imagen pequeña no se sube «tal cual» aunque la mande él.** Si después
+  de recortar a 9:16 no llega a 1440 px de ancho, estirarla se ve, y estirarla
+  es exactamente lo contrario de lo que pide. El guion lo canta al terminar y
+  hay que mirarlo: mejor pedirle otra que subir esa. El 29 de agosto llegaron
+  cinco AVIF de 900 px o menos —parecen guardados de una vista previa y no
+  descargados del original—; una de ellas, la de los nudillos, daba 338 px de
+  ancho útil y no entró.
 - **El nombre, idéntico al del tema**: `como-funciona-la-gravedad.md` →
   `como-funciona-la-gravedad.avif`.
 

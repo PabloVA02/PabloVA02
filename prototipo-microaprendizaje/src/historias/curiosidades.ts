@@ -5,22 +5,34 @@ import type { Short } from "../shorts";
 import p_la_costra_no_esta_curando_nada from "../../portadas/la-costra-no-esta-curando-nada.avif";
 import p_la_gravedad_no_es_una_fuerza from "../../portadas/la-gravedad-no-es-una-fuerza.avif";
 import p_el_bostezo_no_tiene_que_ver_con_el_oxigeno from "../../portadas/el-bostezo-no-tiene-que-ver-con-el-oxigeno.avif";
+import p_no_crecen_la_piel_se_retira from "../../portadas/no-crecen-la-piel-se-retira.avif";
 import p_hay_un_sensor_dentro_del_diente from "../../portadas/hay-un-sensor-dentro-del-diente.avif";
+import p_el_dolor_no_esta_donde_lo_notas from "../../portadas/el-dolor-no-esta-donde-lo-notas.avif";
+import p_no_es_el_acido_lactico from "../../portadas/no-es-el-acido-lactico.avif";
+import p_el_chaval_y_el_helado from "../../portadas/el-chaval-y-el-helado.avif";
+import p_el_cafe_no_te_da_energia from "../../portadas/el-cafe-no-te-da-energia.avif";
 import p_el_cielo_deberia_ser_violeta from "../../portadas/el-cielo-deberia-ser-violeta.avif";
+import p_tres_preguntas_tres_ganadores from "../../portadas/tres-preguntas-tres-ganadores.avif";
 import p_la_sal_no_viene_del_mar from "../../portadas/la-sal-no-viene-del-mar.avif";
+import p_los_dias_no_los_anos_si from "../../portadas/los-dias-no-los-anos-si.avif";
+import p_una_molecula_a_partir_de_los_cuarenta from "../../portadas/una-molecula-a-partir-de-los-cuarenta.avif";
 import p_la_miel_no_se_conserva from "../../portadas/la-miel-no-se-conserva.avif";
 import p_las_rayas_no_son_un_camuflaje from "../../portadas/las-rayas-no-son-un-camuflaje.avif";
 import p_el_amarillo_ya_estaba from "../../portadas/el-amarillo-ya-estaba.avif";
 import p_la_cebolla_entera_no_lleva_nada from "../../portadas/la-cebolla-entera-no-lleva-nada.avif";
 import p_te_ensenaron_mal_como_se_forma_una_nube from "../../portadas/te-ensenaron-mal-como-se-forma-una-nube.avif";
+import p_no_invierten_izquierda_derecha from "../../portadas/no-invierten-izquierda-derecha.avif";
 import p_un_flamenco_nace_gris from "../../portadas/un-flamenco-nace-gris.avif";
 import p_a_los_tres_anos_te_acordabas from "../../portadas/a-los-tres-anos-te-acordabas.avif";
 import p_la_unica_especie_que_se_sonroja from "../../portadas/la-unica-especie-que-se-sonroja.avif";
 import p_el_picante_no_es_un_sabor from "../../portadas/el-picante-no-es-un-sabor.avif";
+import p_el_picor_lo_pones_tu from "../../portadas/el-picor-lo-pones-tu.avif";
 import p_un_patinador_no_derrite_el_hielo from "../../portadas/un-patinador-no-derrite-el-hielo.avif";
 import p_la_leche_cortada_es_queso_a_medio_empezar from "../../portadas/la-leche-cortada-es-queso-a-medio-empezar.avif";
+import p_el_pan_duro_no_se_ha_secado from "../../portadas/el-pan-duro-no-se-ha-secado.avif";
 import p_no_es_falta_de_riego from "../../portadas/no-es-falta-de-riego.avif";
 import p_el_conductor_no_se_marea_nunca from "../../portadas/el-conductor-no-se-marea-nunca.avif";
+import p_la_cicatriz_de_un_dano from "../../portadas/la-cicatriz-de-un-dano.avif";
 import p_en_invierno_estamos_mas_cerca_del_sol from "../../portadas/en-invierno-estamos-mas-cerca-del-sol.avif";
 import p_erizar_un_pelaje_que_ya_no_tienes from "../../portadas/erizar-un-pelaje-que-ya-no-tienes.avif";
 import p_tiritar_desperdiciar_energia from "../../portadas/tiritar-desperdiciar-energia.avif";
@@ -40,7 +52,7 @@ import p_por_que_vuelan_los_aviones_es_falso from "../../portadas/por-que-vuelan
    reparte en pantallas es la app, midiendo el móvil de quien lee. Es la
    regla 3 de `.claude/skills/paginado-shorts/SKILL.md`.
 
-   Hoy entran 25 de 85: solo los que tienen portada.
+   Hoy entran 37 de 106: solo los que tienen portada.
    ========================================================================== */
 
 export const CURIOSIDADES: Short[] = [
@@ -511,6 +523,119 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "no-crecen-la-piel-se-retira",
+    titulo: "Por qué crecen las uñas después de morir",
+    categoria: "Cuerpo humano",
+    color: "var(--ochre)",
+    /* Serie «por-que-crecen-las-unas-despues-de-morir», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Las uñas no siguen creciendo después de morir» */
+    encargo: "Las uñas no siguen creciendo después de morir",
+    fotos: [
+      {
+        local: p_no_crecen_la_piel_se_retira,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Las uñas no siguen creciendo después de morir",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que crece no es la uña: lo que se encoge es la piel",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es de las creencias más repetidas que existen sobre el cuerpo, y tiene además el punto " +
+          "macabro que garantiza que se cuente en cualquier sobremesa: que después de morir, el " +
+          "pelo y las uñas siguen creciendo un tiempo. Se dice con la seguridad de quien repite " +
+          "un dato médico, y suele venir acompañada de la imagen de un cadáver con las uñas " +
+          "largas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No ocurre. Ni el pelo ni las uñas crecen un milímetro después de la muerte, y la razón " +
+          "es de una lógica bastante básica. Una uña no es un mineral que se deposite solo: crece " +
+          "porque hay células dividiéndose en la matriz, debajo de la piel, y esas células " +
+          "necesitan glucosa para funcionar, además de una regulación hormonal que coordina todo " +
+          "el proceso. Al morir el organismo, no llega glucosa, no hay circulación y no hay " +
+          "señales hormonales. Las células dejan de dividirse en cuestión de poco tiempo, y sin " +
+          "división no hay uña nueva. Lo mismo con el folículo del pelo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que sí pasa, y es lo que la gente ve, es otra cosa completamente distinta. El " +
+          "cuerpo pierde agua deprisa, y al deshidratarse la piel se contrae y se retira. Al " +
+          "retraerse alrededor del dedo, deja al descubierto una parte de la uña que antes " +
+          "quedaba oculta bajo el pliegue. En la cara ocurre igual: la piel se encoge, el pelo " +
+          "que estaba dentro del folículo queda más expuesto y aparece una barba de dos días que " +
+          "no existía.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es exactamente la misma ilusión que hace parecer más largos los dientes de una persona " +
+          "muy mayor. No le han crecido los dientes: se le han retraído las encías. Aquí es lo " +
+          "mismo, acelerado y en otro sitio.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No es que la uña avance. Es que la piel se retira y deja a la vista lo que ya estaba " +
+          "ahí.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Un dato falso que se sostiene sobre buena literatura",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Merece la pena preguntarse por qué una creencia tan fácil de desmontar ha llegado " +
+          "hasta aquí, y en este caso se puede rastrear parte del camino.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Uno de los responsables es un pasaje muy conocido de <em>Sin novedad en el " +
+          "frente</em>, la novela de Erich Maria Remarque publicada en 1929, donde el narrador " +
+          "imagina las uñas de un amigo muerto siguiendo su crecimiento bajo tierra. Es una " +
+          "imagen literaria potentísima, de esas que se quedan grabadas, y millones de lectores " +
+          "la recibieron como si fuera información y no como lo que era. Después la repitieron " +
+          "cómicos, guionistas y conversaciones de sobremesa hasta convertirla en un lugar común.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y funciona tan bien porque tiene el mejor aval posible: hay quien lo ha visto. " +
+          "Cualquiera que haya estado presente en una exhumación, o simplemente haya velado un " +
+          "cuerpo, puede confirmar que las uñas se ven más largas. La observación es cierta. Lo " +
+          "que está mal es la explicación que se le puso encima, que era la única que se le " +
+          "ocurría a alguien sin saber que la piel se contrae al deshidratarse.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese es el patrón que se repite en casi todos los mitos de esta clase, y merece la pena " +
+          "tenerlo a mano: rara vez la gente se inventa lo que ve. Lo que se inventa es el " +
+          "porqué.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Nadie mintió sobre lo que veía. Las uñas se ven más largas de verdad. Lo inventado fue " +
+          "el motivo.",
+      },
+    ],
+  },
+  {
     id: "hay-un-sensor-dentro-del-diente",
     titulo: "Por qué duele el frío en un diente",
     categoria: "Cuerpo humano",
@@ -621,6 +746,455 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Unas células que se creían dedicadas a fabricar dentina llevaban encima un detector de " +
           "frío, y nadie lo había mirado.",
+      },
+    ],
+  },
+  {
+    id: "el-dolor-no-esta-donde-lo-notas",
+    titulo: "Por qué duele la cabeza al comer helado",
+    categoria: "Cuerpo humano",
+    color: "var(--plum)",
+    /* Serie «por-que-duele-la-cabeza-al-comer-helado», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El dolor del helado no está donde lo notas» */
+    encargo: "El dolor del helado no está donde lo notas",
+    fotos: [
+      {
+        local: p_el_dolor_no_esta_donde_lo_notas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El dolor del helado no está donde lo notas",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Te duele la frente y el problema está en el paladar",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El fenómeno es tan universal que tiene nombre médico, y uno de los mejores que " +
+          "existen: <strong>ganglioneuralgia esfenopalatina</strong>. Comes un helado demasiado " +
+          "rápido, das un trago largo de granizado, y en cuestión de segundos te llega un dolor " +
+          "intenso justo detrás de la frente o en las sienes, que dura entre unos segundos y un " +
+          "minuto y se va tan rápido como vino.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo primero que hay que deshacer es la localización, porque es completamente engañosa. " +
+          "En tu frente no ha pasado absolutamente nada. Ahí no ha llegado nada frío, no hay " +
+          "ningún tejido dañado y no hay ningún nervio quejándose de su propia situación. El " +
+          "problema entero está ocurriendo unos centímetros más abajo, en el " +
+          "<strong>paladar</strong>, que es lo que ha tocado el helado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que sientes es lo que en medicina se llama <strong>dolor referido</strong>: una " +
+          "señal que se genera en un sitio y que el cerebro coloca en otro. Ocurre porque la " +
+          "información de una zona amplia de la cara viaja por el nervio trigémino, que recoge lo " +
+          "que pasa en el paladar y también lo que pasa en la frente y las sienes, y todo eso " +
+          "llega a un mismo destino. Cuando le entra una señal de alarma brutal desde una zona " +
+          "que casi nunca protesta, el cerebro se equivoca al asignarle un origen y la coloca en " +
+          "el territorio del que sí recibe quejas habitualmente. Es el mismo motivo por el que un " +
+          "infarto se siente en el brazo izquierdo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "En tu frente no ha ocurrido nada. Todo pasa en el paladar, y el cerebro se confunde de " +
+          "sitio al colocar el dolor.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y lo que ocurre en el paladar es un vaivén de vasos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué pasa exactamente ahí arriba? El frío extremo y repentino provoca una reacción " +
+          "vascular en dos tiempos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Primero, los vasos sanguíneos de la zona se contraen de golpe. Es la respuesta normal " +
+          "al frío en cualquier parte del cuerpo: cerrar el grifo para no perder calor. Y a " +
+          "continuación, en cuanto el estímulo frío pasa y el tejido empieza a recuperar " +
+          "temperatura, esos mismos vasos se dilatan bruscamente, con un rebote más grande de lo " +
+          "que estaban antes. Ese vaivén rápido, ocurriendo justo al lado de terminaciones " +
+          "nerviosas muy sensibles, es lo que dispara la señal.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esto se ha medido, y esa es la parte que lo eleva de anécdota a fisiología. Usando " +
+          "ecografía Doppler transcraneal, que permite ver el flujo de sangre en las arterias del " +
+          "interior del cráneo en tiempo real, el investigador Jorge Serrador observó un aumento " +
+          "brusco y muy marcado del flujo en la <strong>arteria cerebral anterior</strong> " +
+          "coincidiendo con la aparición del dolor. Y el dato que cierra el argumento: cuando esa " +
+          "arteria volvía a contraerse, el dolor desaparecía. Aparece con la dilatación y se va " +
+          "con la constricción, en tiempo real.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí sale también el remedio que sí funciona, y que ahora se entiende: presionar la " +
+          "lengua contra el paladar o beber algo templado. No estás distrayéndote del dolor, " +
+          "estás calentando la zona y devolviendo los vasos a su estado normal antes de que se " +
+          "produzca el rebote.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Se ve en el Doppler: el dolor aparece cuando la arteria se dilata y desaparece cuando " +
+          "vuelve a cerrarse.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Ese trabajo no se hizo por curiosidad sobre los helados. Las personas " +
+          "que sufren migrañas son más propensas a este dolor, y la sospecha es que parte de lo " +
+          "que ocurre aquí se parece a lo que ocurre en una migraña. La gracia es que este se " +
+          "puede provocar a voluntad en un laboratorio, en segundos y sin dañar a nadie, y eso lo " +
+          "convierte en un modelo utilísimo para estudiar un dolor de cabeza que de otro modo hay " +
+          "que esperar a que llegue.",
+      },
+    ],
+  },
+  {
+    id: "no-es-el-acido-lactico",
+    titulo: "Por qué duelen las agujetas",
+    categoria: "Cuerpo humano",
+    color: "var(--clay)",
+    /* Serie «por-que-duelen-las-agujetas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Las agujetas no son ácido láctico, y basta con mirar el reloj» */
+    encargo: "Las agujetas no son ácido láctico, y basta con mirar el reloj",
+    fotos: [
+      {
+        local: p_no_es_el_acido_lactico,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Las agujetas no son ácido láctico, y basta con mirar el reloj",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El desmentido no necesita laboratorio: necesita un reloj",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De todos los mitos que se siguen enseñando en clase de educación física, este es " +
+          "probablemente el más resistente. Las agujetas, dice la versión popular, son ácido " +
+          "láctico acumulado en el músculo después del esfuerzo. Y en España hay además una " +
+          "variante todavía más gráfica: que ese ácido cristaliza formando agujitas microscópicas " +
+          "que arañan el músculo por dentro, de donde vendría el nombre. Hay incluso un remedio " +
+          "asociado, el del vaso de agua con azúcar, que supuestamente disolvería esos cristales.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para desmontarlo no hace falta ningún experimento sofisticado. Basta con poner las dos " +
+          "cosas en una línea de tiempo. El lactato que produce tu músculo durante un esfuerzo " +
+          "intenso se aclara de la sangre en cuestión de minutos, y como mucho de una hora tras " +
+          "terminar. Las agujetas, en cambio, ni siquiera han empezado en ese momento: aparecen " +
+          "al día siguiente, alcanzan su punto máximo entre las veinticuatro y las setenta y dos " +
+          "horas, y pueden durar varios días.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "O sea que cuando empieza el dolor hace muchísimo que no queda lactato ahí. Y cuando " +
+          "había lactato de sobra, justo al terminar el ejercicio, no dolía nada. La supuesta " +
+          "causa desaparece antes de que exista el efecto, y eso, en cualquier investigación, es " +
+          "motivo suficiente para descartar a un sospechoso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo de los cristales tiene todavía menos recorrido: el lactato es muy soluble y a la " +
+          "temperatura y el pH de un músculo vivo no cristaliza. No hay agujas. Y el azúcar del " +
+          "vaso de agua no llega a disolver nada porque no hay nada que disolver.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El lactato se ha ido en menos de una hora. Las agujetas llegan al día siguiente. La " +
+          "causa desaparece antes de que aparezca el efecto.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "De dónde salió la idea, que también tiene su historia",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un mito tan extendido casi siempre tiene un origen respetable, y este lo tiene. A " +
+          "principios del siglo XX, el fisiólogo británico Archibald Hill y el alemán Otto " +
+          "Meyerhof estudiaron la relación entre el ácido láctico y la contracción muscular, " +
+          "trabajando con músculo de rana aislado. Sus experimentos eran buenos y les valieron un " +
+          "Nobel; el problema es lo que se hizo después con ellos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquellos resultados describían el comportamiento de un músculo de anfibio separado del " +
+          "animal, y se extrapolaron sin más a un mamífero vivo y entero, que es un sistema con " +
+          "circulación, con hígado, con corazón y con una capacidad de retirar y reutilizar " +
+          "lactato que un músculo aislado en una cubeta no tiene. Y de ahí se dio un segundo " +
+          "salto todavía más largo: pasar de «el lactato tiene que ver con la fatiga durante el " +
+          "esfuerzo» a «el lactato causa el dolor que aparece dos días después». Son dos " +
+          "afirmaciones distintas y solo la primera tenía algo detrás.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esa explicación fue la aceptada en los círculos científicos hasta los años setenta, y " +
+          "el mecanismo real de las agujetas no empezó a perfilarse hasta los ochenta. Es decir, " +
+          "no estamos ante una tontería popular: estamos ante una hipótesis científica seria que " +
+          "se quedó anticuada y que la cultura general no se ha enterado de jubilar. Cincuenta " +
+          "años después sigue en los gimnasios.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No es una tontería popular. Es una hipótesis científica de hace un siglo que se jubiló " +
+          "en los años setenta y que nadie avisó de retirar.",
+      },
+    ],
+  },
+  {
+    id: "el-chaval-y-el-helado",
+    titulo: "Por qué el agua caliente se congela antes",
+    categoria: "Ciencia",
+    color: "var(--teal)",
+    /* Serie «por-que-el-agua-caliente-se-congela-antes», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un estudiante al que su profesor humilló tiene su nombre en la física» */
+    encargo: "Un estudiante al que su profesor humilló tiene su nombre en la física",
+    fotos: [
+      {
+        local: p_el_chaval_y_el_helado,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un estudiante al que su profesor humilló tiene su nombre en la física",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se saltó un paso porque tenía prisa por coger sitio",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1963, en un internado de Tanzania, un chaval llamado Erasto Mpemba estaba haciendo " +
+          "helado casero en clase de cocina. La receta era sencilla: hervir leche con azúcar, " +
+          "dejarla enfriar y meterla en el congelador. El problema era que había un solo " +
+          "congelador y muchos alumnos, y ese día el sitio se estaba acabando.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Mpemba se saltó el paso de dejar enfriar. Metió su mezcla directamente hirviendo, " +
+          "junto a las bandejas de sus compañeros, que habían hecho las cosas bien. Y cuando " +
+          "fueron a mirar, la suya se había convertido en helado mientras las demás seguían " +
+          "siendo un líquido espeso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Le preguntó a su profesor de ciencias cómo era posible aquello. La respuesta que " +
+          "recibió está registrada y es de esas que a uno le gustaría no haber dado: le dijo que " +
+          "eso sería la física de Mpemba, no la física universal. La frase se convirtió en la " +
+          "broma de la clase, y a partir de entonces, cada vez que el chaval se equivocaba en " +
+          "algo, sus compañeros lo atribuían a las matemáticas de Mpemba o a la física de Mpemba.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "«Eso será la física de Mpemba, no la física universal». Es lo que le contestó su " +
+          "profesor, y hoy el efecto se llama así.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo que hizo después es lo que merece contarse",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo interesante de la historia no es la anécdota del helado, que es una casualidad. Es " +
+          "lo que hizo el chico con la burla, que fue exactamente lo contrario de lo que hace " +
+          "casi todo el mundo: en vez de dejarlo estar, repitió el experimento. Y no ya con leche " +
+          "y azúcar, sino con agua, que era la manera de quitar de en medio los ingredientes y " +
+          "quedarse con el fenómeno limpio. Siguió obteniendo el mismo resultado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un tiempo después, un físico llamado Denis Osborne visitó el instituto para dar una " +
+          "charla, y al terminar Mpemba le hizo la pregunta delante de todos. Y aquí está el " +
+          "segundo personaje de la historia, porque Osborne podría haberse reído igual que el " +
+          "profesor y no lo hizo: le pareció un asunto interesante, le dijo que no lo sabía y se " +
+          "lo llevó al laboratorio de la Universidad de Dar es Salaam para comprobarlo en serio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1969 publicaron juntos un artículo en una revista de enseñanza de la física, " +
+          "firmado por los dos, alumno y científico. De ahí viene el nombre con el que el " +
+          "fenómeno se conoce en todo el mundo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene añadir un detalle que le quita solemnidad al asunto y no se la quita al " +
+          "chico. La observación no era nueva en absoluto: Aristóteles ya la había recogido, y " +
+          "siglos después la mencionaron también Francis Bacon y René Descartes. Llevaba más de " +
+          "dos mil años apareciendo y desapareciendo de los textos sin que nadie la resolviera. " +
+          "Lo que hizo Mpemba fue devolverla al laboratorio, y lo hizo desde el peor sitio " +
+          "posible para que te tomen en serio.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Aristóteles ya lo había escrito. Hicieron falta dos mil trescientos años y un " +
+          "adolescente al que se rieron para que alguien lo midiera.",
+      },
+    ],
+  },
+  {
+    id: "el-cafe-no-te-da-energia",
+    titulo: "Por qué el café te despierta",
+    categoria: "Cuerpo humano",
+    color: "var(--teal)",
+    /* Serie «por-que-el-cafe-te-despierta», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El café no te da energía: te tapa el cansancio» */
+    encargo: "El café no te da energía: te tapa el cansancio",
+    fotos: [
+      {
+        local: p_el_cafe_no_te_da_energia,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El café no te da energía: te tapa el cansancio",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un poeta le regaló los granos al químico que la encontró",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La cafeína la aisló Friedlieb Ferdinand Runge en 1819, y el encargo se lo hizo Goethe. " +
+          "La escena está documentada por el propio Runge y es magnífica: el químico, que " +
+          "entonces era un desconocido, le demostró al poeta cómo un extracto de belladona " +
+          "dilataba la pupila de un gato. Goethe se quedó impresionado, le dio una caja de granos " +
+          "de café y le dijo que también podía usarlos en sus investigaciones. Unos meses " +
+          "después, Runge había aislado la sustancia.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Doscientos años más tarde es la droga psicoactiva más consumida del planeta, y casi " +
+          "todo el mundo se equivoca sobre lo que hace. La creencia general es que aporta " +
+          "energía, que es una especie de gasolina que le echas al organismo por la mañana. Y no " +
+          "es eso en absoluto: la cafeína no aporta absolutamente nada. Lo que hace es impedir " +
+          "que te enteres de lo cansado que estás.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para entenderlo hay que conocer a la molécula a la que le roba el sitio. Se llama " +
+          "<strong>adenosina</strong>, y es un producto del propio funcionamiento de tus " +
+          "neuronas: cuanto más rato llevas despierto y más trabaja tu cerebro, más adenosina se " +
+          "va acumulando. Esa adenosina se acopla a unos receptores concretos de las neuronas y, " +
+          "al hacerlo, las frena. Ese frenado es exactamente la sensación de sueño. La adenosina " +
+          "es el contador que lleva la cuenta de cuánto llevas funcionando, y el sueño es la " +
+          "factura.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La cafeína se parece lo bastante a la adenosina como para encajar en esos mismos " +
+          "receptores, pero no lo bastante como para activarlos. Entra, ocupa el sitio y no hace " +
+          "nada, como una llave que entra en la cerradura y no gira. Mientras esté ahí, la " +
+          "adenosina que llega no encuentra dónde acoplarse y el freno no se aplica.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La cafeína no te acelera. Ocupa el sitio donde tendría que acoplarse la señal de " +
+          "sueño, y esa señal no llega.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El cansancio sigue acumulándose detrás de la puerta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y aquí está la parte que casi nadie tiene en cuenta, que es lo que ocurre con la " +
+          "adenosina bloqueada. Porque no desaparece: sigue produciéndose y sigue acumulándose " +
+          "todo el rato que dura el efecto, solo que no puede acoplarse a ningún sitio y por " +
+          "tanto no la notas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando el hígado va metabolizando la cafeína y los receptores empiezan a quedarse " +
+          "libres, toda esa adenosina acumulada durante horas encuentra sitio de golpe. Y de " +
+          "golpe es la expresión exacta: no vuelves al nivel de cansancio que tenías antes del " +
+          "café, sino al que te correspondería por todo el tiempo transcurrido, entregado de una " +
+          "vez. Eso es el bajón de media tarde, y no es que el café «se gaste»: es la factura que " +
+          "se había quedado esperando en el buzón.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese es también el motivo por el que un café a última hora sale caro aunque te ayude en " +
+          "el momento. La cafeína tiene una vida media de unas cinco horas, lo que significa que " +
+          "la mitad de lo que te tomaste a las cuatro de la tarde sigue circulando a las nueve de " +
+          "la noche, y una cuarta parte a las dos de la madrugada. No está haciendo nada bueno " +
+          "por ti a esas horas; simplemente sigue ocupando receptores.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El bajón de la tarde no es que se te acabe el café. Es toda la adenosina que se había " +
+          "quedado esperando, entrando a la vez.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Con el consumo habitual, el cerebro responde a ese bloqueo permanente " +
+          "fabricando más receptores de adenosina, para compensar. Eso explica las dos cosas que " +
+          "le pasan a cualquier cafetero: que cada vez necesite más para notar lo mismo, y que el " +
+          "día que no lo toma le duela la cabeza y se sienta hecho polvo. No es que el café le " +
+          "siente bien; es que ya solo con él llega a su estado normal.",
       },
     ],
   },
@@ -744,6 +1318,117 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "tres-preguntas-tres-ganadores",
+    titulo: "Por qué el Everest no es la más alta",
+    categoria: "Planeta Tierra",
+    color: "var(--teal)",
+    /* Serie «por-que-el-everest-no-es-la-mas-alta», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El Everest solo gana una de las tres maneras de medir» */
+    encargo: "El Everest solo gana una de las tres maneras de medir",
+    fotos: [
+      {
+        local: p_tres_preguntas_tres_ganadores,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El Everest solo gana una de las tres maneras de medir",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La pregunta parece una sola y en realidad son tres",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "«¿Cuál es la montaña más alta del mundo?» suena a pregunta con una respuesta, de esas " +
+          "que vienen en los libros de récords y no admiten discusión. Pero esconde una trampa " +
+          "que nadie señala, y es que no dice desde dónde se mide. Y resulta que hay tres formas " +
+          "razonables de medir la altura de una montaña, cada una responde a una pregunta " +
+          "distinta, y cada una tiene un ganador diferente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La primera es la que todos damos por supuesta: <strong>la altura sobre el nivel del " +
+          "mar</strong>. Ahí gana el Everest, con unos 8.848 metros, y por eso es el que sale en " +
+          "los libros. Es la medida que le importa a un montañero, porque es la que determina " +
+          "cuánto oxígeno hay arriba y lo que cuesta llegar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La segunda es la que usaría cualquiera que mirase una montaña como se mira un " +
+          "edificio: <strong>desde su base hasta su cumbre</strong>. Y ahí el Everest pierde, " +
+          "porque su base ya está a más de cinco mil metros de altitud, sobre una meseta que le " +
+          "regala la mitad del trabajo. El ganador es el Mauna Kea, en Hawái, que sobresale del " +
+          "agua solo unos 4.200 metros pero cuya base está en el fondo del Pacífico. Medido " +
+          "entero, de base a cumbre, pasa de los diez mil metros y le saca más de un kilómetro al " +
+          "Everest. Lo que ocurre es que casi todo el edificio está bajo el agua.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y la tercera es la que haría alguien que mirase el planeta desde fuera: <strong>qué " +
+          "punto está más lejos del centro de la Tierra</strong>. Ahí no gana ninguno de los dos.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Tres formas de medir una montaña y tres ganadores distintos. El Everest solo gana en " +
+          "una.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El punto más alejado del centro está en Ecuador",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El tercer ganador es el Chimborazo, un volcán de Ecuador que se queda en 6.268 metros " +
+          "sobre el nivel del mar, es decir, más de dos kilómetros y medio por debajo del " +
+          "Everest. Y aun así, su cumbre está <strong>2.072 metros más lejos del centro de la " +
+          "Tierra</strong> que la del Everest.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación es que la Tierra no es una esfera. Gira, y esa rotación la abomba por " +
+          "el ecuador, dejándola más ancha por la cintura que de polo a polo. La diferencia es de " +
+          "unos veintiún kilómetros, que sobre el tamaño del planeta es poco en proporción y es " +
+          "muchísimo comparado con cualquier montaña. El Chimborazo está prácticamente encima de " +
+          "esa panza, a un grado del ecuador, y el Everest está bastante más al norte, sobre una " +
+          "zona del planeta que ya se ha estrechado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Así que el Chimborazo parte con una ventaja enorme antes de empezar a subir: el suelo " +
+          "sobre el que se apoya ya está más lejos del centro que la cumbre del Everest. Es una " +
+          "carrera en la que uno de los dos empieza dos kilómetros por delante.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y de ahí sale la frase que mejor lo resume: la cumbre del Chimborazo es el punto de la " +
+          "superficie terrestre más cercano al espacio. Si te subes ahí, ningún ser humano en el " +
+          "planeta está en ese momento más lejos del centro de la Tierra que tú, ni siquiera el " +
+          "que esté haciendo cumbre en el Everest.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El Chimborazo es dos kilómetros y medio más bajo que el Everest, y su cumbre está dos " +
+          "kilómetros más lejos del centro del planeta.",
+      },
+    ],
+  },
+  {
     id: "la-sal-no-viene-del-mar",
     titulo: "Por qué el mar es salado",
     categoria: "Planeta Tierra",
@@ -846,6 +1531,224 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Toda la sal del océano, repartida sobre las tierras emergidas, formaría una capa de " +
           "más de ciento sesenta metros.",
+      },
+    ],
+  },
+  {
+    id: "los-dias-no-los-anos-si",
+    titulo: "Por qué el tiempo pasa más rápido",
+    categoria: "Cuerpo humano",
+    color: "var(--plum)",
+    /* Serie «por-que-el-tiempo-pasa-mas-rapido», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Los días no se te pasan más rápido: se te pasan los años» */
+    encargo: "Los días no se te pasan más rápido: se te pasan los años",
+    fotos: [
+      {
+        local: p_los_dias_no_los_anos_si,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Los días no se te pasan más rápido: se te pasan los años",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una contradicción que casi nadie nota",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay una frase que la gente repite sin darse cuenta de que se contradice: que los días " +
+          "se hacen eternos y los años vuelan. Un martes cualquiera de febrero puede resultar " +
+          "interminable, y sin embargo diciembre llega con la sensación de que el año entero ha " +
+          "durado tres semanas. Las dos cosas se dicen a la vez y las dos se sienten como verdad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No es una contradicción: son dos operaciones distintas del cerebro. Una es la " +
+          "percepción del tiempo <strong>mientras pasa</strong>, que depende sobre todo de cuánta " +
+          "atención le estás prestando al propio paso del tiempo; por eso una cola aburrida se " +
+          "hace larguísima y una conversación buena se pasa volando, y por eso mirar el reloj lo " +
+          "empeora todo. La otra es el juicio <strong>retrospectivo</strong>, la estimación que " +
+          "haces al mirar hacia atrás sobre cuánto ha durado un periodo que ya terminó. Y es en " +
+          "esta segunda donde ocurre lo de la edad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación clásica de por qué los años se aceleran la propuso el filósofo Paul " +
+          "Janet en 1877, y es puramente aritmética. Cada año que vives es una fracción menor de " +
+          "todo lo que has vivido. Para un niño de cinco años, un año es la quinta parte de su " +
+          "vida entera, un bloque enorme. Para alguien de cincuenta es la quincuagésima parte, un " +
+          "dos por ciento. Si el cerebro mide los periodos en proporción a lo que ya tiene " +
+          "almacenado, cada año se va empequeñeciendo por pura división.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un año es el veinte por ciento de la vida de un niño de cinco años. Para uno de " +
+          "cincuenta es el dos por ciento.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y ahora la parte incómoda: el efecto es más pequeño de lo que crees",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La teoría proporcional es elegante, se cuenta muy bien y tiene un problema serio: no " +
+          "la respalda gran cosa. Es una analogía matemática, no un mecanismo. Nadie ha " +
+          "demostrado que el cerebro divida periodos entre la edad, y de hecho la explicación " +
+          "predice una aceleración suave y constante que no encaja del todo con lo que la gente " +
+          "describe.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pero el problema mayor está antes, y afecta al fenómeno entero. En 2005, Marc Wittmann " +
+          "y Sandra Lehnhoff hicieron el estudio que faltaba: preguntaron a <strong>499 personas " +
+          "de entre catorce y noventa y cuatro años</strong> por su percepción del paso del " +
+          "tiempo, tanto en el momento como en retrospectiva. El resultado confirma que la " +
+          "sensación existe y que efectivamente aumenta con la edad. Y añade un dato que casi " +
+          "nunca se cita: la edad explicaba, como mucho, un diez por ciento de la variación entre " +
+          "unas personas y otras.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Léelo despacio, porque cambia bastante el tamaño del asunto. El noventa por ciento " +
+          "restante de la diferencia entre una persona que siente que el tiempo vuela y otra que " +
+          "no depende de otras cosas: de cómo vive, de cuánta presión tiene, de a qué dedica los " +
+          "días. La edad participa, pero no manda. Los propios autores advierten de que sus " +
+          "interpretaciones hay que tomarlas con cautela por las limitaciones del método.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "O sea que la frase «cuanto mayor eres, más rápido se te pasa el tiempo» es cierta como " +
+          "tendencia general y bastante floja como explicación de tu caso concreto. Es un efecto " +
+          "real y modesto que se cuenta habitualmente como si fuera una ley.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La edad explica como mucho un diez por ciento de la diferencia. El otro noventa " +
+          "depende de cómo vives, no de los años que tienes.",
+      },
+    ],
+  },
+  {
+    id: "una-molecula-a-partir-de-los-cuarenta",
+    titulo: "Por qué la gente mayor huele distinto",
+    categoria: "Cuerpo humano",
+    color: "var(--slate)",
+    /* Serie «por-que-la-gente-mayor-huele-distinto», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Hay una molécula que solo aparece a partir de los cuarenta» */
+    encargo: "Hay una molécula que solo aparece a partir de los cuarenta",
+    fotos: [
+      {
+        local: p_una_molecula_a_partir_de_los_cuarenta,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Hay una molécula que solo aparece a partir de los cuarenta",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que parecía una impresión resultó ser un compuesto concreto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Que la gente mayor huele de una manera particular es de esas cosas que todo el mundo " +
+          "ha notado alguna vez y casi nadie dice en voz alta. Y lo interesante es que durante " +
+          "mucho tiempo se quedó exactamente ahí, en el terreno de la impresión subjetiva y la " +
+          "incomodidad social, sin que nadie se molestara en comprobar si había algo medible " +
+          "detrás.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo hubo. En 2001, un equipo japonés dirigido por Shinichiro Haze publicó en el " +
+          "<em>Journal of Investigative Dermatology</em> el resultado de analizar el olor " +
+          "corporal de personas de entre veintiséis y setenta y cinco años. Buscaban diferencias " +
+          "químicas asociadas a la edad, y encontraron una muy limpia: un compuesto llamado " +
+          "<strong>2-nonenal</strong>, un aldehído insaturado que describen con un olor grasiento " +
+          "y herbáceo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El dato que lo convierte en un hallazgo y no en una curiosidad es dónde aparecía. El " +
+          "2-nonenal se detectó <strong>únicamente en los sujetos de cuarenta años o " +
+          "más</strong>. En los más jóvenes no estaba, y no es que estuviera en menor cantidad: " +
+          "no aparecía. Hay un compuesto que sencillamente no formaba parte de tu olor y que en " +
+          "algún momento empieza a formar parte de él.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No es una impresión ni un prejuicio. Es una molécula concreta que en los menores de " +
+          "cuarenta no aparece.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y sale de la piel oxidándose",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El mecanismo también quedó bastante claro en el mismo trabajo, y no tiene nada que ver " +
+          "con la higiene, que es lo primero que la gente supone.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la superficie de la piel hay una capa de lípidos, grasas que el propio cuerpo " +
+          "segrega y que cumplen su función protectora. Con la edad cambia la composición de esa " +
+          "capa: aumentan unos ácidos grasos insaturados concretos, los llamados omega-7, y " +
+          "aumentan también los peróxidos lipídicos, que son el producto de que esas grasas se " +
+          "vayan oxidando. Los dos crecen con los años, y el estudio encontró que los niveles de " +
+          "2-nonenal correlacionan con ambos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La cadena completa es sencilla: la piel acumula un tipo de grasa que antes tenía en " +
+          "menor cantidad, esa grasa se oxida al contacto con el aire, y de esa degradación " +
+          "oxidativa sale el 2-nonenal. Es decir, el olor no lo produce ninguna glándula ni " +
+          "ninguna bacteria: se produce en la superficie, por oxidación, más o menos igual que se " +
+          "pone rancio un aceite. Y por eso no se quita frotando: no es suciedad acumulada, es " +
+          "química ocurriendo encima.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un apunte cultural que dice bastante sobre por qué el estudio salió de allí y no de " +
+          "otro sitio. En japonés existe una palabra para esto, <em>kareishu</em>, que se podría " +
+          "traducir como olor de la edad, y no es un término técnico sino corriente. Hay toda una " +
+          "categoría de productos de higiene dirigida específicamente a ese compuesto, y el " +
+          "equipo que publicó el trabajo venía del sector de la cosmética. En otras culturas el " +
+          "fenómeno se percibe igual y no se nombra, que es probablemente el motivo de que " +
+          "tardara tanto en estudiarse.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No es suciedad ni falta de higiene. Es grasa de la piel oxidándose, más parecido a un " +
+          "aceite que se pone rancio que a nada que se quite frotando.",
       },
     ],
   },
@@ -1409,6 +2312,116 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "no-invierten-izquierda-derecha",
+    titulo: "Por qué los espejos invierten",
+    categoria: "Ciencia",
+    color: "var(--plum)",
+    /* Serie «por-que-los-espejos-invierten», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El espejo no te cambia la izquierda por la derecha» */
+    encargo: "El espejo no te cambia la izquierda por la derecha",
+    fotos: [
+      {
+        local: p_no_invierten_izquierda_derecha,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El espejo no te cambia la izquierda por la derecha",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La pregunta lleva mal planteada desde el principio",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay un acertijo clásico que la gente lleva siglos sin resolver del todo: si el espejo " +
+          "invierte la izquierda y la derecha, ¿por qué no invierte también arriba y abajo? Tu " +
+          "reflejo levanta la mano contraria, sí, pero no está boca abajo. Un espejo no debería " +
+          "tener preferencias entre unos ejes y otros, así que algo no cuadra.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y no cuadra porque la pregunta parte de un error. El espejo <strong>no invierte la " +
+          "izquierda y la derecha</strong>. Tampoco invierte arriba y abajo. Solo invierte un " +
+          "eje, y es el único que nadie menciona: el de delante y detrás, la profundidad, la " +
+          "dirección perpendicular al cristal.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La demostración más limpia la propuso Richard Feynman y se hace en diez segundos " +
+          "delante de cualquier espejo. Ponte enfrente y señala hacia el este, es decir, hacia " +
+          "uno de los lados, paralelo al cristal. Tu reflejo señala <strong>también hacia el " +
+          "este</strong>, no hacia el oeste. Señala hacia arriba: tu reflejo señala hacia arriba. " +
+          "Y ahora señala hacia el propio espejo, de frente. Tu reflejo señala hacia ti, es " +
+          "decir, en la dirección contraria.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está toda la respuesta. Dos de los tres ejes se conservan intactos y solo uno se " +
+          "da la vuelta, y es precisamente el que va de tu pecho al cristal. El espejo no elige " +
+          "entre izquierda y derecha, ni entre arriba y abajo, porque no toca ninguno de los dos.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Señala a un lado y tu reflejo señala al mismo lado. Señala al espejo y señala al " +
+          "revés. Solo se invierte un eje, y es la profundidad.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Tu reflejo no es una persona que se ha dado la vuelta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si el espejo solo invierte la profundidad, ¿de dónde sale la sensación tan clara de " +
+          "que te ha cambiado las manos? De una suposición que haces sin darte cuenta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando miras tu reflejo, tu cerebro lo interpreta como si fuera otra persona plantada " +
+          "delante de ti. Y para que otra persona esté delante de ti mirándote, ha tenido que " +
+          "<strong>girar sobre sí misma</strong>. Ese giro, que ocurre solo en tu cabeza, es el " +
+          "que cambia la izquierda por la derecha. El espejo no lo ha hecho; lo has hecho tú al " +
+          "imaginarte a alguien dándose la vuelta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que hay en el cristal es otra cosa, y es bastante más rara. Tu reflejo no es una " +
+          "copia tuya girada: es una copia tuya <strong>invertida en profundidad</strong>, como " +
+          "si te hubieran vuelto del revés igual que un guante. Es una figura que no existe en el " +
+          "mundo real y que no se puede obtener girando nada. Por eso, aunque parezca un tipo " +
+          "mirándote, no podrías fabricarlo ni con un gemelo idéntico.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahí está la prueba de que las manos no se han cambiado: si levantas la mano derecha, " +
+          "la mano que se levanta en el espejo está <strong>en el mismo lado del espacio</strong> " +
+          "que la tuya. No se ha movido de sitio. Lo único que ocurre es que, en una persona que " +
+          "estuviera realmente ahí mirándote de frente, esa posición correspondería a su mano " +
+          "izquierda. Estás aplicando a la imagen las reglas de un cuerpo que no está.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La mano del espejo está en el mismo lado del espacio que la tuya. Solo la llamas «la " +
+          "otra» porque imaginas a alguien girado.",
+      },
+    ],
+  },
+  {
     id: "un-flamenco-nace-gris",
     titulo: "Por qué los flamencos son rosas",
     categoria: "Naturaleza",
@@ -1875,6 +2888,118 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "el-picor-lo-pones-tu",
+    titulo: "Por qué pica la picadura de mosquito",
+    categoria: "Cuerpo humano",
+    color: "var(--ochre)",
+    /* Serie «por-que-pica-la-picadura-de-mosquito», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El picor de la picadura lo pones tú, no el mosquito» */
+    encargo: "El picor de la picadura lo pones tú, no el mosquito",
+    fotos: [
+      {
+        local: p_el_picor_lo_pones_tu,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El picor de la picadura lo pones tú, no el mosquito",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El pinchazo no duele, y eso ya es una pista",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Empecemos por algo que casi nadie se para a pensar: no notas la picadura mientras " +
+          "ocurre. Un mosquito te clava un aparato bucal en la piel, perfora hasta encontrar un " +
+          "capilar y se pasa un rato considerable bombeando sangre, y tú, mientras tanto, no " +
+          "sientes absolutamente nada. Solo te enteras después, cuando ya se ha ido.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Eso no es casualidad ni mala suerte: es diseño. Un insecto que necesita quedarse " +
+          "quieto sobre un animal grande durante casi un minuto no puede permitirse que lo noten, " +
+          "así que su saliva lleva un cóctel bastante sofisticado. Hay anticoagulantes, para que " +
+          "la sangre no se le coagule dentro del tubo mientras bebe. Hay vasodilatadores, para " +
+          "que el capilar se abra y el flujo sea más generoso. Y hay compuestos que reducen la " +
+          "sensación local durante el proceso. Todo eso lo inyecta antes y durante, y todo eso se " +
+          "queda dentro de tu piel cuando termina.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está la respuesta a la pregunta. Lo que te pica no es el agujero, que es minúsculo " +
+          "y se cierra solo. Lo que te pica es lo que se quedó dentro: unas cuantas proteínas " +
+          "ajenas repartidas en tu tejido.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por cierto, quien te pica es siempre una hembra. Los machos no pican a nadie y se " +
+          "alimentan de néctar; ellas necesitan las proteínas de la sangre para poder producir " +
+          "los huevos, y por eso pinchan.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No notas el pinchazo porque el mosquito ha invertido en que no lo notes. Lo que sí " +
+          "notas es lo que dejó dentro.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Tu sistema inmunitario monta una respuesta desproporcionada",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando tu organismo detecta esas proteínas extrañas, hace lo que hace siempre ante " +
+          "algo ajeno: reacciona. Y en este caso reacciona bastante más de lo que el problema " +
+          "merece.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La saliva del mosquito activa a los mastocitos de tu piel, unas células que guardan " +
+          "gránulos cargados de <strong>histamina</strong> y de otros mediadores inflamatorios. " +
+          "Al activarse los sueltan de golpe. La histamina dilata los vasos de la zona, que es lo " +
+          "que produce el enrojecimiento; aumenta la permeabilidad de esos vasos, así que sale " +
+          "líquido al tejido y se forma el habón hinchado; y estimula directamente las " +
+          "terminaciones nerviosas responsables del picor.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay varias vías por las que puede ocurrir. En una, el cuerpo ha fabricado anticuerpos " +
+          "de tipo IgE contra las proteínas de esa saliva y son ellos los que disparan a los " +
+          "mastocitos, que es el mismo mecanismo de una alergia clásica. En otra, ciertos " +
+          "componentes de la saliva activan a los mastocitos directamente. Y hay además rutas de " +
+          "picor que no dependen de la histamina, razón por la cual un antihistamínico ayuda pero " +
+          "no siempre lo apaga del todo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El resumen es incómodo pero exacto: el mosquito te quitó una gota de sangre y se fue, " +
+          "y el bulto rojo que llevas tres días rascándote lo has fabricado tú entero. Ni la " +
+          "hinchazón, ni el rojo, ni el picor vienen del insecto. Vienen de tu respuesta a algo " +
+          "que ya no está haciendo nada.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El mosquito se llevó una gota de sangre. El bulto, el rojo y el picor los has " +
+          "fabricado tú.",
+      },
+    ],
+  },
+  {
     id: "un-patinador-no-derrite-el-hielo",
     titulo: "Por qué resbala el hielo",
     categoria: "Ciencia",
@@ -2109,6 +3234,119 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "el-pan-duro-no-se-ha-secado",
+    titulo: "Por qué se pone duro el pan",
+    categoria: "Cocina",
+    color: "var(--slate)",
+    /* Serie «por-que-se-pone-duro-el-pan», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El pan duro no se ha secado» */
+    encargo: "El pan duro no se ha secado",
+    fotos: [
+      {
+        local: p_el_pan_duro_no_se_ha_secado,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El pan duro no se ha secado",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La prueba está en que se puede resucitar con calor",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Todo el mundo explica el pan duro de la misma manera: se ha secado, ha perdido el " +
+          "agua, se ha quedado sin humedad. Es la respuesta inmediata y encaja perfectamente con " +
+          "la sensación al morderlo, que es de sequedad y de textura correosa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay una manera muy simple de comprobar que no es eso. Coge una barra de ayer, dura " +
+          "como una piedra, y métela unos minutos en el horno. Sale blanda otra vez, con la miga " +
+          "tierna y la corteza crujiente, casi como recién hecha. El efecto no dura mucho y a las " +
+          "pocas horas vuelve a endurecerse, pero mientras dura es real.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora piensa en lo que acabas de hacer. Has metido en un horno un producto " +
+          "supuestamente reseco, has aplicado calor —que es exactamente lo que se usa para " +
+          "deshidratar cosas— y ha salido más blando. Si el problema hubiera sido la falta de " +
+          "agua, el horno tendría que haberlo empeorado. Nada de lo que has secado alguna vez se " +
+          "rehidrata metiéndolo en el horno.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Así que la explicación de la sequedad no se sostiene. El pan de ayer conserva buena " +
+          "parte del agua que tenía; lo que ha cambiado es dónde está y cómo está colocada.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Metes en el horno algo supuestamente reseco y sale más blando. Si fuera falta de agua, " +
+          "el horno tendría que empeorarlo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo que pasa se llama retrogradación, y es un problema de orden",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que endurece el pan es un fenómeno del almidón, que es el componente mayoritario de " +
+          "la harina. Y para entenderlo hay que ver qué le hizo el horneado la primera vez.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El almidón crudo está formado por gránulos con sus moléculas empaquetadas de forma " +
+          "ordenada, casi cristalina. Al hornear, con calor y agua, esos gránulos se hinchan y " +
+          "esa estructura ordenada se deshace: las moléculas se desordenan, se separan y retienen " +
+          "agua entre ellas. Eso es lo que da la textura blanda y esponjosa de un pan recién " +
+          "hecho. La miga tierna es almidón desordenado y lleno de agua.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema es que ese desorden es un estado inestable. En cuanto el pan se enfría, " +
+          "las moléculas empiezan poco a poco a recolocarse en su disposición ordenada de " +
+          "siempre, y al hacerlo expulsan el agua que tenían entre ellas. Esa agua no se va del " +
+          "pan: migra fuera de los gránulos y se reparte por otros huecos de la miga, e incluso " +
+          "hacia la corteza, que por eso pierde el crujiente y se ablanda al mismo tiempo que la " +
+          "miga se endurece. Los técnicos lo llaman <strong>retrogradación</strong> del almidón.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahí encaja lo del horno. Al calentar, le devuelves energía al sistema y las " +
+          "moléculas vuelven a desordenarse parcialmente, recuperando la textura. No has añadido " +
+          "agua: has vuelto a desordenar lo que se había ordenado. Por eso funciona, y por eso el " +
+          "efecto es temporal, porque en cuanto se enfría empieza a recolocarse otra vez.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Dicho en corto: el pan duro no es pan seco. Es pan al que se le ha ordenado el " +
+          "almidón.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La miga blanda es almidón desordenado reteniendo agua. Al enfriarse se recoloca y " +
+          "suelta esa agua. Eso, y no la sequedad, es el pan duro.",
+      },
+    ],
+  },
+  {
     id: "no-es-falta-de-riego",
     titulo: "Por qué se te duerme una pierna",
     categoria: "Cuerpo humano",
@@ -2319,6 +3557,119 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "El conductor no se marea porque anticipa cada curva. Su cerebro sabe lo que va a pasar " +
           "antes de que su cuerpo lo sienta.",
+      },
+    ],
+  },
+  {
+    id: "la-cicatriz-de-un-dano",
+    titulo: "Por qué te pones moreno",
+    categoria: "Cuerpo humano",
+    color: "var(--sage)",
+    /* Serie «por-que-te-pones-moreno», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El bronceado es la señal de un daño que ya está hecho» */
+    encargo: "El bronceado es la señal de un daño que ya está hecho",
+    fotos: [
+      {
+        local: p_la_cicatriz_de_un_dano,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El bronceado es la señal de un daño que ya está hecho",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El orden de los acontecimientos lo cambia todo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Solemos pensar en el bronceado como en una adaptación agradable: te da el sol, la piel " +
+          "se pone morena y ese moreno te protege. Un mecanismo de defensa que se activa cuando " +
+          "hace falta, más o menos como sudar cuando hace calor.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El orden real de los acontecimientos es otro, y conviene mirarlo despacio porque lo " +
+          "cambia todo. La radiación ultravioleta llega a la piel y atraviesa las capas " +
+          "superiores hasta alcanzar el núcleo de las células, donde está el ADN. Ahí produce " +
+          "lesiones concretas: fragmentos de la cadena que se sueldan mal entre sí y estropean la " +
+          "información. Eso ocurre <strong>antes</strong> de que empiece nada más, y ocurre desde " +
+          "el primer minuto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es entonces cuando la célula detecta el destrozo y activa su sistema de respuesta al " +
+          "daño, en el que participa la proteína p53, la misma que se ocupa de vigilar la " +
+          "integridad del ADN en todo el cuerpo. Y una de las órdenes que salen de ahí es avisar " +
+          "a los melanocitos, las células que fabrican pigmento, para que se pongan a producir " +
+          "<strong>melanina</strong>. Esa melanina se reparte a las células vecinas, que la " +
+          "colocan formando una especie de sombrilla justo encima de sus núcleos, protegiendo el " +
+          "ADN de lo que venga después.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Así que el bronceado no precede al daño: lo sigue. Es la reacción, no el escudo. " +
+          "Cuando te ves moreno estás viendo el resultado visible de una alarma que saltó porque " +
+          "algo ya se había roto dentro.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Primero se daña el ADN y después llega el color. El moreno no evitó nada: es la prueba " +
+          "de que hubo algo que reparar.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Por eso tarda días en salir",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay un detalle cotidiano que encaja con esto y que casi nadie relaciona: que el " +
+          "bronceado de verdad no aparece el mismo día. Vuelves de la playa rojo o ligeramente " +
+          "tostado, y el color bueno, el que dura, sale a los dos o tres días.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese retraso es exactamente lo que cabe esperar de una respuesta biológica y no de un " +
+          "filtro. Hay que detectar el daño, activar la vía de señalización, avisar a los " +
+          "melanocitos, fabricar el pigmento y repartirlo célula a célula. Eso lleva días. Un " +
+          "filtro que se activara con la luz actuaría al instante; una respuesta que hay que " +
+          "montar, no.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Sí existe un oscurecimiento inmediato, que es el que notas al salir del agua, pero es " +
+          "otra cosa: es la melanina que ya tenías oxidándose por efecto de la radiación. Cambia " +
+          "de tono en minutos, no implica pigmento nuevo, se va en horas y no aporta protección " +
+          "apreciable. El moreno de verdad, el que se construye, viene después y viene con " +
+          "factura.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay una consecuencia lógica que merece decirse en voz alta, porque va contra el " +
+          "sentido común de casi todo el mundo. Si el bronceado es la respuesta a una lesión en " +
+          "el ADN, entonces <strong>no existe un bronceado sano</strong>. Puede haber uno que " +
+          "duela poco y otro que duela mucho, pero para producir cualquiera de los dos ha tenido " +
+          "que haber daño primero. La cantidad varía; el mecanismo no.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El moreno tarda días en salir porque hay que fabricarlo. Un filtro actuaría al " +
+          "instante; una reparación, no.",
       },
     ],
   },

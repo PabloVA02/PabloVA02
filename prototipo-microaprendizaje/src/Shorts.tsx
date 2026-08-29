@@ -923,6 +923,15 @@ function parteBloque(
 
        El renglón que manda es el del cuerpo y no el del bloque: lo que hay
        que llenar es un margen de la hoja, no de la caja del rayo. */
+    /* PERO SOLO EL ⚡ Y EL 💡, no todo lo que no se parte. Un `rotulo` también
+       entra por aquí, y estirarlo es justo lo que Pablo prohibió sin matices:
+       «un ## nunca se queda solo al final de una página». Estuvo media hora
+       incluido y dejó un subtítulo colgando al pie de la 2 de «Por qué la
+       gente mayor huele distinto» —lo cantó `huerfanas.mjs`—: el rótulo se
+       pasaba de la caja por medio renglón, se daba por colocado y se quedaba
+       ahí solo en vez de bajar con su párrafo. El estirón es para cerrar el
+       hueco que deja una nota que no cabe, no para colar un título. */
+    if (b.b !== "rayo" && b.b !== "dato") return null;
     const padre = el.parentElement;
     const renglon = padre ? parseFloat(getComputedStyle(padre).lineHeight) || 0 : 0;
     if (renglon > 0 && desbordaPor() > 0 && desbordaPor() <= ESTIRA * renglon + 0.5)

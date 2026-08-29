@@ -6,8 +6,8 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts con el texto de Pablo | **85** | en 24 series; quedan 11 temas en su `COLA.md` |
-| de esos, **vivos en la app** | **25** | los otros 60 esperan portada |
+| shorts con el texto de Pablo | **106** | en 46 series |
+| de esos, **vivos en la app** | **37** | los otros 69 esperan portada |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **339** | 79 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
@@ -26,6 +26,87 @@ lo han sido desde antes del 27 de agosto —comprobado con `git show` sobre tres
 commits—, así que no se perdió ninguno, se escribió mal el número. Un dato
 inventado en este documento es peor que no tenerlo: la siguiente sesión lo lee
 como cierto y no lo vuelve a mirar.
+
+## CIENTO SEIS SHORTS, TREINTA Y SIETE VIVOS — 29 de agosto, tarde
+
+Dos envíos más: diecisiete portadas y luego los textos de once temas de su
+`COLA.md`. **106 `.md` en 46 series, 37 vivos.**
+
+### La calidad de las portadas sube, y es una orden suya
+
+> «Ya siempre sabes que las portadas deben ir a la máxima calidad que permite
+> un móvil, que se vea lo mejor posible a la mejor calidad posible.»
+
+**AVIF pasa de 65 a 80 y WebP de 85 a 90.** El 65 era su número de la primera
+tanda, de cuando todavía se pensaba en el peso; con «sin límite estricto de
+peso» escrito justo al lado, quedarse en 65 no ganaba nada. La media pasa de
+**262 a 468 kB**, dentro de lo que él llamó normal, y los degradados grandes
+—el cielo, la miel, el hielo— dejan de bandearse. Está en el `CLAUDE.md`.
+
+### CINCO IMÁGENES DE 900 PX QUE NO ENTRAN, Y POR QUÉ
+
+De las diecisiete de la segunda tanda, **cinco vienen ya en AVIF y las cinco
+miden 900 px de ancho justos**. Eso no es casualidad: es la marca de una imagen
+guardada de una vista previa —la página de resultados, el visor de un banco de
+fotos— en vez de descargada del original. La grande existe; se guardó la chica.
+
+| archivo | píxeles | 9:16 deja | falta |
+|---|---|---|---|
+| `CRUJIRSENUDILLOS.avif` | 900 × 601 | **338** | 1.102 px |
+| `Gato.avif` | 900 × 1125 | **633** | 807 px |
+| `HuellaDactilar.avif` | 900 × 1350 | **759** | 681 px |
+| `Pelirrojo.avif` | 900 × 1350 | **759** | 681 px |
+| `Resaca.avif` | 900 × 1350 | **759** | 681 px |
+
+Estirar la de los nudillos cuatro veces es exactamente lo contrario de lo que
+acaba de pedir, así que **no entran**. Están en `originales/sin-asignar/` con
+su README explicándolo. **La urgente es la de los nudillos**, porque su texto ya
+está escrito y es lo único que le falta para salir.
+
+Y de ahí sale una regla que ahora está en el `CLAUDE.md`: **una imagen pequeña
+no se sube «tal cual» aunque la mande él.** El guion lo canta al terminar y hay
+que mirarlo antes de dar una tanda por buena.
+
+### El estirón del ⚡ no vale para un ##
+
+Al meter estos textos, `huerfanas.mjs` cantó un subtítulo colgando al pie de la
+2 de «Por qué la gente mayor huele distinto». La causa era mía: el estirón que
+se añadió anoche para que un ⚡ que no cabe por veinte puntos no dejara medio
+hueco detrás **se estaba aplicando a todo lo que no se parte**, y un `rotulo`
+también entra por ahí. El rótulo se pasaba de la caja por medio renglón, se
+daba por colocado y se quedaba solo, que es justo lo que Pablo prohibió sin
+matices. Ahora el estirón es solo para `rayo` y `dato`.
+
+Lo cazó una comprobación, no una lectura. Vale la pena decirlo porque el fallo
+era invisible en el diario del reparto: allí todo cuadraba.
+
+### Cómo queda
+
+37 shorts vivos de 106 escritos, 190 pantallas:
+
+    huerfanas   0 palabras sueltas, 0 recortadas, mismo margen en todas
+    puntofinal  181 de 190 acaban en punto (95 %), ninguna pisa el indicador
+    rayos       72 rayos pintados, 0 partidos
+    huecos      4 pantallas pasan de 3 renglones, las cuatro por un ⚡ o un 💡
+
+### Y los dos simuladores van justos de sitio
+
+| | portadas | tamaño | tope |
+|---|---|---|---|
+| `movil.html` | 36 a 620 px | 15,6 MB | 16 |
+| `shorts.html` | 36 a 1440 px | 13,6 MB | 16 |
+
+El ancho de las portadas del simulador ha bajado de 900 a 700 y de 700 a 620 en
+un día, solo por meter shorts. **No es una pérdida de calidad donde importa**:
+los AVIF de `portadas/` siguen a 1440 y el mirador los lleva a tamaño nativo,
+que es donde se juzga un encuadre.
+
+**Pero esto se acaba.** A la siguiente tanda no cabe, y entonces toca, por este
+orden: bajar `--portadas-ancho` del mirador de 1440 a 1200, bajar
+`--cubiertas-ancho` de 296, y por último dejar shorts fuera del simulador, que
+es lo que Pablo autorizó —«si no caben borras las que teníamos, que esas ya he
+comprobado que están bien»—. Los `.md` y los AVIF no se borran nunca: lo que se
+recorta es el escaparate.
 
 ## OCHENTA Y CINCO SHORTS, VEINTICINCO VIVOS — 29 de agosto de 2026
 
@@ -1385,7 +1466,27 @@ El paso 5 no se puede saltar: `mete-cubiertas.mjs` deja un texto de relleno y
 inventa: se hace una hoja de contacto de doce en doce y se describe lo que se
 ve.
 
-Los cuatro sitios, y qué va en cada uno:
+### LAS ETIQUETAS DE GIT NO SE PUEDEN EMPUJAR DESDE AQUÍ
+
+Se intentó el 29 de agosto poner una etiqueta por copia —`copia-2026-08-29`—
+para poder volver a un punto sin buscar el commit. **Devuelve HTTP 403**: el
+permiso de esta sesión llega a empujar la rama y no a crear etiquetas, y
+`git ls-remote --tags` tampoco devuelve nada. No es un fallo de red y no sirve
+reintentar.
+
+Así que el punto de recuperación es **el commit**, y por eso se escriben aquí:
+
+| cuándo | commit | qué hay |
+|---|---|---|
+| 28 ago, tarde | `ddb7c65` | el paginado como un libro, con guiones |
+| 28 ago, noche | `b0bf9df` | sin guiones, cada pantalla acaba en punto |
+| 28 ago, noche | `7d26a6b` | 35 shorts escritos, 11 vivos, títulos de siempre |
+| 29 ago | `9c93893` | 85 shorts en 24 series, 25 vivos, 26 portadas |
+
+Volver a uno es `git checkout <commit>`. Si algún día se conceden etiquetas,
+esta tabla sobra y se pone una por copia.
+
+Los sitios, y qué va en cada uno:
 
 1. **GitHub**, rama `claude/app-development-xpo6fx`. Es la copia buena y
    completa. `git push -u origin claude/app-development-xpo6fx` funciona desde
@@ -1430,7 +1531,19 @@ Los cuatro sitios, y qué va en cada uno:
    por el nombre, que es el fallo del que avisa el párrafo de arriba, y
    renombrarlo cuesta una llamada.
 
-3. **El chat con Pablo.** Un `tar.gz` de la fuente enviado por el chat es la
+3. **El chat con Pablo — RETIRADO el 29 de agosto, y conviene saber por qué.**
+   La idea era buena sobre el papel: un `.tar.gz` de la fuente mandado por el
+   chat queda en su dispositivo y sobrevive a todo. En la práctica no, y lo dijo
+   él: **«yo no guardo eso que me pasas»**. Un sitio de copia que depende de que
+   alguien archive a mano un fichero de veinticinco megas cada pocas horas no es
+   un sitio de copia: es una casilla que se marca y una tranquilidad falsa, que
+   es peor que no tenerla.
+
+   Así que ya no se manda por rutina. **Se manda solo si él lo pide**, y
+   entonces con estas exclusiones —las de abajo—, sabiendo que el tope de
+   subida son 30 MB:
+
+ Un `tar.gz` de la fuente enviado por el chat es la
    copia que sobrevive a todo, porque queda en su dispositivo. **La lista de
    exclusiones ha crecido y hay que respetarla entera**, porque cada una de
    las tres carpetas gordas es reconstruible y sin ellas no sale a cuenta
@@ -1444,15 +1557,31 @@ Los cuatro sitios, y qué va en cada uno:
            --exclude='prototipo-microaprendizaje/docs' --exclude='*.mp4' \
            -czf <ruta>/curva-<fecha>.tar.gz prototipo-microaprendizaje CLAUDE.md .claude
 
-   **`originales/` se excluye desde el 28 de agosto por la noche**, y es la
-   única exclusión que NO es de una carpeta reconstruible: son las fotografías
-   sin procesar que manda Pablo. Con ellas el paquete pasa de 27 a 58 MB, que
-   por el chat ya no va, y están enteras en GitHub —commiteadas a propósito,
-   ver el `.gitignore`—. Si algún día GitHub deja de ser la copia buena, esta
-   exclusión se cae la primera.
+   **`originales/` se excluye**, y es la única exclusión que NO es de una
+   carpeta reconstruible: son las fotografías sin procesar que manda Pablo. Con
+   ellas el paquete pasa de 25 a 60 MB. Están enteras en GitHub —commiteadas a
+   propósito, ver el `.gitignore`—.
 
    **Y `.claude` entra**, que antes no: ahí vive la hoja de paginado, y es tan
    difícil de reconstruir como el `REDACCION.md`.
+
+   **De `referencia/` entra SOLO `textos-de-pablo/`.** Las ocho tandas de
+   capturas de Headway son 29 MB de PNG y no caben; los 85 `.md` suyos pesan
+   nada y son lo único de ahí que no se puede rehacer con un guion. `tar` no
+   sabe volver a incluir dentro de algo excluido, así que la lista de
+   exclusiones se genera antes:
+
+       ls -d prototipo-microaprendizaje/referencia/*/ \
+         | grep -v textos-de-pablo | sed 's|/$||' > /tmp/excluir.txt
+
+   **Y `--exclude='dist*'` con el asterisco**, que se perdió una vez al pasar a
+   `--exclude-from` y metió los 27,8 MB de `dist-uno/` sin que se notara hasta
+   pesar el resultado.
+
+   **Los `.webp` de `portadas/` también se quedan fuera**: son 9,9 MB de
+   respaldo para lo que no admita AVIF, y se rehacen con
+   `node scripts/portadas.mjs` en cuanto haya un `originales/`. Los AVIF, que
+   son el formato principal, sí van.
 
    El 27 de agosto salían 19 MB. Sin excluir `cubiertas-originales` (44 MB de
    PNG archivados) son 35, y sin excluir además `docs/` son 80. Los 19 que
