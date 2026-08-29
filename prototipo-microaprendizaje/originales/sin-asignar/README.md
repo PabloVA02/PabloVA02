@@ -38,6 +38,7 @@ portada pequeña.
 | `Resaca.avif` | 900 × 1350 | **759** | 885 | Por qué duele la resaca |
 | `VenasAzules.jpg` | 2648 × 2358 | **1326** | 318 | Por qué se ven azules las venas |
 | `CopoDeNieve.jpg` | 1944 × 2592 | **1458** | 186 | Por qué no hay dos copos iguales |
+| `NoNosAcordamos-Dormir.jpg` | 1848 × 2768 | **1557** | **87** | Por qué no recuerdas cuándo te dormiste |
 
 Los cinco primeros son casos de libro: **900 px de ancho justos y ya en AVIF**,
 que es la marca de una imagen guardada de una vista previa —la página de
@@ -48,7 +49,13 @@ La foto grande existe; lo que se guardó fue la chica.
 al recortarla a 9:16 se queda en 1326. No es que la imagen sea mala, es que no
 tiene forma de portada. Con una versión vertical de lo mismo valdría.
 
-**Las siete bloquean un short que ya está escrito.** Son lo único que les falta
+La última, la del sueño, se queda **a 87 píxeles** del listón: un 5 % de
+estirón, que es de lo que no se ve. No entra porque él dijo «si alguna no es de
+esa calidad me lo dices y no la pones», y una regla que se salta cuando el
+número aprieta poco deja de ser una regla. Pero es la primera candidata a
+entrar si dice que sí.
+
+**Las ocho bloquean un short que ya está escrito.** Son lo único que les falta
 para salir en la app, y por eso están todas apuntadas con su tema.
 
 Y hay **cuatro series más sin ninguna fotografía todavía**, que no es lo mismo

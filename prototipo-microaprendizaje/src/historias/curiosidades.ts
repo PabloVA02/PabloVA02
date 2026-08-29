@@ -5,9 +5,12 @@ import type { Short } from "../shorts";
 import p_la_costra_no_esta_curando_nada from "../../portadas/la-costra-no-esta-curando-nada.avif";
 import p_la_gravedad_no_es_una_fuerza from "../../portadas/la-gravedad-no-es-una-fuerza.avif";
 import p_como_se_forma_dentro_de_una_gota from "../../portadas/como-se-forma-dentro-de-una-gota.avif";
+import p_el_vino_se_hace_solo_y_lo_traen_las_avispas from "../../portadas/el-vino-se-hace-solo-y-lo-traen-las-avispas.avif";
+import p_la_cebada_no_tiene_azucar from "../../portadas/la-cebada-no-tiene-azucar.avif";
 import p_un_cohete_no_empuja_contra_nada from "../../portadas/un-cohete-no-empuja-contra-nada.avif";
 import p_nadie_las_ha_contado from "../../portadas/nadie-las-ha-contado.avif";
 import p_llevamos_57_anos_disparando_laseres_a_la_luna from "../../portadas/llevamos-57-anos-disparando-laseres-a-la-luna.avif";
+import p_es_un_arma_quimica from "../../portadas/es-un-arma-quimica.avif";
 import p_mas_grande_que_cualquier_dinosaurio from "../../portadas/mas-grande-que-cualquier-dinosaurio.avif";
 import p_el_arbol_no_bombea_el_agua_la_cuelga from "../../portadas/el-arbol-no-bombea-el-agua-la-cuelga.avif";
 import p_el_bostezo_no_tiene_que_ver_con_el_oxigeno from "../../portadas/el-bostezo-no-tiene-que-ver-con-el-oxigeno.avif";
@@ -35,6 +38,7 @@ import p_la_cebolla_entera_no_lleva_nada from "../../portadas/la-cebolla-entera-
 import p_te_ensenaron_mal_como_se_forma_una_nube from "../../portadas/te-ensenaron-mal-como-se-forma-una-nube.avif";
 import p_giran_porque_no_pueden_mover_los_ojos from "../../portadas/giran-porque-no-pueden-mover-los-ojos.avif";
 import p_el_ala_no_bate_gira from "../../portadas/el-ala-no-bate-gira.avif";
+import p_el_sahara_esta_seco_por_lo_que_pasa_en_el_ecuador from "../../portadas/el-sahara-esta-seco-por-lo-que-pasa-en-el-ecuador.avif";
 import p_no_invierten_izquierda_derecha from "../../portadas/no-invierten-izquierda-derecha.avif";
 import p_un_flamenco_nace_gris from "../../portadas/un-flamenco-nace-gris.avif";
 import p_no_lo_siguen_se_le_anticipan from "../../portadas/no-lo-siguen-se-le-anticipan.avif";
@@ -47,7 +51,9 @@ import p_no_solo_cuando_estan_contentos from "../../portadas/no-solo-cuando-esta
 import p_la_leche_cortada_es_queso_a_medio_empezar from "../../portadas/la-leche-cortada-es-queso-a-medio-empezar.avif";
 import p_el_pan_duro_no_se_ha_secado from "../../portadas/el-pan-duro-no-se-ha-secado.avif";
 import p_no_es_falta_de_riego from "../../portadas/no-es-falta-de-riego.avif";
+import p_tienen_una_forma_que_se_puede_medir from "../../portadas/tienen-una-forma-que-se-puede-medir.avif";
 import p_el_azul_no_es_un_color_es_una_estructura from "../../portadas/el-azul-no-es-un-color-es-una-estructura.avif";
+import p_todas_las_explicaciones_que_te_han_dado_fallan from "../../portadas/todas-las-explicaciones-que-te-han-dado-fallan.avif";
 import p_el_conductor_no_se_marea_nunca from "../../portadas/el-conductor-no-se-marea-nunca.avif";
 import p_la_cicatriz_de_un_dano from "../../portadas/la-cicatriz-de-un-dano.avif";
 import p_en_invierno_estamos_mas_cerca_del_sol from "../../portadas/en-invierno-estamos-mas-cerca-del-sol.avif";
@@ -72,7 +78,7 @@ import p_hasta_1925_el_universo_era_esta_galaxia from "../../portadas/hasta-1925
    reparte en pantallas es la app, midiendo el móvil de quien lee. Es la
    regla 3 de `.claude/skills/paginado-shorts/SKILL.md`.
 
-   Hoy entran 57 de 161: solo los que tienen portada.
+   Hoy entran 63 de 175: solo los que tienen portada.
    ========================================================================== */
 
 export const CURIOSIDADES: Short[] = [
@@ -447,6 +453,251 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Ninguna gota te manda un arcoíris. Cada una te manda un solo color, y el arco es el " +
           "mosaico que forman millones de gotas ordenadas por ángulo.",
+      },
+    ],
+  },
+  {
+    id: "el-vino-se-hace-solo-y-lo-traen-las-avispas",
+    titulo: "Cómo se hace el vino",
+    categoria: "Ciencia",
+    color: "var(--plum)",
+    /* Serie «como-se-hace-el-vino», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El vino se hace solo, y la levadura la traen las avispas» */
+    encargo: "El vino se hace solo, y la levadura la traen las avispas",
+    fotos: [
+      {
+        local: p_el_vino_se_hace_solo_y_lo_traen_las_avispas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El vino se hace solo, y la levadura la traen las avispas",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No hay que añadirle nada",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De todas las bebidas alcohólicas, el vino es la más sencilla de hacer, y por un margen " +
+          "enorme. Estruja uvas, mete el zumo en un recipiente, espera. Eso es todo. No hace " +
+          "falta añadir levadura, ni azúcar, ni cocer nada, ni ninguna operación intermedia.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Eso ocurre porque la uva reúne varias condiciones poco frecuentes al mismo tiempo. " +
+          "Tiene <strong>muchísimo azúcar</strong> y además ya disponible, sin necesidad de " +
+          "transformarlo. Tiene bastante <strong>acidez</strong>, que mantiene a raya a las " +
+          "bacterias que estropearían el líquido. Y su jugo se libera con solo aplastarla, sin " +
+          "herramientas. Casi ninguna otra fruta cumple las tres cosas a la vez.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso el vino no se inventó: se <strong>encontró</strong>. Cualquier grupo humano " +
+          "que recolectara uva y la guardara en un recipiente durante unos días acabó, tarde o " +
+          "temprano, con vino sin haberlo pretendido. No hizo falta que a nadie se le ocurriera " +
+          "nada; hizo falta que alguien probara lo que había quedado en el fondo y decidiera " +
+          "repetirlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Todo lo demás que rodea al vino —las barricas, las variedades, las añadas, los " +
+          "tiempos, la temperatura— es refinamiento sobre un proceso que ocurre solo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El vino no se inventó, se encontró. La uva es de las poquísimas frutas que tiene el " +
+          "azúcar disponible, la acidez que la protege y el jugo al alcance de la mano.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "¿Y de dónde sale la levadura que lo hace?",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación clásica dice que la levadura viaja en la piel de la uva, en esa capa " +
+          "blanquecina que la recubre. Es simple, es memorable y es, como mínimo, incompleta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando los investigadores fueron a buscar la levadura del vino, la <em>Saccharomyces " +
+          "cerevisiae</em>, se encontraron con un problema: en uvas intactas y sanas apenas " +
+          "aparece. Solo se detecta de forma estacional, sobre fruta madura, en los meses " +
+          "cálidos. Lo cual deja una pregunta sin responder que resulta ser la buena: si solo " +
+          "está ahí unas semanas al año, <strong>¿dónde pasa el resto del tiempo?</strong>",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 2012, un equipo de la Universidad de Florencia dirigido por Irene Stefanini y " +
+          "Leonardo Dapporto encontró una respuesta que nadie esperaba: dentro de las " +
+          "<strong>avispas</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las avispas comen uva en verano y se tragan la levadura con ella. Hasta ahí, normal. " +
+          "Lo llamativo es que las hembras que hibernan conservan <strong>células de levadura " +
+          "vivas en su aparato digestivo durante todo el invierno</strong>, y cuando en primavera " +
+          "fundan una colonia nueva y alimentan a sus larvas, les transmiten también la levadura. " +
+          "De ahí vuelve a salir el verano siguiente, con las avispas llevándola de racimo en " +
+          "racimo. Los investigadores lo resumieron señalando que las avispas pueden mantener una " +
+          "transmisión potencialmente interminable de cepas de levadura.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene decir que el asunto no está cerrado. El especialista José Sampaio sostiene " +
+          "que el hábitat natural real de esta levadura es la corteza de los robles, y que las " +
+          "avispas serían el vehículo más que la casa. Sea una cosa u otra, el resultado práctico " +
+          "es el mismo y bastante desconcertante: la continuidad del vino, año tras año, depende " +
+          "de un insecto que casi todo el mundo intenta espantar.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La levadura del vino pasa el invierno viva dentro del aparato digestivo de las avispas " +
+          "hibernantes, que se la pasan a sus larvas y la devuelven a los viñedos en verano.",
+      },
+    ],
+  },
+  {
+    id: "la-cebada-no-tiene-azucar",
+    titulo: "Cómo se hace la cerveza",
+    categoria: "Ciencia",
+    color: "var(--slate)",
+    /* Serie «como-se-hace-la-cerveza», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La cebada no tiene azúcar: hay que engañar a la semilla para que lo fabrique» */
+    encargo: "La cebada no tiene azúcar: hay que engañar a la semilla para que lo fabrique",
+    fotos: [
+      {
+        local: p_la_cebada_no_tiene_azucar,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La cebada no tiene azúcar: hay que engañar a la semilla para que lo fabrique",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Con cebada no se puede hacer lo que se hace con la uva",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si el vino se hace estrujando uva y esperando, la pregunta lógica es por qué no se " +
+          "puede hacer lo mismo con cebada. Se muele, se moja, se espera, y ya está.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No funciona, y el motivo es que <strong>la cebada no contiene azúcar</strong>. Lo que " +
+          "contiene es <strong>almidón</strong>, que no es lo mismo aunque en el fondo esté hecho " +
+          "de lo mismo. El almidón es la despensa de la semilla: cadenas larguísimas formadas por " +
+          "muchas moléculas de azúcar enganchadas entre sí, empaquetadas para durar meses.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y la levadura no sabe comer almidón. Solo puede meterse en el cuerpo moléculas de " +
+          "azúcar sueltas o en trozos muy pequeños; ante una cadena larga no tiene nada que " +
+          "hacer, igual que tú no puedes tragarte una cuerda entera por muy comestible que sea el " +
+          "material. Así que un grano de cebada mojado no fermenta: se pudre.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está la diferencia de fondo entre las dos bebidas. La uva llega con el trabajo " +
+          "hecho, con su azúcar libre y listo. La cebada llega con la despensa cerrada con llave, " +
+          "y antes de fermentar nada hay que abrirla.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La cebada no tiene azúcar, tiene almidón, y la levadura no sabe comerlo. Un grano de " +
+          "cebada mojado no fermenta: se pudre.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La solución es hacerle creer que ha llegado la primavera",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y quién tiene la llave de esa despensa? Es simple: la propia semilla.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una semilla guarda almidón precisamente para alimentar al brote cuando germine, y para " +
+          "poder usarlo tiene que romperlo en azúcares. Para eso fabrica unas herramientas " +
+          "químicas llamadas <strong>amilasas</strong> —alfa-amilasa y beta-amilasa— que van " +
+          "cortando las cadenas de almidón en trozos pequeños y fermentables, como el maltosa. Es " +
+          "decir, la cebada sabe perfectamente convertir su almidón en azúcar. Solo lo hace " +
+          "cuando cree que ha llegado el momento de crecer.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que lo que se hace es <strong>engañarla</strong>. Se moja el grano y se " +
+          "mantiene templado, y la semilla concluye que es primavera y que hay humedad, y empieza " +
+          "a germinar. Al germinar fabrica sus amilasas y empieza a desmontar su propio almidón.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y justo entonces, antes de que el brote se lo coma todo, se la detiene en seco con " +
+          "calor: el grano se seca en un horno, en la operación llamada <strong>tostado</strong>, " +
+          "que interrumpe la germinación y deja las enzimas paradas y guardadas hasta que hagan " +
+          "falta. El resultado es la <strong>malta</strong>: un grano lleno de almidón y, a la " +
+          "vez, lleno de las herramientas necesarias para convertirlo en azúcar, todo ello " +
+          "estable y almacenable durante meses.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El último paso ocurre ya en la fábrica. Se muele la malta y se mezcla con agua " +
+          "caliente, y ese calor y esa humedad reactivan las amilasas que llevaban dormidas. Las " +
+          "enzimas se ponen a trabajar y trocean el almidón en azúcares. Cuando terminan, se " +
+          "tiene por fin un líquido dulce, y a partir de ahí el proceso es exactamente el mismo " +
+          "que el del vino: entra la levadura y fermenta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Dicho de golpe: el vino es una fruta que fermenta sola, y la cerveza es una semilla a " +
+          "la que hay que convencer de que germine, dejarla empezar y matarla a media faena para " +
+          "quedarse con sus herramientas.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Esas mismas amilasas las tienes tú en la saliva. Por eso, si masticas un " +
+          "trozo de pan sin sabor durante un rato largo sin tragarlo, empieza a saberte dulce: " +
+          "tus enzimas están haciendo exactamente lo mismo que hace la malta.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Se moja el grano para que crea que es primavera y empiece a germinar, y en cuanto " +
+          "fabrica las enzimas se le mata con calor. La cerveza empieza con una semilla engañada.",
       },
     ],
   },
@@ -895,6 +1146,131 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "La Luna se aleja 3,8 centímetros al año, más o menos lo que te crecen las uñas. No es " +
           "una estimación: se mide rebotando láseres contra unos espejos del Apolo.",
+      },
+    ],
+  },
+  {
+    id: "es-un-arma-quimica",
+    titulo: "De dónde sale el alcohol",
+    categoria: "Ciencia",
+    color: "var(--slate)",
+    /* Serie «de-donde-sale-el-alcohol», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El alcohol es un arma química, y la levadura la usa para matar rivales» */
+    encargo: "El alcohol es un arma química, y la levadura la usa para matar rivales",
+    fotos: [
+      {
+        local: p_es_un_arma_quimica,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El alcohol es un arma química, y la levadura la usa para matar rivales",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No lo produce la uva ni la cebada: lo produce un hongo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo primero que conviene aclarar es de dónde sale materialmente el alcohol, porque el " +
+          "lenguaje despista. Hablamos de que el vino viene de la uva y la cerveza de la cebada, " +
+          "y eso hace pensar que el alcohol está de algún modo dentro de esas plantas, esperando " +
+          "a que lo saquemos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No está. Ni la uva ni la cebada contienen una gota de alcohol. Lo que aportan es " +
+          "<strong>azúcar</strong>, y el alcohol lo fabrica otra cosa: un hongo microscópico, la " +
+          "<strong>levadura</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El proceso es sencillo de enunciar. La levadura se come el azúcar y, en lugar de " +
+          "quemarlo del todo, lo transforma en dos productos de desecho: <strong>etanol y dióxido " +
+          "de carbono</strong>. El etanol es el alcohol de todas las bebidas del mundo; el " +
+          "dióxido de carbono es el gas que hace subir el pan y el que burbujea en la cerveza y " +
+          "en el champán. Son exactamente el mismo proceso: la única diferencia entre hacer pan y " +
+          "hacer cerveza es cuál de los dos productos te interesa conservar y cuál dejas escapar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que el alcohol es, literalmente, la orina de un hongo. No hay una manera más " +
+          "elegante de decirlo y tampoco hace falta.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Ni la uva ni la cebada contienen alcohol. Solo ponen el azúcar: el alcohol lo fabrica " +
+          "un hongo microscópico como producto de desecho.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y lo fabrica para envenenar a la competencia",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí está la pregunta que casi nadie hace y que da la vuelta a todo el asunto: ¿por " +
+          "qué lo fabrica?",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Porque desde el punto de vista energético es un disparate. Convertir azúcar en etanol " +
+          "le saca a ese azúcar muchísimo menos rendimiento que quemarlo con oxígeno, que es lo " +
+          "que hacemos nosotros y lo que hace casi todo ser vivo. La levadura está tirando la " +
+          "mayor parte de la energía disponible. Y lo más raro: lo hace <strong>incluso cuando " +
+          "tiene oxígeno de sobra</strong>. No es un apaño de emergencia, es su modo de funcionar " +
+          "preferido.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Por qué renunciar a tanta energía? Es simple: porque no está fabricando comida. Está " +
+          "fabricando <strong>veneno</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El etanol es tóxico para prácticamente todos los microorganismos. Bacterias, otros " +
+          "hongos, cualquiera que quisiera disputarle esa fruta madura, muere o deja de crecer " +
+          "cuando la concentración de alcohol sube. La levadura, en cambio, lo tolera muchísimo " +
+          "mejor que sus competidores. La estrategia tiene nombre propio en biología, y describe " +
+          "exactamente lo que ocurre: <strong>fabricar, acumular y consumir</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Funciona en tres tiempos. Primero la levadura devora el azúcar más deprisa que nadie y " +
+          "lo convierte en etanol, inundando el terreno. Ese etanol frena o mata a los demás " +
+          "microbios, especialmente a las bacterias. Y cuando ya se ha quedado sola y no queda " +
+          "competencia, la levadura vuelve sobre sus pasos y <strong>se come el alcohol que ella " +
+          "misma fabricó</strong>, recuperando la energía que había aparcado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Envenena el pozo y luego bebe de él. Y lleva haciéndolo desde hace unos <strong>125 " +
+          "millones de años</strong>, más o menos desde que aparecieron las plantas con frutos " +
+          "carnosos al final del Cretácico. La aparición de la fruta puso de golpe sobre la mesa " +
+          "un recurso nuevo, concentrado y disputadísimo, y la levadura desarrolló un arma " +
+          "química para quedárselo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La levadura tira la mayor parte de la energía del azúcar a propósito. No está " +
+          "fabricando comida: está fabricando un veneno que mata a sus competidores y que después " +
+          "se bebe ella.",
       },
     ],
   },
@@ -3979,6 +4355,132 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "el-sahara-esta-seco-por-lo-que-pasa-en-el-ecuador",
+    titulo: "Por qué los desiertos están donde están",
+    categoria: "Ciencia",
+    color: "var(--clay)",
+    /* Serie «por-que-los-desiertos-estan-donde-estan», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El Sáhara está seco por lo que ocurre sobre la selva del Congo» */
+    encargo: "El Sáhara está seco por lo que ocurre sobre la selva del Congo",
+    fotos: [
+      {
+        local: p_el_sahara_esta_seco_por_lo_que_pasa_en_el_ecuador,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El Sáhara está seco por lo que ocurre sobre la selva del Congo",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Están todos alineados en dos franjas",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Coge un mapa del mundo y marca los grandes desiertos. El Sáhara, el desierto Arábigo, " +
+          "el Thar en la India, el de Sonora y el de Chihuahua en Norteamérica, el Kalahari en el " +
+          "sur de África, el Gran Desierto Victoria en Australia. Ahora fíjate en dónde han caído " +
+          "las marcas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No están repartidas al azar. Se ordenan en <strong>dos franjas horizontales</strong>, " +
+          "una en el hemisferio norte y otra en el sur, ambas a la misma distancia del ecuador: " +
+          "alrededor de los <strong>30 grados de latitud</strong>. Continentes distintos, océanos " +
+          "distintos, historias geológicas distintas, y todos los grandes desiertos cayendo en " +
+          "las mismas dos bandas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando un patrón se repite así de limpio en sitios sin relación entre sí, la causa no " +
+          "puede ser local. No es que el norte de África tenga mala suerte con la lluvia: es que " +
+          "a esa latitud, en cualquier continente, ocurre lo mismo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y lo que ocurre no pasa allí. Empieza a tres mil kilómetros de distancia, sobre el " +
+          "ecuador.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los grandes desiertos del planeta no están repartidos al azar: se alinean en dos " +
+          "franjas a treinta grados de latitud, una a cada lado del ecuador.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El aire que riega la selva es el mismo que reseca el desierto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué tiene que ver el ecuador con el Sáhara? Es simple: son los dos extremos del " +
+          "mismo circuito de aire.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Sobre el ecuador, el Sol calienta el aire más que en ningún otro sitio del planeta, y " +
+          "el aire caliente sube. Al subir se enfría, y al enfriarse ya no puede sostener el " +
+          "vapor de agua que llevaba, así que lo suelta. Eso es lo que produce las lluvias " +
+          "tropicales, y por eso las selvas del mundo están donde están: en el ecuador llueve " +
+          "muchísimo porque hay una columna de aire ascendiendo y descargando toda su humedad de " +
+          "forma permanente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora sigue a ese aire. Cuando llega arriba ya no puede seguir subiendo, así que se " +
+          "desplaza en horizontal hacia los polos, a gran altura, y va completamente seco: dejó " +
+          "su agua sobre la selva. Después de recorrer unos treinta grados de latitud, se enfría " +
+          "lo suficiente para volver a bajar, y desciende sobre la superficie.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un aire que baja se comprime, y al comprimirse se calienta. Y un aire que se calienta " +
+          "es capaz de retener más humedad de la que lleva, así que en lugar de soltar agua, la " +
+          "absorbe: seca el terreno por el que pasa. El resultado es una zona de altas presiones " +
+          "permanente donde prácticamente no puede formarse una nube. Ese circuito completo se " +
+          "llama <strong>célula de Hadley</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está toda la explicación, y merece la pena decirla despacio porque es lo bonito " +
+          "del asunto: <strong>el aire que reseca el Sáhara es exactamente el mismo aire que ha " +
+          "llovido sobre la selva</strong>. Sube empapado en el ecuador, descarga allí toda su " +
+          "agua, viaja seco por arriba y baja hecho una lija a treinta grados de latitud. La " +
+          "selva y el desierto no son dos climas independientes: son el principio y el final del " +
+          "mismo recorrido, y uno existe precisamente porque existe el otro.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? A esas franjas de altas presiones se las llama <strong>latitudes de los " +
+          "caballos</strong>. El nombre viene de la época de la navegación a vela: al llegar ahí " +
+          "los barcos se quedaban sin viento durante semanas y, según la explicación tradicional, " +
+          "la tripulación acababa arrojando por la borda los caballos que transportaba para no " +
+          "seguir gastando agua en ellos.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El aire que reseca el Sáhara es el mismo que llovió sobre la selva. Deja el agua en el " +
+          "ecuador, viaja seco por arriba y baja a treinta grados convertido en una lija.",
+      },
+    ],
+  },
+  {
     id: "no-invierten-izquierda-derecha",
     titulo: "Por qué los espejos invierten",
     categoria: "Ciencia",
@@ -5355,6 +5857,131 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "tienen-una-forma-que-se-puede-medir",
+    titulo: "Por qué se te queda una canción pegada",
+    categoria: "Cuerpo humano",
+    color: "var(--sage)",
+    /* Serie «por-que-se-te-queda-una-cancion-pegada», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Las canciones que se pegan tienen una forma que se puede medir» */
+    encargo: "Las canciones que se pegan tienen una forma que se puede medir",
+    fotos: [
+      {
+        local: p_tienen_una_forma_que_se_puede_medir,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Las canciones que se pegan tienen una forma que se puede medir",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No es cuestión de que te guste",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El fenómeno tiene nombre técnico: <strong>imaginería musical involuntaria</strong>. Un " +
+          "fragmento de música que aparece en tu cabeza sin que lo hayas llamado y se repite en " +
+          "bucle durante horas o días.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo primero que llama la atención es que no guarda ninguna relación con el gusto. A " +
+          "casi todo el mundo se le queda pegada alguna canción que detesta, y en cambio sus " +
+          "discos favoritos no se le meten nunca en la cabeza de esa manera. Eso ya sugiere que " +
+          "lo que decide no es la emoción ni la preferencia, sino algo de la propia música.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un equipo dirigido por Kelly Jakubowski lo investigó de una forma bastante ingeniosa. " +
+          "Preguntaron a <strong>3.000 personas</strong> cuáles eran las canciones que se les " +
+          "quedaban pegadas con más frecuencia, reunieron esa lista, y después compararon sus " +
+          "melodías con las de otras canciones de popularidad y época equivalentes que " +
+          "<strong>no</strong> aparecían en las respuestas. Si el fenómeno dependiera solo de " +
+          "haberlas oído mucho, los dos grupos deberían parecerse; si había algo distinto en la " +
+          "música, ahí saldría.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Salió. Las canciones que se pegan comparten unos rasgos melódicos concretos y " +
+          "medibles.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La canción que se te pega no tiene por qué gustarte, y tus discos favoritos no suelen " +
+          "pegarse. Lo que decide no es el gusto: es la forma de la melodía.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Familiar en el conjunto, rara en un detalle",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y cuáles son esos rasgos? Es simple: son tres, y funcionan combinados.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El primero es el <strong>tempo</strong>. Las melodías que se pegan van más rápido que " +
+          "la media. Tiene sentido si piensas que lo que hace tu cabeza es repetirlas: cuanto más " +
+          "corto es el ciclo, más veces cabe.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El segundo es el <strong>contorno melódico</strong>, que es la forma del dibujo que " +
+          "traza la melodía al subir y bajar. Y aquí lo sorprendente es que las canciones " +
+          "pegadizas tienen un contorno <strong>genérico</strong>, de los más comunes que " +
+          "existen: una primera frase que sube de tono y una segunda que baja. Es el patrón de un " +
+          "montón de canciones infantiles y populares, el que tu cerebro conoce de memoria y " +
+          "puede reproducir sin ningún esfuerzo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y el tercero es el que da la vuelta al asunto: dentro de esa estructura tan corriente " +
+          "hay <strong>algo raro</strong>. Un intervalo inesperado, un salto que no encaja con lo " +
+          "que la forma te hacía prever, o más notas repetidas de las que suele tener una canción " +
+          "pop.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está la combinación, y merece la pena verla junta porque es contraintuitiva. Lo " +
+          "que se pega no es lo original ni lo sencillo, sino la mezcla: una estructura tan " +
+          "familiar que tu cabeza la puede recorrer sola, con un detalle lo bastante extraño como " +
+          "para llamar la atención cada vez que pasa por él. Fácil de repetir y difícil de " +
+          "ignorar al mismo tiempo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Jakubowski señalaba que, con esos rasgos en la mano, se puede predecir hasta cierto " +
+          "punto qué canciones van a quedarse pegadas a partir de su contenido melódico. Las " +
+          "cinco primeras de su lista fueron <em>Bad Romance</em> de Lady Gaga, <em>Can't Get You " +
+          "Out Of My Head</em> de Kylie Minogue, <em>Don't Stop Believing</em> de Journey, " +
+          "<em>Somebody That I Used To Know</em> de Gotye y <em>Moves Like Jagger</em> de Maroon " +
+          "5.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Se pegan las melodías con forma corriente y un detalle extraño dentro. Tan familiares " +
+          "que tu cabeza las recorre sola, y lo bastante raras como para no poder ignorarlas.",
+      },
+    ],
+  },
+  {
     id: "el-azul-no-es-un-color-es-una-estructura",
     titulo: "Por qué son tan bonitas las mariposas",
     categoria: "Ciencia",
@@ -5470,6 +6097,156 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Una gota de alcohol vuelve verde el azul de una <em>Morpho</em>, y al secarse vuelve a " +
           "ser azul. Ningún pigmento hace eso.",
+      },
+    ],
+  },
+  {
+    id: "todas-las-explicaciones-que-te-han-dado-fallan",
+    titulo: "Por qué te da flato al correr",
+    categoria: "Cuerpo humano",
+    color: "var(--ochre)",
+    /* Serie «por-que-te-da-flato-al-correr», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Todas las explicaciones que te han dado sobre el flato fallan» */
+    encargo: "Todas las explicaciones que te han dado sobre el flato fallan",
+    fotos: [
+      {
+        local: p_todas_las_explicaciones_que_te_han_dado_fallan,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Todas las explicaciones que te han dado sobre el flato fallan",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Es tan común que casi nadie se ha librado",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El flato tiene nombre técnico, y es tan poco memorable como cabía esperar: " +
+          "<strong>dolor abdominal transitorio relacionado con el ejercicio</strong>. Ese " +
+          "pinchazo bajo las costillas que aparece a mitad de carrera, te obliga a aflojar y " +
+          "desaparece solo al cabo de un rato.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo primero que llama la atención al mirar los datos es lo extendidísimo que está. En " +
+          "una encuesta a 439 corredores, un <strong>69 %</strong> había tenido flato en el " +
+          "último año. Y en una carrera concreta, alrededor de uno de cada cinco participantes se " +
+          "lo lleva ese día.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pero el dato que de verdad importa es otro, y conviene mirarlo despacio porque es el " +
+          "que va a desmontar media explicación popular. Al comparar deportes, el flato no " +
+          "aparece sobre todo corriendo. Aparece sobre todo <strong>nadando</strong>:",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "- <strong>Natación:</strong> 75 %",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "- <strong>Carrera:</strong> 69 %",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "- <strong>Equitación:</strong> 62 %",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "- <strong>Gimnasia aeróbica:</strong> 52 %",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "- <strong>Baloncesto:</strong> 47 %",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "- <strong>Ciclismo:</strong> 32 %",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La natación encabeza la lista y el ciclismo la cierra, con menos de la mitad de " +
+          "incidencia. Cualquier explicación del flato tiene que dar cuenta de ese orden, y ahí " +
+          "es donde empiezan a caerse las que todos hemos oído.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El deporte donde más flato aparece no es correr: es nadar, con un 75 %. Y donde menos, " +
+          "el ciclismo, con un 32 %.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Las tres explicaciones clásicas están descartadas",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué pasa con las razones de siempre? Es simple: se han puesto a prueba una por una " +
+          "y ninguna aguanta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La más repetida, la que dice todo el mundo, es que <strong>al diafragma le falta " +
+          "riego</strong>: que el músculo con el que respiras se queda sin sangre suficiente " +
+          "porque el cuerpo la está mandando a las piernas, y protesta. Suena convincente y es " +
+          "falsa. El flato aparece también en actividades con muy poca exigencia respiratoria " +
+          "—montar a caballo, montar en camello, ir en moto—, donde el diafragma no está " +
+          "trabajando al límite ni de lejos. Y cuando se ha medido la función pulmonar durante un " +
+          "episodio de dolor, no se ha encontrado ningún deterioro en las mediciones.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La segunda explicación habitual es que se trata de un <strong>calambre de la " +
+          "musculatura abdominal</strong>, como el que te da en un gemelo. También se comprobó, " +
+          "midiendo con electromiografía la actividad eléctrica de los músculos justo en el punto " +
+          "donde duele durante un episodio. Si fuera un calambre, esa actividad estaría " +
+          "disparada. No lo estaba: la actividad muscular en el sitio del dolor era normal.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La tercera es la más elaborada y la que más lejos ha llegado: que el <strong>traqueteo " +
+          "tira de los ligamentos</strong> que sujetan las vísceras. Al correr, los órganos " +
+          "internos suben y bajan a cada zancada colgando de sus anclajes, y esos tirones " +
+          "repetidos irritarían las estructuras que los sostienen. Explica bien algunas cosas, " +
+          "pero falla en otras. No da cuenta del flato que aparece en la parte baja del abdomen, " +
+          "y además el dolor no guarda relación con el índice de masa corporal, cuando cabría " +
+          "esperar que unas vísceras más pesadas tirasen más.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y sobre todo tropieza con el dato del principio. Si el mecanismo fuera el traqueteo, " +
+          "la natación tendría que estar al fondo de la tabla junto al ciclismo, porque nadando " +
+          "el cuerpo va horizontal y no hay impacto contra el suelo en ningún momento. Y la " +
+          "natación está la primera.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El calambre se descartó midiendo la actividad muscular donde duele, y la falta de " +
+          "riego porque el flato aparece montando a caballo. La teoría del traqueteo choca con la " +
+          "natación.",
       },
     ],
   },

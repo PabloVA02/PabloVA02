@@ -6,8 +6,8 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts con el texto de Pablo | **161** | en 71 series |
-| de esos, **vivos en la app** | **57** | los otros 104 esperan portada |
+| shorts con el texto de Pablo | **175** | en 78 series |
+| de esos, **vivos en la app** | **63** | los otros 112 esperan portada |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **339** | 79 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
@@ -26,6 +26,44 @@ lo han sido desde antes del 27 de agosto —comprobado con `git show` sobre tres
 commits—, así que no se perdió ninguno, se escribió mal el número. Un dato
 inventado en este documento es peor que no tenerlo: la siguiente sesión lo lee
 como cierto y no lo vuelve a mirar.
+
+## CIENTO SETENTA Y CINCO, SESENTA Y TRES VIVOS — 29 de agosto, cierre
+
+Siete series más —vino, cerveza, alcohol, desiertos, la canción pegada, el
+flato y el momento de dormirse— con sus fotografías. Seis entran; **175 shorts
+en 78 series, 63 vivos**.
+
+Las seis portadas: **1.064 kB de media y las seis al techo de 2160**.
+
+### La que se queda a 87 píxeles
+
+`NoNosAcordamos-Dormir.jpg` da 1557 de los 1644 del suelo. Son **87 píxeles, un
+5 % de estirón**, de lo que no se ve; y aun así no entra, porque él lo dijo
+—«si alguna no es de esa calidad me lo dices y no la pones»— y una regla que se
+salta cuando el número aprieta poco deja de ser una regla. Está apuntada como
+la primera candidata a entrar en cuanto diga que sí, y su short —«Por qué no
+recuerdas cuándo te dormiste»— está escrito y esperando solo por eso.
+
+### El simulador ha cabido por los pelos, y es la última vez
+
+15,5 MB de 16, con las cubiertas de los libros ya en 232 px y las portadas del
+simulador en 540. El mirador aguanta mejor —10,6 MB— pero sus portadas han
+bajado a 940.
+
+**A la siguiente tanda no cabe**, y entonces toca lo que Pablo autorizó: dejar
+shorts fuera del escaparate. Cuando llegue el momento, la lista de cuáles se
+quedan fuera se escribe a mano en un fichero que se pueda leer —no un «los N
+últimos» calculado, porque el catálogo va por orden alfabético de carpeta y ahí
+no hay ninguna noción de antigüedad—. Los `.md` y los AVIF no se tocan nunca.
+
+### Cómo queda
+
+63 shorts vivos, 326 pantallas:
+
+    huerfanas   0 palabras sueltas, 0 recortadas, mismo margen en todas
+    puntofinal  308 de 326 acaban en punto (94 %)
+    rayos       124 rayos pintados, 0 partidos
+    huecos      4 pantallas pasan de 3 renglones, por un ⚡ o un 💡
 
 ## CIENTO SESENTA Y UN SHORTS, CINCUENTA Y SIETE VIVOS — 29 de agosto, noche
 
