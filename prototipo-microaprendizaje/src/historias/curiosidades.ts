@@ -12,6 +12,7 @@ import p_nadie_las_ha_contado from "../../portadas/nadie-las-ha-contado.avif";
 import p_llevamos_57_anos_disparando_laseres_a_la_luna from "../../portadas/llevamos-57-anos-disparando-laseres-a-la-luna.avif";
 import p_es_un_arma_quimica from "../../portadas/es-un-arma-quimica.avif";
 import p_mas_grande_que_cualquier_dinosaurio from "../../portadas/mas-grande-que-cualquier-dinosaurio.avif";
+import p_ser_la_unica_especie_humana from "../../portadas/ser-la-unica-especie-humana.avif";
 import p_el_arbol_no_bombea_el_agua_la_cuelga from "../../portadas/el-arbol-no-bombea-el-agua-la-cuelga.avif";
 import p_el_bostezo_no_tiene_que_ver_con_el_oxigeno from "../../portadas/el-bostezo-no-tiene-que-ver-con-el-oxigeno.avif";
 import p_una_contrasena_que_alguien_ha_robado from "../../portadas/una-contrasena-que-alguien-ha-robado.avif";
@@ -78,7 +79,7 @@ import p_hasta_1925_el_universo_era_esta_galaxia from "../../portadas/hasta-1925
    reparte en pantallas es la app, midiendo el móvil de quien lee. Es la
    regla 3 de `.claude/skills/paginado-shorts/SKILL.md`.
 
-   Hoy entran 63 de 175: solo los que tienen portada.
+   Hoy entran 64 de 178: solo los que tienen portada.
    ========================================================================== */
 
 export const CURIOSIDADES: Short[] = [
@@ -1382,6 +1383,149 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Un solo bocado de krill le devuelve doscientas veces la energía que gastó en darlo. Es " +
           "enorme gracias a comer diminuto, no a pesar de ello.",
+      },
+    ],
+  },
+  {
+    id: "ser-la-unica-especie-humana",
+    titulo: "Fuimos la única especie humana",
+    categoria: "Historia",
+    color: "var(--ochre)",
+    /* Serie «fuimos-la-unica-especie-humana», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Ser la única especie humana es la rareza, no la norma» */
+    encargo: "Ser la única especie humana es la rareza, no la norma",
+    fotos: [
+      {
+        local: p_ser_la_unica_especie_humana,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Ser la única especie humana es la rareza, no la norma",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    /* Imagen que pide su texto para DENTRO, todavía sin hacer:
+       IMAGEN — sección «Hace cincuenta mil años había varias clases de humano repartidas por el planeta». Diagrama propio en SVG: una línea de tiempo horizontal de los últimos 200.000 años, con una barra por especie (erectus, floresiensis, luzone */
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El árbol humano se ha ido llenando de ramas a medida que lo mirábamos mejor",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Damos por hecho que «humano» y <em>Homo sapiens</em> significan lo mismo. Durante toda " +
+          "nuestra vida ha sido cierto, y por eso cuesta mucho imaginar que haya sido de otra " +
+          "manera. Pero esa coincidencia es reciente, y en la escala del linaje humano ha durado " +
+          "muy poco.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo interesante es que ni siquiera los especialistas la vieron venir del todo. En 2003, " +
+          "el paleoantropólogo Chris Stringer publicó un árbol de la familia humana que contenía " +
+          "cuatro especies. Veintiún años después publicó otro diagrama que cubría exactamente el " +
+          "mismo periodo de tiempo, y ya tenía más del doble. No es que hubiera cambiado el " +
+          "pasado: es que en dos décadas aparecieron fósiles nuevos, se aplicaron técnicas que " +
+          "antes no existían, y varias ramas que siempre habían estado ahí salieron por fin a la " +
+          "luz.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hoy el Museo de Historia Natural de Londres cuenta <strong>más de veinte especies de " +
+          "homininos</strong> en nuestro árbol genealógico, y reconoce hasta nueve especies " +
+          "humanas solo en el último millón de años. Al menos cuatro de ellas siguen apareciendo " +
+          "en los últimos cien mil, que en términos evolutivos es anteayer.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El árbol humano no se ha ido simplificando con el tiempo: se ha ido llenando. Cada " +
+          "década de excavación añade ramas, no las quita.",
+      },
+      {
+        b: "cita",
+        texto:
+          "En 2024 publiqué un diagrama nuevo que cubría el mismo periodo de tiempo. Muestra más " +
+          "del doble de especies, incluidas al menos cuatro que estuvieron por aquí en los " +
+          "últimos cien mil años.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "— Chris Stringer, Museo de Historia Natural de Londres",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Hace cincuenta mil años había varias clases de humano repartidas por el planeta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si pudieras situarte hace cincuenta mil años y recorrer Eurasia de un extremo a otro, " +
+          "te cruzarías con al menos cuatro tipos distintos de humano. No antepasados nuestros, " +
+          "ni parientes remotos ya desaparecidos: contemporáneos, vivos al mismo tiempo, cada uno " +
+          "instalado en su territorio.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          "<strong>Neandertales</strong> (<em>Homo neanderthalensis</em>): Europa y Asia " +
+            "occidental. Cuerpos anchos y musculados, adaptados al frío, con un cerebro tan " +
+            "grande como el nuestro. Se extinguieron hace unos cuarenta mil años.",
+          "<strong>Denisovanos</strong>: Asia, y por lo que sabemos un territorio enorme, desde " +
+            "Siberia hasta el Tíbet y el noreste de China. Robustos, de mandíbula pesada y muelas " +
+            "grandes, y con frecuencia sin muelas del juicio.",
+          "<strong><em>Homo floresiensis</strong></em>: únicamente la isla de Flores, en " +
+            "Indonesia. Un metro y seis centímetros de estatura, treinta kilos, y un cerebro de " +
+            "aproximadamente un tercio del nuestro. Sus huesos van de hace cien mil a sesenta mil " +
+            "años, y las herramientas de piedra de su cueva llegan hasta hace cincuenta mil.",
+          "<strong><em>Homo luzonensis</strong></em>: la cueva de Callao, en la isla de Luzón, " +
+            "Filipinas. Se describió en 2019 a partir de varios dientes, huesos de dedos de la " +
+            "mano y del pie y un fémur, de unos sesenta y siete mil años. Sus dientes no se " +
+            "parecen a los de ninguna otra especie humana, y sus dedos son proporcionalmente más " +
+            "largos que los nuestros.",
+          "<strong><em>Homo sapiens</strong></em>: nosotros, ya repartidos por medio mundo y a " +
+            "punto de llegar a los territorios de los demás.",
+        ],
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con <em>Homo luzonensis</em> conviene ser honesto: los fósiles que tenemos llegan " +
+          "hasta hace sesenta y siete mil años, y no sabemos cuánto más aguantó la especie " +
+          "después. Y si retrocedes otros cincuenta mil años, aparece además <em>Homo " +
+          "erectus</em>, la especie humana más duradera de todas, cuya última presencia conocida " +
+          "está en el yacimiento de Ngandong, en Java, fechada entre hace ciento diecisiete mil y " +
+          "ciento ocho mil años.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay un detalle en esa lista que merece pararse a mirarlo. Dos de esas especies vivían " +
+          "en islas, Flores y Luzón, que nunca estuvieron unidas al continente por tierra firme, " +
+          "ni siquiera con el nivel del mar en su punto más bajo. ¿Cómo llegaron hasta allí? Es " +
+          "simple: <strong>cruzaron agua</strong>. No sabemos si en algo parecido a una balsa o " +
+          "arrastrados por accidente sobre masas de vegetación arrancadas por un tsunami, pero el " +
+          "mar estuvo de por medio, y lo atravesaron.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Ser la única especie humana del planeta no es un logro ni un destino. Es un estado de " +
+          "cosas que tiene unos cuarenta mil años, y antes de eso nunca había ocurrido.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? En la cueva de Liang Bua, donde vivieron los <em>Homo floresiensis</em>, " +
+          "aparecen cientos de fragmentos de hueso de <em>Stegodon</em>, unos elefantes enanos ya " +
+          "extinguidos. Algunos de esos huesos tienen marcas de carnicería: aquellos humanos de " +
+          "un metro cazaban elefantes.",
       },
     ],
   },

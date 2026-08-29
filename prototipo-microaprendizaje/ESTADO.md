@@ -6,8 +6,9 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts con el texto de Pablo | **175** | en 78 series |
-| de esos, **vivos en la app** | **63** | los otros 112 esperan portada |
+| shorts con el texto de Pablo | **178** | en 79 series |
+| de esos, **vivos en la app** | **64** | los otros 114 esperan portada |
+| fotografías guardadas esperando texto | **24** | medidas y buenas, en `originales/sin-asignar/` |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **339** | 79 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
@@ -26,6 +27,49 @@ lo han sido desde antes del 27 de agosto —comprobado con `git show` sobre tres
 commits—, así que no se perdió ninguno, se escribió mal el número. Un dato
 inventado en este documento es peor que no tenerlo: la siguiente sesión lo lee
 como cierto y no lo vuelve a mirar.
+
+## VEINTISÉIS FOTOGRAFÍAS POR DELANTE — 29 de agosto, madrugada
+
+Tres envíos de fotografías —`Archivo_43`, `44` y `45`, con dos repetidas entre
+ellos— y un solo texto: «Fuimos la única especie humana». O sea que por primera
+vez **van muy por delante las imágenes**: 24 buenas esperando su `.md`.
+
+Entra una serie, y quedan **178 shorts en 79 series, 64 vivos**.
+
+### Las veinticuatro que esperan texto
+
+Veintitrés llegan al techo de 2160 y una da 2052. **Ninguna hay que
+descartarla.** Son casi todas de bichos —oso polar, koala, medusa, mamut, dodo,
+T-Rex, tiburón, salmón, jirafa, elefante, camello, paloma, abeja, caballo,
+perro, gato, arañas, aves migrando, pulpo, dinosaurios, el animal más viejo— y
+tres que no lo son: cuánto pesa una nube, el planeta Tierra —que viene justo a
+2160 × 3840, la medida exacta— y un asteroide.
+
+Están listadas una a una en `originales/sin-asignar/README.md` con su medida.
+
+### Y dos que no llegan
+
+| archivo | píxeles | 9:16 da | le faltan |
+|---|---|---|---|
+| `Megalodon.jpg` | 960 × 863 | **485** | 1.159 |
+| `Asteroide.jpg` | 2160 × 2700 | **1519** | 125 |
+
+`Megalodon` es de las de 960 px y encima apaisada, así que se queda en menos de
+un tercio del listón. `Asteroide` es el mismo caso que las venas azules: una
+foto grande —2160 × 2700— pero **no lo bastante alta**, y al recortarla a 9:16
+pierde hasta 1519. Ninguna de las dos tiene todavía texto que la espere, así
+que no bloquean nada; pero cuando llegue, harán falta otras.
+
+### Cómo queda
+
+64 shorts vivos, 333 pantallas:
+
+    huerfanas   0 palabras sueltas, 0 recortadas, mismo margen en todas
+    puntofinal  314 de 333 acaban en punto (94 %)
+    rayos       126 rayos pintados, 0 partidos
+    huecos      4 pantallas pasan de 3 renglones, por un ⚡ o un 💡
+
+El simulador, en **14,9 MB** con las portadas a 530 y las cubiertas a 232.
 
 ## CIENTO SETENTA Y CINCO, SESENTA Y TRES VIVOS — 29 de agosto, cierre
 

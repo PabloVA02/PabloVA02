@@ -39,6 +39,8 @@ portada pequeña.
 | `VenasAzules.jpg` | 2648 × 2358 | **1326** | 318 | Por qué se ven azules las venas |
 | `CopoDeNieve.jpg` | 1944 × 2592 | **1458** | 186 | Por qué no hay dos copos iguales |
 | `NoNosAcordamos-Dormir.jpg` | 1848 × 2768 | **1557** | **87** | Por qué no recuerdas cuándo te dormiste |
+| `Megalodon.jpg` | 960 × 863 | **485** | 1.159 | — |
+| `Asteroide.jpg` | 2160 × 2700 | **1519** | 125 | — |
 
 Los cinco primeros son casos de libro: **900 px de ancho justos y ya en AVIF**,
 que es la marca de una imagen guardada de una vista previa —la página de
@@ -55,7 +57,14 @@ esa calidad me lo dices y no la pones», y una regla que se salta cuando el
 número aprieta poco deja de ser una regla. Pero es la primera candidata a
 entrar si dice que sí.
 
-**Las ocho bloquean un short que ya está escrito.** Son lo único que les falta
+`Megalodon.jpg` es de las de 960 px: apaisada además, así que al recortarla a
+9:16 se queda en 485, menos de un tercio del listón. Y `Asteroide.jpg` es el
+mismo caso que las venas: 2160 × 2700 es una foto grande, pero no lo bastante
+alta, y al recortarla pierde hasta 1519. Ninguna de las dos tiene todavía un
+texto que la espere, así que no bloquean nada; pero cuando llegue, harán falta
+otras.
+
+**Ocho de estas bloquean un short que ya está escrito.** Son lo único que les falta
 para salir en la app, y por eso están todas apuntadas con su tema.
 
 Y hay **cuatro series más sin ninguna fotografía todavía**, que no es lo mismo
@@ -63,16 +72,24 @@ que tenerla mala: «Cuál es el ser vivo más grande», «Por qué el cielo es n
 de noche», «Por qué el mar brilla de noche» y «Por qué la Luna enseña siempre
 la misma cara». Esas esperan imagen, no repuesto.
 
-## Ya no queda ninguna esperando texto
+## VEINTICUATRO ESPERANDO TEXTO, y estas sí están bien
 
-Las diecinueve que estaban aquí de las tandas de las 18:00 y las 18:37 —aurora,
-mar, glaciar, luna, estrellas, galaxia, arcoíris, rayo, cohete, luciérnagas,
-árbol, pulpo, mariposa, girasol, ballena, abeja, búho, colibrí y la de cuánto
-le queda a la Luna— **entraron esa misma noche**, en cuanto llegaron sus textos.
+Llegaron el 29 por la noche en tres envíos —`Archivo_43`, `44` y `45`, con dos
+fotos repetidas entre ellos que se han quitado—. **Veintitrés llegan al techo
+de 2160** y una da 2052; ninguna hay que descartarla, solo les falta su `.md`.
 
-Lo que queda abajo es solo lo que no da la calidad. Si esta carpeta se vacía
-del todo algún día, mejor: querrá decir que no hay ninguna imagen pequeña
-esperando.
+Bichos: `AbejaAbispa`, `AvesMigrando`, `Caballodurmiendo`, `Camello`,
+`Comovenlosperros`, `Dinosaurios`, `Dodo`, `Elanimalmasviejo` (1683),
+`Elefante`, `GatoCaedepie`, `HiloDeArañas`, `Jirafa` (2052), `Koala`, `Mamut`,
+`Medusa`, `OsoPolar`, `Paloma`, `PerroMejoramigo`, `PulpoSangre`, `Salmon`,
+`TREX`, `Tiburon`.
+
+Y tres que no son bichos: `Cuanto pesaunanube`, `PlanetaTierra` —que viene
+justo a 2160 × 3840, la medida exacta— y `Asteroide`, que está en la lista de
+abajo.
+
+Dos de ellas dan menos del techo pero pasan el suelo de sobra: `Elanimalmasviejo`
+con 1683 y `Jirafa` con 2052. No hay nada que arreglar.
 
 ## Cómo se meten cuando lleguen los textos
 

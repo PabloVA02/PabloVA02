@@ -49,6 +49,7 @@ const COLOR = {
   "cuanto-tiempo-le-queda-a-la-luna": "var(--teal)",
   "de-donde-sale-el-alcohol": "var(--slate)",
   "el-animal-mas-grande-del-mundo": "var(--sage)",
+  "fuimos-la-unica-especie-humana": "var(--ochre)",
   "hasta-que-altura-puede-crecer-un-arbol": "var(--ochre)",
   "para-que-sirven-las-huellas-dactilares": "var(--plum)",
   "por-que-bostezamos": "var(--clay)",
@@ -222,6 +223,7 @@ const SERIE = {
   "por-que-no-recuerdas-el-momento-en-que-te-dormiste": "Por qué no recuerdas cuándo te dormiste",
   "por-que-se-te-queda-una-cancion-pegada": "Por qué se te queda una canción pegada",
   "por-que-te-da-flato-al-correr": "Por qué te da flato al correr",
+  "fuimos-la-unica-especie-humana": "Fuimos la única especie humana",
 };
 
 /* El pie y el texto alternativo de cada fotografía. Van aquí y no en la
