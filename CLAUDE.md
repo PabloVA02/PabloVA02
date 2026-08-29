@@ -91,8 +91,26 @@ portada nueva. El guion que lo hace todo es
 
 ### Calidad: manda la imagen, no el peso
 
-- **Proporción vertical 9:16** y **1440 px de ancho** —o sea 1440 × 2560—, que
-  es la resolución nativa del móvil más exigente del mercado.
+- **Proporción vertical 9:16**, y de ancho **lo que dé el original hasta 2160**
+  —o sea, como mucho 2160 × 3840, el vertical de 4K—.
+
+  Son dos reglas y las dos las dijo él el 29 de agosto: «que se vean lo mejor
+  que se puede, la máxima resolución que te pase, pues esa, o la máxima que
+  permitan los mejores móviles del mundo y los que vendrán».
+
+  **Nunca se estira.** Si una foto solo da 1800 px útiles después de recortarla
+  a 9:16, la portada sale a 1800. Agrandar no añade detalle: añade peso y
+  emborrona los bordes.
+
+  **Y el suelo de «espléndida» son 1644 px**, que es el ancho del Xperia 1, el
+  móvil más fino que se vende. Por debajo de eso la imagen se estira en ese
+  teléfono y se nota. `scripts/portadas.mjs` las canta al terminar, con su
+  nombre y cuánto les falta, y entonces **hay que decírselo a Pablo**: él lo
+  dejó dicho —«si hay alguna que no es de esa calidad me lo dices y la
+  eliminamos»—, así que la decisión es suya, no del guion. Lo que no vale es
+  subirla en silencio.
+
+  El número anterior era 1440 y venía de la primera tanda.
 - **AVIF calidad 80** como formato principal.
 - **WebP calidad 90** de respaldo, para lo que no admita AVIF.
 - **Sin límite estricto de peso.** Lo normal serán 300-500 kB y está bien.
@@ -103,13 +121,12 @@ portada nueva. El guion que lo hace todo es
   posible». Con «sin límite estricto de peso» escrito justo debajo, 65 se
   quedaba corto sin ganar nada.
 
-- **Y una imagen pequeña no se sube «tal cual» aunque la mande él.** Si después
-  de recortar a 9:16 no llega a 1440 px de ancho, estirarla se ve, y estirarla
-  es exactamente lo contrario de lo que pide. El guion lo canta al terminar y
-  hay que mirarlo: mejor pedirle otra que subir esa. El 29 de agosto llegaron
-  cinco AVIF de 900 px o menos —parecen guardados de una vista previa y no
-  descargados del original—; una de ellas, la de los nudillos, daba 338 px de
-  ancho útil y no entró.
+- **Y una imagen pequeña no se sube «tal cual» aunque la mande él.** Si no
+  llega al suelo de 1644, estirarla se ve, y estirarla es exactamente lo
+  contrario de lo que pide. El 29 de agosto llegaron cinco AVIF de 900 px de
+  ancho justos —la marca de una imagen guardada de una vista previa y no
+  descargada del original—; una de ellas, la de los nudillos, daba 338 px
+  útiles y no entró.
 - **El nombre, idéntico al del tema**: `como-funciona-la-gravedad.md` →
   `como-funciona-la-gravedad.avif`.
 
@@ -148,11 +165,14 @@ empotrada cuando existe.
 
 ### Al terminar cada tanda, se le dice a Pablo
 
-Cuántas imágenes se procesaron, **su peso medio**, y **si alguna quedó por
-debajo de 1440 px de ancho** porque el original no daba para más. Eso último lo
-imprime el guion solo, y es lo que hay que mirar antes de dar una tanda por
-buena: una portada estirada desde un original pequeño se ve mal en un móvil
-bueno, y es mejor cambiar de imagen que subirla.
+Cuántas imágenes se procesaron, **su peso medio**, **cuántas llegan al techo de
+2160** y, sobre todo, **cuáles se quedan por debajo del suelo de 1644** porque
+el original no daba para más.
+
+Esa última lista la imprime el guion solo y **hay que pasársela a Pablo con
+nombres**. Él lo dejó dicho: «si hay alguna que no es de esa calidad me lo dices
+y la eliminamos». O sea que la decisión —cambiar la foto o quitar el short— es
+suya. Lo que no vale es meterla en silencio y que se entere viéndola borrosa.
 
 ## Lo cuarto: al terminar CUALQUIER cambio
 

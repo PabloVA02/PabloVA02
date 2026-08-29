@@ -18,17 +18,20 @@ de ser una pista.
 
 ## LAS CINCO PEQUEÑAS, QUE ES LO QUE HAY QUE MIRAR
 
-Pablo, el 29 de agosto: «las portadas deben ir a la máxima calidad que permite
-un móvil, que se vea lo mejor posible a la mejor calidad posible». **Estas
-cinco no llegan**, y ninguna por poco:
+Pablo, el 29 de agosto por la tarde: «que se vean lo mejor que se puede, la
+máxima resolución que te pase, pues esa, o la máxima que permitan los mejores
+móviles del mundo y los que vendrán; que se vea a una calidad espléndida».
 
-| archivo | píxeles | 9:16 deja | falta |
+El listón de «espléndida» son **1644 px de ancho**, que es lo que tiene el
+Xperia 1, el móvil más fino que se vende. **Estas cinco no llegan ni de lejos:**
+
+| archivo | píxeles | 9:16 deja | le faltan |
 |---|---|---|---|
-| `CRUJIRSENUDILLOS.avif` | 900 × 601 | **338** | 1.102 px |
-| `Gato.avif` | 900 × 1125 | **633** | 807 px |
-| `HuellaDactilar.avif` | 900 × 1350 | **759** | 681 px |
-| `Pelirrojo.avif` | 900 × 1350 | **759** | 681 px |
-| `Resaca.avif` | 900 × 1350 | **759** | 681 px |
+| `CRUJIRSENUDILLOS.avif` | 900 × 601 | **338** | 1.306 px |
+| `Gato.avif` | 900 × 1125 | **633** | 1.011 px |
+| `HuellaDactilar.avif` | 900 × 1350 | **759** | 885 px |
+| `Pelirrojo.avif` | 900 × 1350 | **759** | 885 px |
+| `Resaca.avif` | 900 × 1350 | **759** | 885 px |
 
 Las cinco vienen ya en AVIF y las cinco miden 900 px de ancho justos. Eso no es
 casualidad: es la marca de una imagen **guardada de una vista previa** —de la
@@ -45,16 +48,9 @@ hasta que llegue la versión grande**.
 salir en la app. Las otras cuatro no corren prisa: sus temas todavía no
 existen.
 
-## Las que sí están bien y solo esperan su texto
-
-| archivo | píxeles | 9:16 deja | tema de la cola |
-|---|---|---|---|
-| `PanDuro.jpg` | 3024 × 4032 | 2268 | Por qué se pone duro el pan |
-| `Moreno.jpg` | 2643 × 3430 | 1929 | Por qué te pones moreno |
-| `Mosquito.jpg` | 2795 × 4466 | 2512 | Por qué pica una picadura de mosquito |
-| `Everest.jpg` | 4000 × 6000 | 3375 | Por qué el Everest no es la montaña más alta |
-| `Helado.jpg` | 2304 × 4096 | 2304 | Por qué duele la cabeza al comer helado |
-| `AguaCaliente.jpg` | 4000 × 6000 | 3375 | Por qué el agua caliente se congela antes |
+Las seis que venían con ellas y sí daban la talla —pan, moreno, mosquito,
+Everest, helado y agua caliente— ya están puestas: llegaron sus textos esa misma
+tarde y salieron de aquí.
 
 ## Cómo se meten cuando lleguen los textos
 

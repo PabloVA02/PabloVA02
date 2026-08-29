@@ -54,9 +54,36 @@ const SALIDA = join(AQUI, "portadas");
 const CSV = join(AQUI, "assets", "portadas.csv");
 const RECORTES = join(AQUI, "assets", "recortes.json");
 
-/* Las tres medidas de la regla, juntas y en un solo sitio. */
-const ANCHO = 1440;
-const ALTO = 2560; // 9:16 exacto
+/* LAS MEDIDAS, Y POR QUÉ SON ESTAS.
+
+   Pablo, el 29 de agosto por la tarde: «que se vean lo mejor que se puede, la
+   máxima resolución que te pase, pues esa, o la máxima que permitan los
+   mejores móviles del mundo y los que vendrán; que se vea a una calidad
+   espléndida. Si hay alguna que no es de esa calidad me lo dices y la
+   eliminamos».
+
+   Son dos instrucciones y hacen falta dos números:
+
+   · EL TECHO, 2160 de ancho. Es el vertical de 4K —2160 × 3840— y no es un
+     número inventado para quedar bien: el móvil más fino que se vende hoy, el
+     Xperia 1, tiene 1644 de ancho, y el iPhone Pro Max 1320. Con 2160 hay
+     margen de sobra para los que vengan y no se guarda una barbaridad que
+     nadie va a ver. Por encima de eso no se sube aunque el original dé más.
+
+   · EL SUELO, 1644 de ancho. Es exactamente lo que necesita ese Xperia para
+     enseñar la portada píxel a píxel. Por debajo, en ese móvil, la imagen se
+     estira y se nota. Es la cifra que decide si una portada es «espléndida» o
+     hay que pedirle otra: el guion la canta al terminar y no la disimula.
+
+   Y ENTRE MEDIAS, LO QUE DÉ EL ORIGINAL, sin estirarlo nunca. Es la primera
+   mitad de su frase —«la máxima resolución que te pase, pues esa»—: si una
+   foto solo da 1800 de ancho útil, la portada sale a 1800 y no a 2160.
+   Agrandar no añade detalle, añade peso y emborrona los bordes. */
+const TECHO = 2160;
+const ESPLENDIDO = 1644;
+/* La proporción, que no cambia: 9:16. */
+const ANCHO = 9;
+const ALTO = 16;
 /* CALIDAD, SUBIDA EL 29 DE AGOSTO. Pablo: «ya siempre sabes que las portadas
    deben ir a la máxima calidad que permite un móvil, que se vea lo mejor
    posible a la mejor calidad posible». El 65 del `CLAUDE.md` era su número de
@@ -140,9 +167,12 @@ const encuadres = existsSync(RECORTES) ? JSON.parse(readFileSync(RECORTES, "utf8
  *  salirse de los bordes. */
 function ventana(meta, foco) {
   const zoom = Math.max(1, foco.zoom ?? 1);
-  const escala = Math.min(meta.width / ANCHO, meta.height / ALTO) / zoom;
-  const width = Math.min(Math.round(ANCHO * escala), meta.width);
-  const height = Math.min(Math.round(ALTO * escala), meta.height);
+  /* La ventana 9:16 más grande que cabe en el original, dividida por el zoom.
+     Se calcula sobre el ORIGINAL y no sobre la medida de salida: así el
+     recorte es el mismo se guarde a 1800 o a 2160, y lo único que cambia
+     después es a cuánto se reduce. */
+  const width = Math.max(1, Math.floor(capacidad(meta) / zoom));
+  const height = Math.min(meta.height, Math.round((width * ALTO) / ANCHO));
   const centra = (medida, total, donde) =>
     Math.min(Math.max(Math.round(total * donde - medida / 2), 0), total - medida);
   return {
@@ -154,22 +184,38 @@ function ventana(meta, foco) {
 }
 
 /* ---- el procesado ------------------------------------------------------- */
+
+/** El ancho útil de un original DESPUÉS de recortarlo a 9:16.
+ *
+ *  Si la foto es más apaisada que 9:16 lo que limita es su alto; si es más
+ *  estrecha, su ancho. Es esta cifra, y no `meta.width`, la que dice cuánta
+ *  portada hay de verdad ahí dentro: una panorámica de 6000 × 2000 tiene mucho
+ *  ancho y da una portada de 1125.
+ */
+function capacidad(meta) {
+  return meta.width / meta.height > ANCHO / ALTO
+    ? Math.round((meta.height * ANCHO) / ALTO)
+    : meta.width;
+}
+
 async function procesa(ruta, tema) {
   const original = sharp(ruta, { failOn: "none" });
   const meta = await original.metadata();
+  const foco = encuadres[tema];
+  const zoom = Math.max(1, foco?.zoom ?? 1);
 
-  /* El ancho útil del original DESPUÉS de recortar a 9:16. Si es más apaisado
-     que 9:16, lo que limita es su alto; si es más estrecho, su ancho. Es esa
-     cifra, y no `meta.width`, la que dice si la portada va a salir estirada. */
-  const util = meta.width / meta.height > ANCHO / ALTO
-    ? Math.round((meta.height * ANCHO) / ALTO)
-    : meta.width;
+  /* CUÁNTO DA ESTA FOTO, y el zoom se descuenta: acercarse recorta, y lo que
+     se recorta ya no está para la salida. */
+  const util = Math.floor(capacidad(meta) / zoom);
+
+  /* Y CUÁNTO SE GUARDA: lo que dé, sin pasar del techo y sin estirar nunca. */
+  const ancho = Math.min(TECHO, util);
+  const alto = Math.round((ancho * ALTO) / ANCHO);
 
   mkdirSync(SALIDA, { recursive: true });
-  const foco = encuadres[tema];
   const base = foco
-    ? sharp(ruta, { failOn: "none" }).extract(ventana(meta, foco)).resize(ANCHO, ALTO)
-    : sharp(ruta, { failOn: "none" }).resize(ANCHO, ALTO, {
+    ? sharp(ruta, { failOn: "none" }).extract(ventana(meta, foco)).resize(ancho, alto)
+    : sharp(ruta, { failOn: "none" }).resize(ancho, alto, {
         fit: "cover",
         /* `attention` y no `centre`: busca la zona de más detalle. En una
            portada vertical sacada de una imagen apaisada, el centro
@@ -186,9 +232,11 @@ async function procesa(ruta, tema) {
     ancho_original: meta.width,
     alto_original: meta.height,
     util,
+    ancho,
+    alto,
     avif_kb: Math.round(statSync(avif).size / 1024),
     webp_kb: Math.round(statSync(webp).size / 1024),
-    corta: util < ANCHO,
+    corta: ancho < ESPLENDIDO,
   };
 }
 
@@ -254,32 +302,39 @@ for (const f of fuentes) {
     alto_original: r.alto_original,
     avif_kb: r.avif_kb,
     webp_kb: r.webp_kb,
-    aviso: r.corta ? `original de solo ${r.util} px útiles de ancho` : "",
+    aviso: r.corta
+      ? `sale a ${r.ancho} px de ancho, por debajo de los ${ESPLENDIDO} del móvil más fino`
+      : "",
   });
   if (subir) fila.url_publica = await sube(tema);
   filas.set(tema, fila);
   hechas.push({ tema, ...r });
-  if (r.corta) cortas.push({ tema, util: r.util });
+  if (r.corta) cortas.push({ tema, ancho: r.ancho });
   /* La procedencia NO la puede rellenar el guion: la pone quien elige la
      imagen. Sin ella la fila existe pero la portada no está probada. */
   if (!fila.fuente || !fila.licencia) sinFicha.push(tema);
   console.log(
-    `${tema.padEnd(34)} ${String(r.avif_kb).padStart(4)} kB avif · ` +
-      `${String(r.webp_kb).padStart(4)} kB webp · original ${r.ancho_original}×${r.alto_original}` +
+    `${tema.padEnd(38)} ${String(r.ancho).padStart(4)}×${String(r.alto).padEnd(4)} · ` +
+      `${String(r.avif_kb).padStart(5)} kB avif · ${String(r.webp_kb).padStart(5)} kB webp · ` +
+      `original ${r.ancho_original}×${r.alto_original}` +
       (encuadres[tema] ? " · encuadre a mano" : "") +
-      (r.corta ? `  ← se queda en ${r.util} px de ancho` : ""),
+      (r.corta ? `  ← POR DEBAJO DE ${ESPLENDIDO}` : r.ancho < TECHO ? " · da lo que da" : ""),
   );
 }
 escribeCsv(filas);
 
 const medio = Math.round(hechas.reduce((t, h) => t + h.avif_kb, 0) / hechas.length);
 console.log(`\n${hechas.length} portadas · ${medio} kB de media en AVIF · assets/portadas.csv al día`);
+const aTecho = hechas.filter((h) => h.ancho >= TECHO).length;
+console.log(`${aTecho} llegan al techo de ${TECHO} · ${hechas.length - aTecho - cortas.length} dan menos pero pasan del suelo`);
 if (cortas.length)
   console.log(
-    `AVISO — ${cortas.length} por debajo de ${ANCHO} px de ancho, el original no daba para más:\n` +
-      cortas.map((c) => `   ${c.tema}: ${c.util} px`).join("\n"),
+    `\nESTAS NO SON ESPLÉNDIDAS — ${cortas.length} por debajo de ${ESPLENDIDO} px, que es lo que\n` +
+      `pide el móvil más fino que se vende. El original no da para más, así que o se\n` +
+      `cambia la fotografía o se quita el short:\n` +
+      cortas.map((c) => `   ${c.tema.padEnd(38)} ${c.ancho} px  (le faltan ${ESPLENDIDO - c.ancho})`).join("\n"),
   );
-else console.log(`Ninguna por debajo de ${ANCHO} px de ancho.`);
+else console.log(`Ninguna por debajo de ${ESPLENDIDO} px: todas espléndidas.`);
 if (sinFicha.length)
   console.log(
     `SIN PROCEDENCIA — hay que rellenar fuente y licencia en assets/portadas.csv:\n   ` +
