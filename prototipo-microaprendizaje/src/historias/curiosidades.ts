@@ -4,7 +4,14 @@ import type { Short } from "../shorts";
    Commons no llevan `import`: se piden por red y `movil.mjs` las empotra. */
 import p_la_costra_no_esta_curando_nada from "../../portadas/la-costra-no-esta-curando-nada.avif";
 import p_la_gravedad_no_es_una_fuerza from "../../portadas/la-gravedad-no-es-una-fuerza.avif";
+import p_como_se_forma_dentro_de_una_gota from "../../portadas/como-se-forma-dentro-de-una-gota.avif";
+import p_un_cohete_no_empuja_contra_nada from "../../portadas/un-cohete-no-empuja-contra-nada.avif";
+import p_nadie_las_ha_contado from "../../portadas/nadie-las-ha-contado.avif";
+import p_llevamos_57_anos_disparando_laseres_a_la_luna from "../../portadas/llevamos-57-anos-disparando-laseres-a-la-luna.avif";
+import p_mas_grande_que_cualquier_dinosaurio from "../../portadas/mas-grande-que-cualquier-dinosaurio.avif";
+import p_el_arbol_no_bombea_el_agua_la_cuelga from "../../portadas/el-arbol-no-bombea-el-agua-la-cuelga.avif";
 import p_el_bostezo_no_tiene_que_ver_con_el_oxigeno from "../../portadas/el-bostezo-no-tiene-que-ver-con-el-oxigeno.avif";
+import p_una_contrasena_que_alguien_ha_robado from "../../portadas/una-contrasena-que-alguien-ha-robado.avif";
 import p_no_crecen_la_piel_se_retira from "../../portadas/no-crecen-la-piel-se-retira.avif";
 import p_hay_un_sensor_dentro_del_diente from "../../portadas/hay-un-sensor-dentro-del-diente.avif";
 import p_el_dolor_no_esta_donde_lo_notas from "../../portadas/el-dolor-no-esta-donde-lo-notas.avif";
@@ -13,16 +20,24 @@ import p_el_chaval_y_el_helado from "../../portadas/el-chaval-y-el-helado.avif";
 import p_el_cafe_no_te_da_energia from "../../portadas/el-cafe-no-te-da-energia.avif";
 import p_el_cielo_deberia_ser_violeta from "../../portadas/el-cielo-deberia-ser-violeta.avif";
 import p_tres_preguntas_tres_ganadores from "../../portadas/tres-preguntas-tres-ganadores.avif";
+import p_la_nieve_y_el_hielo_azul_son_lo_mismo from "../../portadas/la-nieve-y-el-hielo-azul-son-lo-mismo.avif";
+import p_el_mar_no_refleja_el_cielo from "../../portadas/el-mar-no-refleja-el-cielo.avif";
 import p_la_sal_no_viene_del_mar from "../../portadas/la-sal-no-viene-del-mar.avif";
 import p_los_dias_no_los_anos_si from "../../portadas/los-dias-no-los-anos-si.avif";
+import p_el_color_te_dice_a_que_altura_ocurre from "../../portadas/el-color-te-dice-a-que-altura-ocurre.avif";
 import p_una_molecula_a_partir_de_los_cuarenta from "../../portadas/una-molecula-a-partir-de-los-cuarenta.avif";
+import p_la_luna_del_horizonte_es_mas_pequena from "../../portadas/la-luna-del-horizonte-es-mas-pequena.avif";
 import p_la_miel_no_se_conserva from "../../portadas/la-miel-no-se-conserva.avif";
+import p_costo_dos_mil_anos_demostrar_que_acertaban from "../../portadas/costo-dos-mil-anos-demostrar-que-acertaban.avif";
 import p_las_rayas_no_son_un_camuflaje from "../../portadas/las-rayas-no-son-un-camuflaje.avif";
 import p_el_amarillo_ya_estaba from "../../portadas/el-amarillo-ya-estaba.avif";
 import p_la_cebolla_entera_no_lleva_nada from "../../portadas/la-cebolla-entera-no-lleva-nada.avif";
 import p_te_ensenaron_mal_como_se_forma_una_nube from "../../portadas/te-ensenaron-mal-como-se-forma-una-nube.avif";
+import p_giran_porque_no_pueden_mover_los_ojos from "../../portadas/giran-porque-no-pueden-mover-los-ojos.avif";
+import p_el_ala_no_bate_gira from "../../portadas/el-ala-no-bate-gira.avif";
 import p_no_invierten_izquierda_derecha from "../../portadas/no-invierten-izquierda-derecha.avif";
 import p_un_flamenco_nace_gris from "../../portadas/un-flamenco-nace-gris.avif";
+import p_no_lo_siguen_se_le_anticipan from "../../portadas/no-lo-siguen-se-le-anticipan.avif";
 import p_a_los_tres_anos_te_acordabas from "../../portadas/a-los-tres-anos-te-acordabas.avif";
 import p_la_unica_especie_que_se_sonroja from "../../portadas/la-unica-especie-que-se-sonroja.avif";
 import p_el_picante_no_es_un_sabor from "../../portadas/el-picante-no-es-un-sabor.avif";
@@ -32,13 +47,17 @@ import p_no_solo_cuando_estan_contentos from "../../portadas/no-solo-cuando-esta
 import p_la_leche_cortada_es_queso_a_medio_empezar from "../../portadas/la-leche-cortada-es-queso-a-medio-empezar.avif";
 import p_el_pan_duro_no_se_ha_secado from "../../portadas/el-pan-duro-no-se-ha-secado.avif";
 import p_no_es_falta_de_riego from "../../portadas/no-es-falta-de-riego.avif";
+import p_el_azul_no_es_un_color_es_una_estructura from "../../portadas/el-azul-no-es-un-color-es-una-estructura.avif";
 import p_el_conductor_no_se_marea_nunca from "../../portadas/el-conductor-no-se-marea-nunca.avif";
 import p_la_cicatriz_de_un_dano from "../../portadas/la-cicatriz-de-un-dano.avif";
 import p_en_invierno_estamos_mas_cerca_del_sol from "../../portadas/en-invierno-estamos-mas-cerca-del-sol.avif";
 import p_erizar_un_pelaje_que_ya_no_tienes from "../../portadas/erizar-un-pelaje-que-ya-no-tienes.avif";
 import p_tiritar_desperdiciar_energia from "../../portadas/tiritar-desperdiciar-energia.avif";
 import p_nadie_oyo_su_voz_hasta_1877 from "../../portadas/nadie-oyo-su-voz-hasta-1877.avif";
+import p_ve_en_blanco_y_negro_y_acierta_el_color from "../../portadas/ve-en-blanco-y-negro-y-acierta-el-color.avif";
+import p_el_destello_sube_del_suelo_a_la_nube from "../../portadas/el-destello-sube-del-suelo-a-la-nube.avif";
 import p_por_que_vuelan_los_aviones_es_falso from "../../portadas/por-que-vuelan-los-aviones-es-falso.avif";
+import p_hasta_1925_el_universo_era_esta_galaxia from "../../portadas/hasta-1925-el-universo-era-esta-galaxia.avif";
 
 /* ==========================================================================
    CURIOSIDADES — LO ESCRIBE `scripts/catalogo.mjs`, NO SE EDITA A MANO
@@ -53,7 +72,7 @@ import p_por_que_vuelan_los_aviones_es_falso from "../../portadas/por-que-vuelan
    reparte en pantallas es la app, midiendo el móvil de quien lee. Es la
    regla 3 de `.claude/skills/paginado-shorts/SKILL.md`.
 
-   Hoy entran 38 de 106: solo los que tienen portada.
+   Hoy entran 57 de 161: solo los que tienen portada.
    ========================================================================== */
 
 export const CURIOSIDADES: Short[] = [
@@ -304,6 +323,362 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "como-se-forma-dentro-de-una-gota",
+    titulo: "Cómo se forma un arcoíris",
+    categoria: "Ciencia",
+    color: "var(--ochre)",
+    /* Serie «como-se-forma-un-arcoiris», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Cada gota de lluvia te manda un solo color» */
+    encargo: "Cada gota de lluvia te manda un solo color",
+    fotos: [
+      {
+        local: p_como_se_forma_dentro_de_una_gota,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Cada gota de lluvia te manda un solo color",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dentro de la gota pasan tres cosas, y en este orden",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un arcoíris no se forma en el cielo ni en la nube: se forma dentro de cada gota de " +
+          "agua, una por una, y siempre con la misma secuencia de tres pasos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El primero es la <strong>refracción</strong>. Cuando un rayo de sol llega a una gota, " +
+          "pasa del aire al agua, y al hacerlo cambia de velocidad; ese cambio lo obliga a " +
+          "torcerse, a entrar en la gota con un ángulo distinto del que traía. Es el mismo efecto " +
+          "por el que una cuchara metida en un vaso parece partida en dos justo en la superficie " +
+          "del agua.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El segundo es la <strong>dispersión</strong>, y es el que pone los colores. La luz " +
+          "blanca del Sol no es un color: es la mezcla de todos, y cada uno tiene su longitud de " +
+          "onda. Resulta que el agua no los tuerce a todos por igual, sino que desvía más a los " +
+          "de longitud de onda corta y menos a los de longitud de onda larga. El violeta se dobla " +
+          "más que el rojo. De modo que, en el instante mismo de entrar, el rayo blanco deja de " +
+          "ser blanco y se abre en abanico, con cada color siguiendo su propio camino ligeramente " +
+          "distinto dentro de la gota.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El tercero es el <strong>rebote</strong>. Ese abanico de colores atraviesa la gota y " +
+          "llega a la pared del fondo, y ahí se refleja en la cara interior, dando media vuelta " +
+          "hacia el lado por el que había entrado. Al salir vuelve a cruzar la frontera entre " +
+          "agua y aire, se refracta otra vez y los colores se separan todavía un poco más.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ese es todo el mecanismo. La luz entra y se tuerce, se abre en colores, rebota en el " +
+          "fondo y sale por delante, ya desplegada en abanico. Lo que gobierna el resultado no es " +
+          "ninguna propiedad exótica: es simplemente que una gota de agua es una esfera, y que " +
+          "una esfera hace siempre lo mismo con la luz.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El arcoíris no se forma en el cielo, se forma dentro de cada gota: la luz entra " +
+          "torciéndose, se abre en colores, rebota en la pared del fondo y sale por delante.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Por eso una gota concreta solo puede mandarte un color",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora la parte que descoloca, y que cambia por completo la imagen mental que uno tiene " +
+          "del asunto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Qué le llega exactamente a tu ojo de una gota determinada? Es simple: un solo color, " +
+          "y siempre el mismo. No un arcoíris en miniatura, ni un abanico completo, sino un único " +
+          "color.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La razón está en los ángulos, que son distintos para cada uno. Después de todo el " +
+          "recorrido, el rojo sale de la gota formando unos <strong>42 grados</strong> con la " +
+          "línea que va hacia el punto antisolar, y el violeta sale formando unos <strong>40 " +
+          "grados</strong>. Los demás colores se reparten entre esas dos cifras. Como el resto de " +
+          "colores de esa misma gota salen en direcciones que no pasan por tu ojo, se pierden: le " +
+          "llegarán a otra persona, o a nadie.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa entonces en lo que estás viendo cuando miras un arco. La franja roja de arriba " +
+          "está hecha con gotas que están precisamente a 42 grados de tu punto antisolar; esas " +
+          "gotas te mandan rojo y solo rojo. La franja violeta de abajo está hecha con " +
+          "<strong>otras gotas distintas</strong>, situadas un par de grados más cerca del " +
+          "centro; esas te mandan violeta y solo violeta. Y las franjas intermedias son otras " +
+          "tantas familias de gotas, cada una en su anillo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que el arcoíris no es un objeto que tenga colores: es un mosaico. Cada punto " +
+          "de la banda que ves es una gota diferente aportando un único color, como los píxeles " +
+          "de una pantalla, y el conjunto se ordena en franjas porque las gotas se ordenan por " +
+          "ángulo. Además, como el rojo sale con el ángulo mayor, es la banda que queda por fuera " +
+          "del arco, y el violeta, con el ángulo menor, la que queda por dentro.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Ninguna gota te manda un arcoíris. Cada una te manda un solo color, y el arco es el " +
+          "mosaico que forman millones de gotas ordenadas por ángulo.",
+      },
+    ],
+  },
+  {
+    id: "un-cohete-no-empuja-contra-nada",
+    titulo: "Cómo vuelan los cohetes",
+    categoria: "Ciencia",
+    color: "var(--plum)",
+    /* Serie «como-vuelan-los-cohetes», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un cohete no empuja contra nada, y por eso funciona mejor en el vacío» */
+    encargo: "Un cohete no empuja contra nada, y por eso funciona mejor en el vacío",
+    fotos: [
+      {
+        local: p_un_cohete_no_empuja_contra_nada,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un cohete no empuja contra nada, y por eso funciona mejor en el vacío",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La intuición dice que empuja contra el aire, y es falsa",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando vemos despegar un cohete, con esa columna de fuego aplastándose contra la " +
+          "plataforma, la lectura que hace el cerebro es inmediata: los gases empujan hacia abajo " +
+          "contra el suelo y contra el aire, y ese empujón levanta la máquina. Es la misma idea " +
+          "con la que entendemos a un nadador que aparta agua hacia atrás para avanzar, o a " +
+          "alguien que se impulsa apoyándose en una pared.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si eso fuera lo que ocurre, un cohete dejaría de funcionar en el espacio. Allí no hay " +
+          "aire contra el que apoyarse, ni suelo, ni nada: la nave estaría agitando sus gases en " +
+          "el vacío como quien intenta nadar sin agua. Y sin embargo funcionan perfectamente en " +
+          "el espacio, que es precisamente donde tienen que trabajar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La razón es que el empuje no viene de fuera, viene de dentro. Un cohete no se apoya en " +
+          "nada externo: <strong>se apoya en el propio material que expulsa</strong>. Está " +
+          "lanzando masa hacia atrás a enorme velocidad, y esa masa, al salir disparada, empuja " +
+          "al cohete hacia delante con exactamente la misma fuerza. Es la tercera ley de Newton " +
+          "en su versión más pura, y no necesita ningún medio alrededor para cumplirse.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay un experimento mental que lo deja claro. Imagínate de pie sobre un lago helado, " +
+          "con patines y sin nada a mano de lo que agarrarte, sosteniendo una bola de bolos. No " +
+          "puedes moverte: no hay rozamiento del que tirar ni pared que empujar. Ahora lanza la " +
+          "bola hacia delante con todas tus fuerzas. Empezarás a deslizarte hacia atrás, y no " +
+          "porque hayas empujado el hielo o el aire, sino porque has empujado la bola y la bola " +
+          "te ha empujado a ti. Un cohete es eso mismo repetido: lanza bolas —moléculas de gas " +
+          "caliente— millones de veces por segundo, y lo que retrocede eres tú.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un cohete no empuja contra el aire ni contra el suelo. Empuja contra sus propios " +
+          "gases, y por eso el vacío no le estorba.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "En el espacio no solo funciona: funciona mejor",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí está el giro que remata el asunto, porque el vacío no es un obstáculo que el " +
+          "cohete supere a duras penas. El vacío es su mejor escenario, y un mismo motor entrega " +
+          "<strong>más empuje</strong> fuera de la atmósfera que a nivel del mar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay dos motivos, y los dos son fáciles de ver. El primero es la resistencia del aire: " +
+          "al atravesar la atmósfera densa, un cohete gasta una parte considerable de su energía " +
+          "simplemente en apartar aire de su camino, y cuanto más rápido va, más le cuesta. Fuera " +
+          "de la atmósfera ese peaje desaparece por completo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El segundo es más sutil y es el que de verdad da la vuelta a la intuición. En la boca " +
+          "de la tobera, por donde salen los gases, la atmósfera está empujando hacia dentro con " +
+          "su propia presión, oponiéndose a la salida del chorro. Ese aire de alrededor, que la " +
+          "intuición imaginaba como el apoyo del cohete, en realidad está actuando como un freno " +
+          "en la salida. En el vacío no hay nada que empuje hacia dentro, el chorro se expande " +
+          "libremente y el motor rinde más. El aire no era el aliado: era el estorbo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso los cohetes de varias etapas llevan motores distintos arriba y abajo. Los de " +
+          "la primera etapa están diseñados para trabajar dentro de la atmósfera y llevan toberas " +
+          "relativamente cortas; los de las etapas superiores, que solo se encienden ya arriba, " +
+          "llevan toberas enormes y acampanadas, con formas que serían contraproducentes a nivel " +
+          "del mar y que en el vacío exprimen hasta el último gramo de empuje. Esa diferencia de " +
+          "forma entre unas toberas y otras, que se ve a simple vista en cualquier fotografía de " +
+          "un cohete despiezado, es la prueba física de que el vacío no es un problema a resolver " +
+          "sino una ventaja a aprovechar.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El aire no ayuda al cohete: le frena, y además presiona en contra a la salida de la " +
+          "tobera. Un mismo motor da más empuje en el vacío que a nivel del mar.",
+      },
+    ],
+  },
+  {
+    id: "nadie-las-ha-contado",
+    titulo: "Cuántas estrellas hay en el universo",
+    categoria: "Ciencia",
+    color: "var(--clay)",
+    /* Serie «cuantas-estrellas-hay-en-el-universo», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Nadie ha contado nunca las estrellas del universo» */
+    encargo: "Nadie ha contado nunca las estrellas del universo",
+    fotos: [
+      {
+        local: p_nadie_las_ha_contado,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Nadie ha contado nunca las estrellas del universo",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se cuenta un trozo diminuto y se multiplica",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando alguien te da una cifra de estrellas en el universo, conviene saber de dónde " +
+          "sale, porque no sale de contarlas. Nadie ha contado jamás las estrellas del universo " +
+          "ni va a hacerlo, y no por pereza: la inmensa mayoría son invisibles incluso para los " +
+          "mejores telescopios, porque están demasiado lejos o son demasiado débiles.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que se hace es un truco de encuestador, y es de una elegancia notable. Se elige un " +
+          "trozo de cielo minúsculo, aparentemente vacío, y se apunta ahí un telescopio potente " +
+          "durante días acumulando luz. Al revelar la imagen, ese cuadrado que parecía negro " +
+          "aparece lleno de galaxias, cientos o miles de ellas. Entonces se cuentan las de ese " +
+          "recorte, se calcula cuántos recortes así caben en la esfera del cielo entera, y se " +
+          "multiplica.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con eso obtienes un número de galaxias. Después hay que estimar cuántas estrellas " +
+          "tiene una galaxia de media, que es otro cálculo con sus propias suposiciones, y se " +
+          "multiplica otra vez. El resultado es la cifra que luego circula por ahí como si " +
+          "alguien la hubiera comprobado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un trabajo de 2016 estimó por esa vía unos dos billones de galaxias en el universo " +
+          "observable. Multiplicando por una media razonable de estrellas por galaxia salen " +
+          "números con veinte ceros o más detrás. Y conviene retener la palabra que gobierna toda " +
+          "la operación: <strong>estimación</strong>. No es un recuento, es una extrapolación a " +
+          "partir de una muestra minúscula.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La cifra no sale de contar estrellas. Sale de contar galaxias en un recorte de cielo " +
+          "del tamaño de un grano de arena a un brazo de distancia, y multiplicar.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y lo que tú ves de todo eso son unos pocos miles",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora la parte que devuelve el asunto a la escala humana, y que descoloca bastante a " +
+          "la gente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Sal una noche despejada, lejos de las luces de la ciudad, mira hacia arriba y ten la " +
+          "sensación habitual de que el cielo está infestado de estrellas, de que no caben más. " +
+          "Ese cielo que te parece imposible de abarcar contiene unos pocos miles de estrellas " +
+          "visibles. Con muy buenas condiciones y buena vista, del orden de dos o tres mil a la " +
+          "vez, y contando todo lo que se puede ver desde cualquier punto del planeta a lo largo " +
+          "del año, unos pocos miles más.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Compara esa cifra con la anterior y el resultado es difícil de asimilar. De un número " +
+          "con veinte ceros, tú ves cuatro dígitos. Y no son una muestra representativa: son las " +
+          "que están más cerca y las que brillan más, es decir, precisamente las excepcionales.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y todas ellas, sin excepción, son de nuestra galaxia. Todo lo que has visto en el " +
+          "cielo con tus ojos a lo largo de tu vida, cada estrella que has mirado alguna vez, " +
+          "está dentro de la Vía Láctea. Lo único que se ve a simple vista más allá son unas " +
+          "pocas manchas borrosas, y una de ellas es Andrómeda.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "De un número con veinte ceros, tus ojos ven cuatro dígitos. Y todas están dentro de " +
+          "nuestra galaxia.",
+      },
+    ],
+  },
+  {
     id: "al-sol-le-quedan-cinco-mil-millones",
     titulo: "Cuánto de vida le queda al Sol",
     categoria: "Ciencia",
@@ -416,6 +791,341 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "llevamos-57-anos-disparando-laseres-a-la-luna",
+    titulo: "Cuánto tiempo le queda a la Luna",
+    categoria: "Ciencia",
+    color: "var(--teal)",
+    /* Serie «cuanto-tiempo-le-queda-a-la-luna», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Llevamos 57 años disparando láseres a la Luna para ver cómo se aleja» */
+    encargo: "Llevamos 57 años disparando láseres a la Luna para ver cómo se aleja",
+    fotos: [
+      {
+        local: p_llevamos_57_anos_disparando_laseres_a_la_luna,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Llevamos 57 años disparando láseres a la Luna para ver cómo se aleja",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los astronautas del Apolo dejaron espejos allí arriba, y siguen funcionando",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando se habla de lo que dejaron las misiones Apolo en la Luna, casi siempre se " +
+          "mencionan las banderas y las huellas. Lo que casi nadie sabe es que dejaron también un " +
+          "instrumento científico que sigue en marcha hoy, más de medio siglo después, y que es " +
+          "con diferencia el experimento más longevo del programa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las tripulaciones del <strong>Apolo 11</strong>, el <strong>Apolo 14</strong> y el " +
+          "<strong>Apolo 15</strong> instalaron en la superficie unos paneles llenos de prismas " +
+          "de vidrio de cuarzo, cien en cada uno de los dos primeros y trescientos en el tercero. " +
+          "Son <strong>retrorreflectores</strong>, y tienen una propiedad muy útil: devuelven la " +
+          "luz exactamente en la dirección de la que ha venido, sea cual sea el ángulo con el que " +
+          "les llegue. No hace falta orientarlos ni ajustarlos ni alimentarlos. Ahí siguen, " +
+          "quietos en el polvo lunar, sin una sola pieza móvil y sin batería que se agote.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El experimento consiste en dispararles. Cuatro telescopios repartidos entre Nuevo " +
+          "México, Francia, Italia y Alemania lanzan pulsos de láser contra esos paneles y " +
+          "cronometran lo que tarda la luz en ir, rebotar y volver. Como la velocidad de la luz " +
+          "se conoce con enorme exactitud, ese tiempo de ida y vuelta se convierte directamente " +
+          "en distancia. Y la precisión que se alcanza así es la parte que cuesta creerse: la " +
+          "separación entre la Tierra y la Luna, que ronda los 384.000 kilómetros, se mide con un " +
+          "margen de unos pocos <strong>milímetros</strong>.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los espejos del Apolo no necesitan energía ni mantenimiento. Medio siglo después " +
+          "siguen devolviendo cada pulso de láser que se les manda.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y el resultado es que la Luna se está yendo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y para qué sirve medir esa distancia con semejante finura, año tras año, durante " +
+          "décadas? Es simple: para ver si cambia. Y cambia.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La cifra que ha salido de ese seguimiento es de <strong>3,8 centímetros al " +
+          "año</strong>. Cada doce meses la Luna está algo menos de cuatro centímetros más lejos " +
+          "de nosotros que el año anterior, lo que equivale a unos tres milímetros cada mes. Es " +
+          "un ritmo aproximadamente igual al que te crecen las uñas: si te cortas las uñas y " +
+          "esperas un año, lo que te ha crecido es más o menos lo que se ha alejado la Luna en " +
+          "ese mismo tiempo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Puesto así suena a nada, y conviene resistir la tentación de despacharlo como una " +
+          "curiosidad menor, porque el interés de este dato no está en la magnitud sino en la " +
+          "dirección. La Luna no oscila alrededor de una distancia fija: se aleja, siempre, sin " +
+          "pausa y sin marcha atrás. Y un movimiento constante en una sola dirección, por pequeño " +
+          "que sea, se acumula. Cuatro centímetros al año son cuarenta metros en un millón de " +
+          "años, y cuarenta mil kilómetros en mil millones. En la escala de tiempo en la que " +
+          "funciona el sistema solar, eso no es un detalle: es una mudanza.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Que además ese número se conozca no por una estimación teórica, sino por medición " +
+          "directa y repetida contra unos espejos que unos hombres colocaron a mano en 1969 y " +
+          "1971, es lo que convierte el asunto en algo más que un cálculo de pizarra.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La Luna se aleja 3,8 centímetros al año, más o menos lo que te crecen las uñas. No es " +
+          "una estimación: se mide rebotando láseres contra unos espejos del Apolo.",
+      },
+    ],
+  },
+  {
+    id: "mas-grande-que-cualquier-dinosaurio",
+    titulo: "El animal más grande del mundo",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    /* Serie «el-animal-mas-grande-del-mundo», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Es más grande que cualquier dinosaurio y come animales de cinco centímetros» */
+    encargo: "Es más grande que cualquier dinosaurio y come animales de cinco centímetros",
+    fotos: [
+      {
+        local: p_mas_grande_que_cualquier_dinosaurio,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Es más grande que cualquier dinosaurio y come animales de cinco centímetros",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No es el animal más grande que existe: es el más grande que ha existido",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando se dice que la ballena azul es el animal más grande del mundo, la frase se " +
+          "queda corta por un lado que no se suele mencionar. No es solo el animal más grande " +
+          "<strong>que hay ahora</strong>. Es el más grande que ha habido nunca, en toda la " +
+          "historia de la vida en la Tierra.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y eso incluye a los dinosaurios, que es donde la afirmación se vuelve difícil de " +
+          "creer. La imagen que tenemos de los saurópodos gigantes, esos cuellilargos que llenan " +
+          "la pantalla en cualquier documental, sugiere que ahí estaba el techo del tamaño " +
+          "animal. No lo estaba: el mayor dinosaurio conocido rondaba las <strong>75 " +
+          "toneladas</strong>, menos de la mitad de lo que pesa una ballena azul grande. La " +
+          "ballena supera los treinta metros de longitud y puede acercarse a las doscientas " +
+          "toneladas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La razón de que la ballena pudiera llegar donde el dinosaurio no llegó está en dónde " +
+          "vive. Un animal terrestre tiene que sostener su propio peso con las patas, y a partir " +
+          "de cierta masa los huesos y las articulaciones no dan más de sí. En el agua eso " +
+          "desaparece: la flotación sostiene el cuerpo, la gravedad deja de ser el problema, y el " +
+          "límite de tamaño se traslada a otra parte. Un cuerpo de doscientas toneladas es " +
+          "sencillamente imposible en tierra firme, y perfectamente viable flotando.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El mayor dinosaurio conocido pesaba unas 75 toneladas. Una ballena azul grande pesa " +
+          "más del doble, y puede hacerlo porque el agua le sostiene el peso.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y se alimenta de bichos que caben en un dedo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué come el animal más grande de la historia? Es simple, y es lo contrario de lo " +
+          "que la lógica sugiere: <strong>krill</strong>. Unos crustáceos parecidos a gambas " +
+          "diminutas, de apenas unos centímetros de largo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Nada de cazar presas grandes. La ballena azul se alimenta filtrando: abre la boca, " +
+          "engulle un volumen enorme de agua cargada de krill y expulsa el agua reteniendo a los " +
+          "animales. En un solo bocado puede quedarse con unos <strong>360 kilos de " +
+          "krill</strong>, y al cabo del día llega a comer alrededor de <strong>cuatro " +
+          "toneladas</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí está la parte que le da la vuelta al asunto, porque parece un despropósito " +
+          "energético y resulta ser justo al revés. Un solo bocado le proporciona <strong>más de " +
+          "doscientas veces</strong> la energía que ha gastado en darlo. Cazar presas grandes es " +
+          "caro: hay que perseguirlas, alcanzarlas, dominarlas, y muchos intentos acaban en nada. " +
+          "Filtrar una nube de krill no falla nunca y no requiere persecución. Por eso el " +
+          "gigantismo y la comida diminuta van juntos y no separados: la ballena no es enorme " +
+          "<strong>a pesar</strong> de comer krill, es enorme <strong>gracias</strong> a comer " +
+          "krill.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De esa abundancia sale también un dato de crecimiento que cuesta procesar. Una cría de " +
+          "ballena azul nace midiendo unos siete metros y medio y pesando hasta tres toneladas, " +
+          "ya de entrada más grande que casi cualquier animal terrestre adulto. Y durante su " +
+          "primer año gana alrededor de <strong>noventa kilos al día</strong>, alimentándose solo " +
+          "de leche materna. Noventa kilos diarios son casi cuatro kilos por hora, sin parar, de " +
+          "día y de noche, durante trescientos sesenta y cinco días.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un solo bocado de krill le devuelve doscientas veces la energía que gastó en darlo. Es " +
+          "enorme gracias a comer diminuto, no a pesar de ello.",
+      },
+    ],
+  },
+  {
+    id: "el-arbol-no-bombea-el-agua-la-cuelga",
+    titulo: "Hasta qué altura crece un árbol",
+    categoria: "Ciencia",
+    color: "var(--ochre)",
+    /* Serie «hasta-que-altura-puede-crecer-un-arbol», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un árbol no bombea el agua hacia arriba: la cuelga» */
+    encargo: "Un árbol no bombea el agua hacia arriba: la cuelga",
+    fotos: [
+      {
+        local: p_el_arbol_no_bombea_el_agua_la_cuelga,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un árbol no bombea el agua hacia arriba: la cuelga",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No hay ninguna bomba en ninguna parte",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la copa de una secuoya de cien metros hay hojas que necesitan agua, y el agua está " +
+          "abajo, en el suelo. Hay que subirla cien metros, todos los días, sin descanso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La pregunta obvia es qué la empuja, y la respuesta es que <strong>nada</strong>. No " +
+          "existe ninguna bomba en un árbol. No hay un corazón, ni un músculo, ni ningún órgano " +
+          "que impulse el agua hacia arriba. El árbol no empuja el agua.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que hace es <strong>tirar de ella desde arriba</strong>, y el motor está en las " +
+          "hojas. Una hoja tiene poros diminutos por los que se evapora agua continuamente, y " +
+          "cada molécula que se marcha deja un hueco. Ahí entra en juego una propiedad del agua " +
+          "que se suele contar como una curiosidad y que resulta ser decisiva: las moléculas de " +
+          "agua se atraen con una fuerza considerable entre sí, de modo que se agarran unas a " +
+          "otras en cadena. Cuando una se evapora, tira de la que tiene detrás; esa tira de la " +
+          "siguiente, y el tirón se transmite por el conducto hacia abajo, sin interrupción, " +
+          "hasta la raíz.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que dentro de un árbol enorme no hay agua siendo bombeada. Hay una " +
+          "<strong>columna de agua colgando</strong>, sostenida desde arriba y estirada por la " +
+          "evaporación de las hojas, exactamente como una cuerda de la que se tira desde un " +
+          "extremo. Y como cualquier cuerda de la que se tira, está bajo " +
+          "<strong>tensión</strong>: la presión en su interior es negativa.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El agua sube porque la evaporación de las hojas tira de ella. Dentro de un tronco no " +
+          "hay una bomba: hay una columna colgada y estirada desde arriba.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y esa cuerda de agua a veces se rompe",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué impide que esa columna se parta? Es simple: solamente la atracción entre las " +
+          "moléculas de agua. Nada más.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Merece la pena pararse a mirar lo que eso significa, porque suena a imposible cuando " +
+          "se dice en voz alta. Dentro de un tronco hay hilos de agua continuos de más de cien " +
+          "metros de largo y de un grosor microscópico, que se sostienen a sí mismos únicamente " +
+          "porque sus moléculas se agarran entre ellas. Ningún ingeniero diseñaría un sistema " +
+          "hidráulico así; en la práctica industrial, una columna de agua sometida a tensión se " +
+          "rompe enseguida. En un árbol funciona porque los conductos son estrechísimos y las " +
+          "paredes ayudan a sujetar el agua, y porque el sistema está lleno de conductos en " +
+          "paralelo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aun así, a veces se rompe. Cuando la tensión se hace excesiva —en un día muy caluroso, " +
+          "con la tierra seca, o simplemente muy arriba en un árbol muy alto—, dentro del " +
+          "conducto puede aparecer de golpe una burbuja de vapor. En cuanto aparece, la cadena se " +
+          "corta: por ahí ya no se transmite ningún tirón, y ese conducto queda inutilizado. El " +
+          "fenómeno se llama <strong>cavitación</strong>, y a la burbuja resultante se le da el " +
+          "mismo nombre que en medicina: <strong>embolia</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un árbol grande sufre embolias constantemente, y sobrevive porque tiene miles de " +
+          "conductos y puede permitirse perder unos cuantos. Pero cada metro que gana en altura " +
+          "aumenta la tensión que debe soportar toda la columna, y con ella la probabilidad de " +
+          "que se rompa. Y ahí está el germen de un límite físico: la altura de un árbol no la " +
+          "decide su fuerza, sino hasta dónde aguanta sin partirse un hilo de agua colgado.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La columna de agua de un árbol se sostiene solo porque las moléculas se agarran entre " +
+          "sí. Cuando la tensión es excesiva aparece una burbuja, la cadena se corta y ese " +
+          "conducto queda inservible.",
+      },
+    ],
+  },
+  {
     id: "el-bostezo-no-tiene-que-ver-con-el-oxigeno",
     titulo: "Por qué bostezamos",
     categoria: "Cuerpo humano",
@@ -520,6 +1230,130 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Los fetos bostezan antes de que sus pulmones funcionen. Sea lo que sea el bostezo, no " +
           "es una forma de respirar.",
+      },
+    ],
+  },
+  {
+    id: "una-contrasena-que-alguien-ha-robado",
+    titulo: "Por qué brillan las luciérnagas",
+    categoria: "Ciencia",
+    color: "var(--plum)",
+    /* Serie «por-que-brillan-las-luciernagas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El destello es una contraseña, y hay quien la ha robado» */
+    encargo: "El destello es una contraseña, y hay quien la ha robado",
+    fotos: [
+      {
+        local: p_una_contrasena_que_alguien_ha_robado,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El destello es una contraseña, y hay quien la ha robado",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cada especie tiene su propio código de destellos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que parece un parpadeo aleatorio en una noche de verano es en realidad una " +
+          "conversación muy estructurada, y bastante estricta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las luciérnagas usan la luz para encontrar pareja, y cada especie tiene su propio " +
+          "código. El macho vuela emitiendo una secuencia concreta de destellos, con un número, " +
+          "una duración y un ritmo característicos de su especie. Una hembra posada entre la " +
+          "hierba lo ve, y si es de la misma especie responde con un destello propio. Pero lo " +
+          "decisivo no es el destello de ella: es <strong>cuánto tarda en darlo</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese intervalo entre la señal del macho y la respuesta de la hembra está medido en " +
+          "fracciones de segundo y es distinto en cada especie. Funciona como una contraseña, y " +
+          "el biólogo Thomas Eisner la llamaba exactamente así. Si la pausa es la correcta, el " +
+          "macho sabe que al otro lado hay una hembra de su especie y baja hacia ella. Si no lo " +
+          "es, sigue volando.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es un sistema elegante y económico. Permite que varias especies de luciérnaga " +
+          "compartan el mismo prado la misma noche sin confundirse entre ellas, sin necesidad de " +
+          "acercarse a comprobar nada y a oscuras.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El macho no busca un destello, busca un ritmo. Lo que identifica a la hembra de su " +
+          "especie es el tiempo exacto que tarda en contestar.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y una hembra de otro género aprendió a contestar bien",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí llega el problema evidente de cualquier sistema basado en una contraseña: que " +
+          "alguien la averigüe.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las hembras del género <em>Photuris</em> han aprendido a imitar la respuesta de las " +
+          "hembras del género <em>Photinus</em>, reproduciendo con precisión el retardo " +
+          "característico de la especie a la que quieren engañar. El macho de <em>Photinus</em> " +
+          "recibe la contraseña correcta, concluye que ahí abajo hay una hembra receptiva de su " +
+          "especie y desciende. Y lo que se encuentra es una depredadora de otro género, más " +
+          "grande, que se lo come.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso se las conoce como las <strong>femmes fatales</strong> de las luciérnagas. " +
+          "Pero la parte verdaderamente interesante no es la emboscada, sino el motivo, que no es " +
+          "simplemente alimentarse.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1997, un equipo de la Universidad Cornell dirigido por Thomas Eisner publicó en las " +
+          "actas de la Academia Nacional de Ciencias de Estados Unidos qué está buscando " +
+          "realmente esa hembra. Los machos de <em>Photinus</em> llevan en la sangre unos " +
+          "esteroides defensivos llamados <strong>lucibufaginas</strong>, que los hacen " +
+          "desagradables para sus depredadores. Las <em>Photuris</em> no saben fabricar esa " +
+          "sustancia. Y la obtienen comiéndose a los machos que han engañado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los investigadores lo comprobaron de la forma más directa: una <em>Photuris</em> sin " +
+          "lucibufaginas en el cuerpo, ofrecida a una araña, es devorada; una que las ha " +
+          "adquirido comiéndose a un <em>Photinus</em> es rechazada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa en la cadena completa, porque tiene varios pisos. Un macho emite una contraseña " +
+          "luminosa para reproducirse. Una hembra de otro género ha descifrado esa contraseña y " +
+          "la responde correctamente. El macho acude, es devorado, y con él se transfiere una " +
+          "defensa química que la depredadora no sabe sintetizar y que a partir de ese momento la " +
+          "protege de las arañas. Está robando a la vez la señal, la vida y la armadura.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La <em>Photuris</em> no imita la contraseña solo para comer. Come para robar el veneno " +
+          "defensivo que ella no sabe fabricar, y que la salva de las arañas.",
       },
     ],
   },
@@ -1430,6 +2264,247 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "la-nieve-y-el-hielo-azul-son-lo-mismo",
+    titulo: "Por qué el hielo de los glaciares es azul",
+    categoria: "Ciencia",
+    color: "var(--clay)",
+    /* Serie «por-que-el-hielo-de-los-glaciares-es-azul», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La nieve blanca y el hielo azul son exactamente lo mismo» */
+    encargo: "La nieve blanca y el hielo azul son exactamente lo mismo",
+    fotos: [
+      {
+        local: p_la_nieve_y_el_hielo_azul_son_lo_mismo,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La nieve blanca y el hielo azul son exactamente lo mismo",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La misma sustancia da dos colores distintos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En una montaña con glaciar puedes ver las dos cosas a la vez y a pocos metros de " +
+          "distancia: la nieve reciente de la superficie, de un blanco absoluto, y las grietas " +
+          "del hielo antiguo, de un azul intenso que parece iluminado desde dentro. Da la " +
+          "impresión de ser dos materiales diferentes, y no lo son. Los dos son exactamente lo " +
+          "mismo: agua congelada, sin ningún añadido, sin ningún mineral, sin nada disuelto que " +
+          "pueda teñir.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que cambia entre uno y otro no es la sustancia, es su estructura interna. Y para " +
+          "entenderlo hay que recordar de dónde viene el color azul del agua: de que las " +
+          "moléculas absorben la luz roja, dejando pasar el resto. Esa absorción es lenta y " +
+          "necesita distancia, de modo que la luz tiene que recorrer un buen trecho " +
+          "<strong>dentro del hielo</strong> para que el efecto se note.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está toda la explicación. La nieve reciente está llena de aire. Es una acumulación " +
+          "de cristales sueltos con huecos entre ellos, y en volumen es mayoritariamente aire. " +
+          "Cuando un rayo de luz entra, no atraviesa hielo: choca casi inmediatamente con la " +
+          "primera frontera entre hielo y aire y rebota, choca con la siguiente y rebota otra " +
+          "vez, y repite eso cientos de veces en cuestión de milímetros hasta que sale despedido " +
+          "de nuevo hacia fuera. En ese recorrido a saltos apenas ha atravesado hielo de verdad, " +
+          "así que la absorción del rojo no ha tenido ocasión de actuar. Salen todos los colores " +
+          "por igual, y la mezcla de todos los colores es blanco.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La nieve no es blanca por ser nieve: es blanca porque está llena de aire y la luz " +
+          "rebota y sale antes de haber atravesado hielo suficiente.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El hielo del glaciar es nieve a la que le han sacado el aire",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué le ha pasado entonces al hielo del glaciar? Es simple: lleva encima el peso de " +
+          "todo lo que cayó después.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un glaciar se forma por acumulación. La nieve de cada invierno se deposita sobre la " +
+          "del anterior y no llega a fundirse del todo, así que se van apilando capas, y cada " +
+          "capa nueva aprieta a las de abajo. Bajo esa presión sostenida durante años y décadas, " +
+          "los cristales de nieve se compactan, se sueldan entre sí y <strong>el aire que había " +
+          "entre ellos va siendo expulsado</strong>. Lo que empezó siendo una masa esponjosa " +
+          "acaba convertido en hielo denso, compacto y sin apenas burbujas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y eso lo cambia todo desde el punto de vista de la luz. En un hielo sin burbujas no " +
+          "hay fronteras internas contra las que rebotar, así que la luz que entra puede viajar " +
+          "en línea recta a través del hielo durante metros antes de volver a salir. Por primera " +
+          "vez ha recorrido distancia suficiente dentro del material, y en ese trayecto la " +
+          "absorción del rojo sí actúa. Lo que sale es luz a la que le falta el rojo: azul. El " +
+          "Servicio Geológico de Estados Unidos lo resume en una frase que sirve de regla " +
+          "general: cuanto más largo es el camino que la luz recorre dentro del hielo, más azul " +
+          "se ve.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso el azul aparece justo donde aparece. En las grietas profundas, donde miras " +
+          "hacia el interior de la masa. En las cuevas de hielo. En las paredes recién partidas " +
+          "de un frente glaciar. En los icebergs, cuya parte azul es hielo que se formó a mucha " +
+          "profundidad. Siempre en sitios donde la luz ha tenido que atravesar mucho hielo " +
+          "compacto, y nunca en la superficie recién nevada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que el azul de un glaciar no es un color distinto del azul del mar: es la " +
+          "misma molécula absorbiendo el mismo rojo por el mismo motivo. Una vez en estado " +
+          "líquido y otra en estado sólido.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El hielo azul es nieve a la que la presión le ha sacado el aire. Sin burbujas, la luz " +
+          "atraviesa metros de hielo, pierde el rojo y sale azul.",
+      },
+    ],
+  },
+  {
+    id: "el-mar-no-refleja-el-cielo",
+    titulo: "Por qué el mar es azul",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    /* Serie «por-que-el-mar-es-azul», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El mar no refleja el cielo: el agua es azul de verdad» */
+    encargo: "El mar no refleja el cielo: el agua es azul de verdad",
+    fotos: [
+      {
+        local: p_el_mar_no_refleja_el_cielo,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El mar no refleja el cielo: el agua es azul de verdad",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La explicación de siempre se cae con mirar por la ventana",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pregunta por ahí por qué el mar es azul y la respuesta llegará casi siempre igual de " +
+          "rápida y de segura: porque refleja el cielo. Es una de esas explicaciones que suenan " +
+          "tan sensatas que nadie las examina, y basta con asomarse a una playa en un día malo " +
+          "para verla derrumbarse.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un día completamente encapotado, con el cielo gris de punta a punta y sin una brecha " +
+          "de azul en ninguna parte, el mar <strong>sigue siendo azul</strong>. Más apagado, más " +
+          "oscuro, con menos brillo, pero azul. Si el color fuera un reflejo del cielo, ese día " +
+          "el agua tendría que verse gris, exactamente igual que un espejo puesto bajo un techo " +
+          "gris se ve gris. No pasa. Y no pasa tampoco en una piscina cubierta, bajo techo y con " +
+          "luz artificial, donde el agua sigue tirando a azul aunque no haya ni rastro de cielo " +
+          "por ninguna parte.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que ocurre es mucho más interesante que un reflejo: <strong>el agua tiene color " +
+          "propio</strong>. No es un líquido transparente e incoloro que toma prestado el aspecto " +
+          "de su entorno, sino una sustancia azul, como lo es un cristal tintado. Y la razón de " +
+          "que no lo hayas notado nunca es puramente de cantidad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En un vaso, el color es imperceptible, porque la luz solo atraviesa unos centímetros " +
+          "de agua y en ese recorrido tan corto apenas se absorbe nada. Para que el azul se " +
+          "manifieste hace falta que la luz recorra <strong>metros</strong> de agua. Por eso el " +
+          "mar es azul y el vaso de tu mesa no lo es: no son sustancias distintas, son distancias " +
+          "distintas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un día encapotado el mar sigue siendo azul y el cielo es gris. Si fuera un reflejo, " +
+          "eso sería imposible.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El experimento que lo demuestra cabe en un tubo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y cómo se comprueba que el color es del agua y no de lo que la rodea? Es simple: se " +
+          "coge agua, se le quita todo lo demás y se mira a través de una columna larga.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Eso es exactamente lo que hicieron los químicos Charles Braun y Sergei Smirnov en un " +
+          "trabajo publicado en 1993 que se ha convertido en la referencia sobre este asunto. " +
+          "Montaron un tubo de aluminio de <strong>tres metros de largo y cuatro centímetros de " +
+          "diámetro</strong>, lo llenaron de agua purificada —sin sales, sin algas, sin " +
+          "partículas, sin nada que pudiera dispersar la luz de forma engañosa— y pidieron a " +
+          "varios observadores que miraran por un extremo. Todos informaron de lo mismo: veían " +
+          "azul.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que elimina ese montaje. Dentro de un tubo de aluminio no hay cielo que " +
+          "reflejar, ni fondo marino, ni plancton, ni sedimento en suspensión, ni profundidad que " +
+          "insinúe oscuridad. Solo hay tres metros de agua pura y una luz atravesándolos. Y lo " +
+          "que sale por el otro extremo es azul.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Tienes una versión doméstica del mismo experimento en cualquier piscina grande. Las " +
+          "paredes son blancas, el fondo es blanco, los azulejos son blancos, y aun así la zona " +
+          "profunda se ve claramente más azul que la zona de poca profundidad. Nadie ha pintado " +
+          "nada de azul: lo único que cambia entre un extremo y el otro es cuánta agua tiene que " +
+          "atravesar la luz antes de llegar a tu ojo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene matizar una cosa para no pasarse de rosca, porque el reflejo del cielo " +
+          "existe. Cuando miras el mar en ángulo muy bajo, casi rasante, la superficie sí " +
+          "funciona como un espejo y el cielo aporta lo suyo. Lo que es falso es que ese reflejo " +
+          "explique el color: es un añadido encima de un azul que ya estaba ahí.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Tres metros de agua pura dentro de un tubo de aluminio, sin cielo ni fondo ni nada en " +
+          "suspensión, se ven azules. El color es del agua.",
+      },
+    ],
+  },
+  {
     id: "la-sal-no-viene-del-mar",
     titulo: "Por qué el mar es salado",
     categoria: "Planeta Tierra",
@@ -1645,6 +2720,127 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "el-color-te-dice-a-que-altura-ocurre",
+    titulo: "Por qué hay auroras boreales",
+    categoria: "Ciencia",
+    color: "var(--ochre)",
+    /* Serie «por-que-hay-auroras-boreales», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El color de una aurora te dice a qué altura está ocurriendo» */
+    encargo: "El color de una aurora te dice a qué altura está ocurriendo",
+    fotos: [
+      {
+        local: p_el_color_te_dice_a_que_altura_ocurre,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El color de una aurora te dice a qué altura está ocurriendo",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una aurora es aire golpeado, no luz que viene del Sol",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo primero que conviene deshacer es la imagen mental que casi todos tenemos, que es la " +
+          "de una luz de colores llegando desde el espacio y colándose por el cielo polar. No es " +
+          "eso lo que pasa. La luz de una aurora <strong>se fabrica aquí</strong>, en nuestra " +
+          "propia atmósfera, y lo que llega de fuera no es luz sino materia.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El Sol expulsa continuamente un chorro de partículas cargadas, el viento solar, que " +
+          "viaja por el sistema solar y llega hasta nosotros. El campo magnético terrestre desvía " +
+          "a la inmensa mayoría de esas partículas y las manda de largo, y esa es la razón de que " +
+          "la vida en la superficie sea posible; pero el campo magnético tiene dos puntos por " +
+          "donde las líneas entran hacia el planeta, que son los polos, y por ahí una parte de " +
+          "esas partículas se cuela y baja hacia la atmósfera. Por eso las auroras se ven en " +
+          "Noruega, Islandia o Alaska y no en Madrid: no es que allí haya más viento solar, es " +
+          "que allí está la puerta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando esas partículas llegan al aire de las capas altas, chocan con los átomos que " +
+          "encuentran. El golpe empuja a un electrón del átomo a un estado de más energía, y al " +
+          "cabo de un rato ese electrón vuelve a su sitio y suelta la energía sobrante en forma " +
+          "de un destello de luz. Multiplica eso por billones de átomos y tienes la cortina. Una " +
+          "aurora es, literalmente, aire excitado que se está desexcitando.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La luz de una aurora no viene del Sol. Del Sol vienen las partículas; la luz la " +
+          "fabrica el aire de nuestra atmósfera al recibir el golpe.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Cada color es un gas distinto a una altura distinta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y por qué salen esos colores concretos y no otros? Es simple: porque cada gas emite " +
+          "en su propio color, y cada gas está a su propia altura. El color no es decorativo, es " +
+          "información.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "- <strong>Verde.</strong> Lo produce el oxígeno atómico, con una emisión de " +
+          "<strong>557,7 nanómetros</strong>, por encima de los cien kilómetros de altitud. Es el " +
+          "color dominante y el que sale en casi todas las fotografías, hasta el punto de que " +
+          "mucha gente cree que las auroras son verdes y punto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "- <strong>Rojo.</strong> Lo produce también el oxígeno, pero desde un estado excitado " +
+          "distinto, con una emisión de <strong>630,0 nanómetros</strong>. Aparece mucho más " +
+          "arriba, entre los doscientos y los trescientos kilómetros, y por eso es el color que " +
+          "corona las auroras grandes.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "- <strong>Violeta y azul.</strong> Los produce el nitrógeno molecular, y aparecen en " +
+          "la parte de abajo, hacia los noventa y cinco kilómetros, cuando las partículas llegan " +
+          "con suficiente energía para penetrar tan hondo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que significa esa lista puesta en orden. Una aurora grande con rojo " +
+          "arriba, verde en el medio y un ribete violeta abajo no es una combinación bonita " +
+          "elegida al azar: es <strong>un corte vertical de la atmósfera</strong>, con cada " +
+          "franja de color marcando a qué altura y contra qué gas están chocando las partículas. " +
+          "Estás viendo un mapa de altitudes dibujado en el cielo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay un detalle que refuerza la lectura. La aurora tiene un borde inferior " +
+          "sorprendentemente nítido, como si alguien la hubiera recortado por abajo, y eso llama " +
+          "la atención en las fotos. Ese borde no lo marca el haz de partículas: lo marca la " +
+          "densidad del aire, en un punto muy concreto que merece su propia explicación.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El verde es oxígeno a más de cien kilómetros, el rojo es oxígeno por encima de " +
+          "doscientos, y el violeta es nitrógeno a noventa y cinco. Una aurora es un mapa de " +
+          "alturas.",
+      },
+    ],
+  },
+  {
     id: "una-molecula-a-partir-de-los-cuarenta",
     titulo: "Por qué la gente mayor huele distinto",
     categoria: "Cuerpo humano",
@@ -1750,6 +2946,119 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "No es suciedad ni falta de higiene. Es grasa de la piel oxidándose, más parecido a un " +
           "aceite que se pone rancio que a nada que se quite frotando.",
+      },
+    ],
+  },
+  {
+    id: "la-luna-del-horizonte-es-mas-pequena",
+    titulo: "Por qué la Luna se ve enorme en el horizonte",
+    categoria: "Ciencia",
+    color: "var(--slate)",
+    /* Serie «por-que-la-luna-se-ve-enorme-en-el-horizonte», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La Luna del horizonte no es más grande: es más pequeña» */
+    encargo: "La Luna del horizonte no es más grande: es más pequeña",
+    fotos: [
+      {
+        local: p_la_luna_del_horizonte_es_mas_pequena,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La Luna del horizonte no es más grande: es más pequeña",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Fotografíala y la ilusión se cae sola",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es de las experiencias más convincentes que ofrece el cielo. La Luna sale por detrás " +
+          "de los edificios y aparece descomunal, anaranjada, tan grande que uno tiene la " +
+          "sensación de que ha pasado algo raro esa noche. Horas después está alta, pequeña y " +
+          "blanca, y parece otra cosa completamente distinta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pues no ha pasado nada. La Luna que ves saliendo y la que ves en lo alto son " +
+          "idénticas, y no en el sentido vago de «parecidas»: son idénticas en el sentido medible " +
+          "del término. Ocupan en el cielo el mismo ángulo, unos <strong>0,52 grados</strong>, " +
+          "más o menos lo que tapa la yema del pulgar con el brazo estirado. Y lo tapa igual de " +
+          "bien en el horizonte que en el cenit.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay tres maneras de comprobarlo tú mismo, y cualquiera de las tres derriba la " +
+          "impresión en cinco segundos. La primera es la fotografía: retrata la Luna saliendo y " +
+          "vuelve a retratarla horas después con el mismo objetivo, y al poner las dos imágenes " +
+          "juntas verás dos discos exactamente del mismo tamaño. La segunda es el tubo: enrolla " +
+          "un folio hasta que la Luna recién salida llene justo el agujero, pega el cilindro con " +
+          "cinta para que no cambie, y vuelve a mirar por él cuando esté arriba; sigue llenándolo " +
+          "igual. Y la tercera es la más ridícula y la más contundente: agáchate y mira la Luna " +
+          "del horizonte entre tus propias piernas, cabeza abajo. Recupera su tamaño normal de " +
+          "golpe.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Eso significa que el fenómeno no está en el cielo. Está entero dentro de tu cabeza, y " +
+          "por eso la cámara, que no tiene cabeza, no lo registra.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La Luna del horizonte y la Luna alta miden lo mismo, 0,52 grados. Ninguna cámara ha " +
+          "fotografiado nunca la diferencia, porque no existe.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y la física va en la dirección contraria a lo que ves",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora la parte que le da la vuelta al asunto, porque no es solo que la Luna del " +
+          "horizonte no sea más grande: es que además es <strong>más pequeña</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Por qué iba a serlo, si es la misma Luna la misma noche? Es simple: cuando la tienes " +
+          "justo encima de la cabeza, estás mirándola desde lo alto de la Tierra, y cuando está " +
+          "en el horizonte la estás mirando desde el costado del planeta. Entre una posición y " +
+          "otra hay un radio terrestre de diferencia, unos 6.400 kilómetros. La Luna en el cenit " +
+          "está más cerca de ti que la Luna en el horizonte, y por tanto se ve algo mayor.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La diferencia real es de aproximadamente un <strong>1,5 %</strong>, a favor de la Luna " +
+          "alta. Así que la percepción no solo exagera: se equivoca de signo. Tú ves enorme " +
+          "precisamente la posición en la que el objeto está más lejos y ocupa menos cielo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para calibrar hasta qué punto engaña la impresión, conviene compararla con un fenómeno " +
+          "real que sí sale en las noticias. Una superluna —esa que se anuncia como " +
+          "acontecimiento— es apenas un 14 % mayor que una luna corriente, y la inmensa mayoría " +
+          "de la gente no nota absolutamente nada si no se lo dicen antes. La ilusión del " +
+          "horizonte, en cambio, se siente muchísimo más fuerte que ese 14 %, y su tamaño real es " +
+          "cero. El cerebro te está mostrando una diferencia gigantesca donde el mundo no tiene " +
+          "ninguna.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La Luna del horizonte es un 1,5 % más pequeña que la del cenit, porque está un radio " +
+          "terrestre más lejos. La ilusión no exagera un efecto real: lo invierte.",
       },
     ],
   },
@@ -1874,6 +3183,136 @@ export const CURIOSIDADES: Short[] = [
           "de miel las abejas han tenido que evaporar del orden de tres kilos de agua, celda a " +
           "celda y batiendo las alas. Esa deshidratación es la mitad del trabajo de una colmena, " +
           "y es también la mitad de la razón por la que el resultado no se estropea.",
+      },
+    ],
+  },
+  {
+    id: "costo-dos-mil-anos-demostrar-que-acertaban",
+    titulo: "Por qué las abejas hacen celdas hexagonales",
+    categoria: "Ciencia",
+    color: "var(--teal)",
+    /* Serie «por-que-las-abejas-hacen-celdas-hexagonales», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Costó dos mil años demostrar que las abejas tenían razón» */
+    encargo: "Costó dos mil años demostrar que las abejas tenían razón",
+    fotos: [
+      {
+        local: p_costo_dos_mil_anos_demostrar_que_acertaban,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Costó dos mil años demostrar que las abejas tenían razón",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cera es carísima, y ahí está el problema a resolver",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para entender por qué la forma de las celdas importa tanto hay que empezar por un dato " +
+          "de contabilidad: <strong>la cera sale muy cara</strong>. Según la FAO, las abejas " +
+          "consumen alrededor de <strong>ocho kilos de miel</strong> para producir un solo kilo " +
+          "de cera. Ocho a uno. Cada gramo de pared que construyen es alimento que se han comido " +
+          "y que no van a almacenar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con esa restricción encima, el problema al que se enfrenta una colmena es un problema " +
+          "de optimización perfectamente formulable: hay que dividir una superficie en celdas de " +
+          "igual capacidad usando la menor cantidad posible de pared. Cada milímetro de pared " +
+          "ahorrado son gramos de miel que se quedan en la despensa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y la primera parte de la respuesta es sencilla. Si quieres cubrir un plano con una " +
+          "figura regular repetida, sin dejar huecos y sin solapamientos, solo hay tres " +
+          "candidatas posibles: el triángulo, el cuadrado y el hexágono. Ninguna otra encaja " +
+          "consigo misma sin dejar espacio muerto; los pentágonos no valen, los octógonos " +
+          "tampoco. Y de esas tres, para una misma área encerrada, la que necesita menos " +
+          "perímetro es el hexágono. Además, al compartir cada pared entre dos celdas contiguas, " +
+          "el ahorro se duplica.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esto se sabía, o más bien se sospechaba, desde muy antiguo. Hacia el año 36 antes de " +
+          "Cristo ya aparece la cuestión en un texto de Marco Terencio Varrón, y siglos después " +
+          "Pappus de Alejandría la dejó formulada con una claridad que todavía se cita: " +
+          "<strong>si se emplea la misma cantidad de material en construir estas figuras, es el " +
+          "hexágono el que podrá contener más miel</strong>.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Las abejas gastan ocho kilos de miel por cada kilo de cera. El hexágono no es un " +
+          "capricho estético: es la forma que menos pared necesita.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Nadie consiguió demostrarlo hasta 1999",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y estaba entonces resuelto el asunto desde la Antigüedad? Es simple: no. Estaba " +
+          "<strong>afirmado</strong>, que no es lo mismo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante dos mil años, la superioridad del hexágono fue una de esas cosas que todo el " +
+          "mundo daba por ciertas y que nadie había probado. Se repetía en los libros, se " +
+          "enseñaba, se citaba como hecho consumado —incluso matemáticos de primera fila la " +
+          "afirmaban sin más—, y sin embargo no existía ninguna demostración. Es un caso precioso " +
+          "de algo evidente que resulta ser endiabladamente difícil de justificar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La dificultad está en un detalle que casi nadie ve al principio. Comparar el hexágono " +
+          "con el cuadrado y el triángulo es fácil, pero eso solo cubre las figuras " +
+          "<strong>regulares</strong>. Para demostrar el teorema de verdad hay que descartar " +
+          "absolutamente cualquier otra manera de dividir el plano, incluidas las que usan formas " +
+          "irregulares, distintas entre sí, con lados curvos, entrando y saliendo unas en otras. " +
+          "Y el conjunto de todas las particiones posibles del plano es infinito y salvaje.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Se avanzó por partes. En 1943, el matemático húngaro László Fejes Tóth logró " +
+          "demostrarlo para el caso en que todas las celdas son convexas, es decir, sin " +
+          "entrantes. Un resultado importante, pero incompleto: quedaba abierta la posibilidad de " +
+          "que alguna configuración retorcida, con celdas de formas caprichosas, batiera al " +
+          "hexágono.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La demostración completa no llegó hasta <strong>1999</strong>, y la firmó Thomas " +
+          "Hales. Lo que probó es exactamente esto: cualquier partición del plano en regiones de " +
+          "igual área tiene un perímetro al menos tan grande como el de la retícula hexagonal " +
+          "regular. Sin suposiciones sobre la forma de las celdas, sin excepciones. Ninguna " +
+          "manera de dividir un plano en trozos iguales gasta menos pared que un panal.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que la solución que se ve en una colmena es la mejor que existe, y esa " +
+          "afirmación es un teorema desde hace poco más de veinticinco años.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Que el hexágono sea la forma más eficiente se afirmaba desde hace dos mil años, pero " +
+          "no se demostró hasta 1999. Ninguna partición del plano gasta menos pared que un panal.",
       },
     ],
   },
@@ -2313,6 +3752,233 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "giran-porque-no-pueden-mover-los-ojos",
+    titulo: "Por qué los búhos giran tanto la cabeza",
+    categoria: "Ciencia",
+    color: "var(--teal)",
+    /* Serie «por-que-los-buhos-giran-tanto-la-cabeza», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Giran la cabeza porque no pueden mover los ojos» */
+    encargo: "Giran la cabeza porque no pueden mover los ojos",
+    fotos: [
+      {
+        local: p_giran_porque_no_pueden_mover_los_ojos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Giran la cabeza porque no pueden mover los ojos",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sus ojos están atornillados al cráneo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese gesto tan característico del búho, girando la cabeza despacio para seguirte con la " +
+          "mirada, se interpreta casi siempre como una demostración de habilidad. Y es justo lo " +
+          "contrario: es una <strong>obligación</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El ojo de un búho no es una esfera que rota dentro de la órbita, como el tuyo. Es " +
+          "alargado, con forma de tubo, y está sujeto en su sitio por unas placas óseas llamadas " +
+          "<strong>anillo esclerótico</strong>. Ese anillo lo mantiene fijo. El ojo de un búho no " +
+          "se puede mover en la cuenca: ni un poco a la derecha, ni un poco a la izquierda, ni " +
+          "arriba ni abajo. Está inmovilizado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa en lo que eso significa en la práctica. Tú estás moviendo los ojos " +
+          "continuamente sin darte cuenta, decenas de veces por minuto, y esa es la manera normal " +
+          "de repasar una escena: la cabeza quieta y la mirada saltando de un punto a otro. Un " +
+          "búho no dispone de eso. Sus ojos son como dos faros atornillados al chasis de un " +
+          "coche: apuntan siempre exactamente adonde apunta la cabeza, y ni un grado más allá.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso gira. Cada vez que un búho quiere mirar otra cosa, la única manera que tiene " +
+          "de conseguirlo es <strong>mover la cabeza entera</strong>. Lo que parece un alarde es " +
+          "en realidad la solución a una limitación considerable.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El búho no gira la cabeza porque pueda: la gira porque tiene los ojos inmovilizados " +
+          "por un anillo de hueso y no le queda otra manera de mirar a otro lado.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Son 270 grados, no 360",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y cuánto gira exactamente? Es simple: <strong>270 grados</strong> hacia cada lado. " +
+          "Tres cuartos de vuelta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene decirlo porque la cifra que circula por ahí suele ser 360, con la idea de que " +
+          "el búho puede dar la vuelta completa a la cabeza como una peonza. Eso es falso. Con " +
+          "270 grados le sobra de todos modos para mirar directamente hacia atrás y bastante más " +
+          "allá, y desde fuera resulta indistinguible de una vuelta entera, que probablemente es " +
+          "de donde viene la exageración.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que hace posible ese recorrido es un cuello que no se parece al nuestro. Un búho " +
+          "tiene <strong>catorce vértebras cervicales</strong>, exactamente el doble que las " +
+          "siete que tienes tú. Y no es una peculiaridad del búho frente al resto de los " +
+          "mamíferos: es que siete son las que tenemos prácticamente todos los mamíferos, del " +
+          "ratón a la ballena, e incluso la jirafa. Ese cuello larguísimo de la jirafa son siete " +
+          "vértebras, muy alargadas. Los búhos juegan en otra liga, con el doble de piezas y, por " +
+          "tanto, el doble de articulaciones en las que repartir el giro. A eso se suma un hueso " +
+          "especial en la base del cráneo que aporta movilidad adicional.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está la clave de que el gesto se vea tan fluido. No es una articulación forzando " +
+          "su límite, sino catorce articulaciones aportando cada una una porción pequeña del " +
+          "giro. Ninguna de ellas hace nada extremo; lo extremo es la suma.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y queda un problema serio por resolver, que es lo que ocurre con las arterias que " +
+          "suben por ese cuello mientras se retuerce. En un cuerpo como el tuyo, un giro así " +
+          "sería francamente peligroso.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un búho tiene catorce vértebras en el cuello; tú tienes siete, las mismas que un ratón " +
+          "o una jirafa. El giro no lo hace una articulación: lo reparten catorce.",
+      },
+    ],
+  },
+  {
+    id: "el-ala-no-bate-gira",
+    titulo: "Por qué los colibríes se quedan parados en el aire",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    /* Serie «por-que-los-colibries-pueden-quedarse-parados-en-el-aire», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Su ala no bate: gira, y también empuja al subir» */
+    encargo: "Su ala no bate: gira, y también empuja al subir",
+    fotos: [
+      {
+        local: p_el_ala_no_bate_gira,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Su ala no bate: gira, y también empuja al subir",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En los demás pájaros, la mitad del aleteo no sirve para nada",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para entender lo que hace un colibrí conviene fijarse primero en lo que hacen todos " +
+          "los demás pájaros, porque ahí está la limitación que él se ha saltado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En un ave corriente, el aleteo tiene dos mitades muy desiguales. En el " +
+          "<strong>descenso</strong>, el ala baja extendida y empuja el aire hacia abajo, y de " +
+          "ahí sale prácticamente toda la sustentación. En el <strong>ascenso</strong>, el ala " +
+          "tiene que volver a subir para poder repetir el movimiento, y ese trayecto de vuelta no " +
+          "aporta nada; el pájaro lo hace plegando el ala y encogiéndola para ofrecer la menor " +
+          "resistencia posible. Es tiempo muerto, aerodinámicamente inútil, un gesto de " +
+          "recolocación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De esa asimetría sale una consecuencia que quizá nunca te habías planteado: la mayoría " +
+          "de las aves <strong>necesitan avanzar</strong> para volar. El ala funciona como el ala " +
+          "de un avión, generando sustentación gracias al aire que la recorre, y para que ese " +
+          "aire la recorra hay que ir hacia delante. Un pájaro parado en el aire, sin " +
+          "desplazarse, es un pájaro cayendo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El colibrí es la excepción, y no por tener más fuerza ni por batir más rápido, sino " +
+          "porque ha resuelto el problema de la mitad inútil.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "En un pájaro normal, subir el ala no aporta nada: es tiempo muerto. Por eso casi todas " +
+          "las aves necesitan avanzar para poder volar.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Él le da la vuelta al ala y vuelve a empujar",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué hace el colibrí distinto? Es simple: al subir el ala, <strong>la gira</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Su articulación del hombro le permite rotar el ala casi por completo sobre su propio " +
+          "eje, de modo que en el trayecto de vuelta el ala se voltea y presenta al aire la otra " +
+          "cara. En lugar de recogerse para estorbar poco, vuelve a empujar. Y como la " +
+          "trayectoria de la punta del ala combina esa ida y esa vuelta, el recorrido que dibuja " +
+          "en el aire no es un arco arriba y abajo, sino un <strong>ocho tumbado</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El equipo de Douglas Warrick midió en 2005 cuánto aporta cada mitad, y el reparto es " +
+          "revelador: el descenso proporciona el <strong>75 %</strong> del sostén y el ascenso el " +
+          "<strong>25 %</strong> restante. Compáralo con los dos extremos y verás dónde encaja. " +
+          "Un insecto, con un movimiento casi simétrico, saca aproximadamente lo mismo de las dos " +
+          "mitades. Un pájaro cualquiera saca del ascenso prácticamente cero. El colibrí está en " +
+          "medio, y por eso su vuelo es un híbrido genuino: conserva el esqueleto y el cuerpo de " +
+          "un ave, con todas sus limitaciones, pero ha adoptado recursos aerodinámicos de " +
+          "insecto, incluidos los torbellinos que se forman en el borde de ataque del ala.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con esa cuarta parte extra de empuje se sostiene sin avanzar. Y de ahí salen unas " +
+          "capacidades que ningún otro vertebrado tiene: es el único capaz de mantener el vuelo " +
+          "estacionario de forma sostenida, y además puede volar <strong>hacia atrás</strong> y " +
+          "boca abajo. Cosas que un águila, con todo su poderío, no puede hacer.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El colibrí saca un 25 % de su sostén del movimiento que a los demás pájaros no les " +
+          "sirve de nada. Con esa cuarta parte se queda quieto en el aire.",
+      },
+    ],
+  },
+  {
     id: "no-invierten-izquierda-derecha",
     titulo: "Por qué los espejos invierten",
     categoria: "Ciencia",
@@ -2529,6 +4195,129 @@ export const CURIOSIDADES: Short[] = [
           "salmón y la de las truchas de piscifactoría deben su color a carotenoides de la dieta " +
           "del animal, y en todos esos casos se ajusta el pienso para conseguir el tono que el " +
           "comprador espera. Un salmón de piscifactoría sin ese suplemento tendría la carne gris.",
+      },
+    ],
+  },
+  {
+    id: "no-lo-siguen-se-le-anticipan",
+    titulo: "Por qué los girasoles siguen al Sol",
+    categoria: "Ciencia",
+    color: "var(--ochre)",
+    /* Serie «por-que-los-girasoles-siguen-al-sol», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «No siguen al sol: se le anticipan de noche y a oscuras» */
+    encargo: "No siguen al sol: se le anticipan de noche y a oscuras",
+    fotos: [
+      {
+        local: p_no_lo_siguen_se_le_anticipan,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "No siguen al sol: se le anticipan de noche y a oscuras",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El movimiento no lo dispara la luz",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un girasol joven pasa el día orientado hacia el sol: mira al este por la mañana, va " +
+          "girando durante la jornada y termina la tarde mirando al oeste. Hasta ahí, lo que todo " +
+          "el mundo sabe. La explicación que se da por buena es que la planta reacciona a la luz, " +
+          "siguiéndola como una veleta sigue al viento.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un equipo dirigido por Hagop Atamian lo comprobó en 2016, publicando el resultado en " +
+          "<em>Science</em>, y la explicación de la veleta no se sostiene.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hicieron dos experimentos que lo dejan claro. En el primero pasaron las plantas a una " +
+          "iluminación constante y <strong>cenital</strong>, desde arriba, sin ningún este ni " +
+          "ningún oeste. Si el movimiento fuera una reacción a la posición de la luz, ahí debería " +
+          "detenerse. No se detuvo: las plantas siguieron balanceándose de un lado a otro con su " +
+          "ritmo habitual durante varios días, apagándose poco a poco.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El segundo experimento es todavía más revelador. Sometieron a las plantas a ciclos de " +
+          "luz y oscuridad de <strong>treinta horas</strong> en lugar de veinticuatro. Si el " +
+          "movimiento dependiera de la luz, la planta se adaptaría sin problema al ciclo nuevo. " +
+          "Lo que ocurrió es que el sistema se descuadró: el momento de máxima inclinación hacia " +
+          "el oeste dejó de coincidir con el paso de la luz a la oscuridad, y los movimientos " +
+          "nocturnos se volvieron erráticos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La conclusión es que el girasol no está reaccionando al sol. Tiene un <strong>reloj " +
+          "circadiano</strong> interno, calibrado a veinticuatro horas, y ese reloj es el que " +
+          "dirige el movimiento.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Bajo luz constante y desde arriba, sin este ni oeste, los girasoles siguen " +
+          "balanceándose días enteros. No están siguiendo la luz: tienen un reloj.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y la prueba está en lo que hacen por la noche",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí está el detalle que convierte todo el asunto en algo mucho mejor que una " +
+          "curiosidad botánica.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El girasol termina el día mirando al oeste. Y a la mañana siguiente amanece mirando al " +
+          "este, listo para el primer sol. La pregunta es cuándo hace ese viaje de vuelta, y la " +
+          "respuesta es: <strong>durante la noche</strong>, en plena oscuridad, empezando horas " +
+          "antes de que salga el sol.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No está siguiendo nada, porque no hay nada que seguir. Está " +
+          "<strong>prediciendo</strong> dónde va a aparecer el sol y colocándose de antemano.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y cómo gira una planta que no tiene articulaciones ni músculos? Es simple: creciendo " +
+          "de manera desigual. Atamian midió el crecimiento de los dos lados del tallo por " +
+          "separado y encontró un patrón limpio: el <strong>lado este</strong> del tallo crece " +
+          "deprisa durante el día y muy poco de noche, mientras que el <strong>lado " +
+          "oeste</strong> crece poco de día y más de noche. Al alargarse un lado más que el otro, " +
+          "el tallo se arquea hacia el contrario.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que el girasol no rota. Se <strong>tuerce</strong>, alternativamente, por " +
+          "lados opuestos. De día se alarga por el este y eso lo inclina hacia el oeste; de noche " +
+          "se alarga por el oeste y eso lo devuelve hacia el este. Es un movimiento hecho de " +
+          "crecimiento, no de músculo, y por eso solo pueden permitírselo las plantas jóvenes que " +
+          "todavía están creciendo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El girasol vuelve a mirar al este de noche, a oscuras y horas antes del amanecer. No " +
+          "sigue al sol: se coloca donde va a salir.",
       },
     ],
   },
@@ -3566,6 +5355,125 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "el-azul-no-es-un-color-es-una-estructura",
+    titulo: "Por qué son tan bonitas las mariposas",
+    categoria: "Ciencia",
+    color: "var(--slate)",
+    /* Serie «por-que-son-tan-bonitas-las-mariposas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El azul de una mariposa no es un color: es una estructura» */
+    encargo: "El azul de una mariposa no es un color: es una estructura",
+    fotos: [
+      {
+        local: p_el_azul_no_es_un_color_es_una_estructura,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El azul de una mariposa no es un color: es una estructura",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La mariposa azul más famosa del mundo es marrón",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La <em>Morpho</em> es esa mariposa tropical de un azul metálico tan intenso que parece " +
+          "que le hayan dado un baño de pintura. Es la imagen que casi todo el mundo tiene en la " +
+          "cabeza cuando piensa en una mariposa espectacular, y esconde una trampa: <strong>su " +
+          "pigmento es marrón</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No hay ninguna sustancia azul en esa ala. Si pudieras extraer y aislar el pigmento que " +
+          "contiene, obtendrías un polvo pardo, del color del cartón mojado. El azul que ves no " +
+          "está hecho de materia coloreada, sino de la forma que tiene el ala a escala diminuta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las alas de las mariposas están cubiertas de escamas superpuestas como tejas de un " +
+          "tejado —de ahí el nombre científico del grupo, lepidópteros, que significa " +
+          "literalmente «alas con escamas»— y en la <em>Morpho</em> esas escamas están recorridas " +
+          "por hileras de estructuras microscópicas con forma de arbolito, de unos cien " +
+          "nanómetros, con ramas de unos cuatrocientos nanómetros de largo. Cada arbolito tiene " +
+          "entre seis y diez capas de esas ramas, hechas de cutícula, y entre capa y capa hay " +
+          "aire.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está el mecanismo. La luz que llega se refleja un poco en cada una de esas capas " +
+          "sucesivas, y las capas están separadas justo a la distancia adecuada para que las " +
+          "reflexiones del azul salgan <strong>en fase</strong> y se refuercen entre sí, mientras " +
+          "que las de los demás colores salen desfasadas y se anulan. Lo que llega a tu ojo es " +
+          "azul no porque el ala lo contenga, sino porque el ala está construida con las medidas " +
+          "exactas para que solo el azul sobreviva a esa interferencia. El pigmento marrón, por " +
+          "cierto, cumple una función útil: absorbe la luz que consigue colarse hasta el fondo y " +
+          "evita que estropee el efecto.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Si extraes el pigmento del ala de una <em>Morpho</em>, obtienes polvo marrón. El azul " +
+          "no está en el material: está en cómo está construido.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Se demuestra con una gota de alcohol",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y cómo se comprueba que un color viene de la estructura y no de un pigmento? Es " +
+          "simple: cambias la estructura sin tocar el material y miras qué pasa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La manera más elegante de hacerlo es poner una gota de alcohol sobre el ala. En cuanto " +
+          "el líquido entra en esos huecos microscópicos y <strong>desplaza el aire</strong> que " +
+          "había entre las capas, el azul se desplaza al verde. Nada más se ha modificado: el " +
+          "mismo pigmento marrón, las mismas escamas, los mismos arbolitos de cutícula. Lo único " +
+          "que ha cambiado es qué hay en los espacios entre las láminas, y eso cambia a qué " +
+          "distancia efectiva quedan unas de otras y, por tanto, qué longitud de onda se " +
+          "refuerza.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa en lo que eso descarta. Ningún pigmento del mundo se vuelve verde porque lo " +
+          "mojes con alcohol; un pigmento es una molécula que absorbe unas frecuencias concretas " +
+          "y hace lo mismo esté seco, mojado o en el fondo de un frasco. Que el color se mueva al " +
+          "cambiar el medio solo tiene una explicación posible, y es que el color lo estaba " +
+          "produciendo la geometría.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí se sigue una consecuencia que llama la atención. Los pigmentos se degradan: la " +
+          "luz los rompe con los años y por eso los cuadros pierden intensidad, la ropa se " +
+          "destiñe al sol y las flores prensadas acaban pardas. Un color estructural no tiene " +
+          "nada que blanquear, porque no hay ninguna molécula coloreada que se pueda romper. " +
+          "Mientras la estructura física aguante, el color sigue exactamente igual de vivo. Los " +
+          "ejemplares de <em>Morpho</em> que llevan un siglo en las vitrinas de un museo " +
+          "conservan el mismo azul del día que se capturaron.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una gota de alcohol vuelve verde el azul de una <em>Morpho</em>, y al secarse vuelve a " +
+          "ser azul. Ningún pigmento hace eso.",
+      },
+    ],
+  },
+  {
     id: "el-conductor-no-se-marea-nunca",
     titulo: "Por qué te mareas en el coche",
     categoria: "Cuerpo humano",
@@ -4262,6 +6170,231 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "ve-en-blanco-y-negro-y-acierta-el-color",
+    titulo: "Por qué un pulpo se camufla si es daltónico",
+    categoria: "Ciencia",
+    color: "var(--teal)",
+    /* Serie «por-que-un-pulpo-se-camufla-si-es-daltonico», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Ve en blanco y negro y aun así acierta el color» */
+    encargo: "Ve en blanco y negro y aun así acierta el color",
+    fotos: [
+      {
+        local: p_ve_en_blanco_y_negro_y_acierta_el_color,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Ve en blanco y negro y aun así acierta el color",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Solo tiene un tipo de receptor de luz en el ojo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El pulpo es probablemente el mejor camuflador del reino animal. No cambia de color en " +
+          "cuestión de minutos como un camaleón: lo hace en menos de un segundo, y no solo el " +
+          "color. Ajusta también el dibujo, imitando manchas y vetas, y llega a modificar la " +
+          "<strong>textura</strong> de la piel levantando protuberancias para parecer roca rugosa " +
+          "o alga. Se planta sobre un fondo y desaparece.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La maquinaria con la que lo hace está repartida por toda la piel. Son los " +
+          "<strong>cromatóforos</strong>, unos sacos diminutos llenos de pigmento con músculos " +
+          "dispuestos en radio a su alrededor: cuando esos músculos tiran, el saco se estira y el " +
+          "pigmento se despliega en superficie; cuando se relajan, se contrae hasta ser " +
+          "invisible. Debajo hay otras capas de células que reflejan y dispersan la luz y aportan " +
+          "brillos e iridiscencias. El animal maneja todo eso con el sistema nervioso, " +
+          "directamente, como quien mueve un músculo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahora el problema. El ojo del pulpo tiene <strong>un solo tipo de receptor de " +
+          "luz</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Tú tienes tres, y de compararlos entre sí sale la sensación de color. Con un único " +
+          "receptor esa comparación no existe: solo hay una señal, que dice cuánta luz llega y " +
+          "nada más. En términos técnicos el pulpo es monocromático, y en términos corrientes es " +
+          "<strong>daltónico total</strong>. Ve en blanco y negro.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El pulpo iguala el color del fondo en menos de un segundo. Y su ojo tiene un solo tipo " +
+          "de receptor de luz, así que no puede distinguir colores.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Es un problema de verdad, no una curiosidad",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y por qué es eso tan raro, en lugar de un simple detalle anatómico? Es simple: porque " +
+          "para copiar un color hay que poder compararlo con el propio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa en cómo funcionaría contigo. Te dan una pared y un juego de botes de pintura, " +
+          "todo visto a través de una cámara en blanco y negro, y te piden que la pintes del " +
+          "mismo color exacto que tiene. Puedes acertar el brillo, distinguir si es claro u " +
+          "oscuro, incluso copiar el dibujo de las manchas. Pero no tienes manera de saber si esa " +
+          "pared es marrón, verde o rojiza, porque todas ellas te llegarían como el mismo gris. " +
+          "Acertar el tono sería cuestión de suerte.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El pulpo no acierta por suerte. Se coloca sobre un alga parda y se pone pardo; se " +
+          "coloca sobre coral rojizo y se pone rojizo; se coloca sobre arena clara y palidece. Lo " +
+          "hace de forma consistente y con un fondo tras otro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que, o hay algo en esa afirmación de que es daltónico que se nos escapa, o hay " +
+          "algún otro camino por el que la información del color llega hasta él sin pasar por " +
+          "donde estamos mirando. Y esa contradicción entre una anatomía perfectamente medida y " +
+          "un comportamiento perfectamente observado ha sido durante décadas uno de los " +
+          "rompecabezas más citados de la biología marina.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Copiar un color exige poder compararlo con el propio. Un animal con un solo tipo de " +
+          "receptor no debería poder hacerlo, y sin embargo acierta una y otra vez.",
+      },
+    ],
+  },
+  {
+    id: "el-destello-sube-del-suelo-a-la-nube",
+    titulo: "Por qué un rayo hace zigzag",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    /* Serie «por-que-un-rayo-hace-zigzag», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El destello que ves sube del suelo a la nube» */
+    encargo: "El destello que ves sube del suelo a la nube",
+    fotos: [
+      {
+        local: p_el_destello_sube_del_suelo_a_la_nube,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El destello que ves sube del suelo a la nube",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo primero que ocurre no lo ves",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un rayo parece el fenómeno más directo del mundo: algo cae de la nube al suelo, se ve " +
+          "la línea brillante y se acabó. En realidad la secuencia tiene tres actos, y el que ves " +
+          "no es el primero ni va en la dirección que crees.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El primer acto sí baja, pero es invisible. De la nube desciende un canal de carga " +
+          "negativa que los meteorólogos llaman <strong>líder escalonado</strong>, y desciende de " +
+          "una manera muy particular: no traza una línea continua, sino que avanza a saltos, en " +
+          "tramos de unas pocas decenas de metros, ramificándose por el camino como una raíz que " +
+          "busca. Su avance es rapidísimo, del orden de ciento cincuenta mil metros por segundo, " +
+          "y aun así es tan tenue que a simple vista no se aprecia. Cuando miras una tormenta, " +
+          "ese canal ya está bajando hacia el suelo y tú no ves absolutamente nada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El segundo acto ocurre abajo. Conforme el líder cargado negativamente se aproxima al " +
+          "suelo, la superficie responde: desde los objetos altos —un árbol, un poste, un tejado, " +
+          "una torre— empiezan a ascender canales de carga positiva, buscando al que baja. Son " +
+          "las llamadas <strong>descargas conectivas</strong>, y también son invisibles.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Antes de que veas nada, un canal invisible ya ha bajado de la nube a saltos, y del " +
+          "suelo ya están subiendo otros a su encuentro.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y entonces el rayo se enciende hacia arriba",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y el destello, entonces? Es simple: se produce en el instante en que uno de los " +
+          "canales que suben del suelo toca al que baja de la nube, y cuando eso ocurre el camino " +
+          "queda cerrado y la corriente se dispara.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esa corriente es lo que se llama <strong>descarga de retorno</strong>, y viaja " +
+          "<strong>desde el suelo hacia la nube</strong> a unos noventa y seis mil kilómetros por " +
+          "segundo, alrededor de un tercio de la velocidad de la luz. Es ella la que calienta el " +
+          "canal hasta temperaturas enormes y lo hace brillar. De modo que la línea luminosa que " +
+          "asocias con un rayo —la única parte del fenómeno que tus ojos registran— no cae: sube.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La razón de que no lo percibas así es puramente de velocidad. A noventa y seis mil " +
+          "kilómetros por segundo, el recorrido completo entre el suelo y la nube se hace en unas " +
+          "pocas diezmilésimas de segundo, muy por debajo del tiempo que tu sistema visual " +
+          "necesita para distinguir un orden. Lo ves aparecer entero y de golpe, y tu cerebro lo " +
+          "rellena con la dirección que tiene sentido según lo que sabe: las cosas caen. Pero la " +
+          "cámara de alta velocidad sí lo distingue perfectamente, y lo que registra es un trazo " +
+          "que se enciende de abajo arriba.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay dos detalles más que redondean el asunto. El primero es el parpadeo característico " +
+          "de algunos rayos, esa sensación de que la línea tiembla o se repite: no es una " +
+          "impresión, es literal. El proceso puede repetirse varias veces por el mismo canal ya " +
+          "abierto, con <strong>hasta unas veinte descargas de retorno</strong> sucesivas, y cada " +
+          "una es un destello independiente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El segundo es el grosor. Viendo la fotografía de un rayo, con ese trazo ancho y " +
+          "desbordado de luz, uno le supondría un diámetro considerable. El canal de corriente " +
+          "real mide entre <strong>dos y cinco centímetros</strong>: menos que tu muñeca. Todo lo " +
+          "demás que ves en la imagen es resplandor, el fogonazo desparramándose alrededor de un " +
+          "hilo mucho más fino de lo que parece.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El rayo que ves no cae: sube del suelo a la nube a un tercio de la velocidad de la " +
+          "luz, por un canal de dos a cinco centímetros de grosor.",
+      },
+    ],
+  },
+  {
     id: "por-que-vuelan-los-aviones-es-falso",
     titulo: "Por qué vuelan los aviones",
     categoria: "Ciencia",
@@ -4370,6 +6503,171 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Los aviones vuelan boca abajo en cualquier exhibición aérea. Eso, por sí solo, " +
           "desmonta la explicación de la forma del ala.",
+      },
+    ],
+  },
+  {
+    id: "hasta-1925-el-universo-era-esta-galaxia",
+    titulo: "Qué es una galaxia",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    /* Serie «que-es-una-galaxia», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Hasta 1925, el universo entero era esta galaxia» */
+    encargo: "Hasta 1925, el universo entero era esta galaxia",
+    fotos: [
+      {
+        local: p_hasta_1925_el_universo_era_esta_galaxia,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Hasta 1925, el universo entero era esta galaxia",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una isla de estrellas, y durante siglos creímos que solo había una",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una galaxia es un conjunto de estrellas, gas, polvo y materia oscura que la gravedad " +
+          "mantiene unido y girando en torno a un centro común. La nuestra, la Vía Láctea, " +
+          "contiene del orden de doscientos mil millones de estrellas, y el Sol es una de ellas, " +
+          "en un brazo cualquiera, a unos veintiséis mil años luz del centro. La banda " +
+          "blanquecina que cruza el cielo en una noche oscura, lejos de las ciudades, es esa " +
+          "misma galaxia vista desde dentro y de canto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hasta aquí, la definición de manual. Lo que casi nadie tiene presente es lo reciente " +
+          "que es, porque la idea de que existen <em>otras</em> galaxias —el plural, " +
+          "sencillamente— no llega a los cien años de antigüedad, y es más joven que la radio " +
+          "comercial. Durante todo el siglo XIX y las primeras décadas del XX, la Vía Láctea no " +
+          "era una galaxia entre muchas: era el universo, todo él. Los astrónomos veían en sus " +
+          "telescopios unas manchas borrosas de forma espiral, las llamaban <strong>nebulosas " +
+          "espirales</strong>, y la interpretación mayoritaria era que se trataba de nubes de gas " +
+          "situadas dentro de nuestro propio sistema, quizá sistemas solares en formación. Ni " +
+          "siquiera se planteaba en serio que hubiera algo <em>fuera</em>, sobre todo porque no " +
+          "había un fuera donde ponerlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El desacuerdo estalló públicamente en 1920, en lo que la astronomía conoce desde " +
+          "entonces como el <strong>Gran Debate</strong>. Harlow Shapley defendía que esas " +
+          "nebulosas espirales eran objetos relativamente pequeños situados dentro de la Vía " +
+          "Láctea; Heber Curtis sostenía justo lo contrario, que eran sistemas independientes, " +
+          "enormes y lejanísimos, universos-isla completos por su cuenta. Los dos argumentaban " +
+          "bien, los dos tenían observaciones a favor y ninguno pudo ganar, porque a la pregunta " +
+          "le faltaba lo único que la habría zanjado de un golpe: nadie sabía medir a qué " +
+          "distancia estaban aquellas manchas. Sin distancia, una nebulosa pequeña y cercana y " +
+          "una galaxia gigantesca y remota se ven exactamente igual en la placa fotográfica.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "En 1920 la astronomía discutía en serio si el universo era una sola galaxia o muchas. " +
+          "No era una cuestión filosófica: faltaba una medición.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Henrietta Leavitt construyó la regla de medir, y Hubble la apuntó a Andrómeda",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Cómo se mide la distancia a algo que solo es una mancha difusa en una fotografía? Es " +
+          "simple: necesitas encontrar dentro de ella una estrella cuyo brillo verdadero conozcas " +
+          "de antemano. Si sabes cuánta luz emite en realidad y ves lo poquísima que te llega, la " +
+          "diferencia entre las dos cantidades te da la distancia, igual que sabrías estimar a " +
+          "cuántos metros está un faro si conocieras la potencia de su bombilla.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esa estrella patrón la encontró <strong>Henrietta Leavitt</strong> en el Observatorio " +
+          "de Harvard. Estudiando un tipo de estrella variable llamada <strong>cefeida</strong>, " +
+          "que se enciende y se apaga con un ritmo regular, Leavitt descubrió que el periodo de " +
+          "ese parpadeo estaba directamente relacionado con su brillo real: cuanto más despacio " +
+          "late una cefeida, más luminosa es. Y eso convierte a cada cefeida en un faro de " +
+          "potencia conocida. Basta con cronometrarla para saber cuánta luz emite, y comparar con " +
+          "lo que llega para saber a qué distancia está. Era, por fin, una regla de medir para el " +
+          "cosmos.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Leavitt formaba parte de las llamadas «computadoras» de Harvard, un " +
+          "grupo de mujeres contratadas para examinar placas fotográficas. Llegó a cobrar treinta " +
+          "centavos por hora —cinco más que la mayoría de sus compañeras— y no tenía permitido " +
+          "manejar un telescopio ni dedicarse al trabajo teórico. La mujer que fabricó la regla " +
+          "con la que se mide el universo no podía usar el instrumento con el que se mira.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Edwin Hubble apuntó con esa regla. Trabajando en Mount Wilson con el telescopio Hooker " +
+          "de cien pulgadas, el mayor del mundo en aquel momento, fotografió la nebulosa de " +
+          "Andrómeda y en 1923 encontró una cefeida dentro de ella. Se quedó tan impresionado que " +
+          "escribió a mano un signo de exclamación sobre la placa fotográfica, junto a la " +
+          "estrella.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "A finales de 1924 tenía ya doce cefeidas identificadas en Andrómeda, suficientes para " +
+          "cerrar la cuenta con confianza. El resultado fueron <strong>novecientos mil años " +
+          "luz</strong>. Conviene poner esa cifra al lado de la otra para ver el golpe: la Vía " +
+          "Láctea entera se estimaba en unos cien mil años luz de diámetro, de modo que Andrómeda " +
+          "no solo no estaba dentro, sino que estaba nueve veces más lejos que el ancho completo " +
+          "de todo lo que hasta ese día se consideraba el universo. Era otra galaxia entera, con " +
+          "sus propios miles de millones de estrellas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hubble le escribió a Shapley para contárselo. Shapley leyó la carta, se la pasó a su " +
+          "colega Cecilia Payne-Gaposchkin y dijo una frase que ha quedado como el resumen exacto " +
+          "de lo que acababa de ocurrir:",
+      },
+      {
+        b: "cita",
+        texto:
+          "Aquí está la carta que ha destruido mi universo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "— Harlow Shapley",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El resultado se presentó en enero de 1925, en una reunión de la Sociedad Astronómica " +
+          "Americana, y ni siquiera fue Hubble quien lo leyó: lo hizo un colega en su nombre, " +
+          "mientras él seguía en el observatorio. Cinco semanas antes ya se lo había filtrado al " +
+          "<em>New York Times</em>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay un último detalle que hace la historia todavía mejor: aquella cifra se quedaba " +
+          "corta. Novecientos mil años luz era una subestimación considerable, porque Andrómeda " +
+          "está en realidad a unos dos millones y medio. Con una sola medición —y equivocada por " +
+          "defecto en un factor de casi tres— el universo pasó de ser una galaxia a contener " +
+          "billones de ellas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Doce estrellas parpadeantes bastaron para que el universo dejara de ser un sitio y " +
+          "pasara a ser billones de sitios.",
       },
     ],
   },

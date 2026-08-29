@@ -6,8 +6,8 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts con el texto de Pablo | **106** | en 46 series |
-| de esos, **vivos en la app** | **38** | los otros 68 esperan portada |
+| shorts con el texto de Pablo | **161** | en 71 series |
+| de esos, **vivos en la app** | **57** | los otros 104 esperan portada |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **339** | 79 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
@@ -26,6 +26,62 @@ lo han sido desde antes del 27 de agosto —comprobado con `git show` sobre tres
 commits—, así que no se perdió ninguno, se escribió mal el número. Un dato
 inventado en este documento es peor que no tenerlo: la siguiente sesión lo lee
 como cierto y no lo vuelve a mirar.
+
+## CIENTO SESENTA Y UN SHORTS, CINCUENTA Y SIETE VIVOS — 29 de agosto, noche
+
+Veinticinco series más —cielo, espacio y bichos— y las diecinueve fotografías
+que estaban guardadas eran exactamente las de esos textos. **161 shorts en 71
+series, 57 vivos.**
+
+Las diecinueve portadas nuevas: **1.197 kB de media**, catorce llegan al techo
+de 2160 y las otras cinco lo dan todo sin llegar —1663, 1688, 1846, 1863 y
+1924—, todas por encima del suelo. Ninguna que descartar.
+
+### Lo que falta, y son dos cosas distintas
+
+**Siete shorts escritos esperan una imagen más grande.** Todo lo que queda en
+`originales/sin-asignar/` está ahí por eso, no por otra cosa:
+
+| short | la foto da | le faltan |
+|---|---|---|
+| nudillos | 338 | 1.306 |
+| bomba atómica | 645 | 999 |
+| huellas dactilares, pelirrojos, resaca | 759 | 885 |
+| venas azules | 1.326 | 318 |
+| copos de nieve | 1.458 | 186 |
+
+**Y cuatro series no tienen ninguna fotografía**, que no es lo mismo: «Cuál es
+el ser vivo más grande», «Por qué el cielo es negro de noche», «Por qué el mar
+brilla de noche» y «Por qué la Luna enseña siempre la misma cara».
+
+### El simulador ya no da más de sí, y esta vez toca de verdad
+
+Con 56 portadas empotradas, `movil.html` no cabe por ninguna vía cómoda. Lo que
+se ha hecho hoy es apretar por el lado que Pablo no está mirando:
+
+| | antes | ahora |
+|---|---|---|
+| cubiertas de libros | 296 px · 4,9 MB | **232 px · 3,2 MB** |
+| portadas de shorts | 900 px | **540 px** |
+| total | — | **15,2 MB** de 16 |
+
+Y las portadas del mirador han bajado de 1440 a **1000**. Ese es el número que
+duele, porque el mirador es justo donde se juzga un encuadre.
+
+**A la siguiente tanda hay que dejar shorts fuera del simulador**, que es lo
+que él autorizó: «si no caben borras las que teníamos, que esas ya he
+comprobado que están bien». No hay más márgenes que apretar sin estropear lo
+que se va a mirar. Los `.md` y los AVIF de `portadas/` no se tocan nunca: lo
+que se recorta es el escaparate.
+
+### Cómo queda
+
+57 shorts vivos, 294 pantallas:
+
+    huerfanas   0 palabras sueltas, 0 recortadas, mismo margen en todas
+    puntofinal  277 de 294 acaban en punto (94 %)
+    rayos       112 rayos pintados, 0 partidos
+    huecos      4 pantallas pasan de 3 renglones, por un ⚡ o un 💡
 
 ## LA RESOLUCIÓN, A TOPE — 29 de agosto, noche
 
