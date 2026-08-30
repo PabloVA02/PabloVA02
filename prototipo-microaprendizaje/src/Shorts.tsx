@@ -934,7 +934,24 @@ function parteBloque(
     if (b.b !== "rayo" && b.b !== "dato") return null;
     const padre = el.parentElement;
     const renglon = padre ? parseFloat(getComputedStyle(padre).lineHeight) || 0 : 0;
-    if (renglon > 0 && desbordaPor() > 0 && desbordaPor() <= ESTIRA * renglon + 0.5)
+    /* Y AQUÍ EL ESTIRÓN ES MÁS CORTO QUE EN UN PÁRRAFO, por la última pantalla.
+     *
+     * Debajo del texto no siempre hay lo mismo: en las pantallas normales está
+     * el indicador de página, que ocupa 21 puntos sobre la barra, y en la
+     * ÚLTIMA están los botones de guardar y compartir, que ocupan 50. Son
+     * veintinueve puntos menos de sitio, y `reparte` no sabe —a propósito— qué
+     * pantalla va a ser la última: eso se decidía antes y no convergía.
+     *
+     * Así que el presupuesto es el de la peor: 96 de margen menos los 50 de
+     * los botones menos 6 de aire son 40 puntos, un renglón y medio. Con los
+     * dos renglones que se da a los párrafos, un ⚡ al final de «De dónde sale
+     * el oro» se pasaba 51 y pisaba los botones por 6. Lo cantó
+     * `puntofinal.mjs`, que mide justo eso.
+     *
+     * El párrafo sigue teniendo sus dos renglones porque su tolerancia es de
+     * uno —25,7— y ese cabe en los 40 de sobra. */
+    const ESTIRA_BLOQUE = 1.5;
+    if (renglon > 0 && desbordaPor() > 0 && desbordaPor() <= ESTIRA_BLOQUE * renglon + 0.5)
       return "cabe-justo";
     return null;
   }

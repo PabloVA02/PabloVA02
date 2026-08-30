@@ -12,10 +12,14 @@ import type { Short } from "../shorts";
    que existe. Ver `scripts/portadas-servir.mjs`. */
 import p_la_costra_no_esta_curando_nada from "../../portadas/servir/la-costra-no-esta-curando-nada.avif";
 import p_los_de_la_cebada from "../../portadas/servir/los-de-la-cebada.avif";
+import p_como_erupciona_un_volcan from "../../portadas/servir/como-erupciona-un-volcan.avif";
 import p_la_gravedad_no_es_una_fuerza from "../../portadas/servir/la-gravedad-no-es-una-fuerza.avif";
+import p_como_funciona_un_hormiguero from "../../portadas/servir/como-funciona-un-hormiguero.avif";
+import p_como_funciona_una_cerilla from "../../portadas/servir/como-funciona-una-cerilla.avif";
 import p_diario_de_a_bordo from "../../portadas/servir/diario-de-a-bordo.avif";
 import p_se_leyeron_al_reves from "../../portadas/servir/se-leyeron-al-reves.avif";
 import p_como_se_forma_dentro_de_una_gota from "../../portadas/servir/como-se-forma-dentro-de-una-gota.avif";
+import p_como_se_forma_un_cometa from "../../portadas/servir/como-se-forma-un-cometa.avif";
 import p_el_vino_se_hace_solo_y_lo_traen_las_avispas from "../../portadas/servir/el-vino-se-hace-solo-y-lo-traen-las-avispas.avif";
 import p_la_cebada_no_tiene_azucar from "../../portadas/servir/la-cebada-no-tiene-azucar.avif";
 import p_mas_antiguo_que_la_agricultura from "../../portadas/servir/mas-antiguo-que-la-agricultura.avif";
@@ -27,6 +31,7 @@ import p_termino_en_1453 from "../../portadas/servir/termino-en-1453.avif";
 import p_llevamos_57_anos_disparando_laseres_a_la_luna from "../../portadas/servir/llevamos-57-anos-disparando-laseres-a-la-luna.avif";
 import p_es_un_arma_quimica from "../../portadas/servir/es-un-arma-quimica.avif";
 import p_la_palabra_viajo_con_ella from "../../portadas/servir/la-palabra-viajo-con-ella.avif";
+import p_de_donde_sale_el_oro from "../../portadas/servir/de-donde-sale-el-oro.avif";
 import p_nacio_en_la_amazonia from "../../portadas/servir/nacio-en-la-amazonia.avif";
 import p_mas_grande_que_cualquier_dinosaurio from "../../portadas/servir/mas-grande-que-cualquier-dinosaurio.avif";
 import p_ser_la_unica_especie_humana from "../../portadas/servir/ser-la-unica-especie-humana.avif";
@@ -39,6 +44,7 @@ import p_no_crecen_la_piel_se_retira from "../../portadas/servir/no-crecen-la-pi
 import p_hay_un_sensor_dentro_del_diente from "../../portadas/servir/hay-un-sensor-dentro-del-diente.avif";
 import p_el_dolor_no_esta_donde_lo_notas from "../../portadas/servir/el-dolor-no-esta-donde-lo-notas.avif";
 import p_no_es_el_acido_lactico from "../../portadas/servir/no-es-el-acido-lactico.avif";
+import p_por_que_el_aceite_de_oliva_es_tan_saludable from "../../portadas/servir/por-que-el-aceite-de-oliva-es-tan-saludable.avif";
 import p_el_chaval_y_el_helado from "../../portadas/servir/el-chaval-y-el-helado.avif";
 import p_el_cafe_no_te_da_energia from "../../portadas/servir/el-cafe-no-te-da-energia.avif";
 import p_el_cielo_deberia_ser_violeta from "../../portadas/servir/el-cielo-deberia-ser-violeta.avif";
@@ -48,15 +54,22 @@ import p_el_mar_no_refleja_el_cielo from "../../portadas/servir/el-mar-no-reflej
 import p_la_sal_no_viene_del_mar from "../../portadas/servir/la-sal-no-viene-del-mar.avif";
 import p_un_desague_sin_salida from "../../portadas/servir/un-desague-sin-salida.avif";
 import p_lleno_de_semillas from "../../portadas/servir/lleno-de-semillas.avif";
+import p_por_que_el_sahara_fue_verde from "../../portadas/servir/por-que-el-sahara-fue-verde.avif";
 import p_empezo_en_orden_alfabetico from "../../portadas/servir/empezo-en-orden-alfabetico.avif";
 import p_los_dias_no_los_anos_si from "../../portadas/servir/los-dias-no-los-anos-si.avif";
 import p_el_color_te_dice_a_que_altura_ocurre from "../../portadas/servir/el-color-te-dice-a-que-altura-ocurre.avif";
+import p_por_que_hay_personas_con_ojos_azules from "../../portadas/servir/por-que-hay-personas-con-ojos-azules.avif";
+import p_por_que_hay_personas_con_ojos_marrones from "../../portadas/servir/por-que-hay-personas-con-ojos-marrones.avif";
+import p_por_que_hay_personas_con_ojos_verdes from "../../portadas/servir/por-que-hay-personas-con-ojos-verdes.avif";
+import p_por_que_hay_personas_rubias from "../../portadas/servir/por-que-hay-personas-rubias.avif";
+import p_por_que_la_estatua_de_la_libertad_es_verde from "../../portadas/servir/por-que-la-estatua-de-la-libertad-es-verde.avif";
 import p_una_molecula_a_partir_de_los_cuarenta from "../../portadas/servir/una-molecula-a-partir-de-los-cuarenta.avif";
 import p_la_luna_del_horizonte_es_mas_pequena from "../../portadas/servir/la-luna-del-horizonte-es-mas-pequena.avif";
 import p_la_miel_no_se_conserva from "../../portadas/servir/la-miel-no-se-conserva.avif";
 import p_moradas_y_amarillas from "../../portadas/servir/moradas-y-amarillas.avif";
 import p_costo_dos_mil_anos_demostrar_que_acertaban from "../../portadas/servir/costo-dos-mil-anos-demostrar-que-acertaban.avif";
 import p_las_rayas_no_son_un_camuflaje from "../../portadas/servir/las-rayas-no-son-un-camuflaje.avif";
+import p_por_que_las_estatuas_griegas_son_blancas from "../../portadas/servir/por-que-las-estatuas-griegas-son-blancas.avif";
 import p_el_amarillo_ya_estaba from "../../portadas/servir/el-amarillo-ya-estaba.avif";
 import p_la_cebolla_entera_no_lleva_nada from "../../portadas/servir/la-cebolla-entera-no-lleva-nada.avif";
 import p_te_ensenaron_mal_como_se_forma_una_nube from "../../portadas/servir/te-ensenaron-mal-como-se-forma-una-nube.avif";
@@ -66,6 +79,8 @@ import p_el_sahara_esta_seco_por_lo_que_pasa_en_el_ecuador from "../../portadas/
 import p_no_invierten_izquierda_derecha from "../../portadas/servir/no-invierten-izquierda-derecha.avif";
 import p_un_flamenco_nace_gris from "../../portadas/servir/un-flamenco-nace-gris.avif";
 import p_no_lo_siguen_se_le_anticipan from "../../portadas/servir/no-lo-siguen-se-le-anticipan.avif";
+import p_por_que_marte_es_rojo from "../../portadas/servir/por-que-marte-es-rojo.avif";
+import p_por_que_no_hemos_vuelto_a_la_luna from "../../portadas/servir/por-que-no-hemos-vuelto-a-la-luna.avif";
 import p_a_los_tres_anos_te_acordabas from "../../portadas/servir/a-los-tres-anos-te-acordabas.avif";
 import p_la_unica_especie_que_se_sonroja from "../../portadas/servir/la-unica-especie-que-se-sonroja.avif";
 import p_el_picante_no_es_un_sabor from "../../portadas/servir/el-picante-no-es-un-sabor.avif";
@@ -73,10 +88,13 @@ import p_el_picor_lo_pones_tu from "../../portadas/servir/el-picor-lo-pones-tu.a
 import p_perderse_en_un_centro_comercial from "../../portadas/servir/perderse-en-un-centro-comercial.avif";
 import p_un_patinador_no_derrite_el_hielo from "../../portadas/servir/un-patinador-no-derrite-el-hielo.avif";
 import p_no_solo_cuando_estan_contentos from "../../portadas/servir/no-solo-cuando-estan-contentos.avif";
+import p_por_que_saturno_tiene_anillos from "../../portadas/servir/por-que-saturno-tiene-anillos.avif";
+import p_por_que_se_abandono_machu_picchu from "../../portadas/servir/por-que-se-abandono-machu-picchu.avif";
 import p_la_leche_cortada_es_queso_a_medio_empezar from "../../portadas/servir/la-leche-cortada-es-queso-a-medio-empezar.avif";
 import p_el_pan_duro_no_se_ha_secado from "../../portadas/servir/el-pan-duro-no-se-ha-secado.avif";
 import p_no_es_falta_de_riego from "../../portadas/servir/no-es-falta-de-riego.avif";
 import p_tienen_una_forma_que_se_puede_medir from "../../portadas/servir/tienen-una-forma-que-se-puede-medir.avif";
+import p_por_que_son_caros_los_diamantes from "../../portadas/servir/por-que-son-caros-los-diamantes.avif";
 import p_el_azul_no_es_un_color_es_una_estructura from "../../portadas/servir/el-azul-no-es-un-color-es-una-estructura.avif";
 import p_todas_las_explicaciones_que_te_han_dado_fallan from "../../portadas/servir/todas-las-explicaciones-que-te-han-dado-fallan.avif";
 import p_el_conductor_no_se_marea_nunca from "../../portadas/servir/el-conductor-no-se-marea-nunca.avif";
@@ -88,12 +106,22 @@ import p_nadie_oyo_su_voz_hasta_1877 from "../../portadas/servir/nadie-oyo-su-vo
 import p_ve_en_blanco_y_negro_y_acierta_el_color from "../../portadas/servir/ve-en-blanco-y-negro-y-acierta-el-color.avif";
 import p_el_destello_sube_del_suelo_a_la_nube from "../../portadas/servir/el-destello-sube-del-suelo-a-la-nube.avif";
 import p_por_que_vuelan_los_aviones_es_falso from "../../portadas/servir/por-que-vuelan-los-aviones-es-falso.avif";
+import p_que_es_el_salar_de_uyuni from "../../portadas/servir/que-es-el-salar-de-uyuni.avif";
 import p_coladores_de_hace_7500_anos from "../../portadas/servir/coladores-de-hace-7500-anos.avif";
+import p_que_es_realmente_una_perla from "../../portadas/servir/que-es-realmente-una-perla.avif";
+import p_que_es_un_agujero_de_gusano from "../../portadas/servir/que-es-un-agujero-de-gusano.avif";
+import p_que_es_un_agujero_negro from "../../portadas/servir/que-es-un-agujero-negro.avif";
+import p_que_es_una_estrella_fugaz from "../../portadas/servir/que-es-una-estrella-fugaz.avif";
 import p_hasta_1925_el_universo_era_esta_galaxia from "../../portadas/servir/hasta-1925-el-universo-era-esta-galaxia.avif";
+import p_que_fue_el_ejercito_de_terracota from "../../portadas/servir/que-fue-el-ejercito-de-terracota.avif";
 import p_un_nombre_del_siglo_xix from "../../portadas/servir/un-nombre-del-siglo-xix.avif";
 import p_las_lapidas_fechadas from "../../portadas/servir/las-lapidas-fechadas.avif";
+import p_que_hay_debajo_de_la_antartida from "../../portadas/servir/que-hay-debajo-de-la-antartida.avif";
 import p_mil_atmosferas from "../../portadas/servir/mil-atmosferas.avif";
 import p_dos_mil_anos_antes_de_los_druidas from "../../portadas/servir/dos-mil-anos-antes-de-los-druidas.avif";
+import p_quien_fue_cleopatra from "../../portadas/servir/quien-fue-cleopatra.avif";
+import p_quien_fue_la_persona_mas_rica_del_mundo from "../../portadas/servir/quien-fue-la-persona-mas-rica-del-mundo.avif";
+import p_quien_invento_el_futbol from "../../portadas/servir/quien-invento-el-futbol.avif";
 
 /* ==========================================================================
    CURIOSIDADES — LO ESCRIBE `scripts/catalogo.mjs`, NO SE EDITA A MANO
@@ -108,7 +136,7 @@ import p_dos_mil_anos_antes_de_los_druidas from "../../portadas/servir/dos-mil-a
    reparte en pantallas es la app, midiendo el móvil de quien lee. Es la
    regla 3 de `.claude/skills/paginado-shorts/SKILL.md`.
 
-   Hoy entran 85 de 255: solo los que tienen portada.
+   Hoy entran 113 de 344: solo los que tienen portada.
    ========================================================================== */
 
 export const CURIOSIDADES: Short[] = [
@@ -379,6 +407,114 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "como-erupciona-un-volcan",
+    titulo: "Cómo erupciona un volcán",
+    categoria: "Planeta Tierra",
+    color: "var(--plum)",
+    /* Serie «como-erupciona-un-volcan», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Lo que sale disparado no es la roca, sino el gas que llevaba disuelto» */
+    encargo: "Lo que sale disparado no es la roca, sino el gas que llevaba disuelto",
+    fotos: [
+      {
+        local: p_como_erupciona_un_volcan,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Lo que sale disparado no es la roca, sino el gas que llevaba disuelto",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Durante dos siglos se buscó el fuego, y el fuego no estaba",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El nombre ya apuntaba en la dirección equivocada. <strong>Volcán</strong> viene de " +
+          "Vulcano, el dios romano de la fragua, y durante siglos se dio por hecho que debajo de " +
+          "la montaña había algo ardiendo. A finales del siglo XVIII la explicación con más " +
+          "prestigio en Europa la firmaba Abraham Gottlob Werner, geólogo alemán y fundador de la " +
+          "escuela llamada <strong>neptunismo</strong>: los volcanes se producían por la " +
+          "combustión de capas de carbón subterráneas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No era una idea ridícula. Explicaba el humo, explicaba el calor y explicaba por qué " +
+          "algunos volcanes se apagaban para siempre. Lo único que no explicaba era de dónde " +
+          "salía la roca líquida, y ese detalle acabó hundiendo la teoría entera.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hoy sabemos que en un volcán no arde absolutamente nada. No hay combustión, no hay " +
+          "llama y no hay combustible. Hay roca fundida que sube, y esa roca lleva algo disuelto " +
+          "dentro.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un volcán no es un fuego que sale de la tierra. Es una botella a presión que se " +
+          "destapa.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La roca líquida lleva agua dentro, y ahí está todo el mecanismo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entonces, ¿qué es exactamente lo que sale disparado? Es simple: <strong>el " +
+          "gas</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El magma se forma en profundidad y sube porque pesa menos que la roca sólida que lo " +
+          "rodea. Ahí abajo la presión es enorme, y bajo esa presión el magma mantiene disueltos " +
+          "agua y dióxido de carbono, igual que una botella cerrada mantiene disuelto el gas de " +
+          "un refresco. Mientras sube, la presión que lo aprieta va cayendo. Al caer la presión, " +
+          "el agua deja de estar disuelta y se convierte en burbujas de vapor. Las burbujas " +
+          "ocupan muchísimo más sitio que el agua que las formó, así que el magma se hincha y " +
+          "empuja con más fuerza hacia arriba, sube más deprisa y pierde presión todavía más " +
+          "rápido. Así se dispara una erupción.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La comparación con el refresco funciona mejor de lo que parece, y funciona sobre todo " +
+          "por la mitad que nadie mira. Una botella no revienta porque el líquido se caliente: " +
+          "revienta porque le quitas el tapón. A un volcán le pasa exactamente lo mismo, y su " +
+          "tapón es el peso de la roca que tiene encima.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando el magma es lo bastante espeso, las burbujas no consiguen subir solas y llegan " +
+          "a la superficie todavía atrapadas, a más presión que el aire que las rodea. Al " +
+          "liberarse de golpe desgarran el magma en fragmentos diminutos. A esos fragmentos los " +
+          "llamamos ceniza volcánica.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La ceniza de un volcán no es ceniza: no se ha quemado nada para producirla. Son " +
+          "astillas de roca líquida rotas por burbujas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Sabías que…? La lava del Kīlauea sale a unos 1.170 grados. Un horno doméstico a " +
+          "máxima potencia no pasa de 250.",
+      },
+    ],
+  },
+  {
     id: "la-gravedad-no-es-una-fuerza",
     titulo: "Cómo funciona la gravedad",
     categoria: "Ciencia",
@@ -504,6 +640,195 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "En 1919 dos expediciones fotografiaron un eclipse para medir si la luz se torcía. Se " +
           "torció el doble de lo que predecía Newton.",
+      },
+    ],
+  },
+  {
+    id: "como-funciona-un-hormiguero",
+    titulo: "Cómo funciona un hormiguero",
+    categoria: "Naturaleza",
+    color: "var(--slate)",
+    /* Serie «como-funciona-un-hormiguero», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «En un hormiguero no manda nadie, y la reina tampoco» */
+    encargo: "En un hormiguero no manda nadie, y la reina tampoco",
+    fotos: [
+      {
+        local: p_como_funciona_un_hormiguero,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "En un hormiguero no manda nadie, y la reina tampoco",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La palabra «reina» nos hizo buscar una jerarquía que no existe",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Quizá te imagines el hormiguero como una fábrica bien organizada: una jefa en el " +
+          "centro, unas obreras que reciben instrucciones y un reparto de tareas decidido desde " +
+          "arriba. Es la imagen que arrastra la propia palabra <strong>reina</strong>, y es la " +
+          "que hace que la respuesta real resulte tan difícil de creer.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La reina no reparte tareas. No supervisa, no decide y no da órdenes. Puso los huevos " +
+          "de los que salieron todas las demás y sigue poniéndolos: ese es su trabajo completo. " +
+          "Si desapareciera mañana, el hormiguero no se quedaría sin dirección, porque no la " +
+          "tenía; se quedaría sin recambio, que es otra cosa muy distinta y mucho más lenta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Deborah M. Gordon, bióloga de la Universidad de Stanford, lleva más de treinta años " +
+          "estudiando colonias de hormigas cosechadoras en el desierto de Arizona, y lo dice sin " +
+          "ningún rodeo:",
+      },
+      {
+        b: "cita",
+        texto:
+          "Una colonia de insectos sociales funciona sin ningún control central: nadie está al " +
+          "mando, y ningún miembro de la colonia dirige la conducta de otro.",
+        autor: "Deborah M. Gordon",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El hormiguero hace cosas complicadas sin que exista en ningún punto un plan de esas " +
+          "cosas.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El sistema funciona contando encuentros, no obedeciendo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entonces, ¿cómo decide una hormiga concreta si hoy sale a buscar comida o se queda " +
+          "arreglando el nido? Es simple: <strong>por la frecuencia con la que se cruza con " +
+          "otras</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando dos hormigas se encuentran se tocan con las antenas, y en ese contacto " +
+          "brevísimo cada una percibe el olor de la otra. Lo que importa no es el mensaje, porque " +
+          "no hay mensaje. Lo que importa es el ritmo. Una recolectora que está esperando dentro " +
+          "del nido decide salir en función de la frecuencia con la que le llegan compañeras que " +
+          "vuelven con comida. Si vuelven muchas y vuelven seguidas, salen más. Si el goteo se " +
+          "espacia, salen menos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que consigue esa regla tan tonta. Cuando hay mucha comida ahí fuera, las " +
+          "recolectoras vuelven rápido, los encuentros se aceleran y la colonia manda más " +
+          "hormigas al campo. Cuando no hay, tardan, los encuentros se espacian y la colonia " +
+          "frena sola. El hormiguero ajusta cuántas obreras trabajan según lo que hay disponible, " +
+          "sin que ninguna hormiga sepa cuánta comida hay ni cuántas compañeras han salido.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Ninguna hormiga tiene una idea del hormiguero. La coordinación no está en las " +
+          "hormigas: está en el ritmo con el que se tropiezan.",
+      },
+    ],
+  },
+  {
+    id: "como-funciona-una-cerilla",
+    titulo: "Cómo funciona una cerilla",
+    categoria: "Ciencia",
+    color: "var(--clay)",
+    /* Serie «como-funciona-una-cerilla», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La mitad de la cerilla no está en la cerilla» */
+    encargo: "La mitad de la cerilla no está en la cerilla",
+    fotos: [
+      {
+        local: p_como_funciona_una_cerilla,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La mitad de la cerilla no está en la cerilla",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Frotar dos cosas cualesquiera no enciende nada",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando enciendes una cerilla das por hecho que lo que arde está en la cabeza, y que la " +
+          "caja solo sirve para hacer fricción. Es lo lógico y no es así.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una cerilla de seguridad moderna <strong>no lleva fósforo</strong>. El fósforo rojo " +
+          "está incrustado en la banda rugosa del lateral de la caja. Cabeza y raspador no son un " +
+          "objeto y una herramienta: son dos mitades de una misma reacción, guardadas por " +
+          "separado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso una cerilla de seguridad no prende contra una pared, ni contra una piedra, ni " +
+          "contra la suela de un zapato. No es que la caja raspe mejor: es que la caja tiene un " +
+          "ingrediente que la cerilla no tiene.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La cerilla no es un objeto que arde. Es media reacción química, y la otra media viaja " +
+          "en la caja.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Del roce a la llama, en el orden correcto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué pasa exactamente al frotar? Es simple: <strong>cada pieza enciende a la " +
+          "siguiente</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El roce calienta un punto minúsculo del raspador y hace arder algo de fósforo rojo. " +
+          "Esa pequeña llama alcanza la cabeza de la cerilla, donde está el <strong>clorato de " +
+          "potasio</strong>, un compuesto que al calentarse libera oxígeno. Ese oxígeno, liberado " +
+          "justo ahí y en abundancia, permite que arda el azufre y las demás sustancias " +
+          "combustibles de la cabeza, aunque el aire de alrededor no bastaría. La cabeza arde a " +
+          "mucha temperatura y prende la madera del palo, que ha sido tratada para arder " +
+          "despacio. Así se enciende una cerilla.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en el papel del clorato de potasio, porque es la pieza elegante del asunto. No " +
+          "arde: aporta oxígeno. Una cerilla lleva su propio oxígeno encima, y por eso una cabeza " +
+          "de cerilla puede arder en sitios donde una astilla no lo haría.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Lo que hace posible la llama no es un combustible mejor. Es llevar el comburente " +
+          "puesto, para no depender del aire.",
       },
     ],
   },
@@ -874,6 +1199,93 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Ninguna gota te manda un arcoíris. Cada una te manda un solo color, y el arco es el " +
           "mosaico que forman millones de gotas ordenadas por ángulo.",
+      },
+    ],
+  },
+  {
+    id: "como-se-forma-un-cometa",
+    titulo: "Cómo se forma un cometa",
+    categoria: "Ciencia",
+    color: "var(--teal)",
+    /* Serie «como-se-forma-un-cometa», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un cometa no se forma: se enciende» */
+    encargo: "Un cometa no se forma: se enciende",
+    fotos: [
+      {
+        local: p_como_se_forma_un_cometa,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un cometa no se forma: se enciende",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que orbita ahí fuera no tiene cola ni brilla",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La palabra «formarse» sugiere que en algún sitio se fabrica un cometa: que la cola " +
+          "crece, que el brillo se enciende, que el objeto se construye. Y no es así. El cometa " +
+          "lleva ahí miles de millones de años, quieto, oscuro y sin cola, y lo único que ocurre " +
+          "es que en algún momento se acerca.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que orbita en las afueras del sistema solar es el <strong>núcleo</strong>: una bola " +
+          "de hielo, roca y polvo, normalmente de menos de dieciséis kilómetros de lado. Hay " +
+          "probablemente miles de millones de ellos, repartidos entre el cinturón de Kuiper y, " +
+          "mucho más lejos, la nube de Oort. Son material sobrante de cuando se formaron los " +
+          "planetas, y en el frío de allí fuera no les ha pasado nada desde entonces.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los cometas no son visitantes ocasionales que aparecen y desaparecen. Están siempre; " +
+          "lo que aparece y desaparece es lo que les hace visibles.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El Sol hace todo el trabajo, y lo hace en orden",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué pasa exactamente cuando uno de esos núcleos se acerca? Es simple: <strong>el " +
+          "hielo deja de ser hielo</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el vacío no hay presión que sostenga el estado líquido, así que el hielo calentado " +
+          "no se funde: pasa directamente a gas. A medida que el núcleo se acerca al Sol, su " +
+          "superficie se calienta y los hielos empiezan a sublimar. El gas que escapa arrastra " +
+          "consigo el polvo que tenía atrapado, y ese gas y ese polvo forman alrededor del núcleo " +
+          "una atmósfera provisional que puede llegar a cientos de miles de kilómetros de " +
+          "diámetro. A esa envoltura se la llama <strong>coma</strong>. Después, la presión de la " +
+          "luz solar y el viento de partículas que sale del Sol empujan ese material hacia fuera, " +
+          "y lo estiran hasta convertirlo en una cola de millones de kilómetros. Así se enciende " +
+          "un cometa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en la desproporción. El objeto real mide unos pocos kilómetros; lo que se ve " +
+          "desde la Tierra mide millones. Estamos mirando, casi siempre, algo que no es el cometa " +
+          "sino lo que el cometa está perdiendo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Cada aparición le cuesta material. Un cometa se ve porque se está gastando, y solo se " +
+          "ve mientras se gasta.",
       },
     ],
   },
@@ -2203,6 +2615,94 @@ export const CURIOSIDADES: Short[] = [
           "¿Sabías que…? Los indios llamaron al azúcar «grava» porque así se veía. Nosotros " +
           "seguimos usando ese nombre dos mil años y cuatro lenguas después, sin que a nadie le " +
           "suene raro echarse dos guijarros en el café.",
+      },
+    ],
+  },
+  {
+    id: "de-donde-sale-el-oro",
+    titulo: "De dónde sale el oro",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    /* Serie «de-donde-sale-el-oro», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Ninguna estrella normal es capaz de fabricar oro» */
+    encargo: "Ninguna estrella normal es capaz de fabricar oro",
+    fotos: [
+      {
+        local: p_de_donde_sale_el_oro,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Ninguna estrella normal es capaz de fabricar oro",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las estrellas fabrican elementos, pero se paran en el hierro",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La frase de que somos polvo de estrellas es cierta y está bien contada: el carbono de " +
+          "tus células, el oxígeno que respiras y el calcio de tus huesos se fabricaron dentro de " +
+          "estrellas que fusionaron núcleos ligeros para formar otros más pesados.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que casi nunca se cuenta es dónde se detiene esa cadena. Fusionar núcleos libera " +
+          "energía solo hasta llegar al <strong>hierro</strong>. A partir de ahí la operación " +
+          "deja de compensar: unir núcleos más pesados que el hierro consume más energía de la " +
+          "que produce, así que ninguna estrella lo hace para vivir. El Sol no ha fabricado ni un " +
+          "átomo de oro, y no lo hará nunca por muchos miles de millones de años que le queden.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y sin embargo el oro existe, en el suelo, en el mar y en los anillos de la gente.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Todo lo que pesa más que el hierro no lo fabricó ninguna estrella funcionando con " +
+          "normalidad. Hizo falta otra cosa, y durante décadas no se supo cuál.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Hace falta un sitio con neutrones a espuertas y muy poco tiempo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Entonces cómo se hace un átomo de oro? Es simple: <strong>hay que bombardear un " +
+          "núcleo con neutrones más rápido de lo que le da tiempo a desintegrarse</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un núcleo atómico puede capturar un neutrón que le pase cerca. Si captura muchos " +
+          "seguidos y muy deprisa, se vuelve tan pesado e inestable que se transforma, y al " +
+          "transformarse sube de elemento. Repetido decenas de veces en un instante, ese proceso " +
+          "convierte núcleos corrientes en oro, platino, uranio y todo lo que ocupa la parte baja " +
+          "de la tabla periódica. Se llama <strong>proceso r</strong>, por <em>rápido</em>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La condición es dura: hace falta un sitio con una densidad de neutrones enorme y con " +
+          "un tiempo disponible de segundos. En el interior de una estrella normal eso no se da. " +
+          "Durante mucho tiempo la hipótesis principal fueron las supernovas, y no terminaba de " +
+          "cuadrar del todo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El oro no es un elemento raro por casualidad. Es raro porque hace falta un tipo de " +
+          "catástrofe muy concreta para producirlo, y esas catástrofes no ocurren a menudo.",
       },
     ],
   },
@@ -3641,6 +4141,97 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "por-que-el-aceite-de-oliva-es-tan-saludable",
+    titulo: "Por qué el aceite de oliva es tan sano",
+    categoria: "Cocina",
+    color: "var(--plum)",
+    /* Serie «por-que-el-aceite-de-oliva-es-tan-saludable», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El mérito no está en la grasa, sino en lo que pica» */
+    encargo: "El mérito no está en la grasa, sino en lo que pica",
+    fotos: [
+      {
+        local: p_por_que_el_aceite_de_oliva_es_tan_saludable,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El mérito no está en la grasa, sino en lo que pica",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que casi todo el mundo cree, y lo que dice la etiqueta europea",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Quizá pienses que el aceite de oliva es sano por su grasa, porque es lo que se repite " +
+          "desde hace cuarenta años: grasa monoinsaturada, ácido oleico, bueno para el corazón. " +
+          "Es verdad a medias, y la mitad que falta resulta ser la interesante.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay una comparación sencilla que lo deja claro, y no hace falta salir del aceite de " +
+          "oliva para hacerla. El refinado se obtiene tratando aceites que no llegan a virgen " +
+          "extra, y en ese proceso se les quita el sabor, el color y, de paso, los polifenoles. " +
+          "La grasa se queda prácticamente donde estaba. Lo que desaparece es todo lo demás.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si el mérito estuviera en la grasa, refinar un aceite no cambiaría gran cosa. Pero la " +
+          "única declaración de salud que la Unión Europea autoriza para el aceite de oliva no " +
+          "habla de grasa: habla de polifenoles, y solo se puede escribir en la botella si el " +
+          "aceite lleva al menos 5 miligramos de hidroxitirosol y derivados por cada 20 gramos.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La parte del aceite de oliva que comparte con cualquier aceite barato es la grasa. La " +
+          "parte que lo distingue es la que se destruye al refinarlo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Los polifenoles son exactamente lo que amarga y lo que pica",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué son esos polifenoles? Aquí conviene ir al revés de lo habitual y empezar por la " +
+          "sensación en vez de por el nombre. Cuando un buen aceite de oliva te raspa la garganta " +
+          "al tragarlo, o cuando amarga en el paladar, no estás notando un defecto del aceite. " +
+          "Estás notando directamente los compuestos de los que habla la etiqueta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El amargor viene sobre todo de la <strong>oleuropeína</strong> y el picor de garganta " +
+          "del <strong>oleocantal</strong>. Son dos de los polifenoles que la aceituna fabrica " +
+          "para defenderse del ataque de insectos y hongos, que pasan al aceite cuando se prensa " +
+          "la aceituna entera, y que el refinado elimina precisamente porque el objetivo del " +
+          "refinado es quitar sabores fuertes.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esto le da la vuelta a algo que mucha gente asume en la cocina sin pensarlo demasiado. " +
+          "Un aceite de oliva suave no es un aceite más fino ni más cuidado: es un aceite con " +
+          "menos de aquello por lo que la norma europea lo distingue de los demás.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "En el aceite de oliva el amargor y el picor no son defectos. Son la señal de lo que el " +
+          "refinado se lleva por delante.",
+      },
+    ],
+  },
+  {
     id: "el-chaval-y-el-helado",
     titulo: "Por qué el agua caliente se congela antes",
     categoria: "Ciencia",
@@ -4646,6 +5237,98 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "por-que-el-sahara-fue-verde",
+    titulo: "Por qué el Sáhara fue verde",
+    categoria: "Planeta Tierra",
+    color: "var(--clay)",
+    /* Serie «por-que-el-sahara-fue-verde», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Hay hipopótamos pintados donde ahora no hay ni un charco» */
+    encargo: "Hay hipopótamos pintados donde ahora no hay ni un charco",
+    fotos: [
+      {
+        local: p_por_que_el_sahara_fue_verde,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Hay hipopótamos pintados donde ahora no hay ni un charco",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Quince mil dibujos en mitad del desierto argelino",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la meseta de <strong>Tassili n'Ajjer</strong>, en el sureste de Argelia, entre " +
+          "paredones de arenisca erosionada y a cientos de kilómetros de cualquier río, hay más " +
+          "de quince mil pinturas y grabados repartidos por las rocas. Los más antiguos se " +
+          "remontan a alrededor del año 6000 antes de Cristo y la serie continúa durante " +
+          "milenios.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que representan es lo que descoloca. Hay hipopótamos, que necesitan pasar el día " +
+          "metidos en agua. Hay cocodrilos. Hay peces. Hay rebaños de vacas pastando y escenas de " +
+          "vida cotidiana en torno al ganado, con un realismo que permite distinguir razas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No son símbolos ni fantasías. Son animales que alguien tenía delante.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La prueba más sólida de que el Sáhara fue verde no la dieron los geólogos. La dejó " +
+          "gente que pintaba lo que veía por la mañana.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El desierto lleva menos tiempo siendo desierto de lo que parece",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora bien, conviene poner la escala en su sitio, porque el error habitual es imaginar " +
+          "el Sáhara como algo eterno que siempre estuvo ahí.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquellas pinturas tienen entre siete y ocho mil años. La agricultura ya existía. En " +
+          "Mesopotamia estaban a punto de aparecer las primeras ciudades. Estamos hablando de un " +
+          "momento perfectamente histórico, no de una era geológica remota.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y en ese momento, buena parte del Sáhara era una sabana con pastos, lagos y ríos. " +
+          "Había ganado, había pesca y había población suficiente como para dejar quince mil " +
+          "obras repartidas por un macizo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si visitas hoy el Tassili, lo que verás es roca desnuda, arena y un cielo sin una " +
+          "nube. Las pinturas siguen ahí, en las mismas paredes, describiendo un sitio que ya no " +
+          "existe.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El Sáhara no es un desierto antiguo con un pasado verde. Es un sitio verde con un " +
+          "presente desértico, y el presente es la parte corta.",
+      },
+    ],
+  },
+  {
     id: "empezo-en-orden-alfabetico",
     titulo: "Por qué el teclado está en QWERTY",
     categoria: "Tecnología",
@@ -4978,6 +5661,472 @@ export const CURIOSIDADES: Short[] = [
           "El verde es oxígeno a más de cien kilómetros, el rojo es oxígeno por encima de " +
           "doscientos, y el violeta es nitrógeno a noventa y cinco. Una aurora es un mapa de " +
           "alturas.",
+      },
+    ],
+  },
+  {
+    id: "por-que-hay-personas-con-ojos-azules",
+    titulo: "Por qué hay personas con ojos azules",
+    categoria: "Cuerpo humano",
+    color: "var(--clay)",
+    /* Serie «por-que-hay-personas-con-ojos-azules», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Todos los ojos azules del mundo vienen de una sola persona» */
+    encargo: "Todos los ojos azules del mundo vienen de una sola persona",
+    fotos: [
+      {
+        local: p_por_que_hay_personas_con_ojos_azules,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Todos los ojos azules del mundo vienen de una sola persona",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La pista no fue el color: fue la falta de variación",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hans Eiberg, genetista de la Universidad de Copenhague, llevaba desde los años noventa " +
+          "rastreando qué parte del genoma decide el color de los ojos. En 2008 publicó en la " +
+          "revista <em>Human Genetics</em> el resultado que cerró el asunto, y lo que lo cerró no " +
+          "fue encontrar la mutación, sino comprobar algo raro sobre ella.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando una característica aparece varias veces por separado, cada aparición trae su " +
+          "propia versión, con pequeñas diferencias alrededor. Eiberg encontró lo contrario: en " +
+          "las personas de ojos azules, el trozo de genoma implicado era prácticamente idéntico " +
+          "en todas ellas, de Escandinavia a Oriente Medio. Sin variación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Eso solo tiene una explicación posible. El cambio ocurrió <strong>una vez</strong>, en " +
+          "una persona, y todos los ojos azules que existen hoy descienden de aquel individuo. " +
+          "Vivió, según los cálculos del propio equipo, hace entre seis mil y diez mil años.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los ojos azules no son una forma de tener los ojos. Son un apellido: la señal de que " +
+          "compartes un antepasado con todas las demás personas de ojos azules del planeta.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El cambio no rompió nada: bajó un interruptor",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué hace exactamente esa mutación? Aquí está la parte elegante, y es simple: " +
+          "<strong>no toca el gen del pigmento</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El gen que fabrica melanina en el iris se llama <strong>OCA2</strong>, y en las " +
+          "personas de ojos azules funciona perfectamente. Lo que cambió está en un gen vecino, " +
+          "<strong>HERC2</strong>, dentro de un tramo que no fabrica nada y que se limita a " +
+          "regular: es el trozo de ADN que enciende y apaga la actividad de OCA2. Una sola letra " +
+          "distinta en ese regulador basta para que OCA2 se quede funcionando a un volumen mucho " +
+          "más bajo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en la diferencia, porque explica lo que se ve. Si la mutación hubiera roto el " +
+          "gen, no habría melanina en absoluto y el resultado sería albinismo, con problemas de " +
+          "visión asociados. Lo que hace es bajar el volumen, no apagar el aparato: queda " +
+          "melanina en el resto del cuerpo y queda muy poca en la capa delantera del iris. " +
+          "Suficiente para que el ojo funcione igual de bien, y suficientemente poca para que se " +
+          "vea azul.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La naturaleza no inventó un ojo azul. Bajó el volumen de un gen que ya existía y el " +
+          "azul salió solo, por óptica.",
+      },
+    ],
+  },
+  {
+    id: "por-que-hay-personas-con-ojos-marrones",
+    titulo: "Por qué hay personas con ojos marrones",
+    categoria: "Cuerpo humano",
+    color: "var(--teal)",
+    /* Serie «por-que-hay-personas-con-ojos-marrones», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El marrón es el color original, y el único que existe de verdad» */
+    encargo: "El marrón es el color original, y el único que existe de verdad",
+    fotos: [
+      {
+        local: p_por_que_hay_personas_con_ojos_marrones,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El marrón es el color original, y el único que existe de verdad",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El ojo humano fabrica un solo pigmento, y es marrón",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Quizá des por hecho que en un ojo azul hay algo azul, y en uno verde algo verde, igual " +
+          "que en uno marrón hay algo marrón. Es lo lógico, y es falso en dos tercios de los " +
+          "casos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el iris humano solo hay un pigmento: la <strong>melanina</strong>, la misma " +
+          "sustancia que da color a la piel y al pelo, y que en el ojo tira a marrón oscuro. No " +
+          "existe un pigmento azul en el cuerpo humano. Tampoco uno verde ni uno gris. Lo único " +
+          "que cambia de una persona a otra es cuánta melanina hay en la capa delantera del iris, " +
+          "y esa cantidad basta para producir toda la gama de colores de ojos que existen.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando hay bastante melanina delante, la luz que entra se absorbe y lo que vuelve es " +
+          "marrón. Ese es el único caso en el que el color que ves es literalmente el color de " +
+          "algo. Un ojo marrón es marrón por la misma razón por la que un ladrillo es rojo: " +
+          "porque el material lo es.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "De todos los colores de ojos que existen, solo uno está hecho de un pigmento de ese " +
+          "color. Los demás son efectos ópticos sobre la falta de pigmento.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Al principio todos los teníamos así",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y por qué el marrón y no otro? Es simple: <strong>es el estado de partida</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante la mayor parte de la historia de nuestra especie, todos los seres humanos " +
+          "tuvieron los ojos marrones. Es lo que sigue teniendo la mayoría de la población " +
+          "mundial y lo que tienen prácticamente todos nuestros parientes primates. Los demás " +
+          "colores aparecieron después, y aparecieron por sustracción: por mutaciones que reducen " +
+          "la cantidad de melanina que se deposita en el iris, no por mutaciones que añadan un " +
+          "color nuevo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hans Eiberg, genetista de la Universidad de Copenhague que dedicó décadas a rastrear " +
+          "esas mutaciones, lo resume en cuatro palabras: originalmente, todos teníamos los ojos " +
+          "marrones.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene fijarse en la dirección del cambio, porque cambia cómo se lee todo el asunto. " +
+          "Los ojos claros no son una variante añadida al catálogo. Son el catálogo original con " +
+          "una pieza quitada.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un ojo azul no tiene nada que un ojo marrón no tenga. Tiene menos.",
+      },
+    ],
+  },
+  {
+    id: "por-que-hay-personas-con-ojos-verdes",
+    titulo: "Por qué hay personas con ojos verdes",
+    categoria: "Cuerpo humano",
+    color: "var(--sage)",
+    /* Serie «por-que-hay-personas-con-ojos-verdes», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El verde no es un color: es un punto medio muy difícil de acertar» */
+    encargo: "El verde no es un color: es un punto medio muy difícil de acertar",
+    fotos: [
+      {
+        local: p_por_que_hay_personas_con_ojos_verdes,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El verde no es un color: es un punto medio muy difícil de acertar",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dos de cada cien personas, y ningún pigmento verde",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De todos los colores de ojos, el verde es el más raro: lo tiene alrededor de un 2 % de " +
+          "la población mundial. Para hacerse una idea de la desproporción, más de la mitad de " +
+          "los seres humanos tienen los ojos marrones.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y esa rareza no se explica porque haga falta un pigmento poco común. Se explica " +
+          "precisamente por lo contrario: <strong>no existe ningún pigmento verde en el ojo " +
+          "humano</strong>. En el iris solo hay melanina, que es marrón. Un ojo verde no tiene " +
+          "una sustancia que le falte a los demás.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que tiene es una cantidad. Muy poca melanina en la capa delantera del iris deja el " +
+          "ojo azul, porque el tejido dispersa la luz y devuelve sobre todo azul. Mucha melanina " +
+          "lo deja marrón, porque el pigmento absorbe casi todo. El verde aparece cuando hay una " +
+          "cantidad intermedia: la justa para que el pigmento amarillento-marrón tiña la luz azul " +
+          "que devuelve la dispersión, y las dos cosas juntas se lean como verde.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El verde no es un color que el ojo produzca. Es lo que se ve cuando dos mecanismos " +
+          "distintos —dispersión y pigmento— se cruzan en el punto exacto.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Por eso los ojos verdes cambian y los marrones no",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora bien, si el verde depende de que dos efectos coincidan en una proporción " +
+          "concreta, hay una consecuencia que cualquiera con ojos claros ha notado alguna vez.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El color parece cambiar. Con luz de mediodía se ven más verdes; en interior tiran a " +
+          "gris o a avellana; según la ropa que lleve la persona parecen otra cosa. Y no es una " +
+          "impresión: la mitad del color depende de cómo se disperse la luz que entra, así que " +
+          "cambiar la luz cambia literalmente el resultado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un ojo marrón, en cambio, se ve igual a cualquier hora y con cualquier lámpara. El " +
+          "pigmento absorbe y devuelve lo mismo pase lo que pase, sin depender de las " +
+          "condiciones. Es la diferencia entre un color que está guardado en el material y un " +
+          "color que se produce en el momento.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los ojos verdes y los azules no tienen un color: tienen un resultado. Por eso se los " +
+          "describe distinto según la luz, y por eso a nadie le cambia el marrón.",
+      },
+    ],
+  },
+  {
+    id: "por-que-hay-personas-rubias",
+    titulo: "Por qué hay personas rubias",
+    categoria: "Cuerpo humano",
+    color: "var(--ochre)",
+    /* Serie «por-que-hay-personas-rubias», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El pelo rubio europeo lo decide una letra que ni siquiera está en el gen» */
+    encargo: "El pelo rubio europeo lo decide una letra que ni siquiera está en el gen",
+    fotos: [
+      {
+        local: p_por_que_hay_personas_rubias,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El pelo rubio europeo lo decide una letra que ni siquiera está en el gen",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Buscaban el gen y lo encontraron a trescientas cincuenta mil letras de distancia",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante años se buscó el responsable del pelo rubio donde parecía lógico: dentro de " +
+          "algún gen relacionado con el pigmento. El equipo de David Kingsley, profesor de " +
+          "biología del desarrollo en la Universidad de Stanford, con Catherine Guenther como " +
+          "primera firmante, lo encontró en otro sitio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El cambio está en el cromosoma 12, y consiste en una sola letra: donde la mayoría de " +
+          "la gente tiene una adenina, las personas rubias tienen una guanina. Pero esa letra no " +
+          "está dentro del gen al que afecta. Está a <strong>trescientas cincuenta mil letras de " +
+          "distancia</strong>, en un tramo que no fabrica nada y que se dedica exclusivamente a " +
+          "regular cuánto trabaja el gen <strong>KITLG</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El efecto es minúsculo y quirúrgico a la vez: reduce la actividad de KITLG en un 20 % " +
+          "aproximadamente, y solo en los folículos del pelo. En el resto del cuerpo el gen sigue " +
+          "funcionando igual. El trabajo se publicó en <em>Nature Genetics</em> el 1 de junio de " +
+          "2014.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El pelo rubio no lo produce un gen del pelo rubio. Lo produce un regulador que baja un " +
+          "20 % un gen que hace muchas otras cosas, y solo lo baja en la cabeza.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La prueba fue meter esa letra en un ratón",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y cómo se comprueba que una letra perdida en mitad del genoma hace algo? Aquí el " +
+          "experimento es tan directo que casi da risa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El equipo introdujo la versión con guanina en ratones de pelo marrón, sin tocar nada " +
+          "más. Los ratones nacieron con el pelaje significativamente más claro. Una letra " +
+          "cambiada, en una región que durante décadas se despachó como ADN sin función, y un " +
+          "animal de otro color.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Kingsley resumió el hallazgo señalando lo fino del control: esa región regula con " +
+          "enorme precisión dónde y cuánto se expresa KITLG, y una diferencia de expresión así de " +
+          "pequeña basta para cambiar el color del pelo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso implica más allá del pelo. Durante mucho tiempo se llamó «ADN " +
+          "basura» a las regiones que no fabrican proteínas, que son la inmensa mayoría del " +
+          "genoma. Buena parte de lo que nos distingue a unos de otros no está en las " +
+          "instrucciones, sino en los interruptores que deciden cuándo y dónde se leen.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Lo que cambia entre dos personas casi nunca es la receta. Es el volumen al que se lee.",
+      },
+    ],
+  },
+  {
+    id: "por-que-la-estatua-de-la-libertad-es-verde",
+    titulo: "Por qué la Estatua de la Libertad es verde",
+    categoria: "Historia",
+    color: "var(--plum)",
+    /* Serie «por-que-la-estatua-de-la-libertad-es-verde», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Llegó del color de una moneda de cobre y tardó veinte años en cambiar» */
+    encargo: "Llegó del color de una moneda de cobre y tardó veinte años en cambiar",
+    fotos: [
+      {
+        local: p_por_que_la_estatua_de_la_libertad_es_verde,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Llegó del color de una moneda de cobre y tardó veinte años en cambiar",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En 1886 no era verde: era del color de un céntimo nuevo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La estatua se inauguró en 1886 y quienes la vieron aquel día no vieron nada parecido a " +
+          "lo que hay en las fotografías de hoy. La piel es de cobre, y el cobre recién puesto es " +
+          "de un marrón rojizo brillante, el color exacto de una moneda de céntimo sin usar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los números de la pieza explican por qué era una superficie tan grande de metal " +
+          "desnudo. La estatua mide más de noventa metros desde el suelo hasta la antorcha, y " +
+          "lleva encima ochenta toneladas de cobre —ciento setenta y seis mil libras— sostenidas " +
+          "por una estructura interna de doscientas toneladas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y el detalle que descoloca a todo el mundo: ese cobre tiene un grosor de tres treinta " +
+          "y dosavos de pulgada, unos dos milímetros y medio. El Servicio de Parques Nacionales " +
+          "lo describe con la comparación más clara posible: <strong>el grosor de dos monedas " +
+          "puestas una encima de otra</strong>.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La estatua no es un bloque de metal. Es una lámina más fina que un par de monedas, " +
+          "estirada sobre noventa metros de armazón.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "En 1906 hubo dinero asignado para devolverla a su color",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El cambio de color tardó unas dos décadas, y no fue uniforme: durante años la estatua " +
+          "estuvo a medias, con zonas todavía cobrizas y zonas ya azuladas, según cómo le daban " +
+          "el viento y la lluvia salada del puerto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "A mucha gente aquello le pareció un deterioro. En 1906 hubo llamamientos a repintarla " +
+          "para devolverle el aspecto original, y la cosa fue en serio: el Congreso llegó a " +
+          "asignar sesenta y dos mil dólares para la operación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No se hizo, por dos motivos que conviene contar juntos. Hubo protestas públicas que " +
+          "calificaron la idea de sacrilegio, así que la presión social pesó. Pero también pesó " +
+          "un argumento práctico y bastante menos romántico: una estatua pintada hay que " +
+          "repintarla cada veinticinco años más o menos, para siempre, y eso era una factura " +
+          "recurrente que nadie quería asumir.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El verde de la Estatua de la Libertad no fue una decisión estética. Es lo que pasó " +
+          "cuando una propuesta impopular se cruzó con un presupuesto de mantenimiento.",
       },
     ],
   },
@@ -5666,6 +6815,96 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "El sistema de defensa más llamativo de África no está diseñado contra los leones. Está " +
           "diseñado contra unos insectos de dos centímetros.",
+      },
+    ],
+  },
+  {
+    id: "por-que-las-estatuas-griegas-son-blancas",
+    titulo: "Por qué las estatuas griegas son blancas",
+    categoria: "Historia",
+    color: "var(--slate)",
+    /* Serie «por-que-las-estatuas-griegas-son-blancas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «No lo eran: estaban pintadas de colores fuertes» */
+    encargo: "No lo eran: estaban pintadas de colores fuertes",
+    fotos: [
+      {
+        local: p_por_que_las_estatuas_griegas_son_blancas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "No lo eran: estaban pintadas de colores fuertes",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un templo griego se parecía más a una feria que a un museo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La imagen mental es la misma para casi todo el mundo: mármol blanco, sobrio, " +
+          "silencioso, con esa dignidad fría que asociamos a lo clásico. Museos enteros están " +
+          "montados alrededor de esa idea, y buena parte de la arquitectura de los últimos tres " +
+          "siglos la copia.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquellas estatuas estaban pintadas. No con veladuras suaves ni con toques discretos: " +
+          "con colores planos y saturados, aplicados sobre toda la superficie, incluidos la piel, " +
+          "el pelo, la ropa y los ojos. Los templos también, hasta la cornisa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La paleta se conoce porque se han identificado los materiales. El verde salía de la " +
+          "<strong>malaquita</strong>, un mineral de cobre. El azul, de la " +
+          "<strong>azurita</strong>. Los amarillos y los ocres, de compuestos de arsénico. El " +
+          "rojo intenso, del <strong>cinabrio</strong>, un mineral de mercurio. Y el negro, de " +
+          "hueso quemado y de sarmientos de vid carbonizados.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Lo que hoy nos parece la esencia del buen gusto clásico —la piedra desnuda— era en " +
+          "realidad el soporte, no la obra terminada.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo que desapareció fue la pintura, no la intención",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y por qué no queda nada a la vista? Es simple: <strong>el mármol aguanta y el " +
+          "pigmento no</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una estatua enterrada, o expuesta a la intemperie durante dos mil años, pierde primero " +
+          "las capas de color, que son finísimas y de naturaleza orgánica o mineral pero mucho " +
+          "más frágil que la piedra. La lluvia, el sol, el suelo ácido y, más tarde, las " +
+          "limpiezas de los museos se llevaron por delante casi todo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que se conserva es el esqueleto. Y aquí ocurre algo que merece pararse a pensar: " +
+          "hemos construido una idea entera de la Antigüedad sobre lo que resistió mejor el paso " +
+          "del tiempo, no sobre lo que aquella gente quiso hacer. El blanco no es una decisión " +
+          "estética griega. Es lo que queda cuando se borra una decisión estética griega.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No estamos viendo el arte griego. Estamos viendo lo que sobrevivió del arte griego, y " +
+          "confundimos una cosa con la otra.",
       },
     ],
   },
@@ -6698,6 +7937,198 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "por-que-marte-es-rojo",
+    titulo: "Por qué Marte es rojo",
+    categoria: "Ciencia",
+    color: "var(--clay)",
+    /* Serie «por-que-marte-es-rojo», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Marte no es rojo por fuego ni por arena: está oxidado» */
+    encargo: "Marte no es rojo por fuego ni por arena: está oxidado",
+    fotos: [
+      {
+        local: p_por_que_marte_es_rojo,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Marte no es rojo por fuego ni por arena: está oxidado",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El planeta lleva el nombre del dios de la guerra por el color, no al revés",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De todos los puntos que se mueven por el cielo nocturno, Marte es el único que se ve " +
+          "claramente de color. Babilonios, egipcios, griegos y romanos lo miraron y llegaron " +
+          "todos a la misma asociación: rojo, sangre, guerra. El nombre que nos ha quedado es el " +
+          "del dios romano, y viene del color; no es que el planeta se pusiera rojo por llamarse " +
+          "así.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante siglos esa fue toda la explicación disponible. Marte era rojo y punto. La " +
+          "respuesta de verdad no llegó hasta que hubo instrumentos capaces de leer qué minerales " +
+          "hay en una superficie a la que nadie ha ido, y resultó ser mucho más doméstica de lo " +
+          "que el nombre prometía.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Marte está oxidado. La roca marciana es rica en hierro, ese hierro reaccionó y se " +
+          "convirtió en <strong>óxido de hierro</strong>, que es exactamente la misma sustancia " +
+          "que se forma en una bicicleta que se deja fuera todo el invierno. El polvo que cubre " +
+          "el planeta entero es herrumbre molida.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El color de Marte no es un rasgo exótico. Es el mismo proceso químico que estropea una " +
+          "verja mal pintada, extendido sobre un planeta.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La herrumbre es un fósil químico, y por eso importa tanto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora bien, aquí aparece la parte que convierte un dato de color en una pregunta " +
+          "seria. ¿Qué hace falta para oxidar el hierro? Es simple: <strong>agua</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la Tierra el hierro se oxida porque hay agua y aire por todas partes. En Marte no " +
+          "hay ninguna de las dos cosas en cantidad apreciable: la atmósfera es finísima y el " +
+          "agua líquida no aguanta en la superficie. Un planeta seco no debería estar oxidándose, " +
+          "y sin embargo el planeta entero está teñido del color de la oxidación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La única salida a esa contradicción es que el óxido no se haya formado ahora. Se formó " +
+          "cuando en Marte había agua líquida corriendo por la superficie, y lo que vemos desde " +
+          "la Tierra es el residuo de aquello. El color no describe el Marte de hoy: describe el " +
+          "Marte que hubo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Marte no está oxidándose. Está oxidado, en pasado, y el rojo que vemos es la marca que " +
+          "dejó el agua al marcharse.",
+      },
+    ],
+  },
+  {
+    id: "por-que-no-hemos-vuelto-a-la-luna",
+    titulo: "Por qué no hemos vuelto a la Luna",
+    categoria: "Historia",
+    color: "var(--teal)",
+    /* Serie «por-que-no-hemos-vuelto-a-la-luna», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El presupuesto empezó a bajar tres años antes de que Armstrong pisara» */
+    encargo: "El presupuesto empezó a bajar tres años antes de que Armstrong pisara",
+    fotos: [
+      {
+        local: p_por_que_no_hemos_vuelto_a_la_luna,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El presupuesto empezó a bajar tres años antes de que Armstrong pisara",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cifra que explica por qué aquello no era sostenible",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entre 1960 y 1973, Estados Unidos gastó 25.800 millones de dólares de la época en el " +
+          "programa Apolo. Ajustado a dinero de hoy, son en torno a <strong>309.000 millones de " +
+          "dólares</strong>. Durante esos trece años, tres de cada cinco dólares del programa " +
+          "espacial completo fueron a Apolo y a lo que giraba a su alrededor.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay un detalle en la curva del gasto que reordena toda la historia: el máximo no se " +
+          "alcanzó en 1969, ni en 1968. Se alcanzó en <strong>1966</strong>, tres años antes de " +
+          "que nadie pisara la Luna.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir, cuando Armstrong bajó la escalerilla, el programa que lo había llevado hasta " +
+          "allí llevaba ya tres años perdiendo dinero. Lo que se vio en televisión aquella noche " +
+          "no era el principio de algo: era la entrega de un encargo que ya se estaba cerrando.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Apolo no se canceló después del éxito. Estaba encogiendo desde antes, y el alunizaje " +
+          "llegó cuando la retirada ya había empezado.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Un gasto así solo se sostiene mientras haya un motivo así",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y por qué se aceptó semejante desembolso durante unos años y después no? Es simple: " +
+          "<strong>el objetivo no era la Luna</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene ir a las palabras del propio Kennedy, porque están grabadas. El 21 de " +
+          "noviembre de 1962 hubo una reunión en la Casa Blanca con James Webb, administrador de " +
+          "la NASA, y otros responsables, para revisar el coste del programa. Kennedy dijo dos " +
+          "cosas que rara vez se citan juntas.",
+      },
+      {
+        b: "cita",
+        texto:
+          "No me interesa tanto el espacio. […] La Unión Soviética ha convertido esto en una " +
+          "prueba del sistema. Por eso lo estamos haciendo.",
+        autor: "John F. Kennedy, 21 de noviembre de 1962",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que buscaba, según explicó en esa misma conversación, era la prueba espectacular de " +
+          "que Estados Unidos era preeminente en el espacio. La Luna era el escenario, no el " +
+          "asunto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y un objetivo así tiene una propiedad incómoda: se puede cumplir. En cuanto se " +
+          "cumplió, el gasto dejó de tener justificación política, y lo que quedaba era ciencia " +
+          "lunar, que interesa mucho a los geólogos y bastante menos a un presupuesto.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La pregunta «por qué no hemos vuelto» da por hecho que fuimos por la Luna. Fuimos por " +
+          "otra cosa, y esa otra cosa ya se consiguió.",
+      },
+    ],
+  },
+  {
     id: "a-los-tres-anos-te-acordabas",
     titulo: "Por qué no recuerdas tus primeros años",
     categoria: "Cuerpo humano",
@@ -7499,6 +8930,197 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "por-que-saturno-tiene-anillos",
+    titulo: "Por qué Saturno tiene anillos",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    /* Serie «por-que-saturno-tiene-anillos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Los anillos son una hoja de papel de casi tres kilómetros de ancho» */
+    encargo: "Los anillos son una hoja de papel de casi tres kilómetros de ancho",
+    fotos: [
+      {
+        local: p_por_que_saturno_tiene_anillos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Los anillos son una hoja de papel de casi tres kilómetros de ancho",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No son un disco sólido: son miles de millones de trozos de hielo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Vistos desde lejos, los anillos parecen una lámina continua, y durante siglos se " +
+          "discutió si serían un disco rígido. No lo son. Están formados por miles de millones de " +
+          "fragmentos independientes, cada uno orbitando Saturno por su cuenta como si fuera una " +
+          "luna diminuta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El material es sobre todo <strong>hielo de agua</strong>, cubierto de polvo y otros " +
+          "compuestos. Y los tamaños abarcan un rango que no cabe en la cabeza: desde granos más " +
+          "pequeños que la arena hasta bloques del tamaño de una casa, y algunos tan grandes como " +
+          "una montaña.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los anillos no son un objeto, sino una multitud. Cada punto de esa lámina es una " +
+          "piedra de hielo dando vueltas sola.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La proporción es lo verdaderamente difícil de creer",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué grosor tiene esa lámina? Aquí es donde la escala se vuelve absurda.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El sistema de anillos se extiende hasta doscientos ochenta y dos mil kilómetros desde " +
+          "el planeta. Su altura, en los anillos principales, ronda los <strong>diez " +
+          "metros</strong>. No diez kilómetros: diez metros, la altura de un edificio de tres " +
+          "plantas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para ver la proporción conviene bajarla a algo de andar por casa. Una hoja de papel " +
+          "tiene una décima de milímetro de grosor. Si la estirásemos manteniendo la misma " +
+          "proporción que los anillos de Saturno, mediría casi tres kilómetros de ancho.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Eso explica algo que ocurre cada quince años aproximadamente y que se puede ver desde " +
+          "la Tierra: los anillos se colocan de canto respecto a nosotros y sencillamente " +
+          "desaparecen. No es un fenómeno óptico raro. Es que a esa distancia una lámina de diez " +
+          "metros no se ve.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Le pasó a Galileo Galilei, que en 1610 fue el primero en mirar Saturno con un " +
+          "telescopio y creyó estar viendo un planeta con dos lunas pegadas o con asas. Años " +
+          "después volvió a mirar, coincidiendo con uno de esos cruces, y las asas no estaban:",
+      },
+      {
+        b: "cita",
+        texto:
+          "No sé qué decir en un caso tan sorprendente, tan inesperado y tan novedoso.",
+        autor: "Galileo Galilei",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El objeto más reconocible del sistema solar es, mirado de canto, invisible.",
+      },
+    ],
+  },
+  {
+    id: "por-que-se-abandono-machu-picchu",
+    titulo: "Por qué se abandonó Machu Picchu",
+    categoria: "Historia",
+    color: "var(--ochre)",
+    /* Serie «por-que-se-abandono-machu-picchu», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «No era una ciudad: era la finca de recreo de un emperador» */
+    encargo: "No era una ciudad: era la finca de recreo de un emperador",
+    fotos: [
+      {
+        local: p_por_que_se_abandono_machu_picchu,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "No era una ciudad: era la finca de recreo de un emperador",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La pregunta del abandono depende de qué era aquello",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Antes de preguntar por qué se abandonó hay que resolver una cosa, porque la respuesta " +
+          "depende entera de ella: qué era exactamente Machu Picchu.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La versión popular dice ciudadela perdida, último refugio de los incas frente a los " +
+          "españoles. Esa idea la puso en circulación Hiram Bingham en 1911 y está descartada: el " +
+          "último reducto inca fue Espíritu Pampa, en la selva, y allí sí llegaron los españoles " +
+          "a combatir contra los gobernantes incas independientes durante el siglo XVI.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La interpretación más aceptada hoy es otra y bastante menos épica. Machu Picchu era " +
+          "una <strong>finca real</strong>: una propiedad del emperador Pachacútec, construida en " +
+          "el siglo XV, mantenida por el Estado y usada por la élite del Cuzco. Un sitio de " +
+          "retiro, de ceremonia y de prestigio, no un núcleo urbano ni una fortaleza.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El nombre de «ciudad perdida» hace pensar en mucha gente viviendo allí de forma " +
+          "permanente. Lo que hubo fue una residencia de temporada para una corte que vivía en " +
+          "otro sitio.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Ninguna de las teorías ha ganado del todo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora bien, conviene decir hasta dónde llega el acuerdo, porque no llega tan lejos " +
+          "como sugieren los folletos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Junto a la finca real circulan otras lecturas serias. Que fuera un santuario de " +
+          "peregrinación construido para representar el relato inca de la creación. Que se " +
+          "levantara donde se levantó para alinearse con montañas sagradas y con acontecimientos " +
+          "astronómicos. Y hubo teorías que ya se han caído, como la del convento de " +
+          "sacerdotisas, descartada cuando el análisis de los esqueletos encontrados mostró que " +
+          "había tantos hombres como mujeres.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo más probable es que varias de esas funciones convivieran, y ahí hay una idea que " +
+          "cuesta ver desde fuera de aquella cultura: para los incas, la separación entre lo " +
+          "residencial y lo sagrado no existía como la entendemos nosotros. Donde vivía el " +
+          "emperador era sagrado, porque él lo era.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Preguntar si Machu Picchu era una residencia o un santuario es aplicarle una " +
+          "distinción que quienes lo construyeron no tenían.",
+      },
+    ],
+  },
+  {
     id: "la-leche-cortada-es-queso-a-medio-empezar",
     titulo: "Por qué se corta la leche",
     categoria: "Cocina",
@@ -7959,6 +9581,101 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Se pegan las melodías con forma corriente y un detalle extraño dentro. Tan familiares " +
           "que tu cabeza las recorre sola, y lo bastante raras como para no poder ignorarlas.",
+      },
+    ],
+  },
+  {
+    id: "por-que-son-caros-los-diamantes",
+    titulo: "Por qué son caros los diamantes",
+    categoria: "Ciencia",
+    color: "var(--plum)",
+    /* Serie «por-que-son-caros-los-diamantes», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Se forman a ciento cincuenta kilómetros de profundidad y suben en un ascensor volcánico» */
+    encargo: "Se forman a ciento cincuenta kilómetros de profundidad y suben en un ascensor volcánico",
+    fotos: [
+      {
+        local: p_por_que_son_caros_los_diamantes,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Se forman a ciento cincuenta kilómetros de profundidad y suben en un ascensor " +
+          "volcánico",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No se forman en la corteza, y por eso no se pueden buscar",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un diamante es carbono, el mismo elemento del grafito de un lápiz y del hollín de una " +
+          "chimenea. La diferencia está solo en cómo están colocados los átomos, y esa colocación " +
+          "exige unas condiciones que en la superficie no se dan.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los diamantes naturales se forman típicamente <strong>entre ciento cincuenta y " +
+          "doscientos kilómetros bajo la superficie</strong>, en el manto terrestre. Algunos, los " +
+          "llamados superprofundos, se forman todavía más abajo: en la zona de transición, entre " +
+          "cuatrocientos diez y seiscientos sesenta kilómetros, y algunos por debajo de eso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí abajo pueden quedarse durante millones o miles de millones de años. La mayoría de " +
+          "los diamantes que existen son considerablemente más antiguos que casi cualquier roca " +
+          "de la superficie.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un diamante no se forma donde se encuentra. Se forma a una profundidad a la que " +
+          "ninguna perforación humana ha llegado ni de lejos.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El único transporte posible es una erupción muy rara y muy rápida",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entonces, si se hacen tan abajo, ¿cómo llegan a la mano de alguien? Es simple: " +
+          "<strong>los sube un tipo concreto de volcán</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Se llaman <strong>kimberlitas</strong>, y son erupciones poco frecuentes que salen " +
+          "desde muchísima más profundidad que un volcán normal y que ascienden a gran velocidad, " +
+          "arrastrando trozos del manto por el camino. Los diamantes son polizones en esa subida: " +
+          "no se formaron por la erupción, simplemente estaban ahí y fueron arrancados.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La velocidad es parte esencial del asunto. A presiones bajas y con calor, el diamante " +
+          "no es la forma estable del carbono: el grafito lo es. Si la subida fuera lenta, el " +
+          "diamante tendría tiempo de transformarse por el camino y lo que llegaría arriba sería " +
+          "grafito. Llegan porque el viaje es demasiado rápido para que les dé tiempo a cambiar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahí está la razón de que las minas de diamantes tengan esa forma tan reconocible de " +
+          "embudo gigante: no se sigue una veta, se excava el conducto de un volcán apagado.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un diamante en la superficie es un objeto fuera de sitio y fuera de época, que solo " +
+          "está entero porque el viaje fue demasiado deprisa para deshacerlo.",
       },
     ],
   },
@@ -9265,6 +10982,100 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "que-es-el-salar-de-uyuni",
+    titulo: "Qué es el salar de Uyuni",
+    categoria: "Planeta Tierra",
+    color: "var(--slate)",
+    /* Serie «que-es-el-salar-de-uyuni», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Es el fondo de un lago que se evaporó y dejó la sal encima» */
+    encargo: "Es el fondo de un lago que se evaporó y dejó la sal encima",
+    fotos: [
+      {
+        local: p_que_es_el_salar_de_uyuni,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Es el fondo de un lago que se evaporó y dejó la sal encima",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Diez mil kilómetros cuadrados de blanco en mitad del altiplano",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el sur del altiplano boliviano, a más de tres mil metros de altitud, hay una " +
+          "superficie blanca de más de diez mil kilómetros cuadrados. Para hacerse una idea, es " +
+          "una extensión mayor que la Comunidad de Madrid entera, y es toda del mismo color y de " +
+          "la misma textura.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No es nieve, no es arena y no es un desierto en el sentido habitual. Es sal, una " +
+          "costra sólida que se puede pisar y por la que circulan vehículos, y lo que hay debajo " +
+          "es una salmuera saturada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquello estuvo cubierto de agua. Hace unos cuarenta mil años esta zona formaba parte " +
+          "de un lago enorme, y cuando el clima cambió el lago se fue secando. El agua se evaporó " +
+          "y dejó atrás todo lo que llevaba disuelto, que era mucha sal.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El Salar de Uyuni no es un paisaje que se formara así. Es el residuo sólido de un lago " +
+          "que ya no está.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La sal marca el nivel del agua que hubo, no la roca de debajo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y por qué acaba tan uniforme? Es simple: <strong>el agua siempre se queda " +
+          "perfectamente horizontal</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El terreno que hay debajo del salar es como cualquier otro terreno: irregular, con " +
+          "hondonadas y salientes. Pero el lago que lo cubría tenía la superficie plana, porque " +
+          "el agua en reposo siempre lo está. Al evaporarse, la sal fue precipitando y " +
+          "depositándose desde arriba, rellenando primero lo hondo y nivelando después.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso significa. La superficie que se ve hoy no reproduce la forma del " +
+          "suelo: reproduce la forma que tenía la superficie del agua. La costra no está " +
+          "siguiendo un relieve, está borrándolo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y como el proceso se repite —cada estación de lluvias vuelve a cubrir el salar con una " +
+          "capa de agua que después se evapora—, la nivelación se rehace año tras año, como una " +
+          "obra que se replantea sola.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La sal no copió el terreno: copió el nivel del agua. Por eso hay una superficie " +
+          "perfectamente plana encima de un suelo que no lo es.",
+      },
+    ],
+  },
+  {
     id: "coladores-de-hace-7500-anos",
     titulo: "Qué es realmente el queso",
     categoria: "Historia",
@@ -9367,6 +11178,374 @@ export const CURIOSIDADES: Short[] = [
           "tres mil seiscientos años y estaba untado alrededor del cuello de tres momias. En 2024 " +
           "se le secuenció el ADN: era kéfir, y sus bacterias resultaron emparentadas con las de " +
           "las variedades tibetanas actuales.",
+      },
+    ],
+  },
+  {
+    id: "que-es-realmente-una-perla",
+    titulo: "Qué es realmente una perla",
+    categoria: "Naturaleza",
+    color: "var(--clay)",
+    /* Serie «que-es-realmente-una-perla», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Una perla es una herida tapada con material de concha» */
+    encargo: "Una perla es una herida tapada con material de concha",
+    fotos: [
+      {
+        local: p_que_es_realmente_una_perla,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Una perla es una herida tapada con material de concha",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El animal no fabrica una joya: se defiende de algo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De todas las piedras que la gente lleva encima, la perla es la única que no es una " +
+          "piedra. No se extrae de una mina, no se talla y no se pule: sale ya terminada del " +
+          "interior de un animal vivo, y sale por un motivo que no tiene nada de ornamental.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando una partícula extraña —un grano de arena, un parásito diminuto— entra en el " +
+          "cuerpo del molusco y no consigue expulsarla, el tejido llamado <strong>manto</strong> " +
+          "hace lo único que sabe hacer: la recubre. Segrega alrededor del intruso el mismo " +
+          "material con el que fabrica la cara interna de su concha, capa sobre capa, como quien " +
+          "envuelve un regalo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese material se llama <strong>nácar</strong>, y está hecho sobre todo de aragonito, " +
+          "una forma del carbonato cálcico, más una sustancia orgánica córnea llamada " +
+          "conquiolina.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una perla no es un producto del animal: es una cicatriz. Está hecha del mismo material " +
+          "que la concha, construida en el sitio equivocado.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Por qué son redondas, y por qué muchas no lo son",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y de dónde sale la forma esférica? Es simple: <strong>el molusco recubre en todas " +
+          "direcciones a la vez</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Como el manto envuelve el intruso por todas partes y va depositando capas de grosor " +
+          "parecido, la forma tiende a redondearse con el tiempo, del mismo modo que una bola de " +
+          "nieve rodada se va haciendo esférica aunque el guijarro de dentro no lo fuera.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pero eso solo pasa si el intruso queda suelto, flotando en el tejido. Si queda pegado " +
+          "contra la concha, o si el manto lo cubre de forma desigual, el resultado es una perla " +
+          "irregular, con bultos y aristas. A esas se las llama <strong>perlas barrocas</strong>, " +
+          "y son mucho más frecuentes que las redondas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahí está el motivo real del precio histórico. Una perla perfectamente esférica no es " +
+          "un ejemplar bonito dentro de una categoría: es el caso raro dentro de un proceso que " +
+          "casi siempre sale torcido.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Lo excepcional de una perla redonda no es la perla. Es que el accidente que la produjo " +
+          "ocurriera exactamente en el sitio adecuado.",
+      },
+    ],
+  },
+  {
+    id: "que-es-un-agujero-de-gusano",
+    titulo: "Qué es un agujero de gusano",
+    categoria: "Ciencia",
+    color: "var(--teal)",
+    /* Serie «que-es-un-agujero-de-gusano», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Einstein no estaba inventando un atajo: intentaba quitar los infinitos» */
+    encargo: "Einstein no estaba inventando un atajo: intentaba quitar los infinitos",
+    fotos: [
+      {
+        local: p_que_es_un_agujero_de_gusano,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Einstein no estaba inventando un atajo: intentaba quitar los infinitos",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El origen está en un problema que no tiene nada que ver con viajar",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un agujero de gusano suena a idea de guionista, y por eso sorprende de dónde salió. En " +
+          "1935, Albert Einstein y su colaborador Nathan Rosen publicaron en la revista " +
+          "<em>Physical Review</em> un artículo titulado «El problema de la partícula en la " +
+          "teoría general de la relatividad». No iba de viajes ni de distancias. Iba de una " +
+          "molestia matemática.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las ecuaciones de la relatividad, en cuanto se aplicaban a una partícula puntual, " +
+          "devolvían infinitos. Una densidad infinita, una curvatura infinita. Y un infinito, en " +
+          "física, no es un resultado: es la señal de que la descripción se ha roto. Einstein y " +
+          "Rosen buscaban una manera de describir las partículas sin que aparecieran esos puntos " +
+          "imposibles, dentro de un proyecto más ambicioso: una teoría unificada de la gravedad y " +
+          "el electromagnetismo hecha solo de campos, sin partículas puntuales.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Su idea fue reinterpretar la solución de Schwarzschild. En vez de leerla como una " +
+          "región con un punto infinito en el centro, la leyeron como dos hojas de espacio " +
+          "conectadas por un cuello. El infinito desaparecía porque no había centro: había un " +
+          "paso.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El agujero de gusano no se propuso como una puerta. Se propuso como una forma de que " +
+          "la teoría dejara de dividir por cero.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La unificación fracasó y el pasadizo se quedó",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El proyecto grande no salió. Nadie consiguió construir con aquello una teoría " +
+          "unificada, y las partículas siguieron sin describirse así. Lo que se quedó, casi como " +
+          "un residuo, fue esa figura geométrica: dos regiones del espacio-tiempo unidas por un " +
+          "cuello, que se conoce desde entonces como <strong>puente de Einstein-Rosen</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en el orden de los acontecimientos, porque en la ciencia pasa más de lo que " +
+          "parece. Primero apareció el objeto matemático, con un propósito que no tenía nada que " +
+          "ver. Después fracasó ese propósito. Y solo mucho más tarde alguien se preguntó qué " +
+          "pasaría si un objeto así existiera de verdad y algo intentara atravesarlo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La estructura llegó antes que la pregunta. Nadie la diseñó para viajar: se descubrió " +
+          "lo que era treinta años después de escribirla.",
+      },
+    ],
+  },
+  {
+    id: "que-es-un-agujero-negro",
+    titulo: "Qué es un agujero negro",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    /* Serie «que-es-un-agujero-negro», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Ni es un agujero ni aspira nada» */
+    encargo: "Ni es un agujero ni aspira nada",
+    fotos: [
+      {
+        local: p_que_es_un_agujero_negro,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Ni es un agujero ni aspira nada",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El nombre se equivoca dos veces en dos palabras",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Quizá te imagines un agujero negro como un desagüe cósmico: un hueco en el espacio que " +
+          "se traga todo lo que pasa cerca, y del que hay que mantenerse alejado como de una " +
+          "corriente. Es la imagen que sugiere la palabra, y las dos mitades de la palabra están " +
+          "mal.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No es un agujero, sino lo contrario. Un agujero es un sitio donde falta materia; un " +
+          "agujero negro es un sitio donde hay demasiada, tanta y tan apretada que ya no cabe en " +
+          "ninguna forma estable. Es el objeto más lleno que existe, no el más vacío.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y no aspira. La gravedad de un agujero negro no es una fuerza distinta ni más ávida " +
+          "que la de cualquier otra cosa con masa: es exactamente la misma gravedad, y depende " +
+          "exactamente de lo mismo, de cuánta masa hay y a qué distancia estás.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Lo peligroso de un agujero negro no es lo que hace a distancia, sino lo cerca que te " +
+          "deja llegar.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La prueba está en que el sistema solar no notaría el cambio",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y cómo se demuestra que no aspira? Con un experimento mental que la propia NASA usa " +
+          "para explicarlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Imagina que esta noche el Sol se convierte de golpe en un agujero negro con " +
+          "exactamente la misma masa que tiene ahora. Todo lo demás sigue igual: la Tierra en su " +
+          "sitio, la misma distancia, la misma velocidad. ¿Qué pasa con la órbita?",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No pasa nada. La Tierra seguiría girando alrededor de ese punto igual que gira hoy, en " +
+          "la misma órbita y en el mismo tiempo, porque la masa que la sujeta no habría cambiado. " +
+          "Nos quedaríamos a oscuras y nos congelaríamos, que no es poco, pero nadie saldría " +
+          "succionado hacia ninguna parte.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que sí cambiaría es otra cosa. El Sol mide un millón cuatrocientos mil kilómetros " +
+          "de diámetro, así que lo más cerca que puedes ponerte de su centro sin dejar de existir " +
+          "son unos setecientos mil kilómetros. Concentra esa misma masa en un punto y de repente " +
+          "puedes acercarte muchísimo más, y ahí abajo la gravedad es brutal. El agujero negro no " +
+          "atrae más: simplemente deja de estorbar el camino hacia su propio centro.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un agujero negro no cambia cuánta gravedad hay. Cambia hasta dónde puedes acercarte a " +
+          "ella.",
+      },
+    ],
+  },
+  {
+    id: "que-es-una-estrella-fugaz",
+    titulo: "Qué es una estrella fugaz",
+    categoria: "Ciencia",
+    color: "var(--ochre)",
+    /* Serie «que-es-una-estrella-fugaz», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «No es una estrella, y casi siempre es un grano de arena» */
+    encargo: "No es una estrella, y casi siempre es un grano de arena",
+    fotos: [
+      {
+        local: p_que_es_una_estrella_fugaz,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "No es una estrella, y casi siempre es un grano de arena",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El nombre promete un objeto enorme y el objeto es diminuto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De todas las expresiones astronómicas que usamos a diario, «estrella fugaz» es la que " +
+          "más se equivoca. No hay ninguna estrella implicada, y el objeto que produce el " +
+          "fenómeno no solo no es grande: es de los más pequeños que somos capaces de ver a " +
+          "simple vista desde la Tierra.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un meteoro típico, de esos que se ven un segundo y desaparecen, lo produce <strong>un " +
+          "objeto del tamaño de un grano de arena</strong>. Los que dejan un trazo largo y " +
+          "brillante ya son excepcionales, y para eso hacen falta cuerpos de varios gramos, del " +
+          "tamaño de una canica o mayores.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en la desproporción, porque es la clave del asunto. Una estrella es una bola de " +
+          "gas de más de un millón de kilómetros de diámetro. Una estrella fugaz es una china que " +
+          "pesa menos que un clip. Lo que iguala a las dos es la velocidad.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Lo que ves en el cielo no es un objeto grande muy lejos. Es un objeto minúsculo muy " +
+          "cerca, moviéndose muy deprisa.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Todo ocurre más cerca de lo que parece y termina muy alto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y a qué altura pasa? La respuesta descoloca a casi todo el mundo, porque la escena " +
+          "parece ocurrir «en el espacio».",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El meteoro empieza a verse a unos cien kilómetros de altura o algo más, y la mayoría " +
+          "se apagan por encima de los ochenta. Bajar de los cincuenta kilómetros es raro. Es " +
+          "decir: toda la estrella fugaz ocurre dentro de la atmósfera terrestre, en una franja " +
+          "bastante estrecha, más cerca de ti que muchas ciudades a las que has ido en coche.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La velocidad, en cambio, sí es de escala astronómica. Estos cuerpos entran a un mínimo " +
+          "de 11,2 kilómetros por segundo —que es la velocidad de escape de la Tierra, el mínimo " +
+          "con el que algo puede caer aquí— y pueden llegar hasta los 72. En el peor de los " +
+          "casos, un grano de arena atraviesa el aire a más de doscientos cincuenta mil " +
+          "kilómetros por hora.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La estrella fugaz no es un fenómeno del espacio. Es un fenómeno atmosférico, y pasa " +
+          "por encima de tu cabeza a la altura a la que vuelan los satélites más bajos.",
       },
     ],
   },
@@ -9532,6 +11711,97 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Doce estrellas parpadeantes bastaron para que el universo dejara de ser un sitio y " +
           "pasara a ser billones de sitios.",
+      },
+    ],
+  },
+  {
+    id: "que-fue-el-ejercito-de-terracota",
+    titulo: "Qué fue el ejército de terracota",
+    categoria: "Historia",
+    color: "var(--plum)",
+    /* Serie «que-fue-el-ejercito-de-terracota», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Lo encontraron unos campesinos cavando un pozo» */
+    encargo: "Lo encontraron unos campesinos cavando un pozo",
+    fotos: [
+      {
+        local: p_que_fue_el_ejercito_de_terracota,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Lo encontraron unos campesinos cavando un pozo",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Marzo de 1974, provincia de Shaanxi",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No lo encontró una expedición, ni una prospección arqueológica, ni un satélite. En " +
+          "marzo de 1974, unos campesinos que perforaban un pozo cerca de Xi'an, en la provincia " +
+          "china de Shaanxi, dieron con una cámara subterránea. Dentro había figuras de barro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que salió después de aquel agujero son unos ocho mil soldados de terracota a tamaño " +
+          "natural, con sus caballos, repartidos en fosas y colocados en formación militar. En " +
+          "cámaras cercanas han aparecido más de mil trescientas figuras adicionales.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Todo aquello se fabricó para acompañar a <strong>Qin Shi Huang</strong>, el primer " +
+          "emperador que unificó China, en su tumba.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El conjunto funerario más ambicioso de la Antigüedad estuvo dos mil años a unos metros " +
+          "de la superficie, en una zona habitada y cultivada, sin que nadie lo supiera.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La escala solo se entiende sabiendo qué era un emperador Qin",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y para qué se hace algo así? Aquí conviene el contexto, porque sin él la cifra de " +
+          "ocho mil parece un capricho.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Qin Shi Huang no era un rey más. Fue quien terminó con siglos de estados enfrentados y " +
+          "unificó el territorio bajo un mismo gobierno, una misma escritura, una misma moneda y " +
+          "un mismo ancho de eje para los carros. Estandarizó un país entero por decreto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Su tumba se planteó con la misma lógica: no como un enterramiento, sino como una " +
+          "reproducción a escala de todo lo que había gobernado. El ejército de terracota no es " +
+          "la tumba; es una parte del perímetro exterior. Hay fosas con funcionarios, con " +
+          "acróbatas, con músicos, con aves acuáticas de bronce y con establos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso implica sobre la intención. No se enterró con un ejército: se " +
+          "enterró con un imperio en miniatura, y el ejército era solo la guarnición.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La misma cabeza que estandarizó la escritura y el ancho de los carros aplicó ese " +
+          "criterio a su propia muerte, y montó una administración completa bajo tierra.",
       },
     ],
   },
@@ -9763,6 +12033,108 @@ export const CURIOSIDADES: Short[] = [
           "pestis</em> sigue circulando hoy en roedores de varios continentes y cada año se " +
           "registran casos humanos, que se tratan con antibióticos. Lo que desapareció no fue la " +
           "bacteria, fue su capacidad de arrasar poblaciones enteras.",
+      },
+    ],
+  },
+  {
+    id: "que-hay-debajo-de-la-antartida",
+    titulo: "Qué hay debajo de la Antártida",
+    categoria: "Planeta Tierra",
+    color: "var(--slate)",
+    /* Serie «que-hay-debajo-de-la-antartida», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Hay una cordillera del tamaño de los Alpes que nadie ha visto» */
+    encargo: "Hay una cordillera del tamaño de los Alpes que nadie ha visto",
+    fotos: [
+      {
+        local: p_que_hay_debajo_de_la_antartida,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Hay una cordillera del tamaño de los Alpes que nadie ha visto",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una cordillera entera bajo tres kilómetros de hielo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el interior de la Antártida oriental, enterradas bajo hasta tres kilómetros de " +
+          "hielo, hay unas montañas llamadas <strong>Gamburtsev</strong>. Su relieve se parece al " +
+          "de los Alpes europeos: picos afilados y valles profundos, excavados en su día por ríos " +
+          "y glaciares.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Nadie las ha visto nunca. No hay ninguna fotografía, ni un afloramiento, ni una sola " +
+          "roca en la mano de nadie. Lo que se sabe de ellas se sabe porque en 2007 y 2009 dos " +
+          "aviones bimotores equipados con radar de penetración de hielo, gravímetros y " +
+          "magnetómetros sobrevolaron la zona durante unos dos meses y medio desde campamentos en " +
+          "el interior del continente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Robin Bell, una de las investigadoras del proyecto, lo resumió con una comparación que " +
+          "se queda grabada:",
+      },
+      {
+        b: "cita",
+        texto:
+          "Es asombroso: tenemos muestras de la Luna, pero ninguna de las Gamburtsev.",
+        autor: "Robin Bell",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Hay más roca antártica que nadie ha tocado que roca lunar. Lo más inaccesible del " +
+          "sistema solar no está en el espacio: está debajo de nosotros.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo raro no es que estén ahí, sino que sigan siendo montañas",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora bien, hay algo que no cuadra en esa cordillera, y es lo que la hizo interesante " +
+          "para los geólogos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las montañas se erosionan. Una cordillera abandonada a la lluvia, al viento y al hielo " +
+          "se desgasta hasta convertirse en colinas en unas decenas de millones de años. Las " +
+          "Gamburtsev tienen un origen antiquísimo: hace mil millones de años una colisión " +
+          "continental engrosó la corteza, y entre hace doscientos cincuenta y cien millones de " +
+          "años la ruptura del supercontinente Gondwana reactivó aquella raíz y la volvió a " +
+          "levantar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con esa edad deberían estar desgastadas. Y sin embargo conservan picos y valles bien " +
+          "marcados.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación está encima de ellas. El manto de hielo de la Antártida oriental se " +
+          "formó hace treinta y cuatro millones de años, y desde entonces las ha tapado. Un " +
+          "glaciar que no se mueve no erosiona: protege.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El hielo que impide verlas es la razón por la que siguen existiendo. Sin él llevarían " +
+          "millones de años convertidas en llanura.",
       },
     ],
   },
@@ -9999,6 +12371,291 @@ export const CURIOSIDADES: Short[] = [
           "Gigantes, en el monte Killaraus de Irlanda, y que el mago Merlín las desmontó y las " +
           "trajo hasta la llanura de Salisbury. Esa fue la explicación que circuló durante " +
           "siglos.",
+      },
+    ],
+  },
+  {
+    id: "quien-fue-cleopatra",
+    titulo: "Quién fue Cleopatra",
+    categoria: "Historia",
+    color: "var(--clay)",
+    /* Serie «quien-fue-cleopatra», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «No era egipcia: era griega, y de una familia macedonia» */
+    encargo: "No era egipcia: era griega, y de una familia macedonia",
+    fotos: [
+      {
+        local: p_quien_fue_cleopatra,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "No era egipcia: era griega, y de una familia macedonia",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Trescientos años de reyes griegos gobernando Egipto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La imagen que casi todo el mundo tiene de Cleopatra es la de una reina egipcia, " +
+          "heredera de los faraones. Y en el sentido político lo era: gobernó Egipto y se " +
+          "presentó ante su pueblo como reina egipcia. En el sentido familiar, no lo era en " +
+          "absoluto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cleopatra pertenecía a la <strong>dinastía ptolemaica</strong>, fundada por un general " +
+          "macedonio de Alejandro Magno que se quedó con Egipto al repartirse el imperio tras su " +
+          "muerte. Esa familia gobernó el país entre el 323 y el 30 antes de Cristo, y era " +
+          "étnicamente griega.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Casi tres siglos de reyes griegos, con nombres griegos, hablando griego entre ellos, " +
+          "gobernando desde Alejandría un país cuya población hablaba egipcio.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Cleopatra estaba tan lejos de los constructores de las pirámides como nosotros lo " +
+          "estamos de ella. Entre Keops y Cleopatra hay más siglos que entre Cleopatra y hoy.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Ella aprendió el idioma del país, y sus antepasados no",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué la distinguió de los suyos? Aquí está el detalle que dice más sobre su cabeza " +
+          "política que cualquier anécdota romántica.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los ptolomeos anteriores habían gobernado Egipto durante siglos <strong>sin llegar a " +
+          "aprender la lengua egipcia</strong>. No les hacía falta: la administración funcionaba " +
+          "en griego, la corte era griega y el país se gestionaba desde arriba.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cleopatra sí la aprendió, y llegó a hablarla con soltura, además del griego que era su " +
+          "lengua materna y de varias más. Y esa decisión encaja con todo lo demás que hizo: se " +
+          "presentó ante los egipcios con la iconografía de sus reinas, participó en sus cultos y " +
+          "se hizo representar como una de ellos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que significa. No fue un gesto sentimental ni un capricho de erudita. Fue " +
+          "entender que se puede gobernar un país durante trescientos años sin hablar su idioma, " +
+          "y que hacerlo tiene un coste que en algún momento se paga.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La primera de su familia en molestarse en aprender la lengua del país que gobernaba " +
+          "fue también la última que lo gobernó.",
+      },
+    ],
+  },
+  {
+    id: "quien-fue-la-persona-mas-rica-del-mundo",
+    titulo: "Quién fue la persona más rica",
+    categoria: "Historia",
+    color: "var(--sage)",
+    /* Serie «quien-fue-la-persona-mas-rica-del-mundo», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La pregunta no tiene una respuesta: tiene doce» */
+    encargo: "La pregunta no tiene una respuesta: tiene doce",
+    fotos: [
+      {
+        local: p_quien_fue_la_persona_mas_rica_del_mundo,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La pregunta no tiene una respuesta: tiene doce",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Comparar dinero entre siglos no es una cuenta, es una elección",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Parece una de esas preguntas que solo necesitan que alguien se moleste en buscar el " +
+          "dato. Y sin embargo no existe la cifra, porque no existe la operación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los economistas que se dedican a convertir cantidades históricas a dinero de hoy lo " +
+          "dicen sin ambigüedad: la respuesta depende de qué estés preguntando en realidad. El " +
+          "proyecto académico <em>MeasuringWorth</em> no ofrece una conversión, sino <strong>doce " +
+          "medidas distintas</strong>, y ninguna es la correcta porque cada una contesta una " +
+          "pregunta diferente. Puedes preguntar cuántas cosas se compraban con aquel dinero, o " +
+          "qué parte de toda la economía de su época representaba, o cuántas jornadas de trabajo " +
+          "ajeno pagaba. Son tres preguntas legítimas y dan tres números que no se parecen.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y en cuanto lo aplicas a una fortuna antigua, la diferencia deja de ser técnica. " +
+          "Alguien que controlaba una décima parte de la economía conocida sale altísimo en una " +
+          "medida y modesto en otra, porque aquella economía entera era pequeña comparada con la " +
+          "de hoy.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No es que falte el dato. Es que la pregunta, tal y como está formulada, no define una " +
+          "operación.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Antes de los bancos, ser rico no era tener una cifra",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay una segunda razón, y es todavía más de fondo. La idea de patrimonio como un número " +
+          "—lo que tienes, sumado y expresado en una moneda— es reciente y depende de que existan " +
+          "mercados donde todo tenga precio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante casi toda la historia la riqueza no era eso. Era el control de tierras, de " +
+          "minas, de rutas, de cosechas y de personas, y ese control no se podía vender ni " +
+          "convertir en efectivo. Augusto no tenía una cuenta: administraba un imperio y su " +
+          "propio patrimonio se confundía con el del Estado. Un emperador de Malí no poseía oro " +
+          "guardado en un sitio: poseía el territorio donde estaba el oro y el derecho a quedarse " +
+          "con parte de lo que se extraía.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso implica. Preguntar cuánto valía la fortuna de alguien así es como " +
+          "preguntar cuánto vale un país: puedes inventarte una respuesta, pero no hay comprador " +
+          "ni mercado, y sin comprador no hay precio.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Las fortunas antiguas no eran cantidades de dinero. Eran cantidades de poder, y el " +
+          "poder no cotiza.",
+      },
+    ],
+  },
+  {
+    id: "quien-invento-el-futbol",
+    titulo: "Quién inventó el fútbol",
+    categoria: "Historia",
+    color: "var(--plum)",
+    /* Serie «quien-invento-el-futbol», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Lo que se inventó en 1863 no fue el juego, fueron las reglas» */
+    encargo: "Lo que se inventó en 1863 no fue el juego, fueron las reglas",
+    fotos: [
+      {
+        local: p_quien_invento_el_futbol,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Lo que se inventó en 1863 no fue el juego, fueron las reglas",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Doce clubes, seis reuniones y cuarenta y cuatro días",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El lunes 26 de octubre de 1863, por la noche, doce clubes se reunieron en la taberna " +
+          "Freemasons de Great Queen Street, en Londres. Barnes, Crusaders, Crystal Palace, " +
+          "Blackheath, Surbiton, Charterhouse, la oficina de Guerra y varios colegios. De aquella " +
+          "reunión salió la <strong>Football Association</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema que iban a resolver no era que faltara un juego. El juego existía y se " +
+          "practicaba en toda Inglaterra. El problema era que cada colegio y cada club jugaba con " +
+          "sus propias reglas, y por eso dos equipos de sitios distintos no podían enfrentarse " +
+          "sin discutir antes qué estaba permitido. Un partido entre desconocidos era, " +
+          "literalmente, una negociación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hicieron falta seis reuniones en cuarenta y cuatro días. Las reglas quedaron aprobadas " +
+          "el 8 de diciembre de 1863: trece leyes, redactadas por Ebenezer Morley, primer " +
+          "secretario de la asociación.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Nadie inventó el fútbol en 1863. Lo que se inventó fue la posibilidad de que dos " +
+          "equipos que no se conocían jugaran el mismo partido.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Aquellas trece leyes no describen el fútbol que conoces",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y qué decían exactamente? Vale la pena leerlas, porque la mitad de lo que hoy parece " +
+          "esencial no estaba, y varias cosas que hoy parecen imposibles sí.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La ley novena era tajante: ningún jugador podía llevar el balón en las manos. La " +
+          "undécima prohibía lanzarlo o pasarlo con la mano. La duodécima impedía recogerlo del " +
+          "suelo. Hasta ahí, reconocible.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pero la ley octava permitía <strong>atrapar el balón al vuelo</strong>. Un jugador que " +
+          "hacía una recepción limpia podía marcar el punto con el tacón y reclamar un tiro libre " +
+          "desde allí. Es decir: en el fútbol original se podía coger el balón con las manos, " +
+          "siempre que viniera por el aire y no se corriera con él.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y la portería era otra cosa distinta. La ley primera la definía como dos postes " +
+          "verticales separados ocho yardas, «sin ninguna cinta ni barra que los cruce». La " +
+          "cuarta remataba la idea: había gol cuando el balón pasaba entre los postes «a " +
+          "cualquier altura». Nada de travesaño y nada de altura máxima: un disparo que hoy se " +
+          "iría diez metros por encima era gol.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El reglamento de 1863 no fijó el fútbol: abrió una discusión que sigue abierta ciento " +
+          "sesenta años después.",
       },
     ],
   },
