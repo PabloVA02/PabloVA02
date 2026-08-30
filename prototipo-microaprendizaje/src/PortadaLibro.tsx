@@ -204,6 +204,7 @@ export function PortadaLibro({
   categoria,
   color,
   tamano,
+  ansioso,
   foto,
 }: {
   id: string;
@@ -212,6 +213,14 @@ export function PortadaLibro({
   categoria: string;
   color: string;
   tamano: number;
+  /** `true` para que la imagen se cargue ya, sin esperar a que se vea.
+   *
+   *  Existe por el muro de la bienvenida: allí las cubiertas se deslizan, así
+   *  que la mitad de la tira empieza fuera de la pantalla y `lazy` no la trae
+   *  hasta que asoma. El resultado es una casilla gris que se rellena a la
+   *  vista, justo en la primera pantalla de la app. En la estantería, en
+   *  cambio, `lazy` es lo correcto y sigue siendo lo que se usa. */
+  ansioso?: boolean;
   /* La obra que lleva encima, cuando la tiene. Ver `libros/portadas.ts`. */
   foto?: Foto;
 }) {
@@ -336,7 +345,7 @@ export function PortadaLibro({
              cubierta, así que `cover` no recorta nada. Y sin `contain` no
              quedan bandas de color a los lados. */
           style={{ objectPosition: foto.foco ?? "50% 50%" }}
-          loading="lazy"
+          loading={ansioso ? "eager" : "lazy"}
           decoding="async"
         />
         <div className="port-velo" />

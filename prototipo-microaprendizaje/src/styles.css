@@ -2552,14 +2552,79 @@ button {
 /* Bienvenida */
 
 .onb-bienvenida { display: flex; flex-direction: column; align-items: center; width: 100%; }
-.rejilla {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+/* EL MURO DE CUBIERTAS DE LA BIENVENIDA.
+
+   Tres tiras que se deslizan en sentidos alternos. Lo pidió Pablo así: «que
+   se vea el tamaño real de los libros, la fila de arriba hacia un lado y la
+   de abajo al revés, un movimiento bonito».
+
+   LA PROPORCIÓN ES 2:3 Y NO SE NEGOCIA. Aquí había un `aspect-ratio: 1` con
+   `!important` que metía sus dibujos de 1024 × 1536 en un cuadrado. Un libro
+   no es un cuadrado, y forzarlo se come el tercio de abajo, que es donde va
+   el autor. Es lo primero que él vio.
+
+   EL MOVIMIENTO VA EN CSS Y NO EN JAVASCRIPT, y no es un detalle: son
+   cuarenta y dos casillas moviéndose a la vez. Una animación de `transform`
+   la resuelve el compositor sin tocar el hilo principal; hecha con JavaScript
+   pediría recalcular la posición de cuarenta y dos elementos en cada cuadro,
+   justo mientras entra la pantalla. */
+.onb-muro {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* Que las tiras se desvanezcan por los lados en vez de cortarse a hachazo
+     contra el borde. Sin esto se ve dónde empieza y acaba el truco. */
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
 }
-.rejilla > div { display: grid; place-items: center; }
-.rejilla .portada { width: 100% !important; height: auto !important; aspect-ratio: 1; }
+.onb-fila { overflow: hidden; }
+.onb-tira {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  animation: onb-desliza 46s linear infinite;
+}
+/* El −50 % es exacto a propósito: la tira lleva la lista DOS VECES, así que
+   al llegar a la mitad lo que se ve es idéntico al principio y el bucle no
+   tiene costura. Cualquier otro número daría un salto visible. */
+@keyframes onb-desliza {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
+}
+.onb-fila[data-sentido="izquierda"] .onb-tira { animation-direction: reverse; }
+/* Las filas no van a la misma velocidad: iguales se leen como un bloque que
+   se mueve, y desiguales como tres cosas distintas. */
+.onb-fila:nth-child(2) .onb-tira { animation-duration: 58s; }
+.onb-fila:nth-child(3) .onb-tira { animation-duration: 52s; }
+
+/* Y EMPIEZAN DESFASADAS. Un retardo negativo no retrasa nada: arranca la
+   animación como si ya llevara ese tiempo corriendo. Sin esto las tres filas
+   salen alineadas en columnas el primer segundo, que es justo cuando se mira
+   la pantalla, y se ve la rejilla que hay debajo del truco. */
+.onb-fila:nth-child(2) .onb-tira { animation-delay: -19s; }
+.onb-fila:nth-child(3) .onb-tira { animation-delay: -34s; }
+
+/* Quien haya pedido menos movimiento no ve ninguno. La pantalla sigue
+   funcionando: son cubiertas bonitas, quietas. */
+.onb-fila[data-quieto="si"] .onb-tira { animation: none; }
+@media (prefers-reduced-motion: reduce) {
+  .onb-tira { animation: none; }
+}
+
+.onb-lomo { flex: none; }
+/* LA PROPORCIÓN DE UN LIBRO. `Portada` pinta una casilla cuadrada porque es
+   lo que necesita la estantería; aquí se estira a 3:2 de alto, que es la de
+   los originales de 1024 × 1536, y la imagen la llena sin recortar. */
+.onb-lomo .portada {
+  height: auto !important;
+  aspect-ratio: 2 / 3;
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+}
+.onb-lomo .port,
+.onb-lomo .port-obra { height: 100%; }
 
 .onb-marca { text-align: center; margin-top: 26px; }
 .onb-marca h1 {

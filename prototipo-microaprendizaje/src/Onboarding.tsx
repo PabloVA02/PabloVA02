@@ -813,48 +813,82 @@ export function Onboarding({ onTerminar }: { onTerminar: (alta: Alta) => void })
 }
 
 /* -------------------------------------------------------------------------
-   Bienvenida: rejilla de portadas que va cayendo
+   Bienvenida: el muro de cubiertas, deslizándose
    ------------------------------------------------------------------------- */
 
-/* El catálogo va agrupado por categoría y el color de la portada sale de la
-   categoría, así que coger los doce primeros libros deja la bienvenida entera
-   del mismo naranja y con tres ilustraciones repetidas cuatro veces. Se toma
-   uno de cada categoría por vuelta: doce portadas, los ocho colores. */
-function rejillaVariada(n: number): Libro[] {
+/* Pablo, el 30 de agosto: «el inicio de la app debe cambiar, debe verse el
+   tamaño real de los libros y buscar una combinación bonita donde se mueva de
+   un lado a otro, la fila de arriba hacia un lado y la de abajo al revés; un
+   movimiento bonito».
+
+   Lo que había era una rejilla de doce portadas cayendo, y tenía dos
+   problemas. El primero lo dijo él: la casilla era CUADRADA —`aspect-ratio: 1`
+   con `!important`— y sus dibujos son de 1024 × 1536. Un libro no es un
+   cuadrado, y forzarlo a serlo se come el tercio de abajo, que es donde suele
+   ir el autor. El segundo es que caían y se quedaban quietas: una pantalla de
+   bienvenida que no respira parece una captura.
+
+   Ahora son tres tiras horizontales a la proporción de verdad, moviéndose en
+   sentidos alternos. El movimiento contrario entre filas es lo que hace el
+   efecto: si todas fueran en la misma dirección se leería como un scroll, y
+   yendo cruzadas se lee como un escaparate. */
+
+/** Sólo las que Pablo ha dibujado: son 338 y son lo que hay que enseñar. */
+function conCubierta(): Libro[] {
+  return LIBROS.filter((l) => l.portada?.local);
+}
+
+/* Las tres filas, repartidas para que no se repita una categoría al lado de
+   otra igual. El catálogo va agrupado por categoría, así que tomar libros
+   seguidos deja una fila entera del mismo color; se coge uno de cada grupo por
+   vuelta y luego se reparten en tres. */
+function filasDeCubiertas(filas: number, porFila: number): Libro[][] {
   const porCategoria = new Map<string, Libro[]>();
-  for (const l of LIBROS) {
-    const grupo = porCategoria.get(l.categoria);
-    if (grupo) grupo.push(l);
+  for (const l of conCubierta()) {
+    const g = porCategoria.get(l.categoria);
+    if (g) g.push(l);
     else porCategoria.set(l.categoria, [l]);
   }
   const grupos = [...porCategoria.values()];
-  const salida: Libro[] = [];
-  for (let vuelta = 0; salida.length < n && grupos.some((g) => g.length > vuelta); vuelta++) {
+  const barajado: Libro[] = [];
+  for (let v = 0; barajado.length < filas * porFila && grupos.some((g) => g.length > v); v++) {
     for (const g of grupos) {
-      if (salida.length >= n) break;
-      if (g[vuelta]) salida.push(g[vuelta]);
+      if (barajado.length >= filas * porFila) break;
+      if (g[v]) barajado.push(g[v]);
     }
   }
-  return salida;
+  return Array.from({ length: filas }, (_, f) => barajado.slice(f * porFila, (f + 1) * porFila));
 }
 
 function Bienvenida({ reducido }: { reducido: boolean }) {
-  const rejilla = rejillaVariada(12);
+  /* Siete por fila y no doce: la tira se duplica para que el bucle no tenga
+     costura, así que catorce casillas por fila enseñan siete dibujos. El
+     navegador descodifica cada imagen UNA vez aunque salga dos, así que lo que
+     cuesta son los veintiuno de verdad y no los cuarenta y dos que se ven. */
+  const filas = filasDeCubiertas(3, 7);
   return (
     <div className="onb-bienvenida">
-      <div className="rejilla">
-        {rejilla.map((l, k) => (
+      <div className="onb-muro" aria-hidden>
+        {filas.map((fila, f) => (
           <motion.div
-            key={`${l.id}-${k}`}
-            initial={{ opacity: 0, y: -30, scale: 0.86 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={
-              reducido
-                ? { duration: 0.01 }
-                : { ...springPop, delay: 0.05 + (k % 3) * 0.05 + Math.floor(k / 3) * 0.09 }
-            }
+            className="onb-fila"
+            key={f}
+            data-sentido={f % 2 === 0 ? "derecha" : "izquierda"}
+            data-quieto={reducido ? "si" : "no"}
+            initial={{ opacity: 0, y: 18 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={reducido ? { duration: 0.01 } : { ...springSoft, delay: 0.1 + f * 0.12 }}
           >
-            <Portada libro={l} tamano={98} />
+            {/* La tira va DOS VECES seguidas y se desplaza justo la mitad: al
+                llegar al final, lo que se ve es idéntico al principio y el
+                salto no existe. Es la manera de que un bucle no dé tirón. */}
+            <div className="onb-tira">
+              {[...fila, ...fila].map((l, k) => (
+                <div className="onb-lomo" key={`${l.id}-${k}`}>
+                  <Portada libro={l} tamano={104} ansioso />
+                </div>
+              ))}
+            </div>
           </motion.div>
         ))}
       </div>
@@ -865,3 +899,4 @@ function Bienvenida({ reducido }: { reducido: boolean }) {
     </div>
   );
 }
+

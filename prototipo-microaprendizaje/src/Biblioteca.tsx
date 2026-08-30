@@ -177,10 +177,15 @@ export const porId = (id: string) => LIBROS.find((l) => l.id === id);
    Portada
    ------------------------------------------------------------------------- */
 
-export function Portada({ libro, tamano = 140 }: { libro: Libro; tamano?: number }) {
+export function Portada({
+  libro,
+  tamano = 140,
+  ansioso,
+}: { libro: Libro; tamano?: number; ansioso?: boolean }) {
   return (
     <div className="portada" style={{ width: tamano, height: tamano }}>
       <PortadaLibro
+        ansioso={ansioso}
         id={libro.id}
         titulo={libro.titulo}
         autor={libro.autor}
