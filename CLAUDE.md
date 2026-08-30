@@ -127,6 +127,27 @@ portada nueva. El guion que lo hace todo es
   ancho justos —la marca de una imagen guardada de una vista previa y no
   descargada del original—; una de ellas, la de los nudillos, daba 338 px
   útiles y no entró.
+- **El recorte va POR EL CENTRO**, y cuando no acierta se dice a mano en
+  `assets/recortes.json`. Estuvo en modo «busca la zona con más detalle» y
+  Pablo lo cazó el 30 de agosto con tres ejemplos —«la del flato se ve muy de
+  cerca, la cerveza sale cortada, la de la calavera no está bien centrada;
+  ponlas más o menos tal como te las paso»—. Ese modo mueve el encuadre a donde
+  hay textura, no a donde está el motivo. Sus fotos vienen con el motivo en
+  medio: recortar por el centro respeta su encuadre en vez de inventar otro.
+
+  **Y esto no lo canta ningún número.** Las tres salían a 2160 × 3840 y por
+  encima del suelo de calidad, o sea perfectas en el informe, y estaban mal.
+  Para verlo hay que mirar: `scripts/compara-portada.mjs` pone el original al
+  lado de la portada, y `scripts/encuadre.mjs` dibuja sobre la foto la ventana
+  que se va a quedar y una rejilla para leer el `x`/`y` del ajuste.
+
+- **Una foto apaisada o cuadrada pierde muchísimo, y hay que decirlo.** Para
+  llenar una pantalla de móvil hace falta 9:16; una foto 3:4 pierde la cuarta
+  parte de cada lado y una 3:2 se queda en un tercio del ancho. Por eso algunas
+  «se ven de cerca» aunque el recorte esté bien centrado: no es un fallo, es la
+  forma de la fotografía. Cuando pase con una que importe, lo que hay que
+  pedirle es esa misma escena en vertical, no tocar el recorte.
+
 - **El nombre, idéntico al del tema**: `como-funciona-la-gravedad.md` →
   `como-funciona-la-gravedad.avif`.
 
