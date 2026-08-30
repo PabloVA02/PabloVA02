@@ -1,70 +1,99 @@
 import type { Short } from "../shorts";
 /* Las portadas, empotradas: el artefacto que abre Pablo bloquea cualquier
    imagen de fuera, así que la que él ve tiene que viajar dentro. Las de
-   Commons no llevan `import`: se piden por red y `movil.mjs` las empotra. */
-import p_la_costra_no_esta_curando_nada from "../../portadas/la-costra-no-esta-curando-nada.avif";
-import p_la_gravedad_no_es_una_fuerza from "../../portadas/la-gravedad-no-es-una-fuerza.avif";
-import p_como_se_forma_dentro_de_una_gota from "../../portadas/como-se-forma-dentro-de-una-gota.avif";
-import p_el_vino_se_hace_solo_y_lo_traen_las_avispas from "../../portadas/el-vino-se-hace-solo-y-lo-traen-las-avispas.avif";
-import p_la_cebada_no_tiene_azucar from "../../portadas/la-cebada-no-tiene-azucar.avif";
-import p_un_cohete_no_empuja_contra_nada from "../../portadas/un-cohete-no-empuja-contra-nada.avif";
-import p_nadie_las_ha_contado from "../../portadas/nadie-las-ha-contado.avif";
-import p_llevamos_57_anos_disparando_laseres_a_la_luna from "../../portadas/llevamos-57-anos-disparando-laseres-a-la-luna.avif";
-import p_es_un_arma_quimica from "../../portadas/es-un-arma-quimica.avif";
-import p_mas_grande_que_cualquier_dinosaurio from "../../portadas/mas-grande-que-cualquier-dinosaurio.avif";
-import p_ser_la_unica_especie_humana from "../../portadas/ser-la-unica-especie-humana.avif";
-import p_el_arbol_no_bombea_el_agua_la_cuelga from "../../portadas/el-arbol-no-bombea-el-agua-la-cuelga.avif";
-import p_el_bostezo_no_tiene_que_ver_con_el_oxigeno from "../../portadas/el-bostezo-no-tiene-que-ver-con-el-oxigeno.avif";
-import p_una_contrasena_que_alguien_ha_robado from "../../portadas/una-contrasena-que-alguien-ha-robado.avif";
-import p_no_crecen_la_piel_se_retira from "../../portadas/no-crecen-la-piel-se-retira.avif";
-import p_hay_un_sensor_dentro_del_diente from "../../portadas/hay-un-sensor-dentro-del-diente.avif";
-import p_el_dolor_no_esta_donde_lo_notas from "../../portadas/el-dolor-no-esta-donde-lo-notas.avif";
-import p_no_es_el_acido_lactico from "../../portadas/no-es-el-acido-lactico.avif";
-import p_el_chaval_y_el_helado from "../../portadas/el-chaval-y-el-helado.avif";
-import p_el_cafe_no_te_da_energia from "../../portadas/el-cafe-no-te-da-energia.avif";
-import p_el_cielo_deberia_ser_violeta from "../../portadas/el-cielo-deberia-ser-violeta.avif";
-import p_tres_preguntas_tres_ganadores from "../../portadas/tres-preguntas-tres-ganadores.avif";
-import p_la_nieve_y_el_hielo_azul_son_lo_mismo from "../../portadas/la-nieve-y-el-hielo-azul-son-lo-mismo.avif";
-import p_el_mar_no_refleja_el_cielo from "../../portadas/el-mar-no-refleja-el-cielo.avif";
-import p_la_sal_no_viene_del_mar from "../../portadas/la-sal-no-viene-del-mar.avif";
-import p_los_dias_no_los_anos_si from "../../portadas/los-dias-no-los-anos-si.avif";
-import p_el_color_te_dice_a_que_altura_ocurre from "../../portadas/el-color-te-dice-a-que-altura-ocurre.avif";
-import p_una_molecula_a_partir_de_los_cuarenta from "../../portadas/una-molecula-a-partir-de-los-cuarenta.avif";
-import p_la_luna_del_horizonte_es_mas_pequena from "../../portadas/la-luna-del-horizonte-es-mas-pequena.avif";
-import p_la_miel_no_se_conserva from "../../portadas/la-miel-no-se-conserva.avif";
-import p_costo_dos_mil_anos_demostrar_que_acertaban from "../../portadas/costo-dos-mil-anos-demostrar-que-acertaban.avif";
-import p_las_rayas_no_son_un_camuflaje from "../../portadas/las-rayas-no-son-un-camuflaje.avif";
-import p_el_amarillo_ya_estaba from "../../portadas/el-amarillo-ya-estaba.avif";
-import p_la_cebolla_entera_no_lleva_nada from "../../portadas/la-cebolla-entera-no-lleva-nada.avif";
-import p_te_ensenaron_mal_como_se_forma_una_nube from "../../portadas/te-ensenaron-mal-como-se-forma-una-nube.avif";
-import p_giran_porque_no_pueden_mover_los_ojos from "../../portadas/giran-porque-no-pueden-mover-los-ojos.avif";
-import p_el_ala_no_bate_gira from "../../portadas/el-ala-no-bate-gira.avif";
-import p_el_sahara_esta_seco_por_lo_que_pasa_en_el_ecuador from "../../portadas/el-sahara-esta-seco-por-lo-que-pasa-en-el-ecuador.avif";
-import p_no_invierten_izquierda_derecha from "../../portadas/no-invierten-izquierda-derecha.avif";
-import p_un_flamenco_nace_gris from "../../portadas/un-flamenco-nace-gris.avif";
-import p_no_lo_siguen_se_le_anticipan from "../../portadas/no-lo-siguen-se-le-anticipan.avif";
-import p_a_los_tres_anos_te_acordabas from "../../portadas/a-los-tres-anos-te-acordabas.avif";
-import p_la_unica_especie_que_se_sonroja from "../../portadas/la-unica-especie-que-se-sonroja.avif";
-import p_el_picante_no_es_un_sabor from "../../portadas/el-picante-no-es-un-sabor.avif";
-import p_el_picor_lo_pones_tu from "../../portadas/el-picor-lo-pones-tu.avif";
-import p_un_patinador_no_derrite_el_hielo from "../../portadas/un-patinador-no-derrite-el-hielo.avif";
-import p_no_solo_cuando_estan_contentos from "../../portadas/no-solo-cuando-estan-contentos.avif";
-import p_la_leche_cortada_es_queso_a_medio_empezar from "../../portadas/la-leche-cortada-es-queso-a-medio-empezar.avif";
-import p_el_pan_duro_no_se_ha_secado from "../../portadas/el-pan-duro-no-se-ha-secado.avif";
-import p_no_es_falta_de_riego from "../../portadas/no-es-falta-de-riego.avif";
-import p_tienen_una_forma_que_se_puede_medir from "../../portadas/tienen-una-forma-que-se-puede-medir.avif";
-import p_el_azul_no_es_un_color_es_una_estructura from "../../portadas/el-azul-no-es-un-color-es-una-estructura.avif";
-import p_todas_las_explicaciones_que_te_han_dado_fallan from "../../portadas/todas-las-explicaciones-que-te-han-dado-fallan.avif";
-import p_el_conductor_no_se_marea_nunca from "../../portadas/el-conductor-no-se-marea-nunca.avif";
-import p_la_cicatriz_de_un_dano from "../../portadas/la-cicatriz-de-un-dano.avif";
-import p_en_invierno_estamos_mas_cerca_del_sol from "../../portadas/en-invierno-estamos-mas-cerca-del-sol.avif";
-import p_erizar_un_pelaje_que_ya_no_tienes from "../../portadas/erizar-un-pelaje-que-ya-no-tienes.avif";
-import p_tiritar_desperdiciar_energia from "../../portadas/tiritar-desperdiciar-energia.avif";
-import p_nadie_oyo_su_voz_hasta_1877 from "../../portadas/nadie-oyo-su-voz-hasta-1877.avif";
-import p_ve_en_blanco_y_negro_y_acierta_el_color from "../../portadas/ve-en-blanco-y-negro-y-acierta-el-color.avif";
-import p_el_destello_sube_del_suelo_a_la_nube from "../../portadas/el-destello-sube-del-suelo-a-la-nube.avif";
-import p_por_que_vuelan_los_aviones_es_falso from "../../portadas/por-que-vuelan-los-aviones-es-falso.avif";
-import p_hasta_1925_el_universo_era_esta_galaxia from "../../portadas/hasta-1925-el-universo-era-esta-galaxia.avif";
+   Commons no llevan `import`: se piden por red y `movil.mjs` las empotra.
+
+   SE IMPORTA LA COPIA DE `portadas/servir/`, NO LA MAESTRA. La maestra es
+   de 2160 × 3840 y pesa un mega: guardarla así es lo que pidió Pablo y
+   sigue en pie, pero servírsela al teléfono era pedirle que se bajara
+   nueve veces más píxeles de los que caben en su pantalla. Lo dijo él con
+   la app instalada: «tarda un montón en cargar las imágenes y va un poco
+   lageado». La copia de servir va a 1290, el ancho del iPhone más grande
+   que existe. Ver `scripts/portadas-servir.mjs`. */
+import p_la_costra_no_esta_curando_nada from "../../portadas/servir/la-costra-no-esta-curando-nada.avif";
+import p_los_de_la_cebada from "../../portadas/servir/los-de-la-cebada.avif";
+import p_la_gravedad_no_es_una_fuerza from "../../portadas/servir/la-gravedad-no-es-una-fuerza.avif";
+import p_diario_de_a_bordo from "../../portadas/servir/diario-de-a-bordo.avif";
+import p_se_leyeron_al_reves from "../../portadas/servir/se-leyeron-al-reves.avif";
+import p_como_se_forma_dentro_de_una_gota from "../../portadas/servir/como-se-forma-dentro-de-una-gota.avif";
+import p_el_vino_se_hace_solo_y_lo_traen_las_avispas from "../../portadas/servir/el-vino-se-hace-solo-y-lo-traen-las-avispas.avif";
+import p_la_cebada_no_tiene_azucar from "../../portadas/servir/la-cebada-no-tiene-azucar.avif";
+import p_mas_antiguo_que_la_agricultura from "../../portadas/servir/mas-antiguo-que-la-agricultura.avif";
+import p_un_cohete_no_empuja_contra_nada from "../../portadas/servir/un-cohete-no-empuja-contra-nada.avif";
+import p_dos_preguntas_distintas from "../../portadas/servir/dos-preguntas-distintas.avif";
+import p_todos_la_misma_edad from "../../portadas/servir/todos-la-misma-edad.avif";
+import p_nadie_las_ha_contado from "../../portadas/servir/nadie-las-ha-contado.avif";
+import p_termino_en_1453 from "../../portadas/servir/termino-en-1453.avif";
+import p_llevamos_57_anos_disparando_laseres_a_la_luna from "../../portadas/servir/llevamos-57-anos-disparando-laseres-a-la-luna.avif";
+import p_es_un_arma_quimica from "../../portadas/servir/es-un-arma-quimica.avif";
+import p_la_palabra_viajo_con_ella from "../../portadas/servir/la-palabra-viajo-con-ella.avif";
+import p_nacio_en_la_amazonia from "../../portadas/servir/nacio-en-la-amazonia.avif";
+import p_mas_grande_que_cualquier_dinosaurio from "../../portadas/servir/mas-grande-que-cualquier-dinosaurio.avif";
+import p_ser_la_unica_especie_humana from "../../portadas/servir/ser-la-unica-especie-humana.avif";
+import p_el_arbol_no_bombea_el_agua_la_cuelga from "../../portadas/servir/el-arbol-no-bombea-el-agua-la-cuelga.avif";
+import p_leyendo_las_sagas from "../../portadas/servir/leyendo-las-sagas.avif";
+import p_el_bostezo_no_tiene_que_ver_con_el_oxigeno from "../../portadas/servir/el-bostezo-no-tiene-que-ver-con-el-oxigeno.avif";
+import p_una_contrasena_que_alguien_ha_robado from "../../portadas/servir/una-contrasena-que-alguien-ha-robado.avif";
+import p_casi_nadie_se_dio_cuenta from "../../portadas/servir/casi-nadie-se-dio-cuenta.avif";
+import p_no_crecen_la_piel_se_retira from "../../portadas/servir/no-crecen-la-piel-se-retira.avif";
+import p_hay_un_sensor_dentro_del_diente from "../../portadas/servir/hay-un-sensor-dentro-del-diente.avif";
+import p_el_dolor_no_esta_donde_lo_notas from "../../portadas/servir/el-dolor-no-esta-donde-lo-notas.avif";
+import p_no_es_el_acido_lactico from "../../portadas/servir/no-es-el-acido-lactico.avif";
+import p_el_chaval_y_el_helado from "../../portadas/servir/el-chaval-y-el-helado.avif";
+import p_el_cafe_no_te_da_energia from "../../portadas/servir/el-cafe-no-te-da-energia.avif";
+import p_el_cielo_deberia_ser_violeta from "../../portadas/servir/el-cielo-deberia-ser-violeta.avif";
+import p_tres_preguntas_tres_ganadores from "../../portadas/servir/tres-preguntas-tres-ganadores.avif";
+import p_la_nieve_y_el_hielo_azul_son_lo_mismo from "../../portadas/servir/la-nieve-y-el-hielo-azul-son-lo-mismo.avif";
+import p_el_mar_no_refleja_el_cielo from "../../portadas/servir/el-mar-no-refleja-el-cielo.avif";
+import p_la_sal_no_viene_del_mar from "../../portadas/servir/la-sal-no-viene-del-mar.avif";
+import p_un_desague_sin_salida from "../../portadas/servir/un-desague-sin-salida.avif";
+import p_lleno_de_semillas from "../../portadas/servir/lleno-de-semillas.avif";
+import p_empezo_en_orden_alfabetico from "../../portadas/servir/empezo-en-orden-alfabetico.avif";
+import p_los_dias_no_los_anos_si from "../../portadas/servir/los-dias-no-los-anos-si.avif";
+import p_el_color_te_dice_a_que_altura_ocurre from "../../portadas/servir/el-color-te-dice-a-que-altura-ocurre.avif";
+import p_una_molecula_a_partir_de_los_cuarenta from "../../portadas/servir/una-molecula-a-partir-de-los-cuarenta.avif";
+import p_la_luna_del_horizonte_es_mas_pequena from "../../portadas/servir/la-luna-del-horizonte-es-mas-pequena.avif";
+import p_la_miel_no_se_conserva from "../../portadas/servir/la-miel-no-se-conserva.avif";
+import p_moradas_y_amarillas from "../../portadas/servir/moradas-y-amarillas.avif";
+import p_costo_dos_mil_anos_demostrar_que_acertaban from "../../portadas/servir/costo-dos-mil-anos-demostrar-que-acertaban.avif";
+import p_las_rayas_no_son_un_camuflaje from "../../portadas/servir/las-rayas-no-son-un-camuflaje.avif";
+import p_el_amarillo_ya_estaba from "../../portadas/servir/el-amarillo-ya-estaba.avif";
+import p_la_cebolla_entera_no_lleva_nada from "../../portadas/servir/la-cebolla-entera-no-lleva-nada.avif";
+import p_te_ensenaron_mal_como_se_forma_una_nube from "../../portadas/servir/te-ensenaron-mal-como-se-forma-una-nube.avif";
+import p_giran_porque_no_pueden_mover_los_ojos from "../../portadas/servir/giran-porque-no-pueden-mover-los-ojos.avif";
+import p_el_ala_no_bate_gira from "../../portadas/servir/el-ala-no-bate-gira.avif";
+import p_el_sahara_esta_seco_por_lo_que_pasa_en_el_ecuador from "../../portadas/servir/el-sahara-esta-seco-por-lo-que-pasa-en-el-ecuador.avif";
+import p_no_invierten_izquierda_derecha from "../../portadas/servir/no-invierten-izquierda-derecha.avif";
+import p_un_flamenco_nace_gris from "../../portadas/servir/un-flamenco-nace-gris.avif";
+import p_no_lo_siguen_se_le_anticipan from "../../portadas/servir/no-lo-siguen-se-le-anticipan.avif";
+import p_a_los_tres_anos_te_acordabas from "../../portadas/servir/a-los-tres-anos-te-acordabas.avif";
+import p_la_unica_especie_que_se_sonroja from "../../portadas/servir/la-unica-especie-que-se-sonroja.avif";
+import p_el_picante_no_es_un_sabor from "../../portadas/servir/el-picante-no-es-un-sabor.avif";
+import p_el_picor_lo_pones_tu from "../../portadas/servir/el-picor-lo-pones-tu.avif";
+import p_perderse_en_un_centro_comercial from "../../portadas/servir/perderse-en-un-centro-comercial.avif";
+import p_un_patinador_no_derrite_el_hielo from "../../portadas/servir/un-patinador-no-derrite-el-hielo.avif";
+import p_no_solo_cuando_estan_contentos from "../../portadas/servir/no-solo-cuando-estan-contentos.avif";
+import p_la_leche_cortada_es_queso_a_medio_empezar from "../../portadas/servir/la-leche-cortada-es-queso-a-medio-empezar.avif";
+import p_el_pan_duro_no_se_ha_secado from "../../portadas/servir/el-pan-duro-no-se-ha-secado.avif";
+import p_no_es_falta_de_riego from "../../portadas/servir/no-es-falta-de-riego.avif";
+import p_tienen_una_forma_que_se_puede_medir from "../../portadas/servir/tienen-una-forma-que-se-puede-medir.avif";
+import p_el_azul_no_es_un_color_es_una_estructura from "../../portadas/servir/el-azul-no-es-un-color-es-una-estructura.avif";
+import p_todas_las_explicaciones_que_te_han_dado_fallan from "../../portadas/servir/todas-las-explicaciones-que-te-han-dado-fallan.avif";
+import p_el_conductor_no_se_marea_nunca from "../../portadas/servir/el-conductor-no-se-marea-nunca.avif";
+import p_la_cicatriz_de_un_dano from "../../portadas/servir/la-cicatriz-de-un-dano.avif";
+import p_en_invierno_estamos_mas_cerca_del_sol from "../../portadas/servir/en-invierno-estamos-mas-cerca-del-sol.avif";
+import p_erizar_un_pelaje_que_ya_no_tienes from "../../portadas/servir/erizar-un-pelaje-que-ya-no-tienes.avif";
+import p_tiritar_desperdiciar_energia from "../../portadas/servir/tiritar-desperdiciar-energia.avif";
+import p_nadie_oyo_su_voz_hasta_1877 from "../../portadas/servir/nadie-oyo-su-voz-hasta-1877.avif";
+import p_ve_en_blanco_y_negro_y_acierta_el_color from "../../portadas/servir/ve-en-blanco-y-negro-y-acierta-el-color.avif";
+import p_el_destello_sube_del_suelo_a_la_nube from "../../portadas/servir/el-destello-sube-del-suelo-a-la-nube.avif";
+import p_por_que_vuelan_los_aviones_es_falso from "../../portadas/servir/por-que-vuelan-los-aviones-es-falso.avif";
+import p_coladores_de_hace_7500_anos from "../../portadas/servir/coladores-de-hace-7500-anos.avif";
+import p_hasta_1925_el_universo_era_esta_galaxia from "../../portadas/servir/hasta-1925-el-universo-era-esta-galaxia.avif";
+import p_un_nombre_del_siglo_xix from "../../portadas/servir/un-nombre-del-siglo-xix.avif";
+import p_las_lapidas_fechadas from "../../portadas/servir/las-lapidas-fechadas.avif";
+import p_mil_atmosferas from "../../portadas/servir/mil-atmosferas.avif";
+import p_dos_mil_anos_antes_de_los_druidas from "../../portadas/servir/dos-mil-anos-antes-de-los-druidas.avif";
 
 /* ==========================================================================
    CURIOSIDADES — LO ESCRIBE `scripts/catalogo.mjs`, NO SE EDITA A MANO
@@ -79,7 +108,7 @@ import p_hasta_1925_el_universo_era_esta_galaxia from "../../portadas/hasta-1925
    reparte en pantallas es la app, midiendo el móvil de quien lee. Es la
    regla 3 de `.claude/skills/paginado-shorts/SKILL.md`.
 
-   Hoy entran 64 de 178: solo los que tienen portada.
+   Hoy entran 85 de 255: solo los que tienen portada.
    ========================================================================== */
 
 export const CURIOSIDADES: Short[] = [
@@ -197,6 +226,155 @@ export const CURIOSIDADES: Short[] = [
           "debajo, con sus vasos recién construidos, y esa parte hay que rehacerla entera desde " +
           "la fase de inflamación. Cada vez que se repite, el resultado final tiende a ser una " +
           "cicatriz más ancha.",
+      },
+    ],
+  },
+  {
+    id: "los-de-la-cebada",
+    titulo: "Cómo era de verdad un gladiador romano",
+    categoria: "Historia",
+    color: "var(--ochre)",
+    /* Serie «como-era-de-verdad-un-gladiador-romano», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «A los gladiadores los llamaban «los de la cebada»» */
+    encargo: "A los gladiadores los llamaban «los de la cebada»",
+    fotos: [
+      {
+        local: p_los_de_la_cebada,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "A los gladiadores los llamaban «los de la cebada»",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En Éfeso hay un cementerio de gladiadores, y eso permite dejar de leer y empezar a " +
+          "medir",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Casi todo lo que creemos saber sobre los gladiadores viene de dos sitios: de lo que " +
+          "escribieron autores romanos que iban al espectáculo como público, y de mosaicos y " +
+          "relieves encargados para dejar constancia de una victoria. Las dos fuentes son " +
+          "valiosas y las dos están contando lo que alguien quería contar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En Éfeso, en la actual Turquía, apareció algo distinto: un cementerio de gladiadores " +
+          "del siglo II y III de nuestra era. Ahí hay huesos, y los huesos no exageran ni " +
+          "presumen. Un estudio analizó cincuenta y tres individuos, de los cuales " +
+          "<strong>veintidós eran gladiadores</strong>, y comparó su química con la de romanos " +
+          "corrientes de la misma ciudad y la misma época.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los textos antiguos recogen un apodo despectivo que les daban: <em>hordearii</em>, que " +
+          "se traduce más o menos como «los comedores de cebada». La pregunta que permitía " +
+          "responder ese cementerio era si el mote decía la verdad.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un cementerio de gladiadores permite contrastar por primera vez lo que los romanos " +
+          "contaban de ellos con lo que sus propios huesos registraron.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El análisis confirmó la cebada y desactivó la leyenda",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que se mide en un hueso son isótopos estables de carbono, nitrógeno y azufre, que " +
+          "quedan fijados según lo que la persona comió durante años. Es un registro que no " +
+          "depende de la memoria de nadie.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El resultado, en la parte que más se repite por ahí, fue el esperado: los gladiadores " +
+          "de Éfeso comían sobre todo plantas, cereales como el trigo y la cebada, con muy poca " +
+          "carne. De ahí sale el titular de que seguían una dieta vegetariana especial de " +
+          "entrenamiento.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y aquí está el matiz que ese titular se salta. Al comparar con los romanos normales de " +
+          "la misma ciudad, <strong>no aparecieron diferencias significativas</strong> en ninguno " +
+          "de los tres isótopos. ¿Qué significa eso? Es simple: <strong>los gladiadores comían " +
+          "como todo el mundo</strong>. No seguían un régimen exótico diseñado para el combate. " +
+          "Comían grano y legumbre porque en el siglo II eso era lo que comía la gente, y la " +
+          "carne era cara.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El apodo, por tanto, no describe una dieta de atleta. Describe la comida de los de " +
+          "abajo, dicha con desprecio por gente que sí podía permitirse otra cosa.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El estudio confirmó que comían cebada y, a la vez, desmontó por qué. No era una dieta " +
+          "de entrenamiento: era la dieta del pobre, y sus vecinos comían igual.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Sí había algo en sus huesos que no tenía nadie más",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora bien, cuando se pasa de los isótopos a los elementos traza, aparece una " +
+          "diferencia enorme y muy difícil de explicar por casualidad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La proporción entre estroncio y calcio en el hueso de los gladiadores dio un valor " +
+          "medio de <strong>1,26 microgramos por miligramo</strong>. En los romanos no " +
+          "gladiadores del mismo cementerio, <strong>0,67</strong>. Prácticamente el doble. Una " +
+          "diferencia así indica que estaban metiendo en el cuerpo una fuente de calcio que los " +
+          "demás no tomaban.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación que propusieron los autores estaba escrita desde hacía dos mil años. " +
+          "Plinio el Viejo menciona que los gladiadores bebían un preparado hecho con cenizas. " +
+          "Ceniza vegetal disuelta: un chute de calcio, en una época sin farmacia, para gente que " +
+          "se pasaba el día recibiendo golpes y necesitaba que sus huesos aguantaran.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante siglos ese detalle se leyó como una anécdota pintoresca de las que los autores " +
+          "antiguos meten sin comprobar. Los huesos de Éfeso dicen que era verdad.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Bebían cenizas disueltas, y sus esqueletos tienen el doble de estroncio que los de sus " +
+          "vecinos. Una anécdota de Plinio confirmada dos mil años después por un espectrómetro.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Otro estudio del mismo cementerio examinó al menos sesenta y ocho " +
+          "individuos. Once de ellos, un dieciséis por ciento, tienen traumatismos craneales " +
+          "<strong>ya cicatrizados</strong>: golpes en la cabeza recibidos, tratados y superados. " +
+          "Y cicatrizaron muy bien, que es lo esperable con el nivel de atención médica que " +
+          "recibía gente tan cara de reponer.",
       },
     ],
   },
@@ -326,6 +504,248 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "En 1919 dos expediciones fotografiaron un eclipse para medir si la luz se torcía. Se " +
           "torció el doble de lo que predecía Newton.",
+      },
+    ],
+  },
+  {
+    id: "diario-de-a-bordo",
+    titulo: "Cómo se construyeron las pirámides",
+    categoria: "Historia",
+    color: "var(--slate)",
+    /* Serie «como-se-construyeron-las-piramides», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Tenemos el diario de a bordo de uno de sus constructores» */
+    encargo: "Tenemos el diario de a bordo de uno de sus constructores",
+    fotos: [
+      {
+        local: p_diario_de_a_bordo,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Tenemos el diario de a bordo de uno de sus constructores",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Durante cuatro mil años, de los constructores solo tuvimos la piedra",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La Gran Pirámide de Guiza lleva a la vista de todo el mundo unos cuatro mil quinientos " +
+          "años. Se puede medir, se puede rodear y se pueden contar sus bloques, que son " +
+          "alrededor de dos millones y medio. Lo único que no había manera de recuperar era la " +
+          "voz de la gente que la levantó.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante siglos, casi todo lo que se contaba sobre esa gente venía de una sola fuente, " +
+          "y era una fuente tardía. Heródoto visitó Egipto en el siglo V antes de Cristo, más de " +
+          "dos mil años después de que la pirámide estuviera terminada, y anotó lo que le " +
+          "contaron los sacerdotes de allí. Es aproximadamente como si alguien escribiera hoy la " +
+          "historia de una obra del año cien basándose en lo que le cuenten los vecinos del " +
+          "barrio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ese relato salen las cifras que todos hemos oído alguna vez, y también, en buena " +
+          "parte, la imagen del ejército de esclavos arrastrando bloques bajo el látigo. Es una " +
+          "imagen que la arqueología lleva décadas desmontando, y que aguantó tanto tiempo por un " +
+          "motivo bastante simple: no había nada mejor con lo que sustituirla.",
+      },
+      {
+        b: "cita",
+        texto:
+          "Trabajaban cien mil hombres cada vez, durante tres meses seguidos cada uno. […] Para " +
+          "la construcción de la pirámide misma transcurrió un periodo de veinte años.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "— Heródoto, <em>Historia</em>, libro II",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Durante veinticinco siglos, casi todo lo que se decía sobre quién construyó la Gran " +
+          "Pirámide venía de un viajero griego que llegó dos mil años tarde.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "En 2013 apareció el cuaderno de trabajo de un inspector llamado Merer",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 2013, el egiptólogo Pierre Tallet excavaba en Wadi al-Yarf, un puerto antiguo en la " +
+          "costa egipcia del mar Rojo. Era su tercera campaña en el yacimiento, y lo que salió de " +
+          "la arena fue un conjunto de papiros de unos cuatro mil seiscientos años: <strong>los " +
+          "papiros escritos más antiguos que se conocen en el mundo</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El mejor conservado de todos ellos no es un poema, ni una crónica real, ni un texto " +
+          "religioso. Es el cuaderno de trabajo de un hombre llamado Merer, un inspector al mando " +
+          "de un equipo de unos doscientos hombres, que anotaba su jornada en tramos de medio " +
+          "día, con la misma sequedad con la que hoy se rellena un parte.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que anotaba eran viajes en barco, uno detrás de otro. ¿Y qué transportaba en ellos? " +
+          "Es simple: <strong>piedra</strong>. En concreto, la caliza blanca y fina del " +
+          "revestimiento exterior, que no se sacaba en Guiza sino en las canteras de Tura, en la " +
+          "otra orilla del Nilo. El equipo cargaba allí, remontaba el río, descargaba en las " +
+          "obras de la pirámide y volvía a empezar. Ese era el trabajo, y esas son las " +
+          "anotaciones.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Merer rendía cuentas a Anj-haf, medio hermano del faraón Keops y responsable de la " +
+          "construcción. Sus notas corresponden al año veintisiete del reinado, que se considera " +
+          "el último. Lo que tenemos delante, por tanto, es el parte de trabajo de la fase final " +
+          "de la obra, escrito por alguien que estaba dentro de ella.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene pararse un momento en lo que eso significa. No es un texto que hable de la " +
+          "pirámide desde fuera y desde lejos: es un texto salido de la propia administración de " +
+          "la obra, generado mientras la obra ocurría. Cuatro mil quinientos años después se " +
+          "puede seguir a un hombre concreto río arriba y río abajo, semana a semana, cargando " +
+          "piedra para un monumento que todavía sigue en pie.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El documento que mejor explica la construcción de la Gran Pirámide no es una " +
+          "inscripción monumental: es la hoja de trabajo de un capataz llevando piedra en barco.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Los papiros no aparecieron en Guiza, sino muy lejos de la obra que " +
+          "describen, en un puerto del mar Rojo desde el que partían las expediciones del Estado " +
+          "egipcio. Terminaron a cientos de kilómetros de la pirámide de cuya construcción " +
+          "hablan.",
+      },
+    ],
+  },
+  {
+    id: "se-leyeron-al-reves",
+    titulo: "Cómo se descifraron los jeroglíficos",
+    categoria: "Historia",
+    color: "var(--clay)",
+    /* Serie «como-se-descifraron-los-jeroglificos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Durante mil cuatrocientos años se leyeron los jeroglíficos al revés» */
+    encargo: "Durante mil cuatrocientos años se leyeron los jeroglíficos al revés",
+    fotos: [
+      {
+        local: p_se_leyeron_al_reves,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Durante mil cuatrocientos años se leyeron los jeroglíficos al revés",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hubo un último egipcio capaz de leerlos, y después nadie más",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el año 394 de nuestra era, un sacerdote del templo de File, en el sur de Egipto, " +
+          "grabó unas líneas en una pared. Es la última inscripción jeroglífica conocida. Después " +
+          "de aquello, la escritura que Egipto había usado durante más de tres mil años dejó de " +
+          "escribirse, y en algún momento del siglo siguiente dejó también de leerse.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo llamativo es que el material nunca faltó. Los jeroglíficos estaban a la vista, " +
+          "tallados en templos enormes, en obeliscos que los romanos se llevaron a Italia, en " +
+          "sarcófagos y en muros que cualquiera podía tocar. No era un idioma perdido en un " +
+          "desierto sin excavar: era un idioma perdido delante de todo el mundo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y sin embargo pasaron unos mil cuatrocientos años sin que nadie consiguiera leer una " +
+          "sola frase. El problema no era la falta de textos. Era otra cosa, y mucho más difícil " +
+          "de detectar.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No faltaban jeroglíficos que estudiar. Había miles a la vista, en monumentos que nunca " +
+          "se enterraron. Lo que faltaba era la idea correcta sobre qué eran.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El obstáculo no fue la falta de textos, fue un libro equivocado",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1419 se redescubrió un texto llamado <em>Hieroglyphica</em>, atribuido a Horapolo, " +
+          "un sacerdote alejandrino del siglo V. Llegó a la Europa del Renacimiento como si fuera " +
+          "el manual definitivo, escrito por alguien que había vivido en Egipto y que, se " +
+          "suponía, sabía de qué hablaba.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Su tesis era clara y era falsa. Horapolo daba por hecho que cada jeroglífico era un " +
+          "símbolo, una imagen cargada de significado sin ningún componente de sonido. Según él, " +
+          "un buitre no representaba un sonido ni una palabra: representaba una idea, la " +
+          "maternidad, y había que interpretarlo como se interpreta una alegoría.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y por qué esa idea tan bonita bloqueó el asunto durante siglos? Es simple: " +
+          "<strong>hace imposible leer</strong>. Si cada signo es un símbolo abierto a " +
+          "interpretación, no hay manera de equivocarse y, por tanto, tampoco de acertar. " +
+          "Cualquier lectura vale y ninguna se puede comprobar. Generaciones enteras de eruditos " +
+          "europeos escribieron interpretaciones larguísimas y profundamente ingeniosas de textos " +
+          "que en realidad decían cosas como el nombre de un rey y la fecha de una donación de " +
+          "grano.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene ser justo con Athanasius Kircher, el sabio jesuita del siglo XVII que dedicó " +
+          "su vida a esto. Sus lecturas concretas eran fantasía pura, pero fue de los primeros en " +
+          "sugerir que los signos podían representar sonidos además de ideas, y esa intuición " +
+          "influyó en los estudiosos que vinieron después.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una premisa equivocada aguanta más que la falta de datos. Si cada signo es un símbolo " +
+          "abierto, cualquier lectura vale y ninguna se puede desmentir.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? La palabra «jeroglífico» viene del griego y significa, más o menos, " +
+          "«talla sagrada». El nombre con el que los conocemos ya arrastra la idea equivocada: la " +
+          "de un texto reservado a los misterios en vez de una escritura corriente que también " +
+          "servía para cobrar impuestos.",
       },
     ],
   },
@@ -703,6 +1123,109 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "mas-antiguo-que-la-agricultura",
+    titulo: "Cómo se hizo el primer pan",
+    categoria: "Historia",
+    color: "var(--clay)",
+    /* Serie «como-se-hizo-el-primer-pan», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El pan es cuatro mil años más antiguo que la agricultura» */
+    encargo: "El pan es cuatro mil años más antiguo que la agricultura",
+    fotos: [
+      {
+        local: p_mas_antiguo_que_la_agricultura,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El pan es cuatro mil años más antiguo que la agricultura",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En un hogar del desierto negro de Jordania",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El orden que todos tenemos en la cabeza es este: primero se inventa la agricultura, " +
+          "después hay cereal de sobra, y con ese cereal se hace pan. Es una secuencia lógica y " +
+          "hay un yacimiento que la rompe.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Se llama Shubayqa 1 y está en el desierto negro del noreste de Jordania. Es un " +
+          "asentamiento <strong>natufiense</strong>, de cazadores recolectores, y tiene " +
+          "<strong>catorce mil cuatrocientos años</strong>. La Universidad de Copenhague lo " +
+          "excavó entre 2012 y 2015 y sacó a la luz dos edificios bien conservados, cada uno con " +
+          "un gran hogar circular de piedra en el centro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Dentro de esos hogares había restos de comida carbonizados. Y entre ellos, pan.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El pan no llegó después de la agricultura. Lo estaban haciendo cazadores recolectores " +
+          "cuatro mil años antes de que nadie sembrara nada.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Veinticuatro migas quemadas, miradas con un microscopio electrónico",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Se analizaron <strong>veinticuatro restos de comida carbonizados</strong>. El problema " +
+          "técnico era serio: un grumo negro de catorce mil años puede ser pan, puede ser masa " +
+          "cruda quemada, o pueden ser unas gachas que se secaron en el fuego, y a simple vista " +
+          "no hay manera de distinguirlos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y cómo se diferencia entonces un trozo de pan quemado de un grumo de gachas quemadas? " +
+          "Es simple: <strong>por dentro</strong>. Con un microscopio electrónico de barrido se " +
+          "puede ver la microestructura del fragmento: cómo están dispuestos los granos de " +
+          "almidón, hasta qué punto se han fundido unos con otros y qué huecos ha dejado el gas " +
+          "al escapar. Ese interior es distinto en un pan plano que en una papilla, y en el " +
+          "University College de Londres se establecieron los criterios para separarlos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El resultado fue claro. Aquellos restos eran pan plano, hecho con antepasados " +
+          "silvestres de la cebada, la escanda y la avena, <strong>molidos, cribados y " +
+          "amasados</strong> antes de cocerlos. No es cereal tostado ni una pasta improvisada: es " +
+          "un procedimiento con pasos, y con pasos que reconocerías.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Molieron, cribaron, amasaron y cocieron. Eso es una receta, y tiene catorce mil " +
+          "cuatrocientos años.",
+      },
+      {
+        b: "cita",
+        texto:
+          "El pan plano hallado en Shubayqa 1 es la evidencia más antigua de elaboración de pan " +
+          "recuperada hasta ahora, y demuestra que hornear se inventó antes de que tuviéramos " +
+          "cultivos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "— Tobias Richter, Universidad de Copenhague",
+      },
+    ],
+  },
+  {
     id: "un-cohete-no-empuja-contra-nada",
     titulo: "Cómo vuelan los cohetes",
     categoria: "Ciencia",
@@ -821,6 +1344,199 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "dos-preguntas-distintas",
+    titulo: "Cuál es el animal más venenoso",
+    categoria: "Naturaleza",
+    color: "var(--teal)",
+    /* Serie «cual-es-el-animal-mas-venenoso-del-mundo», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La pregunta esconde dos preguntas, y tienen respuestas distintas» */
+    encargo: "La pregunta esconde dos preguntas, y tienen respuestas distintas",
+    fotos: [
+      {
+        local: p_dos_preguntas_distintas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La pregunta esconde dos preguntas, y tienen respuestas distintas",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay dos maneras completamente distintas de envenenar",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Antes de buscar un campeón hay que separar dos cosas que el castellano mete en la " +
+          "misma palabra y que en biología son fenómenos opuestos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por un lado están los animales que <strong>inyectan</strong>. Tienen un aparato para " +
+          "atravesar la piel de otro —colmillos, aguijón, arpón, células urticantes— y una " +
+          "glándula que fabrica la sustancia. Serpientes, escorpiones, medusas, avispas, arañas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por otro están los animales que <strong>son tóxicos al tocarlos o al " +
+          "comerlos</strong>. No inyectan nada ni tienen con qué. Llevan la sustancia en la piel, " +
+          "en las vísceras o en la carne, y solo hace efecto si el otro entra en contacto o se " +
+          "los come. Ranas, peces globo, algunas orugas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El inglés distingue las dos cosas con dos palabras distintas, <em>venomous</em> y " +
+          "<em>poisonous</em>. El castellano usa «venenoso» para ambas, y de ahí nace buena parte " +
+          "del lío. Existe «ponzoñoso» para lo primero, pero casi nadie la usa.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una serpiente y una rana venenosa no hacen la misma cosa. Una tiene un arma; la otra " +
+          "tiene una alarma.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "No es un matiz de vocabulario: cambia quién tiene el problema",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y por qué importa tanto la distinción? Es simple: <strong>cambia para qué " +
+          "sirve</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El veneno inyectado es una herramienta de caza. La serpiente lo usa para inmovilizar a " +
+          "una presa que se escapa, y por eso ha evolucionado para actuar rápido y desde una " +
+          "glándula que puede recargar. Que además sirva para defenderse es un extra.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La toxina de contacto no puede cazar nada. Solo funciona cuando ya te han metido en la " +
+          "boca, y su beneficio no es para el individuo que la lleva —a ese normalmente ya se lo " +
+          "han comido— sino para su especie: el depredador aprende, escupe y no vuelve a " +
+          "intentarlo. Por eso estos animales suelen ser de colores llamativos, mientras que los " +
+          "que inyectan tienden a camuflarse. Uno necesita que lo vean; el otro necesita lo " +
+          "contrario.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Así que la pregunta «cuál es el animal más venenoso» tiene dos respuestas legítimas, y " +
+          "son dos bichos que no se parecen en nada.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los que inyectan se esconden porque necesitan acercarse. Los tóxicos al tacto van de " +
+          "colores chillones porque necesitan que los reconozcas antes de morderlos.",
+      },
+    ],
+  },
+  {
+    id: "todos-la-misma-edad",
+    titulo: "Cuál es el idioma más antiguo",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    /* Serie «cual-es-el-idioma-mas-antiguo-que-se-sigue-hablando», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Todos los idiomas del mundo tienen exactamente la misma edad» */
+    encargo: "Todos los idiomas del mundo tienen exactamente la misma edad",
+    fotos: [
+      {
+        local: p_todos_la_misma_edad,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Todos los idiomas del mundo tienen exactamente la misma edad",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La pregunta da por hecho que un idioma tiene fecha de nacimiento",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es una de esas preguntas que parecen tener respuesta y no la tienen, y el motivo es " +
+          "interesante: falla la premisa. Preguntar cuál es el idioma más antiguo supone que los " +
+          "idiomas empiezan en algún momento, como empieza una ciudad o una empresa. Y no " +
+          "empiezan.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa en el caso que tenemos más cerca. ¿Qué día dejó de hablarse latín y empezó a " +
+          "hablarse castellano? No hay tal día. Hubo generaciones de personas que aprendieron a " +
+          "hablar de sus padres, introdujeron cambios mínimos, y se los pasaron a sus hijos. En " +
+          "ningún punto de esa cadena hubo nadie que hablara latín con unos padres que hablaran " +
+          "castellano, ni al revés.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que llamamos «latín» y «castellano» son etiquetas que ponemos nosotros, mirando " +
+          "hacia atrás, sobre dos tramos suficientemente separados de un mismo hilo continuo. Son " +
+          "cómodas y son útiles, pero la frontera la ponemos nosotros, no la lengua.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Ningún idioma tiene fecha de nacimiento, porque en ningún momento hubo unos padres y " +
+          "unos hijos que no se entendieran entre sí.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La cadena de cada idioma llega exactamente igual de lejos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si tiras del hilo del castellano hacia atrás, pasas por el latín vulgar, por el latín, " +
+          "por las lenguas itálicas, por el protoindoeuropeo, y sigues. ¿Y hasta dónde llega esa " +
+          "cadena? Es simple: <strong>hasta el principio</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cada lengua viva del planeta desciende, sin una sola interrupción, de la lengua de los " +
+          "primeros humanos que hablaron. No hay ninguna que se creara de cero en un momento " +
+          "posterior: todas son la punta actual de un hilo que no se ha cortado nunca. En ese " +
+          "sentido, el más literal y el más honesto, <strong>todas tienen la misma edad</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene decir qué es lo que la gente quiere preguntar en realidad, porque suele ser " +
+          "una de estas tres cosas, y son distintas entre sí. A veces se pregunta qué lengua " +
+          "lleva más tiempo escribiéndose. A veces, cuál se parece más a como era hace mucho. Y a " +
+          "veces, cuál lleva más tiempo hablándose en el mismo sitio. Son tres preguntas con tres " +
+          "respuestas diferentes, y ninguna de las tres es «cuál es más antigua».",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La respuesta correcta a «cuál es el idioma más antiguo» es «todos». La pregunta " +
+          "interesante es otra, y hay que elegir cuál.",
+      },
+    ],
+  },
+  {
     id: "nadie-las-ha-contado",
     titulo: "Cuántas estrellas hay en el universo",
     categoria: "Ciencia",
@@ -927,6 +1643,116 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "De un número con veinte ceros, tus ojos ven cuatro dígitos. Y todas están dentro de " +
           "nuestra galaxia.",
+      },
+    ],
+  },
+  {
+    id: "termino-en-1453",
+    titulo: "Cuánto duró de verdad el Imperio romano",
+    categoria: "Historia",
+    color: "var(--plum)",
+    /* Serie «cuanto-duro-de-verdad-el-imperio-romano», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El Imperio romano terminó en 1453, no en 476» */
+    encargo: "El Imperio romano terminó en 1453, no en 476",
+    fotos: [
+      {
+        local: p_termino_en_1453,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El Imperio romano terminó en 1453, no en 476",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En el año 476 cayó la mitad de un imperio que llevaba tiempo teniendo dos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Todo el equívoco viene de una omisión en la frase. Se dice «en 476 cayó el Imperio " +
+          "romano», y lo que ocurrió fue que en 476 cayó <strong>el Imperio romano de " +
+          "Occidente</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para entonces, el imperio llevaba mucho administrándose como dos mitades con dos " +
+          "cortes, dos administraciones y dos emperadores. La occidental, con capital en Rávena, " +
+          "es la que se deshizo entre invasiones, golpes militares y emperadores de quita y pon. " +
+          "La oriental, con capital en Constantinopla, no solo no cayó: siguió funcionando " +
+          "<strong>mil años más</strong> después de que la mitad occidental se hubiera " +
+          "desmenuzado en reinos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Mil años no es una nota a pie de página. Es más tiempo del que separa hoy a cualquiera " +
+          "de nosotros de la conquista normanda de Inglaterra. Durante todo ese periodo hubo un " +
+          "Estado romano, con emperador romano, leyes romanas y una capital que se consideraba a " +
+          "sí misma la ciudad imperial.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Cuando se dice que Roma cayó en 476, se está describiendo la mitad de un imperio y " +
+          "olvidando la mitad que siguió gobernando otros mil años.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El final de verdad tiene fecha, y es el 29 de mayo de 1453",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El Imperio romano sí terminó, y terminó con una escena tan clara como la del 476, solo " +
+          "que casi mil años después.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la primavera de 1453, el sultán otomano Mehmed II puso sitio a Constantinopla. La " +
+          "ciudad estaba defendida por una muralla terrestre antigua, la mejor fortificación de " +
+          "Europa durante siglos, y por el emperador <strong>Constantino XI</strong>, que murió " +
+          "combatiendo. Tras <strong>cincuenta y cinco días de asedio</strong>, los otomanos " +
+          "abrieron brecha en la muralla y el <strong>29 de mayo de 1453</strong> entraron en la " +
+          "ciudad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese día se acabó. Si contamos desde Augusto, que se convierte en el primer emperador " +
+          "en el año 27 antes de Cristo, el Estado romano había durado alrededor de <strong>mil " +
+          "quinientos años</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y por qué casi nadie nos lo cuenta así? Es simple: <strong>el relato lo escribió " +
+          "Europa occidental</strong>. La historia que se enseña en Europa occidental organiza el " +
+          "tiempo desde Europa occidental, y desde allí lo que se ve es que Roma desapareció y " +
+          "empezó otra cosa. Vista desde Constantinopla, en cambio, no hay ninguna interrupción " +
+          "que contar: hay un Estado que sigue funcionando hasta que un ejército entra por la " +
+          "muralla.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El Imperio romano no duró quinientos años. Duró unos mil quinientos, y su último día " +
+          "tiene fecha exacta: 29 de mayo de 1453.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Cuando Constantinopla cayó, Cristóbal Colón era un niño de pocos años, " +
+          "la Biblia de Gutenberg estaba a punto de imprimirse y en Florencia el Renacimiento " +
+          "llevaba décadas en marcha. El Imperio romano y el Renacimiento italiano se solaparon " +
+          "en el tiempo.",
       },
     ],
   },
@@ -1272,6 +2098,234 @@ export const CURIOSIDADES: Short[] = [
           "La levadura tira la mayor parte de la energía del azúcar a propósito. No está " +
           "fabricando comida: está fabricando un veneno que mata a sus competidores y que después " +
           "se bebe ella.",
+      },
+    ],
+  },
+  {
+    id: "la-palabra-viajo-con-ella",
+    titulo: "De dónde sale el azúcar",
+    categoria: "Historia",
+    color: "var(--clay)",
+    /* Serie «de-donde-sale-el-azucar», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El azúcar es una hierba, y la palabra viajó con ella» */
+    encargo: "El azúcar es una hierba, y la palabra viajó con ella",
+    fotos: [
+      {
+        local: p_la_palabra_viajo_con_ella,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El azúcar es una hierba, y la palabra viajó con ella",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La caña de azúcar es una gramínea, pariente del trigo y del bambú",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene empezar por lo que es la planta, porque no se parece nada a la idea que uno " +
+          "tiene de una fábrica de dulzor. <em>Saccharum officinarum</em> es una " +
+          "<strong>hierba</strong>: una gramínea gigante, de la misma familia que el trigo, el " +
+          "arroz y el bambú, con un tallo macizo de varios metros donde acumula el azúcar en " +
+          "lugar de repartirlo por toda la planta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Su origen está en Papúa Nueva Guinea, donde a lo largo de unos tres mil años pasó de " +
+          "ser una planta menor de los huertos domésticos al cultivo que conocemos. Desde allí se " +
+          "fue extendiendo por Asia y por África, y no llegó a América hasta el siglo XV.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir: durante casi toda la historia de la humanidad, el azúcar no existía como " +
+          "producto. Existía una caña que se masticaba.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El azúcar no sale de un árbol ni de una fruta. Sale del tallo de una hierba que guarda " +
+          "concentrado lo que las demás plantas reparten.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Cristalizarlo se inventó en la India, y el nombre lo delata",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El salto decisivo no fue cultivar la caña, sino convertir su jugo en un sólido. Un " +
+          "jugo dulce se estropea en días; un cristal se guarda, se pesa, se transporta y se " +
+          "vende. Ese paso convirtió un cultivo local en una mercancía mundial, y ocurrió en la " +
+          "India.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y cómo se sabe hoy por dónde pasó una mercancía hace mil quinientos años? Es simple: " +
+          "<strong>por cómo se llama</strong>. La palabra viajó con el producto, deformándose en " +
+          "cada boca por la que iba pasando, y ese recorrido todavía se puede leer.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En sánscrito era <em>śarkarā</em>, emparentada con la palabra que significa " +
+          "<strong>grava o guijarro</strong>: bautizaron el producto por lo que parecía, un " +
+          "puñado de piedrecillas. De ahí pasó al persa como <em>šakar</em>, del persa al árabe " +
+          "como <em>sukkar</em>, y de los comerciantes árabes a las lenguas europeas. El español " +
+          "dice azúcar, el francés <em>sucre</em>, el inglés <em>sugar</em>. Los tres están " +
+          "diciendo, con distinto acento, la misma palabra india.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y lo que llegaba a la Europa medieval al final de esa ruta larguísima no era un " +
+          "alimento. Era <strong>una medicina rara y carísima</strong>, un condimento de lujo que " +
+          "se guardaba con las especias y se dosificaba como un medicamento.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La ruta comercial del azúcar sigue escrita dentro de la palabra «azúcar». Es un " +
+          "itinerario de la India a Europa contado en cuatro idiomas.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Los indios llamaron al azúcar «grava» porque así se veía. Nosotros " +
+          "seguimos usando ese nombre dos mil años y cuatro lenguas después, sin que a nadie le " +
+          "suene raro echarse dos guijarros en el café.",
+      },
+    ],
+  },
+  {
+    id: "nacio-en-la-amazonia",
+    titulo: "De dónde viene el chocolate",
+    categoria: "Historia",
+    color: "var(--teal)",
+    /* Serie «de-donde-viene-el-chocolate», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El chocolate no nació en México, nació en la Amazonía» */
+    encargo: "El chocolate no nació en México, nació en la Amazonía",
+    fotos: [
+      {
+        local: p_nacio_en_la_amazonia,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El chocolate no nació en México, nació en la Amazonía",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La versión de los libros lo situaba en Mesoamérica",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si buscas el origen del chocolate en casi cualquier sitio, la respuesta que sale es " +
+          "Mesoamérica. Los mayas, los aztecas, y de ahí a España con los conquistadores. Es la " +
+          "versión que llevaba décadas siendo la buena, y sigue estando escrita en museos y " +
+          "enciclopedias.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Tiene sentido, además. Las pruebas mesoamericanas son abundantes: vasijas con residuos " +
+          "de cacao, códices que lo representan, textos coloniales que describen cómo se " +
+          "preparaba. Todo el peso documental estaba de ese lado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema de esa versión es que el peso documental depende de dónde se ha excavado " +
+          "más y de dónde ha sobrevivido más material escrito. Y la selva amazónica es, en los " +
+          "dos sentidos, el peor sitio del mundo para conservar pruebas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El origen del chocolate se situó durante décadas donde había pruebas escritas, que no " +
+          "siempre es lo mismo que donde ocurrió.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Un yacimiento de Ecuador movió el origen dos mil kilómetros al sur",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 2018 se publicó el análisis de un yacimiento llamado Santa Ana-La Florida, en el " +
+          "sureste de Ecuador, en la parte alta de la cuenca amazónica. Es un asentamiento de la " +
+          "cultura Mayo-Chinchipe, y lo que se encontró allí tiene <strong>unos cinco mil " +
+          "trescientos años</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que convierte el hallazgo en algo sólido no es la antigüedad, sino que hay tres " +
+          "pruebas independientes. ¿Y cómo se demuestra que en una vasija de hace cinco milenios " +
+          "hubo cacao? Es simple: <strong>se queda pegado, de tres maneras distintas</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "- <strong>Granos de almidón</strong> de cacao atrapados en los poros de la cerámica, " +
+          "con una forma reconocible al microscopio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "- <strong>Restos de teobromina</strong> absorbidos en la pared del recipiente. Es el " +
+          "alcaloide característico del cacao, el pariente de la cafeína que le da su efecto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "- <strong>ADN antiguo</strong> de <em>Theobroma cacao</em> recuperado de los mismos " +
+          "residuos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Tres moléculas distintas, tres técnicas distintas, la misma respuesta. Los autores lo " +
+          "formulan sin rodeos: son las pruebas más antiguas del uso de <em>Theobroma cacao</em> " +
+          "en América, y sitúan la alta Amazonía como el centro de domesticación de cacao más " +
+          "antiguo identificado hasta ahora.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y encaja con algo que la genética ya venía diciendo por su cuenta. La mayor diversidad " +
+          "genética de la especie está justamente ahí, en el alto Amazonas, que es el patrón que " +
+          "se espera en el lugar de origen de una planta.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El cacao se estaba usando en la Amazonía alrededor de mil años antes de lo que se " +
+          "creía y antes de que aparezca en Mesoamérica. El chocolate no bajó de México: subió " +
+          "desde el sur.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? La teobromina, la molécula que delata al cacao en una vasija de cinco " +
+          "mil años, es la misma que hace que el chocolate sea peligroso para los perros. Ellos " +
+          "no la metabolizan como nosotros, y cuanto más negro es el chocolate, mayor es el " +
+          "riesgo.",
       },
     ],
   },
@@ -1646,6 +2700,148 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "leyendo-las-sagas",
+    titulo: "Llegaron los vikingos antes que Colón",
+    categoria: "Historia",
+    color: "var(--sage)",
+    /* Serie «llegaron-los-vikingos-a-america-antes-que-colon», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un matrimonio noruego encontró el yacimiento leyendo las sagas» */
+    encargo: "Un matrimonio noruego encontró el yacimiento leyendo las sagas",
+    fotos: [
+      {
+        local: p_leyendo_las_sagas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un matrimonio noruego encontró el yacimiento leyendo las sagas",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las sagas contaban el viaje, y durante siglos se leyeron como cuentos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las sagas islandesas de Vinlandia llevan escritas desde la Edad Media. Cuentan que " +
+          "unos noruegos asentados en Groenlandia navegaron hacia el oeste, encontraron tierra, " +
+          "se instalaron una temporada y acabaron volviéndose. Cuentan incluso que uno de ellos " +
+          "halló uvas creciendo salvajes en el bosque, y que por eso llamaron a aquella región " +
+          "Vinlandia, la tierra del vino.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante siglos eso se leyó como lo que aparentaba ser: literatura. Las sagas mezclan " +
+          "genealogías reales con episodios claramente fantásticos, y un texto que habla de " +
+          "fantasmas y de profecías no es una fuente en la que uno confíe para trazar una ruta de " +
+          "navegación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hubo además un problema añadido: la cantidad de material falso que circulaba. El caso " +
+          "más sonado es el del llamado mapa de Vinlandia, un pergamino que Yale adquirió y " +
+          "presentó en 1965 como una carta del siglo XV con Norteamérica dibujada antes de Colón. " +
+          "En 2021, el análisis químico encontró en todas sus líneas y letras un compuesto de " +
+          "titanio que no se empezó a usar en tintas hasta los años veinte del siglo pasado. «El " +
+          "mapa de Vinlandia es falso. Aquí no hay ninguna duda razonable», concluyó el " +
+          "conservador de la biblioteca. Cada episodio así hacía la hipótesis nórdica un poco " +
+          "menos respetable.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Las sagas decían dónde estaba desde hacía setecientos años. El problema es que también " +
+          "decían otras cosas, y nadie sabía cómo separar una capa de la otra.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Un explorador y una arqueóloga decidieron tratarlas como un mapa",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Helge Ingstad era explorador y escritor noruego; su mujer, Anne Stine Ingstad, era " +
+          "arqueóloga. Su método consistió en tomarse las sagas en serio en un solo aspecto —la " +
+          "navegación— e ignorar el resto. Si el texto decía tantos días de rumbo en tal " +
+          "dirección, ¿dónde caía eso en un mapa real?",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esa lectura los llevó a la punta norte de Terranova, y allí hicieron lo que casi nadie " +
+          "había hecho: preguntar a la gente del sitio. ¿Y cómo se encuentra un asentamiento de " +
+          "mil años enterrado bajo la hierba? Es simple: <strong>preguntándole a quien vive " +
+          "encima</strong>. Un vecino llamado George Decker llevó a Helge Ingstad hasta un grupo " +
+          "de montículos y crestas cubiertos de vegetación que parecían restos de edificios.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo eran. Entre 1960 y 1968, las excavaciones dirigidas por Anne Stine Ingstad sacaron " +
+          "a la luz <strong>ocho construcciones nórdicas del siglo XI</strong>, con paredes y " +
+          "techo de turba sobre armazón de madera: tres viviendas, cuatro talleres y una fragua, " +
+          "donde se fundió hierro por primera vez en el continente americano.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El yacimiento no apareció por casualidad ni por prospección. Apareció porque alguien " +
+          "leyó un texto medieval como si fuera una carta náutica y luego preguntó a un vecino.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Los objetos pequeños son los que cierran el caso",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ocho casas de turba demuestran que allí vivió gente. Para demostrar que era gente " +
+          "nórdica hacen falta objetos, y de L'Anse aux Meadows salieron alrededor de " +
+          "ochocientos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La mayoría no impresionan a primera vista, y por eso convencen. Un alfiler de bronce " +
+          "con la cabeza en forma de anillo, del tipo que los nórdicos usaban para sujetarse la " +
+          "capa. Remaches de hierro de embarcación. Una lámpara de piedra para aceite. Una piedra " +
+          "de afilar pequeña, de las de agujas y tijeras. Un fragmento de latón decorado y " +
+          "dorado. Un trozo de aguja de hueso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y una <strong>fusayola</strong>: el volante de un huso de hilar a mano. Ese objeto, " +
+          "junto con la aguja, dice algo que las casas no dicen. Hilar era trabajo de mujeres en " +
+          "aquel mundo, así que en aquel campamento del fin del mundo no había solo hombres. No " +
+          "era una partida de exploración: era gente que había ido a quedarse una temporada, con " +
+          "su vida doméstica a cuestas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Lo que demuestra que los nórdicos vivieron en América no es una espada ni un casco. Es " +
+          "un alfiler de capa, una aguja de hueso y el volante de un huso de hilar.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? L'Anse aux Meadows fue declarado Patrimonio de la Humanidad en 1978, y " +
+          "sigue siendo el único asentamiento vikingo confirmado en Norteamérica. Mil años de " +
+          "presencia nórdica al otro lado del Atlántico se sostienen, arqueológicamente, sobre un " +
+          "solo yacimiento.",
+      },
+    ],
+  },
+  {
     id: "el-bostezo-no-tiene-que-ver-con-el-oxigeno",
     titulo: "Por qué bostezamos",
     categoria: "Cuerpo humano",
@@ -1874,6 +3070,119 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "La <em>Photuris</em> no imita la contraseña solo para comer. Come para robar el veneno " +
           "defensivo que ella no sabe fabricar, y que la salva de las arañas.",
+      },
+    ],
+  },
+  {
+    id: "casi-nadie-se-dio-cuenta",
+    titulo: "Por qué cayó el Imperio romano",
+    categoria: "Historia",
+    color: "var(--ochre)",
+    /* Serie «por-que-cayo-el-imperio-romano», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «En el año 476 casi nadie se dio cuenta de nada» */
+    encargo: "En el año 476 casi nadie se dio cuenta de nada",
+    fotos: [
+      {
+        local: p_casi_nadie_se_dio_cuenta,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "En el año 476 casi nadie se dio cuenta de nada",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que ocurrió de verdad fue un motín por un reparto de tierras",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La fecha se aprende como si fuera un cataclismo: 476, cae el Imperio romano. Conviene " +
+          "mirar de cerca qué pasó exactamente ese año, porque el episodio no se parece nada al " +
+          "titular.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Odoacro era un guerrero germano, probablemente de la tribu de los esciros, que llegó a " +
+          "Italia hacia el año 470, se alistó en el ejército romano y fue ascendiendo. Es decir: " +
+          "un militar de carrera del propio imperio, no un invasor que venía de fuera.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el verano del 476, el general romano Orestes incumplió una promesa de reparto de " +
+          "tierras a sus tropas, y esas tropas se sublevaron. El <strong>23 de agosto</strong> " +
+          "proclamaron rey a Odoacro. Cinco días después, Orestes fue capturado y ejecutado. Y a " +
+          "continuación Odoacro depuso y mandó al exilio al hijo joven de Orestes, que resultaba " +
+          "ser el emperador.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Visto así, no es la caída de una civilización. Es un motín militar por unas tierras " +
+          "prometidas, del tipo que el imperio llevaba viviendo un siglo largo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El año en que cayó el Imperio romano de Occidente empezó con unos soldados enfadados " +
+          "porque su general no les había dado las parcelas que les había prometido.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El emperador destronado no era ni siquiera un emperador reconocido",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El nombre del último emperador de Occidente es tan redondo que parece inventado: " +
+          "Rómulo Augústulo, el que junta al fundador de Roma con el primer emperador, en " +
+          "diminutivo. La realidad detrás del nombre es bastante menos solemne.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Rómulo Augústulo era un chaval al que su propio padre, Orestes, había sentado en el " +
+          "trono. En Constantinopla, el emperador Zenón nunca lo reconoció: para el Oriente, el " +
+          "emperador legítimo de Occidente seguía siendo Julio Nepote, al que Zenón respaldaba. " +
+          "Cuando Odoacro depuso al muchacho, estaba quitando de en medio a alguien que para " +
+          "media administración imperial no ocupaba ningún cargo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y lo que hizo Odoacro después es la clave del asunto. No se proclamó emperador ni " +
+          "rompió con Roma. Se hizo llamar rey, reconociendo de forma nominal la autoridad de " +
+          "Zenón en Constantinopla, y Zenón le concedió el rango de patricio. El Senado siguió " +
+          "reuniéndose. La administración siguió funcionando. Las leyes siguieron siendo romanas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y por qué entonces nadie vivió aquello como el fin de una civilización? Es simple: " +
+          "<strong>desde dentro no parecía un final</strong>. Parecía otro general poniendo y " +
+          "quitando emperadores, que era lo que llevaba pasando cincuenta años seguidos. No hubo " +
+          "ninguna crónica de la época anunciando que Roma acababa de terminarse, porque nadie lo " +
+          "pensó.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Odoacro no acabó con el imperio: se colocó dentro de él, con permiso nominal de " +
+          "Constantinopla y un título que el propio emperador le concedió.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? A ese hijo de Orestes se le conoce como Augústulo, «augustito», y el " +
+          "diminutivo no era su nombre: era una burla que le pusieron por su edad y por lo poco " +
+          "que pintaba. El último emperador de Roma pasó a la historia con un mote.",
       },
     ],
   },
@@ -3131,6 +4440,318 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "un-desague-sin-salida",
+    titulo: "Por qué el mar Muerto se está secando",
+    categoria: "Naturaleza",
+    color: "var(--plum)",
+    /* Serie «por-que-el-mar-muerto-se-esta-secando», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El Mar Muerto no es un mar: es un desagüe sin salida» */
+    encargo: "El Mar Muerto no es un mar: es un desagüe sin salida",
+    fotos: [
+      {
+        local: p_un_desague_sin_salida,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El Mar Muerto no es un mar: es un desagüe sin salida",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Es un lago cerrado en el punto más bajo de la tierra firme",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo primero que hay que quitarle al Mar Muerto es el nombre. No es un mar: es un " +
+          "<strong>lago salado sin salida al océano</strong>, encajado entre Israel y Jordania, y " +
+          "ocupa la elevación más baja de la superficie terrestre. No hay tierra firme más abajo " +
+          "en ningún sitio del planeta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo decisivo no es la altura, sino que <strong>el agua entra y no sale</strong>. No " +
+          "tiene río de desagüe. Lo que llega por el Jordán y por la lluvia solo puede marcharse " +
+          "de una manera: evaporándose.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahí está el mecanismo entero de este lugar. Cuando el agua se evapora, se va el agua " +
+          "y se queda todo lo que llevaba disuelto. Repite eso durante miles de años en un " +
+          "recipiente que no se vacía nunca por abajo, y lo que obtienes es un depósito de sal " +
+          "con un poco de agua.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El Mar Muerto no es salado por casualidad geológica: es salado porque es un cuenco sin " +
+          "desagüe donde el agua lleva milenios saliendo solo por evaporación.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Con más de un 30 % de sal, flotar no tiene mérito",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La concentración de sal del Mar Muerto supera el <strong>30 %</strong>, casi " +
+          "<strong>diez veces</strong> la del océano. Es el segundo lago más salado del mundo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí viene la imagen que todos hemos visto, la del turista leyendo el periódico " +
+          "tumbado boca arriba sin hacer nada. ¿Y por qué se flota ahí de esa manera? Es simple: " +
+          "<strong>el agua pesa más que tú</strong>. Un cuerpo humano tiene una densidad muy " +
+          "parecida a la del agua dulce, y por eso en una piscina hay que mover los brazos para " +
+          "no hundirse. Con un tercio de sal disuelta, el agua se vuelve mucho más densa que el " +
+          "cuerpo, el empuje supera claramente al peso y el resultado es que sobra flotabilidad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La otra consecuencia del nombre también merece un matiz. El Mar Muerto no está del " +
+          "todo muerto: no hay peces ni plantas, pero sí hay comunidades microbianas adaptadas a " +
+          "esa salinidad, del tipo de organismos que aguantan condiciones extremas. Lo que no hay " +
+          "es nada que se vea.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No flotas en el Mar Muerto por hacer algo bien. Flotas porque a esa salinidad el agua " +
+          "es más densa que tú y hundirse cuesta trabajo.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? En el fondo del lago se está formando una costra de sal que crece unos " +
+          "diez centímetros cada año desde hace cuatro décadas. La sal cristaliza y cae por un " +
+          "fenómeno llamado convección de doble difusión: se forman «dedos de sal» que descienden " +
+          "por el agua y se depositan abajo.",
+      },
+    ],
+  },
+  {
+    id: "lleno-de-semillas",
+    titulo: "Por qué el plátano no tiene semillas",
+    categoria: "Naturaleza",
+    color: "var(--slate)",
+    /* Serie «por-que-el-platano-no-tiene-semillas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El plátano salvaje está lleno de semillas negras y duras» */
+    encargo: "El plátano salvaje está lleno de semillas negras y duras",
+    fotos: [
+      {
+        local: p_lleno_de_semillas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El plátano salvaje está lleno de semillas negras y duras",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El antepasado del plátano prácticamente no se puede comer",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un fruto sin semillas es una contradicción biológica. La fruta existe para envolver la " +
+          "semilla y conseguir que alguien se la lleve lejos: ese es el trato entre la planta y " +
+          "el animal que se la come. Un plátano, visto así, es una planta que ha dejado de " +
+          "cumplir su parte.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El plátano silvestre sí la cumple, y de sobra. Sus frutos están <strong>llenos de " +
+          "semillas negras</strong>, duras y del tamaño de un guisante pequeño, apretadas dentro " +
+          "de una pulpa escasa. Es incómodo de comer hasta el punto de que casi no merece la pena " +
+          "intentarlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Todo lo que reconoces como un plátano —la pulpa continua, la textura blanda, la " +
+          "ausencia de tropiezos— es el resultado de siglos de selección humana sobre esa planta. " +
+          "Y el mecanismo que lo hizo posible no es una mejora, sino una avería.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El plátano no perdió las semillas porque nos gustara más así. Las perdió porque se " +
+          "estropeó un mecanismo, y a nosotros nos convino.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La esterilidad viene de tener tres juegos de cromosomas",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los plátanos de cultivo son <strong>triploides</strong>: llevan tres juegos completos " +
+          "de cromosomas en vez de los dos habituales. Y ese número impar lo cambia todo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Por qué? Es simple: <strong>tres no se reparte en dos partes iguales</strong>. Para " +
+          "fabricar polen u óvulos, una célula tiene que emparejar sus cromosomas y repartirlos " +
+          "en dos mitades idénticas. Con dos juegos, cada cromosoma tiene su pareja y el reparto " +
+          "sale limpio. Con tres, siempre sobra uno, el emparejamiento se descuadra y las células " +
+          "reproductoras que salen son casi todas inviables.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El resultado es una planta funcionalmente estéril. El fruto sigue creciendo y " +
+          "madurando, porque la planta ha dejado de esperar a que haya fecundación para " +
+          "desarrollarlo, pero dentro no llega a formarse ninguna semilla. Esas motitas oscuras " +
+          "que ves en el centro cuando cortas un plátano en rodajas son óvulos que empezaron y no " +
+          "llegaron a nada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y de ahí sale la pregunta obvia. ¿Cómo se planta algo que no da semillas? No se " +
+          "planta: <strong>se trasplanta</strong>. De la base de cada planta salen hijuelos, " +
+          "brotes laterales que se separan y se replantan. Cada platanera nueva es, literalmente, " +
+          "un trozo de la anterior.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El plátano no es estéril por casualidad ni por diseño: es estéril porque tiene un " +
+          "número impar de juegos de cromosomas y no puede repartirlos.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Un trabajo publicado en 2023 desmontó el genoma del plátano cultivado y " +
+          "encontró que sus tres juegos de cromosomas no vienen de un solo antepasado silvestre, " +
+          "sino de tres subespecies distintas de <em>Musa acuminata</em>. El plátano que te comes " +
+          "es un híbrido a tres bandas.",
+      },
+    ],
+  },
+  {
+    id: "empezo-en-orden-alfabetico",
+    titulo: "Por qué el teclado está en QWERTY",
+    categoria: "Tecnología",
+    color: "var(--clay)",
+    /* Serie «por-que-el-teclado-esta-en-qwerty», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El teclado empezó estando en orden alfabético» */
+    encargo: "El teclado empezó estando en orden alfabético",
+    fotos: [
+      {
+        local: p_empezo_en_orden_alfabetico,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El teclado empezó estando en orden alfabético",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer teclado de Sholes iba de la A a la Z",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Tienes uno delante ahora mismo, y su orden es tan raro que parece que alguien lo pensó " +
+          "mucho. Merece la pena empezar por el principio, porque el principio es justo lo " +
+          "contrario de lo que uno esperaría.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Christopher Latham Sholes construyó en Milwaukee la máquina que acabaría siendo la " +
+          "primera de éxito comercial, y su teclado de <strong>1868</strong> tenía veintiocho " +
+          "teclas colocadas en el orden más obvio del mundo: <strong>de la A a la Z</strong>. Las " +
+          "letras de la A a la N iban de izquierda a derecha, y de la O a la Z volvían de derecha " +
+          "a izquierda.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "O sea que el diseño de partida era el alfabético. Lo que hay que explicar no es por " +
+          "qué el teclado no está ordenado: es por qué dejó de estarlo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El QWERTY no fue el punto de partida, fue el punto de llegada. Sholes empezó por el " +
+          "alfabeto, que es exactamente donde empezaría cualquiera.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El orden cambió una y otra vez durante diez años",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que vino después no fue un rediseño, fue una sucesión de parches. La secuencia está " +
+          "documentada y es muy reveladora.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En <strong>1870</strong> el teclado tenía cuatro filas y seguía casi en orden " +
+          "alfabético, con una anomalía: la U estaba junto a la O. En <strong>1872</strong> la " +
+          "máquina había crecido a cuarenta y dos teclas, y varios cambios de esa versión " +
+          "respondían a peticiones concretas de las compañías de telégrafos. En " +
+          "<strong>1873</strong>, cuando Remington asumió la fabricación, la Y se movió junto a " +
+          "la T. Y todavía en <strong>1878</strong> hubo un último retoque: la M pasó al lado de " +
+          "la N y la C se intercambió con la X. Eso ya es el teclado que estás tocando.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y por qué tanto cambio en diez años, en vez de un diseño hecho de una vez? Es simple: " +
+          "<strong>no había un diseño, había clientes</strong>. Cada versión respondía a lo que " +
+          "pedía quien estaba comprando las máquinas en ese momento, y las peticiones fueron " +
+          "cambiando. El resultado no lo decidió nadie: se acumuló.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Merece la pena quedarse con esa idea, porque es la que explica todo lo demás. El " +
+          "QWERTY no es una solución a un problema. Es el sedimento de diez años de retoques que " +
+          "en algún momento dejaron de hacerse.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Nadie diseñó el QWERTY. Se depositó, capa sobre capa, hasta que un día alguien dejó de " +
+          "tocarlo y se quedó así para siempre.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? El arreglo se congeló porque saltó de máquina en máquina. En los años " +
+          "diez del siglo XX lo adoptó el teletipo, y el teletipo se convirtió después en el " +
+          "terminal habitual de los ordenadores. De ahí pasó al teclado de tu portátil sin que " +
+          "nadie volviera a preguntarse por qué estaba así.",
+      },
+    ],
+  },
+  {
     id: "los-dias-no-los-anos-si",
     titulo: "Por qué el tiempo pasa más rápido",
     categoria: "Cuerpo humano",
@@ -3703,6 +5324,115 @@ export const CURIOSIDADES: Short[] = [
           "de miel las abejas han tenido que evaporar del orden de tres kilos de agua, celda a " +
           "celda y batiendo las alas. Esa deshidratación es la mitad del trabajo de una colmena, " +
           "y es también la mitad de la razón por la que el resultado no se estropea.",
+      },
+    ],
+  },
+  {
+    id: "moradas-y-amarillas",
+    titulo: "Por qué la zanahoria es naranja",
+    categoria: "Naturaleza",
+    color: "var(--teal)",
+    /* Serie «por-que-la-zanahoria-es-naranja», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Las primeras zanahorias eran moradas y amarillas» */
+    encargo: "Las primeras zanahorias eran moradas y amarillas",
+    fotos: [
+      {
+        local: p_moradas_y_amarillas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Las primeras zanahorias eran moradas y amarillas",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La zanahoria salvaje es blanca, delgada y leñosa",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "<em>Daucus carota</em> crece silvestre por media Europa y buena parte de Asia, y su " +
+          "raíz no se parece en nada a la del supermercado: es pálida, fina, fibrosa y sin ningún " +
+          "interés culinario. Ese es el punto de partida.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La domesticación ocurrió, según el análisis genético más reciente, <strong>en la Alta " +
+          "Edad Media</strong>, en la franja que va de Asia occidental a Asia central. El origen " +
+          "concreto apunta a Afganistán, y posiblemente al norte de Irán y a Pakistán. La " +
+          "expansión de las poblaciones de zanahoria oriental arranca hace unos mil trescientos " +
+          "años.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y aquellas primeras zanahorias cultivadas no eran naranjas. Eran <strong>moradas y " +
+          "amarillas</strong>. Entre los años 900 y 1000 se extendieron desde Afganistán hasta el " +
+          "Mediterráneo oriental, y hacia el siglo XIV ya estaban en Europa occidental y en " +
+          "China. Siempre moradas y amarillas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Durante los primeros siglos de su historia como cultivo, la zanahoria fue morada o " +
+          "amarilla. El naranja no estaba en el catálogo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El naranja llegó tarde, y no fue un homenaje a nadie",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La versión que circula por todas partes es que los holandeses volvieron naranja la " +
+          "zanahoria en honor a Guillermo de Orange y a la casa real. Es una historia estupenda y " +
+          "no hay pruebas de ella.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "John Stolarczyk, conservador del World Carrot Museum, lo dice sin rodeos: no existe " +
+          "ninguna prueba documental de que los holandeses inventaran la zanahoria naranja para " +
+          "honrar a su familia real. Y hay además un problema de fechas, porque hay indicios de " +
+          "cultivo de zanahoria naranja en la España del siglo XIV, dos siglos antes de Guillermo " +
+          "de Orange.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y de dónde salió entonces el naranja? Es simple: <strong>de las amarillas</strong>. " +
+          "Las variedades amarillas del grupo occidental fueron acumulando mutaciones que subían " +
+          "la carga de pigmentos, los agricultores fueron quedándose con las más intensas, y de " +
+          "ahí salió el naranja. El estudio genómico de 2023 sitúa esa selección en Europa " +
+          "occidental, y el primer tipo naranja bien descrito aparece efectivamente en los Países " +
+          "Bajos, pero varios siglos después de que el color existiera.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que sí hicieron los holandeses fue lo que mejor sabían hacer: cultivarlo bien y " +
+          "venderlo por todo el continente hasta convertirlo en el estándar mundial. No " +
+          "inventaron el color. Montaron la distribución.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los holandeses no crearon la zanahoria naranja: la comercializaron tan bien que hoy " +
+          "nos parece que la zanahoria siempre fue de ese color.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Las variedades antiguas no desaparecieron del todo. Todavía se cultivan " +
+          "zanahorias blancas en zonas de Europa, casi siempre para alimentar ganado, y " +
+          "variedades rojas —no naranjas— en Japón, además de tipos tradicionales de distintos " +
+          "colores desde Turquía hasta la India y China.",
       },
     ],
   },
@@ -5432,6 +7162,113 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "El mosquito se llevó una gota de sangre. El bulto, el rojo y el picor los has " +
           "fabricado tú.",
+      },
+    ],
+  },
+  {
+    id: "perderse-en-un-centro-comercial",
+    titulo: "Por qué recuerdas mal cosas que juras haber vivido",
+    categoria: "Ciencia",
+    color: "var(--plum)",
+    /* Serie «por-que-recuerdas-mal-cosas-que-juras-haber-vivido», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un tercio de los voluntarios recordó perderse en un centro comercial donde nunca se perdió» */
+    encargo: "Un tercio de los voluntarios recordó perderse en un centro comercial donde nunca se perdió",
+    fotos: [
+      {
+        local: p_perderse_en_un_centro_comercial,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un tercio de los voluntarios recordó perderse en un centro comercial donde nunca se " +
+          "perdió",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El experimento consiste en plantar un recuerdo y ver si arraiga",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La psicóloga Elizabeth Loftus diseñó en los años noventa uno de los experimentos más " +
+          "incómodos de su disciplina, y su montaje es de una sencillez desarmante.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Se pide a la familia de cada voluntario que cuente episodios reales de su infancia. " +
+          "Con esos episodios se prepara un cuadernillo con cuatro relatos breves, y ahí está el " +
+          "truco: <strong>tres son verdad y uno es inventado</strong>. El falso siempre cuenta lo " +
+          "mismo, que la persona se perdió de pequeña en un centro comercial, pasó un rato " +
+          "llorando y acabó siendo devuelta a su familia por una señora mayor.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Luego se le pide al voluntario que lea los cuatro y escriba lo que recuerde de cada " +
+          "uno. Y en una segunda y una tercera entrevista se le vuelve a preguntar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el estudio original, de <strong>veinticuatro participantes</strong>, siete —el " +
+          "veintinueve por ciento— recordaban el episodio falso de forma parcial o completa. " +
+          "Seis, el <strong>veinticinco por ciento</strong>, seguían recordándolo en las " +
+          "entrevistas de seguimiento.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "A una de cada cuatro personas le bastó leer un párrafo inventado sobre su propia " +
+          "infancia para empezar a recordarlo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "No es un resultado antiguo que haya quedado en nada",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con un experimento así, la reacción sensata es preguntar si aguanta. Muchos hallazgos " +
+          "llamativos de la psicología de los años noventa no han sobrevivido a la comprobación " +
+          "posterior, y es justo comprobarlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Este sí. En <strong>2023</strong> se publicó una réplica preregistrada —es decir, con " +
+          "el método y el análisis fijados y públicos antes de recoger ni un solo dato, que es la " +
+          "forma más exigente de hacerlo— con <strong>ciento veintitrés participantes</strong>. " +
+          "El resultado no solo confirmó el original: lo superó. Un <strong>treinta y cinco por " +
+          "ciento</strong> de los participantes fue codificado como portador de un recuerdo " +
+          "falso, frente al veinticinco por ciento de 1995.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y cómo puede alguien recordar con detalle algo que no le pasó? Es simple: <strong>el " +
+          "cerebro rellena</strong>. No le entregas un recuerdo completo: le entregas un " +
+          "escenario plausible, y él aporta el resto con material propio. Centros comerciales que " +
+          "sí conoció, el miedo a perderse que sí sintió alguna vez, la cara de alguna señora " +
+          "mayor. Todo eso es real. Lo único falso es el montaje.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El experimento no instala un recuerdo entero en la cabeza de nadie. Solo pone la " +
+          "percha, y el propio recuerdo lo fabrica el que lo tiene.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Muchos participantes de este tipo de estudios añaden por su cuenta " +
+          "detalles que nadie les sugirió: la ropa que llevaban, el pasillo donde ocurrió, lo que " +
+          "les dijo la señora. Cuanto más se les pregunta, más rico se vuelve el recuerdo falso.",
       },
     ],
   },
@@ -7428,6 +9265,112 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "coladores-de-hace-7500-anos",
+    titulo: "Qué es realmente el queso",
+    categoria: "Historia",
+    color: "var(--plum)",
+    /* Serie «que-es-realmente-el-queso», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Hay coladores de hace 7.500 años que demuestran que ya se hacía queso» */
+    encargo: "Hay coladores de hace 7.500 años que demuestran que ya se hacía queso",
+    fotos: [
+      {
+        local: p_coladores_de_hace_7500_anos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Hay coladores de hace 7.500 años que demuestran que ya se hacía queso",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La leche fresca es un problema, no una solución",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para entender qué es el queso conviene ponerse en el sitio de un ganadero del " +
+          "Neolítico. Ordeñas un animal y obtienes un líquido nutritivo, sí, pero también " +
+          "extremadamente inestable: sin frío, la leche se estropea en cuestión de horas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir, ordeñar te da un alimento que no puedes guardar, no puedes transportar y no " +
+          "puedes acumular para el invierno. Un recurso que hay que consumir entero en el mismo " +
+          "día pierde buena parte de su valor.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El queso es la respuesta a ese problema, y por eso es tan antiguo. Convertir un " +
+          "líquido perecedero en un sólido compacto que aguanta semanas o meses no es una idea " +
+          "gastronómica: es una técnica de conservación, y probablemente una de las primeras que " +
+          "inventamos.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El queso no nació como un capricho de sabor. Nació como la manera de que la leche del " +
+          "martes se pudiera comer en noviembre.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Unas vasijas agujereadas del norte de Europa lo demostraron",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En yacimientos del norte de Europa aparecen desde hace décadas unas cerámicas raras " +
+          "del sexto milenio antes de Cristo: recipientes de barro perforados por <strong>decenas " +
+          "de agujeros de un milímetro</strong>, muy parecidos a los coladores de queso modernos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1984, el arqueólogo Peter Bogucki propuso que eso era exactamente lo que eran. Era " +
+          "una hipótesis razonable, y durante casi treinta años siguió siendo solo eso, porque un " +
+          "objeto agujereado puede servir para muchas cosas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y cómo se comprueba lo que pasó por unos agujeros hace siete mil quinientos años? Es " +
+          "simple: <strong>la grasa se queda en el barro</strong>. La cerámica sin vidriar es " +
+          "porosa, y las grasas del alimento que contuvo se meten en esos poros y se quedan ahí, " +
+          "protegidas del oxígeno y de las bacterias, durante milenios. Después basta con " +
+          "extraerlas y mirar su composición molecular y su firma isotópica, que dicen de qué " +
+          "animal y de qué tejido salieron.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando se hizo ese análisis, los coladores estaban <strong>cargados de grasa de " +
+          "leche</strong>. No de carne, no de pescado: leche. Es la prueba más antigua conocida " +
+          "de elaboración de queso, y confirmó una intuición que llevaba tres décadas esperando.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La prueba de que hace siete mil quinientos años se hacía queso no estaba en un texto " +
+          "ni en un dibujo: estaba metida en los poros de un colador de barro.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? El queso más antiguo que se conserva de verdad, no como residuo sino " +
+          "como queso, apareció en el cementerio de Xiaohe, en el noroeste de China. Tiene unos " +
+          "tres mil seiscientos años y estaba untado alrededor del cuello de tres momias. En 2024 " +
+          "se le secuenció el ADN: era kéfir, y sus bacterias resultaron emparentadas con las de " +
+          "las variedades tibetanas actuales.",
+      },
+    ],
+  },
+  {
     id: "hasta-1925-el-universo-era-esta-galaxia",
     titulo: "Qué es una galaxia",
     categoria: "Ciencia",
@@ -7589,6 +9532,473 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Doce estrellas parpadeantes bastaron para que el universo dejara de ser un sitio y " +
           "pasara a ser billones de sitios.",
+      },
+    ],
+  },
+  {
+    id: "un-nombre-del-siglo-xix",
+    titulo: "Qué fue la Ruta de la Seda",
+    categoria: "Historia",
+    color: "var(--slate)",
+    /* Serie «que-fue-la-ruta-de-la-seda», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La Ruta de la Seda es un nombre inventado en el siglo XIX» */
+    encargo: "La Ruta de la Seda es un nombre inventado en el siglo XIX",
+    fotos: [
+      {
+        local: p_un_nombre_del_siglo_xix,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La Ruta de la Seda es un nombre inventado en el siglo XIX",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nadie de los que la usaron la llamó así, porque nadie sabía que existía",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante mil quinientos años hubo mercaderes, monjes, soldados y arrieros moviéndose " +
+          "entre China, Asia Central, Persia y el Mediterráneo. Ninguno de ellos usó jamás la " +
+          "expresión «Ruta de la Seda», y no por falta de imaginación. Es que el concepto no " +
+          "existía.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El nombre lo puso un geólogo alemán, el barón <strong>Ferdinand von " +
+          "Richthofen</strong>, a mediados del siglo XIX. Él fue quien bautizó aquella red de " +
+          "comercio y comunicación como <em>die Seidenstrasse</em>, la carretera de la seda, y el " +
+          "nombre funcionó tan bien que se quedó.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí conviene entender por qué a nadie de dentro se le habría ocurrido. Un mercader de " +
+          "Samarcanda que carga camellos hacia el este no cree estar recorriendo una gran arteria " +
+          "intercontinental. Cree estar yendo a la siguiente ciudad a vender género, como llevaba " +
+          "haciendo su padre. La Ruta de la Seda es una figura que solo aparece cuando alguien se " +
+          "aleja lo suficiente y mira el mapa entero desde arriba. Y para eso hacía falta el " +
+          "siglo XIX.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La Ruta de la Seda es un nombre puesto desde fuera y desde muy lejos en el tiempo. Los " +
+          "que la recorrieron creían estar yendo a la ciudad de al lado.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "No era una ruta, era una red que cambiaba cada pocos años",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La palabra «ruta», en singular, hace un daño enorme. Sugiere una línea en el mapa, una " +
+          "especie de carretera antigua que se podría señalar con el dedo. No existió tal cosa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que había era un conjunto de itinerarios alternativos que atravesaban Europa " +
+          "oriental, Oriente Medio, Asia Central y Extremo Oriente, más una parte marítima que " +
+          "unía China y el sudeste asiático con la India, el Próximo Oriente y África a través " +
+          "del océano Índico. No una carretera: una <strong>malla</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y por qué no se consolidó nunca un único camino, como pasa con las calzadas romanas? " +
+          "Es simple: <strong>mandaba el terreno y mandaba la política</strong>. Entre China y el " +
+          "Mediterráneo hay desiertos que solo se cruzan saltando de oasis en oasis y cordilleras " +
+          "que solo se pasan por unos pocos collados. A eso se le suma que cada tramo atravesaba " +
+          "territorios de poderes distintos, que subían peajes, se peleaban entre ellos o " +
+          "cerraban pasos. Un itinerario que funcionaba durante una generación podía volverse " +
+          "impracticable en la siguiente, y el tráfico se desviaba por otro lado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí sale, además, la geografía de las ciudades. Las grandes plazas comerciales de " +
+          "Asia Central no están donde están por casualidad: están donde el agua y los pasos " +
+          "obligaban a parar.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No era una carretera con un principio y un final, sino una malla que se reconfiguraba " +
+          "cada vez que cambiaban el clima, el peaje o el rey de turno.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Por esas rutas viajaban textiles, especias, cereales, frutas y verduras, " +
+          "pieles, herramientas, objetos de madera y metal, piezas religiosas, obras de arte y " +
+          "piedras preciosas. La seda fue solo uno de los primeros motores del comercio, y darle " +
+          "el nombre a todo el sistema es como llamar «la ruta del café» a la navegación " +
+          "atlántica.",
+      },
+    ],
+  },
+  {
+    id: "las-lapidas-fechadas",
+    titulo: "Qué fue realmente la peste negra",
+    categoria: "Historia",
+    color: "var(--clay)",
+    /* Serie «que-fue-realmente-la-peste-negra», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El origen se encontró en un cementerio con las lápidas fechadas» */
+    encargo: "El origen se encontró en un cementerio con las lápidas fechadas",
+    fotos: [
+      {
+        local: p_las_lapidas_fechadas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El origen se encontró en un cementerio con las lápidas fechadas",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Durante seiscientos años no se supo de dónde había salido",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La Peste Negra que arrasó Europa a mediados del siglo XIV es probablemente la " +
+          "catástrofe mejor documentada de la Edad Media. Hay crónicas, testamentos, registros " +
+          "parroquiales y libros de contabilidad que la siguen ciudad por ciudad. Lo que no " +
+          "había, hasta hace muy poco, era el principio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Se sabía que había llegado desde el este, porque así lo cuentan las fuentes. Pero " +
+          "«desde el este» abarca media Asia, y las propuestas iban desde China hasta la estepa " +
+          "del mar Negro sin manera de decidir entre ellas. Ni siquiera estaba cerrado qué " +
+          "enfermedad era exactamente, hasta que el ADN antiguo extraído de víctimas confirmó a " +
+          "la bacteria <em>Yersinia pestis</em> como responsable.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema del origen es más difícil que el de la causa. Para resolverlo no basta con " +
+          "encontrar la bacteria: hay que encontrar el punto exacto del árbol genealógico de la " +
+          "bacteria donde arranca todo lo demás.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Saber qué mató a un tercio de Europa fue la parte fácil. Saber dónde empezó exigía " +
+          "encontrar la rama concreta del árbol de la que salen todas las demás.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "En un valle de Kirguistán había un cementerio que ya lo decía",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el valle de Chu, cerca del lago Issyk-Kul, en el actual Kirguistán, hay un " +
+          "cementerio medieval llamado Kara-Djigach que se excavó entre 1885 y 1892. Sus lápidas " +
+          "están escritas en siriaco, y llevaban más de un siglo publicadas cuando alguien reparó " +
+          "en un detalle.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En los años 1338 y 1339 hay una concentración anómala de enterramientos. Y varias de " +
+          "esas lápidas dicen de qué murió la persona. Una de ellas se traduce así: «En el año " +
+          "1649 —es decir, 1338 de nuestra era—. Esta es la tumba del creyente Sanmaq. Murió de " +
+          "pestilencia.»",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un cementerio con un pico de mortalidad, en la fecha justa antes de que la peste " +
+          "llegara a Europa, y con la causa escrita en la piedra. ¿Y cómo se pasa de ahí a una " +
+          "certeza? Es simple: <strong>abriendo las tumbas</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El equipo recuperó ADN de <em>Yersinia pestis</em> de restos fechados en 1338 y " +
+          "reconstruyó su genoma. Al colocarlo en el árbol evolutivo de la bacteria, cayó " +
+          "<strong>exactamente en el nodo</strong> del que salen las principales ramas modernas, " +
+          "la ramificación explosiva que los especialistas llaman el «big bang» de la peste. No " +
+          "es una cepa emparentada con la de la Peste Negra: es su antepasado directo, con fecha.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La respuesta llevaba ciento treinta años excavada y publicada. Estaba escrita en unas " +
+          "lápidas que decían la fecha y la causa, y faltaba mirar dentro.",
+      },
+      {
+        b: "cita",
+        texto:
+          "Encontramos que las cepas antiguas de Kirguistán se sitúan exactamente en el nodo de " +
+          "ese enorme episodio de diversificación. Dicho de otro modo: encontramos la cepa de " +
+          "origen de la Peste Negra, y además conocemos su fecha exacta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "— Maria Spyrou, <em>Nature</em> (2022)",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? La peste no se extinguió después de la Edad Media. <em>Yersinia " +
+          "pestis</em> sigue circulando hoy en roedores de varios continentes y cada año se " +
+          "registran casos humanos, que se tratan con antibióticos. Lo que desapareció no fue la " +
+          "bacteria, fue su capacidad de arrasar poblaciones enteras.",
+      },
+    ],
+  },
+  {
+    id: "mil-atmosferas",
+    titulo: "Qué hay en el fondo de las Marianas",
+    categoria: "Naturaleza",
+    color: "var(--teal)",
+    /* Serie «que-hay-en-el-fondo-de-la-fosa-de-las-marianas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Once kilómetros de agua encima, y mil atmósferas de presión» */
+    encargo: "Once kilómetros de agua encima, y mil atmósferas de presión",
+    fotos: [
+      {
+        local: p_mil_atmosferas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Once kilómetros de agua encima, y mil atmósferas de presión",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El punto más profundo del planeta está donde una placa se mete debajo de otra",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La fosa de las Marianas no es un agujero: es una <strong>arruga</strong>. Se forma " +
+          "donde la placa del Pacífico se hunde por debajo de la placa filipina, y ese proceso de " +
+          "subducción va tirando del fondo marino hacia abajo a lo largo de miles de kilómetros.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Su punto más hondo se llama el Abismo Challenger, y está a <strong>10.935 " +
+          "metros</strong> bajo la superficie. Para hacerse una idea: si cogieras el Everest " +
+          "entero y lo dejaras caer ahí dentro, todavía quedarían más de dos kilómetros de agua " +
+          "por encima de la cumbre.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo interesante no es la cifra en sí, sino lo que implica once kilómetros de agua " +
+          "puestos encima de algo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El punto más profundo del océano no está en mitad del mar: está justo en la costura " +
+          "donde una placa tectónica se está tragando a otra.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La presión ahí abajo supera las mil atmósferas",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el fondo del Abismo Challenger la presión pasa de <strong>1.089 " +
+          "atmósferas</strong>, unas dieciséis mil libras por pulgada cuadrada. Es un peso " +
+          "difícil de imaginar: equivale aproximadamente a que te apoyaran una tonelada sobre " +
+          "cada centímetro cuadrado de piel.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y aquí viene la pregunta que casi todo el mundo se hace mal. ¿Cómo es posible que haya " +
+          "animales viviendo tan campantes ahí abajo? Es simple: <strong>porque no llevan aire " +
+          "dentro</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un submarino se aplasta porque es una burbuja de aire a presión de superficie metida " +
+          "en un sitio donde fuera hay mil atmósferas, y esa diferencia enorme entre dentro y " +
+          "fuera es lo que revienta el casco. Un animal hecho de agua y tejido, sin cavidades " +
+          "llenas de gas, no tiene esa diferencia: dentro hay la misma presión que fuera, y no " +
+          "hay nada que aplastar. El agua, además, prácticamente no se comprime.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que la presión sí ataca no es la forma, es la <strong>química</strong>. A esas " +
+          "presiones las proteínas se deforman y dejan de funcionar bien, y ese, y no el " +
+          "aplastamiento, es el problema real que la vida abisal ha tenido que resolver.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La presión no aplasta a los animales del fondo porque dentro de ellos hay la misma " +
+          "presión que fuera. Su problema no es mecánico: es que a mil atmósferas las proteínas " +
+          "dejan de plegarse bien.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? El 23 de enero de 1960, Don Walsh y Jacques Piccard bajaron hasta allí " +
+          "en el batiscafo <em>Trieste</em>. Tardaron cuatro horas y cuarenta y siete minutos en " +
+          "descender, aguantaron veinte minutos en el fondo en vez de los treinta previstos " +
+          "porque el sedimento levantado no dejaba ver nada, y subieron con una ventana " +
+          "agrietada. Fueron los primeros.",
+      },
+    ],
+  },
+  {
+    id: "dos-mil-anos-antes-de-los-druidas",
+    titulo: "Quién construyó Stonehenge y para qué",
+    categoria: "Historia",
+    color: "var(--ochre)",
+    /* Serie «quien-construyo-stonehenge-y-para-que», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Stonehenge estaba terminado dos mil años antes de que existieran los druidas» */
+    encargo: "Stonehenge estaba terminado dos mil años antes de que existieran los druidas",
+    fotos: [
+      {
+        local: p_dos_mil_anos_antes_de_los_druidas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Stonehenge estaba terminado dos mil años antes de que existieran los druidas",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El monumento se construyó en fases, a lo largo de más de mil años",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Stonehenge no es un edificio que alguien levantara en una campaña de obras. Es un " +
+          "sitio que se fue transformando durante más de un milenio, y saber en qué orden " +
+          "ocurrieron las cosas cambia por completo la pregunta de quién lo hizo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo primero que hubo allí no fue de piedra. Hacia el año 3000 antes de Cristo se excavó " +
+          "un recinto circular con foso y terraplén, un henge, con cincuenta y seis agujeros " +
+          "alrededor que sostuvieron postes de madera o de piedra. Durante siglos ese recinto " +
+          "funcionó como <strong>cementerio de cremación</strong>: la gente llevaba allí a sus " +
+          "muertos incinerados mucho antes de que se plantara la primera piedra grande.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los círculos de piedra que todo el mundo tiene en la cabeza llegaron después, hacia el " +
+          "2500 antes de Cristo. Y ni siquiera entonces quedó terminado: las piedras azules se " +
+          "recolocaron al menos una vez más, y siglos después todavía se estaban excavando " +
+          "anillos de hoyos alrededor del conjunto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Merece la pena fijar esas fechas, porque son las que ordenan todo lo demás. Aquel " +
+          "primer recinto del 3000 antes de Cristo es unos cuatro siglos más antiguo que la Gran " +
+          "Pirámide de Guiza, y las grandes piedras se levantaron más o menos cuando esta se " +
+          "terminaba.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Stonehenge empezó siendo un cementerio con foso y postes de madera. Las piedras " +
+          "llegaron quinientos años después, a un sitio que ya era sagrado.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La imagen del druida entre las piedras la inventó un libro de 1740",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Casi todo el mundo asocia Stonehenge con los druidas. La asociación es tan fuerte que " +
+          "hoy se celebran allí ceremonias druídicas, y sin embargo no hay ni una sola prueba de " +
+          "que los druidas tuvieran nada que ver con el monumento.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema es de calendario. Los druidas aparecen en la segunda mitad del primer " +
+          "milenio antes de Cristo, hace unos dos mil cuatrocientos años. Stonehenge se construyó " +
+          "hace entre cuatro mil y cinco mil. Cuando el primer druida del que tenemos noticia " +
+          "pisó Gran Bretaña, aquellas piedras llevaban en pie unos dos mil años, más o menos la " +
+          "distancia que nos separa a nosotros del Imperio romano.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿De dónde sale entonces la imagen? Es simple: <strong>de un error del siglo " +
+          "XVIII</strong>. Cuando se aceptó que el monumento lo habían levantado los antiguos " +
+          "britanos, los únicos antiguos britanos de los que se tenía noticia escrita eran los " +
+          "druidas, así que se les atribuyó. John Aubrey lo sugirió en el siglo XVII y William " +
+          "Stukeley lo consolidó en 1740 con un libro cuyo título ya lo dice todo: " +
+          "<em>Stonehenge, un templo restaurado a los druidas británicos</em>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay además un detalle que lo desmonta desde dentro. Los autores clásicos que " +
+          "describieron a los druidas los sitúan celebrando sus ritos en claros de bosque, entre " +
+          "árboles. Ninguno los relaciona con monumentos de piedra.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los druidas llegaron dos mil años tarde a Stonehenge. La conexión no la hizo la " +
+          "arqueología: la hizo un anticuario del siglo XVIII que no tenía otro candidato a mano.",
+      },
+      {
+        b: "cita",
+        texto:
+          "Los autores clásicos se referían a los antiguos druidas practicando el culto " +
+          "únicamente en bosquecillos. No hay mención alguna de un vínculo entre los druidas y " +
+          "los monumentos de piedra.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "— Mike Parker Pearson, arqueólogo",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Antes de los druidas hubo un candidato aún peor. Hacia 1136, Godofredo " +
+          "de Monmouth escribió que las piedras formaban un círculo llamado la Danza de los " +
+          "Gigantes, en el monte Killaraus de Irlanda, y que el mago Merlín las desmontó y las " +
+          "trajo hasta la llanura de Salisbury. Esa fue la explicación que circuló durante " +
+          "siglos.",
       },
     ],
   },
