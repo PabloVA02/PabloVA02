@@ -370,7 +370,9 @@ const dentro = [];
 const fuera = [];
 for (const ruta of rutas) {
   const t = leeTema(ruta);
-  if (!existsSync(join(PORTADAS, `${t.id}.avif`))) { fuera.push(t); continue; }
+  /* La copia de servir es la que se importa, así que es la que decide si un
+     short puede entrar. Si falta, es que hay que pasar `portadas-servir.mjs`. */
+  if (!existsSync(join(PORTADAS, "servir", `${t.id}.avif`))) { fuera.push(t); continue; }
   if (fueraDeVitrina.has(t.id)) continue;
   dentro.push(t);
 }
@@ -379,8 +381,16 @@ const L = [];
 L.push('import type { Short } from "../shorts";');
 L.push("/* Las portadas, empotradas: el artefacto que abre Pablo bloquea cualquier");
 L.push("   imagen de fuera, así que la que él ve tiene que viajar dentro. Las de");
-L.push("   Commons no llevan `import`: se piden por red y `movil.mjs` las empotra. */");
-for (const t of dentro) if (!FOTOS[t.id]?.commons) L.push(`import p_${t.id.replace(/-/g, "_")} from "../../portadas/${t.id}.avif";`);
+L.push("   Commons no llevan `import`: se piden por red y `movil.mjs` las empotra.");
+L.push("");
+L.push("   SE IMPORTA LA COPIA DE `portadas/servir/`, NO LA MAESTRA. La maestra es");
+L.push("   de 2160 × 3840 y pesa un mega: guardarla así es lo que pidió Pablo y");
+L.push("   sigue en pie, pero servírsela al teléfono era pedirle que se bajara");
+L.push("   nueve veces más píxeles de los que caben en su pantalla. Lo dijo él con");
+L.push("   la app instalada: «tarda un montón en cargar las imágenes y va un poco");
+L.push("   lageado». La copia de servir va a 1290, el ancho del iPhone más grande");
+L.push("   que existe. Ver `scripts/portadas-servir.mjs`. */");
+for (const t of dentro) if (!FOTOS[t.id]?.commons) L.push(`import p_${t.id.replace(/-/g, "_")} from "../../portadas/servir/${t.id}.avif";`);
 L.push("");
 L.push("/* ==========================================================================");
 L.push("   CURIOSIDADES — LO ESCRIBE `scripts/catalogo.mjs`, NO SE EDITA A MANO");

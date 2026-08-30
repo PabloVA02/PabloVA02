@@ -183,6 +183,22 @@ function ventana(meta, foco) {
   };
 }
 
+/** El color del borde de una imagen, que es el fondo con el que rellenar.
+ *
+ *  Se mira una franja de un píxel del borde izquierdo y se saca su media: en
+ *  un bodegón de fondo liso da exactamente ese fondo, y es más fiable que
+ *  escribir el color a mano y que se desvíe un tono.
+ */
+async function bordeDe(ruta) {
+  const m = await sharp(ruta).metadata();
+  const { data } = await sharp(ruta)
+    .extract({ left: 0, top: 0, width: Math.max(1, Math.round(m.width * 0.01)), height: m.height })
+    .resize(1, 1)
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+  return { r: data[0], g: data[1], b: data[2] };
+}
+
 /* ---- el procesado ------------------------------------------------------- */
 
 /** El ancho útil de un original DESPUÉS de recortarlo a 9:16.
@@ -213,6 +229,27 @@ async function procesa(ruta, tema) {
   const alto = Math.round((ancho * ALTO) / ANCHO);
 
   mkdirSync(SALIDA, { recursive: true });
+
+  /* AIRE: el mismo recorte, un poco más pequeño, con un margen de color.
+   *
+   * Para los bodegones no hay ventana que valga. La de la cerveza es 7172 ×
+   * 4782 y la jarra ocupa casi todo el alto: cualquier ventana 9:16 que la
+   * incluya entera la deja pegada a los cuatro bordes, y Pablo lo dijo así
+   * —«la cerveza sin cuadrar»—. No es que el encuadre esté mal elegido: es
+   * que con ese ancho no cabe una ventana más grande.
+   *
+   * Lo que sí se puede es encoger lo recortado y rellenar el borde. Funciona
+   * porque estas fotos son de estudio y su fondo ya es liso: con el negro de
+   * la propia foto el margen no se ve como un relleno, se ve como la foto.
+   *
+   * Se hace DESPUÉS de recortar y no en vez de recortar. Metiendo la foto
+   * entera —que fue el primer intento— la jarra salía diminuta en medio de un
+   * mar de negro, porque una foto 3:2 dentro de un 9:16 deja bandas enormes.
+   * Recortando primero, la jarra sale grande Y con margen.
+   *
+   * `aire` es el margen en tanto por uno. `fondo` el color; si no se dice, se
+   * toma el del borde de la propia imagen, que casi siempre es el bueno. */
+
   const base = foco
     ? sharp(ruta, { failOn: "none" }).extract(ventana(meta, foco)).resize(ancho, alto)
     : sharp(ruta, { failOn: "none" }).resize(ancho, alto, {
@@ -239,8 +276,19 @@ async function procesa(ruta, tema) {
       });
   const avif = join(SALIDA, `${tema}.avif`);
   const webp = join(SALIDA, `${tema}.webp`);
-  await base.clone().avif({ quality: AVIF, effort: 6 }).toFile(avif);
-  await base.clone().webp({ quality: WEBP }).toFile(webp);
+
+  let fuente = base;
+  if (foco?.aire) {
+    const margen = Math.min(0.35, Math.max(0, foco.aire));
+    const dentro = Math.round(ancho * (1 - margen * 2));
+    const fondo = foco.fondo ?? (await bordeDe(ruta));
+    const encogida = await base.clone().resize(dentro, Math.round(dentro * alto / ancho)).png().toBuffer();
+    fuente = sharp({ create: { width: ancho, height: alto, channels: 3, background: fondo } })
+      .composite([{ input: encogida, gravity: "centre" }]);
+  }
+
+  await fuente.clone().avif({ quality: AVIF, effort: 6 }).toFile(avif);
+  await fuente.clone().webp({ quality: WEBP }).toFile(webp);
 
   return {
     ancho_original: meta.width,

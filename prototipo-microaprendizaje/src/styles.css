@@ -7217,6 +7217,42 @@ button {
   height: 100dvh;
   min-height: 0;
 }
+
+/* EL HUECO DE DEBAJO DE LA BARRA, Y POR QUÉ SALÍA SOLO EN EL MÓVIL DE VERDAD.
+ *
+ * Pablo, el 30 de agosto, con la app ya instalada en su iPhone: «se ve
+ * diferente que cuando abro el simulador, debajo del banner hay un hueco
+ * abajo». Y tenía razón: una franja de color distinto entre la barra de
+ * pestañas y el borde inferior de la pantalla.
+ *
+ * Lo que se veía ahí era el `body`, que va de `--paper-deep` —en tema oscuro,
+ * el morado #241f2b, exactamente el color de la franja—. O sea que la carcasa
+ * no llegaba al fondo y por debajo asomaba la página.
+ *
+ * En el simulador no se ve NUNCA, y por eso llevaba días ahí: el simulador
+ * dibuja un móvil dentro de una página de ordenador, sin área segura y sin
+ * barra de inicio. Es el mismo tipo de fallo que el doble descuento del área
+ * segura de la hoja de texto: cosas que solo existen en un teléfono.
+ *
+ * Se arregla anclando el escenario a la ventana con `fixed` e `inset: 0`, que
+ * es la única manera fiable en iOS de cubrir la pantalla entera incluyendo lo
+ * que hay debajo de la rayita de inicio. `100dvh` debería bastar y no basta.
+ *
+ * Y de cinturón, el `body` pinta el mismo color que la carcasa: si algún día
+ * vuelve a quedar un pixel sin cubrir, no se verá. */
+@media (max-width: 519px) {
+  .stage {
+    position: fixed;
+    inset: 0;
+    height: auto;
+  }
+  .shell {
+    height: 100%;
+  }
+  body {
+    background: var(--paper);
+  }
+}
 /* El alto de la barra de pestañas, en un solo sitio. Lo usan la barra y el
    relleno de abajo de la hoja de texto, y por eso no puede estar escrito dos
    veces: la última vez que lo estuvo, el área segura se restó dos veces. */
