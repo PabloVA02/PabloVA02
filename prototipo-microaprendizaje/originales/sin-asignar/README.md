@@ -39,6 +39,9 @@ portada pequeña.
 | `VenasAzules.jpg` | 2648 × 2358 | **1326** | 318 | Por qué se ven azules las venas |
 | `CopoDeNieve.jpg` | 1944 × 2592 | **1458** | 186 | Por qué no hay dos copos iguales |
 | `NoNosAcordamos-Dormir.jpg` | 1848 × 2768 | **1557** | **87** | Por qué no recuerdas cuándo te dormiste |
+| `AlexanderFleming.jpg` | 960 × 1363 | **767** | 877 | Cómo se descubrió la penicilina |
+| `newton-seeman-9x16.jpg` | 1080 × 1920 | **1080** | 564 | Quién fue Isaac Newton |
+| `tesla-retrato.jpg` | 1800 × 2793 | **1571** | **73** | Quién fue Nikola Tesla |
 | `Megalodon.jpg` | 960 × 863 | **485** | 1.159 | — |
 | `Asteroide.jpg` | 2160 × 2700 | **1519** | 125 | — |
 
@@ -56,6 +59,14 @@ estirón, que es de lo que no se ve. No entra porque él dijo «si alguna no es 
 esa calidad me lo dices y no la pones», y una regla que se salta cuando el
 número aprieta poco deja de ser una regla. Pero es la primera candidata a
 entrar si dice que sí.
+
+**Y las tres de retratos históricos tienen la misma solución, que además es
+fácil.** Fleming, Newton y Tesla son casi con seguridad de Wikimedia Commons:
+fotografías y grabados antiguos, en dominio público. **Commons guarda esos
+escaneados a resolución enorme** —de tres a ocho mil píxeles— y lo que se
+descarga por defecto suele ser una vista previa. Buscar la misma imagen en
+Commons y pulsar en el archivo original resuelve las tres de una vez. La de
+Tesla se queda además a solo 73 píxeles del listón, un 4 %.
 
 `Megalodon.jpg` es de las de 960 px: apaisada además, así que al recortarla a
 9:16 se queda en 485, menos de un tercio del listón. Y `Asteroide.jpg` es el
