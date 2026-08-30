@@ -60,3 +60,19 @@ dist-shorts/
 #
 # Lo que pesan hoy: unos treinta megas de fotografía en bruto. El `.git` ya
 # anda por seiscientos, así que no es lo que lo hace grande.
+
+# LA COMPILACIÓN WEB, `docs/`, DEJA DE VIAJAR AQUÍ — 30 de agosto de 2026.
+#
+# Estaba commiteada porque GitHub Pages tenía que servirla desde ESTE
+# repositorio. Ya no: la app se publica desde `PabloVA02/curva`, que se creó
+# para no ocupar `pablova02.github.io` —este es el repositorio de PERFIL de
+# Pablo— y allí sí va commiteada, que es su único cometido.
+#
+# Aquí se ha vuelto una copia derivada de 91 MB por compilación, y cada
+# compilación cambia el hash de las 64 portadas: serían 91 MB nuevos en el
+# historial cada vez que se toque una coma. Todo lo que hay dentro sale de
+# `portadas/`, `src/` y un `vite build`, así que no se pierde nada.
+#
+#     npx vite build --config vite.web.config.mjs   # la deja en docs/
+#     cp -r docs/* /home/user/curva/docs/           # y de ahí se publica
+docs/
