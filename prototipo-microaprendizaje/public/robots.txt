@@ -1,0 +1,11 @@
+# Que la app no salga en las búsquedas.
+#
+# Pablo, el 30 de agosto: «me da un poco de miedo tener todo esto público por
+# si me lo roban». Esto no la esconde —quien tenga el enlace entra, y eso es
+# inevitable en algo que se abre en el móvil sin contraseña—, pero evita que
+# aparezca buscando en Google, que es como se encuentran las cosas de verdad.
+#
+# Va acompañado de la etiqueta `noindex` en el HTML, que es la que obedecen los
+# buscadores serios aunque no lean este fichero.
+User-agent: *
+Disallow: /
