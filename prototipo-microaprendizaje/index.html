@@ -4,9 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Curva · prototipo de microaprendizaje</title>
+
+    <!-- QUE SE PUEDA INSTALAR EN EL MÓVIL. Pablo, el 30 de agosto: «¿es posible
+         que de alguna forma me instale la app en mi móvil e ir probándola poco
+         a poco?». Con esto, «Añadir a pantalla de inicio» deja un icono suyo y
+         la abre a pantalla completa, sin las barras del navegador. -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="theme-color" content="#151515" />
+    <link rel="apple-touch-icon" href="./icono-180.png" />
+    <link rel="icon" type="image/png" href="./icono-192.png" />
+
+    <!-- Las dos de iOS. `black-translucent` es lo que deja el fondo subir por
+         debajo de la hora y la batería; la maqueta ya cuenta con ello, que
+         para eso lleva `viewport-fit=cover` y los márgenes del área segura. -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Curva" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- El trabajador de servicio, solo cuando la página se sirve por HTTPS o
+         desde el propio ordenador: en cualquier otro sitio el navegador lo
+         rechaza y solo ensucia la consola. Registrarlo aquí y no en el código
+         de la app es a propósito: no depende de que React arranque. -->
+    <script>
+      if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("./sw.js").catch(function () {
+            /* Sin conexión o sin permiso: la app funciona igual, solo que sin
+               guardar nada para la próxima. No es un error que haya que
+               contarle a nadie. */
+          });
+        });
+      }
+    </script>
   </body>
 </html>
