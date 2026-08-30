@@ -217,10 +217,24 @@ async function procesa(ruta, tema) {
     ? sharp(ruta, { failOn: "none" }).extract(ventana(meta, foco)).resize(ancho, alto)
     : sharp(ruta, { failOn: "none" }).resize(ancho, alto, {
         fit: "cover",
-        /* `attention` y no `centre`: busca la zona de más detalle. En una
-           portada vertical sacada de una imagen apaisada, el centro
-           geométrico suele ser cielo o pared. */
-        position: sharp.strategy.attention,
+        /* EL CENTRO, Y NO `attention`. Estuvo en `attention` —que busca la zona
+           con más detalle— con el argumento de que en una foto apaisada el
+           centro geométrico suele ser cielo o pared. Suena bien y en la
+           práctica descoloca: mueve el encuadre a donde hay textura, no a
+           donde está el motivo.
+
+           Pablo lo vio enseguida y con tres ejemplos: «la del flato se ve como
+           muy de cerca, la cerveza sale cortada, la de la calavera no está del
+           todo bien centrada; ponlas más o menos tal como te las paso». En la
+           de la peste el algoritmo se fue a la derecha y cortó el pico de la
+           máscara; en la del flato dejó al corredor pegado al borde.
+
+           El centro es lo que se parece a lo que él manda: sus fotos están
+           elegidas con el motivo en medio, así que recortar por el centro
+           quita lo que sobra por igual a los dos lados y no inventa un
+           encuadre nuevo. Cuando el centro no acierta —pasa, y son pocas— se
+           dice a mano en `assets/recortes.json`, que para eso está. */
+        position: "centre",
         withoutEnlargement: false,
       });
   const avif = join(SALIDA, `${tema}.avif`);
