@@ -10,23 +10,39 @@ import type { Short } from "../shorts";
    la app instalada: «tarda un montón en cargar las imágenes y va un poco
    lageado». La copia de servir va a 1290, el ancho del iPhone más grande
    que existe. Ver `scripts/portadas-servir.mjs`. */
+import p_como_calienta_un_microondas from "../../portadas/servir/como-calienta-un-microondas.avif";
+import p_como_cancelan_el_ruido_unos_auriculares from "../../portadas/servir/como-cancelan-el-ruido-unos-auriculares.avif";
 import p_la_costra_no_esta_curando_nada from "../../portadas/servir/la-costra-no-esta-curando-nada.avif";
+import p_como_enfria_una_nevera from "../../portadas/servir/como-enfria-una-nevera.avif";
 import p_los_de_la_cebada from "../../portadas/servir/los-de-la-cebada.avif";
 import p_como_erupciona_un_volcan from "../../portadas/servir/como-erupciona-un-volcan.avif";
+import p_como_funciona_el_wifi from "../../portadas/servir/como-funciona-el-wifi.avif";
+import p_como_funciona_la_bolsa_de_valores from "../../portadas/servir/como-funciona-la-bolsa-de-valores.avif";
 import p_la_gravedad_no_es_una_fuerza from "../../portadas/servir/la-gravedad-no-es-una-fuerza.avif";
+import p_como_funciona_un_coche from "../../portadas/servir/como-funciona-un-coche.avif";
 import p_como_funciona_un_hormiguero from "../../portadas/servir/como-funciona-un-hormiguero.avif";
 import p_como_funciona_una_cerilla from "../../portadas/servir/como-funciona-una-cerilla.avif";
+import p_como_funciona_una_cerradura from "../../portadas/servir/como-funciona-una-cerradura.avif";
+import p_como_funciona_una_pantalla_tactil from "../../portadas/servir/como-funciona-una-pantalla-tactil.avif";
+import p_como_genera_electricidad_un_molino_de_viento from "../../portadas/servir/como-genera-electricidad-un-molino-de-viento.avif";
+import p_como_genera_electricidad_una_placa_solar from "../../portadas/servir/como-genera-electricidad-una-placa-solar.avif";
+import p_como_se_aguanta_en_pie_un_rascacielos from "../../portadas/servir/como-se-aguanta-en-pie-un-rascacielos.avif";
 import p_diario_de_a_bordo from "../../portadas/servir/diario-de-a-bordo.avif";
+import p_como_se_construyo_el_canal_de_panama from "../../portadas/servir/como-se-construyo-el-canal-de-panama.avif";
 import p_se_leyeron_al_reves from "../../portadas/servir/se-leyeron-al-reves.avif";
 import p_como_se_forma_dentro_de_una_gota from "../../portadas/servir/como-se-forma-dentro-de-una-gota.avif";
 import p_como_se_forma_un_cometa from "../../portadas/servir/como-se-forma-un-cometa.avif";
 import p_el_vino_se_hace_solo_y_lo_traen_las_avispas from "../../portadas/servir/el-vino-se-hace-solo-y-lo-traen-las-avispas.avif";
 import p_la_cebada_no_tiene_azucar from "../../portadas/servir/la-cebada-no-tiene-azucar.avif";
 import p_mas_antiguo_que_la_agricultura from "../../portadas/servir/mas-antiguo-que-la-agricultura.avif";
+import p_como_un_simple_papel_tiene_valor from "../../portadas/servir/como-un-simple-papel-tiene-valor.avif";
 import p_un_cohete_no_empuja_contra_nada from "../../portadas/servir/un-cohete-no-empuja-contra-nada.avif";
+import p_como_vuelan_los_helicopteros from "../../portadas/servir/como-vuelan-los-helicopteros.avif";
 import p_dos_preguntas_distintas from "../../portadas/servir/dos-preguntas-distintas.avif";
 import p_todos_la_misma_edad from "../../portadas/servir/todos-la-misma-edad.avif";
+import p_cual_es_el_rio_mas_largo_del_mundo from "../../portadas/servir/cual-es-el-rio-mas-largo-del-mundo.avif";
 import p_nadie_las_ha_contado from "../../portadas/servir/nadie-las-ha-contado.avif";
+import p_cuanto_aguanta_un_cactus_sin_agua from "../../portadas/servir/cuanto-aguanta-un-cactus-sin-agua.avif";
 import p_termino_en_1453 from "../../portadas/servir/termino-en-1453.avif";
 import p_llevamos_57_anos_disparando_laseres_a_la_luna from "../../portadas/servir/llevamos-57-anos-disparando-laseres-a-la-luna.avif";
 import p_es_un_arma_quimica from "../../portadas/servir/es-un-arma-quimica.avif";
@@ -34,8 +50,13 @@ import p_la_palabra_viajo_con_ella from "../../portadas/servir/la-palabra-viajo-
 import p_de_donde_sale_el_oro from "../../portadas/servir/de-donde-sale-el-oro.avif";
 import p_nacio_en_la_amazonia from "../../portadas/servir/nacio-en-la-amazonia.avif";
 import p_mas_grande_que_cualquier_dinosaurio from "../../portadas/servir/mas-grande-que-cualquier-dinosaurio.avif";
+import p_el_auge_economico_de_china from "../../portadas/servir/el-auge-economico-de-china.avif";
 import p_ser_la_unica_especie_humana from "../../portadas/servir/ser-la-unica-especie-humana.avif";
 import p_el_arbol_no_bombea_el_agua_la_cuelga from "../../portadas/servir/el-arbol-no-bombea-el-agua-la-cuelga.avif";
+import p_la_historia_de_bugatti from "../../portadas/servir/la-historia-de-bugatti.avif";
+import p_la_historia_de_ferrari from "../../portadas/servir/la-historia-de-ferrari.avif";
+import p_la_historia_de_lamborghini from "../../portadas/servir/la-historia-de-lamborghini.avif";
+import p_la_historia_de_porsche from "../../portadas/servir/la-historia-de-porsche.avif";
 import p_leyendo_las_sagas from "../../portadas/servir/leyendo-las-sagas.avif";
 import p_el_bostezo_no_tiene_que_ver_con_el_oxigeno from "../../portadas/servir/el-bostezo-no-tiene-que-ver-con-el-oxigeno.avif";
 import p_una_contrasena_que_alguien_ha_robado from "../../portadas/servir/una-contrasena-que-alguien-ha-robado.avif";
@@ -71,6 +92,7 @@ import p_costo_dos_mil_anos_demostrar_que_acertaban from "../../portadas/servir/
 import p_las_rayas_no_son_un_camuflaje from "../../portadas/servir/las-rayas-no-son-un-camuflaje.avif";
 import p_por_que_las_estatuas_griegas_son_blancas from "../../portadas/servir/por-que-las-estatuas-griegas-son-blancas.avif";
 import p_el_amarillo_ya_estaba from "../../portadas/servir/el-amarillo-ya-estaba.avif";
+import p_por_que_las_pelotas_de_golf_tienen_hoyuelos from "../../portadas/servir/por-que-las-pelotas-de-golf-tienen-hoyuelos.avif";
 import p_la_cebolla_entera_no_lleva_nada from "../../portadas/servir/la-cebolla-entera-no-lleva-nada.avif";
 import p_te_ensenaron_mal_como_se_forma_una_nube from "../../portadas/servir/te-ensenaron-mal-como-se-forma-una-nube.avif";
 import p_giran_porque_no_pueden_mover_los_ojos from "../../portadas/servir/giran-porque-no-pueden-mover-los-ojos.avif";
@@ -105,9 +127,11 @@ import p_tiritar_desperdiciar_energia from "../../portadas/servir/tiritar-desper
 import p_nadie_oyo_su_voz_hasta_1877 from "../../portadas/servir/nadie-oyo-su-voz-hasta-1877.avif";
 import p_ve_en_blanco_y_negro_y_acierta_el_color from "../../portadas/servir/ve-en-blanco-y-negro-y-acierta-el-color.avif";
 import p_el_destello_sube_del_suelo_a_la_nube from "../../portadas/servir/el-destello-sube-del-suelo-a-la-nube.avif";
+import p_por_que_unos_paises_son_ricos_y_otros_pobres from "../../portadas/servir/por-que-unos-paises-son-ricos-y-otros-pobres.avif";
 import p_por_que_vuelan_los_aviones_es_falso from "../../portadas/servir/por-que-vuelan-los-aviones-es-falso.avif";
 import p_que_es_el_salar_de_uyuni from "../../portadas/servir/que-es-el-salar-de-uyuni.avif";
 import p_coladores_de_hace_7500_anos from "../../portadas/servir/coladores-de-hace-7500-anos.avif";
+import p_que_es_realmente_un_hongo from "../../portadas/servir/que-es-realmente-un-hongo.avif";
 import p_que_es_realmente_una_perla from "../../portadas/servir/que-es-realmente-una-perla.avif";
 import p_que_es_un_agujero_de_gusano from "../../portadas/servir/que-es-un-agujero-de-gusano.avif";
 import p_que_es_un_agujero_negro from "../../portadas/servir/que-es-un-agujero-negro.avif";
@@ -122,6 +146,7 @@ import p_dos_mil_anos_antes_de_los_druidas from "../../portadas/servir/dos-mil-a
 import p_quien_fue_cleopatra from "../../portadas/servir/quien-fue-cleopatra.avif";
 import p_quien_fue_la_persona_mas_rica_del_mundo from "../../portadas/servir/quien-fue-la-persona-mas-rica-del-mundo.avif";
 import p_quien_invento_el_futbol from "../../portadas/servir/quien-invento-el-futbol.avif";
+import p_steve_jobs from "../../portadas/servir/steve-jobs.avif";
 
 /* ==========================================================================
    CURIOSIDADES — LO ESCRIBE `scripts/catalogo.mjs`, NO SE EDITA A MANO
@@ -136,10 +161,209 @@ import p_quien_invento_el_futbol from "../../portadas/servir/quien-invento-el-fu
    reparte en pantallas es la app, midiendo el móvil de quien lee. Es la
    regla 3 de `.claude/skills/paginado-shorts/SKILL.md`.
 
-   Hoy entran 113 de 344: solo los que tienen portada.
+   Hoy entran 138 de 428: solo los que tienen portada.
    ========================================================================== */
 
 export const CURIOSIDADES: Short[] = [
+  {
+    id: "como-calienta-un-microondas",
+    titulo: "Cómo calienta un microondas",
+    categoria: "Tecnología",
+    color: "var(--ochre)",
+    /* Serie «como-calienta-un-microondas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un microondas no calienta de dentro hacia fuera» */
+    encargo: "Un microondas no calienta de dentro hacia fuera",
+    fotos: [
+      {
+        local: p_como_calienta_un_microondas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un microondas no calienta de dentro hacia fuera",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las microondas solo penetran un centímetro en la comida",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es probablemente la idea más extendida sobre este aparato: que las microondas " +
+          "atraviesan la comida y la calientan desde el centro hacia la superficie. Está " +
+          "catalogada como lo que es, una idea equivocada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El dato que la desmonta es de una sencillez desarmante. Las microondas de 2,45 " +
+          "gigahercios, que son las que usa cualquier microondas doméstico, solo penetran " +
+          "aproximadamente 1 centímetro en la mayoría de los alimentos. Ese centímetro es todo el " +
+          "alcance directo que tienen.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí hacia dentro no llega nada. El calor que aparece en el corazón de un plato " +
+          "hondo viaja hasta allí exactamente igual que en una sartén o en un horno: por " +
+          "conducción, pasando de molécula a molécula, y a la velocidad de siempre.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir, un microondas calienta de fuera hacia dentro, como todo lo demás. Su ventaja " +
+          "no es el sentido de la marcha, sino que en vez de empezar en la piel del alimento " +
+          "empieza un centímetro más adentro, y lo hace en todo el volumen de ese centímetro a la " +
+          "vez en lugar de esperar a que el calor cruce la superficie.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El microondas no invirtió la dirección en que se calienta la comida. Lo único que hizo " +
+          "fue saltarse el primer centímetro, que es donde un horno pierde la mayor parte del " +
+          "tiempo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo que confunde es que el centro sale más caliente que los bordes",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entonces, si calienta de fuera hacia dentro, ¿por qué al morder un bollo templado te " +
+          "quemas con el relleno? La observación es real, y tiene dos explicaciones que se suman.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La primera es la superficie. Nada más apagarse el aparato, la parte exterior del " +
+          "alimento está en contacto con el aire frío del plato, de la cocina y de tu mano, y " +
+          "empieza a perder calor por todos lados. El centro, en cambio, no tiene por dónde " +
+          "perderlo salvo a través del propio alimento, que es mal conductor. A los diez segundos " +
+          "de sacarlo, la superficie ya se ha enfriado y el interior sigue igual.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La segunda es de qué está hecha cada parte. Las microondas actúan sobre las moléculas " +
+          "de agua, así que calientan mucho más lo que tiene mucha agua. Un relleno de mermelada, " +
+          "de tomate o de queso absorbe muchísima más energía que una masa de pan seca que lo " +
+          "rodea, aunque las dos estén expuestas a lo mismo. Por eso el interior de una " +
+          "empanadilla puede estar hirviendo con la masa apenas tibia.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahí está el motivo de que los microondas recomienden un reposo después de calentar. " +
+          "Ese minuto no es un capricho: es el tiempo que necesita el calor para repartirse por " +
+          "conducción desde donde se generó hasta donde no llegó.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La sensación de que el microondas calienta desde dentro no viene de las ondas, sino " +
+          "del reparto de agua en la comida. Calienta el agua esté donde esté, y en la mayoría de " +
+          "los platos el agua está en el relleno.",
+      },
+    ],
+  },
+  {
+    id: "como-cancelan-el-ruido-unos-auriculares",
+    titulo: "Cómo cancelan el ruido unos auriculares",
+    categoria: "Tecnología",
+    color: "var(--plum)",
+    /* Serie «como-cancelan-el-ruido-unos-auriculares», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Unos auriculares con cancelación no tapan el ruido: fabrican el ruido contrario» */
+    encargo: "Unos auriculares con cancelación no tapan el ruido: fabrican el ruido contrario",
+    fotos: [
+      {
+        local: p_como_cancelan_el_ruido_unos_auriculares,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Unos auriculares con cancelación no tapan el ruido: fabrican el ruido contrario",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El silencio que oyes es la suma de dos sonidos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La intuición dice que unos auriculares con cancelación de ruido bloquean el sonido, " +
+          "como un tapón muy bueno. Lo que hacen es lo contrario: añaden sonido.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El mecanismo es este. Un micrófono incorporado en el auricular mide el ruido ambiente " +
+          "que hay a tu alrededor. El circuito lo analiza y genera una señal opuesta, y el " +
+          "altavoz emite una onda con la misma amplitud que el ruido pero con la fase invertida. " +
+          "Cuando las dos ondas se encuentran en tu oído se combinan y se anulan mutuamente, en " +
+          "un proceso que se llama <strong>interferencia destructiva</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Detente un momento en lo que eso significa físicamente. En tu oído no hay menos aire " +
+          "moviéndose que sin los auriculares: hay dos movimientos, uno del ruido del avión y " +
+          "otro del altavoz, que van en sentidos contrarios y que se cancelan. Lo que percibes " +
+          "como silencio es la suma de dos sonidos, no la ausencia de uno.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La cancelación de ruido no quita nada. Pone encima exactamente lo mismo del revés, y " +
+          "lo que llega a tu tímpano es lo que queda cuando dos ondas iguales y opuestas se " +
+          "encuentran.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La idea se patentó en 1936, mucho antes de poder construirla",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El concepto no tiene nada de moderno, y su fecha sorprende a casi todo el mundo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La primera patente conocida sobre esto, la número 2.043.416 de Estados Unidos, se " +
+          "concedió al inventor <strong>Paul Lueg</strong> en 1936. En los años cincuenta, " +
+          "<strong>Lawrence Fogel</strong> patentó sistemas para cancelar el ruido en cabinas de " +
+          "helicóptero y de avión, que es exactamente el uso en el que estos auriculares siguen " +
+          "siendo mejores hoy.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que faltaba no era la idea, era la electrónica. Para que la cancelación funcione, " +
+          "el aparato tiene que oír el ruido, calcular su inverso y emitirlo antes de que la onda " +
+          "original llegue al tímpano, y eso son millonésimas de segundo de margen. Hacer eso con " +
+          "componentes de 1936 era imposible, y hacerlo dentro de un auricular alimentado por una " +
+          "pila diminuta fue imposible durante otro medio siglo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Entre saber cómo se cancela un ruido y poder cancelarlo pasaron sesenta años. Lo que " +
+          "llegó tarde no fue el descubrimiento: fue un circuito lo bastante rápido y lo bastante " +
+          "pequeño para caber en una oreja.",
+      },
+    ],
+  },
   {
     id: "la-costra-no-esta-curando-nada",
     titulo: "Cómo cicatrizan las heridas",
@@ -254,6 +478,115 @@ export const CURIOSIDADES: Short[] = [
           "debajo, con sus vasos recién construidos, y esa parte hay que rehacerla entera desde " +
           "la fase de inflamación. Cada vez que se repite, el resultado final tiende a ser una " +
           "cicatriz más ancha.",
+      },
+    ],
+  },
+  {
+    id: "como-enfria-una-nevera",
+    titulo: "Cómo enfría una nevera",
+    categoria: "Tecnología",
+    color: "var(--slate)",
+    /* Serie «como-enfria-una-nevera», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Una nevera no fabrica frío, saca calor» */
+    encargo: "Una nevera no fabrica frío, saca calor",
+    fotos: [
+      {
+        local: p_como_enfria_una_nevera,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Una nevera no fabrica frío, saca calor",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El frío no es una sustancia que se pueda producir",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí hay que corregir algo antes de mirar ninguna máquina, porque el error está en la " +
+          "palabra y no en el aparato.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El frío no existe como cosa. No hay partículas de frío, ni un depósito de frío que se " +
+          "pueda llenar. Lo que existe es el calor, que es agitación de las moléculas de un " +
+          "cuerpo, y lo que llamamos frío es sencillamente tener menos de eso. Enfriar algo no " +
+          "consiste en meterle nada dentro: consiste en quitarle el calor que ya tenía y " +
+          "llevárselo a otra parte.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso la pregunta correcta ante una nevera no es cómo fabrica frío, sino adónde " +
+          "manda el calor de la comida que has metido. Y la respuesta está detrás del aparato, en " +
+          "esa rejilla negra que quema al tocarla y que la mayoría de la gente ha visto sin " +
+          "preguntarse nunca qué hace ahí.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una nevera es una máquina de mover calor de un sitio a otro. Coge el que hay dentro " +
+          "del armario, donde ya hay poco, y lo suelta fuera, donde ya hay más. Y como el calor " +
+          "por sí solo nunca va en esa dirección, hay que empujarlo, y empujarlo cuesta " +
+          "electricidad.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Tu nevera no enfría la comida. Le quita el calor y lo tira a tu cocina, y por eso la " +
+          "parte de atrás está caliente exactamente en la misma medida en que el interior está " +
+          "frío.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Con la puerta abierta, una nevera calienta la habitación",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De lo anterior sale una consecuencia que suena a broma y no lo es. Si dejaras una " +
+          "nevera abierta en una habitación cerrada, la habitación no se enfriaría: se " +
+          "calentaría.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Sigue el recorrido del calor y verás que no hay otra salida posible. La nevera saca " +
+          "calor del aire de dentro del armario y lo suelta por la parte de atrás, al aire de la " +
+          "habitación. Si el armario está abierto, ese aire es el mismo aire. Estás sacando calor " +
+          "de un sitio para devolverlo al mismo sitio, y el resultado neto de esa parte es cero.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pero es que además hay un extra. El motor que hace todo ese trabajo funciona con " +
+          "electricidad, y toda la electricidad que consume acaba también convertida en calor " +
+          "dentro de la habitación. Así que el balance no queda en cero, queda en positivo: la " +
+          "habitación termina más caliente de lo que estaba, y la culpa es justo de la máquina " +
+          "que se supone que enfría.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo mismo explica por qué un aire acondicionado necesita obligatoriamente una unidad en " +
+          "la calle. No es una cuestión de espacio ni de ruido. Es que el calor que saca de tu " +
+          "salón tiene que descargarse en algún lugar que no sea tu salón, y si no hay un fuera, " +
+          "no hay enfriamiento posible.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Ninguna máquina de las que tienes en casa destruye calor, porque el calor no se " +
+          "destruye. Solo se puede cambiar de sitio, y siempre hay que pagar por moverlo en la " +
+          "dirección que no le sale sola.",
       },
     ],
   },
@@ -515,6 +848,210 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "como-funciona-el-wifi",
+    titulo: "Cómo funciona el wifi",
+    categoria: "Tecnología",
+    color: "var(--clay)",
+    /* Serie «como-funciona-el-wifi», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El wifi es radio, y tu móvil también es la emisora» */
+    encargo: "El wifi es radio, y tu móvil también es la emisora",
+    fotos: [
+      {
+        local: p_como_funciona_el_wifi,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El wifi es radio, y tu móvil también es la emisora",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No hay ninguna tecnología nueva debajo: son ondas de radio",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene empezar quitando el misterio. El wifi es radio. No es una variante ni un " +
+          "pariente lejano: son ondas de radio de las de toda la vida, emitidas y recibidas por " +
+          "antenas, exactamente igual que las de una emisora de FM.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que cambia es la frecuencia. El wifi usa sobre todo dos bandas: la de 2,4 " +
+          "gigahercios, cuyas ondas miden 120 milímetros, y la de 5 gigahercios, con ondas de 60 " +
+          "milímetros. Son ondas de un palmo y de medio palmo, respectivamente, y esa medida " +
+          "física va a explicar todo lo demás.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay una diferencia importante con la radio de siempre. Una emisora de FM habla y tú " +
+          "escuchas. En el wifi la conversación va en los dos sentidos, así que tu teléfono no es " +
+          "solo un receptor: es también un transmisor de radio, con su antena, emitiendo cada vez " +
+          "que envía cualquier cosa.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El router no reparte internet, reparte ondas de radio. Y no está hablando solo: cada " +
+          "aparato conectado le está contestando desde su propia antena.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Sabías que…? El nombre no significa nada. Según uno de los miembros fundadores de la " +
+          "asociación que lo creó, «Wi-Fi» no es la abreviatura de <em>wireless fidelity</em> ni " +
+          "de ninguna otra cosa: se eligió simplemente porque era un nombre más fácil de " +
+          "recordar.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Las dos bandas del router son un intercambio, no una escala de calidad",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Casi todos los routers ofrecen dos redes, y mucha gente elige la de 5 gigahercios por " +
+          "costumbre, dando por hecho que el número mayor es el mejor. Es un intercambio, no una " +
+          "escala.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La regla general del asunto es esta: las frecuencias más bajas tienen más alcance pero " +
+          "menos capacidad. Es decir, la banda de 2,4 gigahercios llega más lejos y transporta " +
+          "menos datos por segundo; la de 5 llega menos lejos y transporta más.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay un segundo factor que decide la partida en cualquier casa. Las ondas de 5 " +
+          "gigahercios son absorbidas en mucha mayor medida por los materiales de construcción " +
+          "habituales que las de 2,4, así que su alcance real es todavía más corto en cuanto hay " +
+          "tabiques por medio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Traducido a la vida diaria, la conclusión es bastante clara. En el salón, con el " +
+          "router a la vista, la banda de 5 va a ir mejor. En la habitación del fondo, con dos " +
+          "paredes de por medio, la de 2,4 puede ser la única que llegue, aunque sobre el papel " +
+          "sea la lenta. La banda buena no es una de las dos: es la que corresponda al sitio " +
+          "donde estés.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Elegir banda de wifi no es elegir entre rápido y lento. Es elegir entre llegar lejos y " +
+          "llevar mucho, y ningún router puede darte las dos cosas a la vez.",
+      },
+    ],
+  },
+  {
+    id: "como-funciona-la-bolsa-de-valores",
+    titulo: "Cómo funciona la bolsa de valores",
+    categoria: "Economía",
+    color: "var(--teal)",
+    /* Serie «como-funciona-la-bolsa-de-valores», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La bolsa se inventó porque el dinero no se podía sacar» */
+    encargo: "La bolsa se inventó porque el dinero no se podía sacar",
+    fotos: [
+      {
+        local: p_como_funciona_la_bolsa_de_valores,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La bolsa se inventó porque el dinero no se podía sacar",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una expedición a Asia necesitaba un dinero que nadie pudiera retirar",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El 20 de marzo de 1602, los Estados Generales de los Países Bajos crearon la Compañía " +
+          "Neerlandesa de las Indias Orientales agrupando en una sola empresa a las compañías " +
+          "comerciales que ya operaban por su cuenta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema que tenía delante era de calendario, no de dinero. Un barco que salía " +
+          "hacia Asia tardaba años en volver, si volvía. Comprar los barcos, armarlos, pagar " +
+          "tripulaciones y mantener puestos comerciales al otro lado del mundo exigía un capital " +
+          "enorme puesto por adelantado y disponible durante muchísimo tiempo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso el contrato fundacional fijó una duración de veintiún años, con cuentas " +
+          "cerradas solo al final de cada década. Traducido: quien ponía dinero no podía pedirlo " +
+          "de vuelta. No había manera de decir «me arrepiento» al segundo año y recuperar lo " +
+          "invertido, porque ese dinero estaba en forma de barcos navegando por el océano Índico.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El obstáculo de las grandes empresas comerciales nunca fue encontrar dinero. Fue " +
+          "encontrar dinero que aguantara quieto todos los años que tarda un barco en dar " +
+          "beneficios.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La solución fue separar el dinero de quien lo había puesto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí llega la invención, y es de esas ideas que parecen obvias cuando ya están hechas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si el problema es que el inversor quiere poder salir y la empresa necesita que el " +
+          "dinero se quede, se pueden satisfacer las dos cosas a la vez con una condición: que el " +
+          "que salga sea el inversor, no el dinero. Tú no retiras tu capital de la compañía; le " +
+          "vendes tu parte a otra persona, que ocupa tu sitio. La compañía no nota nada, porque " +
+          "su caja no se ha movido. Lo único que ha cambiado es un nombre en un registro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para que eso funcionara hicieron falta dos piezas más. La primera: que cualquier " +
+          "ciudadano de la República neerlandesa pudiera comprar participaciones, y no solo un " +
+          "círculo de socios conocidos. La segunda: la responsabilidad limitada, es decir, que " +
+          "quien ponía dinero arriesgaba lo que había puesto y nada más, de modo que un desastre " +
+          "en el otro extremo del mundo no podía arruinarle la casa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con las tres piezas juntas apareció el mercado donde esas participaciones cambiaban de " +
+          "mano, al principio literalmente al aire libre. Aquellos corros acabaron siendo la " +
+          "Bolsa de Ámsterdam.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La bolsa no se inventó para especular ni para enriquecerse deprisa. Se inventó para " +
+          "resolver una contradicción: que el dinero se quedara y el dueño se pudiera marchar.",
+      },
+    ],
+  },
+  {
     id: "la-gravedad-no-es-una-fuerza",
     titulo: "Cómo funciona la gravedad",
     categoria: "Ciencia",
@@ -640,6 +1177,123 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "En 1919 dos expediciones fotografiaron un eclipse para medir si la luz se torcía. Se " +
           "torció el doble de lo que predecía Newton.",
+      },
+    ],
+  },
+  {
+    id: "como-funciona-un-coche",
+    titulo: "Cómo funciona un coche",
+    categoria: "Tecnología",
+    color: "var(--ochre)",
+    /* Serie «como-funciona-un-coche», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «En un motor de cuatro tiempos, solo uno de los cuatro empuja» */
+    encargo: "En un motor de cuatro tiempos, solo uno de los cuatro empuja",
+    fotos: [
+      {
+        local: p_como_funciona_un_coche,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "En un motor de cuatro tiempos, solo uno de los cuatro empuja",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "De los cuatro tiempos, tres consumen energía en vez de darla",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando pensamos en el motor de un coche, la imagen que aparece es la de una explosión " +
+          "que empuja. La imagen es correcta, pero se queda en la cuarta parte de lo que ocurre " +
+          "ahí dentro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El ciclo que sigue usando hoy casi cualquier coche de gasolina lo cerró el ingeniero " +
+          "alemán <strong>Nikolaus Otto</strong>, que llevaba quince años detrás de ello: en 1861 " +
+          "probó una réplica del motor de Lenoir, en 1864 montó su propia empresa, y en 1876 " +
+          "consiguió por fin un motor que comprimía la mezcla antes de encenderla. De ahí viene " +
+          "el nombre con el que aún se conoce el ciclo. Lo que aportó Otto no fue la explosión, " +
+          "sino el orden: cuatro movimientos que el pistón repite sin parar y siempre en la misma " +
+          "secuencia.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Vayamos uno por uno. En la <strong>admisión</strong>, el pistón baja y aspira aire y " +
+          "combustible hacia el interior del cilindro. En la <strong>compresión</strong>, sube y " +
+          "aprieta esa mezcla contra la parte alta del cilindro hasta dejarla en una fracción del " +
+          "volumen que ocupaba. En la <strong>combustión</strong> salta la chispa, la mezcla arde " +
+          "y la presión de los gases empuja el pistón hacia abajo con fuerza. Y en el " +
+          "<strong>escape</strong>, el pistón vuelve a subir para expulsar los gases quemados y " +
+          "dejar el cilindro libre para la siguiente admisión.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora fíjate en la cuenta, porque es donde está la sorpresa. De los cuatro " +
+          "movimientos, solo el tercero produce trabajo. Los otros tres lo consumen: aspirar " +
+          "cuesta, comprimir cuesta bastante y expulsar cuesta. Durante tres cuartas partes del " +
+          "recorrido, el motor no está empujando el coche. Está empujándose a sí mismo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un motor de cuatro tiempos no es una máquina que empuje sin parar. Es una máquina que " +
+          "empuja una vez de cada cuatro y tiene que pagar los otros tres movimientos con lo que " +
+          "ganó en el primero.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El volante de inercia devuelve la energía justo cuando hace falta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entonces, ¿quién sube el pistón para comprimir la mezcla siguiente, si en ese momento " +
+          "no hay ninguna explosión empujándolo? Es simple: la energía sobrante de la explosión " +
+          "anterior, guardada durante unos milisegundos en una pieza que gira.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el extremo del cigüeñal hay un disco pesado, el <strong>volante de " +
+          "inercia</strong>, y su único trabajo es almacenar movimiento. Cuando el pistón baja " +
+          "empujado por la combustión, no toda esa fuerza sale hacia las ruedas: una parte se " +
+          "queda acelerando ese disco. Y cuando llega el tiempo de compresión, el disco, que " +
+          "sigue girando por pura inercia, arrastra al pistón hacia arriba y le devuelve prestada " +
+          "la energía que necesita para apretar la mezcla nueva. El volante no crea nada; solo " +
+          "reparte en el tiempo lo que llega de golpe.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí aparece además la razón de que los motores tengan varios cilindros, que rara vez " +
+          "se explica. Un ciclo completo ocupa dos vueltas de cigüeñal, es decir, 720 grados. Si " +
+          "repartes esos 720 grados entre cuatro cilindros a partes iguales, sale una explosión " +
+          "cada 180 grados. Y como el tiempo de combustión dura exactamente 180 grados, la " +
+          "consecuencia es limpia: en un motor de cuatro cilindros siempre hay, en cualquier " +
+          "instante, un pistón en plena explosión. Nunca queda un hueco.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un motor de un solo cilindro no tiene esa suerte. Recibe un empujón cada dos vueltas y " +
+          "depende por completo del volante para llegar al siguiente, y por eso entrega su fuerza " +
+          "a tirones.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los cilindros de más no están solo para dar potencia. Están para que nunca deje de " +
+          "haber uno empujando mientras los otros tres hacen el trabajo que cuesta dinero.",
       },
     ],
   },
@@ -833,6 +1487,560 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "como-funciona-una-cerradura",
+    titulo: "Cómo funciona una cerradura",
+    categoria: "Tecnología",
+    color: "var(--plum)",
+    /* Serie «como-funciona-una-cerradura», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Una llave no abre la cerradura: solo quita lo que la bloquea» */
+    encargo: "Una llave no abre la cerradura: solo quita lo que la bloquea",
+    fotos: [
+      {
+        local: p_como_funciona_una_cerradura,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Una llave no abre la cerradura: solo quita lo que la bloquea",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Todo depende de una línea que tiene que quedar despejada",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Dentro de una cerradura corriente hay dos piezas encajadas: un cilindro exterior fijo " +
+          "y, dentro de él, un tambor que es la parte que gira cuando metes la llave. El punto " +
+          "exacto donde se tocan las dos piezas se llama <strong>línea de corte</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Atravesando ambas piezas hay varios agujeros verticales, y en cada uno una pareja de " +
+          "pines: uno abajo, que toca la llave, y otro encima, empujado hacia abajo por un " +
+          "muelle. En reposo, los muelles hunden esos pines de manera que cada pareja queda " +
+          "atravesando la línea de corte, con una parte en el cilindro fijo y otra en el tambor. " +
+          "Cada pareja es un pasador que cruza la junta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Mete una llave equivocada y los pines suben, pero suben mal: no quedan alineados con " +
+          "la línea de corte, así que siguen cruzándola y el tambor no puede girar. Mete la " +
+          "correcta y cada diente levanta su pareja exactamente hasta que la unión entre los dos " +
+          "pines coincide con la línea. En ese instante, y solo en ese, no hay ninguna pieza " +
+          "cruzando la junta y el tambor queda libre para girar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso significa. La llave no acciona ningún mecanismo ni empuja ningún " +
+          "cerrojo. Se limita a levantar cinco o seis pines a cinco o seis alturas distintas, y " +
+          "la fuerza de abrir la pones tú con la muñeca.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una llave no es una orden, es una plantilla de alturas. Lo único que hace es dejar " +
+          "despejada una línea, y a partir de ahí la cerradura ya no tiene motivo para seguir " +
+          "cerrada.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El invento es antiguo; lo moderno es el tamaño de la llave",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El principio no se le ocurrió a nadie hace poco. Los fundamentos de la cerradura de " +
+          "pines pueden remontarse al año 2000 a. C. en Egipto, donde consistía en un poste de " +
+          "madera fijado a la puerta y un cerrojo horizontal que se deslizaba dentro del poste. " +
+          "La idea de bloquear un cerrojo con pasadores que caen por su propio peso tiene cuatro " +
+          "mil años.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La versión moderna tiene dos fechas y dos hombres del mismo nombre. En 1848, " +
+          "<strong>Linus Yale padre</strong> inventó la cerradura de pines tal como la conocemos. " +
+          "Y en 1861, <strong>Linus Yale hijo</strong> inventó y patentó algo que parece un " +
+          "detalle menor y que lo cambió todo: una llave plana, pequeña, con el borde dentado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Detente en esa segunda fecha, porque es donde está lo interesante. Lo que aportó el " +
+          "hijo no fue seguridad, fue tamaño. Las llaves anteriores eran piezas grandes y " +
+          "pesadas; la suya cabía en un bolsillo y se podía fabricar en serie a bajo coste. Ese " +
+          "es el motivo por el que hoy hay una cerradura de pines en cada puerta del mundo y no " +
+          "un sistema mejor.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Lo que convirtió la cerradura de pines en el estándar mundial no fue que fuera la más " +
+          "segura. Fue que su llave era lo bastante pequeña como para que todos pudiéramos llevar " +
+          "varias encima.",
+      },
+    ],
+  },
+  {
+    id: "como-funciona-una-pantalla-tactil",
+    titulo: "Cómo funciona una pantalla táctil",
+    categoria: "Tecnología",
+    color: "var(--slate)",
+    /* Serie «como-funciona-una-pantalla-tactil», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Una pantalla táctil no nota que la tocas, nota que estás cerca» */
+    encargo: "Una pantalla táctil no nota que la tocas, nota que estás cerca",
+    fotos: [
+      {
+        local: p_como_funciona_una_pantalla_tactil,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Una pantalla táctil no nota que la tocas, nota que estás cerca",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El dedo entra en el circuito porque tu cuerpo conduce la electricidad",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El invento es bastante más antiguo que el teléfono que lo hizo famoso. En 1965, " +
+          "<strong>Eric Johnson</strong>, del Royal Radar Establishment británico, publicó un " +
+          "artículo describiendo su trabajo sobre pantallas táctiles capacitivas, y en 1967 lo " +
+          "detalló con fotografías y diagramas. Más de cuarenta años antes del primer iPhone.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El montaje que describía es el mismo que llevas hoy en el bolsillo. Se parte de un " +
+          "aislante, normalmente cristal, y se recubre con un conductor transparente, casi " +
+          "siempre óxido de indio y estaño. Ese recubrimiento tiene que cumplir dos exigencias " +
+          "que normalmente no van juntas: conducir la electricidad y dejar pasar la luz de la " +
+          "pantalla que hay debajo. Esa combinación es la que obliga a usar un material tan poco " +
+          "corriente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Sobre esa capa hay un campo electrostático. Y aquí entra la parte que hace funcionar " +
+          "el conjunto: el cuerpo humano también es un conductor eléctrico, así que al acercar un " +
+          "dedo a la superficie el campo se deforma, y esa deformación se puede medir como un " +
+          "cambio de capacidad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en que en toda la descripción no aparece la palabra presión. La pantalla no " +
+          "detecta que la has empujado. Detecta que hay un conductor donde antes no había " +
+          "ninguno.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Cuando tocas la pantalla del móvil, tu cuerpo pasa a formar parte de su circuito " +
+          "eléctrico. No estás pulsando nada: estás modificando un campo con la conductividad de " +
+          "tu propia mano.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Por eso los guantes no valen, y por eso las pantallas antiguas sí funcionaban con " +
+          "ellos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ese mecanismo salen todas las rarezas conocidas de estas pantallas, empezando por " +
+          "la más fastidiosa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un guante es un material eléctricamente aislante, y colocado entre tu dedo y el " +
+          "cristal impide que la pantalla note lo que tiene que notar. Muchas pantallas " +
+          "capacitivas sencillamente no detectan un dedo a través de él, que es la causa de esa " +
+          "escena universal de invierno de quitarse el guante con los dientes para contestar un " +
+          "mensaje. Por la misma razón un bolígrafo cualquiera tampoco sirve: el plástico no " +
+          "conduce.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las pantallas de las máquinas antiguas —cajeros, agendas electrónicas, terminales de " +
+          "tienda— funcionaban al revés y con cualquier cosa. Eran <strong>resistivas</strong>: " +
+          "dos capas transparentes conductoras enfrentadas y separadas por una rendija de aire, " +
+          "que se tocan entre sí cuando algo las aprieta desde fuera. Ahí sí hacía falta presión, " +
+          "y ahí sí valía un guante, una uña, la punta de un lápiz o cualquier objeto rígido, " +
+          "porque lo único que se pedía era empujar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La versión moderna del sistema capacitivo llega todavía más lejos en la dirección " +
+          "contraria. La llamada capacitiva proyectada puede detectar un dedo que se acerca a la " +
+          "pantalla sin llegar a tocarla, y permite además notarlo a través de guantes finos.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Las dos tecnologías tienen defectos opuestos y por el mismo motivo. La antigua no " +
+          "distinguía qué la estaba tocando y funcionaba con todo; la moderna solo reconoce " +
+          "conductores, y a cambio no necesita que la toquen.",
+      },
+    ],
+  },
+  {
+    id: "como-genera-electricidad-un-molino-de-viento",
+    titulo: "Cómo genera electricidad un molino",
+    categoria: "Tecnología",
+    color: "var(--clay)",
+    /* Serie «como-genera-electricidad-un-molino-de-viento», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El viento no empuja las palas de un aerogenerador: las hace volar» */
+    encargo: "El viento no empuja las palas de un aerogenerador: las hace volar",
+    fotos: [
+      {
+        local: p_como_genera_electricidad_un_molino_de_viento,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El viento no empuja las palas de un aerogenerador: las hace volar",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una pala es un ala, no una vela",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La imagen intuitiva es la del molino de toda la vida: el viento choca contra unas " +
+          "aspas y las empuja, como empuja una vela. Los aerogeneradores modernos no funcionan " +
+          "así.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Sus palas están perfiladas como el ala de un avión, con una cara más curva que la " +
+          "otra, y lo que las mueve no es el choque del aire sino la " +
+          "<strong>sustentación</strong>: la misma fuerza que levanta un avión, aplicada de lado " +
+          "para hacer girar un eje en vez de para subir.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y están afinadas hasta un extremo que sorprende. La relación entre la sustentación y " +
+          "la resistencia que consigue una pala de aerogenerador puede llegar a 120, frente a 70 " +
+          "en un planeador y 15 en un avión de línea. Es decir, en términos aerodinámicos puros, " +
+          "una pala de molino está mejor diseñada que casi cualquier cosa que vuele.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí sale la prueba visible de que no es un empujón. Si el viento simplemente " +
+          "empujara la pala, la pala no podría ir más rápido que el viento, igual que una hoja " +
+          "arrastrada nunca adelanta al aire que la arrastra. En un aerogenerador de tres palas " +
+          "de buen rendimiento, la punta se mueve entre seis y siete veces más rápido que el " +
+          "viento que la mueve.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una pala de aerogenerador no recibe el viento, lo aprovecha como un ala. Y la señal de " +
+          "que es así está a la vista: sus puntas van varias veces más deprisa que el aire que " +
+          "las está moviendo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La pala está retorcida porque cada tramo ve un viento distinto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí viene el detalle de diseño que se nota mirando una pala de cerca y que casi nadie " +
+          "sabe explicar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una pala de aerogenerador está retorcida a lo largo, con el perfil cambiando de la " +
+          "raíz a la punta. No es un adorno ni un refuerzo: es una necesidad geométrica.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piénsalo desde la propia pala. La raíz, que está pegada al eje, recorre un círculo " +
+          "pequeño y va despacio. La punta recorre un círculo enorme y va muy rápida. Como el " +
+          "viento que sopla es el mismo para las dos, cada tramo de la pala recibe el aire desde " +
+          "un ángulo distinto: la raíz lo recibe casi de frente, y la punta, que corre mucho, lo " +
+          "recibe casi de lado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un ala solo funciona bien con el aire llegándole en un ángulo concreto. Así que si " +
+          "quieres que la pala entera trabaje —y no solo un trozo—, hay que ir girando el perfil " +
+          "poco a poco, de manera que cada sección esté colocada en el ángulo que le corresponde " +
+          "a su propia velocidad.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una pala de aerogenerador no es un ala larga, son cientos de alas pequeñas puestas en " +
+          "fila, cada una orientada de forma distinta porque cada una vuela a una velocidad " +
+          "diferente.",
+      },
+    ],
+  },
+  {
+    id: "como-genera-electricidad-una-placa-solar",
+    titulo: "Cómo genera electricidad una placa solar",
+    categoria: "Tecnología",
+    color: "var(--teal)",
+    /* Serie «como-genera-electricidad-una-placa-solar», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Una placa solar no calienta nada: la luz arranca electrones» */
+    encargo: "Una placa solar no calienta nada: la luz arranca electrones",
+    fotos: [
+      {
+        local: p_como_genera_electricidad_una_placa_solar,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Una placa solar no calienta nada: la luz arranca electrones",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La luz suelta cargas y un campo eléctrico las separa",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene deshacer primero una confusión muy común, porque hay dos aparatos distintos " +
+          "que se ponen en el mismo tejado y no tienen nada que ver.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Uno es el panel solar térmico, que efectivamente calienta: el sol templa un circuito " +
+          "de agua y esa agua caliente va al depósito. El otro es la <strong>placa " +
+          "fotovoltaica</strong>, que es de la que hablamos aquí, y no calienta nada a propósito. " +
+          "Convierte la luz en electricidad directamente, sin pasar por el calor en ningún " +
+          "momento.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El mecanismo es este. Al absorber la luz, el material genera pares de electrón y hueco " +
+          "sueltos, es decir, cargas libres: un electrón que se ha desprendido y el hueco que ha " +
+          "dejado atrás. El problema es que si esas dos cargas se vuelven a juntar, no ha pasado " +
+          "nada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí es donde entra la pieza clave, que se llama <strong>unión p-n</strong>. Es la " +
+          "frontera entre dos capas de silicio tratadas de forma distinta, y en esa frontera " +
+          "existe un campo eléctrico propio. Ese campo local barre las cargas y las separa hacia " +
+          "electrodos opuestos, produciendo un exceso de electrones en un lado y un exceso de " +
+          "huecos en el otro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y con eso ya está todo hecho. Un lado con exceso de electrones y otro con defecto es, " +
+          "exactamente, una pila. Conecta un cable entre los dos y tienes corriente.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una placa solar no transforma la luz en calor y el calor en electricidad, que es como " +
+          "funciona casi todo lo demás. Se salta los dos pasos intermedios: la luz suelta la " +
+          "carga y un campo eléctrico interno la empuja hacia la salida.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Por eso no tiene piezas móviles ni se gasta como una máquina",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ese mecanismo sale la característica que hace de la fotovoltaica algo distinto de " +
+          "cualquier otra forma de generar electricidad, y suele pasarse por alto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Repasa mentalmente cómo se produce electricidad en casi todos los demás casos. En una " +
+          "central de carbón, en una nuclear, en una térmica de gas, en una hidroeléctrica y en " +
+          "un aerogenerador siempre hay lo mismo: algo que empuja unas aspas o unas palas, un eje " +
+          "que gira y un alternador. Cambia la fuente, pero el final es siempre un eje dando " +
+          "vueltas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En una placa fotovoltaica no gira nada. No hay eje, ni turbina, ni rodamientos, ni " +
+          "fluido circulando, ni una sola pieza que roce contra otra. Es una lámina quieta al " +
+          "sol.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y de ahí vienen dos cosas que se dan por hechas sin relacionarlas con esto. La primera " +
+          "es que las garantías de estas placas se midan en décadas: lo que no se mueve, no se " +
+          "desgasta. La segunda es que sea la forma de generar electricidad que se manda al " +
+          "espacio, donde no se puede reparar nada y no hay quien cambie un rodamiento.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Todas las formas clásicas de hacer electricidad terminan en un eje girando. La placa " +
+          "solar es la excepción: hace el mismo trabajo estando completamente quieta.",
+      },
+    ],
+  },
+  {
+    id: "como-se-aguanta-en-pie-un-rascacielos",
+    titulo: "Cómo se aguanta en pie un rascacielos",
+    categoria: "Tecnología",
+    color: "var(--sage)",
+    /* Serie «como-se-aguanta-en-pie-un-rascacielos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El edificio de ladrillo más alto del mundo tiene paredes de casi dos metros de grueso» */
+    encargo: "El edificio de ladrillo más alto del mundo tiene paredes de casi dos metros de grueso",
+    fotos: [
+      {
+        local: p_como_se_aguanta_en_pie_un_rascacielos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El edificio de ladrillo más alto del mundo tiene paredes de casi dos metros de grueso",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El muro de carga se estrangula a sí mismo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Antes de que existiera el rascacielos, un edificio se sostenía de la única forma " +
+          "conocida: las paredes aguantaban el peso de todo lo que tenían encima. Ese sistema " +
+          "tiene un límite matemático, y en Chicago se ve dónde está.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El <strong>Monadnock Building</strong>, terminado en 1891, mide 66 metros y tiene " +
+          "dieciséis plantas. Para sostenerlas, sus muros son de 1,8 metros de espesor abajo y de " +
+          "46 centímetros arriba. Es el edificio de ladrillo o mampostería de carga más alto " +
+          "jamás construido, y con él la construcción tradicional llegó a su límite práctico.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Sigue la escalera y verás que no hay salida. Cada planta que añades pesa, y ese peso " +
+          "tiene que bajar por los muros hasta el suelo. Cuanto más alto, más peso soportan los " +
+          "muros de abajo, así que hay que engordarlos. Pero un muro más gordo pesa más, y ese " +
+          "peso extra hay que sostenerlo también, así que hay que engordarlo un poco más todavía. " +
+          "Y mientras tanto cada centímetro de muro es un centímetro de suelo que no se puede " +
+          "alquilar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Al final el edificio se come a sí mismo: llega una altura en la que la planta baja " +
+          "sería casi toda pared.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El límite de la construcción de piedra y ladrillo no lo puso la resistencia del " +
+          "material, sino su peso. Un muro alto acaba dedicando casi toda su fuerza a sostenerse " +
+          "a sí mismo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La solución fue separar el que aguanta del que cierra",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Seis años antes del Monadnock, en la misma ciudad, ya se había construido lo que " +
+          "resolvía el problema, aunque nadie supiera todavía lo que iba a significar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1885 se levantó en Chicago el <strong>Home Insurance Building</strong>, con diez " +
+          "plantas y 42 metros de altura, considerado el primer rascacielos de estructura de " +
+          "acero. Su novedad se resume en una frase: un armazón de acero sostenía el peso entero " +
+          "de las paredes, en lugar de que fueran las paredes las que soportaban el peso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es una inversión completa de papeles. En el edificio antiguo, la pared es la " +
+          "estructura y las ventanas son agujeros que hay que abrir con cuidado en ella. En el " +
+          "edificio nuevo, la estructura es un esqueleto de barras verticales y horizontales, y " +
+          "la pared ya no sostiene nada: es una piel colgada por fuera para separar el interior " +
+          "del exterior.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí vienen los rascacielos acristalados de hoy. Un edificio puede ser de cristal de " +
+          "arriba abajo porque el cristal no está aguantando nada; el peso viaja por dentro, por " +
+          "el esqueleto.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El rascacielos no nació de un material más resistente, sino de una división de tareas. " +
+          "En cuanto la pared dejó de tener que sostener el edificio, dejó de haber un motivo " +
+          "para que fuera gruesa, y con eso desapareció el techo de altura.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Sabías que…? Nada de esto habría servido de nada sin un invento anterior. En 1857, " +
+          "Elisha Otis instaló su ascensor de seguridad en el Haughwout Building de Nueva York, " +
+          "lo que permitió llegar cómodamente y sin riesgo a las plantas altas. Sin él la altura " +
+          "no tenía sentido comercial: la mayoría de la gente no querría —o no podría— subir más " +
+          "de unos pocos tramos de escaleras, y unas plantas superiores que nadie quiere no valen " +
+          "lo que cuestan.",
+      },
+    ],
+  },
+  {
     id: "diario-de-a-bordo",
     titulo: "Cómo se construyeron las pirámides",
     categoria: "Historia",
@@ -961,6 +2169,103 @@ export const CURIOSIDADES: Short[] = [
           "describen, en un puerto del mar Rojo desde el que partían las expediciones del Estado " +
           "egipcio. Terminaron a cientos de kilómetros de la pirámide de cuya construcción " +
           "hablan.",
+      },
+    ],
+  },
+  {
+    id: "como-se-construyo-el-canal-de-panama",
+    titulo: "Cómo se construyó el canal de Panamá",
+    categoria: "Historia",
+    color: "var(--ochre)",
+    /* Serie «como-se-construyo-el-canal-de-panama», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El primer intento de abrir el canal fracasó y dejó 22.000 muertos» */
+    encargo: "El primer intento de abrir el canal fracasó y dejó 22.000 muertos",
+    fotos: [
+      {
+        local: p_como_se_construyo_el_canal_de_panama,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El primer intento de abrir el canal fracasó y dejó 22.000 muertos",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo intentaron los franceses, y con el mejor currículum posible",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El canal de Panamá no lo empezaron los estadounidenses. Lo empezaron los franceses, el " +
+          "1 de enero de 1881, y lo dirigía el hombre con más autoridad del mundo para hacerlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "<strong>Ferdinand de Lesseps</strong> venía de abrir el canal de Suez, una obra que " +
+          "había parecido imposible y que él había sacado adelante. Llegó a Panamá con esa " +
+          "reputación intacta, con capital reunido entre pequeños inversores franceses y con una " +
+          "idea muy clara de cómo se hacía un canal, porque ya había hecho uno.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí estaba el problema, y es de los errores más caros de la historia de la ingeniería. " +
+          "Suez es un canal a nivel del mar excavado en un desierto llano y seco. Panamá es una " +
+          "cordillera cubierta de selva, atravesada por un río que se desborda, con lluvias " +
+          "torrenciales y una montaña de por medio. El método que había funcionado en un sitio no " +
+          "valía en el otro, y la reputación del director hizo más difícil que alguien se lo " +
+          "dijera a tiempo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El proyecto no fracasó por falta de experiencia, sino por exceso de la experiencia " +
+          "equivocada. De Lesseps aplicó en Panamá exactamente lo que le había funcionado en " +
+          "Egipto, que era lo peor que podía hacer.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Se hundió por dos motivos, y uno era la mortalidad",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La empresa se derrumbó en 1889 por una combinación de problemas de ingeniería y de una " +
+          "tasa de mortalidad altísima entre los trabajadores, que acabó con la confianza de los " +
+          "inversores.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La cifra que dejó aquel primer intento es de 22.000 muertos, de los cuales hasta 5.000 " +
+          "eran ciudadanos franceses. Para entender el ritmo al que ocurría: en 1884, la tasa de " +
+          "muertes superaba las 200 al mes.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Detente en ese número un momento. Doscientas personas al mes, mes tras mes, en una " +
+          "obra que además no avanzaba. No era un accidente puntual ni una epidemia que llegó y " +
+          "pasó: era el funcionamiento normal de aquella obra, y nadie sabía cómo pararlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ese es el punto que hace de esta historia algo más que un desastre empresarial. Los " +
+          "franceses no fracasaron por no trabajar bastante ni por falta de dinero al principio. " +
+          "Fracasaron porque se estaban muriendo, y porque no sabían de qué.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El primer canal de Panamá no lo derrotó la montaña. Lo derrotó algo que en 1881 nadie " +
+          "sabía identificar y que se llevaba doscientas vidas al mes.",
       },
     ],
   },
@@ -1638,6 +2943,103 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "como-un-simple-papel-tiene-valor",
+    titulo: "Cómo un simple papel tiene valor",
+    categoria: "Economía",
+    color: "var(--plum)",
+    /* Serie «como-un-simple-papel-tiene-valor», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Desde 1971 no hay oro detrás de ningún billete» */
+    encargo: "Desde 1971 no hay oro detrás de ningún billete",
+    fotos: [
+      {
+        local: p_como_un_simple_papel_tiene_valor,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Desde 1971 no hay oro detrás de ningún billete",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Durante casi treinta años el dólar fue convertible en metal",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene empezar por lo que había antes, porque mucha gente cree que lo del oro es una " +
+          "leyenda antigua y en realidad terminó hace poco más de medio siglo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1944, representantes de 44 países se reunieron en Bretton Woods, en New Hampshire, " +
+          "para diseñar un nuevo sistema monetario internacional. Lo que montaron allí funcionaba " +
+          "en dos escalones. Las monedas del mundo tenían un tipo de cambio fijo con el dólar, y " +
+          "el dólar era convertible en oro a un precio también fijo: 35 dólares la onza.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Encadena los dos escalones y sale lo que aquello significaba. Un banco central " +
+          "extranjero con dólares en la caja podía presentarse en Estados Unidos y cambiarlos por " +
+          "metal, a un precio conocido de antemano. Y como todas las demás monedas estaban " +
+          "ancladas al dólar, todas ellas tenían detrás, de forma indirecta pero real, una " +
+          "cantidad concreta de oro.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El respaldo en oro no era una promesa hecha al ciudadano de a pie, sino a los bancos " +
+          "centrales de otros países. Pero mientras esa ventanilla estuvo abierta, el sistema " +
+          "entero descansaba sobre un metal que se podía pesar.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo que ocurrió el 15 de agosto de 1971 fue cerrar la ventanilla",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El 15 de agosto de 1971, el presidente Richard Nixon anunció de forma unilateral la " +
+          "cancelación de la convertibilidad internacional directa del dólar en oro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Formalmente no abolió Bretton Woods. Pero al suspender uno de sus componentes " +
+          "esenciales lo dejó inoperante, y ahí se acabó todo: aquello convirtió efectivamente al " +
+          "dólar en una moneda fiduciaria, y hacia 1973 el régimen de tipos de cambio flotantes " +
+          "había sustituido de hecho al sistema anterior para el resto de las monedas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir, la fecha en la que el dinero del mundo dejó de tener metal detrás no está en " +
+          "un manual de historia antigua. Está a medio siglo escaso, y hay muchísima gente viva " +
+          "que era adulta cuando pasó.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y a partir de ese día, un billete dejó de ser un recibo. Antes era, en el fondo, un " +
+          "resguardo por algo depositado en otro sitio. Después pasó a ser lo que es hoy: un " +
+          "papel que no promete entregarte nada.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El dinero no perdió su respaldo poco a poco ni por desgaste. Lo perdió en un anuncio, " +
+          "un domingo por la noche, y el sistema siguió funcionando exactamente igual al día " +
+          "siguiente. Esa continuidad es el dato incómodo del asunto.",
+      },
+    ],
+  },
+  {
     id: "un-cohete-no-empuja-contra-nada",
     titulo: "Cómo vuelan los cohetes",
     categoria: "Ciencia",
@@ -1752,6 +3154,102 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "El aire no ayuda al cohete: le frena, y además presiona en contra a la salida de la " +
           "tobera. Un mismo motor da más empuje en el vacío que a nivel del mar.",
+      },
+    ],
+  },
+  {
+    id: "como-vuelan-los-helicopteros",
+    titulo: "Cómo vuelan los helicópteros",
+    categoria: "Tecnología",
+    color: "var(--slate)",
+    /* Serie «como-vuelan-los-helicopteros», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un helicóptero no sube porque las palas giren más deprisa» */
+    encargo: "Un helicóptero no sube porque las palas giren más deprisa",
+    fotos: [
+      {
+        local: p_como_vuelan_los_helicopteros,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un helicóptero no sube porque las palas giren más deprisa",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El rotor va a velocidad constante casi todo el vuelo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Quizá te imagines que un helicóptero funciona como un ventilador: acelera las palas " +
+          "para subir y las frena para bajar. Es lo intuitivo y es exactamente lo que no ocurre.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El rotor de un helicóptero gira <strong>a una velocidad prácticamente " +
+          "constante</strong> durante todo el vuelo. Ni sube de vueltas para despegar ni baja " +
+          "para descender. Un motor de pistón o una turbina tardan demasiado en cambiar de " +
+          "régimen, y una máquina que dependiera de eso para no caerse sería incontrolable.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que cambia es otra cosa: <strong>el ángulo con el que cada pala ataca el " +
+          "aire</strong>. Una pala de helicóptero no es una tabla fija, es un ala que puede girar " +
+          "sobre su propio eje longitudinal.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El mando que sube y baja un helicóptero no toca el motor. Toca la inclinación de las " +
+          "palas, y el motor se limita a mantener el ritmo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y para avanzar, cada pala cambia de ángulo una vez por vuelta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y cómo se mueve entonces hacia delante? Aquí está lo verdaderamente ingenioso, y es " +
+          "simple: <strong>cada pala cambia de ángulo mientras gira, según por dónde vaya " +
+          "pasando</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Imagina el círculo que dibujan las palas visto desde arriba, y divídelo en delante y " +
+          "detrás. Si consigues que cada pala lleve <strong>menos</strong> ángulo justo cuando " +
+          "pasa por la parte delantera y <strong>más</strong> cuando pasa por la trasera, la " +
+          "parte de atrás del círculo empuja más fuerte que la de delante. El resultado es que el " +
+          "plano del rotor se inclina hacia delante, y con él toda la sustentación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en la consecuencia, porque le da la vuelta a lo que parece que pasa. Un " +
+          "helicóptero no se inclina y luego avanza. <strong>El rotor se inclina primero, y el " +
+          "aparato se inclina después porque cuelga de él.</strong>",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese mando se llama <strong>cíclico</strong>, porque el cambio de ángulo se repite en " +
+          "cada ciclo del rotor, y el otro, el que cambia el ángulo de todas las palas a la vez, " +
+          "se llama <strong>colectivo</strong>. Con esos dos y el rotor de cola se vuela un " +
+          "helicóptero entero.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Las palas no dan vueltas todas iguales. Cada una va cambiando de forma de trabajar a " +
+          "lo largo del giro, decenas de veces por segundo.",
       },
     ],
   },
@@ -1949,6 +3447,107 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "cual-es-el-rio-mas-largo-del-mundo",
+    titulo: "Cuál es el río más largo del mundo",
+    categoria: "Planeta Tierra",
+    color: "var(--clay)",
+    /* Serie «cual-es-el-rio-mas-largo-del-mundo», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Nadie sabe con certeza cuál es el río más largo del mundo» */
+    encargo: "Nadie sabe con certeza cuál es el río más largo del mundo",
+    fotos: [
+      {
+        local: p_cual_es_el_rio_mas_largo_del_mundo,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Nadie sabe con certeza cuál es el río más largo del mundo",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las medidas del mismo río no coinciden entre sí",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La respuesta escolar es el Nilo. Y es la que se sigue dando: se suele decir que el " +
+          "Nilo es el río más largo del mundo, con unos 6.650 kilómetros, y que el Amazonas es el " +
+          "segundo, con al menos 6.400.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema aparece al mirar las otras mediciones. En 2007 y 2008, un equipo de " +
+          "científicos sostuvo que el Amazonas medía 6.992 kilómetros y era más largo que el " +
+          "Nilo, al que atribuían 6.853. Y en 2009 un estudio revisado por pares concluyó lo " +
+          "contrario, dando 7.088 kilómetros al Nilo frente a 6.575 del Amazonas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ordena esos números y verás dónde está el asunto de verdad. Al Nilo se le han asignado " +
+          "6.650, 6.853 y 7.088 kilómetros según quién lo mida: más de 400 kilómetros de " +
+          "diferencia dentro del mismo río. Y la ventaja que el estudio de 2007 daba al Amazonas " +
+          "sobre el Nilo era de menos de 140 kilómetros.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir, la discrepancia entre distintas mediciones de un solo río llegó a triplicar " +
+          "la diferencia que se estaba discutiendo entre los dos.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La discusión sobre cuál es el río más largo no se puede resolver con una cinta métrica " +
+          "más precisa. Los números que se comparan no miden la misma cosa.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El debate sigue abierto, y esa es la respuesta honesta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay un motivo por el que esto no se zanja, y no es que falte tecnología. Los satélites " +
+          "llevan décadas fotografiando ambos ríos con todo detalle.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que falta es un acuerdo sobre qué hay que medir. Y como no lo hay, cada equipo " +
+          "aplica sus propios criterios, obtiene un número distinto y todos son correctos dentro " +
+          "de su definición. El estudio de 2009 daba ganador al Nilo, pero la propia literatura " +
+          "reconoce que la longitud del Amazonas sigue abierta a interpretación y a debate.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Así que la respuesta a la pregunta no es «el Nilo» ni «el Amazonas». Es que la " +
+          "longitud de un río no es un dato que exista ahí fuera esperando a ser leído, sino el " +
+          "resultado de unas cuantas decisiones humanas tomadas antes de empezar a medir.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En las dos secciones siguientes están esas decisiones, y son solo dos: dónde empieza " +
+          "un río y dónde acaba.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los ríos no tienen longitud del mismo modo que una mesa tiene largo. Tienen la " +
+          "longitud que se deduce de las convenciones que uno acepte, y las convenciones no están " +
+          "unificadas.",
+      },
+    ],
+  },
+  {
     id: "nadie-las-ha-contado",
     titulo: "Cuántas estrellas hay en el universo",
     categoria: "Ciencia",
@@ -2055,6 +3654,122 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "De un número con veinte ceros, tus ojos ven cuatro dígitos. Y todas están dentro de " +
           "nuestra galaxia.",
+      },
+    ],
+  },
+  {
+    id: "cuanto-aguanta-un-cactus-sin-agua",
+    titulo: "Cuánto aguanta un cactus sin agua",
+    categoria: "Naturaleza",
+    color: "var(--teal)",
+    /* Serie «cuanto-aguanta-un-cactus-sin-agua», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un cactus no aguanta por lo que guarda, sino por lo que no pierde» */
+    encargo: "Un cactus no aguanta por lo que guarda, sino por lo que no pierde",
+    fotos: [
+      {
+        local: p_cuanto_aguanta_un_cactus_sin_agua,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un cactus no aguanta por lo que guarda, sino por lo que no pierde",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que guarda es muchísimo, y aun así no bastaría",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La respuesta que todo el mundo da es que un cactus aguanta porque va lleno de agua, y " +
+          "esa respuesta es cierta. El agua puede llegar a suponer el 90 % de la masa total de un " +
+          "cactus.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las cifras del saguaro, el cactus gigante de los desiertos de Norteamérica, dan la " +
+          "escala del asunto. Se calcula que un ejemplar adulto puede absorber hasta 760 litros " +
+          "de agua durante una sola tormenta. Completamente hidratado, ese mismo cactus llega a " +
+          "pesar entre 1.500 y 2.200 kilos, es decir, más que un coche pequeño, y casi todo ese " +
+          "peso es agua.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para poder hacer eso, el tallo está construido como un fuelle. Las costillas " +
+          "verticales que le dan ese aspecto acanalado no son decorativas: permiten que el tallo " +
+          "se encoja durante la sequía y vuelva a hincharse cuando hay agua disponible, sin que " +
+          "la piel se rompa. Un cactus sediento y uno lleno son, literalmente, de distinto " +
+          "diámetro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pero aquí hay que parar, porque la pregunta interesante no es cuánta agua cabe dentro. " +
+          "Es otra: cualquier planta corriente con 760 litros dentro y las hojas abiertas al sol " +
+          "del desierto se quedaría seca en cuestión de semanas. Si el depósito fuera toda la " +
+          "explicación, no habría cactus.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El depósito es la parte fácil del problema. Guardar agua en un desierto no sirve de " +
+          "nada si la planta la va soltando al aire mientras respira.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Los poros se abren de noche, cuando no hay sol",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Toda planta tiene un problema de diseño que no puede resolver: para hacer la " +
+          "fotosíntesis necesita dejar entrar dióxido de carbono del aire, y lo hace por unos " +
+          "poros microscópicos. Por esos mismos poros se le escapa el agua. La puerta de entrada " +
+          "del alimento es la puerta de salida del agua, y es la misma puerta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una planta normal la abre de día, que es cuando hay luz para fotosintetizar. En un " +
+          "desierto eso significa abrirla justo en las horas de más calor y menos humedad, que es " +
+          "el peor momento posible.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El cactus hace lo contrario, y ahí está el truco entero. Sus poros se abren únicamente " +
+          "de noche, cuando la temperatura es más baja y la pérdida de agua es mínima. El dióxido " +
+          "de carbono entra entonces y no se usa: se captura y se guarda dentro de las células en " +
+          "forma de ácidos orgánicos. Al amanecer, los poros se cierran y permanecen cerrados " +
+          "todo el día. Y con la planta completamente sellada al exterior, la fotosíntesis " +
+          "funciona a pleno sol usando solo ese dióxido de carbono almacenado durante la noche.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir: un cactus a mediodía, en el momento de máxima actividad, es un organismo " +
+          "herméticamente cerrado. Está fabricando alimento sin intercambiar nada con el aire que " +
+          "lo rodea.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese sistema tiene nombre y no es exclusivo de los cactus: se llama <strong>metabolismo " +
+          "ácido de las crasuláceas</strong>.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La adaptación decisiva de un cactus no está en el depósito, sino en el horario. Separó " +
+          "en el tiempo las dos cosas que cualquier otra planta hace a la vez, y por eso puede " +
+          "trabajar bajo el sol sin perder agua.",
       },
     ],
   },
@@ -2941,6 +4656,115 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "el-auge-economico-de-china",
+    titulo: "El auge económico de China",
+    categoria: "Economía",
+    color: "var(--ochre)",
+    /* Serie «el-auge-economico-de-china», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El despegue de China empezó con dieciocho campesinos firmando un papel a escondidas» */
+    encargo: "El despegue de China empezó con dieciocho campesinos firmando un papel a escondidas",
+    fotos: [
+      {
+        local: p_el_auge_economico_de_china,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El despegue de China empezó con dieciocho campesinos firmando un papel a escondidas",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dieciocho familias se repartieron la tierra colectiva por su cuenta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La historia del crecimiento chino suele contarse desde arriba, con Deng Xiaoping y las " +
+          "decisiones del partido. Un buen punto de partida es el contrario: una aldea pequeña de " +
+          "la provincia de Anhui llamada Xiaogang.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1978, dieciocho familias de esa aldea hicieron un pacto entre ellas. La tierra era " +
+          "colectiva y lo que se producía se repartía entre todos, con el resultado previsible de " +
+          "que nadie tenía ningún motivo para esforzarse más que el vecino. Lo que acordaron " +
+          "aquellas familias fue repartirse las parcelas y que <strong>cada casa respondiera de " +
+          "sus propias ganancias y de sus propias pérdidas</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquello no estaba permitido. Era el primer ensayo de lo que después se llamaría " +
+          "sistema de responsabilidad familiar, y se hizo en secreto porque contradecía " +
+          "frontalmente la organización agrícola del país.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El efecto fue inmediato y uno de los firmantes lo explicó años después mejor de lo que " +
+          "podría explicarlo cualquier informe.",
+      },
+      {
+        b: "cita",
+        texto:
+          "Competíamos todos en secreto; cada uno quería producir más que el de al lado.",
+        autor: "Yen Jingchang, uno de los campesinos de Xiaogang",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La reforma que cambió la economía más grande de Asia no salió de un despacho. Salió de " +
+          "dieciocho familias que decidieron saltarse la norma porque el sistema anterior no les " +
+          "daba ninguna razón para trabajar.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Cuatro años después, el país entero hacía lo mismo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo interesante de Xiaogang no es que aquellas familias produjeran más. Es la velocidad " +
+          "a la que un delito local se convirtió en política nacional.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El marco general ya se estaba moviendo. El 18 de diciembre de 1978, en la tercera " +
+          "sesión plenaria del undécimo Comité Central, arrancó formalmente el periodo de reforma " +
+          "y apertura, guiado por Deng Xiaoping, a quien se suele llamar su arquitecto general. " +
+          "Entre 1979 y 1981 el experimento de Anhui se fue extendiendo en forma de programas " +
+          "piloto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1982, el sistema quedó establecido oficialmente mediante el llamado documento " +
+          "número 1 del Comité Central. Un año después se daba por implantado en todo el país.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en el recorrido completo, porque es lo que hace especial a este episodio. De un " +
+          "acuerdo clandestino entre dieciocho familias a la política agrícola oficial de mil " +
+          "millones de personas hay exactamente cuatro años.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La reforma agraria china no se diseñó y luego se aplicó. Se aplicó primero, " +
+          "ilegalmente y a pequeña escala, y el Estado la legalizó después de comprobar que " +
+          "funcionaba.",
+      },
+    ],
+  },
+  {
     id: "ser-la-unica-especie-humana",
     titulo: "Fuimos la única especie humana",
     categoria: "Historia",
@@ -3196,6 +5020,408 @@ export const CURIOSIDADES: Short[] = [
           "La columna de agua de un árbol se sostiene solo porque las moléculas se agarran entre " +
           "sí. Cuando la tensión es excesiva aparece una burbuja, la cadena se corta y ese " +
           "conducto queda inservible.",
+      },
+    ],
+  },
+  {
+    id: "la-historia-de-bugatti",
+    titulo: "La historia de Bugatti",
+    categoria: "Historia",
+    color: "var(--plum)",
+    /* Serie «la-historia-de-bugatti», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Bugatti la fundó un italiano en un pueblo que entonces era alemán» */
+    encargo: "Bugatti la fundó un italiano en un pueblo que entonces era alemán",
+    fotos: [
+      {
+        local: p_la_historia_de_bugatti,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Bugatti la fundó un italiano en un pueblo que entonces era alemán",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El fundador era milanés y venía de una familia de artistas, no de ingenieros",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando se habla de Bugatti se habla de lujo francés, y esa etiqueta es correcta hoy " +
+          "pero no explica nada del origen.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "<strong>Ettore Bugatti</strong> nació en Milán. Su padre, <strong>Carlo " +
+          "Bugatti</strong>, no tenía relación alguna con la mecánica: fue un diseñador " +
+          "importante de muebles y joyería del art nouveau, uno de esos nombres que aparecen en " +
+          "los museos de artes decorativas. Su hermano <strong>Rembrandt Bugatti</strong> era " +
+          "escultor, y llegaría a firmar la figura de elefante que corona el radiador del coche " +
+          "más famoso de la marca.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese detalle familiar explica más de lo que parece. Bugatti no salió de un taller ni de " +
+          "una escuela de ingenieros: salió de una casa donde el trabajo consistía en que un " +
+          "objeto útil fuera además bello. Ettore aplicó al automóvil el criterio que había visto " +
+          "aplicar a los muebles, y por eso sus coches tienen decisiones que ningún ingeniero " +
+          "puro habría tomado, desde la forma de la herradura del radiador hasta ejes pulidos que " +
+          "nadie iba a ver nunca.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La marca que más se asocia con la exageración en el automóvil no nació de la " +
+          "competición ni de la industria. Nació de una familia de artistas decorativos " +
+          "milaneses.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La fábrica estaba en Alsacia, y en 1909 Alsacia no era Francia",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La empresa se fundó en 1909 en <strong>Molsheim</strong>, en la región de Alsacia. Y " +
+          "aquí está el segundo desajuste con la etiqueta, porque Alsacia formó parte del Imperio " +
+          "alemán entre 1871 y 1919.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir: durante sus primeros diez años de vida, la fábrica del que sería el gran " +
+          "fabricante de lujo francés estaba en territorio alemán, dirigida por un italiano. " +
+          "Molsheim pasó a ser francesa en 1919 sin que la fábrica se moviera un metro. Cambió la " +
+          "frontera, no la dirección.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Puestas las tres nacionalidades en fila, el resultado es que la identidad nacional de " +
+          "Bugatti es un accidente de calendario. Si preguntas de dónde es la marca, la respuesta " +
+          "honesta es que depende del año por el que preguntes.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Bugatti no se hizo francesa por una decisión de su fundador. Se hizo francesa porque " +
+          "en 1919 la frontera se movió y la fábrica se quedó del otro lado.",
+      },
+    ],
+  },
+  {
+    id: "la-historia-de-ferrari",
+    titulo: "La historia de Ferrari",
+    categoria: "Historia",
+    color: "var(--slate)",
+    /* Serie «la-historia-de-ferrari», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Ferrari fue un equipo de carreras casi veinte años antes de ser una fábrica» */
+    encargo: "Ferrari fue un equipo de carreras casi veinte años antes de ser una fábrica",
+    fotos: [
+      {
+        local: p_la_historia_de_ferrari,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Ferrari fue un equipo de carreras casi veinte años antes de ser una fábrica",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Primero hubo una escudería, y corría con coches de otro",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La imagen habitual es la de un fabricante que, además, compite. En Ferrari el orden " +
+          "fue exactamente el contrario, y esa inversión explica casi todo lo demás.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Enzo Ferrari fue primero piloto y después jefe de equipo. Lo que fundó no fue una " +
+          "fábrica: fue la <strong>Scuderia Ferrari</strong>, una escudería que preparaba y hacía " +
+          "correr coches de <strong>Alfa Romeo</strong>. Durante años, la marca que aparecía en " +
+          "los coches que ganaban con su equipo era la de otra empresa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La ruptura con Alfa Romeo trajo un detalle que dice mucho de la relación. El acuerdo " +
+          "de separación le impidió durante un tiempo usar su propio apellido, así que montó su " +
+          "siguiente empresa con un nombre que no significa nada para nadie: <strong>Auto Avio " +
+          "Costruzioni</strong>.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La palabra Ferrari empezó siendo el nombre de un equipo, no el de un coche. La fábrica " +
+          "vino después, y vino a servir al equipo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El primer coche con su nombre es de 1947",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquella empresa pasó la Segunda Guerra Mundial construyendo y reparando material para " +
+          "el ejército italiano. Y solo cuando terminó la guerra empezó a fabricar coches bajo el " +
+          "nombre de Ferrari.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El primero fue el <strong>125 S</strong>, de 1947, y ya traía la marca de la casa: un " +
+          "motor de doce cilindros en V, la configuración que la empresa convertiría en su firma " +
+          "durante décadas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en las fechas puestas en fila, porque cuentan la historia solas. La escudería " +
+          "llevaba funcionando desde finales de los años veinte. El primer coche con el apellido " +
+          "en el morro es de 1947. Entre una cosa y otra hay casi veinte años en los que Ferrari " +
+          "existió, ganó y se hizo un nombre <strong>sin fabricar un solo coche propio</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahí está el orden de prioridades que explica lo que vendría después. Vender coches " +
+          "no era el negocio al que se le añadió un equipo de carreras. Era lo que había que " +
+          "hacer para poder seguir compitiendo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Casi todos los fabricantes compiten para vender más coches. Ferrari vendía coches para " +
+          "poder seguir compitiendo, y eso se nota en todo lo que hizo su fundador.",
+      },
+    ],
+  },
+  {
+    id: "la-historia-de-lamborghini",
+    titulo: "La historia de Lamborghini",
+    categoria: "Historia",
+    color: "var(--clay)",
+    /* Serie «la-historia-de-lamborghini», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Lamborghini fabricó tractores durante quince años antes de fabricar un coche» */
+    encargo: "Lamborghini fabricó tractores durante quince años antes de fabricar un coche",
+    fotos: [
+      {
+        local: p_la_historia_de_lamborghini,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Lamborghini fabricó tractores durante quince años antes de fabricar un coche",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los primeros Lamborghini se hicieron con material sobrante de la guerra",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Italia salió de la Segunda Guerra Mundial con el campo arruinado y con una cosa que " +
+          "sobraba por todas partes: vehículos militares abandonados. <strong>Ferruccio " +
+          "Lamborghini</strong>, hijo de agricultores y mecánico de formación, vio en esas dos " +
+          "circunstancias las dos mitades de un mismo negocio. Compraba los vehículos excedentes " +
+          "del ejército y los transformaba en máquinas agrícolas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1948 fundó Lamborghini Trattori, y la empresa se convirtió en poco tiempo en un " +
+          "fabricante importante de maquinaria agrícola italiana. Los primeros tractores ni " +
+          "siquiera llevaban motores propios: montaban propulsores de otras casas, y el mérito de " +
+          "Lamborghini estaba en el aprovechamiento y en el montaje, no en el diseño desde cero.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora pon las dos fechas juntas. Automobili Lamborghini se creó en 1963, en Sant'Agata " +
+          "Bolognese. Entre una cosa y la otra hay quince años en los que el apellido que hoy va " +
+          "en la trasera de un superdeportivo estaba escrito en el capó de tractores que araban " +
+          "el norte de Italia, y en los que su dueño ya era un industrial rico y conocido en su " +
+          "sector.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese orden importa más de lo que parece, porque explica una cosa que casi nunca se " +
+          "cuenta: la fábrica de coches no nació buscando financiación, nació con ella. El dinero " +
+          "del campo pagó la aventura.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Uno de los fabricantes de superdeportivos más famosos del mundo se financió con " +
+          "maquinaria agrícola. No fue un fabricante de coches que se hizo rico: fue un hombre " +
+          "rico que se puso a fabricar coches.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La historia del embrague se cuenta en todas partes y nadie ha podido probarla",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La versión que circula es demasiado buena para no repetirla. Ferruccio, dueño de un " +
+          "Ferrari, se harta de que el embrague le dé problemas, va a quejarse personalmente a " +
+          "Enzo Ferrari y este le contesta que se dedique a los tractores, que de coches no " +
+          "entiende. Herido en el orgullo, decide fabricar uno mejor.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y precisamente por ser tan buena conviene mirarla despacio. Casi todo lo que se sabe " +
+          "de aquella conversación viene de un relato del propio Lamborghini, contado en 1991, " +
+          "casi treinta años después de los hechos. No existe una versión de la otra parte. Y " +
+          "quien la contaba tenía un motivo evidente para contarla así: la anécdota convierte una " +
+          "decisión empresarial fría en un asunto de honor personal, y le regala a la marca un " +
+          "origen que ninguna campaña de publicidad podría comprar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Quienes han revisado el episodio con cuidado lo dicen sin rodeos: la historia tiene " +
+          "tanto de leyenda como de hecho, y no se sabe si el enfado fue realmente la razón para " +
+          "entrar en el negocio del automóvil, si solo inspiró la idea o si acabó siendo " +
+          "simplemente una buena anécdota que contar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay además un detalle que rara vez se menciona. Cuando la propia empresa cuenta su " +
+          "historia oficial, la pelea no aparece. Atribuye el salto al automóvil a la afición de " +
+          "su fundador y al número de deportivos que ya tenía aparcados en su garaje.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Así que quedan dos relatos posibles y ninguno de los dos se puede cerrar del todo. En " +
+          "uno, un industrial rico y aficionado a los coches decide fabricar el gran turismo que " +
+          "le gustaría conducir a él. En el otro, un hombre humillado monta una fábrica para " +
+          "responder a un desaire. Lo único seguro es que el segundo se cuenta mucho mejor, y que " +
+          "en más de sesenta años nadie ha logrado demostrarlo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El origen más famoso de la marca es también el peor documentado. La empresa que sí " +
+          "está documentada empezó por un motivo mucho más aburrido: su fundador podía " +
+          "permitírselo.",
+      },
+    ],
+  },
+  {
+    id: "la-historia-de-porsche",
+    titulo: "La historia de Porsche",
+    categoria: "Historia",
+    color: "var(--teal)",
+    /* Serie «la-historia-de-porsche», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El primer coche que diseñó Ferdinand Porsche era eléctrico, y es de 1900» */
+    encargo: "El primer coche que diseñó Ferdinand Porsche era eléctrico, y es de 1900",
+    fotos: [
+      {
+        local: p_la_historia_de_porsche,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El primer coche que diseñó Ferdinand Porsche era eléctrico, y es de 1900",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los cuatro motores iban metidos dentro de las ruedas",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En diciembre de 1900, en la Exposición de París, se presentó un coche de aspecto " +
+          "convencional para la época y de mecánica muy poco convencional. Lo firmaba la casa " +
+          "vienesa Lohner, y lo había proyectado un joven ingeniero llamado <strong>Ferdinand " +
+          "Porsche</strong>, que tenía veinticinco años.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El coche no llevaba motor en el sentido en que lo entendemos. Llevaba cuatro, uno " +
+          "metido dentro del buje de cada rueda, cada uno capaz de dar entre 2,5 y 3,5 caballos y " +
+          "de subir hasta 7 caballos en picos cortos. Es decir, las cuatro ruedas eran motrices, " +
+          "y lo eran porque cada una tenía su propio motor pegado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa un momento en lo que desaparece de un coche cuando haces eso. Desaparece el eje " +
+          "de transmisión, desaparece la caja de cambios, desaparecen las cadenas y las correas " +
+          "que en 1900 llevaban la fuerza desde el motor hasta las ruedas y que eran, de lejos, " +
+          "la parte más frágil de cualquier automóvil. La energía llega por un cable hasta el " +
+          "sitio donde hace falta y ahí se convierte en giro.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El primer proyecto importante de Ferdinand Porsche eliminó de un golpe toda la " +
+          "transmisión de un automóvil. La fuerza no viajaba: se fabricaba en la propia rueda.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El motor de gasolina no movía las ruedas, movía un generador",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema del coche eléctrico de 1900 era el mismo que hoy: las baterías pesaban " +
+          "demasiado y duraban poco. Y la solución que ensayó Porsche en 1901 es la parte de esta " +
+          "historia que conviene leer despacio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En lugar de aumentar las baterías, montó un motor de combustión fabricado por Daimler " +
+          "cuya misión no era mover el coche. Ese motor accionaba un generador, el generador " +
+          "producía electricidad, y la electricidad alimentaba los motores que iban dentro de las " +
+          "ruedas. El motor de gasolina no estaba conectado mecánicamente a nada que rodara.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Vale la pena decirlo con todas las letras, porque es contraintuitivo: en aquel coche " +
+          "había un motor de gasolina funcionando y, aun así, lo único que hacía girar las ruedas " +
+          "era corriente eléctrica. El invento se llamó <strong>Mixte</strong>, y su fecha es " +
+          "1901.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La disposición que Porsche ensayó en 1901 —un motor térmico que solo fabrica " +
+          "electricidad y unos motores eléctricos que hacen todo el trabajo— tardó más de cien " +
+          "años en llegar a los concesionarios.",
       },
     ],
   },
@@ -7016,6 +9242,112 @@ export const CURIOSIDADES: Short[] = [
           "queda marrón y cae con el nitrógeno dentro. Los otoños espectaculares son los de los " +
           "descensos de temperatura graduales, que le dan tiempo al árbol a hacer bien su " +
           "trabajo.",
+      },
+    ],
+  },
+  {
+    id: "por-que-las-pelotas-de-golf-tienen-hoyuelos",
+    titulo: "Por qué las pelotas de golf tienen hoyuelos",
+    categoria: "Ciencia",
+    color: "var(--ochre)",
+    /* Serie «por-que-las-pelotas-de-golf-tienen-hoyuelos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Los hoyuelos de una pelota de golf empezaron siendo desperfectos» */
+    encargo: "Los hoyuelos de una pelota de golf empezaron siendo desperfectos",
+    fotos: [
+      {
+        local: p_por_que_las_pelotas_de_golf_tienen_hoyuelos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Los hoyuelos de una pelota de golf empezaron siendo desperfectos",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los jugadores notaron que las pelotas gastadas iban mejor",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante el siglo XIX se jugaba al golf con la llamada <em>guttie</em>, una pelota de " +
+          "núcleo macizo de gutapercha, un material vegetal parecido al caucho. Salían de fábrica " +
+          "perfectamente lisas, que era lo que parecía correcto: una esfera pulida, sin " +
+          "imperfecciones.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y entonces alguien se fijó en algo que contradecía el sentido común. Se descubrió que " +
+          "las marcas y muescas que la pelota iba adquiriendo con el uso normal —los golpes de " +
+          "palo, los roces, los impactos contra el suelo— le daban un vuelo más consistente que " +
+          "el de una <em>guttie</em> de superficie perfectamente lisa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Léelo otra vez, porque es contraintuitivo hasta para alguien que sepa física. La " +
+          "pelota estropeada volaba mejor que la nueva. No un poco peor de forma tolerable: " +
+          "mejor.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los fabricantes tomaron nota e hicieron lo lógico, que es dejar de esperar a que la " +
+          "pelota se estropeara y ponerle el estropicio de fábrica, ordenado y repetible. De ahí " +
+          "a los hoyuelos moldeados hay un paso corto.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los hoyuelos no salieron de un laboratorio ni de una teoría aerodinámica. Salieron de " +
+          "que unos jugadores se dieron cuenta de que las pelotas más castigadas eran las que " +
+          "mejor se portaban.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Hoy son entre trescientos y quinientos, y todo lo demás está calculado",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La superficie que empezó siendo un accidente es hoy uno de los elementos más " +
+          "estudiados del equipamiento deportivo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La mayoría de las pelotas modernas tienen entre 300 y 500 hoyuelos, aunque han " +
+          "existido modelos con más de mil. Y no es solo el número: importan la profundidad, el " +
+          "diámetro de cada uno, la forma y cómo se reparten por la esfera para que no quede " +
+          "ninguna zona lisa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay algo que merece la pena señalar sobre este caso, porque no es frecuente. El orden " +
+          "habitual de la técnica es que primero se entiende un fenómeno y después se diseña algo " +
+          "que lo aproveche. Aquí ocurrió al revés: durante décadas se fabricaron pelotas con " +
+          "hoyuelos porque funcionaban, mucho antes de que la aerodinámica pudiera explicar por " +
+          "qué.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y la explicación, cuando llegó, resultó ser de las más elegantes de la física de " +
+          "fluidos. Va en el siguiente short, y se resume en una frase que no parece que pueda " +
+          "ser cierta: una superficie rugosa ofrece menos resistencia al aire que una lisa.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La pelota de golf es uno de los pocos objetos cotidianos que se optimizó a base de " +
+          "observar antes de entender. Primero se supo que funcionaba, y la teoría llegó después " +
+          "a explicar lo que los jugadores ya hacían.",
       },
     ],
   },
@@ -10870,6 +13202,107 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "por-que-unos-paises-son-ricos-y-otros-pobres",
+    titulo: "Por qué unos países son ricos y otros pobres",
+    categoria: "Economía",
+    color: "var(--plum)",
+    /* Serie «por-que-unos-paises-son-ricos-y-otros-pobres», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Hay una ciudad partida por una valla con dos niveles de vida distintos» */
+    encargo: "Hay una ciudad partida por una valla con dos niveles de vida distintos",
+    fotos: [
+      {
+        local: p_por_que_unos_paises_son_ricos_y_otros_pobres,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Hay una ciudad partida por una valla con dos niveles de vida distintos",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nogales está en dos países y es la misma ciudad",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para responder a por qué unos países son ricos y otros pobres hay un caso que vale más " +
+          "que cualquier estadística, y es el que abre el libro más influyente que se ha escrito " +
+          "sobre el asunto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la frontera entre Estados Unidos y México hay una ciudad llamada Nogales. En " +
+          "realidad son dos: <strong>Nogales, Arizona</strong> y <strong>Nogales, " +
+          "Sonora</strong>, separadas por una valla que atraviesa lo que era un solo núcleo " +
+          "urbano. Y entre un lado y otro de esa valla hay una diferencia notable en el nivel de " +
+          "vida.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa un momento en todo lo que las dos mitades comparten, porque es prácticamente " +
+          "todo. El mismo terreno, el mismo clima, la misma altitud, las mismas lluvias y las " +
+          "mismas sequías. Los mismos antepasados, el mismo idioma en muchas familias, la misma " +
+          "religión, la misma comida, las mismas enfermedades. Los habitantes de los dos lados " +
+          "tienen primos al otro lado.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Nogales es lo más parecido a un experimento controlado que ofrece la economía. Todas " +
+          "las variables se mantienen constantes salvo una, y esa una es de qué lado de la valla " +
+          "vives.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo interesante no es lo que explica, sino lo que descarta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí hay que resistir la tentación de saltar a la conclusión, porque la fuerza del " +
+          "ejemplo está en lo que elimina.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación más antigua sobre la riqueza de las naciones es la geografía: el clima, " +
+          "los ríos navegables, la tierra fértil, las enfermedades tropicales, la distancia al " +
+          "mar. Es una explicación seria y tiene defensores excelentes. Pero en Nogales no " +
+          "funciona, porque la geografía de los dos lados es literalmente la misma.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La segunda explicación clásica es la cultura: hay pueblos más trabajadores, más " +
+          "ahorradores o más emprendedores que otros. En Nogales tampoco funciona, y el motivo es " +
+          "todavía más contundente: en muchos casos hablamos de la misma familia repartida entre " +
+          "las dos aceras.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Descartadas esas dos, lo único que queda para explicar la diferencia son las reglas. " +
+          "Qué leyes te aplican, qué juzgado te atiende, con qué contrato compras una casa, quién " +
+          "cobra los impuestos y qué hace con ellos, y qué le ocurre a alguien que monta un " +
+          "negocio y le va bien.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La geografía y la cultura pueden explicar diferencias entre continentes, pero no " +
+          "pueden explicar una diferencia que aparece al cruzar una calle. Lo único que cambia en " +
+          "esa calle es qué conjunto de normas te toca.",
+      },
+    ],
+  },
+  {
     id: "por-que-vuelan-los-aviones-es-falso",
     titulo: "Por qué vuelan los aviones",
     categoria: "Ciencia",
@@ -11178,6 +13611,111 @@ export const CURIOSIDADES: Short[] = [
           "tres mil seiscientos años y estaba untado alrededor del cuello de tres momias. En 2024 " +
           "se le secuenció el ADN: era kéfir, y sus bacterias resultaron emparentadas con las de " +
           "las variedades tibetanas actuales.",
+      },
+    ],
+  },
+  {
+    id: "que-es-realmente-un-hongo",
+    titulo: "Qué es realmente un hongo",
+    categoria: "Naturaleza",
+    color: "var(--slate)",
+    /* Serie «que-es-realmente-un-hongo», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Una seta no es el hongo, es su fruta» */
+    encargo: "Una seta no es el hongo, es su fruta",
+    fotos: [
+      {
+        local: p_que_es_realmente_un_hongo,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Una seta no es el hongo, es su fruta",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El organismo entero está bajo tierra y se llama micelio",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando alguien dice «un hongo», casi todo el mundo piensa en una seta: el sombrero, el " +
+          "pie y poco más. Eso es como pensar que un manzano es una manzana.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La seta es únicamente el <strong>cuerpo fructífero</strong>. El organismo es el " +
+          "<strong>micelio</strong>, una red de filamentos finísimos llamados " +
+          "<strong>hifas</strong> que se extiende por el sustrato —el suelo del bosque, la madera " +
+          "muerta, la hojarasca— y que es donde el hongo vive, come y crece durante casi toda su " +
+          "existencia. La seta es lo que produce en un momento concreto, y para una sola cosa: " +
+          "soltar esporas al aire.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí sale una consecuencia práctica que sorprende a mucha gente. Coger una seta no " +
+          "mata al hongo. El organismo sigue entero debajo, exactamente igual que un manzano " +
+          "sigue vivo después de que le quiten la fruta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y explica también por qué las setas aparecen de golpe y por tandas, siempre después de " +
+          "las lluvias y en las mismas zonas año tras año. No es que el hongo haya nacido esa " +
+          "semana: llevaba años ahí abajo, y esa semana se dieron las condiciones para " +
+          "fructificar.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Buscar setas no es buscar hongos. Es esperar a que un organismo que lleva años bajo " +
+          "tus pies decida sacar la fruta a la superficie.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Un hongo no come: digiere fuera de sí mismo y luego absorbe",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La otra diferencia de fondo con un animal está en el orden de las operaciones, y es " +
+          "más rara de lo que parece.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Nosotros metemos la comida dentro y la digerimos ahí, con enzimas que trabajan en un " +
+          "espacio cerrado. Un hongo hace exactamente lo contrario: obtiene su alimento " +
+          "absorbiendo moléculas orgánicas ya disueltas, y para conseguirlas segrega enzimas " +
+          "digestivas <strong>hacia el exterior</strong>, al medio que lo rodea.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir, un hongo digiere primero y come después. Suelta sus jugos sobre el tronco " +
+          "caído, la fruta o la hojarasca, espera a que la materia se descomponga en moléculas " +
+          "pequeñas, y entonces las absorbe por la superficie de sus hifas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está el motivo de que su cuerpo tenga la forma que tiene. A un organismo que " +
+          "absorbe por toda su superficie no le interesa ser compacto: le interesa tener el " +
+          "máximo de superficie posible en contacto con la comida. Por eso un hongo no es una " +
+          "bola ni un bloque, sino una maraña de hilos finísimos que se ramifica sin parar. Su " +
+          "forma es la consecuencia directa de su manera de comer.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un hongo no tiene estómago porque no lo necesita: convierte en estómago todo lo que le " +
+          "rodea. Y como digiere por fuera, su cuerpo tiene que ser todo superficie.",
       },
     ],
   },
@@ -12656,6 +15194,115 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "El reglamento de 1863 no fijó el fútbol: abrió una discusión que sigue abierta ciento " +
           "sesenta años después.",
+      },
+    ],
+  },
+  {
+    id: "steve-jobs",
+    titulo: "Steve Jobs",
+    categoria: "Historia",
+    color: "var(--clay)",
+    /* Serie «steve-jobs», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «A Steve Jobs no lo echaron de Apple: perdió un pulso y dimitió» */
+    encargo: "A Steve Jobs no lo echaron de Apple: perdió un pulso y dimitió",
+    fotos: [
+      {
+        local: p_steve_jobs,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "A Steve Jobs no lo echaron de Apple: perdió un pulso y dimitió",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El consejo se puso del lado del director general, no del fundador",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La versión que se repite es que Apple echó a la calle al hombre que la había fundado. " +
+          "Lo que ocurrió de verdad es algo más incómodo y bastante más interesante.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En mayo de 1985, el director general de Apple, <strong>John Sculley</strong>, propuso " +
+          "apartar a Jobs de la división del Macintosh. Jobs respondió preparando la maniobra " +
+          "contraria, es decir, sacar a Sculley de la empresa. El plan se filtró antes de " +
+          "ejecutarse, y a partir de ahí el pulso estaba resuelto: el consejo no se puso de su " +
+          "parte.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Jobs presentó su carta de dimisión al consejo de Apple el 17 de septiembre de 1985. No " +
+          "fue un despido, fue una renuncia después de quedarse sin poder efectivo dentro de la " +
+          "empresa. Y el detalle que redondea el episodio es quién era Sculley. Había llegado a " +
+          "Apple en abril de 1983 fichado por el propio Jobs, que se empeñó en sacarlo de PepsiCo " +
+          "con una de las frases más citadas de la historia de la empresa.",
+      },
+      {
+        b: "cita",
+        texto:
+          "¿Quieres pasarte el resto de tu vida vendiendo agua azucarada, o quieres venir conmigo " +
+          "y cambiar el mundo?",
+        autor: "Steve Jobs, a John Sculley",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con 7 millones de dólares fundó a continuación <strong>NeXT</strong>, una empresa de " +
+          "ordenadores para universidades y centros de investigación. Tenía treinta años.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Jobs no perdió Apple por un enfrentamiento con un enemigo externo. La perdió contra el " +
+          "ejecutivo que él mismo había convencido para que se incorporara.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Volvió once años después porque Apple tuvo que comprarle su empresa",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí es donde la historia se vuelve casi improbable, y donde conviene mirar las fechas " +
+          "antes que los relatos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Apple pasó la primera mitad de los años noventa buscando un sistema operativo moderno " +
+          "que sustituyera al suyo, ya viejo, y no conseguía terminarlo por sus propios medios. " +
+          "La solución que encontró fue comprar uno hecho. En diciembre de 1996 cerró un acuerdo " +
+          "con NeXT por 400 millones de dólares, y la operación se completó en febrero de 1997.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese acuerdo no era, sobre el papel, una recontratación. Era la compra de una empresa " +
+          "de software. Pero con el software venía su dueño, y con su dueño volvió a la compañía " +
+          "el hombre que se había marchado once años antes.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir: Apple no llamó a Jobs para que volviera. Compró la empresa que él había " +
+          "montado con el dinero que se llevó al irse, y lo recuperó de rebote.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El hombre que salió de Apple sin poder volvió a entrar como propietario de algo que " +
+          "Apple necesitaba. Entre las dos fechas hay once años y una empresa entera fundada por " +
+          "el camino.",
       },
     ],
   },
