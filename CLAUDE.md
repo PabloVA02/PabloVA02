@@ -151,6 +151,32 @@ portada nueva. El guion que lo hace todo es
   lado de la portada, y `scripts/encuadre.mjs` dibuja sobre la foto la ventana
   que se va a quedar y una rejilla para leer el `x`/`y` del ajuste.
 
+- **Y una portada bien recortada puede estar mal puesta.** Es lo que Pablo
+  devolvió el 31 de agosto: «la de la cerilla está mal puesta, muy abajo, se
+  corta con el texto; fíjate en esas cosas». El archivo estaba perfecto —2:3,
+  más alta que 9:16, así que de alto no se recortaba nada— y aun así en
+  pantalla la llama caía al 60 % y el palo atravesaba el título.
+
+  La razón es que **la portada se pinta a pantalla completa y de 0,70 para
+  abajo van el título y el «Seguir»**. O sea que el motivo tiene que vivir en
+  los dos tercios de arriba. Cuando la foto lo tiene bajo, se sube pegando la
+  ventana al borde inferior —`y = 1 − 1/(2·zoom)`, que recorta por arriba, que
+  es donde sobra cielo o negro—, y eso cuesta resolución: hay que comprobar
+  que no baje del suelo de 1644.
+
+  Tres guiones para esto, y **el orden importa**:
+
+      node scripts/descuadradas.mjs      cuáles conviene mirar
+      node scripts/hoja-encuadre.mjs …   doce de golpe, con la franja del texto
+      node scripts/encuadre-pantalla.mjs "cerilla"   la app de verdad
+
+  El primero mide dónde está el peso visual de cada portada y marca las que lo
+  tienen bajo. **No decide: propone.** De 55 que marcó, mal de verdad había
+  ocho; las demás eran cielos, texturas y torres que cruzan el texto y quedan
+  bien. Y al revés: la de la duna PUNTÚA PEOR después de arreglarla, porque al
+  quitarle el cielo vacío la textura de la arena pesa más. El número sirve
+  para elegir a cuáles mirar, y nada más.
+
 - **Una foto apaisada o cuadrada pierde muchísimo, y hay que decirlo.** Para
   llenar una pantalla de móvil hace falta 9:16; una foto 3:4 pierde la cuarta
   parte de cada lado y una 3:2 se queda en un tercio del ancho. Por eso algunas

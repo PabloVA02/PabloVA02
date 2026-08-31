@@ -16,5 +16,45 @@
   },
   "la-cebada-no-tiene-azucar": {
     "aire": 0.12
+  },
+  "como-funciona-una-cerilla": {
+    "x": 0.45,
+    "y": 0.62,
+    "zoom": 1.32
+  },
+  "por-que-estornudamos": {
+    "x": 0.5,
+    "y": 0.688,
+    "zoom": 1.6
+  },
+  "dos-mil-anos-antes-de-los-druidas": {
+    "x": 0.52,
+    "y": 0.643,
+    "zoom": 1.4
+  },
+  "como-se-forma-un-tsunami": {
+    "x": 0.53,
+    "y": 0.63,
+    "zoom": 1.35
+  },
+  "el-cielo-deberia-ser-violeta": {
+    "x": 0.49,
+    "y": 0.63,
+    "zoom": 1.35
+  },
+  "como-reconoce-un-pinguino-a-su-cria": {
+    "x": 0.49,
+    "y": 0.6,
+    "zoom": 1.25
+  },
+  "la-frase-tal-como-se-dice-es-falsa": {
+    "x": 0.56,
+    "y": 0.6,
+    "zoom": 1.25
+  },
+  "todas-las-explicaciones-que-te-han-dado-fallan": {
+    "x": 0.48,
+    "y": 0.643,
+    "zoom": 1.4
   }
 }
