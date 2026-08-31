@@ -13,31 +13,44 @@ import type { Short } from "../shorts";
 import p_como_calienta_un_microondas from "../../portadas/servir/como-calienta-un-microondas.avif";
 import p_como_cancelan_el_ruido_unos_auriculares from "../../portadas/servir/como-cancelan-el-ruido-unos-auriculares.avif";
 import p_la_costra_no_esta_curando_nada from "../../portadas/servir/la-costra-no-esta-curando-nada.avif";
+import p_como_de_bien_ve_un_aguila from "../../portadas/servir/como-de-bien-ve-un-aguila.avif";
 import p_como_enfria_una_nevera from "../../portadas/servir/como-enfria-una-nevera.avif";
 import p_los_de_la_cebada from "../../portadas/servir/los-de-la-cebada.avif";
 import p_como_erupciona_un_volcan from "../../portadas/servir/como-erupciona-un-volcan.avif";
 import p_como_funciona_el_wifi from "../../portadas/servir/como-funciona-el-wifi.avif";
 import p_como_funciona_la_bolsa_de_valores from "../../portadas/servir/como-funciona-la-bolsa-de-valores.avif";
 import p_la_gravedad_no_es_una_fuerza from "../../portadas/servir/la-gravedad-no-es-una-fuerza.avif";
+import p_como_funciona_la_inteligencia_artificial from "../../portadas/servir/como-funciona-la-inteligencia-artificial.avif";
 import p_como_funciona_un_coche from "../../portadas/servir/como-funciona-un-coche.avif";
 import p_como_funciona_un_hormiguero from "../../portadas/servir/como-funciona-un-hormiguero.avif";
+import p_como_funciona_un_iman from "../../portadas/servir/como-funciona-un-iman.avif";
+import p_como_funciona_un_reloj_mecanico from "../../portadas/servir/como-funciona-un-reloj-mecanico.avif";
+import p_como_funciona_un_tren_de_alta_velocidad from "../../portadas/servir/como-funciona-un-tren-de-alta-velocidad.avif";
+import p_como_funciona_una_camara_de_fotos from "../../portadas/servir/como-funciona-una-camara-de-fotos.avif";
 import p_como_funciona_una_cerilla from "../../portadas/servir/como-funciona-una-cerilla.avif";
 import p_como_funciona_una_cerradura from "../../portadas/servir/como-funciona-una-cerradura.avif";
 import p_como_funciona_una_pantalla_tactil from "../../portadas/servir/como-funciona-una-pantalla-tactil.avif";
 import p_como_genera_electricidad_un_molino_de_viento from "../../portadas/servir/como-genera-electricidad-un-molino-de-viento.avif";
 import p_como_genera_electricidad_una_placa_solar from "../../portadas/servir/como-genera-electricidad-una-placa-solar.avif";
+import p_como_reconoce_un_pinguino_a_su_cria from "../../portadas/servir/como-reconoce-un-pinguino-a-su-cria.avif";
 import p_como_se_aguanta_en_pie_un_rascacielos from "../../portadas/servir/como-se-aguanta-en-pie-un-rascacielos.avif";
 import p_diario_de_a_bordo from "../../portadas/servir/diario-de-a-bordo.avif";
 import p_como_se_construyo_el_canal_de_panama from "../../portadas/servir/como-se-construyo-el-canal-de-panama.avif";
 import p_se_leyeron_al_reves from "../../portadas/servir/se-leyeron-al-reves.avif";
+import p_como_se_descubrio_la_penicilina from "../../portadas/servir/como-se-descubrio-la-penicilina.avif";
 import p_como_se_forma_dentro_de_una_gota from "../../portadas/servir/como-se-forma-dentro-de-una-gota.avif";
 import p_como_se_forma_un_cometa from "../../portadas/servir/como-se-forma-un-cometa.avif";
+import p_como_se_forma_un_tornado from "../../portadas/servir/como-se-forma-un-tornado.avif";
+import p_como_se_forma_un_tsunami from "../../portadas/servir/como-se-forma-un-tsunami.avif";
+import p_como_se_forma_una_cueva from "../../portadas/servir/como-se-forma-una-cueva.avif";
+import p_como_se_hace_el_jamon_iberico from "../../portadas/servir/como-se-hace-el-jamon-iberico.avif";
 import p_el_vino_se_hace_solo_y_lo_traen_las_avispas from "../../portadas/servir/el-vino-se-hace-solo-y-lo-traen-las-avispas.avif";
 import p_la_cebada_no_tiene_azucar from "../../portadas/servir/la-cebada-no-tiene-azucar.avif";
 import p_mas_antiguo_que_la_agricultura from "../../portadas/servir/mas-antiguo-que-la-agricultura.avif";
 import p_como_un_simple_papel_tiene_valor from "../../portadas/servir/como-un-simple-papel-tiene-valor.avif";
 import p_un_cohete_no_empuja_contra_nada from "../../portadas/servir/un-cohete-no-empuja-contra-nada.avif";
 import p_como_vuelan_los_helicopteros from "../../portadas/servir/como-vuelan-los-helicopteros.avif";
+import p_como_vuelan_los_pajaros from "../../portadas/servir/como-vuelan-los-pajaros.avif";
 import p_dos_preguntas_distintas from "../../portadas/servir/dos-preguntas-distintas.avif";
 import p_todos_la_misma_edad from "../../portadas/servir/todos-la-misma-edad.avif";
 import p_cual_es_el_rio_mas_largo_del_mundo from "../../portadas/servir/cual-es-el-rio-mas-largo-del-mundo.avif";
@@ -49,21 +62,32 @@ import p_es_un_arma_quimica from "../../portadas/servir/es-un-arma-quimica.avif"
 import p_la_palabra_viajo_con_ella from "../../portadas/servir/la-palabra-viajo-con-ella.avif";
 import p_de_donde_sale_el_oro from "../../portadas/servir/de-donde-sale-el-oro.avif";
 import p_nacio_en_la_amazonia from "../../portadas/servir/nacio-en-la-amazonia.avif";
+import p_de_que_esta_hecho_un_hueso from "../../portadas/servir/de-que-esta-hecho-un-hueso.avif";
 import p_mas_grande_que_cualquier_dinosaurio from "../../portadas/servir/mas-grande-que-cualquier-dinosaurio.avif";
 import p_el_auge_economico_de_china from "../../portadas/servir/el-auge-economico-de-china.avif";
+import p_el_camino_de_santiago from "../../portadas/servir/el-camino-de-santiago.avif";
 import p_ser_la_unica_especie_humana from "../../portadas/servir/ser-la-unica-especie-humana.avif";
 import p_el_arbol_no_bombea_el_agua_la_cuelga from "../../portadas/servir/el-arbol-no-bombea-el-agua-la-cuelga.avif";
 import p_la_historia_de_bugatti from "../../portadas/servir/la-historia-de-bugatti.avif";
 import p_la_historia_de_ferrari from "../../portadas/servir/la-historia-de-ferrari.avif";
+import p_la_historia_de_la_alhambra from "../../portadas/servir/la-historia-de-la-alhambra.avif";
 import p_la_historia_de_lamborghini from "../../portadas/servir/la-historia-de-lamborghini.avif";
 import p_la_historia_de_porsche from "../../portadas/servir/la-historia-de-porsche.avif";
+import p_la_historia_del_titanic from "../../portadas/servir/la-historia-del-titanic.avif";
+import p_la_sagrada_familia from "../../portadas/servir/la-sagrada-familia.avif";
 import p_leyendo_las_sagas from "../../portadas/servir/leyendo-las-sagas.avif";
+import p_los_samurais from "../../portadas/servir/los-samurais.avif";
+import p_miguel_de_cervantes from "../../portadas/servir/miguel-de-cervantes.avif";
+import p_no_sirven_para_agarrar from "../../portadas/servir/no-sirven-para-agarrar.avif";
 import p_el_bostezo_no_tiene_que_ver_con_el_oxigeno from "../../portadas/servir/el-bostezo-no-tiene-que-ver-con-el-oxigeno.avif";
 import p_una_contrasena_que_alguien_ha_robado from "../../portadas/servir/una-contrasena-que-alguien-ha-robado.avif";
+import p_por_que_cambia_de_color_un_camaleon from "../../portadas/servir/por-que-cambia-de-color-un-camaleon.avif";
 import p_casi_nadie_se_dio_cuenta from "../../portadas/servir/casi-nadie-se-dio-cuenta.avif";
 import p_no_crecen_la_piel_se_retira from "../../portadas/servir/no-crecen-la-piel-se-retira.avif";
+import p_una_burbuja_formandose from "../../portadas/servir/una-burbuja-formandose.avif";
 import p_hay_un_sensor_dentro_del_diente from "../../portadas/servir/hay-un-sensor-dentro-del-diente.avif";
 import p_el_dolor_no_esta_donde_lo_notas from "../../portadas/servir/el-dolor-no-esta-donde-lo-notas.avif";
+import p_no_es_la_deshidratacion from "../../portadas/servir/no-es-la-deshidratacion.avif";
 import p_no_es_el_acido_lactico from "../../portadas/servir/no-es-el-acido-lactico.avif";
 import p_por_que_el_aceite_de_oliva_es_tan_saludable from "../../portadas/servir/por-que-el-aceite-de-oliva-es-tan-saludable.avif";
 import p_el_chaval_y_el_helado from "../../portadas/servir/el-chaval-y-el-helado.avif";
@@ -78,11 +102,14 @@ import p_lleno_de_semillas from "../../portadas/servir/lleno-de-semillas.avif";
 import p_por_que_el_sahara_fue_verde from "../../portadas/servir/por-que-el-sahara-fue-verde.avif";
 import p_empezo_en_orden_alfabetico from "../../portadas/servir/empezo-en-orden-alfabetico.avif";
 import p_los_dias_no_los_anos_si from "../../portadas/servir/los-dias-no-los-anos-si.avif";
+import p_por_que_estornudamos from "../../portadas/servir/por-que-estornudamos.avif";
+import p_por_que_flota_un_barco_de_acero from "../../portadas/servir/por-que-flota-un-barco-de-acero.avif";
 import p_el_color_te_dice_a_que_altura_ocurre from "../../portadas/servir/el-color-te-dice-a-que-altura-ocurre.avif";
 import p_por_que_hay_personas_con_ojos_azules from "../../portadas/servir/por-que-hay-personas-con-ojos-azules.avif";
 import p_por_que_hay_personas_con_ojos_marrones from "../../portadas/servir/por-que-hay-personas-con-ojos-marrones.avif";
 import p_por_que_hay_personas_con_ojos_verdes from "../../portadas/servir/por-que-hay-personas-con-ojos-verdes.avif";
 import p_por_que_hay_personas_rubias from "../../portadas/servir/por-que-hay-personas-rubias.avif";
+import p_por_que_hay_terremotos from "../../portadas/servir/por-que-hay-terremotos.avif";
 import p_por_que_la_estatua_de_la_libertad_es_verde from "../../portadas/servir/por-que-la-estatua-de-la-libertad-es-verde.avif";
 import p_una_molecula_a_partir_de_los_cuarenta from "../../portadas/servir/una-molecula-a-partir-de-los-cuarenta.avif";
 import p_la_luna_del_horizonte_es_mas_pequena from "../../portadas/servir/la-luna-del-horizonte-es-mas-pequena.avif";
@@ -101,9 +128,13 @@ import p_el_sahara_esta_seco_por_lo_que_pasa_en_el_ecuador from "../../portadas/
 import p_no_invierten_izquierda_derecha from "../../portadas/servir/no-invierten-izquierda-derecha.avif";
 import p_un_flamenco_nace_gris from "../../portadas/servir/un-flamenco-nace-gris.avif";
 import p_no_lo_siguen_se_le_anticipan from "../../portadas/servir/no-lo-siguen-se-le-anticipan.avif";
+import p_los_pelirrojos_mas_anestesia from "../../portadas/servir/los-pelirrojos-mas-anestesia.avif";
 import p_por_que_marte_es_rojo from "../../portadas/servir/por-que-marte-es-rojo.avif";
+import p_la_frase_tal_como_se_dice_es_falsa from "../../portadas/servir/la-frase-tal-como-se-dice-es-falsa.avif";
 import p_por_que_no_hemos_vuelto_a_la_luna from "../../portadas/servir/por-que-no-hemos-vuelto-a-la-luna.avif";
+import p_no_es_que_no_lo_grabes_se_borra_hacia_atras from "../../portadas/servir/no-es-que-no-lo-grabes-se-borra-hacia-atras.avif";
 import p_a_los_tres_anos_te_acordabas from "../../portadas/servir/a-los-tres-anos-te-acordabas.avif";
+import p_por_que_nos_salen_canas from "../../portadas/servir/por-que-nos-salen-canas.avif";
 import p_la_unica_especie_que_se_sonroja from "../../portadas/servir/la-unica-especie-que-se-sonroja.avif";
 import p_el_picante_no_es_un_sabor from "../../portadas/servir/el-picante-no-es-un-sabor.avif";
 import p_el_picor_lo_pones_tu from "../../portadas/servir/el-picor-lo-pones-tu.avif";
@@ -116,8 +147,10 @@ import p_la_leche_cortada_es_queso_a_medio_empezar from "../../portadas/servir/l
 import p_el_pan_duro_no_se_ha_secado from "../../portadas/servir/el-pan-duro-no-se-ha-secado.avif";
 import p_no_es_falta_de_riego from "../../portadas/servir/no-es-falta-de-riego.avif";
 import p_tienen_una_forma_que_se_puede_medir from "../../portadas/servir/tienen-una-forma-que-se-puede-medir.avif";
+import p_tu_sangre_nunca_es_azul from "../../portadas/servir/tu-sangre-nunca-es-azul.avif";
 import p_por_que_son_caros_los_diamantes from "../../portadas/servir/por-que-son-caros-los-diamantes.avif";
 import p_el_azul_no_es_un_color_es_una_estructura from "../../portadas/servir/el-azul-no-es-un-color-es-una-estructura.avif";
+import p_por_que_sube_la_marea from "../../portadas/servir/por-que-sube-la-marea.avif";
 import p_todas_las_explicaciones_que_te_han_dado_fallan from "../../portadas/servir/todas-las-explicaciones-que-te-han-dado-fallan.avif";
 import p_el_conductor_no_se_marea_nunca from "../../portadas/servir/el-conductor-no-se-marea-nunca.avif";
 import p_la_cicatriz_de_un_dano from "../../portadas/servir/la-cicatriz-de-un-dano.avif";
@@ -130,13 +163,16 @@ import p_el_destello_sube_del_suelo_a_la_nube from "../../portadas/servir/el-des
 import p_por_que_unos_paises_son_ricos_y_otros_pobres from "../../portadas/servir/por-que-unos-paises-son-ricos-y-otros-pobres.avif";
 import p_por_que_vuelan_los_aviones_es_falso from "../../portadas/servir/por-que-vuelan-los-aviones-es-falso.avif";
 import p_que_es_el_salar_de_uyuni from "../../portadas/servir/que-es-el-salar-de-uyuni.avif";
+import p_que_es_exactamente_el_fuego from "../../portadas/servir/que-es-exactamente-el-fuego.avif";
 import p_coladores_de_hace_7500_anos from "../../portadas/servir/coladores-de-hace-7500-anos.avif";
 import p_que_es_realmente_un_hongo from "../../portadas/servir/que-es-realmente-un-hongo.avif";
 import p_que_es_realmente_una_perla from "../../portadas/servir/que-es-realmente-una-perla.avif";
 import p_que_es_un_agujero_de_gusano from "../../portadas/servir/que-es-un-agujero-de-gusano.avif";
 import p_que_es_un_agujero_negro from "../../portadas/servir/que-es-un-agujero-negro.avif";
+import p_que_es_un_laser from "../../portadas/servir/que-es-un-laser.avif";
 import p_que_es_una_estrella_fugaz from "../../portadas/servir/que-es-una-estrella-fugaz.avif";
 import p_hasta_1925_el_universo_era_esta_galaxia from "../../portadas/servir/hasta-1925-el-universo-era-esta-galaxia.avif";
+import p_que_fue_antes_el_huevo_o_la_gallina from "../../portadas/servir/que-fue-antes-el-huevo-o-la-gallina.avif";
 import p_que_fue_el_ejercito_de_terracota from "../../portadas/servir/que-fue-el-ejercito-de-terracota.avif";
 import p_un_nombre_del_siglo_xix from "../../portadas/servir/un-nombre-del-siglo-xix.avif";
 import p_las_lapidas_fechadas from "../../portadas/servir/las-lapidas-fechadas.avif";
@@ -144,8 +180,12 @@ import p_que_hay_debajo_de_la_antartida from "../../portadas/servir/que-hay-deba
 import p_mil_atmosferas from "../../portadas/servir/mil-atmosferas.avif";
 import p_dos_mil_anos_antes_de_los_druidas from "../../portadas/servir/dos-mil-anos-antes-de-los-druidas.avif";
 import p_quien_fue_cleopatra from "../../portadas/servir/quien-fue-cleopatra.avif";
+import p_quien_fue_isaac_newton from "../../portadas/servir/quien-fue-isaac-newton.avif";
 import p_quien_fue_la_persona_mas_rica_del_mundo from "../../portadas/servir/quien-fue-la-persona-mas-rica-del-mundo.avif";
+import p_quien_fue_leonardo_da_vinci from "../../portadas/servir/quien-fue-leonardo-da-vinci.avif";
+import p_quien_fue_nikola_tesla from "../../portadas/servir/quien-fue-nikola-tesla.avif";
 import p_quien_invento_el_futbol from "../../portadas/servir/quien-invento-el-futbol.avif";
+import p_quien_invento_el_submarino from "../../portadas/servir/quien-invento-el-submarino.avif";
 import p_steve_jobs from "../../portadas/servir/steve-jobs.avif";
 
 /* ==========================================================================
@@ -161,7 +201,7 @@ import p_steve_jobs from "../../portadas/servir/steve-jobs.avif";
    reparte en pantallas es la app, midiendo el móvil de quien lee. Es la
    regla 3 de `.claude/skills/paginado-shorts/SKILL.md`.
 
-   Hoy entran 138 de 428: solo los que tienen portada.
+   Hoy entran 178 de 496: solo los que tienen portada.
    ========================================================================== */
 
 export const CURIOSIDADES: Short[] = [
@@ -478,6 +518,113 @@ export const CURIOSIDADES: Short[] = [
           "debajo, con sus vasos recién construidos, y esa parte hay que rehacerla entera desde " +
           "la fase de inflamación. Cada vez que se repite, el resultado final tiende a ser una " +
           "cicatriz más ancha.",
+      },
+    ],
+  },
+  {
+    id: "como-de-bien-ve-un-aguila",
+    titulo: "Cómo de bien ve un águila",
+    categoria: "Naturaleza",
+    color: "var(--ochre)",
+    /* Serie «como-de-bien-ve-un-aguila», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un águila no ve ocho veces mejor que tú; ve unas dos» */
+    encargo: "Un águila no ve ocho veces mejor que tú; ve unas dos",
+    fotos: [
+      {
+        local: p_como_de_bien_ve_un_aguila,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un águila no ve ocho veces mejor que tú; ve unas dos",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cifra que todo el mundo repite está inflada",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La frase circula en todos los documentales: un águila ve ocho veces mejor que un " +
+          "humano, y desde mil metros distingue un conejo. Conviene bajar eso a los números " +
+          "medidos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las rapaces de ojo grande —el águila audaz australiana, los buitres del Viejo Mundo— " +
+          "tienen una resolución espacial <strong>unas dos veces mayor</strong> que la humana. " +
+          "Dos, no ocho. Es una ventaja real y considerable, pero está lejos de la cifra que se " +
+          "repite.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay un segundo dato que casi nunca se cuenta y que descoloca todavía más. Muchas " +
+          "rapaces medianas y pequeñas tienen una resolución espacial comparable a la nuestra o " +
+          "incluso más baja. Es decir, no es que las aves de presa vean mejor por ser aves de " +
+          "presa: hay halcones que, en agudeza pura, ven peor que tú.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La visión excepcional no viene con el oficio de cazador, viene con el tamaño del ojo. " +
+          "Las rapaces que baten a un humano son las grandes, y su ventaja es de dos veces, no " +
+          "del orden de magnitud que solemos imaginar.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo que sí tienen es más sensor y un segundo punto de mira",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entonces, si el multiplicador es modesto, ¿de dónde sale la fama? De dos cosas " +
+          "concretas, y las dos se pueden nombrar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La primera es la densidad de receptores. En la fóvea —la zona central de la retina, " +
+          "donde la visión es más nítida— un cernícalo americano tiene 65.000 receptores por " +
+          "milímetro cuadrado, frente a los 38.000 de un ser humano. Casi el doble de células " +
+          "recogiendo la misma imagen, que es exactamente el mismo salto que hay entre una cámara " +
+          "buena y una excelente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La segunda es más rara y es la verdaderamente diferencial. Nosotros tenemos una sola " +
+          "fóvea por ojo. Muchas aves tienen dos: una segunda fóvea dedicada a la visión lateral, " +
+          "presente en el 54 % de las especies estudiadas, rapaces incluidas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa en lo que significa tener dos. Un ojo humano tiene un único punto de máxima " +
+          "nitidez, y para mirar algo con detalle hay que dirigirlo hacia ahí. Un ave con dos " +
+          "foveas por ojo tiene dos zonas afiladas apuntando a sitios distintos a la vez, y puede " +
+          "mantener el detalle en dos direcciones sin mover la cabeza.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La ventaja de una rapaz no está tanto en ver más lejos como en tener dos puntos de " +
+          "mira por ojo en vez de uno. Ve con detalle donde nosotros solo tenemos visión " +
+          "periférica.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Sabías que…? Los cernícalos vulgares localizan los rastros de los topillos con la " +
+          "vista. Estos roedores dejan senderos de orina y excrementos que reflejan la luz " +
+          "ultravioleta, y el ave, que sí ve ese ultravioleta, los distingue desde el aire como " +
+          "si fueran caminos marcados.",
       },
     ],
   },
@@ -1181,6 +1328,114 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "como-funciona-la-inteligencia-artificial",
+    titulo: "Cómo funciona la inteligencia artificial",
+    categoria: "Tecnología",
+    color: "var(--sage)",
+    /* Serie «como-funciona-la-inteligencia-artificial», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Una red neuronal no guarda información, guarda números» */
+    encargo: "Una red neuronal no guarda información, guarda números",
+    fotos: [
+      {
+        local: p_como_funciona_la_inteligencia_artificial,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Una red neuronal no guarda información, guarda números",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una neurona artificial hace una suma y poco más",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La idea es más vieja de lo que parece. En 1958, el psicólogo <strong>Frank " +
+          "Rosenblatt</strong> describió el perceptrón, una de las primeras redes neuronales que " +
+          "llegaron a construirse, financiada por la Oficina de Investigación Naval de Estados " +
+          "Unidos. Hace casi setenta años de eso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El elemento básico sigue siendo el mismo hoy y es de una simplicidad que descoloca. " +
+          "Una neurona artificial recibe señales de otras neuronas conectadas a ella. Esas " +
+          "señales son números reales, sin más. La neurona las procesa y emite a su vez una señal " +
+          "hacia las siguientes.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El detalle importante está en las conexiones, no en las neuronas. La fuerza de la " +
+          "señal que viaja por cada conexión la determina un número llamado " +
+          "<strong>peso</strong>, y la salida de cada neurona se calcula aplicando al total de " +
+          "sus entradas una función no lineal, que es lo que impide que toda la red se reduzca a " +
+          "una suma gigante.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cambia los pesos y cambias lo que hace la red entera, sin tocar ni una sola de sus " +
+          "neuronas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "En una red neuronal el conocimiento no está en las piezas, está en la fuerza de las " +
+          "conexiones entre ellas. Las neuronas son idénticas; lo único que distingue a una red " +
+          "que reconoce caras de otra que traduce del ruso son sus números.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Entrenar significa corregir esos números millones de veces",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entonces, ¿cómo se llega a los números correctos? Nadie los escribe. Se buscan a base " +
+          "de equivocarse.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El procedimiento se llama <strong>retropropagación</strong> y consiste en algo " +
+          "bastante intuitivo cuando se cuenta despacio. Se le da un ejemplo a la red, la red " +
+          "produce una respuesta, y se compara esa respuesta con la correcta. La diferencia entre " +
+          "las dos es el error. Entonces ese error se propaga hacia atrás, desde los nodos de " +
+          "salida hasta los de entrada, ajustando los pesos por el camino.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para saber en qué dirección moverlos se calcula la pendiente de la función de error " +
+          "respecto a cada peso, es decir, se pregunta a cada número si subiendo un poco el error " +
+          "crece o disminuye, y se le mueve hacia donde disminuye. Repite eso millones de veces, " +
+          "con millones de ejemplos, y los pesos van cayendo hacia una combinación que funciona.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y aquí está la consecuencia que casi nadie tiene presente. Cuando el entrenamiento " +
+          "termina, lo que queda guardado no son los textos ni las imágenes que se le enseñaron. " +
+          "Es un montón de números. El modelo no contiene una biblioteca que consulta: contiene " +
+          "el resultado de haber sido corregido muchísimas veces mientras la leía.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un modelo de inteligencia artificial no es un archivo con lo que aprendió dentro. Es " +
+          "la forma en que quedaron sus conexiones después de equivocarse millones de veces, y " +
+          "ese es todo su contenido.",
+      },
+    ],
+  },
+  {
     id: "como-funciona-un-coche",
     titulo: "Cómo funciona un coche",
     categoria: "Tecnología",
@@ -1394,6 +1649,442 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Ninguna hormiga tiene una idea del hormiguero. La coordinación no está en las " +
           "hormigas: está en el ritmo con el que se tropiezan.",
+      },
+    ],
+  },
+  {
+    id: "como-funciona-un-iman",
+    titulo: "Cómo funciona un imán",
+    categoria: "Ciencia",
+    color: "var(--plum)",
+    /* Serie «como-funciona-un-iman», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un imán no tiene nada dentro que no tenga cualquier trozo de hierro» */
+    encargo: "Un imán no tiene nada dentro que no tenga cualquier trozo de hierro",
+    fotos: [
+      {
+        local: p_como_funciona_un_iman,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un imán no tiene nada dentro que no tenga cualquier trozo de hierro",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cada electrón es ya un imán diminuto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El magnetismo no es una sustancia que unos materiales tengan y otros no. Empieza mucho " +
+          "más abajo, en cada electrón por separado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cada electrón de un átomo posee un <strong>momento magnético</strong> que depende de " +
+          "su estado de espín, tal como lo describe la mecánica cuántica. Dicho en corto: todo " +
+          "electrón es, por sí mismo, un imán minúsculo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entonces, ¿por qué no es magnético todo lo que existe? Porque los electrones van casi " +
+          "siempre emparejados, y <strong>dos electrones emparejados cancelan mutuamente sus " +
+          "momentos magnéticos</strong>. Uno apunta a un lado y el otro al contrario, y la suma " +
+          "es cero.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que solo aportan magnetismo los electrones <strong>desapareados</strong>, los " +
+          "que se quedan solos en capas parcialmente llenas. Y eso ya no lo tiene cualquiera: los " +
+          "materiales ferromagnéticos comunes son los metales de transición hierro, níquel y " +
+          "cobalto, precisamente porque tienen muchos electrones desapareados en sus orbitales d.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El magnetismo no aparece en unos pocos materiales por lo que tienen, sino por lo que " +
+          "les falta: una pareja para cada electrón. En casi todo lo demás las parejas están " +
+          "hechas y se anulan entre sí.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Un hierro sin imantar ya está lleno de imanes, solo que desordenados",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Falta el paso decisivo, y es el que explica qué hace exactamente imantar algo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Dentro de un material ferromagnético hay regiones diminutas llamadas <strong>dominios " +
+          "magnéticos</strong>. Dentro de cada dominio, los espines se alinean espontáneamente y " +
+          "apuntan todos en la misma dirección. Pero los espines de dominios distintos apuntan en " +
+          "direcciones distintas, y sus campos magnéticos se cancelan entre sí.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está la clave. Un clavo corriente <strong>ya tiene dentro</strong> todos los " +
+          "imanes necesarios, organizados en pequeños grupos perfectamente alineados. Lo que no " +
+          "tiene es acuerdo entre esos grupos: cada uno mira hacia un lado, y a escala del clavo " +
+          "entero el resultado se anula.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Imantarlo consiste solo en aplicar un campo externo que reoriente esos dominios y los " +
+          "ponga a todos de acuerdo. No se le añade nada. Se le ordena lo que ya había.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso funciona el truco de frotar un destornillador con un imán y dejarlo " +
+          "magnetizado. No le estás pasando magnetismo de uno a otro, como quien transfiere un " +
+          "líquido: le estás peinando los dominios.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Imantar no es dar magnetismo, es poner de acuerdo el que ya estaba dentro. La " +
+          "diferencia entre un imán y un trozo de hierro cualquiera no es de contenido, es de " +
+          "organización.",
+      },
+    ],
+  },
+  {
+    id: "como-funciona-un-reloj-mecanico",
+    titulo: "Cómo funciona un reloj mecánico",
+    categoria: "Tecnología",
+    color: "var(--slate)",
+    /* Serie «como-funciona-un-reloj-mecanico», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La pieza clave de un reloj no sirve para mover nada: sirve para frenar» */
+    encargo: "La pieza clave de un reloj no sirve para mover nada: sirve para frenar",
+    fotos: [
+      {
+        local: p_como_funciona_un_reloj_mecanico,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La pieza clave de un reloj no sirve para mover nada: sirve para frenar",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo difícil de un reloj no es que ande, es que ande despacio",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Empecemos por el problema, porque casi nadie lo plantea bien y todo lo demás depende " +
+          "de él.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La energía de un reloj mecánico está en un muelle enrollado. Un muelle enrollado " +
+          "quiere una sola cosa: desenrollarse, y hacerlo cuanto antes. Si conectaras ese muelle " +
+          "directamente a las agujas, darían unas cuantas vueltas a toda velocidad y se pararían " +
+          "en un par de segundos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Así que el reto de un reloj nunca fue conseguir movimiento. Movimiento sobra. El reto " +
+          "era <strong>administrarlo</strong>: soltar esa energía poquito a poco, durante un día " +
+          "entero, y sobre todo soltarla siempre al mismo ritmo, porque de nada sirve que dure si " +
+          "va más rápido cuando el muelle está apretado y más lento cuando se va aflojando.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La pieza que resuelve eso es la que da nombre a este short, y su trabajo consiste " +
+          "íntegramente en estorbar.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un reloj no es una máquina de mover agujas, es una máquina de retener un muelle. Toda " +
+          "su complejidad está al servicio de impedir que la energía salga de golpe.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El escape suelta un diente cada vez, y ese es el tic",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La pieza se llama <strong>escape</strong>, y hace dos cosas a la vez que conviene " +
+          "separar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La primera: da impulsos al elemento regulador del tiempo y <strong>libera " +
+          "periódicamente el tren de engranajes</strong> para que avance y mueva las agujas. La " +
+          "segunda es la consecuencia: cada oscilación del volante o del péndulo libera " +
+          "<strong>un diente</strong> de la rueda de escape, permitiendo que todo el mecanismo " +
+          "avance una cantidad fija.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un diente por oscilación. Ni más ni menos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso convierte. Por un lado entra un empuje continuo, el del muelle, " +
+          "que no sabe de tiempo. Por el otro sale una serie de pasos idénticos y contables. El " +
+          "escape es un traductor: transforma fuerza en cantidad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y de ahí sale también el sonido. Lo que produce el característico tictac de un reloj " +
+          "mecánico es <strong>la detención brusca del diente</strong> del escape cada vez que la " +
+          "rueda es retenida otra vez. Cada tic que oyes es un diente que ha sido atrapado, y por " +
+          "tanto una unidad de tiempo contada.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El tictac de un reloj no es un ruido de funcionamiento, es el sonido de la cuenta. " +
+          "Cada uno de esos golpes es literalmente un diente frenado, y contar tics es contar " +
+          "tiempo.",
+      },
+    ],
+  },
+  {
+    id: "como-funciona-un-tren-de-alta-velocidad",
+    titulo: "Cómo funciona un tren de alta velocidad",
+    categoria: "Tecnología",
+    color: "var(--clay)",
+    /* Serie «como-funciona-un-tren-de-alta-velocidad», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Lo difícil de la alta velocidad no es el tren, es la vía» */
+    encargo: "Lo difícil de la alta velocidad no es el tren, es la vía",
+    fotos: [
+      {
+        local: p_como_funciona_un_tren_de_alta_velocidad,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Lo difícil de la alta velocidad no es el tren, es la vía",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "A partir de cierta velocidad, los defectos del trazado se multiplican",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Se considera alta velocidad ferroviaria a las líneas construidas para al menos " +
+          "<strong>250 kilómetros por hora</strong>, o a las líneas mejoradas para al menos 200. " +
+          "Y lo primero que hay que entender es por qué no basta con poner un tren más rápido " +
+          "sobre las vías que ya existen.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "A esas velocidades cambia la física de todo el sistema. Los efectos de cualquier " +
+          "defecto geométrico del trazado se intensifican, la adherencia entre rueda y carril " +
+          "disminuye, y la resistencia aerodinámica aumenta enormemente. Una irregularidad que a " +
+          "80 por hora es un traqueteo, a 300 es un golpe capaz de descarrilar un convoy.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso una línea de alta velocidad exige unas condiciones muy estrictas: " +
+          "<strong>radios de curva grandes</strong>, <strong>pendientes suaves</strong> y un " +
+          "trazado completamente segregado, sin un solo paso a nivel.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un tren de alta velocidad no es un tren normal con más potencia. Es un tren normal " +
+          "circulando por un terreno preparado con tolerancias que el ferrocarril del siglo XIX " +
+          "no necesitaba ni de lejos.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Una vía rápida no puede seguir el terreno",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De esas exigencias sale la consecuencia visible, la que se nota mirando por la " +
+          "ventanilla.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un ferrocarril clásico se adapta al paisaje. Bordea la montaña, sigue el valle del " +
+          "río, hace una curva cerrada para esquivar un pueblo y sube por donde el terreno se lo " +
+          "permite. Fue construido cuando la velocidad era baja y el dinero, escaso, así que se " +
+          "plegó a lo que había.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una línea de alta velocidad no puede hacer eso. Con la exigencia de radios grandes y " +
+          "pendientes suaves, casi ningún terreno real le sirve tal como está. Donde una vía " +
+          "antigua rodea una colina, la nueva la atraviesa. Donde la antigua baja al valle y " +
+          "vuelve a subir, la nueva lo cruza por encima.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí que estas líneas sean una sucesión de túneles y viaductos, y de ahí también su " +
+          "coste. Lo caro de la alta velocidad no son los trenes: es tener que fabricar un " +
+          "terreno recto y llano donde no lo había.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y explica una cosa que confunde a mucha gente. Un tren de alta velocidad puede " +
+          "circular por vías convencionales, pero entonces va despacio, como cualquier otro. La " +
+          "velocidad no viaja con el tren, está construida en el suelo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La alta velocidad no es una máquina, es una obra pública. El tren es la parte barata y " +
+          "la que se puede comprar hecha; lo que cuesta décadas y miles de millones es el camino " +
+          "por el que va.",
+      },
+    ],
+  },
+  {
+    id: "como-funciona-una-camara-de-fotos",
+    titulo: "Cómo funciona una cámara de fotos",
+    categoria: "Tecnología",
+    color: "var(--teal)",
+    /* Serie «como-funciona-una-camara-de-fotos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La imagen de una cámara se conocía desde hacía 2.200 años; lo difícil era quedársela» */
+    encargo: "La imagen de una cámara se conocía desde hacía 2.200 años; lo difícil era quedársela",
+    fotos: [
+      {
+        local: p_como_funciona_una_camara_de_fotos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La imagen de una cámara se conocía desde hacía 2.200 años; lo difícil era quedársela",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cámara oscura está documentada en el siglo IV antes de Cristo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una cámara de fotos es, en su parte óptica, una caja cerrada con un agujero pequeño. " +
+          "La luz que entra por ese agujero proyecta en la pared del fondo una imagen invertida " +
+          "de lo que hay fuera. Eso es todo, y no hace falta ninguna lente para que ocurra.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo llamativo es desde cuándo se sabe. El registro escrito más antiguo de la cámara " +
+          "oscura es del <strong>siglo IV a. C.</strong>, y aparece en dos sitios a la vez sin " +
+          "ninguna relación entre ellos: en Grecia, en los textos de " +
+          "<strong>Aristóteles</strong>, y en China, en los de <strong>Mozi</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir, dos culturas separadas por medio mundo describieron el mismo fenómeno en el " +
+          "mismo siglo, y desde entonces cualquiera con una habitación a oscuras y un agujero " +
+          "pudo verlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante los veintidós siglos siguientes, la cámara oscura se usó para observar " +
+          "eclipses sin quemarse los ojos y como ayuda para dibujar: se proyectaba la escena " +
+          "sobre un papel y se calcaba el contorno.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La imagen fotográfica no hubo que inventarla. Llevaba proyectándose en las paredes de " +
+          "las habitaciones oscuras desde antes de que existiera Roma, y cualquiera podía verla; " +
+          "lo único que no se podía era llevársela.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El problema no era hacer la imagen, era impedir que se borrara",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está el desplazamiento que hay que hacer para entender qué se inventó de verdad en " +
+          "el siglo XIX. Nadie inventó la fotografía en el sentido de conseguir la imagen: la " +
+          "imagen estaba disponible desde Aristóteles. Lo que se inventó fue " +
+          "<strong>fijarla</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ese era un problema endiablado, porque las sustancias que reaccionan a la luz no " +
+          "dejan de hacerlo cuando a ti te conviene. Se conseguía una imagen y después seguía " +
+          "oscureciéndose hasta desaparecer del todo en cuanto se sacaba a la luz para mirarla. " +
+          "Había que encontrar la manera de detener la reacción en el momento exacto y dejarla " +
+          "congelada para siempre.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La primera vez que alguien lo consiguió fue <strong>Nicéphore Niépce</strong>, en 1826 " +
+          "o 1827. La fotografía más antigua que se conserva de una imagen formada en una cámara " +
+          "está hecha sobre una plancha de peltre pulido, y la sustancia sensible era una capa " +
+          "fina de betún.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El precio en tiempo da la medida de lo precaria que era la técnica: la exposición se " +
+          "ha dicho tradicionalmente que fue de ocho horas, aunque hoy se cree que fueron " +
+          "<strong>varios días</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y la técnica que funcionó de verdad se anunció poco después. El <strong>7 de enero de " +
+          "1839</strong>, el primer procedimiento fotográfico práctico y completo se presentó en " +
+          "una reunión de la Academia de Ciencias francesa, y sus instrucciones se hicieron " +
+          "públicas el 19 de agosto de ese mismo año.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Entre ver la imagen y poder guardarla pasaron veintidós siglos. La fotografía no es un " +
+          "invento óptico, es un invento químico, y esa es la razón de que llegara tan tarde.",
       },
     ],
   },
@@ -1924,6 +2615,112 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "como-reconoce-un-pinguino-a-su-cria",
+    titulo: "Cómo reconoce un pingüino a su cría",
+    categoria: "Naturaleza",
+    color: "var(--sage)",
+    /* Serie «como-reconoce-un-pinguino-a-su-cria», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un pingüino emperador no tiene nido, así que solo le queda la voz» */
+    encargo: "Un pingüino emperador no tiene nido, así que solo le queda la voz",
+    fotos: [
+      {
+        local: p_como_reconoce_un_pinguino_a_su_cria,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un pingüino emperador no tiene nido, así que solo le queda la voz",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sin un sitio fijo, desaparece la forma normal de encontrarse",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Casi todas las aves resuelven este problema sin pensarlo, porque tienen nido. El nido " +
+          "es una dirección: está en esa rama, en ese hueco, en ese saliente, y quien vuelve solo " +
+          "tiene que acordarse del sitio. Ni siquiera hace falta reconocer a nadie.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El pingüino emperador no tiene esa opción. La especie carece de lugares de " +
+          "nidificación fijos que los individuos puedan usar para localizar a su pareja o a su " +
+          "cría, así que debe apoyarse <strong>únicamente en sonidos vocales</strong> para " +
+          "identificarse.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y no es un detalle menor de su biología, es toda su vida reproductiva. El macho incuba " +
+          "el huevo encima de sus propias patas, cubriéndolo con un pliegue de piel y plumas, de " +
+          "modo que ni siquiera el huevo tiene una posición en el mapa: se mueve con el animal. " +
+          "Las colonias reúnen hasta varios miles de individuos, y los adultos recorren entre 50 " +
+          "y 120 kilómetros sobre el hielo para llegar a ellas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Imagina volver de esa caminata, con comida en el buche, a un lugar donde hay miles de " +
+          "animales prácticamente idénticos, todos moviéndose, sin ninguna referencia física, y " +
+          "teniendo que dar con uno concreto.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El pingüino emperador se quedó sin la solución que usan casi todas las aves. No puede " +
+          "recordar dónde dejó a su cría, porque su cría no está en ningún sitio: está entre " +
+          "miles, y se mueve.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La voz les sirve de documento de identidad",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La respuesta a ese problema está en las llamadas, y en esta especie han llegado más " +
+          "lejos que en ninguna otra.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los emperadores usan un conjunto complejo de llamadas que resultan críticas para el " +
+          "reconocimiento individual entre parejas, entre padres e hijos, y que presentan " +
+          "<strong>la mayor variación individual de todas las especies de pingüino</strong>. No " +
+          "es un canto de especie ni un canto de colonia: cada animal suena distinto de los " +
+          "demás, y esa diferencia es el dato que se busca.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en el orden causal, porque es lo interesante del asunto y no es casualidad. La " +
+          "especie que más ha perfeccionado el reconocimiento por voz es precisamente la que se " +
+          "quedó sin nido. No desarrollaron voces reconocibles y luego prescindieron del nido: " +
+          "prescindieron del nido —porque en la Antártida no hay con qué construirlo ni dónde " +
+          "ponerlo— y la voz tuvo que cargar con todo el peso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los pollos, por su parte, tienen su propia llamada: un silbido modulado en frecuencia " +
+          "que usan tanto para pedir comida como para mantener el contacto con sus padres.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "En la Antártida no hay ramas, ni barro, ni huecos donde meterse. Todo el sistema de " +
+          "reconocimiento vocal de esta especie existe porque el paisaje no le dejó otra salida.",
+      },
+    ],
+  },
+  {
     id: "como-se-aguanta-en-pie-un-rascacielos",
     titulo: "Cómo se aguanta en pie un rascacielos",
     categoria: "Tecnología",
@@ -2380,6 +3177,101 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "como-se-descubrio-la-penicilina",
+    titulo: "Cómo se descubrió la penicilina",
+    categoria: "Historia",
+    color: "var(--teal)",
+    /* Serie «como-se-descubrio-la-penicilina», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Fleming vio el moho, lo publicó y no consiguió sacar nada de él» */
+    encargo: "Fleming vio el moho, lo publicó y no consiguió sacar nada de él",
+    fotos: [
+      {
+        local: p_como_se_descubrio_la_penicilina,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Fleming vio el moho, lo publicó y no consiguió sacar nada de él",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tres de septiembre de 1928, hospital de Saint Mary, Londres",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Alexander Fleming volvió de vacaciones el 3 de septiembre de 1928 y se puso a ordenar " +
+          "las placas de cultivo que había dejado apiladas antes de marcharse. En ellas había " +
+          "estado creciendo <em>Staphylococcus</em>, y una de las placas se había contaminado con " +
+          "un moho.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que le llamó la atención no fue el moho, que en un laboratorio de la época era una " +
+          "molestia rutinaria. Fue el borde: alrededor de la mancha de moho había un anillo " +
+          "limpio, sin bacterias. Algo que salía de aquel hongo estaba impidiéndoles crecer.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El moho resultó ser <em>Penicillium notatum</em>. Fleming llamó al líquido en que " +
+          "crecía «jugo de moho», y a la sustancia activa la bautizó penicilina.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El hallazgo no fue el moho en la placa, que le pasaba a todo el mundo. Fue mirar el " +
+          "anillo vacío en vez de tirar la placa.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La historia se corta aquí, y esa es la parte que no se cuenta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora bien, el relato popular termina más o menos donde acaba el párrafo anterior, y " +
+          "por eso da una impresión equivocada de cómo funcionan estas cosas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fleming lo intentó. Sus ayudantes Stuart Craddock y Frederick Ridley trabajaron para " +
+          "aislar penicilina pura del jugo de moho, y no lo consiguieron: la sustancia era " +
+          "tremendamente inestable y solo podían preparar disoluciones bastas. Publicó sus " +
+          "resultados en junio de 1929, pero sin defender apenas el uso terapéutico; sugería que " +
+          "lo más útil sería emplearla en el laboratorio para aislar bacterias que no le fueran " +
+          "sensibles.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Otros lo intentaron y también fracasaron, incluido Harold Raistrick, de la Escuela de " +
+          "Higiene y Medicina Tropical de Londres.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en la distancia entre lo que se cuenta y lo que pasó. Entre la placa " +
+          "contaminada y el primer paciente tratado pasaron doce años y medio, y durante casi " +
+          "todos ellos la penicilina fue una curiosidad de laboratorio que nadie sabía fabricar.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Ver el efecto y tener el medicamento son dos problemas distintos, y el segundo era " +
+          "mucho más difícil. La penicilina estuvo descrita y publicada durante una década sin " +
+          "curar a nadie.",
+      },
+    ],
+  },
+  {
     id: "como-se-forma-dentro-de-una-gota",
     titulo: "Cómo se forma un arcoíris",
     categoria: "Ciencia",
@@ -2591,6 +3483,428 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Cada aparición le cuesta material. Un cometa se ve porque se está gastando, y solo se " +
           "ve mientras se gasta.",
+      },
+    ],
+  },
+  {
+    id: "como-se-forma-un-tornado",
+    titulo: "Cómo se forma un tornado",
+    categoria: "Planeta Tierra",
+    color: "var(--ochre)",
+    /* Serie «como-se-forma-un-tornado», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un tornado empieza girando a kilómetros del suelo y mide varios kilómetros de ancho» */
+    encargo: "Un tornado empieza girando a kilómetros del suelo y mide varios kilómetros de ancho",
+    fotos: [
+      {
+        local: p_como_se_forma_un_tornado,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un tornado empieza girando a kilómetros del suelo y mide varios kilómetros de ancho",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La rotación existe mucho antes que el tornado, y es enorme",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La imagen habitual es la de un embudo que se forma en la base de una nube y baja hasta " +
+          "tocar el suelo. Lo que se ve es eso, pero lo que ocurre empezó antes y en otro sitio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los tornados se desarrollan a menudo a partir de una clase de tormentas llamadas " +
+          "<strong>supercélulas</strong>, y lo que define a una supercélula es que contiene un " +
+          "<strong>mesociclón</strong>: una zona de rotación organizada situada a unos cuantos " +
+          "kilómetros de altura en la atmósfera.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ese mesociclón no es un remolino estrecho. Tiene típicamente entre 3 y 10 kilómetros " +
+          "de diámetro. Es decir, antes de que exista ningún tornado, ya hay una masa de aire de " +
+          "varios kilómetros de ancho girando dentro de la tormenta, a kilómetros del suelo, " +
+          "donde nadie la ve.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Después, la corriente descendente de la parte trasera de la tormenta va arrastrando " +
+          "ese mesociclón hacia abajo. Cuando desciende por debajo de la base de la nube, la " +
+          "convergencia entre el aire cálido de la corriente ascendente y el aire frío forma una " +
+          "nube de pared que gira. De ahí sale, ya al final del proceso, el embudo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un tornado no crea la rotación al formarse: hereda una que ya llevaba un rato girando " +
+          "kilómetros más arriba y varios kilómetros más ancha. Lo que baja no es un remolino " +
+          "nuevo, es un remolino que se estrecha.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El origen del giro es que el viento cambia con la altura",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Queda la pregunta de dónde sale esa rotación inicial, y la respuesta tiene una parte " +
+          "bonita y una advertencia.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El ingrediente principal es la <strong>cizalladura del viento</strong>: cambios " +
+          "fuertes en la velocidad del viento con la distancia y en su dirección con la altura. " +
+          "Dicho de otro modo, que a mil metros el viento sople distinto de como sopla a tres " +
+          "mil, en fuerza o en dirección.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La imagen que se usa para entenderlo es la de una rueda de paletas invisible, puesta " +
+          "de canto en el aire, a la que esos vientos que cambian con la altura ponen a girar: el " +
+          "de arriba empuja por un lado y el de abajo por el otro, y la rueda gira.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahora la advertencia, que es la parte que casi nunca se cuenta. El paso siguiente " +
+          "suele dibujarse como un tubo de aire que rueda en horizontal y que la corriente " +
+          "ascendente levanta y pone de pie, como quien endereza un cilindro. Esa representación " +
+          "se considera <strong>incorrecta</strong> en la literatura especializada, aunque siga " +
+          "apareciendo en documentales y en libros de texto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que sí ocurre es más gradual y menos gráfico: las porciones de aire que ascienden " +
+          "se van encontrando, conforme suben, con aire desplazado a mayor velocidad, y eso hace " +
+          "que su trayectoria se curve y acabe describiendo una espiral hacia arriba. No hay " +
+          "nadie enderezando un tubo; hay aire subiendo por un medio que se mueve distinto a cada " +
+          "altura.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El dibujo del tubo horizontal que se pone de pie es de los errores mejor instalados de " +
+          "la meteorología divulgativa. La rotación no se vuelca: se va curvando poco a poco " +
+          "porque el aire de arriba no va donde el de abajo.",
+      },
+    ],
+  },
+  {
+    id: "como-se-forma-un-tsunami",
+    titulo: "Cómo se forma un tsunami",
+    categoria: "Planeta Tierra",
+    color: "var(--plum)",
+    /* Serie «como-se-forma-un-tsunami», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un tsunami no lo hace el viento, y no tiene nada que ver con la marea» */
+    encargo: "Un tsunami no lo hace el viento, y no tiene nada que ver con la marea",
+    fotos: [
+      {
+        local: p_como_se_forma_un_tsunami,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un tsunami no lo hace el viento, y no tiene nada que ver con la marea",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que lo provoca es un desplazamiento de agua, no un empujón",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Empecemos deshaciendo el nombre, porque en varios idiomas es directamente falso. En " +
+          "inglés se les llamó durante mucho tiempo <em>tidal waves</em>, olas de marea, y en " +
+          "español se sigue usando «maremoto». Las dos expresiones apuntan en la dirección " +
+          "equivocada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las causas de un tsunami no tienen nada que ver con las de las mareas, que las produce " +
+          "la atracción gravitatoria de la Luna y el Sol y no el desplazamiento de agua.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un tsunami es otra cosa: una serie de olas causadas por el <strong>desplazamiento de " +
+          "un gran volumen de agua</strong>, generalmente en un océano o en un lago grande. " +
+          "Alguien mueve el agua de sitio de golpe —el fondo marino que se levanta o se hunde en " +
+          "un terremoto, una ladera que se desprende dentro del mar, un volcán que colapsa— y el " +
+          "agua desplazada tiene que ir a alguna parte.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una ola normal la empuja el viento por encima. Un tsunami lo empuja el suelo por " +
+          "debajo, y esa diferencia de origen lo cambia absolutamente todo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La diferencia real es la profundidad a la que se mueve el agua",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahora la comparación que explica por qué son fenómenos incomparables, aunque las dos " +
+          "cosas se llamen olas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En una ola de viento, el movimiento es superficial. El viento roza la superficie del " +
+          "mar y pone a girar las partículas de agua en órbitas circulares, y esas órbitas se van " +
+          "apagando conforme se baja: unos metros más abajo el agua ya casi no se entera. Un " +
+          "temporal descomunal agita la piel del océano y deja la mayor parte del volumen en " +
+          "calma.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En un tsunami se desplaza <strong>toda la columna de agua</strong>, desde el fondo " +
+          "marino hasta la superficie. Si el suelo del océano sube un metro en una fractura de " +
+          "cien kilómetros, lo que se levanta no es una capa: son varios kilómetros de altura de " +
+          "agua, en toda esa longitud, a la vez.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está la razón de que las dos cosas no se puedan comparar por su altura. Una ola de " +
+          "viento de diez metros es una pared de agua alta y delgada, con poco detrás. Un tsunami " +
+          "de un metro en alta mar es un metro que va acompañado de todo el océano que tiene " +
+          "debajo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Medir un tsunami por su altura es como medir un tren por su ventanilla. Lo que hace el " +
+          "daño no es lo que sobresale, es la cantidad de agua que viene detrás empujando.",
+      },
+    ],
+  },
+  {
+    id: "como-se-forma-una-cueva",
+    titulo: "Cómo se forma una cueva",
+    categoria: "Planeta Tierra",
+    color: "var(--slate)",
+    /* Serie «como-se-forma-una-cueva», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Una cueva no la excava nadie: la roca se disuelve y se va en el agua» */
+    encargo: "Una cueva no la excava nadie: la roca se disuelve y se va en el agua",
+    fotos: [
+      {
+        local: p_como_se_forma_una_cueva,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Una cueva no la excava nadie: la roca se disuelve y se va en el agua",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El agua de lluvia se vuelve ácida por el camino",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La imagen intuitiva es la de un río subterráneo que va desgastando la piedra a base de " +
+          "arrastrarla, como una lija. El mecanismo real no es mecánico, es químico, y empieza " +
+          "antes de que el agua toque el suelo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una gota de lluvia, mientras cae, atraviesa la atmósfera y va <strong>captando dióxido " +
+          "de carbono</strong>, que se disuelve en el agua con mucha facilidad. Y al llegar abajo " +
+          "la cosa se acentúa: si el agua atraviesa un suelo con vida, recoge todavía más dióxido " +
+          "de carbono, el que producen las raíces y los microorganismos al respirar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Agua más dióxido de carbono dan <strong>ácido carbónico</strong>, que es un ácido " +
+          "flojo. Y ese ácido flojo se encuentra bajo tierra con la caliza, que es carbonato de " +
+          "calcio, y la ataca: el carbonato deja de ser piedra y pasa a estar disuelto en el " +
+          "agua, en forma de iones que el agua se lleva consigo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso significa. La roca que falta en una cueva no está amontonada en " +
+          "ningún sitio. Se fue por el desagüe, literalmente disuelta, como el azúcar en un café.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una cueva no es un agujero excavado, es un volumen de piedra que se marchó en " +
+          "solución. Lo que hoy es una sala enorme salió de ahí gota a gota, sin que nadie " +
+          "moviera un solo escombro.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Por eso solo hay cuevas así en cierto tipo de piedra",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De un mecanismo químico salen consecuencias que uno no esperaría de un mecanismo " +
+          "mecánico, y la primera es que este solo funciona con un ingrediente muy concreto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El ácido carbónico no disuelve cualquier roca. Ataca al carbonato de calcio, así que " +
+          "hace cuevas en caliza, en dolomía y en yeso, y no hace prácticamente nada contra el " +
+          "granito o el basalto. Por eso los grandes sistemas de cuevas del mundo están donde " +
+          "están y no repartidos al azar: están sobre las regiones calizas. Ese tipo de paisaje " +
+          "tiene nombre propio, <strong>karst</strong>, y se reconoce desde fuera por sus simas, " +
+          "sus dolinas y sus ríos que desaparecen bajo tierra.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay otras clases de cuevas que se forman por otros caminos —tubos por donde corrió la " +
+          "lava, huecos que el mar abre en un acantilado a golpes—, pero las grandes cavidades " +
+          "con salas y galerías son casi siempre esto: caliza que se fue disolviendo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y la segunda consecuencia es el ritmo. El ácido carbónico es tan flojo que lo que se " +
+          "lleva en un año es indetectable. Lo único que tiene a su favor es que no para nunca. " +
+          "Una sala por la que hoy se pasea la gente es el resultado de esa reacción minúscula " +
+          "repetida durante cientos de miles de años, con el agua que caía sobre el campo que hay " +
+          "justo encima.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Lo que abre una cueva no es la fuerza del agua, es su paciencia. Ninguna gota hace " +
+          "nada apreciable, y la suma de todas ellas se lleva una montaña por dentro.",
+      },
+    ],
+  },
+  {
+    id: "como-se-hace-el-jamon-iberico",
+    titulo: "Cómo se hace el jamón ibérico",
+    categoria: "Cocina",
+    color: "var(--teal)",
+    /* Serie «como-se-hace-el-jamon-iberico», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Para llamarse de bellota, el cerdo tiene que engordar 46 kilos comiendo del suelo» */
+    encargo: "Para llamarse de bellota, el cerdo tiene que engordar 46 kilos comiendo del suelo",
+    fotos: [
+      {
+        local: p_como_se_hace_el_jamon_iberico,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Para llamarse de bellota, el cerdo tiene que engordar 46 kilos comiendo del suelo",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La montanera está regulada hasta en las fechas",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que distingue a un jamón ibérico de bellota no ocurre en la bodega, ocurre meses " +
+          "antes, en el campo, y está escrito en el Boletín Oficial del Estado con una precisión " +
+          "que sorprende.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El periodo se llama <strong>montanera</strong>, y es el engorde final del animal en la " +
+          "dehesa, de dos a cuatro meses entre noviembre y marzo, alimentándose de bellotas y " +
+          "pastos. Para que un jamón pueda llevar la designación «de bellota», la norma exige que " +
+          "el cerdo se alimente exclusivamente de bellotas, hierba y los recursos naturales de la " +
+          "dehesa, <strong>sin aporte de pienso suplementario</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y como una condición así es imposible de comprobar mirando al animal, la norma la " +
+          "traduce en números y en fechas. El cerdo tiene que reponer un mínimo de <strong>46 " +
+          "kilos</strong> de peso durante <strong>más de 60 días</strong>. La entrada en " +
+          "montanera solo puede producirse entre el 1 de octubre y el 15 de diciembre, y el " +
+          "sacrificio, entre el 15 de diciembre y el 31 de marzo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La calidad de un jamón de bellota no se decide catándolo, se decide en un calendario. " +
+          "Si el animal no ganó 46 kilos en el campo dentro de esas fechas, el jamón no puede " +
+          "llamarse así por bueno que esté.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El calendario no lo puso un legislador caprichoso, lo puso la encina",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora la pregunta obvia: ¿por qué esas fechas y no otras? La respuesta no está en el " +
+          "cerdo, está en el árbol.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La bellota cae cuando cae. Las encinas y los alcornoques de la dehesa sueltan su fruto " +
+          "en otoño e invierno, y ese fruto no se puede almacenar ni adelantar: se pudre, lo " +
+          "comen otros animales o simplemente no está. La ventana de la montanera es la ventana " +
+          "en que hay bellota en el suelo, y por eso la norma la fija ahí y no en primavera.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que el calendario legal es en realidad un calendario agrícola copiado. Y de " +
+          "ahí sale una consecuencia que no tiene ningún otro producto de consumo habitual: la " +
+          "producción de jamón de bellota depende de una cosecha, y una mala temporada de bellota " +
+          "se nota años después en el mercado, cuando aquellos jamones tendrían que estar " +
+          "saliendo de la bodega.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay una segunda razón por la que todo esto acaba en el plato. El cerdo ibérico tiene " +
+          "una capacidad poco común entre las razas porcinas: infiltra la grasa dentro de la masa " +
+          "muscular, en lugar de acumularla solo en una capa exterior. Eso es el veteado que se " +
+          "ve al cortar. Y como esa grasa se forma con lo que el animal come, lo que pasó en la " +
+          "dehesa en diciembre queda incorporado al tejido, no añadido después.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un jamón de bellota no lleva bellota, y sin embargo la bellota está dentro. No es un " +
+          "aroma que se le eche al final: es de lo que está hecha la grasa que se ve entre las " +
+          "fibras.",
       },
     ],
   },
@@ -3250,6 +4564,109 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Las palas no dan vueltas todas iguales. Cada una va cambiando de forma de trabajar a " +
           "lo largo del giro, decenas de veces por segundo.",
+      },
+    ],
+  },
+  {
+    id: "como-vuelan-los-pajaros",
+    titulo: "Cómo vuelan los pájaros",
+    categoria: "Naturaleza",
+    color: "var(--sage)",
+    /* Serie «como-vuelan-los-pajaros», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El ala de un pájaro solo empuja en la bajada; al subir deja pasar el aire» */
+    encargo: "El ala de un pájaro solo empuja en la bajada; al subir deja pasar el aire",
+    fotos: [
+      {
+        local: p_como_vuelan_los_pajaros,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El ala de un pájaro solo empuja en la bajada; al subir deja pasar el aire",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La bajada es la que hace el trabajo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un ala de pájaro es un perfil aerodinámico, igual que el ala de un avión. La fuerza de " +
+          "sustentación la produce la acción del flujo de aire sobre ella, que está conformada de " +
+          "manera que el aire ejerce una fuerza neta hacia arriba mientras el propio aire sale " +
+          "desviado hacia abajo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese es el principio, y hasta aquí no hay diferencia con un avión. La diferencia es que " +
+          "un avión tiene el ala quieta y un motor aparte que lo empuja hacia delante, mientras " +
+          "que un pájaro tiene que sacar de la misma ala las dos cosas: sostenerse y avanzar. Por " +
+          "eso la bate.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y en ese batido, el reparto no es equitativo. Es el aleteo hacia abajo el que " +
+          "proporciona la mayor parte del empuje. La bajada es el motor.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un pájaro no tiene un ala y una hélice, tiene una sola pieza que hace las dos cosas. Y " +
+          "la hace casi toda en la mitad del recorrido.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y entonces aparece el problema de tener que subir el ala otra vez",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí está la parte que casi nadie se plantea, y es un problema serio. Si el ala empuja " +
+          "el aire hacia abajo al bajar, al subir haría exactamente lo contrario: empujar el aire " +
+          "hacia arriba y al pájaro hacia abajo, deshaciendo lo que acaba de conseguir.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La solución son dos trucos que funcionan a la vez.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El primero es plegar. En cada aleteo hacia arriba el ala se recoge ligeramente hacia " +
+          "dentro, lo que reduce el coste energético del vuelo batido. Menos superficie " +
+          "desplegada es menos aire que mover en la dirección equivocada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El segundo es más fino, y ocurre en cada pluma por separado. Las plumas de vuelo no " +
+          "son simétricas: tienen un lado más estrecho y otro más ancho. Durante el aleteo, esa " +
+          "forma hace que cada pluma <strong>gire sobre su propio folículo</strong>, y al girar, " +
+          "el lado mayor queda apuntando hacia abajo. El resultado es que se abren huecos entre " +
+          "plumas y el aire se cuela a través del ala.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa en lo que eso significa mecánicamente. Al bajar, las plumas se cierran unas " +
+          "contra otras y el ala es una superficie sólida que empuja. Al subir, las mismas plumas " +
+          "se abren y el ala se vuelve una persiana por la que el aire pasa sin encontrar " +
+          "resistencia.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El ala de un pájaro es una válvula que solo funciona en un sentido, y no hace falta " +
+          "ningún mecanismo para conmutarla. La propia forma asimétrica de cada pluma la abre y " +
+          "la cierra sola según hacia dónde vaya el ala.",
       },
     ],
   },
@@ -4545,6 +5962,109 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "de-que-esta-hecho-un-hueso",
+    titulo: "De qué está hecho un hueso",
+    categoria: "Cuerpo humano",
+    color: "var(--ochre)",
+    /* Serie «de-que-esta-hecho-un-hueso», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un hueso son dos materiales que por separado no servirían de nada» */
+    encargo: "Un hueso son dos materiales que por separado no servirían de nada",
+    fotos: [
+      {
+        local: p_de_que_esta_hecho_un_hueso,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un hueso son dos materiales que por separado no servirían de nada",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Setenta por ciento de mineral, treinta de proteína",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La respuesta corta a de qué está hecho un hueso es que está hecho de dos cosas, y en " +
+          "proporciones muy desiguales.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Alrededor del <strong>70 % de su masa</strong> es materia inorgánica: cristales de un " +
+          "mineral llamado <strong>hidroxiapatita</strong>, que es fundamentalmente fosfato de " +
+          "calcio. Es la parte que uno se imagina al pensar en un hueso, la dura y blanca.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El <strong>30 % restante</strong> es materia orgánica, y ahí no hay variedad: entre el " +
+          "90 % y el 95 % de esa parte es <strong>colágeno de tipo I</strong>, la misma proteína " +
+          "fibrosa que forma los tendones, la piel y los ligamentos. Un hueso, químicamente, es " +
+          "una malla de fibras de proteína con cristales de mineral incrustados entre ellas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La parte blanda de un hueso no es un relleno ni un resto. Es un tercio de su masa, y " +
+          "sin ella el hueso sería otro material completamente distinto.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Cada uno resiste una cosa que el otro no",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora el motivo de la mezcla, que es donde está lo interesante, porque los dos " +
+          "materiales no hacen el mismo trabajo repartido: hacen trabajos opuestos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las fibras de colágeno le dan al hueso su <strong>resistencia a la tracción</strong>, " +
+          "es decir, a ser estirado. Los cristales de hidroxiapatita repartidos entre ellas le " +
+          "dan su <strong>resistencia a la compresión</strong>, o sea, a ser aplastado. Y esos " +
+          "dos efectos son sinérgicos: juntos dan más de lo que darían sumados por separado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa qué pasaría quitando uno de los dos, porque es la forma más rápida de " +
+          "entenderlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un hueso hecho solo de mineral sería una tiza. Aguantaría muy bien que te apoyaras " +
+          "encima y se partiría en cuanto se doblara un milímetro, que es exactamente lo que le " +
+          "pasa a la tiza. Un hueso hecho solo de colágeno sería una goma: podrías tirar de él " +
+          "con todas tus fuerzas sin romperlo, y no te sostendría de pie ni un segundo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahora fíjate en lo que has estado leyendo, porque lo tienes visto mil veces con otro " +
+          "nombre. Barras flexibles que aguantan la tracción, embebidas en un material rígido que " +
+          "aguanta la compresión: eso es hormigón armado. Los huesos llevan haciendo eso desde " +
+          "antes de que existieran los vertebrados terrestres, y nosotros llegamos a la misma " +
+          "solución en el siglo XIX creyendo que la inventábamos.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La idea de combinar algo que resiste el estirón con algo que resiste el peso no se le " +
+          "ocurrió a ningún ingeniero. Estaba dentro de nuestro propio esqueleto, y tardamos en " +
+          "copiarla unos cuantos cientos de millones de años.",
+      },
+    ],
+  },
+  {
     id: "mas-grande-que-cualquier-dinosaurio",
     titulo: "El animal más grande del mundo",
     categoria: "Ciencia",
@@ -4761,6 +6281,106 @@ export const CURIOSIDADES: Short[] = [
           "La reforma agraria china no se diseñó y luego se aplicó. Se aplicó primero, " +
           "ilegalmente y a pequeña escala, y el Estado la legalizó después de comprobar que " +
           "funcionaba.",
+      },
+    ],
+  },
+  {
+    id: "el-camino-de-santiago",
+    titulo: "El Camino de Santiago",
+    categoria: "Historia",
+    color: "var(--plum)",
+    /* Serie «el-camino-de-santiago», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La primera guía de viaje de Europa es de hacia 1140 y era del Camino» */
+    encargo: "La primera guía de viaje de Europa es de hacia 1140 y era del Camino",
+    fotos: [
+      {
+        local: p_el_camino_de_santiago,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La primera guía de viaje de Europa es de hacia 1140 y era del Camino",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Todo empieza con unas reliquias encontradas en el siglo IX",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El Camino se creó y se estableció a principios del siglo IX, a raíz del hallazgo de " +
+          "las reliquias atribuidas al apóstol <strong>Santiago el Mayor</strong> en el noroeste " +
+          "de la península.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La leyenda que acompaña al hallazgo es de las que se recuerdan: un ermitaño vio una " +
+          "estrella brillante sobre una ladera cercana a San Fiz de Solovio, y al ir a mirar " +
+          "apareció el sepulcro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene decirlo como lo que es, una leyenda, y no como un hecho documentado. Pero lo " +
+          "que sí es un hecho es la consecuencia: a partir de aquel hallazgo, un rincón perdido " +
+          "del extremo noroeste de Europa se convirtió en uno de los tres grandes destinos de " +
+          "peregrinación de la cristiandad, junto a Roma y a Jerusalén. Y a diferencia de los " +
+          "otros dos, este no tenía detrás ninguna ciudad importante. Lo construyó el camino.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Santiago no era un sitio al que se fuera por lo que había allí. Se convirtió en un " +
+          "sitio porque mucha gente decidió ir, y todo lo que hoy existe en esa ciudad se levantó " +
+          "después y para atenderlos.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El quinto libro del Códice Calixtino sigue funcionando ochocientos años después",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y aquí está el objeto que hace de este tema algo distinto de cualquier otra " +
+          "peregrinación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hacia 1140 se compiló el <strong>Códice Calixtino</strong>, y su quinto libro es, en " +
+          "la práctica, una guía de viaje. No un tratado devocional ni una crónica: una guía, con " +
+          "las etapas del recorrido, los sitios donde parar, qué aguas se podían beber y cuáles " +
+          "no, qué gente ibas a encontrarte en cada tramo y de qué convenía desconfiar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El dato que lo remata es que no ha quedado obsoleto. Ese quinto libro se sigue " +
+          "considerando la fuente definitiva de la que beben muchas guías modernas del Camino. " +
+          "Ochocientos ochenta años después, una parte de lo que lee hoy un peregrino en su guía " +
+          "procede de un manuscrito del siglo XII.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay un motivo por el que eso puede ocurrir aquí y no con casi ningún otro viaje. El " +
+          "recorrido no ha cambiado. Las montañas están donde estaban, los ríos se cruzan por " +
+          "donde se cruzaban y las distancias que una persona puede andar en un día son las " +
+          "mismas que en 1140. Un manual de carreteras de hace ochenta años no sirve; un manual " +
+          "de caminar sigue sirviendo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La guía de viaje más antigua de Europa no ha envejecido porque describe el único medio " +
+          "de transporte que no ha cambiado. Andar sigue costando lo mismo que costaba en el " +
+          "siglo XII.",
       },
     ],
   },
@@ -5212,6 +6832,106 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "la-historia-de-la-alhambra",
+    titulo: "La historia de la Alhambra",
+    categoria: "Historia",
+    color: "var(--clay)",
+    /* Serie «la-historia-de-la-alhambra», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La Alhambra se llama así por el color del barro con el que está hecha» */
+    encargo: "La Alhambra se llama así por el color del barro con el que está hecha",
+    fotos: [
+      {
+        local: p_la_historia_de_la_alhambra,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La Alhambra se llama así por el color del barro con el que está hecha",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El nombre es un adjetivo, y describe un color",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El topónimo viene del árabe <strong>al-Ḥamrāʼ</strong>, que significa literalmente «la " +
+          "roja». La forma completa era <strong>al-Qalʻah al-Ḥamrāʼ</strong>, «la fortaleza " +
+          "roja».",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y el color no es una metáfora ni una alusión poética a los atardeceres de Granada. La " +
+          "referencia al rojo se debe al tono rojizo de sus muros, que se construyeron con " +
+          "<strong>tapial</strong>, es decir, con tierra apisonada dentro de encofrados. Ese tono " +
+          "lo pone el óxido de hierro presente en la arcilla local.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Detente un momento en lo que eso significa. El edificio más visitado de España, " +
+          "símbolo del refinamiento arquitectónico de al-Ándalus, se llama como se llama por el " +
+          "color de la tierra que había en el cerro donde se levantó. No lo bautizaron por lo que " +
+          "era, sino por el aspecto que tenía desde abajo: una mancha roja en lo alto.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La Alhambra no tiene nombre propio. Tiene un apodo, y el apodo describe el material: " +
+          "es la construcción de barro rojo que se veía desde la ciudad.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La empezó un rey el mismo año en que llegó a Granada",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La otra sorpresa está en las prisas del fundador.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1238, <strong>Muhammad I ibn al-Ahmar</strong> se instaló en Granada. Al llegar se " +
+          "alojó en la vieja alcazaba de los ziríes, en la colina del Albaicín, que era lo que " +
+          "había. Y <strong>ese mismo año</strong> empezó a construir la Alhambra como nueva " +
+          "residencia y ciudadela.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "O sea, no fue un proyecto que madurara con el reinado ni el capricho de un monarca ya " +
+          "asentado. Fue lo primero que hizo. Lo que se ve hoy son dos siglos y medio de obras " +
+          "encadenadas por sus sucesores sobre esa decisión inicial, y de ahí que no sea un " +
+          "palacio sino un conjunto de ellos: los más famosos y mejor conservados son el Mexuar, " +
+          "el Palacio de Comares, el Palacio de los Leones y el Partal.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La Alhambra no es un edificio, es una acumulación. Cada rey nazarí construyó el suyo " +
+          "al lado del anterior, y lo que hoy se recorre como un solo palacio son en realidad " +
+          "varios pegados.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Sabías que…? Existen exactamente diecisiete maneras distintas de repetir un dibujo " +
+          "sobre un plano llenándolo entero, ni una más. Lo demostró el matemático ruso Evgraf " +
+          "Fiódorov en 1891, y lo volvió a demostrar por su cuenta George Pólya en 1924. Los " +
+          "alarifes que alicataron estos palacios en el siglo XIV llevaban seiscientos años de " +
+          "adelanto: exploraban ese mismo repertorio con una regla y un compás, sin que nadie " +
+          "hubiera demostrado todavía que tenía un final.",
+      },
+    ],
+  },
+  {
     id: "la-historia-de-lamborghini",
     titulo: "La historia de Lamborghini",
     categoria: "Historia",
@@ -5426,6 +7146,210 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "la-historia-del-titanic",
+    titulo: "La historia del Titanic",
+    categoria: "Historia",
+    color: "var(--clay)",
+    /* Serie «la-historia-del-titanic», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El Titanic llevaba más botes salvavidas de los que exigía la ley» */
+    encargo: "El Titanic llevaba más botes salvavidas de los que exigía la ley",
+    fotos: [
+      {
+        local: p_la_historia_del_titanic,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El Titanic llevaba más botes salvavidas de los que exigía la ley",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Llevaba seis botes de más, no de menos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De todo lo que se cuenta del Titanic, el reproche que más se repite es el de los " +
+          "botes: que iban escasos por avaricia o por descuido. Los números dicen otra cosa, y " +
+          "esa otra cosa es peor.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El barco llevaba <strong>veinte botes salvavidas</strong> —catorce normales, dos " +
+          "cúteres y cuatro plegables— con capacidad total para <strong>1.178 personas</strong>. " +
+          "A bordo viajaban unas <strong>2.208</strong> entre pasaje y tripulación. La cuenta " +
+          "salta a la vista: sitio para poco más de la mitad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahora el dato que le da la vuelta al reproche. La normativa de la Junta de Comercio " +
+          "británica exigía <strong>catorce botes</strong> para un barco de 10.000 toneladas. El " +
+          "Titanic llevaba <strong>seis más</strong> de los obligatorios, es decir, plazas para " +
+          "338 personas por encima de lo que marcaba la norma.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El Titanic no incumplió la ley de botes salvavidas: la superó. Y aun superándola, más " +
+          "de mil personas se quedaban sin sitio antes de que el barco zarpara.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La norma estaba escrita para barcos cinco veces más pequeños",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entonces, ¿cómo puede una nave cumplir de sobra la ley y llevar botes para la mitad " +
+          "del pasaje? Porque la ley medía lo que no era.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La tabla de la Junta de Comercio asignaba botes en función del " +
+          "<strong>tonelaje</strong> del barco, no del número de personas que llevara. Y la tabla " +
+          "se acababa en las 10.000 toneladas: a partir de ahí, todo entraba en la misma casilla. " +
+          "El Titanic desplazaba más de 46.000.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir, se aplicó a un barco de cuarenta y seis mil toneladas una exigencia " +
+          "calculada para uno de diez mil, porque cuando se redactó aquella norma no existían " +
+          "barcos de ese tamaño y nadie actualizó la tabla mientras crecían. La regulación se " +
+          "quedó quieta y los astilleros no.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí sale la conclusión incómoda de todo el asunto. Aquella noche se hicieron muchas " +
+          "cosas mal —botes lanzados a medio llenar, avisos ignorados, un barco cercano que no " +
+          "acudió—, pero incluso haciéndolo todo perfecto, con cada bote lleno hasta el borde y " +
+          "sin perder un minuto, la mitad de la gente que iba a bordo se quedaba en el agua.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ese es el motivo por el que el Titanic cambió la navegación. Después del desastre, " +
+          "las normas dejaron de contar toneladas y pasaron a contar personas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El fallo no estuvo en un armador que ahorró, sino en una tabla que nadie revisó " +
+          "mientras los barcos se hacían cinco veces más grandes. La ley cumplida al pie de la " +
+          "letra garantizaba que muriera la mitad del pasaje.",
+      },
+    ],
+  },
+  {
+    id: "la-sagrada-familia",
+    titulo: "La Sagrada Familia",
+    categoria: "Historia",
+    color: "var(--teal)",
+    /* Serie «la-sagrada-familia», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Gaudí trabajó 43 años en ella y dejó menos de una cuarta parte hecha» */
+    encargo: "Gaudí trabajó 43 años en ella y dejó menos de una cuarta parte hecha",
+    fotos: [
+      {
+        local: p_la_sagrada_familia,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Gaudí trabajó 43 años en ella y dejó menos de una cuarta parte hecha",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El proyecto no era suyo: lo heredó al año siguiente",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La obra empezó el 19 de marzo de 1882 bajo la dirección del arquitecto " +
+          "<strong>Francisco de Paula del Villar</strong>. Gaudí no aparece hasta 1883, cuando " +
+          "Villar dimite y él asume la dirección.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "A partir de ahí le dedicó unos 43 años, hasta su muerte en 1926. Y el resultado de " +
+          "esas cuatro décadas es el dato que descoloca a cualquiera: <strong>en el momento de su " +
+          "muerte estaba terminado menos de un cuarto del proyecto</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuarenta y tres años de trabajo para dejar hecha menos de una cuarta parte. No porque " +
+          "fuera lento, sino porque el proyecto que heredó lo transformó en algo de otra escala: " +
+          "lo que Villar había empezado era una iglesia neogótica convencional.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La Sagrada Familia no es la obra que Gaudí no llegó a terminar. Es la obra que Gaudí " +
+          "sabía que no iba a terminar, y que diseñó igualmente a un tamaño que le sobrevivía por " +
+          "siglos.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Avanza al ritmo de lo que la gente da",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación de la lentitud no está en la arquitectura, está en la contabilidad, y " +
+          "es la característica que hace de este edificio un caso único.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La Sagrada Familia es un templo expiatorio, lo que significa que no se financia con " +
+          "dinero público ni con el de la Iglesia: se sostiene <strong>solo con donaciones " +
+          "privadas</strong>, y por eso su construcción avanzaba despacio. Hoy el dinero de las " +
+          "entradas que compran los turistas es lo que paga las obras, además de las donaciones " +
+          "que se siguen aceptando.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa en lo que implica un modelo así. No hay un presupuesto cerrado ni un plazo " +
+          "comprometido con nadie: hay un ritmo de ingresos, y la obra va a la velocidad que ese " +
+          "ritmo permita. En los años de guerra y posguerra apenas se movió. En las últimas " +
+          "décadas, con millones de visitantes al año, se ha acelerado más que en todo el siglo " +
+          "anterior.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y sobre el final de Gaudí conviene contar los hechos secos, porque explican por qué el " +
+          "proyecto quedó donde quedó. El 7 de junio de 1926, caminando por la Gran Via de les " +
+          "Corts Catalanes entre las calles Girona y Bailén, lo atropelló un tranvía de la línea " +
+          "30 y perdió el conocimiento. Lo tomaron por un mendigo, y por eso tardó en recibir " +
+          "atención médica. Murió el 10 de junio de 1926, a los 73 años.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El edificio más visitado de Barcelona lo pagan sus propios visitantes, y esa es la " +
+          "razón de que llevemos siglo y medio viéndolo en obras. No le faltó dinero: le faltó " +
+          "tener a alguien obligado a dárselo.",
+      },
+    ],
+  },
+  {
     id: "leyendo-las-sagas",
     titulo: "Llegaron los vikingos antes que Colón",
     categoria: "Historia",
@@ -5564,6 +7488,319 @@ export const CURIOSIDADES: Short[] = [
           "sigue siendo el único asentamiento vikingo confirmado en Norteamérica. Mil años de " +
           "presencia nórdica al otro lado del Atlántico se sostienen, arqueológicamente, sobre un " +
           "solo yacimiento.",
+      },
+    ],
+  },
+  {
+    id: "los-samurais",
+    titulo: "Los samuráis",
+    categoria: "Historia",
+    color: "var(--ochre)",
+    /* Serie «los-samurais», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El arma del samurái no era la espada: era el arco» */
+    encargo: "El arma del samurái no era la espada: era el arco",
+    fotos: [
+      {
+        local: p_los_samurais,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El arma del samurái no era la espada: era el arco",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se llamaba «el camino del arco y el caballo»",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Antes de que existiera ninguna palabra para el código moral del samurái, existía una " +
+          "para describir su oficio. Y esa palabra dice exactamente en qué consistía.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El término es <strong>kyūba no michi</strong>, «el camino del arco y el caballo», y ya " +
+          "estaba en uso en la época de la guerra Genpei, entre 1180 y 1185. No tenía ninguna " +
+          "connotación moral: describía los métodos de combate y las costumbres de entrenamiento " +
+          "de aquellos guerreros, sin más.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Léelo otra vez y fíjate en las dos cosas que nombra y en la que falta. Nombra el arco. " +
+          "Nombra el caballo. No nombra la espada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El samurái de los siglos en que hubo guerras de verdad era, ante todo, un " +
+          "<strong>arquero montado</strong>: un hombre que disparaba desde un caballo en " +
+          "movimiento, que es una de las habilidades más difíciles que se le han exigido nunca a " +
+          "un combatiente. Eso era lo que se entrenaba durante años y lo que definía la clase.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El oficio del samurái tenía nombre propio y ese nombre menciona un arco y un caballo. " +
+          "La espada que hoy lo identifica en todo el mundo ni siquiera aparecía en la " +
+          "descripción de lo que hacía.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La katana se convirtió en el símbolo mucho después",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entonces, ¿de dónde sale la imagen del guerrero cuya alma es su espada? De otra época, " +
+          "y no es la de las batallas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene ordenar las fechas, porque explican el equívoco entero. Los siglos de guerra " +
+          "continua en Japón son los que van del XII al XVI. La imagen del samurái como maestro " +
+          "de la espada, con su ritual, su filosofía y su código, se forma sobre todo después, " +
+          "durante los dos siglos y medio de paz que vienen a continuación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahí está la inversión que hace este tema interesante. La espada no se volvió central " +
+          "mientras servía para ganar batallas. Se volvió central cuando <strong>dejó de haber " +
+          "batallas</strong> y pasó a ser lo que distinguía a una clase de las demás: un objeto " +
+          "de estatus, de ceremonia y de identidad, que se llevaba encima precisamente porque " +
+          "nadie más podía llevarlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el siguiente short está lo que ocurrió en esos dos siglos y medio, y explica " +
+          "bastante más que la espada.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La katana pasó de ser un arma secundaria a ser el símbolo de una clase justo cuando " +
+          "esa clase dejó de combatir. Es un emblema de guerreros diseñado en tiempos de paz.",
+      },
+    ],
+  },
+  {
+    id: "miguel-de-cervantes",
+    titulo: "Miguel de Cervantes",
+    categoria: "Historia",
+    color: "var(--teal)",
+    /* Serie «miguel-de-cervantes», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El manco de Lepanto tenía las dos manos» */
+    encargo: "El manco de Lepanto tenía las dos manos",
+    fotos: [
+      {
+        local: p_miguel_de_cervantes,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El manco de Lepanto tenía las dos manos",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que perdió fue el movimiento, no la mano",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El 7 de octubre de 1571, en el golfo de Lepanto, un soldado de veinticuatro años " +
+          "llamado Miguel de Cervantes salió de la batalla naval con tres heridas: dos " +
+          "arcabuzazos en el pecho y otro en una mano.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los documentos de la época son precisos sobre lo que ocurrió después y merece la pena " +
+          "leerlos despacio, porque contradicen el apodo. Quedó, dicen, <em>estropeado de la " +
+          "dicha mano</em>. Un trozo de plomo le seccionó un nervio, la mano izquierda perdió el " +
+          "movimiento y se le quedó anquilosada. No se la cortaron. La conservó, inerte, el resto " +
+          "de su vida.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir, el hombre al que la historia conoce como el manco de Lepanto tenía las dos " +
+          "manos en su sitio. Lo que no tenía era el uso de una de ellas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El apodo más famoso de la literatura española describe mal la lesión que lo originó. " +
+          "Cervantes no era manco: era un hombre con una mano paralizada.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Estaba enfermo con fiebre y se negó a quedarse bajo cubierta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay un detalle previo a la herida que explica bastante mejor a este hombre que " +
+          "cualquier retrato.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El día de la batalla, Cervantes estaba enfermo, con fiebres, y sus superiores le " +
+          "dijeron que se quedara resguardado bajo cubierta, que era lo razonable y lo que nadie " +
+          "le habría reprochado. Un compañero dejó por escrito lo que contestó.",
+      },
+      {
+        b: "cita",
+        texto:
+          "Que más quería morir peleando por Dios y por su rey, que no meterse so cubierta.",
+        autor: "Respuesta de Cervantes en Lepanto, según el testimonio de un compañero",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pidió que lo pusieran en el puesto de más peligro y allí lo hirieron. Y lo llamativo " +
+          "es que nunca se lamentó de aquello. Años después, presentándose a sus lectores en el " +
+          "prólogo de las <em>Novelas ejemplares</em>, habló de la herida en tercera persona y " +
+          "sin rastro de queja: «aunque parece fea, él la tiene por hermosa, por haberla cobrado " +
+          "en la más memorable y alta ocasión».",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Le costó cara. Un soldado con una mano inservible tenía muy pocas salidas en la España " +
+          "del siglo XVI, y las cuatro décadas siguientes de su vida fueron una sucesión de " +
+          "trabajos mal pagados y de peticiones desatendidas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La herida que le arruinó la carrera de soldado fue la única credencial que conservó " +
+          "siempre. Cervantes se presentaba por lo que había perdido, no por lo que había " +
+          "escrito.",
+      },
+    ],
+  },
+  {
+    id: "no-sirven-para-agarrar",
+    titulo: "Para qué sirven las huellas dactilares",
+    categoria: "Cuerpo humano",
+    color: "var(--plum)",
+    /* Serie «para-que-sirven-las-huellas-dactilares», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Las huellas dactilares no sirven para agarrar mejor» */
+    encargo: "Las huellas dactilares no sirven para agarrar mejor",
+    fotos: [
+      {
+        local: p_no_sirven_para_agarrar,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Las huellas dactilares no sirven para agarrar mejor",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La explicación intuitiva es la de los neumáticos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La respuesta que da todo el mundo cuando le preguntan para qué sirven las huellas es " +
+          "la misma, y llega en dos segundos: para agarrar. Los surcos de la yema harían lo mismo " +
+          "que el dibujo de un neumático o la suela de una zapatilla, es decir, aumentar el " +
+          "agarre sobre lo que tocas. Suena tan razonable que nadie pide comprobación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay un motivo por el que suena tan razonable: es la explicación correcta para los " +
+          "neumáticos. Un dibujo tallado en el caucho sí mejora el agarre de un coche, aunque no " +
+          "exactamente como la gente cree, y de ahí se traslada la idea a la mano sin más " +
+          "comprobación que el parecido visual.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 2009, dos investigadores de la Universidad de Mánchester decidieron medirlo en vez " +
+          "de suponerlo, y publicaron el resultado en el <em>Journal of Experimental " +
+          "Biology</em>. El montaje fue directo: apretar una lámina de plástico contra la yema de " +
+          "un dedo con distintas fuerzas, arrastrarla, y medir la fricción real que se produce, " +
+          "además del área de piel que quedaba efectivamente en contacto.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La explicación del neumático es correcta para un neumático. Nadie había comprobado si " +
+          "vale para un dedo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Los surcos reducen la superficie de contacto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que encontraron va justo en contra de la creencia. Las huellas no aumentan la " +
+          "fricción: <strong>la reducen</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La razón es geométrica y una vez la ves ya no se puede dejar de ver. La piel no se " +
+          "comporta como un material rígido, sino más bien como el caucho: en ese tipo de " +
+          "materiales, la fricción depende sobre todo del área que está realmente en contacto. Y " +
+          "un dedo con surcos tiene menos superficie tocando el objeto que un dedo liso, porque " +
+          "los valles entre las crestas no tocan nada. La medida fue clara: el área de piel en " +
+          "contacto resultó un <strong>33 % menor</strong> de lo que habría sido con una yema " +
+          "lisa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un tercio menos de contacto significa un tercio menos de agarre. Los propios autores " +
+          "lo calificaron de mito urbano, y es de los buenos, porque lleva décadas repitiéndose " +
+          "en libros de divulgación con la tranquilidad de lo que nadie va a comprobar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y eso deja abierta la pregunta interesante. Las crestas están ahí, son universales en " +
+          "nuestra especie, se forman en el útero con un patrón complejísimo y las comparten " +
+          "otros primates. Nada de eso ocurre por casualidad, así que tienen que servir para " +
+          "algo. Los propios investigadores apuntaron varias posibilidades: agarrar superficies " +
+          "rugosas como la corteza de un árbol, permitir que la piel se estire sin dañarse, " +
+          "drenar el agua entre el dedo y el objeto cuando está mojado, y aumentar la " +
+          "sensibilidad al tacto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De esas cuatro, hay una que ha resultado tener detrás un mecanismo precioso.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un dedo con surcos toca un tercio menos de superficie que uno liso. Menos contacto es " +
+          "menos agarre, no más.",
       },
     ],
   },
@@ -5800,6 +8037,105 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "por-que-cambia-de-color-un-camaleon",
+    titulo: "Por qué cambia de color un camaleón",
+    categoria: "Naturaleza",
+    color: "var(--ochre)",
+    /* Serie «por-que-cambia-de-color-un-camaleon», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un camaleón no cambia de color para esconderse» */
+    encargo: "Un camaleón no cambia de color para esconderse",
+    fotos: [
+      {
+        local: p_por_que_cambia_de_color_un_camaleon,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un camaleón no cambia de color para esconderse",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El cambio de color es un mensaje dirigido a otro camaleón",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La imagen que todo el mundo tiene es la del animal que se posa sobre una hoja y se " +
+          "vuelve verde, o sobre un tronco y se vuelve marrón, para desaparecer. Es la idea que " +
+          "ha dado nombre a la palabra «camaleónico», y es equivocada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El cambio de color señala a otros camaleones cuál es la condición fisiológica y cuáles " +
+          "son las intenciones del animal. Es decir, no está hablando con el paisaje: está " +
+          "hablando con los de su especie. Un macho que se enciende de amarillos y naranjas ante " +
+          "otro macho está diciendo algo muy concreto, y lo que quiere justamente es que se le " +
+          "vea.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en que el sentido queda invertido respecto a lo que creíamos. El camuflaje " +
+          "sirve para no ser percibido; esto sirve para lo contrario. Un camaleón que cambia de " +
+          "color no está intentando desaparecer, está intentando comunicar, y el momento en que " +
+          "más colores despliega es precisamente aquel en que menos le interesa pasar " +
+          "inadvertido.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El camaleón no se disfraza de su entorno. Se pone de colores para que lo vean, y lo " +
+          "hace justo cuando quiere dejar de pasar desapercibido.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El segundo motivo es la temperatura, y ese es puro cálculo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay una segunda función, menos vistosa y probablemente más importante en el día a día " +
+          "del animal.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los camaleones cambian de color para regular su temperatura corporal. Cuando necesitan " +
+          "calentarse, se oscurecen: un color oscuro absorbe más luz y más calor, y les sube la " +
+          "temperatura. Cuando necesitan lo contrario, se aclaran, porque un color claro refleja " +
+          "la luz y el calor en lugar de absorberlos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es exactamente el mismo principio por el que un coche negro se pone al rojo vivo en " +
+          "agosto y uno blanco no. La diferencia es que el camaleón puede elegir de qué color es " +
+          "esa mañana.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahí está lo que convierte a este animal en algo distinto de un simple reptil " +
+          "vistoso. Es de sangre fría, así que depende del exterior para alcanzar su temperatura " +
+          "de funcionamiento, y no tiene forma de generar calor por dentro como hacemos nosotros. " +
+          "Lo único que puede controlar es cuánto absorbe. Cambiar de color es su termostato.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Las dos funciones reales del cambio de color no tienen nada que ver con esconderse: " +
+          "una es hablar y la otra es un termostato. El camuflaje que le dio fama es la única " +
+          "cosa para la que no lo usa.",
+      },
+    ],
+  },
+  {
     id: "casi-nadie-se-dio-cuenta",
     titulo: "Por qué cayó el Imperio romano",
     categoria: "Historia",
@@ -6022,6 +8358,113 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Nadie mintió sobre lo que veía. Las uñas se ven más largas de verdad. Lo inventado fue " +
           "el motivo.",
+      },
+    ],
+  },
+  {
+    id: "una-burbuja-formandose",
+    titulo: "Por qué crujen los nudillos",
+    categoria: "Cuerpo humano",
+    color: "var(--plum)",
+    /* Serie «por-que-crujen-los-nudillos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El ruido no es una burbuja reventando: es una formándose» */
+    encargo: "El ruido no es una burbuja reventando: es una formándose",
+    fotos: [
+      {
+        local: p_una_burbuja_formandose,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El ruido no es una burbuja reventando: es una formándose",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuarenta años discutiendo un sonido que oye todo el mundo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Dentro de cada articulación de los dedos hay una cápsula cerrada con un líquido " +
+          "viscoso, el líquido sinovial, que la lubrica. En ese líquido hay gases disueltos, " +
+          "sobre todo dióxido de carbono, igual que hay gas disuelto en una botella de agua con " +
+          "gas sin abrir. Y cuando tiras del dedo, la articulación se separa de golpe, la presión " +
+          "ahí dentro cae y ese gas deja de poder seguir disuelto. Hasta ahí, acuerdo general " +
+          "desde hace décadas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La discusión estaba en el paso siguiente, que es el que produce el ruido. La " +
+          "explicación clásica, que se propuso en 1971 y fue la aceptada durante más de cuarenta " +
+          "años, decía que el gas forma una burbuja y que el chasquido es esa burbuja " +
+          "<strong>colapsando</strong>, reventando hacia dentro cuando la presión se recupera. " +
+          "Sonaba lógico y encajaba con la intuición de que un crujido es algo que se rompe.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que faltaba era mirarlo. Y mirarlo es complicado, porque el fenómeno dura " +
+          "milisegundos y ocurre dentro de una cápsula cerrada de pocos milímetros.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Durante cuarenta años se dio por hecho que el chasquido era algo reventando. Nadie lo " +
+          "había visto ocurrir.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo grabaron dentro de un resonador, dedo a dedo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 2015, un equipo dirigido por Greg Kawchuk lo resolvió de la manera más directa " +
+          "posible: metieron dedos en una máquina de resonancia magnética y los estiraron con un " +
+          "cable hasta que crujían, grabando en tiempo real. Analizaron diez articulaciones " +
+          "metacarpofalángicas, capturando imágenes a algo más de tres fotogramas por segundo, " +
+          "con imágenes fijas antes y después.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que vieron contradice la explicación clásica. En el instante exacto del chasquido " +
+          "aparece una cavidad oscura dentro de la articulación, y aparece <strong>a la vez que " +
+          "el sonido</strong>, no después. Y el detalle definitivo: esa cavidad no se colapsa. " +
+          "Sigue ahí después del ruido, perfectamente visible mientras se mantenga la tracción " +
+          "sobre el dedo. Si el sonido fuera el colapso de la burbuja, la burbuja no debería " +
+          "estar ahí un segundo después. Está.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La conclusión de los autores es que el crujido corresponde a la " +
+          "<strong>formación</strong> de la cavidad y no a su desaparición. Las superficies de la " +
+          "articulación resisten separarse, se mantienen pegadas por el propio líquido hasta un " +
+          "punto crítico, y entonces ceden de golpe: esa separación brusca genera la cavidad de " +
+          "gas y el ruido a la vez. El fenómeno tiene nombre, tribonucleación, y ocurre también " +
+          "en otros sistemas donde dos superficies lubricadas se separan de repente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Eso explica de paso algo que cualquiera ha comprobado sin saber por qué: que no puedes " +
+          "hacer crujir el mismo nudillo dos veces seguidas. Hay un periodo de unos veinte " +
+          "minutos en que la articulación no vuelve a sonar. Es el tiempo que necesita el gas " +
+          "para volver a disolverse en el líquido y que las superficies vuelvan a quedar en " +
+          "contacto estrecho. Hasta que no se recarga, no hay ruido posible.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La cavidad sigue ahí después del chasquido. Si el sonido fuera su colapso, no debería " +
+          "quedar nada que ver.",
       },
     ],
   },
@@ -6255,6 +8698,111 @@ export const CURIOSIDADES: Short[] = [
           "puede provocar a voluntad en un laboratorio, en segundos y sin dañar a nadie, y eso lo " +
           "convierte en un modelo utilísimo para estudiar un dolor de cabeza que de otro modo hay " +
           "que esperar a que llegue.",
+      },
+    ],
+  },
+  {
+    id: "no-es-la-deshidratacion",
+    titulo: "Por qué duele la resaca",
+    categoria: "Cuerpo humano",
+    color: "var(--slate)",
+    /* Serie «por-que-duele-la-resaca», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La resaca no es deshidratación» */
+    encargo: "La resaca no es deshidratación",
+    fotos: [
+      {
+        local: p_no_es_la_deshidratacion,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La resaca no es deshidratación",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La explicación de siempre describe un síntoma, no la causa",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pregunta por ahí qué es una resaca y te contestarán todos lo mismo: deshidratación. El " +
+          "alcohol te deshidrata, por eso te levantas con la boca seca y con dolor de cabeza, y " +
+          "por eso hay que beber agua antes de acostarse. Es tan aceptado que ni se discute.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La primera parte es cierta. El alcohol inhibe la hormona antidiurética, que es la que " +
+          "le dice al riñón que retenga agua, y al inhibirla orinas bastante más de lo que has " +
+          "bebido. Sales del bar con menos líquido del que tenías, y de ahí la sed y la boca " +
+          "pastosa de la mañana siguiente. Hasta ahí, ningún problema.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema es el salto siguiente, que es dar por hecho que esa pérdida de líquido " +
+          "explica el resto del cuadro. Y no lo explica. Los intentos de relacionar la intensidad " +
+          "de una resaca con el grado de deshidratación de la persona no encuentran gran cosa: " +
+          "hay quien está bastante deshidratado y se siente razonablemente bien, y quien lo está " +
+          "poco y se encuentra fatal. Y el remedio que se deduce de la teoría tampoco funciona " +
+          "como debería: beber agua alivia la sed y algo del dolor de cabeza, pero no evita la " +
+          "resaca. Si la deshidratación fuera la causa, rellenar el depósito tendría que " +
+          "resolverla, y no la resuelve.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Beber agua quita la sed y no quita la resaca. Si la deshidratación fuera la causa, " +
+          "rellenar el depósito bastaría.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo que hay debajo es una intoxicación y una inflamación",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si no es el agua que falta, ¿qué es? La explicación que hoy se maneja tiene dos patas " +
+          "y ninguna tiene que ver con la hidratación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La primera es <strong>acetaldehído</strong>, que es en lo que tu hígado convierte el " +
+          "alcohol en el primer paso de su procesamiento. Y ahí está el detalle importante: el " +
+          "acetaldehído es bastante más tóxico que el propio alcohol. Es una molécula reactiva " +
+          "que ataca proteínas y genera estrés oxidativo, y el hígado tiene que darle un segundo " +
+          "empujón para convertirla en acetato, que ya es inofensivo. Mientras el primer paso va " +
+          "más rápido que el segundo, ese compuesto se acumula.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La segunda es la <strong>inflamación</strong>. Durante una resaca se miden aumentos " +
+          "claros de citocinas, que son las moléculas con las que el sistema inmunitario coordina " +
+          "una respuesta inflamatoria. Y ahí está la clave para reconocer lo que te pasa: dolor " +
+          "de cabeza, malestar general, náuseas, sensibilidad a la luz y al ruido, cansancio y " +
+          "ganas de no ver a nadie. Esa lista no es la de una deshidratación. Es la de estar " +
+          "incubando una gripe, porque son los mismos mensajeros químicos produciendo los mismos " +
+          "efectos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Merece la pena quedarse con eso, porque cambia la manera de entender la mañana " +
+          "siguiente. No estás seco: estás intoxicado e inflamado. La sed es real, pero es el " +
+          "síntoma más visible y el menos importante de todos los que tienes encima.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los síntomas no son los de estar seco: son los de estar incubando una gripe. Y es " +
+          "literalmente la misma maquinaria química.",
       },
     ],
   },
@@ -7770,6 +10318,232 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "por-que-estornudamos",
+    titulo: "Por qué estornudamos",
+    categoria: "Cuerpo humano",
+    color: "var(--slate)",
+    /* Serie «por-que-estornudamos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un estornudo no lo decide la nariz, lo dispara el tronco del encéfalo» */
+    encargo: "Un estornudo no lo decide la nariz, lo dispara el tronco del encéfalo",
+    fotos: [
+      {
+        local: p_por_que_estornudamos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un estornudo no lo decide la nariz, lo dispara el tronco del encéfalo",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La orden sale de muy abajo y va a muchos sitios a la vez",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un estornudo parece un asunto local: algo molesta en la nariz y la nariz reacciona. El " +
+          "recorrido real es bastante más largo y explica por qué es tan difícil de contener.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Empieza donde uno espera. Un irritante en la mucosa nasal estimula el <strong>nervio " +
+          "trigémino</strong>, que es el gran nervio sensitivo de la cara. Pero ese nervio no " +
+          "resuelve nada por su cuenta: lleva la señal hasta el <strong>tronco del " +
+          "encéfalo</strong>, la parte más antigua y más automática del cerebro, la que también " +
+          "se ocupa de que respires y de que te lata el corazón sin que tengas que acordarte.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y desde ahí, concretamente desde el <strong>bulbo raquídeo</strong>, sale la " +
+          "respuesta. No es una orden, son varias a la vez: se envían señales por los nervios " +
+          "motores a varios grupos musculares distintos —los de la faringe, los de la laringe, " +
+          "los respiratorios y los abdominales— para que actúen coordinados.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está la explicación de una cosa que todo el mundo ha notado. Un estornudo no se " +
+          "siente en la nariz, se siente en el pecho y en el abdomen, y te dobla el cuerpo. No es " +
+          "una reacción de la nariz: es una maniobra de todo el tronco que la nariz se ha " +
+          "limitado a pedir.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Estornudar no es un acto de la nariz, es una orden del cerebro más automático que " +
+          "tienes. La nariz solo avisa; quien coordina el golpe es la misma parte que se ocupa de " +
+          "que respires dormido.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Los ojos se cierran solos, pero no porque tengan que hacerlo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ese paquete de músculos que se disparan a la vez sale el detalle más comentado del " +
+          "estornudo, y también el más mal explicado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante el estornudo, los músculos de los párpados también se contraen de forma " +
+          "involuntaria y fuerzan el cierre de los ojos. Eso es cierto y le pasa a todo el mundo: " +
+          "forma parte del mismo lote de órdenes motoras que salen del bulbo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que no es cierto es la conclusión que se saca de ahí. La afirmación de que es " +
+          "imposible estornudar con los ojos abiertos es inexacta, sencillamente. Se puede, " +
+          "aunque cueste, y hay gente que lo hace.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y de ahí se cae también la historia que suele acompañarla, esa de que los ojos se " +
+          "cierran para que no se te salgan de las órbitas por la presión. No hay nada que " +
+          "sostenga eso. El cierre de los párpados no es una medida de protección diseñada para " +
+          "nada: es simplemente un músculo más de la lista de músculos que reciben la orden a la " +
+          "vez, igual que los del abdomen.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los ojos no se cierran para protegerte de nada. Se cierran porque están en la misma " +
+          "lista de órdenes que el resto, y el cerebro las manda todas juntas sin distinguir " +
+          "cuáles hacen falta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Sabías que…? Hay gente que estornuda al salir a la luz del sol. La tendencia a " +
+          "estornudar por exposición a una luz brillante es un rasgo autosómico dominante, se " +
+          "hereda de padres a hijos y afecta a entre el 18 % y el 35 % de la población. Tiene " +
+          "nombre propio y unas siglas evidentemente buscadas: síndrome ACHOO.",
+      },
+    ],
+  },
+  {
+    id: "por-que-flota-un-barco-de-acero",
+    titulo: "Por qué flota un barco de acero",
+    categoria: "Ciencia",
+    color: "var(--clay)",
+    /* Serie «por-que-flota-un-barco-de-acero», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un barco no flota por el material del que está hecho, flota por su forma» */
+    encargo: "Un barco no flota por el material del que está hecho, flota por su forma",
+    fotos: [
+      {
+        local: p_por_que_flota_un_barco_de_acero,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un barco no flota por el material del que está hecho, flota por su forma",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que empuja hacia arriba es el agua que has apartado",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La pregunta suele plantearse mal, y por eso no tiene respuesta. No es que el acero " +
+          "flote: el acero no flota. Lo que flota es una determinada forma hecha de acero, y la " +
+          "diferencia está en el agua que esa forma aparta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El principio lo dejó establecido Arquímedes hace más de dos mil años y se enuncia en " +
+          "una frase: <strong>la fuerza de empuje hacia arriba que se ejerce sobre un cuerpo " +
+          "sumergido en un fluido, total o parcialmente, es igual al peso del fluido que ese " +
+          "cuerpo desplaza</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que dice y en lo que no dice. No habla del material del cuerpo, ni de su " +
+          "peso, ni de su densidad. Solo habla del <strong>volumen de agua que ha tenido que " +
+          "apartarse</strong> para hacerle sitio. El agua desplazada empuja hacia arriba con " +
+          "exactamente el peso que ella misma tenía.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí sale la regla de flotar, que es igual de corta: cualquier objeto que flota " +
+          "desplaza su propio peso de fluido. Si consigues apartar tantos kilos de agua como " +
+          "pesas, flotas. Si no lo consigues ni sumergiéndote del todo, te hundes.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El agua no distingue de qué está hecho lo que le entra dentro. Solo cuenta cuánta de " +
+          "ella has tenido que echar a un lado, y empuja hacia arriba exactamente con ese peso.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Una tonelada de hierro se hunde; la misma tonelada, ahuecada, flota",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El experimento mental que lo aclara todo está en el propio enunciado clásico, y " +
+          "consiste en coger un mismo material y cambiarle la forma.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Toma un bloque macizo de hierro de una tonelada y échalo al agua: se va al fondo. El " +
+          "bloque es compacto, ocupa poco volumen y aparta muy poca agua, muchísimo menos de una " +
+          "tonelada. El empuje no le llega ni de lejos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora coge exactamente el mismo hierro, la misma tonelada, y dale forma de cuenco. Al " +
+          "ponerlo en el agua desplaza un volumen mucho mayor que cuando era un bloque, porque el " +
+          "hueco de dentro también cuenta: el agua ha tenido que apartarse para dejar sitio al " +
+          "casco <strong>y al aire que encierra</strong>. Y cuanto más se hunde el cuenco, más " +
+          "agua desplaza y mayor es el empuje que recibe, hasta que ese empuje iguala su peso y " +
+          "ahí se queda.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aplicado a un barco, la regla es literal: un casco de 10.000 toneladas tiene que " +
+          "construirse lo bastante ancho, lo bastante largo y lo bastante profundo como para " +
+          "desplazar 10.000 toneladas de agua. Esa es toda la condición de diseño.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y por eso un barco es en su mayor parte aire. Un carguero es una cáscara metálica " +
+          "delgada alrededor de un volumen enorme de nada, y esa nada es justamente la que hace " +
+          "el trabajo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La pregunta correcta no es cómo flota el acero, sino cuánta agua aparta la forma que " +
+          "le has dado. Un buque de guerra y un bloque de su mismo peso pesan igual; solo uno de " +
+          "los dos ha hecho sitio suficiente.",
+      },
+    ],
+  },
+  {
     id: "el-color-te-dice-a-que-altura-ocurre",
     titulo: "Por qué hay auroras boreales",
     categoria: "Ciencia",
@@ -8263,6 +11037,112 @@ export const CURIOSIDADES: Short[] = [
         b: "rayo",
         texto:
           "Lo que cambia entre dos personas casi nunca es la receta. Es el volumen al que se lee.",
+      },
+    ],
+  },
+  {
+    id: "por-que-hay-terremotos",
+    titulo: "Por qué hay terremotos",
+    categoria: "Planeta Tierra",
+    color: "var(--clay)",
+    /* Serie «por-que-hay-terremotos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Una falla no resbala: se atasca durante años y se rompe de golpe» */
+    encargo: "Una falla no resbala: se atasca durante años y se rompe de golpe",
+    fotos: [
+      {
+        local: p_por_que_hay_terremotos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Una falla no resbala: se atasca durante años y se rompe de golpe",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El terreno se va cargando como un muelle antes de soltarse",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación que casi todo el mundo tiene en la cabeza es que las placas se rozan al " +
+          "deslizarse y que ese roce hace temblar el suelo. Si fuera así, la Tierra vibraría " +
+          "suavemente y sin parar, y no habría terremotos: habría un zumbido permanente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que ocurre es lo contrario, y empieza porque la falla se <strong>bloquea</strong>. " +
+          "Una vez bloqueada, el movimiento relativo entre las placas continúa igualmente, y como " +
+          "el terreno no puede deslizarse, lo que hace es deformarse. Eso aumenta la tensión y va " +
+          "acumulando energía elástica almacenada en todo el volumen de roca que rodea la falla.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y así sigue, durante años o durante siglos, hasta que la tensión sube lo suficiente " +
+          "para romper el punto que estaba aguantando. En ese instante la falla se desliza de " +
+          "golpe sobre la parte que estaba trabada y suelta toda la energía guardada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está la clave de todo el fenómeno. Un terremoto no es el momento en que las placas " +
+          "se mueven. Es el momento en que <strong>dejan de estar quietas</strong> después de " +
+          "llevar mucho tiempo empujando.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La falla no genera el terremoto moviéndose, lo genera negándose a moverse. Todo lo que " +
+          "se libera en unos segundos son décadas de deformación acumulada mientras el terreno " +
+          "aguantaba.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Es el mismo mecanismo que hace chirriar una tiza",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí conviene poner nombre a lo que hace que la falla se trabe, porque no es que las " +
+          "rocas estén pegadas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las superficies de una falla no son lisas: tienen irregularidades llamadas " +
+          "<strong>asperezas</strong>, salientes y encajes que aumentan la fricción en puntos " +
+          "concretos. La mayoría de las fallas las tienen, y eso produce un comportamiento de " +
+          "tipo <strong>atasco y salto</strong>: se agarra, aguanta, cede de golpe, y vuelve a " +
+          "agarrarse.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ese comportamiento no es exclusivo de la geología. Lo tienes en casa varias veces al " +
+          "día. Una puerta que no cede y de pronto se abre de golpe. Una tiza que chirría en una " +
+          "pizarra en lugar de deslizarse. El arco de un violín, que suena precisamente porque " +
+          "engancha la cuerda, la arrastra un poco, la suelta y vuelve a engancharla cientos de " +
+          "veces por segundo. Un armario pesado que se resiste a moverse por el suelo y de " +
+          "repente pega un salto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Todas esas cosas son el mismo fenómeno físico que un terremoto. La diferencia no está " +
+          "en el mecanismo, está en la cantidad de roca implicada.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El suelo de un terremoto se comporta exactamente igual que una tiza chirriando en una " +
+          "pizarra. Es el mismo agarrarse y soltarse, con el mismo sonido de fondo, aplicado a un " +
+          "trozo de corteza terrestre.",
       },
     ],
   },
@@ -10269,6 +13149,112 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "los-pelirrojos-mas-anestesia",
+    titulo: "Por qué los pelirrojos necesitan más anestesia",
+    categoria: "Cuerpo humano",
+    color: "var(--sage)",
+    /* Serie «por-que-los-pelirrojos-necesitan-mas-anestesia», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Los pelirrojos necesitan más anestesia, y está medido» */
+    encargo: "Los pelirrojos necesitan más anestesia, y está medido",
+    fotos: [
+      {
+        local: p_los_pelirrojos_mas_anestesia,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Los pelirrojos necesitan más anestesia, y está medido",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Era una sospecha de quirófano antes de ser un estudio",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante mucho tiempo esto fue lo que en medicina se llama sabiduría de pasillo: " +
+          "anestesistas y dentistas que comentaban entre ellos que con los pelirrojos había que " +
+          "cargar más la mano, que se despertaban antes, que la anestesia local les hacía menos " +
+          "efecto. No estaba en ningún manual, no había número que lo respaldara, y tenía toda la " +
+          "pinta de ser una de esas creencias de gremio que se repiten porque uno se acuerda de " +
+          "los casos llamativos y olvida los normales.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 2004 alguien decidió comprobarlo con un diseño serio, y el resultado se publicó en " +
+          "la revista <em>Anesthesiology</em>. Compararon a mujeres pelirrojas con mujeres de " +
+          "pelo oscuro y midieron cuánta cantidad de un anestésico inhalado hacía falta para " +
+          "mantenerlas dormidas al nivel deseado. La medida es objetiva y no depende de la " +
+          "impresión de nadie: es una concentración, y se lee en un aparato.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las pelirrojas necesitaron en torno a un <strong>veinte por ciento más</strong> de " +
+          "anestésico. No es una diferencia sutil ni un matiz estadístico que solo aparece con " +
+          "miles de sujetos: es un salto que un anestesista nota en su trabajo diario, que es " +
+          "exactamente lo que llevaban décadas diciendo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La sospecha de pasillo llevaba razón. Hizo falta un veinte por ciento más de " +
+          "anestésico para el mismo efecto.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y no es el pelo: es el gen que lo produce",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo interesante es que el pelo rojo no puede ser la causa de nada. Un pigmento en el " +
+          "tallo del pelo no tiene forma de influir en cómo responde tu cerebro a un anestésico. " +
+          "El pelo es una señal, no un mecanismo, y lo que hay que buscar es qué lo produce.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo produce un gen llamado <strong>MC1R</strong>. En la mayoría de la gente, ese gen " +
+          "fabrica un receptor que orienta a los melanocitos hacia la producción de un tipo de " +
+          "melanina oscura. En los pelirrojos hay variantes de ese gen que hacen que se produzca " +
+          "la variedad rojiza, y de ahí vienen el pelo, la piel muy clara y las pecas. Hasta ahí " +
+          "es dermatología.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que convierte esto en una historia interesante es que MC1R no es un receptor " +
+          "aislado, sino que pertenece a una familia, la de los receptores de melanocortina, y " +
+          "otros miembros de esa familia trabajan en el cerebro y participan en la regulación del " +
+          "dolor. La hipótesis que se maneja es que una variante que altera a uno de ellos pueda " +
+          "estar afectando también a los demás, y que por ahí se cuele el efecto sobre la " +
+          "anestesia.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora la parte honesta, que aquí es importante. Aunque el estudio de 2004 fue sólido, " +
+          "la literatura posterior no es unánime: hay trabajos que no han encontrado esa " +
+          "asociación, incluido uno de 2012, y el asunto no está cerrado. Lo que sí puede decirse " +
+          "es que la sospecha clínica dejó de ser una anécdota y pasó a ser una hipótesis con " +
+          "base experimental y un mecanismo plausible detrás.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El pelo no puede causar nada. Lo que importa es el gen que lo pone rojo, y ese gen " +
+          "tiene parientes trabajando en el cerebro.",
+      },
+    ],
+  },
+  {
     id: "por-que-marte-es-rojo",
     titulo: "Por qué Marte es rojo",
     categoria: "Ciencia",
@@ -10356,6 +13342,131 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Marte no está oxidándose. Está oxidado, en pasado, y el rojo que vemos es la marca que " +
           "dejó el agua al marcharse.",
+      },
+    ],
+  },
+  {
+    id: "la-frase-tal-como-se-dice-es-falsa",
+    titulo: "Por qué no hay dos copos de nieve iguales",
+    categoria: "Ciencia",
+    color: "var(--plum)",
+    /* Serie «por-que-no-hay-dos-copos-de-nieve-iguales», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La frase, tal como se dice, es falsa» */
+    encargo: "La frase, tal como se dice, es falsa",
+    fotos: [
+      {
+        local: p_la_frase_tal_como_se_dice_es_falsa,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La frase, tal como se dice, es falsa",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los copos pequeños se repiten constantemente",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "«No hay dos copos de nieve iguales» es de esas frases que se repiten con total " +
+          "seguridad y que casi nadie ha examinado. Como afirmación general es falsa, y quien " +
+          "mejor lo explica es la gente que se dedica a fabricarlos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Kenneth Libbrecht, físico del Caltech que lleva décadas cultivando cristales de hielo " +
+          "en laboratorio, lo cuenta sin ceremonias:",
+      },
+      {
+        b: "cita",
+        texto:
+          "En el laboratorio hacemos copos de nieve diminutos, del diámetro de un pelo humano, y " +
+          "la mayoría son simplemente hexágonos sencillos, y todos se parecen entre sí.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "— Kenneth Libbrecht",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está la trampa de la frase célebre. Un cristal de nieve pequeño, formado en " +
+          "condiciones estables y con poco tiempo de crecimiento, no es una filigrana barroca: es " +
+          "un hexágono liso, un prisma corto, una plaquita sin adornos. Y esas formas simples se " +
+          "repiten sin ningún problema, porque hay pocas maneras de ser un hexágono pequeño y " +
+          "muchísimos cristales fabricándose a la vez. En una nevada normal caen incontables " +
+          "cristales de ese tipo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que sí es cierto es la versión matizada, y conviene formularla bien porque es la " +
+          "que sostiene la ciencia: la probabilidad de que dos cristales <strong>grandes y " +
+          "complejos</strong> sean idénticos es esencialmente cero. Cuanto más crece un cristal y " +
+          "más ramificaciones desarrolla, más detalles tiene que coincidir, y el número de " +
+          "combinaciones se dispara hasta lo absurdo. Un solo cristal de nieve contiene del orden " +
+          "de <strong>10¹⁸ moléculas de agua</strong>, un trillón, y cada una colocada en una " +
+          "posición concreta.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los cristales de nieve pequeños son hexágonos sencillos y se parecen todos. La frase " +
+          "famosa solo vale para los grandes y ramificados.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y en 1988 alguien encontró dos iguales",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora el episodio que la mayoría de la gente no conoce, y que le quita a la frase su " +
+          "último resto de solemnidad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1988, Nancy Knight, investigadora del Centro Nacional de Investigación Atmosférica " +
+          "en Boulder, Colorado, estaba examinando al microscopio cristales de nieve recogidos " +
+          "durante una tormenta en Wisconsin. Y encontró dos ejemplares idénticos. El hallazgo " +
+          "figura registrado como el primer caso documentado de cristales de nieve iguales.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esto invita a hacer una distinción importante, porque hay dos preguntas distintas " +
+          "metidas en la misma frase y conviene separarlas. Una es si dos cristales pueden tener " +
+          "el mismo aspecto: la respuesta es que sí, y está documentado. Otra es si dos cristales " +
+          "pueden ser idénticos molécula a molécula: ahí la respuesta práctica es que no, porque " +
+          "incluso dos cristales con la misma forma tendrán distinta disposición interna, " +
+          "distintas impurezas y distintos átomos de deuterio repartidos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pero el punto más interesante no es ninguno de los dos. Es que la afirmación, tal como " +
+          "se enuncia, <strong>no se puede demostrar</strong>. Nadie ha examinado ni una fracción " +
+          "significativa de los cristales de nieve que caen, ni podría hacerlo: en una sola " +
+          "nevada caen más cristales de los que la humanidad entera podría mirar en toda su " +
+          "historia. Lo que hay detrás de la frase no es una comprobación, es un argumento de " +
+          "probabilidad: hay tantas configuraciones posibles que repetir una exactamente sería " +
+          "como volver a sacar el mismo orden en dos barajas mezcladas al azar. Sumamente " +
+          "improbable, pero eso es una inferencia, no una observación.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Nadie ha comprobado nunca que no haya dos copos iguales, y nadie podría. La frase no " +
+          "es un resultado experimental: es un cálculo de probabilidades.",
       },
     ],
   },
@@ -10457,6 +13568,115 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "La pregunta «por qué no hemos vuelto» da por hecho que fuimos por la Luna. Fuimos por " +
           "otra cosa, y esa otra cosa ya se consiguió.",
+      },
+    ],
+  },
+  {
+    id: "no-es-que-no-lo-grabes-se-borra-hacia-atras",
+    titulo: "Por qué no recuerdas cuándo te dormiste",
+    categoria: "Cuerpo humano",
+    color: "var(--teal)",
+    /* Serie «por-que-no-recuerdas-el-momento-en-que-te-dormiste», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «No es que no lo grabes: es que se borra hacia atrás» */
+    encargo: "No es que no lo grabes: es que se borra hacia atrás",
+    fotos: [
+      {
+        local: p_no_es_que_no_lo_grabes_se_borra_hacia_atras,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "No es que no lo grabes: es que se borra hacia atrás",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nadie ha visto nunca el momento en que se durmió",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es una experiencia perfectamente universal y a la vez muy poco comentada. Te acuestas, " +
+          "apagas la luz, piensas en cosas. Y lo siguiente es la mañana. Entre esas dos cosas hay " +
+          "una frontera que has cruzado miles de veces en tu vida y de la que no tienes ni un " +
+          "solo recuerdo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No es que el recuerdo sea borroso, como el de una cena de hace diez años. Es que " +
+          "<strong>no existe</strong>. Puedes reconstruir con detalle lo que pensabas veinte " +
+          "minutos antes de dormirte, y no tienes absolutamente nada de los instantes previos al " +
+          "corte.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación intuitiva es que el cerebro deja de grabar cuando se apaga la " +
+          "consciencia, y que por tanto el momento del tránsito simplemente no queda registrado. " +
+          "Suena razonable y explicaría un hueco pequeño, del tamaño justo del instante en que te " +
+          "dormiste. Pero el hueco real es mucho mayor que eso, y lo que ocurre es bastante más " +
+          "raro que un apagón.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Has cruzado la frontera del sueño miles de veces y no tienes ni un solo recuerdo de " +
+          "haberla cruzado. No es un recuerdo borroso: no existe.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Los últimos minutos despierto se borran después",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Cuánto se pierde exactamente? Es simple, y ahí está la sorpresa: <strong>más de lo " +
+          "que estaba pasando en ese momento</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En los años noventa, los trabajos de Wyatt y su equipo midieron esto de la manera " +
+          "directa. Presentaban material a personas mientras se iban durmiendo en un laboratorio " +
+          "y después comprobaban qué recordaban. El resultado fue que lo presentado en los " +
+          "<strong>tres minutos anteriores</strong> al inicio del sueño se olvidaba, mientras que " +
+          "lo presentado antes de esa ventana se recordaba con normalidad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso implica, porque no es lo mismo que no grabar. Ese material sí se " +
+          "grabó: la persona estaba despierta, atenta y consciente cuando lo recibió, y si la " +
+          "hubieras despertado un minuto después te lo habría contado. Lo que ocurre es que " +
+          "dormirse <strong>destruye lo que ya estaba almacenado</strong> en los minutos previos. " +
+          "Es una amnesia que va hacia atrás, no hacia delante.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahí está la respuesta a la pregunta original. No recuerdas el momento en que te " +
+          "dormiste porque, en el instante en que te dormiste, tu cerebro borró los últimos " +
+          "minutos de vigilia, incluido ese momento. El recuerdo no falta por no haberse creado: " +
+          "falta porque se eliminó después.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esto explica además algo que le pasa a todo el mundo y que suele achacarse al " +
+          "cansancio. Cuando te quedas dormido leyendo, al despertarte tienes que retroceder un " +
+          "buen trozo de página, porque no recuerdas nada de lo último que leíste aunque lo " +
+          "estuvieras entendiendo perfectamente mientras lo leías. No se te escapó: se borró.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Lo aprendido en los tres minutos previos a dormirse se olvida, y lo anterior no. " +
+          "Dormirse no interrumpe la grabación: borra el final de la cinta.",
       },
     ],
   },
@@ -10584,6 +13804,116 @@ export const CURIOSIDADES: Short[] = [
           "grabación original del recuerdo. Casi siempre hay que fiarse de lo que la persona dice " +
           "que le pasó, sin manera de contrastarlo. Aquí sabían exactamente qué había recordado " +
           "cada niño a los tres años, y podían medir con precisión cuánto quedaba años después.",
+      },
+    ],
+  },
+  {
+    id: "por-que-nos-salen-canas",
+    titulo: "Por qué nos salen canas",
+    categoria: "Cuerpo humano",
+    color: "var(--teal)",
+    /* Serie «por-que-nos-salen-canas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un pelo no se vuelve blanco: nace blanco» */
+    encargo: "Un pelo no se vuelve blanco: nace blanco",
+    fotos: [
+      {
+        local: p_por_que_nos_salen_canas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un pelo no se vuelve blanco: nace blanco",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El pelo que ves ya está muerto y no puede cambiar de color",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La expresión «se le está poniendo el pelo blanco» describe muy mal lo que ocurre, y " +
+          "entenderlo cambia toda la idea que uno tiene del asunto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un pelo es queratina muerta desde el momento en que asoma. La parte viva está abajo, " +
+          "dentro del folículo, y es la única que hace algo: fabricar pelo y teñirlo mientras lo " +
+          "fabrica. Lo que ya ha salido es material inerte, como una uña o como el cuerno de un " +
+          "animal. No respira, no se alimenta y no puede cambiar de color por sí mismo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Así que la canicie no consiste en que unos pelos existentes pierdan su color. Consiste " +
+          "en el <strong>crecimiento de fibras de pelo nuevas y sin pigmentar</strong> dentro de " +
+          "los folículos. El folículo deja de teñir, y a partir de ahí todo lo que produzca " +
+          "saldrá blanco desde el primer milímetro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El color de un pelo se decide una vez, en la raíz, en el momento de fabricarlo, y ya " +
+          "no se revisa.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Las canas no son pelos que hayan perdido el color. Son pelos distintos, fabricados " +
+          "después, que salieron ya sin él. El pelo teñido de antes sigue teñido hasta que se " +
+          "cae.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y el gris no existe: es una mezcla vista de lejos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De lo anterior sale una consecuencia que explica por qué el proceso parece gradual " +
+          "cuando en realidad no lo es.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Empecemos por el pigmento, porque tampoco es lo que parece. El pelo gris o blanco no " +
+          "lo causa ningún pigmento gris ni blanco: lo causa la ausencia de pigmentación y de " +
+          "melanina. No hay una sustancia que ponga el pelo blanco; hay una que faltaba y que " +
+          "ponía el pelo oscuro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y entonces, ¿qué es una cabeza gris? Una mezcla. Cada folículo toma su decisión por " +
+          "separado y en un momento distinto, así que en una cabeza conviven pelos que aún salen " +
+          "pigmentados y pelos que ya salen blancos. Lo que tu ojo llama gris es la proporción " +
+          "entre unos y otros, vista desde lejos, igual que una pared con puntos blancos y negros " +
+          "se ve gris a dos metros.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso el encanecimiento se percibe como un desvanecimiento suave cuando en realidad " +
+          "es una decisión binaria repetida miles de veces. Ningún pelo se ha vuelto un poco más " +
+          "claro. Lo único que ha cambiado es cuántos de ellos salen ya sin color.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y de ahí sale también el problema de las historias de gente que encanece de golpe por " +
+          "un susto. El pelo que esa persona tiene puesto ya está fabricado y no puede " +
+          "descolorarse. Lo que le ocurra hoy solo podrá verse en lo que crezca a partir de hoy.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No existe el pelo gris, solo cabezas grises. Cada pelo es blanco o es de color, y lo " +
+          "que llamamos encanecer es el cambio de una proporción, no el desvanecimiento de nada.",
       },
     ],
   },
@@ -11917,6 +15247,117 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "tu-sangre-nunca-es-azul",
+    titulo: "Por qué se ven azules las venas",
+    categoria: "Cuerpo humano",
+    color: "var(--clay)",
+    /* Serie «por-que-se-ven-azules-las-venas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Tu sangre no es azul ni lo ha sido nunca» */
+    encargo: "Tu sangre no es azul ni lo ha sido nunca",
+    fotos: [
+      {
+        local: p_tu_sangre_nunca_es_azul,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Tu sangre no es azul ni lo ha sido nunca",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El dibujo del colegio hizo mucho daño",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La idea la aprendimos todos con el mismo dibujo: un cuerpo con dos redes de tuberías, " +
+          "las arterias en rojo llevando sangre oxigenada y las venas en azul devolviéndola sin " +
+          "oxígeno. Era un código de colores para no confundirse, y una generación entera lo " +
+          "entendió como una descripción literal. De ahí sale la creencia de que la sangre sin " +
+          "oxígeno es azul y de que se vuelve roja al contacto con el aire.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No hay nada de eso. La sangre venosa que sale por la aguja de una extracción es de un " +
+          "rojo oscuro, tirando a granate o a púrpura, y quien haya donado sangre lo ha visto. Es " +
+          "más oscura y menos brillante que la arterial, sí, pero es inequívocamente roja. Y no " +
+          "cambia de color al salir: ya era así dentro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La razón está en la propia hemoglobina, que en cualquiera de sus dos estados absorbe " +
+          "muchísimo más en la parte azul del espectro que en la roja, entre diez y cien veces " +
+          "más según la longitud de onda. Una sustancia que se traga el azul y devuelve el rojo " +
+          "se ve roja. No hay ninguna configuración en la que la hemoglobina se vuelva azul.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La hemoglobina absorbe entre diez y cien veces más azul que rojo. Con o sin oxígeno, " +
+          "lo que devuelve es rojo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Entonces, ¿por qué se ven azules las venas?",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí es donde el asunto se pone bonito, porque la respuesta no está en la sangre sino " +
+          "en la piel que tienes por encima. Lo resolvió un trabajo publicado en 1996 con el " +
+          "título exacto de esta pregunta, y la explicación es puramente óptica.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando la luz cae sobre tu brazo, no rebota sin más: entra en la piel y se dispersa " +
+          "dentro de ella, y hasta dónde llega depende del color. La luz roja, de onda larga, " +
+          "penetra bastante y puede alcanzar zonas profundas antes de volver a salir. La azul, de " +
+          "onda corta, se dispersa mucho más en las capas superficiales y sale de nuevo sin haber " +
+          "llegado muy lejos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora compara dos trozos de piel. En uno no hay nada debajo salvo tejido: la luz roja " +
+          "entra, rebota en la profundidad y vuelve hacia tu ojo, así que ese trozo se ve rosado " +
+          "o rojizo, del color habitual de la piel. En el otro hay una vena, y la vena está llena " +
+          "de sangre, que es exactamente lo que <strong>absorbe el rojo</strong>. La luz roja que " +
+          "llega hasta allí se queda dentro y no vuelve. Lo que sí vuelve de ese punto es sobre " +
+          "todo la luz azul dispersada en las capas de encima, que nunca llegó a bajar tanto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Así que el resultado no es que la vena sea azul: es que en ese punto falta el rojo que " +
+          "sí vuelve de todo lo demás. Es un efecto de <strong>contraste</strong>, y depende de " +
+          "la profundidad. Un vaso muy superficial se ve rojizo, porque la luz roja no ha tenido " +
+          "que recorrer casi nada. Uno a la profundidad adecuada se ve azulado. Y uno muy " +
+          "profundo no se ve.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Eso explica de paso por qué las venas se marcan más en unas personas que en otras y en " +
+          "unas zonas que en otras: no depende de la sangre, que es igual en todos, sino del " +
+          "grosor y del tono de la piel que hay encima.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La vena no se ve azul: se ve <strong>sin rojo</strong>. Ese punto se traga el rojo que " +
+          "sí devuelve el resto de la piel.",
+      },
+    ],
+  },
+  {
     id: "por-que-son-caros-los-diamantes",
     titulo: "Por qué son caros los diamantes",
     categoria: "Ciencia",
@@ -12127,6 +15568,119 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Una gota de alcohol vuelve verde el azul de una <em>Morpho</em>, y al secarse vuelve a " +
           "ser azul. Ningún pigmento hace eso.",
+      },
+    ],
+  },
+  {
+    id: "por-que-sube-la-marea",
+    titulo: "Por qué sube la marea",
+    categoria: "Planeta Tierra",
+    color: "var(--sage)",
+    /* Serie «por-que-sube-la-marea», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Hay marea alta también en el lado de la Tierra opuesto a la Luna» */
+    encargo: "Hay marea alta también en el lado de la Tierra opuesto a la Luna",
+    fotos: [
+      {
+        local: p_por_que_sube_la_marea,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Hay marea alta también en el lado de la Tierra opuesto a la Luna",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La explicación fácil predice una marea al día, y hay dos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La versión que todo el mundo conoce es que la Luna tira del agua del mar y la levanta. " +
+          "Es correcta a medias, y la mitad que falta es la interesante.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si la Luna se limitara a tirar del agua que tiene enfrente, habría un solo " +
+          "abultamiento en el planeta: el que mira hacia ella. La Tierra daría una vuelta cada " +
+          "veinticuatro horas, cada punto pasaría una vez por ese abultamiento, y tendríamos " +
+          "<strong>una</strong> marea alta al día.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pero hay dos. Casi todas las costas del mundo tienen dos pleamares y dos bajamares " +
+          "diarias, y eso no lo explica un solo tirón.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que hay en realidad es un <strong>doble abultamiento</strong> a lo largo del eje " +
+          "que une la Tierra y la Luna, algo mayor en la cara más próxima a ella. Es decir: hay " +
+          "marea alta donde está la Luna, y hay marea alta justo en el lado contrario, donde no " +
+          "está.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La marea no es el agua siguiendo a la Luna. Es un doble bulto fijo en el espacio, " +
+          "apuntando a la Luna por un lado y dándole la espalda por el otro, mientras la Tierra " +
+          "gira por debajo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "En una cara manda la gravedad y en la otra manda el giro",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entonces, ¿de dónde sale el segundo bulto? De que la Tierra y la Luna no están " +
+          "quietas: giran juntas alrededor de su centro de masas común, y en ese giro hay dos " +
+          "efectos que se reparten el planeta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la cara que mira a la Luna domina la atracción gravitatoria. Esa agua está más " +
+          "cerca de la Luna que el centro de la Tierra, así que la Luna tira de ella con algo más " +
+          "de fuerza y la levanta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la cara opuesta ocurre lo contrario: ahí es ligeramente más fuerte la fuerza " +
+          "centrífuga del giro del sistema. Esa agua es la que está más lejos de la Luna, la que " +
+          "menos siente su tirón, y se queda atrás. El resultado, visto desde fuera, es también " +
+          "un abultamiento.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora súmale la rotación y tienes el fenómeno entero. La Tierra gira sobre sí misma y " +
+          "cada punto de su superficie atraviesa los dos bultos en cada vuelta. De ahí salen las " +
+          "dos pleamares diarias, y no hace falta nada más.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ese giro deja una huella que cualquiera puede comprobar mirando una tabla de mareas. " +
+          "El intervalo entre dos mareas del mismo tipo no es de doce horas exactas, sino de " +
+          "<strong>12,4206 horas</strong>: unos veinticinco minutos de más. La razón es que, " +
+          "mientras la Tierra da su vuelta, la Luna también ha avanzado un poco en su órbita, y " +
+          "hay que girar un poquito más para volver a apuntarla. Por eso la marea se retrasa un " +
+          "rato cada día.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Las dos mareas diarias no vienen de que la Luna pase dos veces. Vienen de que hay dos " +
+          "bultos y la Tierra los cruza los dos, y el retraso de cada día es la prueba de que " +
+          "quien manda ahí es la Luna y no el reloj.",
       },
     ],
   },
@@ -13509,6 +17063,114 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "que-es-exactamente-el-fuego",
+    titulo: "Qué es exactamente el fuego",
+    categoria: "Ciencia",
+    color: "var(--ochre)",
+    /* Serie «que-es-exactamente-el-fuego», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El fuego no es una cosa: es una reacción ocurriendo» */
+    encargo: "El fuego no es una cosa: es una reacción ocurriendo",
+    fotos: [
+      {
+        local: p_que_es_exactamente_el_fuego,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El fuego no es una cosa: es una reacción ocurriendo",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Es un proceso, y por eso no se puede tener un poco",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante siglos, el fuego fue uno de los cuatro elementos, junto a la tierra, el agua y " +
+          "el aire. Se le trataba como a una sustancia: algo que estaba hecho de algo, que se " +
+          "podía tener y que pasaba de un sitio a otro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La definición actual lo saca de esa categoría por completo. El fuego es la " +
+          "<strong>oxidación rápida</strong> de un combustible en el proceso químico exotérmico " +
+          "de la combustión, que libera calor, luz y diversos productos de reacción.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Léelo despacio y verás que ahí no hay ninguna sustancia. Hay un verbo. El fuego es " +
+          "algo que <strong>está pasando</strong>, no algo que existe: es materia combinándose " +
+          "con oxígeno a gran velocidad y soltando energía mientras lo hace.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí sale la comprobación doméstica. Puedes tener un frasco de agua, un puñado de " +
+          "tierra y un globo de aire. No puedes tener un frasco de fuego, porque no hay nada que " +
+          "meter dentro. En cuanto lo aíslas, deja de ocurrir, y lo que queda no es fuego " +
+          "guardado: es humo y ceniza.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "De los cuatro elementos clásicos, tres son sustancias y el cuarto es un suceso. El " +
+          "fuego no está hecho de nada: es el nombre que le damos a una reacción química mientras " +
+          "dura.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Necesita cuatro cosas, y apagarlo es quitarle una",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Como es un proceso y no una cosa, se le puede describir por sus requisitos. Y son " +
+          "exactamente cuatro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hace falta un material inflamable o combustible. Hace falta una cantidad suficiente de " +
+          "un <strong>oxidante</strong>, que normalmente es el oxígeno del aire. Hace falta " +
+          "exponerlo a una fuente de <strong>calor</strong>. Y hace falta que el conjunto pueda " +
+          "sostener una velocidad de oxidación rápida que produzca una <strong>reacción en " +
+          "cadena</strong>, es decir, que cada porción que arde encienda a la siguiente sin " +
+          "ayuda.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "A ese conjunto se le llama el <strong>tetraedro del fuego</strong>, y su utilidad es " +
+          "inmediata: retira cualquiera de los cuatro y el fuego se para.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Repasa ahora todas las formas de apagar un fuego que conoces y verás que cada una " +
+          "ataca una pata distinta. El agua se lleva el calor. Una manta o la tapa de una sartén " +
+          "cortan el oxígeno. Cerrar la llave del gas retira el combustible. Y los extintores " +
+          "químicos hacen lo cuarto, que es lo menos obvio de todo: interrumpen la reacción en " +
+          "cadena sin quitar ni el calor, ni el aire, ni el combustible. El fuego se apaga con " +
+          "todos sus ingredientes todavía presentes, sencillamente porque han dejado de " +
+          "encadenarse.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No existe una forma de apagar el fuego, existen cuatro, y cada extintor elige la suya. " +
+          "La más elegante no le quita nada al fuego: se limita a romper la cadena por la que un " +
+          "trozo enciende al siguiente.",
+      },
+    ],
+  },
+  {
     id: "coladores-de-hace-7500-anos",
     titulo: "Qué es realmente el queso",
     categoria: "Historia",
@@ -13998,6 +17660,121 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "que-es-un-laser",
+    titulo: "Qué es un láser",
+    categoria: "Ciencia",
+    color: "var(--plum)",
+    /* Serie «que-es-un-laser», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Láser es un acrónimo, y describe exactamente lo que hace la máquina» */
+    encargo: "Láser es un acrónimo, y describe exactamente lo que hace la máquina",
+    fotos: [
+      {
+        local: p_que_es_un_laser,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Láser es un acrónimo, y describe exactamente lo que hace la máquina",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Emisión estimulada: la parte que predijo Einstein en 1917",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La palabra no es un nombre, son unas siglas, y están en inglés: <strong>light " +
+          "amplification by stimulated emission of radiation</strong>, amplificación de luz por " +
+          "emisión estimulada de radiación. Cada palabra corresponde a una pieza del mecanismo, y " +
+          "la que hay que entender es la del medio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Empecemos por cómo emite luz un átomo normalmente. Si le das energía, uno de sus " +
+          "electrones sube a un nivel superior y se queda ahí, incómodo. Al cabo de un rato cae " +
+          "solo y suelta esa energía en forma de un fotón. Cuándo lo hace y en qué dirección sale " +
+          "ese fotón es cosa del azar. Así funciona una bombilla, una vela y el Sol: montones de " +
+          "átomos soltando luz cada uno por su cuenta, en todas direcciones y en todos los " +
+          "colores.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La <strong>emisión estimulada</strong> es otra cosa, y es un fenómeno cuántico que " +
+          "<strong>Albert Einstein predijo en 1917</strong>, más de cuarenta años antes de que " +
+          "nadie construyera un láser. Consiste en lo siguiente: si un fotón pasa cerca de un " +
+          "átomo que ya está excitado, lo obliga a caer en ese instante. Y el fotón que el átomo " +
+          "suelta al caer sale <strong>idéntico</strong> al que lo provocó: misma dirección, " +
+          "misma frecuencia, misma fase.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está la amplificación, y es literal. Entra un fotón y salen dos exactamente " +
+          "iguales. Esos dos estimulan a otros dos átomos y salen cuatro. Y así.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un láser no fabrica una luz especial. Fabrica copias exactas del mismo fotón, una y " +
+          "otra vez, y lo que llamamos rayo es el resultado de esa multiplicación en cadena.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Un medio, una bomba de energía y dos espejos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La máquina que aprovecha eso tiene tres partes, y ninguna es complicada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hace falta un <strong>medio de ganancia</strong>, que es el material cuyos átomos van " +
+          "a emitir. Hace falta un <strong>mecanismo para energizarlo</strong>, que le suba los " +
+          "electrones al nivel alto y los mantenga ahí, porque sin átomos excitados no hay nada " +
+          "que estimular. Y hace falta algo que proporcione <strong>realimentación " +
+          "óptica</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esa tercera pieza es la más ingeniosa. En el diseño habitual son dos espejos, uno a " +
+          "cada extremo del medio de ganancia, enfrentados. La luz que se genera dentro rebota " +
+          "entre ellos y vuelve a atravesar el material una y otra vez, y en cada pasada estimula " +
+          "más átomos y se multiplica.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y entonces, ¿cómo sale? Porque uno de los dos espejos, el llamado <strong>acoplador de " +
+          "salida</strong>, es parcialmente transparente. Deja escapar una fracción de la luz en " +
+          "cada rebote, y esa fracción que se fuga es el rayo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Detente en eso un momento, porque cambia la imagen que uno tiene del aparato. Lo que " +
+          "ves salir por delante de un láser no es lo que produce: es lo que se le escapa. Dentro " +
+          "hay muchísima más luz, atrapada entre dos espejos, rebotando.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El rayo de un láser es una fuga controlada. La máquina está diseñada para que la luz " +
+          "no salga, para que rebote y se multiplique, y el haz es la pequeña parte que se deja " +
+          "marchar por el espejo que no cierra del todo.",
+      },
+    ],
+  },
+  {
     id: "que-es-una-estrella-fugaz",
     titulo: "Qué es una estrella fugaz",
     categoria: "Ciencia",
@@ -14249,6 +18026,107 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Doce estrellas parpadeantes bastaron para que el universo dejara de ser un sitio y " +
           "pasara a ser billones de sitios.",
+      },
+    ],
+  },
+  {
+    id: "que-fue-antes-el-huevo-o-la-gallina",
+    titulo: "Qué fue antes, el huevo o la gallina",
+    categoria: "Ciencia",
+    color: "var(--slate)",
+    /* Serie «que-fue-antes-el-huevo-o-la-gallina», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El huevo ganó por trescientos millones de años» */
+    encargo: "El huevo ganó por trescientos millones de años",
+    fotos: [
+      {
+        local: p_que_fue_antes_el_huevo_o_la_gallina,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El huevo ganó por trescientos millones de años",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los huevos ya existían cuando aún faltaba casi todo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La pregunta se plantea siempre como un círculo sin salida, y no lo es. Tiene " +
+          "respuesta, y no está ni siquiera reñida.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El primer huevo amniota —el de cáscara dura, que se podía poner en tierra firme en " +
+          "lugar de tener que quedarse en el agua como los de peces y anfibios— apareció hace " +
+          "unos 312 millones de años. Las gallinas, en cambio, son descendientes domesticados del " +
+          "gallo bankiva y no surgieron hace más de unos ocho mil años como mucho.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pon las dos cifras en fila y el resultado deja de ser una discusión. Entre un dato y " +
+          "el otro hay una diferencia de casi cuarenta mil veces. Cuando apareció la primera " +
+          "gallina, los huevos llevaban existiendo tanto tiempo que en ese intervalo cabe la " +
+          "aparición de los dinosaurios, sus ciento sesenta millones de años de reinado y su " +
+          "extinción completa, y todavía sobra sitio.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No es que el huevo ganara por poco. Los reptiles, los dinosaurios y las primeras aves " +
+          "pusieron huevos durante trescientos millones de años antes de que existiera nada " +
+          "parecido a una gallina.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y si te refieres al huevo de gallina, la respuesta sigue siendo el huevo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí es donde la gente afina la pregunta, y con razón: nadie discutía sobre huevos de " +
+          "tortuga. La pregunta de verdad es por el huevo de gallina. Pues bien, la respuesta no " +
+          "cambia, y el motivo es más interesante que el anterior.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un animal adulto no cambia de especie. Tú no te vas a convertir en otra cosa a lo " +
+          "largo de tu vida, y una gallina tampoco. Las especies cambian de una generación a la " +
+          "siguiente, y ese cambio ocurre en un sitio muy concreto: en el óvulo de la madre, en " +
+          "el espermatozoide del padre o en el cigoto recién formado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Así que la escena real fue esta. Un ave que todavía no era una gallina puso un huevo " +
+          "fecundado cuyo ADN, por una mutación en alguno de esos tres puntos, ya era el de una " +
+          "gallina moderna. De ese huevo salió el primer animal que podemos llamar gallina. El " +
+          "huevo existía antes que ella y lo puso otra cosa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene añadir el matiz honesto, porque la biología no funciona con fronteras " +
+          "limpias: el momento exacto en que un organismo que evoluciona pasa a ser una gallina " +
+          "es una distinción hasta cierto punto arbitraria. No hubo un día concreto. Pero pongas " +
+          "la raya donde la pongas, el orden no se altera, porque el animal nuevo siempre aparece " +
+          "dentro del huevo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La respuesta no depende de dónde pongas el límite entre una especie y otra. Sea cual " +
+          "sea el primer animal al que llames gallina, no lo puso una gallina: salió de un huevo " +
+          "que puso algo que todavía no lo era.",
       },
     ],
   },
@@ -15007,6 +18885,102 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "quien-fue-isaac-newton",
+    titulo: "Quién fue Isaac Newton",
+    categoria: "Historia",
+    color: "var(--teal)",
+    /* Serie «quien-fue-isaac-newton», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Lo de la manzana es verdad, y no le cayó en la cabeza» */
+    encargo: "Lo de la manzana es verdad, y no le cayó en la cabeza",
+    fotos: [
+      {
+        local: p_quien_fue_isaac_newton,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Lo de la manzana es verdad, y no le cayó en la cabeza",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La anécdota tiene fuente, y la fuente es él mismo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay dos posturas habituales sobre la manzana de Newton, y las dos fallan. Una es " +
+          "contarla como si fuera un hecho establecido y el golpe le hubiera dado la idea. La " +
+          "otra es despacharla como una leyenda inventada por sus biógrafos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La verdad está documentada. <strong>William Stukeley</strong>, médico y anticuario, " +
+          "era amigo de Newton en sus últimos años, y en 1726 —Newton tenía ochenta y tres— dejó " +
+          "escrito lo que el propio Newton le contó una tarde, en el jardín, tomando el té bajo " +
+          "unos manzanos:",
+      },
+      {
+        b: "cita",
+        texto:
+          "Me dijo que estaba en la misma situación que cuando, tiempo atrás, le vino a la cabeza " +
+          "la noción de la gravitación. ¿Por qué esa manzana desciende siempre perpendicularmente " +
+          "al suelo?, pensó para sí; ocasionado por la caída de una manzana, mientras estaba " +
+          "sentado en actitud contemplativa.",
+        autor: "William Stukeley, 1726",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en los detalles. Estaba sentado. La manzana cayó al suelo, no sobre él. Y la " +
+          "pregunta que se hizo no fue por qué cae, sino <strong>por qué cae siempre en línea " +
+          "recta hacia abajo</strong>.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La anécdota no es falsa: es que se cuenta mal. No hubo un golpe ni una revelación. " +
+          "Hubo alguien mirando algo corriente y preguntándose por qué siempre pasa igual.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La pregunta buena no era la que parece",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y por qué esa formulación importa tanto? Es simple: <strong>la caída de la manzana no " +
+          "era ningún misterio, y él no estaba investigando eso</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Que las cosas caen lo sabía todo el mundo. Lo que Newton se preguntó fue por qué la " +
+          "manzana se dirige exactamente hacia el centro de la Tierra, y de ahí saltó a otra " +
+          "pregunta mucho más ambiciosa: si esa atracción llega hasta lo alto del árbol, ¿por qué " +
+          "iba a detenerse ahí? ¿Y si llegara hasta la Luna?",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese es el salto. Unir la caída de una fruta con el movimiento de un satélite, y " +
+          "sostener que son el mismo fenómeno operando a escalas distintas. Nadie había propuesto " +
+          "que la física del huerto y la física del cielo fueran la misma física.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El mérito no fue notar que la manzana cae. Fue sospechar que la Luna también está " +
+          "cayendo, y no ha parado nunca.",
+      },
+    ],
+  },
+  {
     id: "quien-fue-la-persona-mas-rica-del-mundo",
     titulo: "Quién fue la persona más rica",
     categoria: "Historia",
@@ -15096,6 +19070,203 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Las fortunas antiguas no eran cantidades de dinero. Eran cantidades de poder, y el " +
           "poder no cotiza.",
+      },
+    ],
+  },
+  {
+    id: "quien-fue-leonardo-da-vinci",
+    titulo: "Quién fue Leonardo da Vinci",
+    categoria: "Historia",
+    color: "var(--clay)",
+    /* Serie «quien-fue-leonardo-da-vinci», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Leonardo terminó menos de veinticinco cuadros en toda su vida» */
+    encargo: "Leonardo terminó menos de veinticinco cuadros en toda su vida",
+    fotos: [
+      {
+        local: p_quien_fue_leonardo_da_vinci,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Leonardo terminó menos de veinticinco cuadros en toda su vida",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La obra pictórica del pintor más famoso del mundo cabe en una sala",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Del artista más célebre de la historia uno espera una producción abrumadora. Los " +
+          "números son justo lo contrario.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "A Leonardo se le atribuyen <strong>menos de veinticinco obras mayores</strong>, y " +
+          "varias de ellas quedaron sin terminar. Para una carrera de casi cincuenta años, eso " +
+          "significa una media que no llega al cuadro por bienio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Detente en la comparación con cualquier otro nombre grande de su siglo, porque el " +
+          "contraste es brutal. Sus contemporáneos producían decenas o cientos de obras; los " +
+          "talleres del Renacimiento funcionaban como empresas y entregaban encargos en serie. " +
+          "Leonardo entregaba muy poco, tarde, y a veces no entregaba.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El pintor más famoso de la historia es también uno de los menos productivos que se " +
+          "conocen. Su fama no descansa en la cantidad, sino en que casi todo lo poco que hizo " +
+          "cambió algo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "No es que no trabajara: es que estaba haciendo otra cosa",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación no es la pereza ni el bloqueo, y está documentada con una precisión " +
+          "abrumadora: se conservan <strong>13.000 páginas</strong> de notas y dibujos suyos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Trece mil páginas. Un hombre que llena trece mil páginas de anotaciones no es un " +
+          "hombre que no trabaje. Es un hombre que dedica su tiempo a otra cosa distinta de " +
+          "terminar encargos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En esas páginas hay estudios de anatomía, de hidráulica, de vuelo, de botánica, de " +
+          "óptica, de geología, de máquinas de guerra y de arquitectura, mezclados con listas de " +
+          "la compra y con recordatorios personales. La pintura aparece en ellas como uno más de " +
+          "sus asuntos, y no siempre el que más espacio ocupa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí está el orden real de sus prioridades, que no es el que le hemos asignado después. " +
+          "Nosotros lo hemos convertido en un pintor que además tenía curiosidad por todo. Sus " +
+          "propios papeles describen a alguien interesado en todo que además, de vez en cuando, " +
+          "pintaba.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Trece mil páginas de cuadernos y menos de veinticinco cuadros. El reparto de su tiempo " +
+          "lo dejó escrito él, y no se parece a la biografía que le hemos hecho.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Sabías que…? Escribía en espejo, de derecha a izquierda y con las letras invertidas, " +
+          "en casi todos esos cuadernos. Durante siglos se ha visto como una forma de ocultar sus " +
+          "ideas, pero la explicación más aceptada es mucho más simple: era zurdo, y escribiendo " +
+          "en esa dirección probablemente le resultaba más cómodo.",
+      },
+    ],
+  },
+  {
+    id: "quien-fue-nikola-tesla",
+    titulo: "Quién fue Nikola Tesla",
+    categoria: "Historia",
+    color: "var(--ochre)",
+    /* Serie «quien-fue-nikola-tesla», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Lo que hizo de verdad fue resolver un problema de motores» */
+    encargo: "Lo que hizo de verdad fue resolver un problema de motores",
+    fotos: [
+      {
+        local: p_quien_fue_nikola_tesla,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Lo que hizo de verdad fue resolver un problema de motores",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El problema que tenía la electricidad en 1887",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De Tesla circula tanto material exagerado que su logro real ha quedado sepultado, y es " +
+          "una lástima, porque el logro real es enorme y se puede explicar entero.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la década de 1880 la electricidad tenía un cuello de botella. La corriente " +
+          "continua, que era la que defendía Edison, funcionaba bien pero pierde mucha energía al " +
+          "viajar, así que había que poner una central cada pocos kilómetros. La corriente " +
+          "alterna, en cambio, se puede transportar lejos con poca pérdida.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema era que con corriente alterna no había forma decente de mover un motor. Y " +
+          "sin motores, la electricidad servía para iluminar y para poco más.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La discusión entre corriente continua y alterna no la ganó el mejor argumento. La ganó " +
+          "quien consiguió que la alterna moviera máquinas.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La solución fue hacer girar el campo magnético, no las piezas",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1887 Tesla desarrolló el <strong>motor de inducción de corriente alterna</strong>, " +
+          "y en 1888 se le concedieron las dos patentes básicas de su motor polifásico. Después " +
+          "presentó unas tres docenas más antes de 1891.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La idea, dicha en una frase: cada polo electromagnético del estátor lleva varios " +
+          "devanados, y por cada uno circula corriente alterna <strong>desfasada</strong> " +
+          "respecto a la de los demás. Al ir alcanzando su máximo unos después de otros, entre " +
+          "todos producen un campo magnético que gira sin que se mueva ninguna pieza. Ese campo " +
+          "giratorio arrastra al rotor, y el rotor gira sin necesidad de escobillas ni contactos " +
+          "que se desgasten.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí salen las cuatro virtudes que lo impusieron: economía, durabilidad, facilidad " +
+          "de manejo y seguridad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "George Westinghouse compró las patentes de corriente alterna de Tesla en julio de " +
+          "1888, y en menos de un año vendía el primer electrodoméstico comercial que funcionaba " +
+          "con ella: un ventilador con un motor de ciento veinticinco vatios.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Casi todos los motores industriales del mundo siguen siendo motores de inducción. Es " +
+          "un invento de hace más de un siglo que nadie ha necesitado sustituir.",
       },
     ],
   },
@@ -15194,6 +19365,108 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "El reglamento de 1863 no fijó el fútbol: abrió una discusión que sigue abierta ciento " +
           "sesenta años después.",
+      },
+    ],
+  },
+  {
+    id: "quien-invento-el-submarino",
+    titulo: "Quién inventó el submarino",
+    categoria: "Tecnología",
+    color: "var(--teal)",
+    /* Serie «quien-invento-el-submarino», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El primer submarino navegable es de 1620» */
+    encargo: "El primer submarino navegable es de 1620",
+    fotos: [
+      {
+        local: p_quien_invento_el_submarino,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El primer submarino navegable es de 1620",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo construyó un holandés al servicio del rey de Inglaterra",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La fecha descoloca a casi todo el mundo, porque el submarino se asocia a las guerras " +
+          "mundiales y en realidad es anterior a la máquina de vapor.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El primer sumergible del que existe información fiable sobre su construcción lo diseñó " +
+          "y lo construyó en <strong>1620</strong> <strong>Cornelis Drebbel</strong>, un holandés " +
+          "al servicio de Jacobo I de Inglaterra. Mil seiscientos veinte. Ese mismo año, los " +
+          "peregrinos del Mayflower estaban desembarcando en América.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Funcionaba, se sumergía y no sirvió para nada durante siglo y medio.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El submarino no es una tecnología del siglo XX que se adelantó a su tiempo. Es una " +
+          "tecnología del siglo XVII que tardó trescientos años en encontrar para qué servía.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Del primero al primero que hundió algo pasaron dos siglos y medio",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La línea militar tiene sus propias fechas, y también son lentas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El primer sumergible militar fue el <strong>Turtle</strong>, de 1775: un artefacto con " +
+          "forma de bellota, propulsado a mano, diseñado por el estadounidense <strong>David " +
+          "Bushnell</strong> para llevar a una sola persona. Se usó en la guerra de Independencia " +
+          "estadounidense y no consiguió hundir nada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hubo que esperar hasta <strong>1864</strong>, ya al final de la Guerra de Secesión, " +
+          "para que el <strong>H. L. Hunley</strong>, de la marina confederada, se convirtiera en " +
+          "el primer submarino militar que hundió un buque enemigo: la corbeta de la Unión " +
+          "<strong>USS Housatonic</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pon las fechas en fila: 1620 el primero que navegó, 1775 el primero militar, 1864 el " +
+          "primero que hundió algo. Doscientos cuarenta y cuatro años entre la primera inmersión " +
+          "y el primer resultado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y conviene añadir lo que costó ese único éxito. El Hunley se hundió con los ocho " +
+          "hombres de aquella tripulación inmediatamente después del ataque, y no se encontró " +
+          "hasta más de cien años después. No era la primera vez: ya se había hundido en unas " +
+          "pruebas en agosto de 1863, matando a cinco, y otra vez en octubre del mismo año, " +
+          "matando a los ocho de a bordo, entre ellos el propio Horace Hunley, que le daba " +
+          "nombre. En total murieron 21 tripulantes en los tres hundimientos de su corta carrera.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El primer submarino que hundió un barco enemigo se hundió el mismo día y con toda su " +
+          "gente dentro. Costó veintiún muertos conseguir uno, y el marcador quedó en un empate " +
+          "que nadie quería.",
       },
     ],
   },
