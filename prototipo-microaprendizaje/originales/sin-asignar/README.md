@@ -44,6 +44,7 @@ portada pequeña.
 | `tesla-retrato.jpg` | 1800 × 2793 | **1571** | **73** | Quién fue Nikola Tesla |
 | `Cervantes.jpg` | 960 × 1259 | **708** | 936 | Miguel de Cervantes |
 | `Inteligencia Artificial.jpg` | 2160 × 2700 | **1519** | 125 | Cómo funciona la IA |
+| `Titanic.jpg` | 960 × 1386 | **780** | 864 | La historia del Titanic |
 | `Megalodon.jpg` | 960 × 863 | **485** | 1.159 | — |
 | `Asteroide.jpg` | 2160 × 2700 | **1519** | 125 | — |
 
