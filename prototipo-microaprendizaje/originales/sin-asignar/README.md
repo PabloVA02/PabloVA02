@@ -42,6 +42,8 @@ portada pequeña.
 | `AlexanderFleming.jpg` | 960 × 1363 | **767** | 877 | Cómo se descubrió la penicilina |
 | `newton-seeman-9x16.jpg` | 1080 × 1920 | **1080** | 564 | Quién fue Isaac Newton |
 | `tesla-retrato.jpg` | 1800 × 2793 | **1571** | **73** | Quién fue Nikola Tesla |
+| `Cervantes.jpg` | 960 × 1259 | **708** | 936 | Miguel de Cervantes |
+| `Inteligencia Artificial.jpg` | 2160 × 2700 | **1519** | 125 | Cómo funciona la IA |
 | `Megalodon.jpg` | 960 × 863 | **485** | 1.159 | — |
 | `Asteroide.jpg` | 2160 × 2700 | **1519** | 125 | — |
 
@@ -59,6 +61,15 @@ estirón, que es de lo que no se ve. No entra porque él dijo «si alguna no es 
 esa calidad me lo dices y no la pones», y una regla que se salta cuando el
 número aprieta poco deja de ser una regla. Pero es la primera candidata a
 entrar si dice que sí.
+
+`Cervantes.jpg` es otro retrato histórico de 960 px: mismo caso que Fleming y
+Newton, y misma solución. Y `Inteligencia Artificial.jpg` es el caso de las
+venas y el asteroide: 2160 × 2700 es grande pero no lo bastante alta, y al
+recortarla a 9:16 pierde hasta 1519.
+
+**Y hay una foto de sobra, no corta:** `Seta.jpg`. Llegó junto a `Hongo.jpg` y
+las dos valen para «Qué es realmente un hongo»; se puso la del hongo y esta
+queda de repuesto por si el encuadre de aquella no convence.
 
 **Y las tres de retratos históricos tienen la misma solución, que además es
 fácil.** Fleming, Newton y Tesla son casi con seguridad de Wikimedia Commons:
