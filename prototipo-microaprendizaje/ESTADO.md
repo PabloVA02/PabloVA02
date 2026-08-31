@@ -6,12 +6,12 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts con el texto de Pablo | **178** | en 79 series |
-| de esos, **vivos en la app** | **64** | los otros 114 esperan portada |
-| fotografías guardadas esperando texto | **24** | medidas y buenas, en `originales/sin-asignar/` |
+| shorts con el texto de Pablo | **496** | en 196 series |
+| de esos, **vivos en la app** | **178** | los otros 318 esperan portada |
+| fotografías guardadas esperando texto | **28** | en `originales/sin-asignar/` |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **339** | 79 para el catálogo entero |
-| cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
+| cubiertas dibujadas por Pablo | **338** | 80 para el catálogo entero |
 | emoticonos de las metas | 11 de 16 | Pablo manda los cinco que faltan |
 | resúmenes antiguos generados | 0 | 0 |
 
@@ -900,6 +900,21 @@ fotos. Con el muro empezado de cero eso ha dejado de apretar —hoy las cuatro
 fotografías del Sol entran a 900 puntos y el fichero sale por 14,7 MB— y
 volverá a apretar en cuanto haya cincuenta historias, así que el segundo
 simulador se queda.
+
+**Los anchos de abajo están viejos: la receta buena es `node
+scripts/escaparate.mjs` y `node scripts/escaparate.mjs --mirador`,** que llevan
+dentro los números al día y además recortan el catálogo con la vitrina y lo
+dejan entero al terminar. El 31 de agosto, con la tanda del tomo 8 dentro,
+hubo que bajarlos otra vez: la app entera va a 175 de cubiertas y 355 de
+portadas y sale por 15,1 MB; el mirador a 680 de portadas y sale por 14,6. Con
+los anteriores —232/530 y 930— salían por 19,1 y 22,1, y el aviso de
+`movil.mjs` salta a los 15,5.
+
+Y la vitrina creció de once shorts a setenta y siete: los del 28 y el 29 de
+agosto, que Pablo ya revisó uno a uno. Es lo que él autorizó —«si no caben
+borras las que teníamos ya, que esas ya he comprobado que están bien»—, y no
+se borra nada: siguen en la app de verdad y en el repositorio. La lista está
+en `assets/vitrina.json` y se quita de ahí para volver a meterlos.
 
     # 1. LA APP ENTERA — se publica en el artefacto b8c9ffd9-…
     npx vite build --config vite.artefacto.config.mjs

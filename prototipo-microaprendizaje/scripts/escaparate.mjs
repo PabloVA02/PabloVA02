@@ -38,10 +38,18 @@ try {
   const comunes = ["scripts/movil.mjs", "--muro", "/tmp/muro.json"];
   const propios = mirador
     ? ["--dist", "dist-shorts", "--pantalla", "shorts", "--ancho", "1000", "--calidad", "0.84",
-       "--tope", "14", "--portadas-ancho", "930", "--salida", "shorts.html",
+       /* 930 daba 22,1 MB con la tanda del 31 dentro; 680 sale por 14,6. El
+          mirador es donde Pablo mira cómo queda una foto, así que aquí el
+          ancho se estira todo lo que deja el tope, no más. */
+       "--tope", "14", "--portadas-ancho", "680", "--salida", "shorts.html",
        "--titulo", "El muro de shorts, con las fotos de verdad"]
+    /* Los anchos de aquí abajo son los que hacen que quepa, y se han vuelto a
+       bajar el 31 de agosto: con las portadas de la tanda nueva dentro,
+       232/530 daban 19,1 MB y el aviso salta a 15,5. Con 175/355 sale por
+       15,1. Cuando entre otra tanda habrá que volver a bajarlos —o ampliar
+       assets/vitrina.json, que es lo que Pablo autorizó primero—. */
     : ["--dist", "dist-artefacto", "--ancho", "800", "--calidad", "0.8", "--tope", "8",
-       "--cubiertas-ancho", "232", "--cubiertas-calidad", "0.70", "--portadas-ancho", "530"];
+       "--cubiertas-ancho", "175", "--cubiertas-calidad", "0.70", "--portadas-ancho", "355"];
   process.stdout.write(corre("node", [...comunes, ...propios]));
 } finally {
   /* PASE LO QUE PASE, el catálogo vuelve a estar entero. */
