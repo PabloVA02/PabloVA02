@@ -121,12 +121,22 @@ portada nueva. El guion que lo hace todo es
   posible». Con «sin límite estricto de peso» escrito justo debajo, 65 se
   quedaba corto sin ganar nada.
 
-- **Y una imagen pequeña no se sube «tal cual» aunque la mande él.** Si no
-  llega al suelo de 1644, estirarla se ve, y estirarla es exactamente lo
-  contrario de lo que pide. El 29 de agosto llegaron cinco AVIF de 900 px de
-  ancho justos —la marca de una imagen guardada de una vista previa y no
-  descargada del original—; una de ellas, la de los nudillos, daba 338 px
-  útiles y no entró.
+- **Una imagen pequeña se avisa, pero la decisión de meterla es suya.** El
+  guion canta al terminar las que no llegan al suelo de 1644, y esa lista hay
+  que pasársela con nombres. Lo que NO hay que hacer es decidir por él: el 31
+  de agosto, después de tener trece shorts escritos parados esperando una foto
+  mejor, lo zanjó —«da igual, deja esas portadas aunque no superen la calidad;
+  es normal porque son antiguas, no importa»—. Y tiene razón en el fondo del
+  asunto: un retrato de Cervantes o una foto del Titanic son de hace un siglo
+  o cuatro, y pedirles 1644 px es pedirles algo que no existe.
+
+  Así que la regla es: **avisar siempre, bloquear nunca.** Un short escrito que
+  no se publica por una portada blanda es peor que una portada blanda.
+
+  Las que entraron así el 31 de agosto, con lo que les falta, están en la
+  columna `aviso` de `assets/portadas.csv`. La peor con diferencia es la de
+  los nudillos —338 px de los 1644— y esa sí conviene cambiarla si algún día
+  aparece otra.
 - **El recorte va POR EL CENTRO**, y cuando no acierta se dice a mano en
   `assets/recortes.json`. Estuvo en modo «busca la zona con más detalle» y
   Pablo lo cazó el 30 de agosto con tres ejemplos —«la del flato se ve muy de
