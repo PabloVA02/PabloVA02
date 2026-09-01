@@ -18,14 +18,20 @@
    y ocurre pase lo que pase.
    ========================================================================== */
 import { execFileSync } from "node:child_process";
-import { writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
 const AQUI = fileURLToPath(new URL("..", import.meta.url));
 const CATALOGO = "src/historias/curiosidades.ts";
 const mirador = process.argv.includes("--mirador");
+/* `maxBuffer` NO ES OPCIONAL AQUÍ. Por defecto execFileSync corta la salida en
+   1 MB y lanza ENOBUFS, y el catálogo entero pasó de ese megabyte el 1 de
+   septiembre con el tomo 9 dentro. Como quien pasaba de largo era `escribe(false)`
+   —la restauración del `finally`—, el fallo dejaba en disco el catálogo
+   RECORTADO: la app de verdad se quedaba sin los shorts de la vitrina y nada
+   avisaba. Se descubrió contando entradas, no por un error en pantalla. */
 const corre = (orden, args) =>
-  execFileSync(orden, args, { cwd: AQUI, stdio: ["ignore", "pipe", "inherit"] });
+  execFileSync(orden, args, { cwd: AQUI, stdio: ["ignore", "pipe", "inherit"], maxBuffer: 512 * 1024 * 1024 });
 
 const escribe = (conVitrina) => {
   const args = ["scripts/catalogo.mjs", ...(conVitrina ? ["--vitrina"] : [])];
@@ -52,7 +58,17 @@ try {
        "--cubiertas-ancho", "175", "--cubiertas-calidad", "0.70", "--portadas-ancho", "355"];
   process.stdout.write(corre("node", [...comunes, ...propios]));
 } finally {
-  /* PASE LO QUE PASE, el catálogo vuelve a estar entero. */
+  /* PASE LO QUE PASE, el catálogo vuelve a estar entero. Y se COMPRUEBA: la
+     primera versión daba por hecho que escribir había funcionado, y cuando
+     dejó de funcionar no lo dijo nadie. */
   escribe(false);
-  console.log("catálogo restaurado con todos los shorts");
+  const entero = readFileSync(new URL(CATALOGO, `file://${AQUI}`), "utf8");
+  const cuantos = (entero.match(/^ {4}id: "/gm) ?? []).length;
+  const recorte = JSON.parse(readFileSync(new URL("assets/vitrina.json", `file://${AQUI}`), "utf8")).fuera.length;
+  if (cuantos <= recorte) {
+    console.error(`EL CATÁLOGO SE HA QUEDADO RECORTADO: ${cuantos} shorts. Vuelve a correr\n    node scripts/catalogo.mjs > ${CATALOGO}\nantes de compilar nada para el móvil.`);
+    process.exitCode = 1;
+  } else {
+    console.log(`catálogo restaurado con todos los shorts (${cuantos})`);
+  }
 }
