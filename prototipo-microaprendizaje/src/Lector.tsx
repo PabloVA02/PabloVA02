@@ -15,10 +15,10 @@
    terminar, que es lo que cierra el resumen.
    ========================================================================== */
 
-import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
-import { GlyphBack, GlyphClose, GlyphPausa, GlyphPlay } from "./glyphs";
-import { spring } from "./motion";
+import { useEffect, useState, type CSSProperties } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import { GlyphAuriculares, GlyphBack, GlyphLeer, GlyphPausa, GlyphPlay } from "./glyphs";
+import { spring, springSoft } from "./motion";
 import { alCargarVoces, calla, hayVocesInstaladas, hayVoz, lee, mejorVoz } from "./voz";
 import type { Bloque, PaginaLibro } from "./libros/paginas";
 
@@ -121,6 +121,54 @@ function PintaBloque({ b }: { b: Bloque }) {
   }
 }
 
+/* El galón de cerrar. En la referencia el lector no se cierra con un aspa
+   —eso es «descartar»— sino con un galón hacia abajo, que es «bajar esto y
+   volver». Es un dibujo de tres trazos, así que va aquí y no en glyphs.tsx,
+   que es para los que se usan en más de una pantalla. */
+function GalonAbajo() {
+  return (
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden>
+      <path
+        d="M6 9.5 12 15.5 18 9.5"
+        stroke="currentColor"
+        strokeWidth="2.1"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+/* ---- Cómo se lee: el fondo y el tamaño -----------------------------------
+   Los dos ajustes de la captura que pasó Pablo el 1 de septiembre. Viven en
+   el disco del navegador y no en las preferencias generales de la app a
+   propósito: son de ESTA pantalla. Quien pone el lector en claro no está
+   pidiendo que la estantería se vuelva blanca.
+
+   El tamaño se guarda como un factor y se enseña como un porcentaje, con el
+   100 % en el cuerpo de 20 que Pablo midió sobre sus capturas —«que lo calques
+   al 100 %»—. O sea que el 100 % de este mando no es «lo normal»: es
+   exactamente lo que él pidió, y lo demás se mueve alrededor. */
+type Tono = "oscuro" | "claro";
+const MIN = 0.8, MAX = 1.5, PASO = 0.1;
+
+function guardado(clave: string, porDefecto: string) {
+  try {
+    const v = localStorage.getItem(clave);
+    return v === null ? porDefecto : v;
+  } catch {
+    return porDefecto;
+  }
+}
+
+function guarda(clave: string, valor: string | number) {
+  try {
+    localStorage.setItem(clave, String(valor));
+  } catch {
+    /* Modo privado o disco lleno: se pierde entre sesiones y nada más. */
+  }
+}
+
 export function Lector({
   paginas,
   onCerrar,
@@ -134,6 +182,25 @@ export function Lector({
   audioAlEntrar?: boolean;
 }) {
   const [i, setI] = useState(0);
+  /** El panel de abajo, el que abre la «Aa». */
+  const [ajustes, setAjustes] = useState(false);
+  const [fondo, setFondo] = useState<Tono>(() =>
+    guardado("curva.lector.fondo", "oscuro") === "claro" ? "claro" : "oscuro",
+  );
+  const [escala, setEscala] = useState(() => Number(guardado("curva.lector.escala", "1")) || 1);
+
+  function ponFondo(cual: Tono) {
+    setFondo(cual);
+    guarda("curva.lector.fondo", cual);
+  }
+
+  function ponEscala(v: number) {
+    /* Redondeado al paso: sumar 0,1 en coma flotante da 1,0999999999999999 y
+       el porcentaje saldría en 110,00000000000001. */
+    const n = Math.min(MAX, Math.max(MIN, Math.round(v * 10) / 10));
+    setEscala(n);
+    guarda("curva.lector.escala", n);
+  }
   /* El texto del libro llega de un trozo aparte y puede tardar un instante.
      Sin esta guarda, `paginas[i]` es undefined y la pantalla revienta. */
   const hay = paginas.length > 0;
@@ -248,22 +315,66 @@ export function Lector({
   return (
     <motion.div
       className="lector"
+      data-fondo={fondo}
+      /* La escala viaja como propiedad propia de CSS; el tipo de `style` de
+         framer no las conoce, y de ahí el rodeo. */
+      style={{ "--lee-escala": escala } as CSSProperties}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: spring }}
       exit={{ opacity: 0, transition: { duration: 0.18 } }}
     >
-      {/* Solo el aspa. El título del libro estaba aquí arriba en pequeño y lo
-          quitó Pablo el 1 de septiembre. Tiene razón: quien abre el lector
-          acaba de pulsar en ese libro y sabe perfectamente cuál es, así que
-          repetírselo en gris encima de cada página es ruido en la única
-          pantalla donde no debe haber ninguno.
+      {/* LA BARRA, calcada de la captura que pasó Pablo el 1 de septiembre:
+          galón para cerrar, el par Leer / Escuchar en medio y la «Aa» a la
+          derecha.
 
-          Con él se va el `lee-hueco` de 34 puntos que había a la derecha: ese
-          hueco no era un margen, existía solo para compensar el aspa y que el
-          título quedara centrado de verdad. Sin título no compensa nada. */}
+          Sin el icono de las tres rayas que sale en su captura, y lo pidió él
+          expresamente: «lo de las tres rayas no lo pongas». En la referencia
+          abre el índice de secciones, y aquí no hay índice que abrir porque el
+          resumen se pasa página a página con las flechas del pie.
+
+          Y el título del libro, que estaba aquí, se quitó esa misma tarde:
+          quien abre el lector acaba de pulsar en ese libro.
+
+          El par no es un adorno: es EL MANDO de la voz. «Escuchar» arranca la
+          lectura en alto y «Leer» la para, así que lo que se ve marcado es el
+          estado de verdad del audiolibro, no un modo aparte que haya que
+          mantener a mano. Por eso «Escuchar» se apaga en un aparato sin voces
+          en vez de mentir. */}
       <header className="lee-barra">
-        <button className="icon-btn" onClick={onCerrar} aria-label="Cerrar">
-          <GlyphClose />
+        <button className="lee-icono" onClick={onCerrar} aria-label="Cerrar">
+          <GalonAbajo />
+        </button>
+
+        <div className="lee-modo" role="group" aria-label="Leer o escuchar">
+          <button
+            className="lee-modo-op"
+            data-on={!sonando}
+            onClick={() => setSonando(false)}
+            aria-pressed={!sonando}
+          >
+            <GlyphLeer tamano={16} />
+            Leer
+          </button>
+          <button
+            className="lee-modo-op"
+            data-on={sonando}
+            onClick={() => setSonando(true)}
+            disabled={!puedeHablar}
+            aria-pressed={sonando}
+          >
+            <GlyphAuriculares tamano={16} />
+            Escuchar
+          </button>
+        </div>
+
+        <button
+          className="lee-icono lee-aa"
+          data-on={ajustes}
+          onClick={() => setAjustes((a) => !a)}
+          aria-expanded={ajustes}
+          aria-label="Color de fondo y tamaño del texto"
+        >
+          <span aria-hidden>Aa</span>
         </button>
       </header>
 
@@ -335,6 +446,73 @@ export function Lector({
           </nav>
         )}
       </div>
+
+      {/* EL PANEL DE LA «Aa», calcado de la segunda captura: a la izquierda el
+          color de fondo, a la derecha el tamaño con su porcentaje.
+
+          Sube desde abajo y se apoya encima del reproductor, que es donde sale
+          en la referencia. No tapa la barra de arriba a propósito: el par
+          Leer / Escuchar tiene que seguir a la vista mientras se toca el
+          tamaño, porque lo que se está ajustando es cómo se lee.
+
+          Los dos redondeles NO son claro y oscuro del tema de la app: son el
+          papel de esta pantalla. Quien pone el lector en claro no está pidiendo
+          que la estantería se vuelva blanca. */}
+      <AnimatePresence>
+        {ajustes && (
+          <motion.div
+            className="lee-ajustes"
+            initial={{ y: "100%" }}
+            animate={{ y: 0 }}
+            exit={{ y: "100%" }}
+            transition={springSoft}
+          >
+            <div className="lee-ajuste">
+              <span className="lee-ajuste-que">Color de fondo</span>
+              <div className="lee-ajuste-mando">
+                <span className="lee-fondo-a" aria-hidden>
+                  A
+                </span>
+                {(["oscuro", "claro"] as const).map((cual) => (
+                  <button
+                    key={cual}
+                    className="lee-fondo"
+                    data-tono={cual}
+                    data-on={fondo === cual}
+                    onClick={() => ponFondo(cual)}
+                    aria-label={cual === "oscuro" ? "Fondo oscuro" : "Fondo claro"}
+                    aria-pressed={fondo === cual}
+                  />
+                ))}
+              </div>
+            </div>
+
+            <div className="lee-ajuste">
+              <span className="lee-ajuste-que">
+                Tamaño del texto · {Math.round(escala * 100)}%
+              </span>
+              <div className="lee-ajuste-mando lee-ajuste-mando-der">
+                <button
+                  className="lee-talla"
+                  onClick={() => ponEscala(escala - PASO)}
+                  disabled={escala <= MIN}
+                  aria-label="Letra más pequeña"
+                >
+                  −
+                </button>
+                <button
+                  className="lee-talla"
+                  onClick={() => ponEscala(escala + PASO)}
+                  disabled={escala >= MAX}
+                  aria-label="Letra más grande"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* El reproductor va fijo abajo, como el de la referencia: mientras se
           lee con los ojos se queda quieto, y mientras se escucha es lo único

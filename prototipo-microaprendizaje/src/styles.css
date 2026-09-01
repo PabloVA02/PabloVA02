@@ -8610,17 +8610,205 @@ button {
   z-index: 40;
   display: flex;
   flex-direction: column;
-  background: #101013;
-  color: #f4f2ee;
+
+  /* EL PAPEL Y LA LETRA, que dejan de estar clavados. Los dos mandos de la
+     «Aa» —el color de fondo y el tamaño— no pueden funcionar contra valores
+     escritos a pelo en veinte reglas, así que todo el texto de esta pantalla
+     tira de estas fichas.
+
+     El 100 % es el cuerpo de 20 con 27 de interlínea que Pablo midió sobre
+     sus capturas —«que lo calques al 100 %»—, o sea que el cien de este mando
+     no es «lo corriente»: es exactamente lo que él pidió, y lo demás se mueve
+     alrededor. */
+  --lee-escala: 1;
+  --lee-cuerpo: calc(20px * var(--lee-escala));
+  --lee-renglon: calc(27px * var(--lee-escala));
+  --lee-rotulo: calc(24px * var(--lee-escala));
+  --lee-rotulo-renglon: calc(32px * var(--lee-escala));
+  --lee-pie: calc(15px * var(--lee-escala));
+
+  --lee-fondo: #101013;
+  --lee-tinta: #f4f2ee;
+  --lee-tinta-fuerte: #ffffff;
+  --lee-tinta-suave: rgba(244, 242, 238, 0.55);
+  --lee-chapa: rgba(244, 242, 238, 0.1);
+  --lee-chapa-viva: rgba(244, 242, 238, 0.94);
+  --lee-chapa-tinta: #16161a;
+
+  background: var(--lee-fondo);
+  color: var(--lee-tinta);
 }
 
+/* El papel claro. No es el tema claro de la app: es el papel DE ESTA
+   pantalla, y por eso no toca ninguna ficha de fuera. Quien pone el lector en
+   claro no está pidiendo que la estantería se vuelva blanca. El tono tira a
+   crema y no a blanco puro, que es lo que hace que se lea como papel. */
+.lector[data-fondo="claro"] {
+  --lee-fondo: #f7f2e6;
+  --lee-tinta: #262019;
+  --lee-tinta-fuerte: #14100b;
+  --lee-tinta-suave: rgba(38, 32, 25, 0.6);
+  --lee-chapa: rgba(38, 32, 25, 0.09);
+  --lee-chapa-viva: #ffffff;
+  --lee-chapa-tinta: #1a1610;
+}
+
+/* --- La barra de arriba, calcada de la captura de Pablo ------------------
+   Galón para cerrar, el par Leer / Escuchar en medio y la «Aa» a la derecha.
+   El par manda de verdad sobre la voz, así que lo que se ve marcado es el
+   estado del audiolibro y no un modo aparte. */
 .lee-barra {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 10px 12px;
+  gap: 8px;
+  padding: 8px 10px;
   flex: none;
+  border-bottom: 1px solid var(--lee-chapa);
 }
+
+.lee-icono {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  color: var(--lee-tinta);
+  background: none;
+}
+.lee-icono:active { background: var(--lee-chapa); }
+.lee-aa {
+  font-family: var(--serifa);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.lee-aa[data-on="true"] { background: var(--lee-chapa); }
+
+/* El par. La cápsula es una sola pieza y la marca es una pastilla que vive
+   dentro: así el que está puesto se lee de un vistazo desde lejos, que es
+   justo lo que hace la referencia. */
+.lee-modo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  padding: 3px;
+  margin: 0 auto;
+  border-radius: 999px;
+  background: var(--lee-chapa);
+}
+
+.lee-modo-op {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  color: var(--lee-tinta);
+  background: none;
+  white-space: nowrap;
+  transition: background 0.16s ease, color 0.16s ease;
+}
+.lee-modo-op[data-on="true"] {
+  background: var(--lee-chapa-viva);
+  color: var(--lee-chapa-tinta);
+}
+/* Un aparato sin voces no puede escuchar, y el botón lo dice apagándose en
+   vez de mentir. */
+.lee-modo-op:disabled { opacity: 0.38; }
+
+/* --- El panel de la «Aa» ------------------------------------------------
+   Dos columnas, como en la captura: a la izquierda el color de fondo, a la
+   derecha el tamaño con su porcentaje. Se apoya encima del reproductor. */
+.lee-ajustes {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 10px;
+  padding: 18px 18px calc(20px + env(safe-area-inset-bottom, 0px));
+  border-radius: 18px 18px 0 0;
+  background: var(--lee-chapa-panel, #3a3a3e);
+  box-shadow: 0 -14px 34px rgba(0, 0, 0, 0.42);
+}
+.lector[data-fondo="claro"] .lee-ajustes {
+  --lee-chapa-panel: #e6ded0;
+  color: var(--lee-tinta);
+}
+
+.lee-ajuste {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+/* En una línea, como en la captura. A 14,5 «Tamaño del texto · 100 %» se pasa
+   por dos o tres puntos del ancho de su columna en una pantalla de 390 y
+   partía en dos renglones, que descuadraba las dos columnas entre sí. */
+.lee-ajuste-que {
+  font-size: 13.5px;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--lee-panel-tinta, #f4f2ee);
+  text-align: center;
+  white-space: nowrap;
+}
+.lector[data-fondo="claro"] .lee-ajuste-que { --lee-panel-tinta: #262019; }
+
+.lee-ajuste-mando {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.lee-ajuste-mando-der { gap: 14px; }
+
+.lee-fondo-a {
+  font-family: var(--serifa);
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--lee-panel-tinta, #f4f2ee);
+}
+.lector[data-fondo="claro"] .lee-fondo-a { --lee-panel-tinta: #262019; }
+
+/* Los dos redondeles del papel. El aro azul del elegido va POR FUERA, con
+   `outline` y su hueco, para que no encoja la muestra: si el aro fuera un
+   borde, el redondel elegido se vería más pequeño que el otro. */
+.lee-fondo {
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  outline: 2.5px solid transparent;
+  outline-offset: 3px;
+  transition: outline-color 0.16s ease;
+}
+.lee-fondo[data-tono="oscuro"] { background: #101013; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.22); }
+.lee-fondo[data-tono="claro"] { background: #f7f2e6; box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12); }
+.lee-fondo[data-on="true"] { outline-color: #2f9bff; }
+
+.lee-talla {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 42px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--lee-panel-tinta, #f4f2ee);
+  background: var(--lee-talla-fondo, rgba(255, 255, 255, 0.16));
+}
+.lector[data-fondo="claro"] .lee-talla {
+  --lee-panel-tinta: #262019;
+  --lee-talla-fondo: rgba(38, 32, 25, 0.1);
+}
+.lee-talla:disabled { opacity: 0.35; }
 
 .lee-scroll {
   flex: 1;
@@ -8653,17 +8841,17 @@ button {
 .lee-parrafo {
   margin: 0 0 27px;
   font-family: var(--serifa);
-  font-size: 20px;
-  line-height: 27px;
-  color: #f4f2ee;
+  font-size: var(--lee-cuerpo);
+  line-height: var(--lee-renglon);
+  color: var(--lee-tinta);
 }
 .lee-rotulo {
   margin: 6px 0 27px;
   font-family: var(--serifa);
-  font-size: 24px;
+  font-size: var(--lee-rotulo);
   font-weight: 700;
-  line-height: 32px;
-  color: #fff;
+  line-height: var(--lee-rotulo-renglon);
+  color: var(--lee-tinta-fuerte);
 }
 
 .lee-lista { margin: 0 0 27px; padding: 0; list-style: none; }
@@ -8672,8 +8860,8 @@ button {
   margin-bottom: 14px;
   padding-left: 17px;
   font-family: var(--serifa);
-  font-size: 20px;
-  line-height: 27px;
+  font-size: var(--lee-cuerpo);
+  line-height: var(--lee-renglon);
 }
 .lee-lista li::before {
   content: "•";
@@ -8694,9 +8882,9 @@ button {
 .lee-idea p {
   margin: 0;
   font-family: var(--serifa);
-  font-size: 20px;
-  line-height: 27px;
-  color: #fff;
+  font-size: var(--lee-cuerpo);
+  line-height: var(--lee-renglon);
+  color: var(--lee-tinta-fuerte);
 }
 
 .lee-cita {
@@ -8705,19 +8893,19 @@ button {
   margin: 26px 0 30px;
   padding-left: 8px;
 }
-.lee-comillas { flex: none; color: rgba(244, 242, 238, 0.45); margin-top: 3px; }
+.lee-comillas { flex: none; color: var(--lee-tinta-suave); margin-top: 3px; }
 .lee-cita blockquote {
   margin: 0;
   font-family: var(--serifa);
-  font-size: 20px;
-  line-height: 27px;
-  color: #fff;
+  font-size: var(--lee-cuerpo);
+  line-height: var(--lee-renglon);
+  color: var(--lee-tinta-fuerte);
 }
 .lee-cita figcaption {
   margin-top: 9px;
   font-family: var(--serifa);
-  font-size: 15px;
-  color: rgba(244, 242, 238, 0.55);
+  font-size: var(--lee-pie);
+  color: var(--lee-tinta-suave);
 }
 
 /* El bloque de «Prueba esto»: morado, a sangre por los lados, y el único
@@ -8730,9 +8918,9 @@ button {
 .lee-prueba h3 {
   margin: 0 0 16px;
   font-family: var(--serifa);
-  font-size: 20px;
+  font-size: var(--lee-cuerpo);
   font-weight: 700;
-  color: #fff;
+  color: var(--lee-tinta-fuerte);
 }
 .lee-prueba ul { margin: 0; padding: 0; list-style: none; }
 .lee-prueba li {
@@ -8740,9 +8928,9 @@ button {
   margin-bottom: 14px;
   padding-left: 17px;
   font-family: var(--serifa);
-  font-size: 19px;
+  font-size: calc(19px * var(--lee-escala));
   line-height: 1.42;
-  color: #f4f2ee;
+  color: var(--lee-tinta);
 }
 .lee-prueba li::before { content: "•"; position: absolute; left: 0; }
 
@@ -8762,7 +8950,7 @@ button {
   gap: 13px;
   padding: 10px var(--shell-pad) 18px;
   background: #101013;
-  border-top: 1px solid rgba(244, 242, 238, 0.09);
+  border-top: 1px solid var(--lee-chapa);
 }
 .lee-audio-boton {
   flex: none;
@@ -8771,7 +8959,7 @@ button {
   border-radius: 999px;
   display: grid;
   place-items: center;
-  background: #f4f2ee;
+  background: var(--lee-chapa-viva);
   color: #101013;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
@@ -8893,8 +9081,8 @@ button {
 }
 .lee-final span {
   font-family: var(--serifa);
-  font-size: 18px;
-  color: #f4f2ee;
+  font-size: calc(18px * var(--lee-escala));
+  color: var(--lee-tinta);
   text-align: center;
 }
 .lee-terminar {
