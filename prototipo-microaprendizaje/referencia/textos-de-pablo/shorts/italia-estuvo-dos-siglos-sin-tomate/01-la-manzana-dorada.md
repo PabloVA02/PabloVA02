@@ -3,7 +3,7 @@ titulo: "El tomate llegó a Italia como planta de adorno"
 categoria: "Cocina"
 serie: "italia-estuvo-dos-siglos-sin-tomate"
 orden: 1
-portada: ""
+portada: "italia-estuvo-dos-siglos-sin-tomate.avif"
 credito_portada: ""
 frase_portada: "Y los primeros eran amarillos"
 ---

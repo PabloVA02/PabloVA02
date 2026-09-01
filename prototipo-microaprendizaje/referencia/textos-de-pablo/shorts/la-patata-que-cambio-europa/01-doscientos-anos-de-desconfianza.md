@@ -3,7 +3,7 @@ titulo: "Hubo que declarar oficialmente que la patata era comestible"
 categoria: "Cocina"
 serie: "la-patata-que-cambio-europa"
 orden: 1
-portada: ""
+portada: "la-patata-que-cambio-europa.avif"
 credito_portada: ""
 frase_portada: "Y el documento es de 1772"
 ---

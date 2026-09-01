@@ -84,6 +84,7 @@ import p_existe_el_infinito from "../../portadas/servir/existe-el-infinito.avif"
 import p_ser_la_unica_especie_humana from "../../portadas/servir/ser-la-unica-especie-humana.avif";
 import p_el_arbol_no_bombea_el_agua_la_cuelga from "../../portadas/servir/el-arbol-no-bombea-el-agua-la-cuelga.avif";
 import p_internet_va_por_el_fondo_del_mar from "../../portadas/servir/internet-va-por-el-fondo-del-mar.avif";
+import p_italia_estuvo_dos_siglos_sin_tomate from "../../portadas/servir/italia-estuvo-dos-siglos-sin-tomate.avif";
 import p_la_burbuja_de_los_tulipanes from "../../portadas/servir/la-burbuja-de-los-tulipanes.avif";
 import p_la_caverna_de_platon from "../../portadas/servir/la-caverna-de-platon.avif";
 import p_la_historia_de_bugatti from "../../portadas/servir/la-historia-de-bugatti.avif";
@@ -96,6 +97,7 @@ import p_la_historia_de_porsche from "../../portadas/servir/la-historia-de-porsc
 import p_la_historia_de_zara from "../../portadas/servir/la-historia-de-zara.avif";
 import p_la_historia_del_titanic from "../../portadas/servir/la-historia-del-titanic.avif";
 import p_la_pasta_no_vino_de_china from "../../portadas/servir/la-pasta-no-vino-de-china.avif";
+import p_la_patata_que_cambio_europa from "../../portadas/servir/la-patata-que-cambio-europa.avif";
 import p_la_sagrada_familia from "../../portadas/servir/la-sagrada-familia.avif";
 import p_leyendo_las_sagas from "../../portadas/servir/leyendo-las-sagas.avif";
 import p_los_chips_se_hacen_con_arena from "../../portadas/servir/los-chips-se-hacen-con-arena.avif";
@@ -246,7 +248,7 @@ import p_vivimos_dentro_de_una_simulacion from "../../portadas/servir/vivimos-de
    reparte en pantallas es la app, midiendo el móvil de quien lee. Es la
    regla 3 de `.claude/skills/paginado-shorts/SKILL.md`.
 
-   Hoy entran 223 de 683: solo los que tienen portada.
+   Hoy entran 225 de 683: solo los que tienen portada.
    ========================================================================== */
 
 export const CURIOSIDADES: Short[] = [
@@ -8493,6 +8495,117 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "italia-estuvo-dos-siglos-sin-tomate",
+    titulo: "Italia estuvo dos siglos sin tomate",
+    categoria: "Cocina",
+    color: "var(--slate)",
+    /* Serie «italia-estuvo-dos-siglos-sin-tomate», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El tomate llegó a Italia como planta de adorno» */
+    encargo: "El tomate llegó a Italia como planta de adorno",
+    fotos: [
+      {
+        local: p_italia_estuvo_dos_siglos_sin_tomate,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El tomate llegó a Italia como planta de adorno",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La primera descripción europea lo llama manzana dorada, y con razón",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La palabra lo delata. <strong>Tomate</strong> viene del náhuatl <em>tomatl</em>, la " +
+          "lengua que se hablaba en el México central cuando llegaron los españoles, y esa es " +
+          "toda la partida de nacimiento que hace falta: la planta es americana, se domesticó en " +
+          "Mesoamérica a partir de parientes silvestres andinos, y no existía en Europa antes del " +
+          "siglo XVI.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cruzó el Atlántico poco después de la conquista, con el resto del cargamento botánico " +
+          "que iba y venía. Y la primera descripción europea que se conserva es de 1544, cuando " +
+          "el médico y botánico italiano <strong>Pietro Andrea Mattioli</strong> la incluye en su " +
+          "obra.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en el nombre que usa: <em>pomi d'oro</em>, manzanas de oro. De ahí viene, sin " +
+          "cambiar casi nada, la palabra italiana actual, <em>pomodoro</em>. Y no era una " +
+          "metáfora poética. Las primeras variedades que llegaron a Europa eran amarillas, no " +
+          "rojas, así que la descripción era literal: una bola dorada del tamaño de una manzana " +
+          "pequeña.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Mattioli menciona que se pueden comer fritas en aceite con sal y pimienta. Es decir, " +
+          "la posibilidad estaba dicha desde el primer momento. Lo que no ocurrió durante mucho " +
+          "tiempo fue que nadie le hiciera caso.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La palabra italiana para el tomate significa manzana dorada, y no es licencia poética: " +
+          "los primeros tomates que vio Europa eran amarillos.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Una planta que se cultivaba para mirarla, no para comerla",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante casi dos siglos, el tomate estuvo en Europa como está hoy un cactus en un " +
+          "alféizar: se cultivaba, se le tenía aprecio y no se le hincaba el diente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Buena parte de la razón es una cuestión de familia. El tomate pertenece a las " +
+          "<strong>solanáceas</strong>, y sus parientes europeos tenían pésima reputación con " +
+          "motivos sobrados. La belladona, cuyo nombre científico es <em>Atropa belladonna</em>, " +
+          "mata. La mandrágora era la planta de la brujería por excelencia. El beleño envenena. " +
+          "Un botánico del siglo XVI que ve llegar una planta nueva, la clasifica por sus flores " +
+          "y sus hojas y la encuentra emparentada con esas tres, hace exactamente lo que hay que " +
+          "hacer: desconfiar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y no era una desconfianza infundada. La propia planta del tomate es tóxica en sus " +
+          "hojas y sus tallos, que contienen alcaloides igual que sus primas. Lo único comestible " +
+          "es el fruto maduro, y eso no es evidente desde fuera.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Se cuenta además otra explicación, que conviene dar con la etiqueta que le " +
+          "corresponde. Se ha propuesto que la acidez del tomate disolvía el plomo de la vajilla " +
+          "de peltre que usaban las clases altas, provocando intoxicaciones que se le achacaron a " +
+          "la fruta. Es una hipótesis repetida y verosímil químicamente, pero no está bien " +
+          "establecida.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Nadie fue tonto por no comérselo. Llegó una planta nueva, de la familia de la " +
+          "belladona y la mandrágora, y con hojas efectivamente venenosas. Doscientos años de " +
+          "prudencia son bastante razonables.",
+      },
+    ],
+  },
+  {
     id: "la-burbuja-de-los-tulipanes",
     titulo: "La burbuja de los tulipanes",
     categoria: "Economía",
@@ -9729,6 +9842,108 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "El documento que supuestamente sostiene la leyenda es la mejor prueba en su contra: " +
           "para comparar lo de allí con la lasaña, la lasaña tenía que estar ya aquí.",
+      },
+    ],
+  },
+  {
+    id: "la-patata-que-cambio-europa",
+    titulo: "La patata que cambió Europa",
+    categoria: "Cocina",
+    color: "var(--sage)",
+    /* Serie «la-patata-que-cambio-europa», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Hubo que declarar oficialmente que la patata era comestible» */
+    encargo: "Hubo que declarar oficialmente que la patata era comestible",
+    fotos: [
+      {
+        local: p_la_patata_que_cambio_europa,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Hubo que declarar oficialmente que la patata era comestible",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Llegó de los Andes con miles de años de historia detrás",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La patata no la inventó Europa ni de lejos. Se domesticó en los Andes, en la zona del " +
+          "altiplano alrededor del lago Titicaca, hace milenios, y las culturas andinas " +
+          "desarrollaron con ella algo que en Europa no existía: no una variedad, sino miles, " +
+          "adaptadas cada una a su altitud, su suelo y su clima.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y desarrollaron además una tecnología de conservación notable. En el altiplano, donde " +
+          "hiela de noche y hace sol de día, se dejaban las patatas a la intemperie: se " +
+          "congelaban por la noche, se pisaban para exprimirles el agua y se secaban al sol " +
+          "durante el día, repitiendo el ciclo. El resultado, el <strong>chuño</strong>, se " +
+          "guarda durante años. Era liofilización, hecha con la meteorología de la puna varios " +
+          "siglos antes de que existiera la palabra.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los españoles se la llevaron a Europa en el siglo XVI, junto con el maíz, el tomate y " +
+          "todo lo demás. Y allí empezó a no pasar nada durante doscientos años.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Cuando la patata llegó a Europa no era una novedad: llevaba miles de años cultivada, " +
+          "seleccionada en miles de variedades y con su propia técnica de conservación. Lo nuevo " +
+          "era el continente que la recibía.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Una facultad de medicina tuvo que pronunciarse sobre si se podía comer",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La resistencia europea a la patata se cuenta muchas veces con anécdotas, y hay un " +
+          "documento que la resume mejor que cualquier anécdota.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1772, la Facultad de Medicina de París emitió un dictamen declarando que la patata " +
+          "era comestible. Léelo despacio: en pleno siglo de las Luces, en la capital de Europa, " +
+          "hizo falta que una institución médica se pronunciara formalmente sobre si un tubérculo " +
+          "que llevaba dos siglos en el continente se podía comer o no.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los motivos de la desconfianza eran varios y ninguno era estúpido. La planta pertenece " +
+          "a las solanáceas, con parientes venenosos bien conocidos, y de hecho sus frutos verdes " +
+          "y sus brotes son tóxicos: una patata que ha visto la luz y se ha puesto verde produce " +
+          "solanina, y eso sienta muy mal. Además, se cultivaba bajo tierra, cosa que a un " +
+          "campesino europeo acostumbrado al cereal le resultaba sencillamente ajena. Y se había " +
+          "usado durante décadas sobre todo como forraje para el ganado, que es la peor carta de " +
+          "presentación posible para un alimento humano.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que el retraso no fue superstición pura. Fue una planta con toxicidad real en " +
+          "algunas partes, con un método de cultivo desconocido y con una reputación de comida de " +
+          "animales.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La prueba de lo mal vista que estaba no es ninguna leyenda: es un dictamen firmado por " +
+          "una facultad de medicina en 1772, doscientos años después de su llegada, aclarando que " +
+          "se podía comer.",
       },
     ],
   },
