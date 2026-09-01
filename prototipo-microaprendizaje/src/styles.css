@@ -6015,22 +6015,75 @@ button {
   overflow: hidden;
 }
 
+/* EL NOMBRE DEL MODO, arriba y en pequeño. Va antes que el titular porque
+   contesta «dónde estoy» en una línea, y con eso el titular se libra de tener
+   que decirlo y puede dedicarse a prometer. El filete de debajo es lo único
+   que separa las dos alturas: una regla entera partiría la cabecera en dos. */
+.anti-nombre {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 12px;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+  color: rgba(242, 236, 225, 0.5);
+}
+
+.anti-nombre::before,
+.anti-nombre::after {
+  content: "";
+  width: 16px;
+  height: 1px;
+  background: rgba(242, 236, 225, 0.22);
+}
+
+/* EL TITULAR. Sube de 28 a 33, la interlínea baja a 1.06 y el interletraje se
+   aprieta a −0,04: a este tamaño una frase corta pide ir apretada, y así las
+   dos líneas forman un bloque compacto en vez de dos renglones sueltos.
+   El salto de línea está puesto a mano en el JSX y no se deja al azar del
+   ancho: «Bloquea lo que te / impide crecer» parte por donde parte la idea. */
 .anti-cuerpo h1 {
   text-align: center;
-  font-size: 28px;
-  font-weight: 770;
-  line-height: 1.12;
-  letter-spacing: -0.03em;
+  max-width: 15ch;
+  margin: 0;
+  font-size: 33px;
+  font-weight: 800;
+  line-height: 1.06;
+  letter-spacing: -0.04em;
   text-wrap: balance;
 }
 
+/* La palabra que carga la frase. No lleva color de acento: a este tamaño el
+   contraste de peso ya la levanta, y un segundo color en un titular de dos
+   líneas lo parte. Lo que hace es apoyarse en un subrayado corto, del grosor
+   del asta de la letra. */
+.anti-cuerpo h1 em {
+  font-style: normal;
+  position: relative;
+  white-space: nowrap;
+}
+
+.anti-cuerpo h1 em::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.06em;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--verde);
+  opacity: 0.85;
+}
+
 .anti-entradilla {
-  margin-top: 10px;
-  max-width: 30ch;
+  margin-top: 11px;
+  max-width: 28ch;
   text-align: center;
   font-size: 14.5px;
-  line-height: 1.48;
-  color: rgba(242, 236, 225, 0.62);
+  line-height: 1.5;
+  color: rgba(242, 236, 225, 0.6);
 }
 
 .anti-entradilla strong { color: var(--paper); font-weight: 700; }
@@ -6070,7 +6123,7 @@ button {
   z-index: 1;
   left: 50%;
   top: 50%;
-  margin: -28px 0 0 -28px;
+  margin: -31px 0 0 -31px;
 }
 
 .anti-ficha-caja { position: relative; }
@@ -6080,10 +6133,14 @@ button {
 .anti-ficha-fondo {
   display: grid;
   place-items: center;
-  width: 56px;
-  height: 56px;
-  border-radius: 16px;
-  overflow: hidden;
+  width: 62px;
+  height: 62px;
+  /* El redondeado lo dibuja el SVG, aquí solo se declara para que la sombra
+     lo siga. SIN `overflow: hidden`: recortar con este radio por encima del
+     que ya trae el dibujo deja dos curvas casi iguales suavizadas por dos
+     motores distintos, y eso se ve como un filo sucio de un píxel. Era parte
+     de lo que Pablo llamaba «no se ven nítidos». */
+  border-radius: 17.3px;
   /* El filete de dentro es lo que salva a las dos fichas negras —X y TikTok—:
      sobre un fondo casi negro se quedaban sin contorno y parecían agujeros. */
   box-shadow:

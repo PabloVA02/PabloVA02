@@ -32,11 +32,11 @@ type Marca = "instagram" | "tiktok" | "youtube" | "x" | "facebook";
     salen del centro de la escena, y están puestas para dejarle sitio a la
     mano, que cae abajo a la derecha y no debe pisar ninguna ficha. */
 const APPS: { marca: Marca; x: number; y: number; giro: number }[] = [
-  { marca: "youtube", x: -102, y: -148, giro: -8 },
-  { marca: "instagram", x: 100, y: -112, giro: 7 },
-  { marca: "x", x: -126, y: -46, giro: -5 },
-  { marca: "facebook", x: 118, y: 22, giro: 9 },
-  { marca: "tiktok", x: -104, y: 104, giro: 6 },
+  { marca: "youtube", x: -110, y: -166, giro: -8 },
+  { marca: "instagram", x: 110, y: -126, giro: 7 },
+  { marca: "x", x: -132, y: -50, giro: -5 },
+  { marca: "facebook", x: 126, y: 26, giro: 9 },
+  { marca: "tiktok", x: -112, y: 118, giro: 6 },
 ];
 
 export function AntiScroll({
@@ -64,19 +64,40 @@ export function AntiScroll({
       </div>
 
       <div className="anti-cuerpo">
+        {/* TRES ALTURAS Y NO DOS. Antes había titular y entradilla, y el
+            titular cargaba con las dos cosas: decir cómo se llama el modo y
+            prometer algo. Ahora el nombre va arriba en pequeño, el titular
+            queda libre para la frase que tiene que quedarse en la cabeza, y
+            el mecanismo baja a su sitio. */}
+        <motion.span
+          className="anti-nombre"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...springSoft, delay: 0.04 }}
+        >
+          Modo anti-scroll
+        </motion.span>
+
         <motion.h1
           initial={{ opacity: 0, y: 18, scale: 0.95 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ ...springPop, delay: 0.06 }}
+          transition={{ ...springPop, delay: 0.08 }}
         >
-          Bloquea las distracciones
+          {/* Pablo: «algo tipo bloquea todas las distracciones que impiden tu
+              desarrollo personal, que se le quede en la cabeza una buena
+              frase». Lo que se queda no es lo largo: es lo corto y lo que
+              acaba en un verbo que va contigo. «Crecer» es la palabra del
+              producto entera, así que carga el peso tipográfico. */}
+          Bloquea lo que te
+          <br />
+          impide <em>crecer</em>
         </motion.h1>
 
         <motion.p
           className="anti-entradilla"
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: 0.14 }}
+          transition={{ ...springSoft, delay: 0.16 }}
         >
           Mientras no leas tus <strong>{objetivo} minutos</strong> del día, estas
           apps no se abren.
@@ -260,7 +281,7 @@ function Ficha({
 
 function Movil() {
   return (
-    <svg viewBox="0 0 136 250" width="138" height="254" aria-hidden>
+    <svg viewBox="0 0 136 250" width="152" height="280" aria-hidden>
       <defs>
         <linearGradient id="anti-canto" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor="#efeae0" />
@@ -303,102 +324,163 @@ function Movil() {
 /* --------------------------------------------------------------------------
    Los iconos de las apps
 
-   No son capturas ni ficheros de marca: son las formas mínimas que hacen que
-   cada app se reconozca de un vistazo, que es todo lo que esta pantalla
-   necesita de ellas.
+   Pablo, el 1 de septiembre: «los símbolos de las redes sociales algunos están
+   mal, el de TikTok mal, Twitter; quiero que sean como en la vida real todos y
+   súper nítidos».
 
-   Lo que se arregló el 26 de agosto —Pablo: «los logos de las redes sociales
-   se ven algo mal»— no fue el dibujo de cada uno, sino que estaban a tamaños
-   distintos dentro de su ficha: la nota de TikTok ocupaba media ficha y la f
-   de Facebook la ficha entera, así que en fila parecían mal recortados. Ahora
-   cada dibujo se centra y se escala dentro del mismo hueco de 36 sobre 56
-   —`marco()`—, medido sobre su propia caja. Con eso pesan lo mismo en el ojo
-   aunque tengan formas muy distintas.
+   Tenía razón y el fallo era de fondo: los de antes eran aproximaciones
+   dibujadas a ojo —una X de dos barras cruzadas, una nota de música
+   inventada—, y una marca mal dibujada se reconoce igual pero se ve mal. Ahora
+   cada glifo es la FORMA REAL de la marca, con sus proporciones, y no un
+   parecido:
+
+     · X          la aspa asimétrica con sus remates rectos, que no es una x.
+     · TikTok     la nota con la cabeza redonda y el asta que se curva.
+     · Instagram  la cámara de trazo, dibujada como contorno relleno.
+     · YouTube    el rectángulo de esquinas blandas con la muesca del play.
+     · Facebook   la f que se sale por abajo, como en el icono de verdad.
+
+   NITIDEZ. Son vectores, así que el tamaño no las estropea: lo que las
+   estropeaba era el recorte. La ficha llevaba `overflow: hidden` con su propio
+   radio y el SVG dibujaba OTRO redondeado encima; dos bordes curvos casi
+   iguales, uno suavizado por el navegador y otro por CSS, dejan un filo sucio
+   de un píxel. Ahora el redondeado lo dibuja solo el SVG.
+
+   Y siguen siendo uso nominativo: se nombra exactamente lo que se va a
+   bloquear, que es para lo que existe la pantalla.
    -------------------------------------------------------------------------- */
 
-/**
- * Centra un dibujo dentro de la ficha y lo lleva al mismo tamaño óptico que
- * los demás. `caja` es lo que ocupa de verdad el dibujo en su propio sistema
- * de coordenadas; `hueco` es lo que tiene que medir dentro de los 56.
- */
-function marco(caja: [number, number, number, number], hueco = 36) {
+/** Mete un glifo de su propio sistema de coordenadas en la ficha de 56.
+ *  `caja` es lo que ocupa de verdad el dibujo; `hueco`, lo que debe medir
+ *  dentro. Cada marca pide un hueco distinto porque lo que iguala dos logos no
+ *  es su alto sino cuánta tinta ponen: la f de Facebook llena su caja y la
+ *  cámara de Instagram es casi todo aire. */
+function marco(caja: [number, number, number, number], hueco: number) {
   const [x, y, an, al] = caja;
   const k = hueco / Math.max(an, al);
-  return `translate(28 28) scale(${k.toFixed(4)}) translate(${(-(x + an / 2)).toFixed(2)} ${(-(y + al / 2)).toFixed(2)})`;
+  return `translate(28 28) scale(${k.toFixed(5)}) translate(${(-(x + an / 2)).toFixed(2)} ${(-(y + al / 2)).toFixed(2)})`;
 }
 
-const NOTA_TIKTOK =
-  "M33 12h-6.4v24.6a5.2 5.2 0 1 1-4.2-5.1V25a11.4 11.4 0 1 0 10.6 11.4V23.9" +
-  "a13 13 0 0 0 8 2.7v-6.3A7.6 7.6 0 0 1 33 12Z";
+/* Los glifos, cada uno con la caja que ocupa en su propio sistema. */
+const GLIFO_X =
+  "M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866" +
+  "l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894L144.011 79.694h162.604" +
+  "l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z";
+
+const GLIFO_TIKTOK =
+  "M2081 0c55 473 319 755 778 785v532c-266 26-499-61-770-225v995c0 1264-1378 1659-1932 753" +
+  "-356-583-138-1606 1004-1647v561c-87 14-180 36-265 65-254 86-398 247-358 531 77 544 1075 705 992-358V1z";
+
+const GLIFO_INSTAGRAM =
+  "M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6" +
+  "c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3" +
+  "c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2" +
+  "c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1" +
+  "s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0" +
+  "c35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388" +
+  "c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6" +
+  "-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9" +
+  "s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z";
+
+const GLIFO_YOUTUBE =
+  "M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486" +
+  "c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305" +
+  "c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486" +
+  "c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305z" +
+  "m-317.51 213.508V175.185l142.739 81.205-142.739 81.201z";
+
+const GLIFO_FACEBOOK =
+  "M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0" +
+  "c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z";
+
+/** La baldosa: el redondeado del icono de un móvil, que NO es un radio
+ *  constante sino una curva continua. Se dibuja aquí y en ningún otro sitio,
+ *  para que no haya dos bordes curvos peleándose. */
+function Baldosa({ fill }: { fill: string }) {
+  return <rect width="56" height="56" rx="15.6" ry="15.6" fill={fill} />;
+}
 
 function Logo({ marca }: { marca: Marca }) {
+  const comun = {
+    /* El sistema de dentro sigue siendo de 56 y solo cambia lo que mide en
+       pantalla: así las cajas de cada glifo, medidas una a una, siguen
+       valiendo. */
+    viewBox: "0 0 56 56",
+    width: 62,
+    height: 62,
+    shapeRendering: "geometricPrecision" as const,
+  };
+
   if (marca === "instagram")
     return (
-      <svg viewBox="0 0 56 56" width="56" height="56" aria-label="Instagram">
+      <svg {...comun} aria-label="Instagram">
         <defs>
-          <radialGradient id="ig" cx="30%" cy="107%" r="130%">
-            <stop offset="0%" stopColor="#fdd85d" />
-            <stop offset="26%" stopColor="#f6a03c" />
-            <stop offset="48%" stopColor="#e6483d" />
-            <stop offset="72%" stopColor="#c92bb7" />
-            <stop offset="100%" stopColor="#6a3fd6" />
+          {/* El degradado real arranca abajo a la izquierda en amarillo y sube
+              girando hacia el violeta; no es un degradado recto de esquina a
+              esquina. */}
+          <radialGradient id="anti-ig" cx="28%" cy="102%" r="122%">
+            <stop offset="0%" stopColor="#ffd776" />
+            <stop offset="14%" stopColor="#fdca63" />
+            <stop offset="30%" stopColor="#f79445" />
+            <stop offset="46%" stopColor="#ea5a45" />
+            <stop offset="62%" stopColor="#d92e7f" />
+            <stop offset="80%" stopColor="#a936b0" />
+            <stop offset="100%" stopColor="#5b51d8" />
           </radialGradient>
         </defs>
-        <rect width="56" height="56" rx="16" fill="url(#ig)" />
-        <g fill="none" stroke="#fff" strokeWidth="3.4">
-          <rect x="11.7" y="11.7" width="32.6" height="32.6" rx="10.4" />
-          <circle cx="28" cy="28" r="8.3" />
+        <Baldosa fill="url(#anti-ig)" />
+        <g transform={marco([0, 32, 448, 448], 33)}>
+          <path d={GLIFO_INSTAGRAM} fill="#fff" />
         </g>
-        <circle cx="38.4" cy="17.6" r="2.3" fill="#fff" />
       </svg>
     );
 
   if (marca === "tiktok")
     return (
-      <svg viewBox="0 0 56 56" width="56" height="56" aria-label="TikTok">
-        <rect width="56" height="56" rx="16" fill="#0b0b0f" />
-        {/* Las dos copias desplazadas en cian y rosa, y la blanca encima */}
-        <g transform={marco([10.6, 12, 30.4, 36], 34)}>
-          <path d={NOTA_TIKTOK} fill="#25f4ee" transform="translate(-2 -1.4)" />
-          <path d={NOTA_TIKTOK} fill="#fe2c55" transform="translate(2 1.4)" />
-          <path d={NOTA_TIKTOK} fill="#fff" />
+      <svg {...comun} aria-label="TikTok">
+        <Baldosa fill="#010101" />
+        {/* Las dos copias corridas en cian y magenta, y la blanca encima: eso
+            es la marca, no un adorno. El corrimiento va en las unidades del
+            glifo, que mide 2859 de ancho, no en píxeles de pantalla. */}
+        <g transform={marco([0, 0, 2859, 3333], 33)}>
+          <path d={GLIFO_TIKTOK} fill="#25f4ee" transform="translate(-150 -105)" />
+          <path d={GLIFO_TIKTOK} fill="#fe2c55" transform="translate(150 105)" />
+          <path d={GLIFO_TIKTOK} fill="#fff" />
         </g>
       </svg>
     );
 
   if (marca === "youtube")
     return (
-      <svg viewBox="0 0 56 56" width="56" height="56" aria-label="YouTube">
-        <rect width="56" height="56" rx="16" fill="#fbfbfa" />
-        <rect x="6" y="14" width="44" height="28" rx="9.4" fill="#ff0033" />
-        <path
-          d="M24.6 21.9c0-.9 1-1.5 1.8-1l9.2 5.3a1.2 1.2 0 0 1 0 2l-9.2 5.4c-.8.5-1.8-.1-1.8-1V21.9Z"
-          fill="#fff"
-        />
+      <svg {...comun} aria-label="YouTube">
+        <Baldosa fill="#fff" />
+        {/* Un solo camino: el rectángulo blando y la muesca del triángulo van
+            en la misma forma, así que el blanco de dentro es el de la baldosa
+            y no un triángulo pegado encima que se desalinee. */}
+        <g transform={marco([14, 64, 548, 384], 37)}>
+          <path d={GLIFO_YOUTUBE} fill="#ff0000" fillRule="evenodd" />
+        </g>
       </svg>
     );
 
   if (marca === "x")
     return (
-      <svg viewBox="0 0 56 56" width="56" height="56" aria-label="X">
-        <rect width="56" height="56" rx="16" fill="#0b0b0f" />
-        <g transform={marco([15, 15, 30.6, 29], 31)}>
-          <path
-            d="M16 15h7.6l8 10.6L40.2 15H45L33.6 28.3 45.6 44H38l-8.5-11.3L19.6 44H15l12-14.1L16 15Z"
-            fill="#fff"
-          />
+      <svg {...comun} aria-label="X">
+        <Baldosa fill="#000" />
+        <g transform={marco([0, 0, 1200, 1227], 29)}>
+          <path d={GLIFO_X} fill="#fff" />
         </g>
       </svg>
     );
 
   return (
-    <svg viewBox="0 0 56 56" width="56" height="56" aria-label="Facebook">
-      <rect width="56" height="56" rx="16" fill="#1877f2" />
-      <g transform={marco([18.4, 10.5, 24.2, 45.5], 38)}>
-        <path
-          d="M32.6 56V34.6h6.6l1-8.4h-7.6v-5.3c0-2.4.7-4 4.1-4h4.3v-7.5c-.8-.1-3.3-.3-6.3-.3-6.3 0-10.6 3.9-10.6 11v6.1h-6.7v8.4h6.7V56Z"
-          fill="#fff"
-        />
+    <svg {...comun} aria-label="Facebook">
+      <Baldosa fill="#0866ff" />
+      {/* La f no se centra: se apoya en el borde de abajo y se sale, que es lo
+          que hace el icono de verdad. Por eso lleva su propia colocación y no
+          pasa por marco(). */}
+      <g transform="translate(28 56.4) scale(0.0742) translate(-160 -512)">
+        <path d={GLIFO_FACEBOOK} fill="#fff" />
       </g>
     </svg>
   );
