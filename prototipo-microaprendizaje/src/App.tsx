@@ -681,7 +681,6 @@ export default function App() {
           {pantalla === "lector" && (
             <Lector
               key="lector"
-              titulo={libro.titulo}
               /* Escritas a mano si las hay; si no, salen del resumen por
                  tarjetas, que es lo que hace que los doscientos libros se
                  puedan leer desde el primer día. */

@@ -122,13 +122,11 @@ function PintaBloque({ b }: { b: Bloque }) {
 }
 
 export function Lector({
-  titulo,
   paginas,
   onCerrar,
   onTerminar,
   audioAlEntrar = false,
 }: {
-  titulo: string;
   paginas: PaginaLibro[];
   onCerrar: () => void;
   onTerminar: () => void;
@@ -254,12 +252,19 @@ export function Lector({
       animate={{ opacity: 1, transition: spring }}
       exit={{ opacity: 0, transition: { duration: 0.18 } }}
     >
+      {/* Solo el aspa. El título del libro estaba aquí arriba en pequeño y lo
+          quitó Pablo el 1 de septiembre. Tiene razón: quien abre el lector
+          acaba de pulsar en ese libro y sabe perfectamente cuál es, así que
+          repetírselo en gris encima de cada página es ruido en la única
+          pantalla donde no debe haber ninguno.
+
+          Con él se va el `lee-hueco` de 34 puntos que había a la derecha: ese
+          hueco no era un margen, existía solo para compensar el aspa y que el
+          título quedara centrado de verdad. Sin título no compensa nada. */}
       <header className="lee-barra">
         <button className="icon-btn" onClick={onCerrar} aria-label="Cerrar">
           <GlyphClose />
         </button>
-        <span className="lee-libro">{titulo}</span>
-        <span className="lee-hueco" />
       </header>
 
       <div className="lee-scroll">

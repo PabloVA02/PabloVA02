@@ -8621,17 +8621,6 @@ button {
   padding: 10px 12px;
   flex: none;
 }
-.lee-libro {
-  flex: 1;
-  text-align: center;
-  font-size: 13px;
-  font-weight: 600;
-  color: rgba(244, 242, 238, 0.6);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.lee-hueco { width: 34px; flex: none; }
 
 .lee-scroll {
   flex: 1;
