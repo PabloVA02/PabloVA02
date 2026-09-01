@@ -17,7 +17,13 @@
    Y el nombre del caché lleva versión: al cambiarlo se borra el anterior
    entero. Es la manera de no acumular tres compilaciones en el teléfono.
    ========================================================================== */
-const CACHE = "curva-v1";
+/* v2, del 1 de septiembre. Se sube el número CUANDO HAY QUE ASEGURAR que
+   nadie se queda con lo de antes: al cambiarlo, `activate` borra el caché
+   entero y el teléfono vuelve a pedirlo todo. Aquí se sube porque Pablo seguía
+   viendo la barra del lector debajo de la cámara con el arreglo ya publicado, y
+   la duda «¿lo tiene o no lo tiene?» valía más que los megas que cuesta
+   volver a bajar las fotografías. */
+const CACHE = "curva-v2";
 
 self.addEventListener("install", (e) => {
   /* Sin lista de precarga a propósito: el paquete son decenas de megas de

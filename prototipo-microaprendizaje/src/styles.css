@@ -8723,7 +8723,8 @@ button {
      `position: absolute; inset: 0` por encima de toda la carcasa, así que ni
      la ve. Es la pantalla donde Pablo lo notó, y con razón: aquí arriba hay
      una fila de botones, no un título con aire de sobra. */
-  padding: calc(8px + var(--isla)) 10px 8px;
+  padding: 8px 10px;
+  padding-top: calc(8px + var(--isla));
   flex: none;
   border-bottom: 1px solid var(--lee-chapa);
 }
