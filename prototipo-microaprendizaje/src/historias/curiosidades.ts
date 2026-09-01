@@ -10,6 +10,7 @@ import type { Short } from "../shorts";
    la app instalada: «tarda un montón en cargar las imágenes y va un poco
    lageado». La copia de servir va a 1290, el ancho del iPhone más grande
    que existe. Ver `scripts/portadas-servir.mjs`. */
+import p_como_andan_las_moscas_por_el_techo from "../../portadas/servir/como-andan-las-moscas-por-el-techo.avif";
 import p_como_calienta_un_microondas from "../../portadas/servir/como-calienta-un-microondas.avif";
 import p_como_cancelan_el_ruido_unos_auriculares from "../../portadas/servir/como-cancelan-el-ruido-unos-auriculares.avif";
 import p_la_costra_no_esta_curando_nada from "../../portadas/servir/la-costra-no-esta-curando-nada.avif";
@@ -17,15 +18,19 @@ import p_como_de_bien_ve_un_aguila from "../../portadas/servir/como-de-bien-ve-u
 import p_como_enfria_una_nevera from "../../portadas/servir/como-enfria-una-nevera.avif";
 import p_los_de_la_cebada from "../../portadas/servir/los-de-la-cebada.avif";
 import p_como_erupciona_un_volcan from "../../portadas/servir/como-erupciona-un-volcan.avif";
+import p_como_funciona_el_cine from "../../portadas/servir/como-funciona-el-cine.avif";
 import p_como_funciona_el_wifi from "../../portadas/servir/como-funciona-el-wifi.avif";
 import p_como_funciona_la_bolsa_de_valores from "../../portadas/servir/como-funciona-la-bolsa-de-valores.avif";
 import p_la_gravedad_no_es_una_fuerza from "../../portadas/servir/la-gravedad-no-es-una-fuerza.avif";
 import p_como_funciona_la_inteligencia_artificial from "../../portadas/servir/como-funciona-la-inteligencia-artificial.avif";
+import p_como_funciona_un_ascensor from "../../portadas/servir/como-funciona-un-ascensor.avif";
 import p_como_funciona_un_coche from "../../portadas/servir/como-funciona-un-coche.avif";
 import p_como_funciona_un_hormiguero from "../../portadas/servir/como-funciona-un-hormiguero.avif";
 import p_como_funciona_un_iman from "../../portadas/servir/como-funciona-un-iman.avif";
+import p_como_funciona_un_paracaidas from "../../portadas/servir/como-funciona-un-paracaidas.avif";
 import p_como_funciona_un_reloj_mecanico from "../../portadas/servir/como-funciona-un-reloj-mecanico.avif";
 import p_como_funciona_un_tren_de_alta_velocidad from "../../portadas/servir/como-funciona-un-tren-de-alta-velocidad.avif";
+import p_como_funciona_una_bateria from "../../portadas/servir/como-funciona-una-bateria.avif";
 import p_como_funciona_una_camara_de_fotos from "../../portadas/servir/como-funciona-una-camara-de-fotos.avif";
 import p_como_funciona_una_cerilla from "../../portadas/servir/como-funciona-una-cerilla.avif";
 import p_como_funciona_una_cerradura from "../../portadas/servir/como-funciona-una-cerradura.avif";
@@ -33,6 +38,7 @@ import p_como_funciona_una_pantalla_tactil from "../../portadas/servir/como-func
 import p_como_genera_electricidad_un_molino_de_viento from "../../portadas/servir/como-genera-electricidad-un-molino-de-viento.avif";
 import p_como_genera_electricidad_una_placa_solar from "../../portadas/servir/como-genera-electricidad-una-placa-solar.avif";
 import p_como_reconoce_un_pinguino_a_su_cria from "../../portadas/servir/como-reconoce-un-pinguino-a-su-cria.avif";
+import p_como_sabemos_de_que_estan_hechas_las_estrellas from "../../portadas/servir/como-sabemos-de-que-estan-hechas-las-estrellas.avif";
 import p_como_se_aguanta_en_pie_un_rascacielos from "../../portadas/servir/como-se-aguanta-en-pie-un-rascacielos.avif";
 import p_diario_de_a_bordo from "../../portadas/servir/diario-de-a-bordo.avif";
 import p_como_se_construyo_el_canal_de_panama from "../../portadas/servir/como-se-construyo-el-canal-de-panama.avif";
@@ -47,7 +53,10 @@ import p_como_se_hace_el_jamon_iberico from "../../portadas/servir/como-se-hace-
 import p_el_vino_se_hace_solo_y_lo_traen_las_avispas from "../../portadas/servir/el-vino-se-hace-solo-y-lo-traen-las-avispas.avif";
 import p_la_cebada_no_tiene_azucar from "../../portadas/servir/la-cebada-no-tiene-azucar.avif";
 import p_mas_antiguo_que_la_agricultura from "../../portadas/servir/mas-antiguo-que-la-agricultura.avif";
+import p_como_se_invento_la_escritura from "../../portadas/servir/como-se-invento-la-escritura.avif";
+import p_como_se_sostiene_un_satelite from "../../portadas/servir/como-se-sostiene-un-satelite.avif";
 import p_como_un_simple_papel_tiene_valor from "../../portadas/servir/como-un-simple-papel-tiene-valor.avif";
+import p_como_vivian_los_piratas_de_verdad from "../../portadas/servir/como-vivian-los-piratas-de-verdad.avif";
 import p_un_cohete_no_empuja_contra_nada from "../../portadas/servir/un-cohete-no-empuja-contra-nada.avif";
 import p_como_vuelan_los_helicopteros from "../../portadas/servir/como-vuelan-los-helicopteros.avif";
 import p_como_vuelan_los_pajaros from "../../portadas/servir/como-vuelan-los-pajaros.avif";
@@ -61,21 +70,35 @@ import p_llevamos_57_anos_disparando_laseres_a_la_luna from "../../portadas/serv
 import p_es_un_arma_quimica from "../../portadas/servir/es-un-arma-quimica.avif";
 import p_la_palabra_viajo_con_ella from "../../portadas/servir/la-palabra-viajo-con-ella.avif";
 import p_de_donde_sale_el_oro from "../../portadas/servir/de-donde-sale-el-oro.avif";
+import p_de_donde_salio_el_agua_de_la_tierra from "../../portadas/servir/de-donde-salio-el-agua-de-la-tierra.avif";
+import p_de_donde_salio_la_luna from "../../portadas/servir/de-donde-salio-la-luna.avif";
 import p_nacio_en_la_amazonia from "../../portadas/servir/nacio-en-la-amazonia.avif";
 import p_de_que_esta_hecho_un_hueso from "../../portadas/servir/de-que-esta-hecho-un-hueso.avif";
+import p_decides_tu_o_ya_estaba_decidido from "../../portadas/servir/decides-tu-o-ya-estaba-decidido.avif";
 import p_mas_grande_que_cualquier_dinosaurio from "../../portadas/servir/mas-grande-que-cualquier-dinosaurio.avif";
 import p_el_auge_economico_de_china from "../../portadas/servir/el-auge-economico-de-china.avif";
 import p_el_camino_de_santiago from "../../portadas/servir/el-camino-de-santiago.avif";
+import p_el_dia_que_cayo_constantinopla from "../../portadas/servir/el-dia-que-cayo-constantinopla.avif";
+import p_eres_la_misma_persona_que_hace_diez_anos from "../../portadas/servir/eres-la-misma-persona-que-hace-diez-anos.avif";
+import p_existe_el_infinito from "../../portadas/servir/existe-el-infinito.avif";
 import p_ser_la_unica_especie_humana from "../../portadas/servir/ser-la-unica-especie-humana.avif";
 import p_el_arbol_no_bombea_el_agua_la_cuelga from "../../portadas/servir/el-arbol-no-bombea-el-agua-la-cuelga.avif";
+import p_internet_va_por_el_fondo_del_mar from "../../portadas/servir/internet-va-por-el-fondo-del-mar.avif";
+import p_la_burbuja_de_los_tulipanes from "../../portadas/servir/la-burbuja-de-los-tulipanes.avif";
+import p_la_caverna_de_platon from "../../portadas/servir/la-caverna-de-platon.avif";
 import p_la_historia_de_bugatti from "../../portadas/servir/la-historia-de-bugatti.avif";
 import p_la_historia_de_ferrari from "../../portadas/servir/la-historia-de-ferrari.avif";
 import p_la_historia_de_la_alhambra from "../../portadas/servir/la-historia-de-la-alhambra.avif";
 import p_la_historia_de_lamborghini from "../../portadas/servir/la-historia-de-lamborghini.avif";
+import p_la_historia_de_lego from "../../portadas/servir/la-historia-de-lego.avif";
+import p_la_historia_de_nintendo from "../../portadas/servir/la-historia-de-nintendo.avif";
 import p_la_historia_de_porsche from "../../portadas/servir/la-historia-de-porsche.avif";
+import p_la_historia_de_zara from "../../portadas/servir/la-historia-de-zara.avif";
 import p_la_historia_del_titanic from "../../portadas/servir/la-historia-del-titanic.avif";
+import p_la_pasta_no_vino_de_china from "../../portadas/servir/la-pasta-no-vino-de-china.avif";
 import p_la_sagrada_familia from "../../portadas/servir/la-sagrada-familia.avif";
 import p_leyendo_las_sagas from "../../portadas/servir/leyendo-las-sagas.avif";
+import p_los_chips_se_hacen_con_arena from "../../portadas/servir/los-chips-se-hacen-con-arena.avif";
 import p_los_samurais from "../../portadas/servir/los-samurais.avif";
 import p_miguel_de_cervantes from "../../portadas/servir/miguel-de-cervantes.avif";
 import p_no_sirven_para_agarrar from "../../portadas/servir/no-sirven-para-agarrar.avif";
@@ -83,6 +106,7 @@ import p_el_bostezo_no_tiene_que_ver_con_el_oxigeno from "../../portadas/servir/
 import p_una_contrasena_que_alguien_ha_robado from "../../portadas/servir/una-contrasena-que-alguien-ha-robado.avif";
 import p_por_que_cambia_de_color_un_camaleon from "../../portadas/servir/por-que-cambia-de-color-un-camaleon.avif";
 import p_casi_nadie_se_dio_cuenta from "../../portadas/servir/casi-nadie-se-dio-cuenta.avif";
+import p_por_que_crece_tan_rapido_el_bambu from "../../portadas/servir/por-que-crece-tan-rapido-el-bambu.avif";
 import p_no_crecen_la_piel_se_retira from "../../portadas/servir/no-crecen-la-piel-se-retira.avif";
 import p_una_burbuja_formandose from "../../portadas/servir/una-burbuja-formandose.avif";
 import p_hay_un_sensor_dentro_del_diente from "../../portadas/servir/hay-un-sensor-dentro-del-diente.avif";
@@ -102,14 +126,19 @@ import p_lleno_de_semillas from "../../portadas/servir/lleno-de-semillas.avif";
 import p_por_que_el_sahara_fue_verde from "../../portadas/servir/por-que-el-sahara-fue-verde.avif";
 import p_empezo_en_orden_alfabetico from "../../portadas/servir/empezo-en-orden-alfabetico.avif";
 import p_los_dias_no_los_anos_si from "../../portadas/servir/los-dias-no-los-anos-si.avif";
+import p_por_que_envejecemos from "../../portadas/servir/por-que-envejecemos.avif";
 import p_por_que_estornudamos from "../../portadas/servir/por-que-estornudamos.avif";
 import p_por_que_flota_un_barco_de_acero from "../../portadas/servir/por-que-flota-un-barco-de-acero.avif";
 import p_el_color_te_dice_a_que_altura_ocurre from "../../portadas/servir/el-color-te-dice-a-que-altura-ocurre.avif";
+import p_por_que_hay_gente_que_no_digiere_la_leche from "../../portadas/servir/por-que-hay-gente-que-no-digiere-la-leche.avif";
+import p_por_que_hay_grupos_sanguineos from "../../portadas/servir/por-que-hay-grupos-sanguineos.avif";
 import p_por_que_hay_personas_con_ojos_azules from "../../portadas/servir/por-que-hay-personas-con-ojos-azules.avif";
 import p_por_que_hay_personas_con_ojos_marrones from "../../portadas/servir/por-que-hay-personas-con-ojos-marrones.avif";
 import p_por_que_hay_personas_con_ojos_verdes from "../../portadas/servir/por-que-hay-personas-con-ojos-verdes.avif";
 import p_por_que_hay_personas_rubias from "../../portadas/servir/por-que-hay-personas-rubias.avif";
 import p_por_que_hay_terremotos from "../../portadas/servir/por-que-hay-terremotos.avif";
+import p_por_que_hay_zurdos from "../../portadas/servir/por-que-hay-zurdos.avif";
+import p_por_que_islandia_tiene_tantos_volcanes from "../../portadas/servir/por-que-islandia-tiene-tantos-volcanes.avif";
 import p_por_que_la_estatua_de_la_libertad_es_verde from "../../portadas/servir/por-que-la-estatua-de-la-libertad-es-verde.avif";
 import p_una_molecula_a_partir_de_los_cuarenta from "../../portadas/servir/una-molecula-a-partir-de-los-cuarenta.avif";
 import p_la_luna_del_horizonte_es_mas_pequena from "../../portadas/servir/la-luna-del-horizonte-es-mas-pequena.avif";
@@ -129,13 +158,16 @@ import p_no_invierten_izquierda_derecha from "../../portadas/servir/no-invierten
 import p_un_flamenco_nace_gris from "../../portadas/servir/un-flamenco-nace-gris.avif";
 import p_no_lo_siguen_se_le_anticipan from "../../portadas/servir/no-lo-siguen-se-le-anticipan.avif";
 import p_los_pelirrojos_mas_anestesia from "../../portadas/servir/los-pelirrojos-mas-anestesia.avif";
+import p_por_que_los_precios_acaban_en_99 from "../../portadas/servir/por-que-los-precios-acaban-en-99.avif";
 import p_por_que_marte_es_rojo from "../../portadas/servir/por-que-marte-es-rojo.avif";
+import p_por_que_mataron_a_socrates from "../../portadas/servir/por-que-mataron-a-socrates.avif";
 import p_la_frase_tal_como_se_dice_es_falsa from "../../portadas/servir/la-frase-tal-como-se-dice-es-falsa.avif";
 import p_por_que_no_hemos_vuelto_a_la_luna from "../../portadas/servir/por-que-no-hemos-vuelto-a-la-luna.avif";
 import p_no_es_que_no_lo_grabes_se_borra_hacia_atras from "../../portadas/servir/no-es-que-no-lo-grabes-se-borra-hacia-atras.avif";
 import p_a_los_tres_anos_te_acordabas from "../../portadas/servir/a-los-tres-anos-te-acordabas.avif";
 import p_por_que_nos_salen_canas from "../../portadas/servir/por-que-nos-salen-canas.avif";
 import p_la_unica_especie_que_se_sonroja from "../../portadas/servir/la-unica-especie-que-se-sonroja.avif";
+import p_por_que_olvidas_los_suenos from "../../portadas/servir/por-que-olvidas-los-suenos.avif";
 import p_el_picante_no_es_un_sabor from "../../portadas/servir/el-picante-no-es-un-sabor.avif";
 import p_el_picor_lo_pones_tu from "../../portadas/servir/el-picor-lo-pones-tu.avif";
 import p_perderse_en_un_centro_comercial from "../../portadas/servir/perderse-en-un-centro-comercial.avif";
@@ -144,12 +176,14 @@ import p_no_solo_cuando_estan_contentos from "../../portadas/servir/no-solo-cuan
 import p_por_que_saturno_tiene_anillos from "../../portadas/servir/por-que-saturno-tiene-anillos.avif";
 import p_por_que_se_abandono_machu_picchu from "../../portadas/servir/por-que-se-abandono-machu-picchu.avif";
 import p_la_leche_cortada_es_queso_a_medio_empezar from "../../portadas/servir/la-leche-cortada-es-queso-a-medio-empezar.avif";
+import p_por_que_se_hunde_venecia from "../../portadas/servir/por-que-se-hunde-venecia.avif";
 import p_el_pan_duro_no_se_ha_secado from "../../portadas/servir/el-pan-duro-no-se-ha-secado.avif";
 import p_no_es_falta_de_riego from "../../portadas/servir/no-es-falta-de-riego.avif";
 import p_tienen_una_forma_que_se_puede_medir from "../../portadas/servir/tienen-una-forma-que-se-puede-medir.avif";
 import p_tu_sangre_nunca_es_azul from "../../portadas/servir/tu-sangre-nunca-es-azul.avif";
 import p_por_que_son_caros_los_diamantes from "../../portadas/servir/por-que-son-caros-los-diamantes.avif";
 import p_el_azul_no_es_un_color_es_una_estructura from "../../portadas/servir/el-azul-no-es-un-color-es-una-estructura.avif";
+import p_por_que_sube_la_inflacion from "../../portadas/servir/por-que-sube-la-inflacion.avif";
 import p_por_que_sube_la_marea from "../../portadas/servir/por-que-sube-la-marea.avif";
 import p_todas_las_explicaciones_que_te_han_dado_fallan from "../../portadas/servir/todas-las-explicaciones-que-te-han-dado-fallan.avif";
 import p_el_conductor_no_se_marea_nunca from "../../portadas/servir/el-conductor-no-se-marea-nunca.avif";
@@ -162,8 +196,10 @@ import p_ve_en_blanco_y_negro_y_acierta_el_color from "../../portadas/servir/ve-
 import p_el_destello_sube_del_suelo_a_la_nube from "../../portadas/servir/el-destello-sube-del-suelo-a-la-nube.avif";
 import p_por_que_unos_paises_son_ricos_y_otros_pobres from "../../portadas/servir/por-que-unos-paises-son-ricos-y-otros-pobres.avif";
 import p_por_que_vuelan_los_aviones_es_falso from "../../portadas/servir/por-que-vuelan-los-aviones-es-falso.avif";
+import p_puede_pensar_una_maquina from "../../portadas/servir/puede-pensar-una-maquina.avif";
 import p_que_es_el_salar_de_uyuni from "../../portadas/servir/que-es-el-salar-de-uyuni.avif";
 import p_que_es_exactamente_el_fuego from "../../portadas/servir/que-es-exactamente-el-fuego.avif";
+import p_que_es_la_conciencia from "../../portadas/servir/que-es-la-conciencia.avif";
 import p_coladores_de_hace_7500_anos from "../../portadas/servir/coladores-de-hace-7500-anos.avif";
 import p_que_es_realmente_un_hongo from "../../portadas/servir/que-es-realmente-un-hongo.avif";
 import p_que_es_realmente_una_perla from "../../portadas/servir/que-es-realmente-una-perla.avif";
@@ -176,17 +212,26 @@ import p_que_fue_antes_el_huevo_o_la_gallina from "../../portadas/servir/que-fue
 import p_que_fue_el_ejercito_de_terracota from "../../portadas/servir/que-fue-el-ejercito-de-terracota.avif";
 import p_un_nombre_del_siglo_xix from "../../portadas/servir/un-nombre-del-siglo-xix.avif";
 import p_las_lapidas_fechadas from "../../portadas/servir/las-lapidas-fechadas.avif";
+import p_que_funcion_tiene_la_fiebre from "../../portadas/servir/que-funcion-tiene-la-fiebre.avif";
+import p_que_funcion_tienen_los_suenos from "../../portadas/servir/que-funcion-tienen-los-suenos.avif";
 import p_que_hay_debajo_de_la_antartida from "../../portadas/servir/que-hay-debajo-de-la-antartida.avif";
 import p_mil_atmosferas from "../../portadas/servir/mil-atmosferas.avif";
+import p_que_paso_con_la_biblioteca_de_alejandria from "../../portadas/servir/que-paso-con-la-biblioteca-de-alejandria.avif";
 import p_dos_mil_anos_antes_de_los_druidas from "../../portadas/servir/dos-mil-anos-antes-de-los-druidas.avif";
+import p_quien_fue_alejandro_magno from "../../portadas/servir/quien-fue-alejandro-magno.avif";
 import p_quien_fue_cleopatra from "../../portadas/servir/quien-fue-cleopatra.avif";
+import p_quien_fue_gengis_kan from "../../portadas/servir/quien-fue-gengis-kan.avif";
 import p_quien_fue_isaac_newton from "../../portadas/servir/quien-fue-isaac-newton.avif";
 import p_quien_fue_la_persona_mas_rica_del_mundo from "../../portadas/servir/quien-fue-la-persona-mas-rica-del-mundo.avif";
 import p_quien_fue_leonardo_da_vinci from "../../portadas/servir/quien-fue-leonardo-da-vinci.avif";
+import p_quien_fue_marie_curie from "../../portadas/servir/quien-fue-marie-curie.avif";
 import p_quien_fue_nikola_tesla from "../../portadas/servir/quien-fue-nikola-tesla.avif";
+import p_quien_fue_van_gogh from "../../portadas/servir/quien-fue-van-gogh.avif";
 import p_quien_invento_el_futbol from "../../portadas/servir/quien-invento-el-futbol.avif";
 import p_quien_invento_el_submarino from "../../portadas/servir/quien-invento-el-submarino.avif";
 import p_steve_jobs from "../../portadas/servir/steve-jobs.avif";
+import p_ves_el_mismo_rojo_que_yo from "../../portadas/servir/ves-el-mismo-rojo-que-yo.avif";
+import p_vivimos_dentro_de_una_simulacion from "../../portadas/servir/vivimos-dentro-de-una-simulacion.avif";
 
 /* ==========================================================================
    CURIOSIDADES — LO ESCRIBE `scripts/catalogo.mjs`, NO SE EDITA A MANO
@@ -201,10 +246,123 @@ import p_steve_jobs from "../../portadas/servir/steve-jobs.avif";
    reparte en pantallas es la app, midiendo el móvil de quien lee. Es la
    regla 3 de `.claude/skills/paginado-shorts/SKILL.md`.
 
-   Hoy entran 178 de 496: solo los que tienen portada.
+   Hoy entran 223 de 683: solo los que tienen portada.
    ========================================================================== */
 
 export const CURIOSIDADES: Short[] = [
+  {
+    id: "como-andan-las-moscas-por-el-techo",
+    titulo: "Cómo andan las moscas por el techo",
+    categoria: "Naturaleza",
+    color: "var(--ochre)",
+    /* Serie «como-andan-las-moscas-por-el-techo», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «No son ventosas, y la explicación lleva veinte años discutiéndose» */
+    encargo: "No son ventosas, y la explicación lleva veinte años discutiéndose",
+    fotos: [
+      {
+        local: p_como_andan_las_moscas_por_el_techo,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "No son ventosas, y la explicación lleva veinte años discutiéndose",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Debajo de cada pata hay dos almohadillas cubiertas de miles de pelos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La respuesta que todo el mundo tiene a mano es que las moscas llevan ventosas, y no es " +
+          "así. Una ventosa necesita presión negativa, es decir aire fuera empujando hacia " +
+          "dentro, y funciona mal sobre superficies rugosas. Las moscas se agarran igual de bien " +
+          "a un cristal que a una pared de gotelé, y eso ya descarta la idea antes de mirar nada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Vayamos entonces a mirar. En el extremo de cada pata, entre las dos uñas, hay dos " +
+          "almohadillas blandas llamadas <strong>pulvilos</strong>. Su superficie no es lisa: " +
+          "está cubierta por un bosque densísimo de pelos microscópicos, los <strong>setas " +
+          "tenentes</strong>, y cada uno de esos pelos no termina en punta sino en una paleta " +
+          "aplanada, como una espátula diminuta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en para qué sirve esa forma. Una punta toca un punto; una espátula apoya una " +
+          "superficie. Multiplícalo por los miles de pelos de una almohadilla y el resultado es " +
+          "que la mosca puede adaptarse a cualquier irregularidad del terreno y multiplicar " +
+          "enormemente el área que está realmente en contacto. Donde tú ves una pared plana, su " +
+          "pata ve un paisaje, y cada pelo se acomoda a su trozo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay algo más. Esas almohadillas segregan un líquido, una emulsión de gotitas grasas " +
+          "repartidas en una fase acuosa, que queda entre el pelo y la superficie. Cuando una " +
+          "mosca camina por un cristal limpio deja detrás un rastro de huellas: filas de puntitos " +
+          "de fluido, uno por cada pelo que tocó.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una mosca no se agarra con seis ventosas. Se agarra con miles de espátulas " +
+          "microscópicas por pata, cada una apoyada en su trozo de pared y con una gota de " +
+          "líquido entre medias.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Durante décadas se dijo que pegaba el líquido, y ahora eso está en duda",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con el líquido a la vista, la explicación clásica parecía cerrada. Sería adhesión " +
+          "capilar: la misma fuerza que hace que dos cristales mojados cuesten de separar, o que " +
+          "un papel húmedo se quede pegado a la mesa. La tensión superficial del fluido atrapado " +
+          "entre la espátula y la pared tira de las dos superficies una contra otra, y con miles " +
+          "de puentes de líquido a la vez la suma aguanta el peso del animal.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esa fue la respuesta oficial durante años. Y en 2015, un trabajo de David Labonte y " +
+          "Walter Federle, en Cambridge, la puso en duda desde dentro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Su medición apuntaba a que las almohadillas se comportan más bien como un material " +
+          "blando que hace un contacto muy íntimo con la superficie, y que la adhesión depende de " +
+          "manera decisiva de la dirección en la que se tira: pegan mucho más cuando la pata tira " +
+          "hacia el cuerpo del animal que cuando empuja hacia fuera. Y respecto al fluido, " +
+          "propusieron algo que le da la vuelta a su papel: que no estaría ahí para pegar, sino " +
+          "para lo contrario. Actuaría como lubricante, para facilitar el despegue y darle al " +
+          "insecto control fino sobre cuándo soltarse.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Así que el asunto sigue abierto, y no es un detalle menor: se discute si el líquido es " +
+          "el pegamento o el disolvente. Lo que nadie discute es que no hay ventosas por ninguna " +
+          "parte.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La discusión no va de si las moscas se pegan, sino de qué hace el líquido de sus " +
+          "patas. Una explicación dice que es lo que las pega; la otra, que es lo que les permite " +
+          "soltarse.",
+      },
+    ],
+  },
   {
     id: "como-calienta-un-microondas",
     titulo: "Cómo calienta un microondas",
@@ -995,6 +1153,132 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "como-funciona-el-cine",
+    titulo: "Cómo funciona el cine",
+    categoria: "Tecnología",
+    color: "var(--clay)",
+    /* Serie «como-funciona-el-cine», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La explicación que se da en todas partes es falsa» */
+    encargo: "La explicación que se da en todas partes es falsa",
+    fotos: [
+      {
+        local: p_como_funciona_el_cine,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La explicación que se da en todas partes es falsa",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Mezclar dos imágenes fijas no produce movimiento",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La versión que aparece en los libros de texto dice así: la retina retiene cada imagen " +
+          "una fracción de segundo, las imágenes sucesivas se solapan, y de esa fusión sale la " +
+          "sensación de movimiento. Se llama persistencia retiniana.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Joseph y Barbara Anderson lo desmontaron con una objeción de una sola frase: la fusión " +
+          "o mezcla de imágenes solo podría producir la superposición de vistas sucesivas, no una " +
+          "ilusión de movimiento.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piénselo con una pierna. Si una imagen tiene la pierna delante y la siguiente la tiene " +
+          "detrás, y las dos se funden, lo que sale es una figura borrosa con dos piernas. No " +
+          "sale una pierna moviéndose. La mezcla explica el emborronamiento, y el emborronamiento " +
+          "es lo contrario de lo que se está intentando explicar.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La explicación estándar no es una simplificación de la verdadera. Predice exactamente " +
+          "el resultado que no ocurre.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El origen del error es un artículo de 1824 que trataba de otra cosa",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Vale la pena seguir la pista, porque es un caso de manual.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1824 <strong>Peter Mark Roget</strong> publicó un trabajo sobre una rueda que, " +
+          "vista a través de unas rendijas verticales, parecía quieta. No iba sobre movimiento " +
+          "aparente: iba sobre lo contrario. En 1830 <strong>Joseph Plateau</strong> construyó el " +
+          "fenaquistiscopio apoyándose en una noción vaga de <em>fusión</em>, sin fundamento " +
+          "fisiológico.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De esos dos materiales, ninguno de los cuales decía lo que se le atribuye, se armó lo " +
+          "que los Anderson llaman el mito fundacional de los estudios de cine.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El texto que se cita como origen de la explicación decía justo lo contrario de lo que " +
+          "se le hace decir. Y ha aguantado dos siglos de repetición sin que casi nadie fuera a " +
+          "mirarlo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo que ocurre de verdad son dos fenómenos distintos que se han confundido en uno",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Separarlos deja el asunto claro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El primero es la <strong>fusión de parpadeo</strong>. Por encima de cierta frecuencia, " +
+          "una luz intermitente se percibe como continua. Esto sí es cuestión del ojo, y explica " +
+          "por qué no se ven los intervalos negros entre fotograma y fotograma. No explica nada " +
+          "más.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El segundo es el <strong>movimiento aparente</strong>: ver desplazamiento entre dos " +
+          "destellos estáticos. Lo estudió <strong>Max Wertheimer</strong> en 1912, y de ahí " +
+          "salió la escuela de la Gestalt. Es un proceso central, del cerebro, no de la retina.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y aquí está el dato que cierra el asunto. El sistema visual sí distingue el movimiento " +
+          "aparente de largo alcance del de corto alcance. Lo que no puede hacer es distinguir el " +
+          "de corto alcance —el del cine— del movimiento real.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El cine no engaña al ojo con un truco. Le entrega al sistema de detección de " +
+          "movimiento del cerebro el mismo tipo de dato que le entrega el mundo, y ese sistema no " +
+          "dispone de ningún medio para notar la diferencia.",
+      },
+    ],
+  },
+  {
     id: "como-funciona-el-wifi",
     titulo: "Cómo funciona el wifi",
     categoria: "Tecnología",
@@ -1436,6 +1720,118 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "como-funciona-un-ascensor",
+    titulo: "Cómo funciona un ascensor",
+    categoria: "Tecnología",
+    color: "var(--teal)",
+    /* Serie «como-funciona-un-ascensor», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El motor no sube la cabina: sube la diferencia» */
+    encargo: "El motor no sube la cabina: sube la diferencia",
+    fotos: [
+      {
+        local: p_como_funciona_un_ascensor,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El motor no sube la cabina: sube la diferencia",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Al otro lado del cable hay un bloque que pesa casi lo mismo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el hueco del ascensor, deslizándose por unas guías propias, sube y baja un " +
+          "contrapeso unido a la cabina por los mismos cables.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Su masa no es arbitraria. Se calcula como el peso de la cabina vacía <strong>más el 40 " +
+          "o el 50 % de la carga máxima</strong> que el ascensor está autorizado a llevar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí sale una consecuencia que explica todo lo demás. Con el ascensor a media carga, " +
+          "los dos lados se equilibran y el motor no tiene que levantar nada: solo vencer el " +
+          "rozamiento y poner el conjunto en movimiento. Con la cabina llena, sube la diferencia " +
+          "entre la carga real y ese 45 % de referencia. Con la cabina vacía, el contrapeso pesa " +
+          "más y es él quien tira: el motor está frenando, no empujando.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El motor de un ascensor es ridículamente pequeño para el peso que mueve, y no es un " +
+          "prodigio de ingeniería: es que casi nunca mueve ese peso. Mueve el desajuste entre los " +
+          "dos lados.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Los cables no se enrollan en ningún sitio: agarran por rozamiento",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un torno que enrolla cable tiene un límite obvio: la altura del edificio no puede " +
+          "pasar del cable que quepa en el tambor.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los ascensores de tracción no funcionan así. Los cables pasan por encima de una polea " +
+          "de garganta profunda —la polea motriz—, con la cabina colgando de un lado y el " +
+          "contrapeso del otro. El motor hace girar la polea, y lo único que transmite el " +
+          "movimiento a los cables es el rozamiento contra las gargantas, cuyo perfil está " +
+          "diseñado precisamente para que el cable no patine.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Nada se enrolla. Los cables se limitan a pasar por encima.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El sistema no tiene límite de altura por el lado del cable, y ese detalle mecánico " +
+          "menor es lo que permitió que los edificios dejaran de tener un techo práctico de seis " +
+          "o siete plantas.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Hay entre dos y doce cables, y cada uno aguantaría solo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una cabina cuelga habitualmente de entre <strong>dos y seis</strong> cables, y en " +
+          "edificios muy altos de doce o más.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La norma es que cada uno de ellos, por separado, sea capaz de sostener la carga " +
+          "nominal del ascensor <strong>más un 25 % adicional</strong>. No están repartidos el " +
+          "peso entre todos: cada uno podría hacer el trabajo entero.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Que los cables se rompan todos a la vez es el miedo estándar, y es el escenario para " +
+          "el que el sistema está peor preparado y menos preparado hace falta que esté. Para que " +
+          "ocurra tienen que fallar seis piezas independientes en el mismo instante.",
+      },
+    ],
+  },
+  {
     id: "como-funciona-un-coche",
     titulo: "Cómo funciona un coche",
     categoria: "Tecnología",
@@ -1762,6 +2158,122 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "como-funciona-un-paracaidas",
+    titulo: "Cómo funciona un paracaídas",
+    categoria: "Tecnología",
+    color: "var(--plum)",
+    /* Serie «como-funciona-un-paracaidas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un paracaídas no frena la caída: adelanta el momento en que el aire empata» */
+    encargo: "Un paracaídas no frena la caída: adelanta el momento en que el aire empata",
+    fotos: [
+      {
+        local: p_como_funciona_un_paracaidas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un paracaídas no frena la caída: adelanta el momento en que el aire empata",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un cuerpo que cae no acelera indefinidamente",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esta es la idea que hay que tener antes que ninguna otra, y no la enseñan casi nunca.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un objeto que cae acelera, sí, pero al hacerlo tiene que apartar cada vez más aire por " +
+          "segundo, y la resistencia crece aproximadamente con el <strong>cuadrado</strong> de la " +
+          "velocidad. Al doble de velocidad, cuatro veces la resistencia.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Como el peso no cambia y la resistencia sí, llega un momento en que las dos se " +
+          "igualan. A partir de ese instante la aceleración es cero y el cuerpo baja a velocidad " +
+          "constante. Se llama velocidad terminal, y no es un límite que el aire imponga: es un " +
+          "empate.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Nadie cae más deprisa cada segundo hasta el suelo. Todo lo que cae en aire llega " +
+          "enseguida a una velocidad fija y baja así el resto del camino.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo único que cambia el paracaídas es el área",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si la velocidad terminal sale de igualar peso y resistencia, hay dos maneras de " +
+          "bajarla: pesar menos, o presentar más superficie al aire.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un paracaidista en caída libre, boca abajo y con brazos y piernas extendidos, se " +
+          "estabiliza en torno a los <strong>190 kilómetros por hora</strong>. Con la vela " +
+          "abierta, la velocidad de descenso baja a unos <strong>28 kilómetros por hora</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pesa exactamente lo mismo en los dos casos. Lo que ha cambiado es cuánto aire tiene " +
+          "que apartar.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El paracaídas no actúa sobre la gravedad ni sobre el paracaidista. Actúa sobre el " +
+          "aire, que es la única de las tres cosas que se deja modificar.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El instante peor es la apertura",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pasar de 190 a 28 no es gratis, y ocurre en muy poco tiempo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante los pocos segundos que dura la apertura, la desaceleración está en el orden de " +
+          "<strong>tres o cuatro g</strong>: el cuerpo pesa tres o cuatro veces lo suyo contra el " +
+          "arnés.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una vela de celdas, por su forma, tiende a abrirse muy deprisa, y a esas velocidades " +
+          "el tirón puede romper la tela o lesionar al paracaidista. Para evitarlo lleva una " +
+          "pieza llamada <strong>deslizador</strong>: un rectángulo de tela con un ojal en cada " +
+          "esquina, atravesado por las cuerdas, que empieza pegado a la vela y va bajando hacia " +
+          "el arnés. Mientras baja mantiene las cuerdas juntas, retrasa el inflado y desvía parte " +
+          "del aire que sube hacia el centro. El frenazo es el mismo, repartido en más tiempo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El problema de ingeniería de un paracaídas nunca ha sido que frene. Es que no frene " +
+          "demasiado deprisa.",
+      },
+    ],
+  },
+  {
     id: "como-funciona-un-reloj-mecanico",
     titulo: "Cómo funciona un reloj mecánico",
     categoria: "Tecnología",
@@ -1971,6 +2483,140 @@ export const CURIOSIDADES: Short[] = [
           "La alta velocidad no es una máquina, es una obra pública. El tren es la parte barata y " +
           "la que se puede comprar hecha; lo que cuesta décadas y miles de millones es el camino " +
           "por el que va.",
+      },
+    ],
+  },
+  {
+    id: "como-funciona-una-bateria",
+    titulo: "Cómo funciona una batería",
+    categoria: "Tecnología",
+    color: "var(--slate)",
+    /* Serie «como-funciona-una-bateria», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Una pila es una reacción química a la que se le ha obligado a dar un rodeo» */
+    encargo: "Una pila es una reacción química a la que se le ha obligado a dar un rodeo",
+    fotos: [
+      {
+        local: p_como_funciona_una_bateria,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Una pila es una reacción química a la que se le ha obligado a dar un rodeo",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay materiales con más ganas de soltar electrones que otros",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Este es todo el fundamento, y cabe en tres frases.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Algunos elementos sueltan electrones con facilidad; otros los aceptan de buena gana. " +
+          "Si se ponen en contacto un material del primer tipo y otro del segundo, los electrones " +
+          "pasan de uno a otro y el asunto se acaba ahí: la energía se disipa en forma de calor y " +
+          "no sirve para nada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La pila hace una cosa muy sencilla. Separa los dos materiales, los mete en un medio " +
+          "que deja pasar iones pero no electrones, y saca los dos extremos por fuera. Ahora los " +
+          "electrones siguen queriendo pasar de un lado al otro, pero el único camino disponible " +
+          "es el cable exterior. Y por ese cable, de camino, pueden encender una bombilla.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una pila no fabrica electricidad. Fabrica un desnivel y obliga a los electrones a " +
+          "bajarlo por donde a nosotros nos conviene.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La discusión empezó con unas ancas de rana",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la década de 1780, en Bolonia, <strong>Luigi Galvani</strong> observó que las patas " +
+          "de una rana muerta se contraían cuando las tocaba con instrumentos metálicos. Concluyó " +
+          "que el animal almacenaba una forma propia de electricidad, y la llamó <em>electricidad " +
+          "animal</em>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "<strong>Alessandro Volta</strong> no lo aceptó. Sostenía que la electricidad no salía " +
+          "de la rana, sino del contacto entre dos metales distintos, y que la pata era " +
+          "simplemente un detector muy sensible.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para demostrarlo hizo lo único que zanja una discusión así: quitar la rana. En 1800 " +
+          "apiló discos de zinc y de cobre alternados, separados por cartones empapados en " +
+          "salmuera, y aquello dio corriente sin ningún animal por medio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo interesante es que Galvani tampoco estaba equivocado del todo. Los nervios y los " +
+          "músculos funcionan efectivamente con señales eléctricas, y hoy la bioelectricidad es " +
+          "una disciplina entera. Los dos tenían razón en cosas distintas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La rana no era la fuente, pero tampoco era un cable inerte. La discusión se cerró en " +
+          "falso a favor de Volta y tardó siglo y medio en reabrirse por el lado de Galvani.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Que una pila se recargue depende de si el cambio se puede deshacer",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Al funcionar, una pila transforma unos materiales en otros. La diferencia entre una " +
+          "pila y una batería recargable está justo ahí.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si esa transformación deja los materiales hechos una ruina —estructuras deshechas, " +
+          "productos que se depositan donde no deben—, no hay manera de volver atrás: la pila se " +
+          "agota y se tira. Es lo que ocurre en una pila alcalina corriente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si en cambio la transformación es reversible, se puede aplicar corriente en sentido " +
+          "contrario y forzar a los materiales a volver a su estado inicial. Eso es recargar. Y " +
+          "por eso el gran problema de las baterías no es la primera carga: es que la vuelta " +
+          "atrás nunca es perfecta del todo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Toda batería recargable es una reacción que se deshace casi entera. En ese " +
+          "<em>casi</em> está su vida útil.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? El aparato de Volta era literalmente una pila de discos, un montón " +
+          "apilado, y de ahí viene la palabra. De Volta salió también el <strong>voltio</strong>; " +
+          "de Galvani, el <strong>galvanómetro</strong> y el verbo <strong>galvanizar</strong>. " +
+          "Los dos rivales se repartieron el vocabulario.",
       },
     ],
   },
@@ -2717,6 +3363,107 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "En la Antártida no hay ramas, ni barro, ni huecos donde meterse. Todo el sistema de " +
           "reconocimiento vocal de esta especie existe porque el paisaje no le dejó otra salida.",
+      },
+    ],
+  },
+  {
+    id: "como-sabemos-de-que-estan-hechas-las-estrellas",
+    titulo: "Cómo sabemos de qué están hechas las estrellas",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    /* Serie «como-sabemos-de-que-estan-hechas-las-estrellas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un filósofo eligió las estrellas como ejemplo de lo que jamás se sabría» */
+    encargo: "Un filósofo eligió las estrellas como ejemplo de lo que jamás se sabría",
+    fotos: [
+      {
+        local: p_como_sabemos_de_que_estan_hechas_las_estrellas,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un filósofo eligió las estrellas como ejemplo de lo que jamás se sabría",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Comte necesitaba un límite absoluto del conocimiento y escogió mal",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1835, el filósofo francés <strong>Auguste Comte</strong> estaba construyendo su " +
+          "sistema y necesitaba un ejemplo. Quería mostrar que existen cosas sobre las que la " +
+          "ciencia puede razonar y cosas que quedan para siempre fuera de su alcance, y buscó el " +
+          "caso más incontestable que se le ocurrió.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Escogió la composición química de las estrellas. Su argumento era impecable dentro de " +
+          "la lógica de su tiempo: para saber de qué está hecha una sustancia hay que analizarla, " +
+          "y para analizarla hay que tenerla delante. Nadie iba a traer un trozo de estrella a un " +
+          "laboratorio, así que aquello quedaría ignorado para siempre. Sostuvo que la humanidad " +
+          "nunca llegaría a conocer la composición química de las estrellas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en que no fue un despiste ni una frase suelta. Era un ejemplo elegido a " +
+          "conciencia, por alguien serio, para ilustrar una tesis general sobre los límites del " +
+          "conocimiento. Y de todos los ejemplos posibles, escogió justamente el que iba a caer " +
+          "en menos de una generación.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Comte no se equivocó al razonar. Se equivocó al dar por hecho que analizar una cosa " +
+          "exige tenerla delante, que es lo que pensaba todo el mundo en 1835.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Las rayas que descifraban el enigma llevaban veinte años en un cajón",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo más notable de la historia es que, cuando Comte escribió aquello, la clave ya " +
+          "estaba descrita y catalogada. Solo que nadie sabía qué significaba.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "A comienzos del siglo XIX, el óptico alemán <strong>Joseph von Fraunhofer</strong> " +
+          "estaba fabricando lentes y necesitaba caracterizar bien la luz para medir cómo la " +
+          "desviaba cada tipo de vidrio. Al hacer pasar luz solar por una rendija estrecha y " +
+          "descomponerla con un prisma, se encontró con algo que no buscaba: el arcoíris continuo " +
+          "del Sol estaba cruzado por rayas oscuras, líneas finísimas donde la luz sencillamente " +
+          "faltaba.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las midió con muchísima precisión, catalogó cientos de ellas y puso una letra a las " +
+          "más marcadas. Comprobó además que están siempre en el mismo sitio, que son una " +
+          "propiedad estable de la luz del Sol y no un defecto de su aparato. Era el trabajo " +
+          "impecable de un óptico haciendo su oficio, y ahí se quedó: rayas oscuras en posiciones " +
+          "fijas, sin explicación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante décadas fueron una curiosidad de catálogo. Nadie las relacionó con la " +
+          "composición de nada, y Comte pudo escribir su frase con las tablas de Fraunhofer " +
+          "publicadas y al alcance de cualquiera.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La respuesta a la pregunta que un filósofo declaró imposible llevaba veinte años " +
+          "impresa, medida con precisión y sin que nadie supiera leerla.",
       },
     ],
   },
@@ -4257,6 +5004,241 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "como-se-invento-la-escritura",
+    titulo: "Cómo se inventó la escritura",
+    categoria: "Historia",
+    color: "var(--ochre)",
+    /* Serie «como-se-invento-la-escritura», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La escritura no se inventó para contar historias, sino para contar cosas» */
+    encargo: "La escritura no se inventó para contar historias, sino para contar cosas",
+    fotos: [
+      {
+        local: p_como_se_invento_la_escritura,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La escritura no se inventó para contar historias, sino para contar cosas",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las tablillas más antiguas son contabilidad",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De la primera escritura conocida, la que se llama <strong>protocuneiforme</strong>, se " +
+          "conservan unas cinco mil tablillas de barro. Casi todas salen de " +
+          "<strong>Uruk</strong>, en el sur del actual Irak, y se fechan entre el 3350 y el 3000 " +
+          "antes de nuestra era.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De esas cinco mil, alrededor del <strong>85 %</strong> son documentos administrativos: " +
+          "entradas de mercancía en el almacén central, repartos de raciones, control de personal " +
+          "y de jornadas de trabajo. Cebada, escanda, cerveza, ovejas, pescado, tinajas, tejidos, " +
+          "productos lácteos. Cuánto entra, cuánto sale, quién responde.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No hay poesía. No hay relato. En todo el corpus no aparece prácticamente ningún texto " +
+          "narrativo, y las raíces verbales son rarísimas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La primera cosa que la humanidad puso por escrito no fue un mito ni una ley: fue el " +
+          "inventario de un almacén.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El primer nombre propio de la historia aparece en un albarán de cebada",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Sobre unas dieciocho tablillas de aquel periodo se repiten dos signos, " +
+          "<strong>KU</strong> y <strong>ŠIM</strong>, junto a cantidades de grano. Una de ellas " +
+          "dice, traducida sin adornos:",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "<em>28.086 medidas de cebada, 37 meses, Kushim.</em>",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Se suele presentar a Kushim como la persona más antigua cuyo nombre conocemos, hacia " +
+          "el 3200 antes de nuestra era. Conviene decir el resto: los especialistas no están " +
+          "seguros de que sea un nombre. Los dos signos aparecen sin apenas contexto, y podrían " +
+          "designar igual de bien a una persona, al cargo que esa persona ocupaba o directamente " +
+          "a la institución que llevaba las cuentas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El primer nombre que nos llega de un ser humano no es el de un rey ni el de un poeta: " +
+          "es el de quien firmaba la cebada. Y ni siquiera estamos seguros de que sea el nombre " +
+          "de alguien.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Las listas de palabras son anteriores a cualquier texto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El 15 % restante de las tablillas no son cuentas. Son listas: listas de oficios, " +
+          "listas de recipientes, listas de animales, ordenadas siempre igual, copiadas una y " +
+          "otra vez.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Eran material de escuela. Un aprendiz de escriba tenía que memorizar centenares de " +
+          "signos, y se los hacían copiar en series fijas. La proporción cuenta la historia por " +
+          "sí sola: en el periodo más antiguo, Uruk IV, esas listas son el 1 % de lo conservado; " +
+          "en el siguiente, Uruk III, ya son el 20 %.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Antes de que se escribiera nada que mereciera leerse, hubo que enseñar a escribir. Los " +
+          "primeros libros de texto son más antiguos que el primer texto.",
+      },
+    ],
+  },
+  {
+    id: "como-se-sostiene-un-satelite",
+    titulo: "Cómo se sostiene un satélite",
+    categoria: "Ciencia",
+    color: "var(--clay)",
+    /* Serie «como-se-sostiene-un-satelite», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un satélite no se sostiene: se está cayendo todo el rato» */
+    encargo: "Un satélite no se sostiene: se está cayendo todo el rato",
+    fotos: [
+      {
+        local: p_como_se_sostiene_un_satelite,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un satélite no se sostiene: se está cayendo todo el rato",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ahí arriba hay gravedad, y hay casi toda",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene empezar por deshacer la idea que estorba.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "A la altura a la que orbita la Estación Espacial Internacional, unos cuatrocientos " +
+          "kilómetros, la gravedad terrestre es aproximadamente el <strong>90 %</strong> de la " +
+          "que hay a nivel del suelo. No es débil, no es residual y desde luego no es cero.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un astronauta flotando dentro de la estación está sometido a casi el mismo tirón hacia " +
+          "la Tierra que si estuviera en una acera de Madrid. La expresión <em>gravedad cero</em> " +
+          "describe lo que se ve, no lo que ocurre.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La palabra que se usa para explicar el fenómeno es justamente la que impide " +
+          "entenderlo. Ahí arriba no falta gravedad: sobra velocidad.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Flotan porque caen todos a la vez",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entonces, ¿de dónde sale la flotación?",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De que la estación está cayendo. Y el astronauta también. Y el bolígrafo, y la cámara, " +
+          "y el agua del vaso. Todos caen con la misma aceleración, de modo que ninguno se apoya " +
+          "en ninguno. No hay suelo que empuje hacia arriba los pies, no hay silla que empuje la " +
+          "espalda, y esa ausencia de empuje es exactamente lo que el cuerpo interpreta como " +
+          "peso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo mismo pasa, durante un segundo y medio, en la primera bajada de una montaña rusa o " +
+          "en un ascensor que arranca hacia abajo. La sensación del estómago es idéntica; lo " +
+          "único que cambia en órbita es que la caída no termina nunca.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El peso no es la gravedad: es la resistencia que algo opone a la gravedad. Quítale a " +
+          "un cuerpo el suelo y desaparece el peso sin que la gravedad se haya movido un ápice.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La idea es de Newton y viene con un cañón en una montaña",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El razonamiento aparece en un texto de <strong>Isaac Newton</strong> publicado " +
+          "póstumamente en 1728, <em>Tratado del sistema del mundo</em>, y consiste en imaginar " +
+          "una piedra lanzada desde la cima de una montaña muy alta, sin aire que la frene.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lanzada despacio, cae cerca. Lanzada más fuerte, cae más lejos. Cada vez más lejos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y entonces viene el paso que lo cambia todo: la Tierra es redonda, así que mientras la " +
+          "piedra avanza, el suelo se curva por debajo alejándose de ella. Si se lanza con la " +
+          "velocidad justa, la curva de su caída coincide exactamente con la curva del planeta. " +
+          "La piedra sigue cayendo, con la misma fuerza y la misma trayectoria de siempre, pero " +
+          "el suelo se aparta a la misma velocidad a la que ella baja.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ya no aterriza nunca.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Poner algo en órbita no consiste en subirlo hasta donde no haya gravedad. Consiste en " +
+          "lanzarlo de lado tan rápido que falle el tiro contra el planeta indefinidamente.",
+      },
+    ],
+  },
+  {
     id: "como-un-simple-papel-tiene-valor",
     titulo: "Cómo un simple papel tiene valor",
     categoria: "Economía",
@@ -4350,6 +5332,106 @@ export const CURIOSIDADES: Short[] = [
           "El dinero no perdió su respaldo poco a poco ni por desgaste. Lo perdió en un anuncio, " +
           "un domingo por la noche, y el sistema siguió funcionando exactamente igual al día " +
           "siguiente. Esa continuidad es el dato incómodo del asunto.",
+      },
+    ],
+  },
+  {
+    id: "como-vivian-los-piratas-de-verdad",
+    titulo: "Cómo vivían los piratas de verdad",
+    categoria: "Historia",
+    color: "var(--teal)",
+    /* Serie «como-vivian-los-piratas-de-verdad», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Casi todo lo que sabemos sale de un libro cuyo autor no se sabe quién fue» */
+    encargo: "Casi todo lo que sabemos sale de un libro cuyo autor no se sabe quién fue",
+    fotos: [
+      {
+        local: p_como_vivian_los_piratas_de_verdad,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Casi todo lo que sabemos sale de un libro cuyo autor no se sabe quién fue",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En 1724 se publicó en Londres el libro que fabricó la imagen entera",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1724 salió a la venta en Londres un libro titulado <em>A General History of the " +
+          "Pyrates</em>, una historia general de los piratas con las biografías de los más " +
+          "célebres del momento. Fue un éxito inmediato: en 1726 iba ya por una cuarta edición " +
+          "ampliada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo firmaba un tal <strong>capitán Charles Johnson</strong>. Y ese nombre no " +
+          "corresponde a nadie. Es un seudónimo, y pese a numerosos intentos de historiadores " +
+          "durante tres siglos, no se ha conseguido identificar quién estaba detrás. En 1932 se " +
+          "propuso que fuera Daniel Defoe, el autor de <em>Robinson Crusoe</em>, y esa atribución " +
+          "llegó a imprimirse en muchas ediciones; hoy se considera errónea. Se ha propuesto " +
+          "también al editor Nathaniel Mist, y que fueran varios autores trabajando juntos. No " +
+          "hay conclusión.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese libro es la fuente principal de las biografías de casi todos los piratas famosos " +
+          "que conoces, y la que ha dado forma a la idea popular de la piratería durante " +
+          "trescientos años.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La imagen que tiene el mundo entero de los piratas procede de un libro escrito bajo un " +
+          "nombre falso por alguien a quien nadie ha conseguido identificar en tres siglos.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El primer tomo se ajusta a las fuentes y el segundo se inventa capitanes",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo interesante es que el libro no es ni fiable ni inútil, y la diferencia se puede " +
+          "localizar por partes.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el primer volumen, el autor se ciñe bastante a las fuentes disponibles de su época " +
+          "—actas de juicios, informes del Almirantazgo, testimonios— aunque adorna las " +
+          "historias. En el segundo, se aleja mucho más de lo comprobable, e incluye biografías " +
+          "de al menos tres capitanes que probablemente no existieron nunca.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los historiadores actuales lo tratan, por tanto, como lo que es: un texto que no sirve " +
+          "como fuente histórica por sí solo y que a la vez es imprescindible, porque en muchos " +
+          "casos es lo único que hay. La manera de trabajarlo consiste en contrastar cada dato " +
+          "con documentación independiente: registros judiciales, papeles del Almirantazgo, " +
+          "diarios de barcos, inventarios.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ese contraste es el que produce el resultado interesante. Algunas cosas que suenan a " +
+          "invención resultan estar documentadas por otras vías. Otras que todo el mundo da por " +
+          "hechas no aparecen en ningún papel de la época.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El libro que inventó la mitad de la leyenda pirata es a la vez la única puerta de " +
+          "acceso al asunto. No se puede creer y no se puede tirar.",
       },
     ],
   },
@@ -5839,6 +6921,234 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "de-donde-salio-el-agua-de-la-tierra",
+    titulo: "De dónde salió el agua de la Tierra",
+    categoria: "Planeta Tierra",
+    color: "var(--plum)",
+    /* Serie «de-donde-salio-el-agua-de-la-tierra», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La Tierra se formó demasiado cerca del Sol para tener agua» */
+    encargo: "La Tierra se formó demasiado cerca del Sol para tener agua",
+    fotos: [
+      {
+        local: p_de_donde_salio_el_agua_de_la_tierra,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La Tierra se formó demasiado cerca del Sol para tener agua",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay una línea invisible en el sistema solar, y nosotros nacimos del lado equivocado",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Quizá pienses que el agua de los océanos lleva aquí desde que la Tierra se formó, y " +
+          "que no hay mucho más que contar. El problema es que, según lo que sabemos de cómo se " +
+          "forman los planetas, no debería estar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Vayamos al principio. Hace unos 4.600 millones de años, alrededor del Sol recién " +
+          "encendido había un disco enorme de gas y polvo, y los planetas se fueron formando ahí " +
+          "por acumulación de material. Ahora fíjate en la temperatura de ese disco: cerca del " +
+          "Sol hacía mucho calor y lejos hacía mucho frío, y esa diferencia decide qué materiales " +
+          "pueden condensarse en sólido a cada distancia.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Existe por tanto un radio a partir del cual el agua puede existir como hielo, y por " +
+          "dentro del cual solo puede existir como vapor. Se le llama la <strong>línea de " +
+          "nieve</strong>, y en el sistema solar primitivo estaba más o menos entre Marte y " +
+          "Júpiter. Los planetas que se formaron dentro de esa línea —Mercurio, Venus, la Tierra " +
+          "y Marte— se construyeron con material del que el agua se había evaporado, y por eso " +
+          "son rocosos y secos. Los de fuera pudieron incorporar hielo desde el principio, y por " +
+          "eso son enormes.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahí está el desajuste. La Tierra nació dentro de la línea de nieve, y sin embargo " +
+          "tiene mil trescientos cincuenta millones de kilómetros cúbicos de agua líquida en la " +
+          "superficie.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los océanos no encajan con el sitio donde se construyó este planeta. Toda la " +
+          "investigación sobre el origen del agua parte de ese desajuste, no de una curiosidad.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Si no estaba, alguien tuvo que traerla, y hay dos sospechosos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ese problema salió durante décadas la respuesta estándar: si el agua no pudo " +
+          "condensarse aquí, llegó después, desde más allá de la línea de nieve, transportada por " +
+          "cuerpos que sí se formaron en el frío.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los candidatos son dos, y compiten desde hace medio siglo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los <strong>cometas</strong> son la opción intuitiva, porque son literalmente bolas de " +
+          "hielo sucio procedentes de las afueras del sistema solar. Durante el llamado bombardeo " +
+          "intenso del inicio, cuando las órbitas de los planetas gigantes se reorganizaron, " +
+          "muchísimo material helado fue lanzado hacia el interior, y parte de él tuvo que acabar " +
+          "aquí.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los <strong>asteroides</strong>, y en concreto un tipo llamado condritas carbonáceas, " +
+          "son la opción menos vistosa. No son bolas de hielo sino rocas, pero rocas cuyos " +
+          "minerales llevan agua incorporada en su estructura química, y proceden de una zona lo " +
+          "bastante fría como para haberla conservado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cometas o asteroides. Bolas de hielo o piedras húmedas. Durante mucho tiempo pareció " +
+          "una discusión imposible de resolver, porque no queda ningún registro de qué cayó aquí " +
+          "hace cuatro mil millones de años.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La pregunta no es de dónde salió el agua en abstracto. Es cuál de dos clases de objeto " +
+          "concretos la trajo, y esa pregunta parecía irresoluble hasta que se descubrió que el " +
+          "agua lleva una etiqueta encima.",
+      },
+    ],
+  },
+  {
+    id: "de-donde-salio-la-luna",
+    titulo: "De dónde salió la Luna",
+    categoria: "Planeta Tierra",
+    color: "var(--slate)",
+    /* Serie «de-donde-salio-la-luna», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Durante un siglo hubo tres teorías sobre la Luna y ninguna funcionaba» */
+    encargo: "Durante un siglo hubo tres teorías sobre la Luna y ninguna funcionaba",
+    fotos: [
+      {
+        local: p_de_donde_salio_la_luna,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Durante un siglo hubo tres teorías sobre la Luna y ninguna funcionaba",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hija, hermana o forastera: esas eran las tres opciones",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Antes de que nadie hubiera traído una piedra de allí arriba, la pregunta por el origen " +
+          "de la Luna solo se podía atacar con física y con lápiz. Y las opciones lógicas son " +
+          "tres, porque no hay más maneras de que dos cuerpos acaben juntos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La primera es que la Luna sea hija de la Tierra: que saliera de ella. Es la " +
+          "<strong>hipótesis de la fisión</strong>, y la formuló en 1879 George Darwin, hijo de " +
+          "Charles y astrónomo respetadísimo. Su idea era que la Tierra primitiva giraba tan " +
+          "deprisa que se abombó por el ecuador hasta desprender un pedazo. La versión popular de " +
+          "esa teoría llegó a proponer que el hueco que quedó es el océano Pacífico.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La segunda es que sea hermana: que las dos se formaran juntas y a la vez, a partir del " +
+          "mismo material y en el mismo sitio, como un sistema doble. Es la " +
+          "<strong>coacreción</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y la tercera es que sea forastera: que se formara por su cuenta en otra parte del " +
+          "sistema solar y que la Tierra la atrapara al pasar cerca. Es la " +
+          "<strong>captura</strong>.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Las tres respuestas posibles estaban sobre la mesa desde el siglo XIX, formuladas por " +
+          "gente muy competente. El problema es que cada una chocaba con un dato distinto.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Cada una tropezaba con un obstáculo que no se podía rodear",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Vayamos con las objeciones, porque son limpias y cada una mata a su teoría por un " +
+          "sitio distinto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La fisión exige que la Tierra girase a una velocidad enorme, y para eso el sistema " +
+          "Tierra-Luna tendría que conservar hoy una cantidad de movimiento de rotación mucho " +
+          "mayor de la que tiene. El momento angular no se pierde así como así, y las cuentas no " +
+          "dan.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La coacreción tiene un problema de composición. Si las dos se formaron a la vez, del " +
+          "mismo material y en el mismo sitio, deberían parecerse en las proporciones de sus " +
+          "ingredientes. Y no se parecen en la más importante: la Tierra tiene un núcleo de " +
+          "hierro que supone alrededor del 30 % de su masa, y la Luna apenas tiene núcleo, un " +
+          "pequeño porcentaje. Del mismo montón de material no salen dos cuerpos tan distintos en " +
+          "hierro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y la captura choca con la energía. Atrapar un cuerpo del tamaño de la Luna no es " +
+          "cuestión de que pase cerca: hace falta frenarlo, y frenarlo significa disipar una " +
+          "cantidad descomunal de energía en el momento justo. Los cálculos hacen que sea " +
+          "improbable rozando lo imposible.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en la situación que eso deja. Tres teorías, tres objeciones sólidas, y una Luna " +
+          "ahí colgada que evidentemente vino de algún sitio. Así estaba el asunto cuando " +
+          "empezaron a llegar las cajas del Apolo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No es que faltara una teoría. Es que estaban las tres que la lógica permite y las tres " +
+          "fallaban, así que la respuesta tenía que ser algo que a nadie se le había ocurrido.",
+      },
+    ],
+  },
+  {
     id: "nacio-en-la-amazonia",
     titulo: "De dónde viene el chocolate",
     categoria: "Historia",
@@ -6061,6 +7371,113 @@ export const CURIOSIDADES: Short[] = [
           "La idea de combinar algo que resiste el estirón con algo que resiste el peso no se le " +
           "ocurrió a ningún ingeniero. Estaba dentro de nuestro propio esqueleto, y tardamos en " +
           "copiarla unos cuantos cientos de millones de años.",
+      },
+    ],
+  },
+  {
+    id: "decides-tu-o-ya-estaba-decidido",
+    titulo: "Decides tú o ya estaba decidido",
+    categoria: "Filosofía",
+    color: "var(--sage)",
+    /* Serie «decides-tu-o-ya-estaba-decidido», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Hay una señal en tu cabeza medio segundo antes del gesto» */
+    encargo: "Hay una señal en tu cabeza medio segundo antes del gesto",
+    fotos: [
+      {
+        local: p_decides_tu_o_ya_estaba_decidido,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Hay una señal en tu cabeza medio segundo antes del gesto",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dos alemanes rebobinaron una cinta magnética y encontraron una señal escondida",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1964, en la Universidad de Friburgo, dos neurólogos —<strong>Hans Helmut " +
+          "Kornhuber</strong> y <strong>Lüder Deecke</strong>— se toparon con un problema de " +
+          "método. Querían saber qué hace el cerebro justo antes de un movimiento voluntario, " +
+          "pero un movimiento voluntario no avisa: no hay ningún estímulo previo con el que " +
+          "sincronizar el registro. Sin ese punto de referencia, la actividad eléctrica de la " +
+          "corteza queda enterrada bajo el ruido de fondo y no hay manera de verla.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La solución fue tan artesanal que hoy sorprende. Grabaron a la vez el " +
+          "electroencefalograma y la actividad del músculo en cinta magnética, dieron " +
+          "literalmente la vuelta a las bobinas y reprodujeron la cinta hacia atrás, tomando como " +
+          "disparador el instante en que el músculo se contraía. Promediando muchos intentos " +
+          "alineados de ese modo, todo lo que no estuviera fijado a ese instante se cancelaba " +
+          "solo, y quedaba lo que tuviera relación con él.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y quedó algo. Una subida lenta y sostenida del voltaje que empezaba mucho antes del " +
+          "gesto, más de un segundo antes en algunos registros. La llamaron " +
+          "<strong>Bereitschaftspotential</strong>, potencial de preparación, y el trabajo " +
+          "completo se publicó en <em>Pflügers Archiv</em> en 1965, en alemán.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El hallazgo no decía nada sobre la voluntad. Decía que la preparación de un gesto " +
+          "voluntario empieza mucho antes que el gesto.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Libet añadió un reloj, y el reloj convirtió la señal en un problema filosófico",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Vayamos ahora a San Francisco, casi veinte años después. <strong>Benjamin " +
+          "Libet</strong>, neurofisiólogo de la Universidad de California, se hizo la pregunta " +
+          "que faltaba: si el cerebro empieza a prepararse un segundo antes, ¿en qué momento " +
+          "aparece la sensación de haber decidido?",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Medirlo exigía un truco, porque los instantes mentales no se pueden cronometrar desde " +
+          "fuera. Libet sentó a sus sujetos delante de una esfera por la que giraba un punto " +
+          "luminoso, como una manecilla muy rápida, y les pidió dos cosas: que flexionaran la " +
+          "muñeca cuando les apeteciera, sin plan previo, y que recordaran en qué posición estaba " +
+          "el punto en el instante exacto en que sintieron el deseo de moverse. A ese instante lo " +
+          "llamó <strong>W</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los números salieron ordenados, y son los que se citan desde entonces. El potencial de " +
+          "preparación arrancaba unos 550 ms antes de que se activara el músculo. La sensación " +
+          "consciente de querer moverse llegaba unos 200 ms antes. Entre las dos cosas quedaba un " +
+          "hueco de unos 350 ms en los que el cerebro ya iba en marcha y el sujeto todavía no " +
+          "sabía nada.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El experimento no midió cuándo decides. Midió cuándo te enteras de que has decidido, y " +
+          "las dos cosas no caen en el mismo sitio.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Libet validó el método con una prueba de control antes de fiarse de él: " +
+          "pidió a los mismos sujetos que dijeran, con el mismo reloj, cuándo habían notado un " +
+          "estímulo en la piel. Se equivocaban en apenas 50 ms, y ese margen fue lo que permitió " +
+          "tomar en serio los tiempos que la gente daba de sus propios pensamientos.",
       },
     ],
   },
@@ -6385,6 +7802,338 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "el-dia-que-cayo-constantinopla",
+    titulo: "El día que cayó Constantinopla",
+    categoria: "Historia",
+    color: "var(--ochre)",
+    /* Serie «el-dia-que-cayo-constantinopla», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Constantinopla ya la habían saqueado, y fueron los cristianos» */
+    encargo: "Constantinopla ya la habían saqueado, y fueron los cristianos",
+    fotos: [
+      {
+        local: p_el_dia_que_cayo_constantinopla,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Constantinopla ya la habían saqueado, y fueron los cristianos",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En 1204 una cruzada que iba a Egipto acabó tomando la ciudad",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La historia de 1453 se cuenta casi siempre como el momento en que una gran potencia " +
+          "cae ante otra. Es un relato fascinante que deja fuera la pregunta importante: qué " +
+          "quedaba en 1453 de aquella potencia. Y para responderla hay que retroceder dos siglos " +
+          "y medio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La Cuarta Cruzada se organizó para atacar Egipto. Por una cadena de deudas, tratos y " +
+          "cambios de objetivo terminó delante de las murallas de Constantinopla, la capital " +
+          "cristiana más rica del mundo. El 12 de abril de 1204 la tomó, dirigida por el dux " +
+          "veneciano Enrico Dandolo y por Bonifacio de Montferrato.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que siguió fueron tres días de saqueo. Se masacró y se violó a la población, se " +
+          "incendiaron edificios y se profanaron iglesias. Los cruzados desmontaron " +
+          "sistemáticamente esculturas monumentales, obras de arte, libros, manuscritos y joyas " +
+          "acumulados durante siglos; fundieron piezas preciosas para acuñar moneda, arrancaron " +
+          "mármoles y abrieron tumbas imperiales, incluida la de Justiniano. Los caballos de " +
+          "bronce que hoy están en San Marcos de Venecia salieron de allí.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Después repartieron el imperio entre ellos por tratado. Los bizantinos recuperaron la " +
+          "ciudad en 1261, pero el imperio ya no volvió a ser lo que era.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La ciudad que en 1453 no pudo defenderse llevaba doscientos cincuenta años arruinada " +
+          "por un saqueo, y quienes la saquearon no eran sus enemigos: eran sus correligionarios.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo que cayó en 1453 era una ciudad, no un imperio",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con eso delante, el año 1453 cambia de forma.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Constantinopla había tenido antes de 1204 una población del orden de trescientas mil " +
+          "personas, y era el centro comercial, religioso y administrativo del Mediterráneo " +
+          "oriental. En el siglo XV era una ciudad con barrios vacíos, huertas dentro de las " +
+          "murallas y una fracción de aquella población. El «Imperio bizantino» que Mehmed II " +
+          "conquistó consistía esencialmente en la propia ciudad y unos cuantos territorios " +
+          "sueltos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso hace con la escena que todo el mundo imagina. No hubo un choque " +
+          "entre dos imperios: hubo un estado nuevo, en expansión y con recursos enormes, tomando " +
+          "una capital histórica que llevaba generaciones sin poder pagar ni sus propias " +
+          "murallas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Eso no le quita mérito a la defensa, que fue extraordinaria y desesperada. Le quita el " +
+          "marco equivocado. Lo que se acabó en 1453 no fue un imperio en pleno funcionamiento, " +
+          "sino el nombre y la ciudad de uno que ya había muerto en 1204.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Cuando llegaron los otomanos, el Imperio romano de Oriente llevaba dos siglos y medio " +
+          "siendo poco más que un título y una ciudad medio vacía.",
+      },
+    ],
+  },
+  {
+    id: "eres-la-misma-persona-que-hace-diez-anos",
+    titulo: "Eres la misma persona que hace diez años",
+    categoria: "Filosofía",
+    color: "var(--clay)",
+    /* Serie «eres-la-misma-persona-que-hace-diez-anos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Los atenienses cuidaron un barco hasta que no quedó nada del barco» */
+    encargo: "Los atenienses cuidaron un barco hasta que no quedó nada del barco",
+    fotos: [
+      {
+        local: p_eres_la_misma_persona_que_hace_diez_anos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Los atenienses cuidaron un barco hasta que no quedó nada del barco",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Atenas conservó una nave durante siglos cambiándole las tablas de una en una",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un buen punto de partida es un barco amarrado en el puerto de Atenas. Según cuenta " +
+          "<strong>Plutarco</strong>, escritor griego del siglo I, la nave de treinta remos en la " +
+          "que Teseo había vuelto de Creta se conservó allí durante siglos, hasta la época de " +
+          "Demetrio de Falero, que gobernó la ciudad entre el 317 y el 307 a. C.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Mantenerla a flote exigía trabajo constante. Cada vez que un madero se pudría, los " +
+          "atenienses lo retiraban y ponían en su lugar otro nuevo y sano. Tabla a tabla, " +
+          "generación tras generación, hasta que llegó un día —Plutarco no dice cuál, y es " +
+          "probable que nadie lo anotara— en que ya no quedaba a bordo ni una sola pieza de las " +
+          "que habían navegado.",
+      },
+      {
+        b: "cita",
+        texto:
+          "Los atenienses iban retirando los maderos viejos y poniendo en su lugar otros nuevos y " +
+          "firmes, de modo que la nave se convirtió entre los filósofos en el ejemplo consabido " +
+          "de la cuestión del crecimiento: unos sostenían que seguía siendo la misma, y otros que " +
+          "no lo era.",
+        autor: "Plutarco, <em>Vida de Teseo</em>, capítulo 23",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene decir de dónde viene esto. Plutarco escribía alrededor del año 100 de nuestra " +
+          "era, unos cuatro siglos después de Demetrio de Falero, y no estaba haciendo historia " +
+          "naval: estaba contando de qué se discutía en las escuelas de filosofía de su tiempo. " +
+          "La nave pudo existir tal cual o pudo ser un caso de manual que se repetía desde " +
+          "antiguo. Lo que su testimonio sí demuestra es que el problema circulaba mucho antes " +
+          "que él, y que no se lo inventó.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El acertijo no salió del despacho de un filósofo. Salió de un barco que alguien tenía " +
+          "que reparar.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Hobbes guardó las tablas viejas, y con eso rompió el acertijo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El caso durmió durante siglos hasta que <strong>Thomas Hobbes</strong> le dio la " +
+          "vuelta en <em>De Corpore</em>, en 1655, con un añadido que lo empeora enormemente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Imagina que, mientras los atenienses van cambiando las tablas, hay alguien recogiendo " +
+          "las viejas según las retiran. Las guarda todas, ordenadas, y cuando tiene el juego " +
+          "completo vuelve a montarlas en el mismo orden. Ahora hay dos barcos: el que nunca dejó " +
+          "de estar amarrado y el que se ha armado con la madera original.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahí está el problema. Si aceptas que el barco reparado sigue siendo la nave de " +
+          "Teseo, porque la continuidad no se rompió nunca, tienes un candidato con buenos " +
+          "argumentos. Si aceptas que el barco montado con los maderos originales es la nave de " +
+          "Teseo, porque está hecho exactamente de lo mismo, tienes otro candidato con argumentos " +
+          "igual de buenos. Los dos razonamientos llevan al mismo nombre, y dos cosas distintas " +
+          "no pueden ser una sola cosa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hobbes lo remató sin piedad: eso, dijo, sería absurdo. La conclusión que se lleva el " +
+          "lector no es cuál de los dos barcos gana, sino que la pregunta estaba mal hecha desde " +
+          "el principio.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Mientras hubo un solo barco se podía discutir. En cuanto hubo dos quedó claro que el " +
+          "problema no estaba en el barco, sino en lo que le pedimos que signifique la palabra " +
+          "«mismo».",
+      },
+    ],
+  },
+  {
+    id: "existe-el-infinito",
+    titulo: "Existe el infinito",
+    categoria: "Filosofía",
+    color: "var(--teal)",
+    /* Serie «existe-el-infinito», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Aristóteles partió el infinito en dos y solo dejó pasar uno» */
+    encargo: "Aristóteles partió el infinito en dos y solo dejó pasar uno",
+    fotos: [
+      {
+        local: p_existe_el_infinito,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Aristóteles partió el infinito en dos y solo dejó pasar uno",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El infinito que nunca llega se admitió, y el que ya está ahí se prohibió",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Quizá pienses que el infinito es una sola cosa, muy grande y un poco borrosa. La " +
+          "primera persona que lo puso en orden lo partió en dos, y esa división aguantó dos mil " +
+          "años.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "<strong>Aristóteles</strong>, en el libro tercero de su <em>Física</em>, distinguió el " +
+          "infinito <strong>potencial</strong> del infinito <strong>actual</strong>. El potencial " +
+          "es un proceso que nunca se acaba: por muy alto que cuentes siempre puedes sumar uno " +
+          "más, y por muy fino que cortes un segmento siempre puedes volver a partirlo por la " +
+          "mitad. Ese infinito no es un objeto, es una promesa de que el proceso puede continuar, " +
+          "y Aristóteles lo aceptó sin problema.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El actual es otra cosa: la totalidad infinita ya terminada, existiendo entera y a la " +
+          "vez, como un conjunto que contiene de golpe todos los números. Eso lo rechazó. No como " +
+          "una idea difícil, sino como una idea contradictoria, algo que no puede existir en el " +
+          "mundo ni en la mente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La distinción se convirtió en la respuesta oficial durante más de veinte siglos, y " +
+          "viene a ser esta: el infinito no existe como cosa, solo existe como camino.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Durante dos mil años la pregunta no fue cuántos infinitos hay ni qué tamaño tienen. " +
+          "Fue si estaba permitido tratarlos como objetos, y la respuesta era que no.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Galileo encontró la grieta contando cuadrados",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1638, en sus <em>Dos nuevas ciencias</em>, <strong>Galileo Galilei</strong> puso en " +
+          "boca de su personaje Salviati un razonamiento de una sencillez desconcertante, que va " +
+          "así.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Escribe la lista de los números naturales: 1, 2, 3, 4, 5 y así hasta donde quieras. " +
+          "Debajo, escribe el cuadrado de cada uno: 1, 4, 9, 16, 25. Ahora hazte dos preguntas. " +
+          "La primera: ¿hay más números que cuadrados? Evidentemente sí, porque la mayoría de los " +
+          "números no son cuadrados de nadie, y cuanto más avanzas más escasos se vuelven. La " +
+          "segunda: ¿puede quedarse algún número sin su cuadrado, o algún cuadrado sin su raíz? " +
+          "Evidentemente no, porque todo número tiene su cuadrado y todo cuadrado tiene su raíz, " +
+          "uno a uno y sin que sobre ninguno.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las dos respuestas son correctas y no pueden serlo a la vez. Como dice Salviati, hay " +
+          "tantos cuadrados como números, porque son tan numerosos como sus raíces y todos los " +
+          "números son raíces.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Galileo vio el problema entero y se retiró. Su conclusión fue que los atributos " +
+          "«igual», «mayor» y «menor» no se aplican a las cantidades infinitas, sino solo a las " +
+          "finitas. Es decir, decidió que la contradicción se resolvía prohibiendo la pregunta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Faltaban dos siglos y medio para que a alguien se le ocurriera lo contrario: que quizá " +
+          "la pregunta estaba bien y lo que había que cambiar era la idea de tamaño.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Galileo tenía delante la puerta entera y la cerró. No se equivocó en el razonamiento: " +
+          "se equivocó al pensar que un resultado tan raro tenía que ser una señal de que la " +
+          "pregunta no valía.",
+      },
+    ],
+  },
+  {
     id: "ser-la-unica-especie-humana",
     titulo: "Fuimos la única especie humana",
     categoria: "Historia",
@@ -6640,6 +8389,330 @@ export const CURIOSIDADES: Short[] = [
           "La columna de agua de un árbol se sostiene solo porque las moléculas se agarran entre " +
           "sí. Cuando la tensión es excesiva aparece una burbuja, la cadena se corta y ese " +
           "conducto queda inservible.",
+      },
+    ],
+  },
+  {
+    id: "internet-va-por-el-fondo-del-mar",
+    titulo: "Internet va por el fondo del mar",
+    categoria: "Tecnología",
+    color: "var(--plum)",
+    /* Serie «internet-va-por-el-fondo-del-mar», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Casi todo lo que cruza un océano va por cable, no por satélite» */
+    encargo: "Casi todo lo que cruza un océano va por cable, no por satélite",
+    fotos: [
+      {
+        local: p_internet_va_por_el_fondo_del_mar,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Casi todo lo que cruza un océano va por cable, no por satélite",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cifra que se repite es el 99 %, y vale la pena mirar de dónde sale",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En cualquier artículo sobre el asunto aparece la misma frase: los cables submarinos " +
+          "transportan más del 99 % del tráfico intercontinental de datos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "<strong>TeleGeography</strong>, la consultora que mide ese mercado y a la que todo el " +
+          "mundo cita, se puso a rastrear el origen del dato y encontró algo incómodo: la fuente " +
+          "última era su propia página de preguntas frecuentes. Y esa página se apoyaba en una " +
+          "estadística de la comisión de telecomunicaciones estadounidense según la cual los " +
+          "satélites suponían el 0,37 % de la capacidad internacional <strong>de Estados " +
+          "Unidos</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir: un dato de un solo país, sobre capacidad y no sobre tráfico, convertido por " +
+          "repetición en una cifra mundial. La propia TeleGeography lo resume con una honestidad " +
+          "poco común: pueden confirmar que la afirmación es cierta, pero no pueden hacer el " +
+          "cálculo con precisión porque no existen datos de tráfico intercontinental por " +
+          "satélite. Los últimos números de la comisión son de 2013, porque después dejó de " +
+          "recogerlos.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El dato es correcto en el fondo y muy poco sólido en la forma. Es un buen recordatorio " +
+          "de que una cifra repetida diez mil veces no está diez mil veces comprobada: suele " +
+          "estar comprobada una vez, o ninguna.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El motivo no es la capacidad, es el tiempo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aunque la cifra exacta se discuta, la dirección no admite duda, y el motivo principal " +
+          "no es el que suele darse.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un satélite geoestacionario está a unos <strong>35.786 kilómetros</strong> de altura. " +
+          "Una señal que suba y baje recorre cerca de 72.000 kilómetros, y ni siquiera la luz " +
+          "puede hacer eso en menos de unos <strong>240 milisegundos</strong>. Ida y vuelta, " +
+          "medio segundo largo. Esa cifra no depende de la tecnología: depende de la altura de la " +
+          "órbita y de la velocidad de la luz, y no va a mejorar nunca.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En una fibra óptica la luz viaja algo más despacio que en el vacío, unos 203.000 " +
+          "kilómetros por segundo, dos tercios de su velocidad máxima. Pero el camino es " +
+          "horizontal. La regla que usan los ingenieros es que mil kilómetros de cable equivalen " +
+          "a unos diez milisegundos de ida y vuelta: cruzar el Atlántico sale por unos sesenta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Sesenta milisegundos contra quinientos.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un satélite geoestacionario no pierde la carrera por falta de ancho de banda. La " +
+          "pierde por geometría: está demasiado lejos, y esa distancia no la arregla ningún " +
+          "avance técnico.",
+      },
+    ],
+  },
+  {
+    id: "la-burbuja-de-los-tulipanes",
+    titulo: "La burbuja de los tulipanes",
+    categoria: "Economía",
+    color: "var(--sage)",
+    /* Serie «la-burbuja-de-los-tulipanes», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Lo que hacía valioso al tulipán era un virus» */
+    encargo: "Lo que hacía valioso al tulipán era un virus",
+    fotos: [
+      {
+        local: p_la_burbuja_de_los_tulipanes,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Lo que hacía valioso al tulipán era un virus",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los tulipanes que se pagaban caros eran los rayados",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El tulipán liso, de un solo color, era una flor apreciada y cara pero corriente. Lo " +
+          "que se pagaba a precios extraordinarios eran los ejemplares con los pétalos llameados: " +
+          "fondos blancos o amarillos recorridos por vetas de rojo o de púrpura, distintas en " +
+          "cada flor.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los holandeses del siglo XVII no sabían de dónde salían esos dibujos. Hoy sí se sabe.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los produce una infección: un virus del mosaico específico del tulipán, llamado " +
+          "<strong>virus del jaspeado</strong>, que rompe el color único del pétalo en dos o más. " +
+          "De ahí el nombre inglés de aquellas variedades, las <em>broken</em>, las rotas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La flor más cotizada de la historia era una planta enferma, y su belleza era el " +
+          "síntoma. Nadie lo supo hasta trescientos años después.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Un bulbo enfermo se multiplica mal, y eso disparó el precio",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí está la consecuencia económica, y es la que explica lo demás.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El virus que produce el dibujo debilita también la planta. Un bulbo infectado se " +
+          "reproduce despacio y da pocos hijuelos. Y como el dibujo depende de la infección y no " +
+          "de la variedad, tampoco se podía garantizar que la descendencia saliera igual.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir: la mercancía más deseada era simultáneamente la más difícil de producir, la " +
+          "más lenta de multiplicar y la única que no se podía prometer con certeza.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No hacía falta ninguna manía colectiva para que aquellos precios subieran. Un bien " +
+          "escaso por naturaleza, imposible de fabricar a voluntad y de calidad no garantizable " +
+          "reúne, él solo, todas las condiciones.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Las cifras que se pagaron, puestas al lado de un sueldo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El <strong>Semper Augustus</strong>, el más caro de todos, llegó a venderse por " +
+          "<strong>10.000 florines</strong>, el equivalente a unos 130.000 euros de 2024.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un obrero cualificado ganaba entre 150 y 350 florines al año. Aquel bulbo costaba, por " +
+          "tanto, entre veintiocho y sesenta y siete años de sueldo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un <strong>Viceroy</strong> se cambió por una cesta de bienes valorada en 2.500 " +
+          "florines, más de cinco veces el coste de una casa media. Y en 1635 hay registrada una " +
+          "venta de cuarenta bulbos por cien mil florines.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Las cifras son reales y están documentadas. Lo que no está documentado, como se verá, " +
+          "es casi todo lo que se cuenta que pasó después.",
+      },
+    ],
+  },
+  {
+    id: "la-caverna-de-platon",
+    titulo: "La caverna de Platón",
+    categoria: "Filosofía",
+    color: "var(--ochre)",
+    /* Serie «la-caverna-de-platon», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La caverna está descrita con precisión de escenógrafo» */
+    encargo: "La caverna está descrita con precisión de escenógrafo",
+    fotos: [
+      {
+        local: p_la_caverna_de_platon,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La caverna está descrita con precisión de escenógrafo",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Platón monta el decorado pieza a pieza antes de decir para qué sirve",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La alegoría de la caverna aparece al principio del libro séptimo de <em>La " +
+          "República</em>, escrita en el siglo IV antes de nuestra era, y lo primero que " +
+          "sorprende al leerla entera es cuánto se parece a las acotaciones de una obra de " +
+          "teatro. Platón no lanza una metáfora: construye un escenario y lo va montando pieza a " +
+          "pieza.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Vayamos con el montaje. Hay una cueva subterránea con la boca abierta hacia la luz. " +
+          "Dentro hay unos hombres que llevan allí desde niños, con las piernas y el cuello " +
+          "encadenados de manera que solo pueden mirar hacia delante, hacia el fondo. Detrás de " +
+          "ellos, más arriba y a lo lejos, arde un fuego. Entre el fuego y los prisioneros hay un " +
+          "camino elevado, y a lo largo de ese camino corre un muro bajo, como el biombo que " +
+          "ponen delante los titiriteros para esconderse mientras manejan los muñecos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por ese camino pasa gente cargada con objetos: figuras de animales, estatuas, " +
+          "cacharros de todo tipo, que asoman por encima del muro. Unos hablan mientras pasan y " +
+          "otros van callados. Y los prisioneros, que no pueden girar la cabeza, ven proyectadas " +
+          "en el fondo las sombras de esos objetos, oyen el eco de esas voces devuelto por la " +
+          "pared, y llevan toda su vida creyendo que las sombras hablan.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en el detalle que casi nadie recuerda, porque es el que aprieta de verdad: los " +
+          "prisioneros tampoco se han visto nunca a sí mismos. Lo único que conocen de su propio " +
+          "cuerpo y del de sus compañeros es la sombra que el fuego proyecta enfrente.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El prisionero no está engañado sobre el mundo exterior. Está engañado sobre qué es él " +
+          "mismo, porque lo único que ha visto de sí es una silueta en una pared.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Es la tercera imagen de una serie, y la única que se ha quedado",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La caverna no llega sola ni por sorpresa. Es la tercera de tres imágenes encadenadas " +
+          "que Platón coloca en el centro del libro, y las tres explican lo mismo desde ángulos " +
+          "distintos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Primero viene la analogía del sol, en el libro sexto: así como el sol permite ver las " +
+          "cosas y además las hace crecer, hay algo que permite conocer las cosas y además las " +
+          "hace ser. Después viene la línea dividida, un segmento partido en cuatro tramos que " +
+          "ordenan de menor a mayor cuatro maneras de conocer, desde las sombras y los reflejos " +
+          "hasta el razonamiento puro. Y solo entonces llega la caverna, que es la misma escala " +
+          "pero convertida en relato, con un protagonista que la recorre andando.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De las tres, la que ha sobrevivido en la cabeza de todo el mundo es la tercera. Y la " +
+          "razón no es filosófica, es narrativa: las dos primeras hay que entenderlas, y la " +
+          "tercera se puede contar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene además decir para qué anuncia Platón que sirve todo esto, porque lo dice él " +
+          "mismo en la primera línea del pasaje, antes de empezar a montar nada. La escena viene " +
+          "a mostrar hasta qué punto nuestra naturaleza está iluminada o no lo está. No habla de " +
+          "política ni de engaño: habla de educación, y de la falta de ella.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Las tres imágenes dicen lo mismo y solo una ha llegado hasta hoy. Ganó la que tenía un " +
+          "personaje y un camino, no la que tenía el argumento mejor construido.",
       },
     ],
   },
@@ -7053,6 +9126,206 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "la-historia-de-lego",
+    titulo: "La historia de Lego",
+    categoria: "Economía",
+    color: "var(--clay)",
+    /* Serie «la-historia-de-lego», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Al fundador se le quemó el taller dos veces y empezó de cero las dos» */
+    encargo: "Al fundador se le quemó el taller dos veces y empezó de cero las dos",
+    fotos: [
+      {
+        local: p_la_historia_de_lego,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Al fundador se le quemó el taller dos veces y empezó de cero las dos",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En 1924 se quemaron el taller y la casa, y fue culpa de sus hijos",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "<strong>Ole Kirk Christiansen</strong> era carpintero en Billund, un pueblo del " +
+          "interior de Jutlandia, en Dinamarca. Hacía muebles, escaleras, tablas de planchar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1924, sus hijos prendieron sin querer unas virutas de madera. Ardieron el taller y " +
+          "la vivienda familiar, que estaban juntos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Reconstruyó y siguió con el mismo oficio. Hasta que llegó la crisis.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La historia empieza con un incendio provocado por dos niños jugando en un taller. Es " +
+          "el primero de los tres empujones que llevaron a aquel hombre al negocio del juguete, y " +
+          "ninguno de los tres fue voluntario.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Los juguetes salieron de las maquetas que hacía para vender muebles",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con la Gran Depresión desapareció el trabajo de construcción. Un carpintero de pueblo " +
+          "sin obras es un carpintero sin ingresos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Christiansen tenía por costumbre fabricar versiones en miniatura de sus propios " +
+          "productos, para enseñárselas a los clientes: escaleras diminutas, tablas de planchar " +
+          "diminutas. Y fueron esas miniaturas las que le dieron la idea.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El 10 de agosto de 1932 empezó a fabricar huchas y juguetes de arrastre de madera.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No cambió de sector por visión comercial. Cambió porque lo único que seguía saliendo " +
+          "de su taller cuando no había obras eran las maquetas, y resultó que las maquetas se " +
+          "vendían.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El nombre salió de un concurso interno con una botella de premio",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1934 organizó entre sus empleados un concurso para ponerle nombre a la empresa. El " +
+          "premio era una botella de vino casero.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El nombre elegido fue <strong>LEGO</strong>, contracción de la expresión danesa " +
+          "<em>leg godt</em>: jugar bien.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ocho años después, en 1942, un cortocircuito provocó un incendio eléctrico que " +
+          "destruyó la fábrica entera y todas las existencias.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Dos incendios y una depresión. La empresa de juguetes más grande del mundo tuvo que " +
+          "empezar tres veces desde cero antes de fabricar su primer ladrillo, y las tres veces " +
+          "por obligación.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? <em>Lego</em> significa también algo en latín, y encaja de forma " +
+          "inquietante: viene a decir <em>yo junto</em>, <em>yo reúno</em>. La coincidencia es " +
+          "completa, porque el nombre se eligió por el danés.",
+      },
+    ],
+  },
+  {
+    id: "la-historia-de-nintendo",
+    titulo: "La historia de Nintendo",
+    categoria: "Economía",
+    color: "var(--teal)",
+    /* Serie «la-historia-de-nintendo», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La empresa es de 1889 y se fundó para hacer naipes» */
+    encargo: "La empresa es de 1889 y se fundó para hacer naipes",
+    fotos: [
+      {
+        local: p_la_historia_de_nintendo,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La empresa es de 1889 y se fundó para hacer naipes",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La fecha exacta es el 23 de septiembre de 1889, en Kioto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "<strong>Fusajiro Yamauchi</strong>, artesano, fundó aquel día en el distrito de " +
+          "Shimogyo, en Kioto, un negocio de producción y distribución de naipes japoneses. En " +
+          "particular, de <strong>hanafuda</strong>: barajas de doce palos, uno por mes del año, " +
+          "ilustradas con flores y plantas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las hacía a mano.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para situar la fecha: faltaban catorce años para que los hermanos Wright levantaran " +
+          "del suelo el primer avión.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La empresa que hoy se asocia a la infancia de tres generaciones seguidas es anterior " +
+          "al automóvil de masas, al avión y a la radio. Empezó pintando cartas a mano.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Los naipes eran un producto con muchos problemas",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay una razón por la que un negocio de barajas en el Japón de finales del siglo XIX " +
+          "era difícil, y explica la mentalidad posterior de la casa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Una baraja es un producto que se compra una vez y dura años. No se gasta, no se rompe " +
+          "y no tiene recambio. Un fabricante de naipes no vende a sus clientes una segunda vez.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Nintendo sobrevivió ochenta años en ese negocio, y llegó a los años sesenta siendo una " +
+          "empresa mediana, rentable y sin ninguna vía de crecimiento.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La búsqueda desesperada de otra cosa que hacer, que es lo que define a la empresa en " +
+          "la década siguiente, no vino de la ambición. Vino de estar atrapada en un producto que " +
+          "la gente compra una vez en la vida.",
+      },
+    ],
+  },
+  {
     id: "la-historia-de-porsche",
     titulo: "La historia de Porsche",
     categoria: "Historia",
@@ -7142,6 +9415,113 @@ export const CURIOSIDADES: Short[] = [
           "La disposición que Porsche ensayó en 1901 —un motor térmico que solo fabrica " +
           "electricidad y unos motores eléctricos que hacen todo el trabajo— tardó más de cien " +
           "años en llegar a los concesionarios.",
+      },
+    ],
+  },
+  {
+    id: "la-historia-de-zara",
+    titulo: "La historia de Zara",
+    categoria: "Economía",
+    color: "var(--plum)",
+    /* Serie «la-historia-de-zara», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Empezó haciendo albornoces y tardó doce años en abrir una tienda» */
+    encargo: "Empezó haciendo albornoces y tardó doce años en abrir una tienda",
+    fotos: [
+      {
+        local: p_la_historia_de_zara,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Empezó haciendo albornoces y tardó doce años en abrir una tienda",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El punto de partida es un pueblo de León y una estación de tren",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "<strong>Amancio Ortega</strong> nació el 28 de marzo de 1936 en Busdongo de Arbas, un " +
+          "pueblo de la montaña leonesa. Su padre era ferroviario, y con el tiempo llegó a jefe " +
+          "de estación de Renfe.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La familia se trasladó a La Coruña. Allí, a los catorce años, Ortega dejó los estudios " +
+          "y entró a trabajar de dependiente en dos tiendas de ropa conocidas de la ciudad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir: aprendió el negocio por el lado del mostrador, no por el de la fábrica. Vio " +
+          "durante años qué entraba, qué se probaba la gente, qué se quedaba colgado.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Trece años detrás de un mostrador antes de fabricar nada. La obsesión posterior de la " +
+          "empresa por lo que hace el cliente dentro de la tienda no es una teoría de gestión: es " +
+          "de dónde venía el fundador.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "En 1963 monta un taller y fabrica una sola cosa",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1963 creó <strong>Confecciones GOA</strong>, con sus iniciales al revés, y se " +
+          "dedicó a fabricar albornoces. Empezó cosiendo en casa con su mujer, Rosalía Mera, " +
+          "antes de tener nave.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ni tienda, ni marca, ni catálogo. Un producto, cosido en casa, vendido a mayoristas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Doce años entre el taller y la primera tienda. La empresa que hoy se define por la " +
+          "velocidad tardó más de una década en dar el primer paso de su modelo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La tienda llega en 1975 y el nombre sale de un tropiezo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La primera tienda <strong>Zara</strong> abrió en 1975 en la calle Juan Flórez, una vía " +
+          "céntrica de La Coruña, con ropa de hombre, mujer y niño.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El nombre iba a ser otro. Querían llamarla <strong>Zorba</strong>, por la película de " +
+          "1964, y ya habían encargado el rótulo. Entonces descubrieron que había un bar con ese " +
+          "nombre a dos manzanas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No cambiaron de idea: cambiaron las letras de sitio. Con las mismas y una <em>a</em> " +
+          "de más, procedente de un juego de letras adicional que habían mandado hacer, salió " +
+          "<strong>Zara</strong>.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La marca de moda más conocida de Europa se llama así porque un bar coruñés se había " +
+          "adelantado y el rótulo ya estaba pagado.",
       },
     ],
   },
@@ -7246,6 +9626,109 @@ export const CURIOSIDADES: Short[] = [
           "El fallo no estuvo en un armador que ahorró, sino en una tabla que nadie revisó " +
           "mientras los barcos se hacían cinco veces más grandes. La ley cumplida al pie de la " +
           "letra garantizaba que muriera la mitad del pasaje.",
+      },
+    ],
+  },
+  {
+    id: "la-pasta-no-vino-de-china",
+    titulo: "La pasta no vino de China",
+    categoria: "Cocina",
+    color: "var(--slate)",
+    /* Serie «la-pasta-no-vino-de-china», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El bulo de Marco Polo tiene autor, fecha y motivo comercial» */
+    encargo: "El bulo de Marco Polo tiene autor, fecha y motivo comercial",
+    fotos: [
+      {
+        local: p_la_pasta_no_vino_de_china,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El bulo de Marco Polo tiene autor, fecha y motivo comercial",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una revista del sector se inventó la historia en 1929 para vender pasta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La versión que casi todo el mundo conoce dice que Marco Polo trajo la pasta de China " +
+          "cuando regresó a Venecia en 1295. Es una historia redonda, con un protagonista famoso, " +
+          "un viaje exótico y una fecha. Y tiene un problema poco habitual en los bulos: se sabe " +
+          "exactamente quién la inventó, cuándo y para qué.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La publicó en 1929 una revista del sector, el <em>Macaroni Journal</em>, editada en " +
+          "Estados Unidos por la asociación nacional de fabricantes de macarrones. No era un " +
+          "artículo de historia: era promoción. El objetivo era darle a la pasta fabricada en " +
+          "Estados Unidos un pasado glamuroso que ayudara a venderla.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y el nivel de la invención se ve en el detalle. En el relato, un marinero de la " +
+          "tripulación de Marco Polo baja a tierra en China, encuentra unos fideos secos y se los " +
+          "lleva. El marinero se llamaba <strong>Spaghetti</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquello podría haberse quedado en una anécdota publicitaria si no fuera porque la " +
+          "historia funcionó demasiado bien. En 1938 apareció ya en una película de Hollywood, " +
+          "<em>Las aventuras de Marco Polo</em>, y de ahí pasó al conocimiento general. Noventa " +
+          "años después sigue contándose en sobremesas y en documentales.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El origen de la pasta más repetido del mundo no lo escribió un historiador. Lo " +
+          "escribió el departamento de marketing de una asociación de fabricantes, y el marinero " +
+          "protagonista se llamaba como el producto.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Marco Polo describió lo que vio comparándolo con lo que ya conocía",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay además una prueba que está dentro del propio libro de Marco Polo, y que se le " +
+          "escapa a quien repite la leyenda porque exige leerlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando describe la comida que encontró en Asia, Marco Polo la explica poniéndola al " +
+          "lado de cosas que su lector europeo ya conoce, y menciona la lasaña. Es decir: usa la " +
+          "pasta italiana como término de comparación para que se entienda lo que vio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso implica. No se puede explicar algo nuevo comparándolo con algo " +
+          "desconocido. Si Polo escribe «se parece a la lasaña» es porque da por hecho que él y " +
+          "sus lectores saben perfectamente qué es una lasaña, y por tanto porque la pasta ya se " +
+          "comía en Italia antes de que él saliera de viaje.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La leyenda pone a Marco Polo trayendo la pasta. Su propio texto lo pone " +
+          "reconociéndola.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El documento que supuestamente sostiene la leyenda es la mejor prueba en su contra: " +
+          "para comparar lo de allí con la lasaña, la lasaña tenía que estar ya aquí.",
       },
     ],
   },
@@ -7488,6 +9971,98 @@ export const CURIOSIDADES: Short[] = [
           "sigue siendo el único asentamiento vikingo confirmado en Norteamérica. Mil años de " +
           "presencia nórdica al otro lado del Atlántico se sostienen, arqueológicamente, sobre un " +
           "solo yacimiento.",
+      },
+    ],
+  },
+  {
+    id: "los-chips-se-hacen-con-arena",
+    titulo: "Los chips se hacen con arena",
+    categoria: "Tecnología",
+    color: "var(--ochre)",
+    /* Serie «los-chips-se-hacen-con-arena», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La arena hay que purificarla hasta un grado que no existe en la naturaleza» */
+    encargo: "La arena hay que purificarla hasta un grado que no existe en la naturaleza",
+    fotos: [
+      {
+        local: p_los_chips_se_hacen_con_arena,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La arena hay que purificarla hasta un grado que no existe en la naturaleza",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer paso lo hace un horno a dos mil grados",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La arena de cuarzo es dióxido de silicio: un átomo de silicio unido a dos de oxígeno. " +
+          "Para sacar el silicio hay que quitarle el oxígeno, y eso se hace por la vía brutal.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Se mete la arena en un horno de reducción con carbono a unos <strong>2.000 " +
+          "grados</strong>. El carbono se queda con el oxígeno y sale en forma de gas; el silicio " +
+          "queda líquido en el fondo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que se obtiene se llama silicio metalúrgico y tiene una pureza del <strong>98 al 99 " +
+          "%</strong>. Suena a mucho. Sirve para hacer aleaciones de aluminio y no sirve " +
+          "absolutamente para nada en electrónica.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El 99 % de pureza, que en casi cualquier otro oficio sería un resultado excelente, " +
+          "aquí es materia prima sucia.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Del 99 % al 99,9999999 % hay un proceso químico entero",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí empieza la parte que de verdad cuesta dinero.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El silicio bruto se hace reaccionar con ácido clorhídrico a unos 300 grados y se " +
+          "convierte en <strong>triclorosilano</strong>, que es un líquido. Y un líquido se puede " +
+          "destilar, una vez y otra y otra, separando en cada pasada las impurezas por su punto " +
+          "de ebullición.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Destilando repetidamente se llega a una pureza del <strong>99,9999999 %</strong>, lo " +
+          "que en la industria se llama <em>nueve nueves</em>. Después ese triclorosilano se " +
+          "calienta con hidrógeno sobre una varilla de silicio a unos 1.100 grados, y el silicio " +
+          "se va depositando encima, ya purísimo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene traducir la cifra. Nueve nueves significa que por cada mil millones de átomos " +
+          "de silicio hay uno que no lo es.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La materia prima es lo más abundante que se puede coger en una playa. El producto " +
+          "acabado es una sustancia que no existe en ningún sitio del universo salvo dentro de " +
+          "una fábrica.",
       },
     ],
   },
@@ -8245,6 +10820,114 @@ export const CURIOSIDADES: Short[] = [
           "¿Sabías que…? A ese hijo de Orestes se le conoce como Augústulo, «augustito», y el " +
           "diminutivo no era su nombre: era una burla que le pusieron por su edad y por lo poco " +
           "que pintaba. El último emperador de Roma pasó a la historia con un mote.",
+      },
+    ],
+  },
+  {
+    id: "por-que-crece-tan-rapido-el-bambu",
+    titulo: "Por qué crece tan rápido el bambú",
+    categoria: "Naturaleza",
+    color: "var(--clay)",
+    /* Serie «por-que-crece-tan-rapido-el-bambu», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El bambú no crece como un árbol: se estira como una antena» */
+    encargo: "El bambú no crece como un árbol: se estira como una antena",
+    fotos: [
+      {
+        local: p_por_que_crece_tan_rapido_el_bambu,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El bambú no crece como un árbol: se estira como una antena",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un árbol crece por la punta; el bambú crece por todas partes a la vez",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Quizá pienses que el bambú es un árbol muy rápido. No lo es: es una hierba, " +
+          "emparentada con el trigo y con el césped, y crece de una manera que ningún árbol puede " +
+          "imitar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un árbol alarga la rama por su extremo. Hay un grupo de células capaces de dividirse " +
+          "—un meristemo— en la punta de cada rama, y todo el crecimiento en altura sale de ahí: " +
+          "se añade material arriba y lo de abajo se queda como está. Por eso, si clavas un clavo " +
+          "en un tronco a un metro del suelo, dentro de veinte años seguirá a un metro del suelo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El bambú no funciona así. Su caña está dividida en tramos por unos tabiques " +
+          "transversales, los <strong>nudos</strong>, que son los anillos que se ven desde fuera. " +
+          "Y justo encima de cada nudo hay una zona de células capaces de alargarse: un " +
+          "<strong>meristemo intercalar</strong>. La palabra es literal: el tejido que crece está " +
+          "intercalado a lo largo del tallo, no puesto en la punta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La consecuencia es la que le da al bambú su récord. Cuando la caña brota, todos esos " +
+          "tramos se alargan <strong>a la vez</strong>. No es un extremo que avanza, son cuarenta " +
+          "o cincuenta segmentos estirándose simultáneamente, cada uno aportando su parte, como " +
+          "una antena de telescopio que se despliega entera de golpe en lugar de sección por " +
+          "sección.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Un árbol crece en un punto. El bambú crece en cincuenta puntos al mismo tiempo, y por " +
+          "eso su velocidad no se compara con la de un árbol: se compara con la suma de cincuenta " +
+          "árboles.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Sale del suelo con el diámetro que va a tener toda su vida",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay una segunda diferencia, y explica por qué el bambú puede permitirse ir tan rápido.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Un árbol engorda. Bajo su corteza tiene una capa de células, el cámbium, que cada año " +
+          "añade una capa nueva de madera por fuera de la anterior; esos son los anillos que se " +
+          "cuentan en un tocón. Ese crecimiento en grosor es lo que le permite sostener un tronco " +
+          "cada vez más alto, y es también lento y caro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El bambú no tiene cámbium. No engorda nunca. El brote asoma del suelo ya con el " +
+          "diámetro que tendrá el resto de su vida, y lo único que hace después es estirarse. Una " +
+          "caña de quince centímetros de grueso salió de la tierra con quince centímetros de " +
+          "grueso, siendo un cono corto y gordo que parecía un espárrago gigante.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso simplifica. La caña no tiene que ir fabricando estructura " +
+          "mientras sube, porque la estructura ya está ahí desde el primer día: solo hay que " +
+          "separarla. Todo el material de la pared, las fibras, los haces conductores, están " +
+          "presentes en miniatura en el brote, y el crecimiento consiste en que las células se " +
+          "llenen de agua y se alarguen. Es una operación de hidráulica más que de construcción.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El brote que sale del suelo ya contiene, comprimida, la caña entera. Lo que llamamos " +
+          "crecer no es fabricarla: es desplegarla.",
       },
     ],
   },
@@ -10318,6 +13001,130 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "por-que-envejecemos",
+    titulo: "Por qué envejecemos",
+    categoria: "Cuerpo humano",
+    color: "var(--teal)",
+    /* Serie «por-que-envejecemos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La selección natural deja de mirarte cuando ya te has reproducido» */
+    encargo: "La selección natural deja de mirarte cuando ya te has reproducido",
+    fotos: [
+      {
+        local: p_por_que_envejecemos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La selección natural deja de mirarte cuando ya te has reproducido",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Medawar explicó el envejecimiento con una caja de tubos de ensayo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La respuesta que todo el mundo tiene a mano es que el cuerpo se desgasta, como se " +
+          "desgasta un coche. Es una respuesta fascinante y falsa, y deja fuera la pregunta " +
+          "importante. Tu cuerpo se repara continuamente: cicatriza heridas, corrige errores del " +
+          "ADN a miles por célula y día, y cambia cientos de miles de millones de células cada " +
+          "jornada. Un coche no hace nada de eso. Y encima hay animales que no envejecen. Así que " +
+          "la pregunta buena no es por qué se estropea una máquina, sino por qué la evolución no " +
+          "arregló esta.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1952, el biólogo británico <strong>Peter Medawar</strong> dio la respuesta con un " +
+          "modelo que se entiende en treinta segundos. Imagina un laboratorio con mil tubos de " +
+          "ensayo en uso. Cada mes se rompe un porcentaje fijo por accidentes —se caen, se " +
+          "golpean— y cada tubo roto se sustituye por uno nuevo. Los tubos no envejecen: uno de " +
+          "diez años es exactamente igual de bueno que uno recién comprado.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y aun así, cuenta cuántos tubos viejos quedan. Después de unos años, casi ninguno. No " +
+          "porque se hayan deteriorado, sino porque a todo el que espera lo suficiente le acaba " +
+          "tocando el accidente.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora traslada eso a un animal en libertad. Entre los depredadores, el frío, el hambre " +
+          "y las infecciones, la inmensa mayoría muere joven, esté sana o no. De modo que una " +
+          "mutación que solo cause daño a una edad a la que casi nadie llega es prácticamente " +
+          "invisible para la selección natural: los individuos que la llevan se reproducen igual " +
+          "que los demás y la pasan a sus hijos sin penalización. A esa zona a la que la " +
+          "selección casi no llega se la llama la <strong>sombra de la selección</strong>, y en " +
+          "ella se acumulan tranquilamente los genes que estropean la vejez.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Envejecer no es un fallo del cuerpo. Es lo que ocurre cuando un organismo diseñado " +
+          "para vivir veinte años, porque casi ninguno llegaba a más, empieza a vivir ochenta.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Un gen que te beneficia a los veinte puede matarte a los setenta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cinco años después, en 1957, <strong>George Williams</strong> dio un paso más y " +
+          "convirtió el descuido en un negocio.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Su idea es la siguiente. Supón que una variante genética tiene dos efectos: uno bueno " +
+          "pronto y otro malo tarde. Por ejemplo, que te haga fijar el calcio con más eficacia de " +
+          "joven y que de viejo te lo deposite en las arterias. La selección natural no valora " +
+          "los dos efectos por igual, porque no los cobra en la misma moneda. El beneficio " +
+          "temprano se paga en hijos, y esos hijos existen. El coste tardío se cobra a alguien " +
+          "que ya se ha reproducido, y a la selección natural eso le importa muy poco.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que ese gen no solo se cuela: se extiende activamente. La evolución lo " +
+          "favorece. A este mecanismo se le llama <strong>pleiotropía antagonista</strong>, y " +
+          "significa que parte de lo que te va a matar de viejo está ahí precisamente porque te " +
+          "ayudó de joven.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y todavía hay una tercera pieza. En 1977, en la revista <em>Nature</em>, " +
+          "<strong>Thomas Kirkwood</strong> propuso el argumento del <strong>soma " +
+          "desechable</strong>: la energía de un organismo es finita y hay que repartirla entre " +
+          "reproducirse y mantenerse en buen estado. Reparar el cuerpo indefinidamente es " +
+          "técnicamente posible, pero cuesta, y cada unidad de energía gastada en repararse es " +
+          "una unidad que no va a la descendencia. En un mundo donde de todas formas te va a " +
+          "comer alguien, invertir en durar cien años es tirar el dinero.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La comparación entre razas de perro apunta en esa dirección. Las pequeñas, con menos " +
+          "hormona del crecimiento circulando, viven de quince a veinte años; las grandes, con " +
+          "más, de seis a ocho. Crecer deprisa y en grande sale caro por el otro lado.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La evolución no busca que dures. Busca que tengas descendencia, y la duración es solo " +
+          "lo que sobra después de pagar esa cuenta.",
+      },
+    ],
+  },
+  {
     id: "por-que-estornudamos",
     titulo: "Por qué estornudamos",
     categoria: "Cuerpo humano",
@@ -10661,6 +13468,224 @@ export const CURIOSIDADES: Short[] = [
           "El verde es oxígeno a más de cien kilómetros, el rojo es oxígeno por encima de " +
           "doscientos, y el violeta es nitrógeno a noventa y cinco. Una aurora es un mapa de " +
           "alturas.",
+      },
+    ],
+  },
+  {
+    id: "por-que-hay-gente-que-no-digiere-la-leche",
+    titulo: "Por qué hay gente que no digiere la leche",
+    categoria: "Cuerpo humano",
+    color: "var(--plum)",
+    /* Serie «por-que-hay-gente-que-no-digiere-la-leche», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La pregunta está al revés: lo raro es el adulto que sí la digiere» */
+    encargo: "La pregunta está al revés: lo raro es el adulto que sí la digiere",
+    fotos: [
+      {
+        local: p_por_que_hay_gente_que_no_digiere_la_leche,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La pregunta está al revés: lo raro es el adulto que sí la digiere",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Todos los mamíferos apagan la enzima al dejar la teta, y nosotros también",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La forma habitual de plantear esto trata la intolerancia a la lactosa como una avería: " +
+          "hay gente normal y hay gente a la que le falta algo. Es una manera fascinante de " +
+          "contarlo y deja fuera la pregunta importante, porque la mayoría del planeta está en el " +
+          "segundo grupo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La enzima que rompe la lactosa se llama <strong>lactasa</strong>, y todos los " +
+          "mamíferos la fabrican de crías, porque sin ella no podrían aprovechar la leche de su " +
+          "madre. Y todos, absolutamente todos, dejan de fabricarla poco después del destete. " +
+          "Tiene toda la lógica del mundo: mantener encendida una maquinaria cara para digerir un " +
+          "alimento que ya no vas a volver a probar en la vida sería tirar recursos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La especie humana hace exactamente lo mismo. Se calcula que alrededor del 65 % de los " +
+          "adultos del mundo reduce la producción de lactasa después del destete, igual que un " +
+          "gato, un caballo o un chimpancé. Eso no es una enfermedad ni un déficit: es el " +
+          "programa estándar de los mamíferos funcionando como debe.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que la pregunta buena no es por qué hay gente que no digiere la leche. Es por " +
+          "qué existe un tercio de la humanidad que sigue digiriéndola de adulta, cosa que ningún " +
+          "otro mamífero del planeta hace.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No hay adultos con un fallo. Hay adultos con el programa normal de los mamíferos y " +
+          "adultos con una modificación reciente, y los primeros son mayoría en el mundo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo que ocurre después es una cuestión de bacterias, no de veneno",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Vayamos a lo que pasa dentro cuando la enzima ya no está, porque el mecanismo explica " +
+          "los síntomas uno a uno.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La lactosa es un azúcar doble: una molécula de glucosa unida a una de galactosa. Así, " +
+          "entera, es demasiado grande para atravesar la pared del intestino delgado, de modo que " +
+          "si no hay lactasa que la parta en dos, no se absorbe y sigue su camino hacia el " +
+          "intestino grueso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Allí abajo vive una población enorme de bacterias que sí saben aprovecharla. La " +
+          "fermentan, y al fermentarla producen gas —de ahí la hinchazón y los ruidos— y ácidos " +
+          "que aceleran el tránsito. Además, mientras la lactosa sigue entera va arrastrando agua " +
+          "hacia el interior del intestino por ósmosis, porque el azúcar sin absorber retiene " +
+          "líquido. Gas, prisa y agua: ese es todo el cuadro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso implica. La lactosa no le hace daño a nadie por sí misma; no es " +
+          "una alergia ni una reacción inmunitaria. Es comida que ha llegado a un sitio donde no " +
+          "se esperaba, y la molestia la produce quien se la come allí. Por eso la cantidad " +
+          "importa tanto: casi todo el mundo tolera un poco, y el problema aparece cuando la " +
+          "dosis supera lo que la enzima disponible puede procesar.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La molestia no la causa la leche. La causan las bacterias del intestino grueso " +
+          "celebrando la llegada de un azúcar que no debería haber llegado hasta allí.",
+      },
+    ],
+  },
+  {
+    id: "por-que-hay-grupos-sanguineos",
+    titulo: "Por qué hay grupos sanguíneos",
+    categoria: "Cuerpo humano",
+    color: "var(--slate)",
+    /* Serie «por-que-hay-grupos-sanguineos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Antes de 1900 una transfusión era una lotería sin explicación» */
+    encargo: "Antes de 1900 una transfusión era una lotería sin explicación",
+    fotos: [
+      {
+        local: p_por_que_hay_grupos_sanguineos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Antes de 1900 una transfusión era una lotería sin explicación",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Unas veces salvaba al paciente y otras lo mataba, y nadie sabía por qué",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante el siglo XIX se intentaron transfusiones de sangre en toda Europa, y los " +
+          "resultados desconcertaban a quien las hacía. A veces el enfermo mejoraba de forma " +
+          "espectacular. Otras veces, con el mismo procedimiento y la misma pericia, empezaba a " +
+          "temblar, orinaba oscuro y moría en cuestión de horas. No había patrón que valiera: no " +
+          "dependía de la cantidad, ni de la rapidez, ni de la salud del donante.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ante esa lotería, la mayoría de los médicos hicieron lo razonable, que fue dejar de " +
+          "transfundir salvo en casos desesperados. La práctica quedó marginada durante décadas " +
+          "por una razón que nadie era capaz de nombrar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Quien la nombró fue <strong>Karl Landsteiner</strong>, patólogo vienés, en 1900 y " +
+          "1901. El experimento que lo resolvió es de una economía admirable: cogió sangre de sí " +
+          "mismo y de varios compañeros de laboratorio, separó en cada muestra los glóbulos rojos " +
+          "del suero, y después fue mezclando sistemáticamente los glóbulos de cada uno con el " +
+          "suero de todos los demás.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Algunas combinaciones se quedaban lisas y otras se apelmazaban en grumos visibles. Y " +
+          "los grumos no salían al azar: seguían un patrón perfectamente regular que permitía " +
+          "clasificar a las personas en grupos. Landsteiner encontró tres; el cuarto, el más " +
+          "raro, lo identificaron dos colaboradores al año siguiente. Recibió el Nobel de " +
+          "Medicina en 1930.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El problema no se resolvió con un aparato nuevo ni con una teoría nueva. Se resolvió " +
+          "mezclando en un tubo la sangre de unos cuantos compañeros de trabajo y anotando qué " +
+          "pasaba.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Los cuatro grupos no eran cuatro tipos de sangre, sino cuatro combinaciones",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que Landsteiner había encontrado tardó décadas en entenderse por dentro, y cuando " +
+          "se entendió resultó ser más elegante de lo que parecía.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la superficie de tus glóbulos rojos hay cadenas de azúcares. La base de todas ellas " +
+          "es una estructura llamada <strong>antígeno H</strong>, que tiene todo el mundo. A " +
+          "partir de ahí, un gen situado en el cromosoma 9 puede fabricar una enzima que le añada " +
+          "una pieza más a esa base: la versión A añade un azúcar llamado N-acetilgalactosamina, " +
+          "y la versión B añade galactosa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si heredas dos versiones capaces de añadir la primera pieza, eres del grupo A. Si " +
+          "añaden la segunda, del B. Si heredas una de cada, tus glóbulos llevan las dos y eres " +
+          "AB.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y el grupo O? Aquí está la parte bonita. El grupo O no es la ausencia de sangre ni un " +
+          "grupo neutro: es la base sin decorar. Su versión del gen tiene una sola letra menos " +
+          "—falta una guanina en la posición 261—, y esa letra que falta desplaza toda la lectura " +
+          "posterior del gen, de modo que la enzima que sale es una proteína distinta y sin " +
+          "ninguna actividad. No añade nada. El antígeno H se queda tal cual estaba.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El grupo O no es tener menos que los demás. Es tener exactamente lo que tenemos todos " +
+          "por debajo, sin la pieza que las otras versiones colocan encima.",
       },
     ],
   },
@@ -11143,6 +14168,231 @@ export const CURIOSIDADES: Short[] = [
           "El suelo de un terremoto se comporta exactamente igual que una tiza chirriando en una " +
           "pizarra. Es el mismo agarrarse y soltarse, con el mismo sonido de fondo, aplicado a un " +
           "trozo de corteza terrestre.",
+      },
+    ],
+  },
+  {
+    id: "por-que-hay-zurdos",
+    titulo: "Por qué hay zurdos",
+    categoria: "Cuerpo humano",
+    color: "var(--sage)",
+    /* Serie «por-que-hay-zurdos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Las manos pintadas en las cuevas ya daban la misma proporción» */
+    encargo: "Las manos pintadas en las cuevas ya daban la misma proporción",
+    fotos: [
+      {
+        local: p_por_que_hay_zurdos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Las manos pintadas en las cuevas ya daban la misma proporción",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una silueta en la pared dice qué mano tenía libre quien la hizo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En las paredes de decenas de cuevas del Paleolítico superior, repartidas por Europa y " +
+          "por medio mundo, hay siluetas de manos. La técnica se conoce bien: se apoya la mano " +
+          "abierta contra la roca y se sopla pigmento alrededor, con un tubo o directamente con " +
+          "la boca, hasta que al retirarla queda el negativo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso permite averiguar treinta mil años después. La mano que aparece " +
+          "dibujada es la que estaba quieta contra la pared. La otra, la que no se ve, es la que " +
+          "manejaba el tubo y hacía el trabajo delicado. Cada silueta es, sin quererlo, un " +
+          "registro de qué mano dominaba la persona que la hizo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y el recuento sale sorprendentemente moderno. En las siluetas del Paleolítico " +
+          "superior, entre hace treinta mil y diez mil años, alrededor del 77 % son manos " +
+          "izquierdas, lo que implica una proporción de zurdos parecida a la actual, en el " +
+          "entorno del 10 al 14 %.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La misma proporción aparece en todas partes donde se ha medido con cuidado: en " +
+          "sociedades industriales y en sociedades tradicionales, en un continente y en otro. No " +
+          "es una peculiaridad de una cultura ni de una época. Es una constante de la especie.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La proporción de zurdos no la fijó la escuela, ni la industria, ni ninguna costumbre. " +
+          "Estaba ya en las paredes de las cuevas, y es prácticamente la misma que hay hoy en tu " +
+          "clase o en tu oficina.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El idioma conserva intacto lo que se pensaba de esa minoría",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Vayamos ahora a las palabras, porque ahí quedó fosilizado el juicio moral de dos mil " +
+          "años.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En latín, la mano derecha era la <em>dextera</em> y la izquierda la <em>sinistra</em>. " +
+          "De la primera salen en castellano <strong>diestro</strong> —hábil— y " +
+          "<strong>destreza</strong>; de la segunda, <strong>siniestro</strong>, que ya no " +
+          "significa «situado a la izquierda» sino aciago, malintencionado, funesto. El " +
+          "desplazamiento no es casual: en la adivinación romana, la dirección de la que venían " +
+          "los presagios decidía si eran buenos o malos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El francés hizo lo mismo con otra pieza: <em>gauche</em> significa izquierda y también " +
+          "torpe, y de ahí lo tomó prestado el inglés. Y hay un caso que lo remata todo, porque " +
+          "enseña que el idioma ni siquiera concebía la alternativa: <strong>ambidextro</strong> " +
+          "viene de <em>ambi</em> «ambos» y <em>dexter</em> «derecho». Alguien capaz de usar bien " +
+          "las dos manos no se describe como alguien con dos manos igual de buenas, sino como " +
+          "alguien que tiene dos manos derechas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que hay dos hechos que conviene poner juntos. Uno es que la proporción de " +
+          "zurdos no se ha movido en treinta mil años. El otro es que durante la mayor parte de " +
+          "ese tiempo el idioma, la religión y la escuela han tratado esa minoría como un defecto " +
+          "que corregir.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "En castellano, la palabra para «hábil» significa literalmente «de la derecha», y la " +
+          "palabra para «funesto» significa literalmente «de la izquierda». La lengua se decidió " +
+          "hace mucho, y no ha vuelto a revisarlo.",
+      },
+    ],
+  },
+  {
+    id: "por-que-islandia-tiene-tantos-volcanes",
+    titulo: "Por qué Islandia tiene tantos volcanes",
+    categoria: "Planeta Tierra",
+    color: "var(--ochre)",
+    /* Serie «por-que-islandia-tiene-tantos-volcanes», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Islandia es el único sitio donde una dorsal oceánica sale del agua» */
+    encargo: "Islandia es el único sitio donde una dorsal oceánica sale del agua",
+    fotos: [
+      {
+        local: p_por_que_islandia_tiene_tantos_volcanes,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Islandia es el único sitio donde una dorsal oceánica sale del agua",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La grieta más larga del planeta pasa por debajo y en Islandia asoma",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La cordillera más larga de la Tierra no está en ningún continente y casi nadie la ha " +
+          "visto. Es la dorsal mesoatlántica, una cadena montañosa submarina que recorre el " +
+          "Atlántico de norte a sur, de punta a punta, y que marca la línea por donde el fondo " +
+          "del océano se está partiendo en dos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahí es donde se fabrica corteza nueva. Las placas de América del Norte y de Eurasia se " +
+          "separan, el hueco lo rellena magma que sube del manto, ese magma se enfría y se " +
+          "convierte en fondo marino nuevo. Es el proceso que ha ido abriendo el Atlántico " +
+          "durante los últimos 180 millones de años, y ocurre continuamente a lo largo de miles " +
+          "de kilómetros. Todo bajo dos o tres kilómetros de agua.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Islandia es el único trozo de esa dorsal que asoma. La isla está literalmente montada " +
+          "a horcajadas sobre la grieta, con su mitad oriental sobre la placa euroasiática y su " +
+          "mitad occidental sobre la norteamericana, separándose a razón de casi dos centímetros " +
+          "al año. En el valle de Þingvellir, donde se reunía la asamblea medieval islandesa, se " +
+          "puede caminar por el fondo de la fractura entre paredes de roca que son los bordes de " +
+          "dos placas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Islandia no está cerca de la frontera entre dos placas. Es la frontera, saliendo del " +
+          "agua, y se puede recorrer andando.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Salir a flote exige algo más que estar sobre la grieta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora bien, estar sobre la dorsal no basta para explicar por qué Islandia existe. La " +
+          "dorsal pasa también por debajo de miles de kilómetros de Atlántico donde no hay " +
+          "ninguna isla, y no la hay por una razón sencilla: la corteza que se fabrica en una " +
+          "dorsal normal tiene unos siete kilómetros de espesor, y con siete kilómetros el fondo " +
+          "queda muy por debajo del nivel del mar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para que ese fondo saliera a flote haría falta fabricar mucha más roca de la normal en " +
+          "ese punto concreto, y eso exige más magma del que aporta la simple separación de las " +
+          "placas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La explicación mayoritaria es que debajo hay un <strong>penacho del manto</strong>: " +
+          "una columna de material caliente que asciende desde mucha profundidad, modelada como " +
+          "una zona cilíndrica de doscientos o trescientos kilómetros de ancho, con su centro " +
+          "bajo la parte noroccidental del glaciar Vatnajökull, y activa desde hace unos 65 " +
+          "millones de años. Ese calor extra funde más manto, produce más magma y engrosa la " +
+          "corteza hasta que la pila de roca alcanza la superficie.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir: Islandia existe porque dos cosas coinciden en el mismo punto. Una grieta que " +
+          "separa dos placas y un chorro de calor que sube desde abajo justo ahí. La grieta da " +
+          "por dónde salir; el penacho da la cantidad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene decir que la existencia de ese penacho no es unánime. Hay geólogos que " +
+          "sostienen que no hace falta invocar una columna profunda y que basta con " +
+          "particularidades del manto superior de la zona, y el asunto lleva décadas " +
+          "discutiéndose sin resolverse. Lo que nadie discute es la consecuencia: allí se produce " +
+          "muchísimo más magma del que produciría una dorsal corriente.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una dorsal fabrica siete kilómetros de corteza y se queda bajo el agua. Islandia se ve " +
+          "porque en ese punto se fabrica mucha más, y esa cantidad extra es lo que sigue en " +
+          "discusión.",
       },
     ],
   },
@@ -13255,6 +16505,91 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "por-que-los-precios-acaban-en-99",
+    titulo: "Por qué los precios acaban en 99",
+    categoria: "Economía",
+    color: "var(--clay)",
+    /* Serie «por-que-los-precios-acaban-en-99», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El cerebro lee de izquierda a derecha y se queda con el primer dígito» */
+    encargo: "El cerebro lee de izquierda a derecha y se queda con el primer dígito",
+    fotos: [
+      {
+        local: p_por_que_los_precios_acaban_en_99,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "El cerebro lee de izquierda a derecha y se queda con el primer dígito",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El precio se codifica antes de terminar de leerlo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El fenómeno se llama <strong>efecto del dígito de la izquierda</strong>, y lo " +
+          "estudiaron Manoj Thomas y Vicki Morwitz en un trabajo de 2005 en el <em>Journal of " +
+          "Consumer Research</em> con un título que lo resume: <em>Penny wise and pound " +
+          "foolish</em>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La idea es que la magnitud de un precio no se calcula al terminar de leerlo, sino que " +
+          "se va formando mientras se lee. Y como se lee de izquierda a derecha, el primer dígito " +
+          "llega antes y actúa como ancla. Para cuando aparecen los céntimos, la impresión de " +
+          "tamaño ya está formada.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso 2,99 se archiva mentalmente en la vecindad del dos, y no en la del tres, " +
+          "aunque esté a un céntimo del tres.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La diferencia entre 2,99 y 3,00 es un céntimo en el bolsillo y una unidad entera en la " +
+          "impresión. La distancia entre esas dos cosas es todo el negocio.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "No es que la gente no sepa restar",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene descartar la explicación fácil, porque es falsa y además insultante.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Nadie se equivoca al comparar 2,99 con 3,00. Cualquiera, preguntado directamente, " +
+          "contesta que se diferencian en un céntimo. El efecto no vive en el conocimiento " +
+          "aritmético, sino en el orden del procesamiento: la comparación de magnitud se ha " +
+          "resuelto antes de que la segunda mitad del número se incorpore.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es la misma clase de fenómeno que hace que una ilusión óptica siga funcionando después " +
+          "de que a uno se la hayan explicado.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Saber cómo funciona no lo desactiva. Quien conoce el efecto sigue archivando el 2,99 " +
+          "cerca del dos, exactamente igual que antes de saberlo.",
+      },
+    ],
+  },
+  {
     id: "por-que-marte-es-rojo",
     titulo: "Por qué Marte es rojo",
     categoria: "Ciencia",
@@ -13342,6 +16677,119 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Marte no está oxidándose. Está oxidado, en pasado, y el rojo que vemos es la marca que " +
           "dejó el agua al marcharse.",
+      },
+    ],
+  },
+  {
+    id: "por-que-mataron-a-socrates",
+    titulo: "Por qué mataron a Sócrates",
+    categoria: "Historia",
+    color: "var(--teal)",
+    /* Serie «por-que-mataron-a-socrates», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «A Sócrates lo condenaron en una votación y lo mataron en otra» */
+    encargo: "A Sócrates lo condenaron en una votación y lo mataron en otra",
+    fotos: [
+      {
+        local: p_por_que_mataron_a_socrates,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "A Sócrates lo condenaron en una votación y lo mataron en otra",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El tribunal lo formaban unos quinientos atenienses sacados a suerte",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el año 399 a. C., un hombre de unos setenta años compareció ante un tribunal " +
+          "ateniense acusado de dos cosas: no reconocer a los dioses que reconoce la ciudad e " +
+          "introducir divinidades nuevas. A eso se sumaba una acusación más elástica y más " +
+          "peligrosa, la de corromper a los jóvenes. Quien juró la denuncia ante el arconte fue " +
+          "un tal <strong>Meleto</strong>, un poeta joven y poco conocido, acompañado por otros " +
+          "dos acusadores: <strong>Ánito</strong>, que era un político de peso, y " +
+          "<strong>Licón</strong>, un orador.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El tribunal no se parecía a nada de lo que hoy llamamos así. Según la reconstrucción " +
+          "habitual eran unos quinientos ciudadanos varones, sacados a sorteo entre los " +
+          "voluntarios, sin juez que dirigiera, sin abogados y sin deliberación. Cada parte " +
+          "hablaba durante un tiempo medido con un reloj de agua, y al terminar se votaba. Sin " +
+          "discusión previa, sin nadie explicando la ley y sin posibilidad de recurso.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Salió condenado. Del recuento exacto no se conserva acta, pero el propio Sócrates " +
+          "comenta en la versión de Platón que si treinta votos hubieran caído del otro lado " +
+          "habría sido absuelto, y de ahí se reconstruye un resultado en el entorno de doscientos " +
+          "ochenta contra doscientos veintiuno. Fue, para lo que había en juego, una votación " +
+          "ajustada.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No fue un tribunal que se equivocara por unanimidad. Casi la mitad de la sala votó a " +
+          "favor del acusado, y ese detalle hace la historia bastante más incómoda.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La segunda votación fue peor que la primera, y la culpa fue suya",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Aquí entra en juego una particularidad del procedimiento ateniense que explica el " +
+          "desenlace mejor que ninguna otra cosa. En delitos como aquel, la pena no la fijaba la " +
+          "ley: la proponía cada parte y el jurado elegía <strong>una de las dos</strong>, sin " +
+          "término medio y sin posibilidad de rebajar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La acusación pidió la muerte. Y a Sócrates le tocaba proponer una alternativa que " +
+          "resultara más atractiva a esos mismos quinientos hombres a los que acababa de no " +
+          "convencer.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que propuso fue esto: que la ciudad le mantuviera de por vida con comidas gratis en " +
+          "el Pritaneo, que era el honor reservado a los vencedores olímpicos y a los grandes " +
+          "benefactores públicos. Después, ante lo evidente, rebajó a una multa de cien dracmas, " +
+          "alrededor de la quinta parte de lo que tenía. Y solo cuando sus amigos —Platón entre " +
+          "ellos— se ofrecieron a avalarlo, la subió a tres mil dracmas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El jurado votó la muerte, y la votó por una mayoría más amplia que la que lo había " +
+          "declarado culpable. Ese dato es el más revelador del juicio entero: hubo hombres que " +
+          "le habían creído inocente por la mañana y que por la tarde votaron matarlo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No lo condenaron por lo que dijo en su defensa. Lo mataron por lo que propuso cuando " +
+          "ya estaba condenado, y esa segunda votación la perdió por más votos que la primera.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Aquellos tribunales se sorteaban entre voluntarios y se pagaba por " +
+          "asistir, de modo que los jurados solían ser ciudadanos mayores, con tiempo disponible " +
+          "y sin ninguna formación jurídica. Un juicio ateniense no era la aplicación de una ley " +
+          "por un especialista: era la opinión de una muestra grande de la ciudad, tomada en un " +
+          "solo día.",
       },
     ],
   },
@@ -14025,6 +17473,113 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "El susto te deja pálido porque el cuerpo retira sangre de la piel. En la cara, la " +
           "vergüenza hace justo lo contrario.",
+      },
+    ],
+  },
+  {
+    id: "por-que-olvidas-los-suenos",
+    titulo: "Por qué olvidas los sueños",
+    categoria: "Cuerpo humano",
+    color: "var(--plum)",
+    /* Serie «por-que-olvidas-los-suenos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Recordar un sueño depende casi por completo de cuándo te despiertas» */
+    encargo: "Recordar un sueño depende casi por completo de cuándo te despiertas",
+    fotos: [
+      {
+        local: p_por_que_olvidas_los_suenos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Recordar un sueño depende casi por completo de cuándo te despiertas",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dos investigadores probaron a despertar a la gente en el momento exacto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1957, en la Universidad de Chicago, <strong>William Dement</strong> y " +
+          "<strong>Nathaniel Kleitman</strong> publicaron en el <em>Journal of Experimental " +
+          "Psychology</em> un experimento que sigue siendo la base de todo lo que se sabe del " +
+          "asunto. La idea era sencilla y nadie la había hecho: en lugar de preguntarle a la " +
+          "gente por la mañana, despertarla a propósito en momentos elegidos y preguntarle en ese " +
+          "instante.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Trabajaron con nueve adultos, conectados a un electroencefalógrafo que registraba la " +
+          "actividad cerebral y a electrodos que medían los movimientos de los ojos. Cinco de " +
+          "ellos durmieron en el laboratorio entre seis y diecisiete noches cada uno. Los " +
+          "investigadores esperaban a que apareciera la fase de movimientos oculares rápidos —lo " +
+          "que hoy llamamos sueño REM— o a que el sujeto estuviera claramente fuera de ella, y " +
+          "entonces le despertaban y le preguntaban si había estado soñando.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los números son de una nitidez poco frecuente en psicología. De 191 despertares " +
+          "durante la fase REM, 152 produjeron un relato de sueño: alrededor de un 80 %. De 160 " +
+          "despertares fuera de esa fase, solo 11 lo produjeron: en torno a un 7 %.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Sueñas casi todas las noches y varias veces por noche. Lo que casi nunca ocurre es que " +
+          "te despierten en el momento en que está pasando, y ese es el requisito.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El sueño no llega a guardarse porque el cerebro dormido no está en modo de grabar",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hasta aquí el hallazgo describe cuándo se recuerda, y falta el porqué. Aquí es donde " +
+          "el asunto se pone interesante, porque la respuesta no es que el recuerdo se borre, " +
+          "sino que probablemente nunca llega a escribirse.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fijar un recuerdo a largo plazo no es automático: requiere que ciertos sistemas " +
+          "químicos del cerebro estén funcionando. Uno de los principales es la " +
+          "<strong>noradrenalina</strong>, que fabrica un pequeño núcleo del tronco cerebral " +
+          "llamado <strong>locus coeruleus</strong> y que interviene tanto en la atención como en " +
+          "el refuerzo de las memorias, sobre todo las que llegan cargadas de emoción. Durante el " +
+          "sueño REM, ese núcleo queda mayoritariamente en silencio, según buena parte de los " +
+          "registros disponibles.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir: en el momento exacto en que se produce la actividad mental más intensa de la " +
+          "noche, el sistema que se encarga de convertirla en recuerdo duradero está apagado. La " +
+          "experiencia ocurre, pero no se está grabando. Y si te despiertan durante ella, lo que " +
+          "recuperas no es un recuerdo consolidado, sino lo que todavía queda en la memoria " +
+          "inmediata, que dura muy poco y se pierde en cuanto te distraes.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene decir que esto es la explicación mayoritaria y no un asunto zanjado: hay " +
+          "estudios que matizan hasta qué punto ese núcleo se calla del todo, y la relación entre " +
+          "química y memoria durante el sueño sigue en discusión. Lo que sí encaja bien es la " +
+          "sensación cotidiana: el sueño se te escapa mientras intentas contarlo, que es " +
+          "exactamente lo que hace un recuerdo que nunca pasó de la memoria de trabajo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No olvidas los sueños. La mayor parte de las veces no llegaste a recordarlos nunca, " +
+          "porque el sistema que fabrica recuerdos duraderos estaba apagado mientras ocurrían.",
       },
     ],
   },
@@ -14910,6 +18465,130 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "por-que-se-hunde-venecia",
+    titulo: "Por qué se hunde Venecia",
+    categoria: "Planeta Tierra",
+    color: "var(--slate)",
+    /* Serie «por-que-se-hunde-venecia», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Venecia no flota: está clavada sobre un bosque enterrado» */
+    encargo: "Venecia no flota: está clavada sobre un bosque enterrado",
+    fotos: [
+      {
+        local: p_por_que_se_hunde_venecia,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Venecia no flota: está clavada sobre un bosque enterrado",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Debajo del fango hay una capa dura, y la ciudad la busca",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El fondo de la laguna es limo y arena blanda. Sobre eso no se levanta una iglesia de " +
+          "piedra: se hunde.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Pero a una profundidad de entre cuatro y ocho metros por debajo del nivel del mar hay " +
+          "otra cosa. Se llama <strong>caranto</strong>, y es una arcilla limosa antigua, " +
+          "oxidada, apretada durante milenios hasta quedar dura. Tiene un espesor medio de dos o " +
+          "tres metros y es, con diferencia, lo más firme que hay en toda la laguna.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La técnica veneciana consiste en clavar estacas de madera —roble, alerce, pino—, de " +
+          "unos cinco o seis metros de largo, muy juntas unas de otras, hasta llegar a esa capa o " +
+          "quedar apretadas contra ella. No se clavan unas pocas: se clavan por miles, tan " +
+          "pegadas que el propio suelo entre ellas queda comprimido y deja de ser blando.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La imagen de una ciudad que flota es exactamente la contraria de lo que pasa. Venecia " +
+          "está sujeta hacia abajo, cosida al único suelo firme que hay debajo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Encima de las estacas va madera, y encima piedra traída de fuera",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Sobre las cabezas de las estacas se coloca una plataforma de tablones, y sobre los " +
+          "tablones empieza la obra.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Venecia no tiene canteras. La piedra clara que se ve en el arranque de los muros, la " +
+          "que moja la marea dos veces al día, es <strong>piedra de Istria</strong>: una caliza " +
+          "tan compacta que resulta prácticamente impermeable, traída por mar desde la orilla de " +
+          "enfrente del Adriático. Por encima de esa franja, ya fuera del alcance del agua, " +
+          "empieza el ladrillo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cada palacio del Gran Canal es, leído de abajo arriba, un bosque hincado, una " +
+          "plataforma de madera, un zócalo de piedra importada y luego ladrillo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La ciudad se construyó con lo que no había allí. Ni piedra, ni suelo firme, ni tierra: " +
+          "todo lo que sostiene Venecia tuvo que traerse o fabricarse.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La madera enterrada no se pudre porque no le llega oxígeno",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esta es la parte que suena a truco y no lo es.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que pudre la madera son sobre todo los hongos, y los hongos necesitan oxígeno. Una " +
+          "estaca clavada por debajo del nivel freático está permanentemente empapada y sin aire: " +
+          "en un ambiente anóxico la degradación se vuelve lentísima. Sigue habiendo bacterias " +
+          "trabajando, pero a una velocidad que se mide en siglos, no en años.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí se deduce la condición que hay que cumplir. Mientras esas estacas sigan bajo el " +
+          "agua, aguantan. El día que el nivel bajara y les entrara aire, empezarían a pudrirse " +
+          "como cualquier tronco.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Lo que ha conservado los cimientos de Venecia durante mil años es precisamente el agua " +
+          "que amenaza la ciudad por arriba.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Para levantar la basílica de Santa Maria della Salute, empezada en 1631, " +
+          "se clavó del orden de un millón de estacas de madera. Una sola iglesia.",
+      },
+    ],
+  },
+  {
     id: "el-pan-duro-no-se-ha-secado",
     titulo: "Por qué se pone duro el pan",
     categoria: "Cocina",
@@ -15568,6 +19247,119 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Una gota de alcohol vuelve verde el azul de una <em>Morpho</em>, y al secarse vuelve a " +
           "ser azul. Ningún pigmento hace eso.",
+      },
+    ],
+  },
+  {
+    id: "por-que-sube-la-inflacion",
+    titulo: "Por qué sube la inflación",
+    categoria: "Economía",
+    color: "var(--sage)",
+    /* Serie «por-que-sube-la-inflacion», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La inflación no mide precios: mide el coste de una cesta convenida» */
+    encargo: "La inflación no mide precios: mide el coste de una cesta convenida",
+    fotos: [
+      {
+        local: p_por_que_sube_la_inflacion,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La inflación no mide precios: mide el coste de una cesta convenida",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El IPC español está construido sobre 955 artículos con distinto peso",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene empezar por lo que hay dentro del número, porque casi nunca se explica.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El Índice de Precios de Consumo del INE, en su base de 2021, sigue <strong>955 " +
+          "artículos</strong> agrupados en 199 subclases. De esos artículos, 462 se recogen " +
+          "todavía yendo a mirar el precio, y el resto se obtienen directamente de los datos de " +
+          "caja de los comercios.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y cada artículo entra en el índice con un peso distinto, proporcional a lo que los " +
+          "hogares se gastan realmente en él. Que suba el pan pesa mucho más que que suba el " +
+          "aceite de linaza, no porque el pan importe más, sino porque hay mucho más gasto " +
+          "detrás.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El IPC no responde a la pregunta <em>cuánto han subido los precios</em>. Responde a " +
+          "otra: <em>cuánto cuesta ahora comprar exactamente lo mismo que se compraba antes, en " +
+          "las mismas proporciones</em>.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Los pesos hay que actualizarlos, y ahí está la parte delicada",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si la cesta se quedara congelada, al cabo de veinte años el índice estaría midiendo el " +
+          "coste de una forma de vida que ya no existe: carretes de fotos, línea fija, " +
+          "enciclopedias por fascículos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso las ponderaciones se revisan <strong>cada año</strong> para los grandes " +
+          "agregados, y la estructura completa se rehace <strong>cada cinco</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es lo correcto y a la vez es lo incómodo, porque significa que la cesta con la que se " +
+          "mide hoy no es exactamente la misma con la que se medía hace una década. La serie no " +
+          "compara dos veces la misma cosa: compara dos cestas encadenadas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Cualquier medida de la inflación tiene que elegir entre medir siempre lo mismo, y " +
+          "volverse irreal, o seguir la realidad, y dejar de medir siempre lo mismo. No hay una " +
+          "tercera opción.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El mismo número describe vidas que no se parecen",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí sale la sensación, muy extendida y perfectamente razonable, de que la inflación " +
+          "oficial no coincide con la de casa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El índice describe un hogar promedio que no existe. Un hogar que dedique una parte " +
+          "grande de su gasto a energía, alquiler y alimentos no vive el mismo 3 % que otro cuyo " +
+          "gasto esté repartido de otra manera. Los dos números son correctos; describen cestas " +
+          "distintas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El índice es una convención honesta, no una medida física como la temperatura. " +
+          "Funciona bien exactamente hasta donde el promedio se parece a la vida de quien lo " +
+          "mira.",
       },
     ],
   },
@@ -16969,6 +20761,113 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "puede-pensar-una-maquina",
+    titulo: "Puede pensar una máquina",
+    categoria: "Filosofía",
+    color: "var(--ochre)",
+    /* Serie «puede-pensar-una-maquina», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Turing cambió la pregunta porque la original no tenía respuesta» */
+    encargo: "Turing cambió la pregunta porque la original no tenía respuesta",
+    fotos: [
+      {
+        local: p_puede_pensar_una_maquina,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Turing cambió la pregunta porque la original no tenía respuesta",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El juego de la imitación empezó siendo un hombre fingiendo ser una mujer",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1950, en la revista de filosofía <em>Mind</em>, <strong>Alan Turing</strong> " +
+          "publicó un artículo que arranca con una frase de sencillez engañosa: se propone " +
+          "considerar la pregunta de si las máquinas pueden pensar. Y a los pocos párrafos la " +
+          "abandona. Definir «máquina» y definir «pensar» le parecía una discusión de diccionario " +
+          "sin salida, así que hizo otra cosa: sustituir la pregunta por otra distinta, " +
+          "emparentada con ella y formulada en palabras que no admitan discusión.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Esa otra pregunta es un juego de salón, y su versión original no tiene nada que ver " +
+          "con la informática. Se juega entre tres personas: un hombre, una mujer y un " +
+          "interrogador, que puede ser de cualquier sexo. El interrogador está en una habitación " +
+          "aparte y solo recibe respuestas escritas. Su trabajo consiste en averiguar cuál de los " +
+          "otros dos es el hombre y cuál la mujer. Él intenta despistarle; ella intenta ayudarle.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y entonces llega el giro que convirtió un pasatiempo victoriano en el problema central " +
+          "de una disciplina entera. ¿Qué ocurre, se pregunta Turing, si una máquina ocupa el " +
+          "puesto del hombre? ¿Se equivocará el interrogador tantas veces como se equivocaba " +
+          "cuando ese puesto lo ocupaba una persona? Esa, y no la del pensamiento, es la pregunta " +
+          "que se propuso responder.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Turing nunca contestó si las máquinas piensan. Cambió la pregunta por una que se " +
+          "resuelve con un cronómetro y un recuento de aciertos, y buena parte de las discusiones " +
+          "posteriores vienen de no haberse enterado del cambio.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La predicción llevaba fecha, tamaño de memoria y porcentaje",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Turing se atrevió además a poner cifras, algo que casi nadie hace. Creía que en unos " +
+          "cincuenta años se podrían programar ordenadores con una capacidad de almacenamiento de " +
+          "unos mil millones de dígitos binarios para jugar tan bien al juego de la imitación que " +
+          "un interrogador medio no tendría más de un 70 % de probabilidad de identificar " +
+          "correctamente después de cinco minutos de preguntas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene desmontar esa frase, porque casi siempre se cita al revés. Turing no dijo que " +
+          "la máquina engañaría al 70 % de los jueces. Dijo lo contrario: que el juez acertaría " +
+          "<strong>como mucho</strong> el 70 % de las veces, o sea que se equivocaría al menos " +
+          "tres de cada diez. El listón que puso es bastante más bajo del que se le atribuye.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y la cantidad de memoria sorprende por lo pequeña. Mil millones de dígitos binarios " +
+          "son unos 125 megabytes. Hoy caben de sobra en cualquier teléfono; en 1950 era una " +
+          "cifra que no existía sobre la faz de la Tierra.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La predicción tenía dos mitades. La del tamaño de la memoria se cumplió con muchísimo " +
+          "margen. La de la fecha sigue en discusión, sobre todo porque nadie se pone de acuerdo " +
+          "en qué contaría como haberla cumplido.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Más de la mitad del artículo está dedicada a contestar por adelantado " +
+          "nueve objeciones que Turing imaginó que le harían, desde la teológica hasta la que él " +
+          "llamó «la objeción de Lady Lovelace»: que la máquina analítica no tiene pretensión " +
+          "alguna de originar nada, sino que hace aquello que sepamos ordenarle. La cita es de " +
+          "1842.",
+      },
+    ],
+  },
+  {
     id: "que-es-el-salar-de-uyuni",
     titulo: "Qué es el salar de Uyuni",
     categoria: "Planeta Tierra",
@@ -17167,6 +21066,124 @@ export const CURIOSIDADES: Short[] = [
           "No existe una forma de apagar el fuego, existen cuatro, y cada extintor elige la suya. " +
           "La más elegante no le quita nada al fuego: se limita a romper la cadena por la que un " +
           "trozo enciende al siguiente.",
+      },
+    ],
+  },
+  {
+    id: "que-es-la-conciencia",
+    titulo: "Qué es la conciencia",
+    categoria: "Filosofía",
+    color: "var(--clay)",
+    /* Serie «que-es-la-conciencia», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Chalmers separó los problemas fáciles de los que no lo son» */
+    encargo: "Chalmers separó los problemas fáciles de los que no lo son",
+    fotos: [
+      {
+        local: p_que_es_la_conciencia,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Chalmers separó los problemas fáciles de los que no lo son",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una lista entera de misterios resultó ser la parte sencilla",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1995, en el <em>Journal of Consciousness Studies</em>, el filósofo australiano " +
+          "<strong>David Chalmers</strong> publicó un artículo que reorganizó una disciplina " +
+          "entera sin aportar ningún dato nuevo. Lo único que hizo fue separar dos cosas que " +
+          "hasta entonces se discutían mezcladas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Empezó por hacer una lista de lo que él llamó los problemas fáciles de la conciencia. " +
+          "Explicar cómo distinguimos, categorizamos y reaccionamos ante los estímulos del " +
+          "entorno. Cómo un sistema cognitivo integra información. Cómo somos capaces de informar " +
+          "de nuestros propios estados mentales. Cómo un sistema accede a sus estados internos. " +
+          "Cómo funciona el foco de la atención. Cómo se controla deliberadamente la conducta. Y " +
+          "qué diferencia hay entre estar despierto y estar dormido.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Leída de golpe, esa lista es media neurociencia, y ninguno de sus elementos está " +
+          "resuelto. Chalmers no dice que sean triviales; dice que son fáciles en un sentido muy " +
+          "concreto y muy exigente: sabemos qué forma tendría la respuesta. Todos ellos preguntan " +
+          "por una función, y explicar una función consiste en encontrar el mecanismo que la " +
+          "ejecuta. Puede llevarnos dos siglos, pero no hay ninguna duda sobre qué contaría como " +
+          "haberlo conseguido.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Los problemas fáciles son fáciles porque todos preguntan lo mismo: qué hace el sistema " +
+          "y cómo lo hace. Podemos tardar lo que sea, pero sabemos por dónde se avanza.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Lo verdaderamente difícil no es explicar qué hace el cerebro, sino por qué se siente",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El otro problema, el que Chalmers llamó difícil, es el de la experiencia. Cuando " +
+          "pensamos y percibimos hay un torbellino de procesamiento de información, escribió, " +
+          "pero hay además un aspecto subjetivo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Consideremos qué significa eso con un caso concreto. Supongamos que algún día tenemos " +
+          "la explicación completa de cómo el sistema visual distingue una fresa: qué conos se " +
+          "activan, cómo viaja la señal, qué áreas la procesan, qué neuronas hacen que el brazo " +
+          "se estire y la mano la coja. Explicación cerrada, sin lagunas, de toda la función.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y aun teniéndola entera, queda en pie una pregunta que ninguna de esas frases " +
+          "responde: ¿por qué todo eso va acompañado de algo? ¿Por qué no ocurre a oscuras, como " +
+          "ocurre en un termostato o en el sistema que regula tu tensión arterial, que hacen su " +
+          "trabajo sin que se sienta nada por dentro? Cada respuesta funcional deja intacta la " +
+          "pregunta, y por eso el problema difícil no es una pieza más del rompecabezas: es una " +
+          "pregunta de otra clase.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene decir que no todo el mundo acepta el reparto. Hay filósofos y " +
+          "neurocientíficos que sostienen que el problema difícil es una ilusión gramatical, y " +
+          "que se disolverá cuando resolvamos suficientes problemas fáciles, del mismo modo que " +
+          "la pregunta por la fuerza vital se disolvió cuando entendimos la bioquímica. Ese " +
+          "desacuerdo lleva treinta años sin cerrarse, y mientras tanto la línea divisoria de " +
+          "Chalmers sigue siendo el mapa que casi todos usan para discutir, incluidos quienes " +
+          "creen que está mal trazada.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Todo lo que la ciencia sabe hacer es explicar funciones. La conciencia es el único " +
+          "fenómeno del que sospechamos que, explicada la función entera, todavía faltaría algo " +
+          "por explicar.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? El artículo es de 1995, pero el ambiente que lo hizo posible venía del " +
+          "año anterior: en 1994 se celebró en Tucson, Arizona, el primer congreso «Hacia una " +
+          "ciencia de la conciencia», con Chalmers entre los ponentes. De aquella reunión salió " +
+          "una comunidad de filósofos, neurocientíficos, físicos y matemáticos que sigue " +
+          "juntándose desde entonces.",
       },
     ],
   },
@@ -18453,6 +22470,228 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "que-funcion-tiene-la-fiebre",
+    titulo: "Qué función tiene la fiebre",
+    categoria: "Cuerpo humano",
+    color: "var(--teal)",
+    /* Serie «que-funcion-tiene-la-fiebre», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La fiebre no es el termostato roto: es el termostato movido» */
+    encargo: "La fiebre no es el termostato roto: es el termostato movido",
+    fotos: [
+      {
+        local: p_que_funcion_tiene_la_fiebre,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La fiebre no es el termostato roto: es el termostato movido",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tienes frío con treinta y nueve grados porque tu cuerpo quiere cuarenta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Quizá pienses que la fiebre es el cuerpo recalentándose porque algo ha dejado de " +
+          "funcionar. Es lo contrario: es un sistema que funciona perfectamente ejecutando una " +
+          "orden nueva.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Vayamos paso a paso, porque cada eslabón se apoya en el anterior. Cuando una bacteria " +
+          "o un virus entra, ciertas moléculas de su superficie actúan como <strong>pirógenos " +
+          "exógenos</strong>, señales que el sistema inmunitario reconoce como ajenas. Las " +
+          "células de defensa responden fabricando sus propias señales —interleucina 1, " +
+          "interleucina 6, factor de necrosis tumoral, interferón—, que viajan por la sangre y se " +
+          "llaman pirógenos endógenos. Esas moléculas llegan al cerebro por un punto muy " +
+          "concreto: el <strong>órgano vasculoso de la lámina terminal</strong>, una de las " +
+          "poquísimas zonas donde no hay barrera hematoencefálica y la sangre puede hablar " +
+          "directamente con el tejido nervioso. Allí desencadenan la producción de " +
+          "<strong>prostaglandina E2</strong>, que actúa sobre las neuronas del hipotálamo " +
+          "encargadas de regular la temperatura. Y esas neuronas hacen una sola cosa: suben la " +
+          "temperatura objetivo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora fíjate en lo que ocurre a continuación, porque explica el síntoma más raro de la " +
+          "fiebre. Tu cuerpo está a 37 grados y su objetivo acaba de pasar a 39. Desde el punto " +
+          "de vista del hipotálamo, estás demasiado frío, y por tanto activa exactamente lo que " +
+          "activaría en una noche de invierno: cierra los vasos de la piel para no perder calor, " +
+          "te eriza el vello, te encoge y te hace tiritar, porque temblar es contraer músculos " +
+          "para producir calor.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Por eso tienes escalofríos y buscas una manta mientras el termómetro marca casi 39. No " +
+          "es una contradicción: es un cuerpo obedeciendo la orden de calentarse. Y cuando la " +
+          "fiebre baja, ocurre al revés: el objetivo vuelve a 37, de golpe te sobran dos grados, " +
+          "y sudas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El escalofrío no acompaña a la fiebre: la produce. Tiritas porque tu cerebro ha " +
+          "decidido que tu temperatura correcta es más alta y todavía no has llegado.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La diferencia con un golpe de calor no es de grados, es de gobierno",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene separar dos cosas que se confunden todo el rato y que son distintas de raíz.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la fiebre, el hipotálamo manda. Ha subido su objetivo y el cuerpo lo persigue con " +
+          "los mecanismos de siempre, y por eso se detiene sola cuando llega: la fiebre rara vez " +
+          "pasa de 41 grados, porque hay alguien decidiendo dónde parar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En la <strong>hipertermia</strong> —el golpe de calor, la insolación, ciertas " +
+          "reacciones a fármacos— el objetivo del hipotálamo no ha cambiado. Lo que pasa es que " +
+          "el calor entra o se produce más deprisa de lo que el cuerpo puede eliminarlo, y la " +
+          "regulación queda desbordada. Ahí no hay nadie al mando, no hay tope, y la temperatura " +
+          "sigue subiendo mientras dure la causa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De ahí sale la diferencia práctica entre las dos, que es enorme. Una fiebre de 39 " +
+          "grados y una hipertermia de 39 grados marcan lo mismo en el termómetro y no son el " +
+          "mismo fenómeno: una es un sistema de control trabajando y la otra es un sistema de " +
+          "control superado.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El mismo número en el termómetro puede significar que tu cuerpo está haciendo su " +
+          "trabajo o que ha perdido el control de él. La cifra no distingue las dos cosas; solo " +
+          "lo hace saber de dónde viene.",
+      },
+    ],
+  },
+  {
+    id: "que-funcion-tienen-los-suenos",
+    titulo: "Qué función tienen los sueños",
+    categoria: "Cuerpo humano",
+    color: "var(--plum)",
+    /* Serie «que-funcion-tienen-los-suenos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Freud dio la primera respuesta y es la que peor ha envejecido» */
+    encargo: "Freud dio la primera respuesta y es la que peor ha envejecido",
+    fotos: [
+      {
+        local: p_que_funcion_tienen_los_suenos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Freud dio la primera respuesta y es la que peor ha envejecido",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Partió el sueño en dos: lo que recuerdas y lo que de verdad significa",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1900, <strong>Sigmund Freud</strong> publicó <em>La interpretación de los " +
+          "sueños</em>, y conviene reconocerle lo que hizo antes de contar lo que falló. Hasta " +
+          "entonces, los sueños eran presagios, digestiones pesadas o ruido mental sin interés. " +
+          "Freud fue quien sostuvo que son un producto de la mente que puede estudiarse, que " +
+          "tienen estructura y que guardan relación con la vida despierta de quien los tiene. Eso " +
+          "último es correcto y sigue siéndolo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Su teoría concreta funciona así. Todo sueño tiene dos capas. El <strong>contenido " +
+          "manifiesto</strong> es lo que recuerdas al despertar: la escena, los personajes, la " +
+          "secuencia absurda. El <strong>contenido latente</strong> es el deseo real que hay " +
+          "debajo, casi siempre inaceptable para la conciencia. Entre los dos actúa lo que llamó " +
+          "el trabajo del sueño, que disfraza el segundo para producir el primero mediante " +
+          "condensaciones, desplazamientos y símbolos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Y para qué serviría todo eso? Para dormir. Según Freud, el sueño es el guardián del " +
+          "descanso: los deseos reprimidos empujan durante la noche, y disfrazarlos como escenas " +
+          "raras permite darles salida sin que te despierten.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Freud no acertó con el mecanismo, pero fue el primero en tratar los sueños como algo " +
+          "que hace el cerebro por un motivo. Todo lo que vino después discute su respuesta y " +
+          "acepta su pregunta.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Una teoría que encaja con cualquier resultado no se puede poner a prueba",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema de fondo no es que la interpretación de un sueño concreto sea discutible. " +
+          "Es que el sistema entero está construido de manera que ningún sueño puede " +
+          "contradecirlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en cómo funciona. Si sueñas con algo agradable, es un deseo cumplido " +
+          "directamente. Si sueñas con algo terrible, el deseo está disfrazado por la censura. Si " +
+          "sueñas con lo contrario de lo que quieres, es una inversión. Si no sueñas nada " +
+          "reconocible, la deformación fue completa. Cada resultado posible tiene su explicación " +
+          "dentro de la teoría, y una teoría que explica igual de bien cualquier observación no " +
+          "está diciendo gran cosa sobre el mundo: no hay observación que pudiera demostrarla " +
+          "falsa.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "A eso se suma un dato incómodo que llegó desde la neurología. Los sueños de los " +
+          "pacientes con estrés postraumático repiten el trauma una y otra vez, sin disfraz y sin " +
+          "nada que se parezca a un deseo cumplido. Y los sueños de los niños pequeños son mucho " +
+          "más simples y directos de lo que la teoría necesitaría.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hoy la interpretación freudiana no forma parte de la investigación sobre el sueño. Lo " +
+          "que sí sobrevive es la observación más básica, la que cualquiera puede comprobar: los " +
+          "sueños se alimentan de la vida despierta, y quien atraviesa una temporada difícil " +
+          "sueña con ella.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La teoría duró un siglo en la cultura general y no pasó de la puerta del laboratorio. " +
+          "Podía explicar cualquier sueño, y esa es exactamente la razón por la que no se pudo " +
+          "comprobar.",
+      },
+    ],
+  },
+  {
     id: "que-hay-debajo-de-la-antartida",
     titulo: "Qué hay debajo de la Antártida",
     categoria: "Planeta Tierra",
@@ -18661,6 +22900,106 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "que-paso-con-la-biblioteca-de-alejandria",
+    titulo: "Qué pasó con la Biblioteca de Alejandría",
+    categoria: "Historia",
+    color: "var(--sage)",
+    /* Serie «que-paso-con-la-biblioteca-de-alejandria», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Los barcos que atracaban en Alejandría tenían que entregar sus libros» */
+    encargo: "Los barcos que atracaban en Alejandría tenían que entregar sus libros",
+    fotos: [
+      {
+        local: p_que_paso_con_la_biblioteca_de_alejandria,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Los barcos que atracaban en Alejandría tenían que entregar sus libros",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La política de adquisiciones consistía en registrar el puerto",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La biblioteca la propuso Ptolomeo I, que reinó entre el 323 y el 282 a. C., y la " +
+          "construyó y la llenó su hijo Ptolomeo II. Su objetivo declarado no era tener una buena " +
+          "biblioteca: era tener todos los libros del mundo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y el método para conseguirlo era el que cabe esperar de un estado con esa ambición. A " +
+          "los barcos que atracaban en el puerto de Alejandría se les confiscaban los libros que " +
+          "llevaran a bordo. Se copiaban, se le devolvía al dueño la copia, y el original se " +
+          "quedaba en la biblioteca.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en el detalle de que se quedaran el original y no la copia, porque no es un " +
+          "capricho. Un texto antiguo copiado a mano acumula errores en cada copia: cada escriba " +
+          "se salta una línea, confunde una palabra o corrige lo que cree que es una errata. " +
+          "Cuanto más viejo es el ejemplar, menos manos ha pasado y menos errores tiene. Por eso " +
+          "los bibliotecarios de Alejandría buscaban específicamente los ejemplares antiguos, y " +
+          "por eso el original valía más que la copia.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No era una biblioteca que aceptara donaciones. Era una institución del estado que " +
+          "registraba los barcos del puerto y se quedaba con lo que encontraba.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Prefirieron perder quince talentos antes que devolver tres libros",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay un episodio que resume el nivel de ambición del proyecto mejor que cualquier " +
+          "cifra.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Atenas conservaba los ejemplares oficiales de las tragedias de Esquilo, Sófocles y " +
+          "Eurípides, los textos de referencia contra los que se comprobaba cualquier " +
+          "representación. Ptolomeo III pidió prestarlos para copiarlos, y los atenienses, " +
+          "razonablemente desconfiados, exigieron un depósito de quince talentos como garantía de " +
+          "devolución. Era una fortuna.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ptolomeo pagó el depósito, recibió los originales, los copió, envió a Atenas las " +
+          "copias y se quedó con los originales. Y les hizo saber que podían quedarse con el " +
+          "dinero.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Sobre el tamaño de la colección resultante, las fuentes antiguas dan cifras que van de " +
+          "decenas de miles a varios cientos de miles de rollos, y la más citada ronda los " +
+          "quinientos mil. Ninguna es fiable: nadie hizo un inventario que se conserve, y los " +
+          "números antiguos de esta clase suelen ser retóricos.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El rey de Egipto perdió a propósito una fortuna en un depósito con tal de quedarse con " +
+          "tres manuscritos. Eso dice más de lo que era aquella biblioteca que cualquier cifra de " +
+          "rollos.",
+      },
+    ],
+  },
+  {
     id: "dos-mil-anos-antes-de-los-druidas",
     titulo: "Quién construyó Stonehenge y para qué",
     categoria: "Historia",
@@ -18791,6 +23130,112 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "quien-fue-alejandro-magno",
+    titulo: "Quién fue Alejandro Magno",
+    categoria: "Historia",
+    color: "var(--ochre)",
+    /* Serie «quien-fue-alejandro-magno», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «No se conserva una sola línea escrita por alguien que lo conociera» */
+    encargo: "No se conserva una sola línea escrita por alguien que lo conociera",
+    fotos: [
+      {
+        local: p_quien_fue_alejandro_magno,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "No se conserva una sola línea escrita por alguien que lo conociera",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Toda su campaña la contaron testigos cuyos libros se han perdido",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Antes de contar nada de Alejandro conviene saber de dónde sale lo que se cuenta, " +
+          "porque el caso es extremo incluso para la Antigüedad.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Gente que estuvo allí y escribió sobre ello, la hubo, y bastante. " +
+          "<strong>Ptolomeo</strong>, amigo de infancia y guardaespaldas real, que después se " +
+          "quedó con Egipto y se proclamó rey en el 306 a. C., escribió sus memorias de campaña. " +
+          "<strong>Aristóbulo</strong>, probablemente ingeniero militar, publicó las suyas a los " +
+          "ochenta y cuatro años. <strong>Nearco</strong>, el almirante, contó la navegación por " +
+          "el Índico. <strong>Onesícrito</strong> escribió sobre la educación de Alejandro. " +
+          "Existía además un diario oficial de la corte.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No se conserva ninguno. Todos esos libros están perdidos, y lo único que tenemos son " +
+          "autores muy posteriores —Arriano, Plutarco, Diodoro, Curcio— que los leyeron y los " +
+          "resumieron, escribiendo siglos después de los hechos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir: lo que sabemos de Alejandro es lo que unos escritores de época romana " +
+          "entresacaron de unos libros que nosotros ya no podemos comprobar.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Todo lo que se cuenta de Alejandro pasó por dos filtros: primero un testigo con sus " +
+          "propios intereses, y después alguien que lo resumió cuatrocientos años más tarde y " +
+          "eligió qué conservar.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El cronista oficial de la campaña acabó muerto por llevarle la contraria",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Hay un caso que enseña de golpe cómo funcionaba aquella información en origen.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "<strong>Calístenes de Olinto</strong> era historiador profesional y sobrino de " +
+          "Aristóteles, y viajó con la expedición con un encargo concreto: documentar la campaña. " +
+          "Su obra, <em>Los hechos de Alejandro</em>, era abiertamente propagandística. Trazaba " +
+          "paralelismos con Homero y presentaba al rey en términos que hoy llamaríamos de " +
+          "departamento de comunicación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y ahí está la parte que conviene saber. En el año 327 a. C., Calístenes se opuso a la " +
+          "introducción de la <em>proskynesis</em>, el gesto de postración ante el rey que era " +
+          "costumbre en la corte persa y que a los macedonios les parecía adoración indebida de " +
+          "un hombre. Poco después fue detenido, y murió en prisión o crucificado; las fuentes no " +
+          "coinciden.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Piensa en lo que eso significa para el material de partida. El encargado oficial de " +
+          "escribir la historia de aquella campaña acabó ejecutado por discrepar del " +
+          "protagonista. Cualquiera que escribiera después, y que quisiera seguir vivo o mantener " +
+          "su puesto, tenía esa información delante.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Del historiador oficial de la campaña sabemos dos cosas: que escribía propaganda y que " +
+          "aun así lo mataron. Con esas dos cosas ya se puede leer todo lo demás.",
+      },
+    ],
+  },
+  {
     id: "quien-fue-cleopatra",
     titulo: "Quién fue Cleopatra",
     categoria: "Historia",
@@ -18881,6 +23326,114 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "La primera de su familia en molestarse en aprender la lengua del país que gobernaba " +
           "fue también la última que lo gobernó.",
+      },
+    ],
+  },
+  {
+    id: "quien-fue-gengis-kan",
+    titulo: "Quién fue Gengis Kan",
+    categoria: "Historia",
+    color: "var(--clay)",
+    /* Serie «quien-fue-gengis-kan», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Gengis Kan no es un nombre: es un título que se puso a los cuarenta» */
+    encargo: "Gengis Kan no es un nombre: es un título que se puso a los cuarenta",
+    fotos: [
+      {
+        local: p_quien_fue_gengis_kan,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Gengis Kan no es un nombre: es un título que se puso a los cuarenta",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se llamaba Temuyín y empezó comiendo raíces",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El hombre nació hacia 1162 —las fechas propuestas van de 1155 a 1167— y se llamaba " +
+          "<strong>Temuyín</strong>, un nombre que quizá venga de <em>temür</em>, hierro.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Su infancia no se parece en nada al comienzo de una carrera de conquistador. Cuando " +
+          "tenía ocho años, su padre Yesugei fue envenenado por unos tártaros que le habían " +
+          "ofrecido hospitalidad, y murió al poco de volver a casa. Sin el padre, el clan de los " +
+          "tayichiud excluyó a la familia de las ceremonias, les retiró el reconocimiento y los " +
+          "abandonó. Casi toda su gente renunció a ellos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que quedó fue una viuda con varios hijos pequeños en la estepa, sin rebaños y sin " +
+          "protección, sobreviviendo de recoger raíces, frutos secos y pescar. En una sociedad " +
+          "ganadera y de clanes, eso no es pobreza: es no existir.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De aquella época viene un episodio que las crónicas oficiales prefirieron omitir y que " +
+          "solo se conserva en la <em>Historia secreta de los mongoles</em>: en una disputa por " +
+          "el reparto de la caza y la herencia, Temuyín y su hermano Kasar emboscaron y mataron a " +
+          "su medio hermano Behter. Los historiadores modernos consideran además muy probable que " +
+          "pasara buena parte de la década siguiente sirviendo, prácticamente esclavizado, en " +
+          "territorio de la dinastía Jin.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El fundador del mayor imperio terrestre de la historia empezó siendo un niño " +
+          "abandonado en la estepa que comía raíces, y del que su propia gente había decidido que " +
+          "no valía nada.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "En 1206 una asamblea le dio un título cuyo significado nadie sabe",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que ocurrió entre aquella infancia y 1206 es una acumulación de alianzas, " +
+          "traiciones y guerras entre clanes de la estepa que terminó con todas las tribus " +
+          "mongolas bajo un solo mando.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 1206 se convocó un <em>kurultai</em>, la asamblea de jefes, y allí Temuyín adoptó " +
+          "formalmente el título de <strong>Gengis Kan</strong>. A partir de ese momento el " +
+          "nombre propio prácticamente desaparece de la historia.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y hay un detalle que resulta desconcertante: no se sabe con seguridad qué significa. " +
+          "Se ha propuesto que remita a ideas de fuerza, firmeza, dureza o rectitud; y también " +
+          "que venga del turco <em>tängiz</em>, océano, con el sentido de gobernante universal. " +
+          "Ninguna explicación se impone.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que eso implica para todo lo demás. Del hombre más temido de su siglo no " +
+          "sabemos con certeza qué quería decir el título que él mismo eligió. Y no es un caso " +
+          "aislado: tampoco sabemos su año de nacimiento exacto, ni de qué murió, ni dónde está " +
+          "enterrado.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Del personaje que más gente conoce de nombre en toda la historia de Asia central no " +
+          "sabemos con seguridad cuándo nació, qué significaba su título, de qué murió ni dónde " +
+          "está.",
       },
     ],
   },
@@ -19177,6 +23730,105 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
+    id: "quien-fue-marie-curie",
+    titulo: "Quién fue Marie Curie",
+    categoria: "Historia",
+    color: "var(--teal)",
+    /* Serie «quien-fue-marie-curie», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Estudió en una universidad clandestina y trabajó seis años para pagar la de su hermana» */
+    encargo: "Estudió en una universidad clandestina y trabajó seis años para pagar la de su hermana",
+    fotos: [
+      {
+        local: p_quien_fue_marie_curie,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Estudió en una universidad clandestina y trabajó seis años para pagar la de su hermana",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En la Varsovia de su juventud, una mujer no podía matricularse",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Maria Skłodowska nació en Varsovia cuando Polonia no existía como estado y aquella " +
+          "parte estaba bajo dominio ruso. Y en las instituciones de enseñanza superior de allí " +
+          "no se admitía a mujeres.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que hizo, junto con su hermana, fue apuntarse a lo que había: la " +
+          "<strong>Universidad Volante</strong>, una institución polaca clandestina que daba " +
+          "clases superiores, cambiaba de local para no ser descubierta y admitía alumnas. " +
+          "Enseñar y aprender allí era ilegal por partida doble, porque además de admitir mujeres " +
+          "formaba parte de la resistencia cultural polaca frente a la rusificación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con eso no se obtenía ningún título. Era conocimiento sin papel, obtenido a " +
+          "escondidas.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La primera universidad de la científica más famosa del siglo XX era ilegal, cambiaba " +
+          "de dirección para que no la encontraran y no expedía títulos.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El pacto con su hermana: primero tú, después yo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Para estudiar de verdad había que salir de allí, y las dos hermanas querían hacerlo. " +
+          "No había dinero para las dos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El acuerdo al que llegaron fue este: Maria trabajaría para mantener a Bronisława " +
+          "mientras esta estudiaba Medicina en París, y cuando Bronisława fuera médica y tuviera " +
+          "ingresos, pagaría los estudios de Maria.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Maria cumplió su parte trabajando de institutriz en casas ajenas, en el campo polaco, " +
+          "durante años. Educando a los hijos de otras familias y mandando el dinero a París.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Su turno llegó a finales de 1891, cuando se trasladó a París. Se alojó primero con su " +
+          "hermana y después se mudó a una buhardilla del Barrio Latino para estar más cerca de " +
+          "la facultad, donde estudió física, química y matemáticas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en la cronología, porque explica bastante de lo que vino después. Cuando por " +
+          "fin se sentó en un aula legal, con derecho a examinarse y a titularse, tenía " +
+          "veinticuatro años y llevaba media vida esperando ese momento.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El acuerdo era sencillo y se cumplió: una hermana trabajó de institutriz seis años " +
+          "para que la otra fuera médica, y después la médica pagó la carrera de la primera.",
+      },
+    ],
+  },
+  {
     id: "quien-fue-nikola-tesla",
     titulo: "Quién fue Nikola Tesla",
     categoria: "Historia",
@@ -19267,6 +23919,122 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Casi todos los motores industriales del mundo siguen siendo motores de inducción. Es " +
           "un invento de hace más de un siglo que nadie ha necesitado sustituir.",
+      },
+    ],
+  },
+  {
+    id: "quien-fue-van-gogh",
+    titulo: "Quién fue Van Gogh",
+    categoria: "Historia",
+    color: "var(--plum)",
+    /* Serie «quien-fue-van-gogh», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Empezó a pintar a los veintisiete y murió a los treinta y siete» */
+    encargo: "Empezó a pintar a los veintisiete y murió a los treinta y siete",
+    fotos: [
+      {
+        local: p_quien_fue_van_gogh,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Empezó a pintar a los veintisiete y murió a los treinta y siete",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Antes de decidirse tuvo cuatro oficios y en ninguno duró",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Con dieciséis años entró de aprendiz en <strong>Goupil & Cie</strong>, una casa de " +
+          "comercio de arte. Estuvo allí desde 1869: primero en La Haya, luego en Londres entre " +
+          "1873 y 1875, después en París. En 1876 lo despidieron.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ese mismo año cruzó otra vez el canal y trabajó de maestro suplente en Inglaterra, " +
+          "primero en Ramsgate y luego en Isleworth. A finales de 1876 estaba de dependiente en " +
+          "una librería de Dordrecht. En enero de 1879 se fue a la cuenca minera del " +
+          "<strong>Borinage</strong>, en Bélgica, como predicador laico. La sociedad misionera " +
+          "que lo había enviado no le renovó el nombramiento.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Tenía veintiséis años, ningún oficio y ninguna renta.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La lista de trabajos no es una anécdota previa: es el motivo por el que empezó tarde. " +
+          "Nadie llega a los veintisiete sin haber pintado nunca si le ha ido bien en otra cosa.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La decisión se toma en 1880 y la cuenta sale muy corta",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fue allí, en la cuenca minera, donde decidió que iba a ser artista. El Museo Van Gogh " +
+          "de Ámsterdam lo fija con precisión: <strong>tomó la decisión a los veintisiete " +
+          "años</strong>.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Había nacido el 30 de marzo de 1853 en Zundert, en el sur de los Países Bajos. Murió " +
+          "el 29 de julio de 1890 en Auvers-sur-Oise, cerca de París, a los treinta y siete.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Entre una fecha y otra hay diez años. En esos diez años produjo unas <strong>2.100 " +
+          "obras</strong>, de las cuales alrededor de <strong>860 son óleos</strong>. La mayor " +
+          "parte se concentra en los dos últimos.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "No hay una obra temprana y una obra madura. Todo lo que se conoce de él es obra de " +
+          "aprendizaje acelerado y obra final a la vez, porque no hubo tiempo para separar las " +
+          "dos cosas.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Los últimos setenta días son setenta y cuatro cuadros",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene mirar de cerca el tramo final, porque la cifra cuesta creerla.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Llegó a Auvers-sur-Oise el 20 de mayo de 1890. Murió el 29 de julio. Son setenta días " +
+          "exactos. El Museo de Orsay, que reunió aquel periodo en una exposición, cuenta " +
+          "<strong>setenta y cuatro lienzos</strong> pintados allí, más nueve hojas grandes de " +
+          "dibujo, cuarenta y ocho páginas de cuaderno y el único grabado que hizo en su vida.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Más de un cuadro por día, contando los días en que llovió, los días de cama y el " +
+          "último.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La imagen del pintor que espera la inspiración no encaja con este calendario. Lo que " +
+          "encaja es un hombre trabajando a destajo contra un plazo que solo él conocía.",
       },
     ],
   },
@@ -19576,6 +24344,208 @@ export const CURIOSIDADES: Short[] = [
           "El hombre que salió de Apple sin poder volvió a entrar como propietario de algo que " +
           "Apple necesitaba. Entre las dos fechas hay once años y una empresa entera fundada por " +
           "el camino.",
+      },
+    ],
+  },
+  {
+    id: "ves-el-mismo-rojo-que-yo",
+    titulo: "Ves el mismo rojo que yo",
+    categoria: "Filosofía",
+    color: "var(--slate)",
+    /* Serie «ves-el-mismo-rojo-que-yo», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Locke planteó la duda con una violeta y una caléndula» */
+    encargo: "Locke planteó la duda con una violeta y una caléndula",
+    fotos: [
+      {
+        local: p_ves_el_mismo_rojo_que_yo,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Locke planteó la duda con una violeta y una caléndula",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La sospecha tiene tres siglos y se formuló con dos flores del jardín",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La pregunta parece de conversación de madrugada, pero está por escrito desde el siglo " +
+          "XVII y la firmó uno de los filósofos más ordenados que ha dado Inglaterra. En su " +
+          "<em>Ensayo sobre el entendimiento humano</em>, <strong>John Locke</strong> se pregunta " +
+          "qué pasaría si la idea que una violeta produce en la mente de un hombre a través de " +
+          "sus ojos fuera la misma que una caléndula produce en la mente de otro, y al revés.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Es decir: que tú mires una violeta y tengas por dentro la experiencia que yo tengo " +
+          "mirando una caléndula. Los filósofos lo llaman el <strong>espectro invertido</strong>, " +
+          "y lo que lo hace incómodo no es la idea en sí, sino lo que Locke añade a continuación.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Nunca podríamos saberlo. Si tu experiencia y la mía están sistemáticamente cambiadas, " +
+          "todo lo demás encaja igual. Los dos llamamos violeta a la violeta, porque los dos " +
+          "aprendimos la palabra señalando la misma flor. Los dos decimos que el cielo y el mar " +
+          "se parecen entre sí más que el cielo y un tomate. Los dos paramos en el mismo " +
+          "semáforo. No hay una sola pregunta que yo pueda hacerte cuya respuesta cambie según " +
+          "cuál de las dos hipótesis sea cierta.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El problema no es que no sepamos si ves el mismo rojo. Es que las dos posibilidades " +
+          "producen exactamente el mismo comportamiento, así que no hay experimento que las " +
+          "separe desde fuera.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "La palabra que compartimos tapa el hueco en lugar de cerrarlo",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en cómo aprendiste los colores, porque ahí está el truco entero. Nadie te " +
+          "enseñó qué es el rojo. Alguien señaló un tomate, un coche de bomberos y una amapola, y " +
+          "dijo «rojo». Lo que aprendiste fue a qué cosas del mundo se aplica esa palabra, no qué " +
+          "se siente al verlas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "De modo que el lenguaje del color funciona como una etiqueta pegada por fuera de una " +
+          "caja que nunca hemos abierto. Dos personas pueden ponerse de acuerdo en todas las " +
+          "etiquetas sin haberse puesto de acuerdo en nada de lo que hay dentro, y el acuerdo se " +
+          "mantendría intacto aunque el contenido fuera distinto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los filósofos que responden a Locke suelen atacar por ahí. Algunos sostienen que la " +
+          "inversión perfecta es imposible porque el espacio de los colores no es simétrico: el " +
+          "amarillo se ve más luminoso que el azul, hay más tonos distinguibles en unas zonas que " +
+          "en otras, y una inversión ordenada dejaría rastros medibles en tus juicios. Otros " +
+          "contestan que basta con una inversión imperfecta para que el problema siga en pie. La " +
+          "discusión no está cerrada, y precisamente por eso lleva tres siglos sin morirse.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Compartir la palabra no demuestra compartir la experiencia. Demuestra que aprendimos a " +
+          "señalar las mismas cosas, que es bastante menos de lo que suele darse por hecho.",
+      },
+    ],
+  },
+  {
+    id: "vivimos-dentro-de-una-simulacion",
+    titulo: "Vivimos dentro de una simulación",
+    categoria: "Filosofía",
+    color: "var(--sage)",
+    /* Serie «vivimos-dentro-de-una-simulacion», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La duda es antiquísima; lo nuevo es que ahora tiene mecanismo» */
+    encargo: "La duda es antiquísima; lo nuevo es que ahora tiene mecanismo",
+    fotos: [
+      {
+        local: p_vivimos_dentro_de_una_simulacion,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "La duda es antiquísima; lo nuevo es que ahora tiene mecanismo",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un pensador chino se despertó sin saber quién había soñado a quién",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En el siglo IV antes de nuestra era, en algún lugar de la China de los Reinos " +
+          "Combatientes, <strong>Zhuang Zhou</strong> escribió el pasaje que abre el capítulo " +
+          "segundo de su libro y que se ha citado desde entonces sin parar. Soñó que era una " +
+          "mariposa, revoloteando de un lado a otro, tranquila y satisfecha, sin la menor " +
+          "conciencia de ser Zhuang Zhou. Después despertó, y allí estaba él otra vez, sin " +
+          "ninguna duda de serlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y entonces plantea la pregunta que hace que el pasaje siga vivo dos mil trescientos " +
+          "años después: no sabía si era Zhuang Zhou que había soñado que era una mariposa, o una " +
+          "mariposa que estaba soñando que era Zhuang Zhou.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Fíjate en lo que hace ese giro. No pone en duda un detalle de la realidad, sino la " +
+          "totalidad. Y lo hace sin necesidad de aparatos ni de conspiraciones: le basta con " +
+          "señalar que dentro del sueño la experiencia era completa y no dejaba ninguna pista de " +
+          "serlo.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La sospecha de que esto no es real no la trajo la informática. Es tan vieja como la " +
+          "primera persona que se despertó de un sueño convincente y se paró a pensarlo.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Descartes construyó la versión moderna con un demonio y sin ordenadores",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La formulación que ha organizado el debate en Occidente es de 1641, en las " +
+          "<em>Meditaciones metafísicas</em> de <strong>René Descartes</strong>, y su virtud es " +
+          "que no es una duda vaga sino un mecanismo concreto.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Descartes se propone averiguar si hay algo de lo que pueda estar absolutamente seguro, " +
+          "y para conseguirlo se dedica a demolerlo todo. Los sentidos engañan a veces, así que " +
+          "no se puede confiar en ellos siempre. Los sueños parecen reales mientras duran, así " +
+          "que ningún momento lleva un sello que garantice la vigilia. Y para rematar la faena " +
+          "imagina un genio maligno, poderosísimo y astuto, dedicado por entero a engañarle: el " +
+          "cielo, la tierra, los colores, las figuras, los sonidos y todas las cosas exteriores " +
+          "no serían más que ilusiones montadas para atrapar su credulidad. Incluso su propio " +
+          "cuerpo estaría entre ellas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo que queda en pie después de esa demolición es célebre y es una sola cosa: mientras " +
+          "el demonio le engaña, él está siendo engañado, y para ser engañado hay que existir.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Ahora bien, entre Descartes y hoy ha cambiado algo importante, y no es la filosofía. " +
+          "El genio maligno era un recurso literario, una hipótesis sin ninguna vía de " +
+          "realización. Lo que ocurrió en el siglo XX fue que aparecieron máquinas que calculan " +
+          "mundos, y con ellas la posibilidad de preguntar por primera vez algo que Descartes no " +
+          "podía preguntar: si un engaño así puede construirse, quién lo construiría, cuántos " +
+          "habría y cuánta electricidad costaría.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La hipótesis lleva dos milenios sobre la mesa. Lo que ha llegado hace poco no es la " +
+          "sospecha, sino la posibilidad de tratarla como un problema de ingeniería y de " +
+          "recuento.",
       },
     ],
   },
