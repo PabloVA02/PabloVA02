@@ -1,5 +1,5 @@
 {
-  "_": "Solo los temas donde el recorte automático no acierta. LA CLAVE ES EL NOMBRE DEL ARCHIVO de originales/ sin extensión, que es el identificador del tema: si se renombra la foto hay que renombrar la clave, o el encuadre se pierde en silencio. x/y es dónde está el motivo en tanto por uno; zoom acerca. Lo lee scripts/portadas.mjs.",
+  "_": "Solo los temas donde el recorte automático no acierta. LA CLAVE ES EL NOMBRE DEL ARCHIVO de originales/ sin extensión, que es el identificador del tema: si se renombra la foto hay que renombrar la clave, o el encuadre se pierde en silencio. x/y es dónde está el motivo en tanto por uno; zoom acerca. `giro` son los grados que se pone de pie una foto apaisada, y se aplica antes que nada. Lo lee scripts/portadas.mjs.",
   "el-conductor-no-se-marea-nunca": {
     "x": 0.16,
     "y": 0.62
@@ -66,5 +66,8 @@
     "x": 0.5,
     "y": 0.63,
     "zoom": 1.35
+  },
+  "como-se-sostiene-un-satelite": {
+    "giro": 270
   }
 }

@@ -215,9 +215,37 @@ function capacidad(meta) {
 }
 
 async function procesa(ruta, tema) {
-  const original = sharp(ruta, { failOn: "none" });
-  const meta = await original.metadata();
   const foco = encuadres[tema];
+
+  /* GIRO: una foto apaisada puesta de pie.
+   *
+   * Para llenar una pantalla de móvil hace falta 9:16, y de una apaisada solo
+   * se queda un tercio del ancho: por eso «se ve de cerca» aunque el recorte
+   * esté perfectamente centrado. Contra eso lo normal es pedir otra foto en
+   * vertical, y así está dicho más arriba.
+   *
+   * Pero hay motivos que no tienen arriba ni abajo, y entonces la foto se pone
+   * de pie y ya está. Pablo, el 1 de septiembre, con la del satélite: «dale la
+   * vuelta y así se ve bien». Aquella daba 1602 de ancho útil, por debajo del
+   * suelo; girada da 2412, o sea que la vuelta no es un apaño, es lo que
+   * convierte una portada floja en una buena.
+   *
+   * `giro` son los grados, y se aplica ANTES de medir nada: el recorte, el
+   * zoom y el encuadre a mano se calculan sobre la foto ya de pie, que es
+   * como se va a ver. Cuál de las dos vueltas se elige se mira: el texto va
+   * abajo a la izquierda, así que interesa que esa esquina quede oscura.
+   *
+   * El original NO SE TOCA. La vuelta vive aquí, en assets/recortes.json,
+   * igual que el resto de los ajustes. */
+  const giro = foco?.giro ?? 0;
+  /* Se gira UNA VEZ a un buffer y a partir de ahí todo el mundo abre por
+     `abre()`. El primer intento giraba solo la copia con la que se miden las
+     medidas, y más abajo el recorte volvía a abrir el fichero del disco: la
+     portada salía con el tamaño de la foto girada y los píxeles de la de
+     antes. No lo canta ningún número, solo se ve mirando. */
+  const rotado = giro ? await sharp(ruta, { failOn: "none" }).rotate(giro).toBuffer() : null;
+  const abre = () => sharp(rotado ?? ruta, { failOn: "none" });
+  const meta = await abre().metadata();
   const zoom = Math.max(1, foco?.zoom ?? 1);
 
   /* CUÁNTO DA ESTA FOTO, y el zoom se descuenta: acercarse recorta, y lo que
@@ -251,8 +279,8 @@ async function procesa(ruta, tema) {
    * toma el del borde de la propia imagen, que casi siempre es el bueno. */
 
   const base = foco
-    ? sharp(ruta, { failOn: "none" }).extract(ventana(meta, foco)).resize(ancho, alto)
-    : sharp(ruta, { failOn: "none" }).resize(ancho, alto, {
+    ? abre().extract(ventana(meta, foco)).resize(ancho, alto)
+    : abre().resize(ancho, alto, {
         fit: "cover",
         /* EL CENTRO, Y NO `attention`. Estuvo en `attention` —que busca la zona
            con más detalle— con el argumento de que en una foto apaisada el
@@ -281,7 +309,7 @@ async function procesa(ruta, tema) {
   if (foco?.aire) {
     const margen = Math.min(0.35, Math.max(0, foco.aire));
     const dentro = Math.round(ancho * (1 - margen * 2));
-    const fondo = foco.fondo ?? (await bordeDe(ruta));
+    const fondo = foco.fondo ?? (await bordeDe(rotado ?? ruta));
     const encogida = await base.clone().resize(dentro, Math.round(dentro * alto / ancho)).png().toBuffer();
     fuente = sharp({ create: { width: ancho, height: alto, channels: 3, background: fondo } })
       .composite([{ input: encogida, gravity: "centre" }]);
