@@ -196,6 +196,30 @@ export default function App() {
      mientras se lee, que es cuando importan. */
   const preferencias = usePreferencias();
   const [libro, setLibro] = useState<Libro>(LIBROS[0]);
+  /* EL LIBRO A MEDIAS, que es el que enseña «Seguir leyendo».
+   *
+   * Pablo, el 1 de septiembre: «debe aparecer la portada del libro que se
+   * estaba leyendo en ese momento, el último de todos que se abrió y no se
+   * terminó».
+   *
+   * Antes no había ningún dato de eso: la pastilla cogía el primero del
+   * catálogo con `progreso > 0`, un número escrito a mano en los datos de
+   * muestra, así que salía siempre el mismo —el de Grecia— hubieras abierto lo
+   * que hubieras abierto.
+   *
+   * Se guarda en el disco del navegador por la misma razón que las
+   * preferencias: un «seguir leyendo» que se olvida al recargar no es seguir
+   * leyendo. Y se guarda SOLO EL IDENTIFICADOR, no el libro entero: el
+   * catálogo cambia con cada versión y un objeto viejo guardado ahí traería
+   * portadas y capítulos que ya no existen. */
+  const [enCursoId, setEnCursoId] = useState<string | null>(() => {
+    try {
+      const id = localStorage.getItem("curva.leyendo");
+      return id && LIBROS.some((l) => l.id === id) ? id : null;
+    } catch {
+      return null;
+    }
+  });
   /** Se ha entrado por «Escuchar»: el lector arranca con la voz puesta. */
   const [conVoz, setConVoz] = useState(false);
   /** A dónde vuelve el cierre. Un short no devuelve a la ficha de un libro. */
@@ -317,6 +341,10 @@ export default function App() {
      libro que todavía no es el del estado, y `setLibro` no ha corrido cuando
      esto se ejecuta. Sin el parámetro se cargaba el resumen del anterior. */
   function abrirLector(conVozPuesta: boolean, cual: Libro = libro) {
+    /* Aquí y no en `onAbrir`: abrir la FICHA de un libro es mirarlo, y mirar
+       una portada no es haber empezado a leer. Lo que cuenta es entrar en el
+       texto. */
+    recuerdaEnCurso(cual.id);
     setCompletados(0);
     arranque.current = Date.now();
     void cargarResumen(cual.id).then(setResumen);
@@ -324,6 +352,27 @@ export default function App() {
     /* Derecho a leer, siempre. El mapa de capítulos era una parada de más
        entre «quiero este libro» y el texto. */
     setPantalla("lector");
+  }
+
+  /** Apunta el libro que se está leyendo. */
+  function recuerdaEnCurso(id: string) {
+    setEnCursoId(id);
+    try {
+      localStorage.setItem("curva.leyendo", id);
+    } catch {
+      /* Modo privado, o el disco lleno. Se pierde la memoria entre sesiones y
+         no pasa nada más: dentro de esta, el estado de React sigue valiendo. */
+    }
+  }
+
+  /** Lo olvida al terminarlo: un libro acabado ya no se «sigue leyendo». */
+  function olvidaEnCurso(id: string) {
+    setEnCursoId((antes) => (antes === id ? null : antes));
+    try {
+      if (localStorage.getItem("curva.leyendo") === id) localStorage.removeItem("curva.leyendo");
+    } catch {
+      /* Igual que arriba. */
+    }
   }
 
   /* El texto no está en memoria desde el arranque: se pide al abrir la ficha
@@ -436,6 +485,8 @@ export default function App() {
               key="inicio"
               suscrito={suscrito}
               intereses={intereses}
+              enCursoId={enCursoId}
+              terminados={terminados}
               onAbrir={(l) => {
                 setLibro(l);
                 setVolverDeDetalle("inicio");
@@ -646,6 +697,7 @@ export default function App() {
                 setMinutosTotales((n) => n + gastado);
                 setLeidas((n) => n + 1);
                 setTerminados((antes) => new Set(antes).add(libro.id));
+                olvidaEnCurso(libro.id);
                 setObjetivo(objetivoLibro);
                 setVuelta("detalle");
                 setPantalla("fin");

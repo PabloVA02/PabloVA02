@@ -541,6 +541,8 @@ export function Inicio({
   onGuardar,
   onColeccion,
   onGestionarTemas,
+  enCursoId = null,
+  terminados,
 }: {
   /** Abre la tragaperras: un libro al azar. */
   onDado: () => void;
@@ -564,17 +566,39 @@ export function Inicio({
   onColeccion?: (c: Coleccion) => void;
   /** Abre la pantalla de temas. Sin esto, la tarjeta de gestión no sale. */
   onGestionarTemas?: () => void;
+  /** El último libro que se abrió a leer y no se terminó. Lo lleva `App`. */
+  enCursoId?: string | null;
+  /** Los ya acabados, para no ofrecer «seguir» uno que está terminado. */
+  terminados?: ReadonlySet<string>;
 }) {
   const [filtro, setFiltro] = useState<string | null>(null);
 
-  const enCurso = LIBROS.filter((l) => l.progreso > 0);
-  /* La pastilla de abajo dice «el libro que estás leyendo», así que el libro
-     tiene que ser uno que esté de verdad a medias. Si no hay ninguno —cuenta
-     recién abierta—, se ofrece el primero del catálogo, que es lo mismo que
-     hace la referencia cuando aún no has empezado nada. */
-  const destacado = enCurso[0] ?? LIBROS[0];
-  /* `progreso` viene a cero en el catálogo de muestra, y una barra al cero no
-     enseña nada de lo que hace la pastilla. */
+  /* EL LIBRO DE «SEGUIR LEYENDO».
+   *
+   * Pablo, el 1 de septiembre: «debe aparecer la portada del libro que se
+   * estaba leyendo en ese momento, el último de todos que se abrió y no se
+   * terminó».
+   *
+   * Esto era lo que fallaba: se cogía `LIBROS.filter(l => l.progreso > 0)[0]`,
+   * o sea el PRIMERO DEL CATÁLOGO con un progreso escrito a mano en los datos
+   * de muestra. Salía siempre el mismo —«Lo que perdimos de Grecia»— abrieras
+   * lo que abrieras, porque ese número no lo mueve nadie al leer.
+   *
+   * Ahora manda lo que de verdad pasó: `enCursoId`, que `App` apunta al entrar
+   * en el texto y borra al terminarlo. El orden de las alternativas es el de
+   * lo que más cerca está de la verdad:
+   *
+   *   1. lo último que se abrió y no se acabó;
+   *   2. si no hay, algo a medias del catálogo que tampoco esté acabado;
+   *   3. y si tampoco, el primero sin acabar, que es lo que se le ofrece a una
+   *      cuenta recién abierta. */
+  const acabado = (l: Libro) => terminados?.has(l.id) ?? false;
+  const ultimo = enCursoId ? LIBROS.find((l) => l.id === enCursoId && !acabado(l)) : undefined;
+  const aMedias = LIBROS.find((l) => l.progreso > 0 && !acabado(l));
+  const destacado = ultimo ?? aMedias ?? LIBROS.find((l) => !acabado(l)) ?? LIBROS[0];
+  /* La barra: el progreso del catálogo si lo trae. Cuando el libro es el que
+     se acaba de abrir, ese número es cero y una barra al cero no enseña nada
+     de lo que hace la pastilla, así que se pinta un arranque corto. */
   const avance = destacado.progreso > 0 ? destacado.progreso : 0.15;
   /* Cada toque en el dado sube este número, y cada cambio lanza una tirada en
      el dibujo de la cabecera. Un contador y no un booleano: dos toques
