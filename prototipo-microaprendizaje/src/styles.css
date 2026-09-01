@@ -158,6 +158,28 @@
   --radius-card: 26px;
   --shell-pad: 22px;
 
+  /* LA ISLA. En un iPhone la cámara frontal y la hora se comen la franja de
+     arriba, y la app se mete DEBAJO de ellas a propósito: el `index.html`
+     lleva `viewport-fit=cover` y `black-translucent` para que el fondo suba
+     hasta el borde, que es lo que hace que parezca una app y no una página.
+     Lo que no puede subir hasta ahí es el contenido.
+
+     Pablo, el 1 de septiembre: «la cámara del selfie del iPhone lo tapa y no
+     se ve; mira a ver cómo se soluciona eso para ese tipo de móviles».
+
+     Y no era solo el lector: NINGUNA pantalla usaba el área segura de arriba,
+     aunque el comentario del index.html diera por hecho que sí. Todas llevaban
+     de cuatro a ocho puntos de margen y la isla mide cincuenta y nueve, así
+     que todas se comían la primera fila. Se veía en el lector antes que en las
+     demás porque allí lo de arriba es una barra de botones, no un título con
+     aire de sobra.
+
+     Se declara como ficha propia y no se llama a `env()` en cada sitio por dos
+     motivos: se escribe una vez, y en el navegador de un ordenador se le puede
+     dar un valor a mano para comprobar que la maqueta aguanta —que es como se
+     encontraron las pantallas que faltaban—. */
+  --isla: env(safe-area-inset-top, 0px);
+
   /* Duraciones del reposo: números primos desfasados para que nunca sincronicen */
   --idle-a: 7.3s;
   --idle-b: 9.1s;
@@ -248,6 +270,37 @@ button {
   font-size: 14px;
   font-weight: 620;
   letter-spacing: -0.01em;
+}
+
+/* INSTALADA EN EL MÓVIL, LA HORA LA PINTA iOS Y NO NOSOTROS.
+ *
+ * Esta barra es maqueta: dibuja una hora, la cobertura y la batería para que
+ * en el simulador y en el ordenador la pantalla se parezca a un teléfono. En
+ * un iPhone con la app en la pantalla de inicio eso sobra y estorba, porque
+ * iOS pinta ENCIMA su propia hora y su isla —el `index.html` pide
+ * `black-translucent` a propósito, para que el fondo suba hasta el borde—.
+ * Resultado: dos relojes superpuestos y la primera fila de cada pantalla
+ * debajo de la cámara.
+ *
+ * Así que instalada, la barra se queda de espaciador: se le quita el
+ * contenido y su alto pasa a ser EXACTAMENTE el área segura de arriba, que es
+ * lo que iOS dice que ocupan la isla y la hora. Un aparato sin nada arriba
+ * —Android, un ordenador— informa de cero y la barra desaparece, que es lo
+ * correcto: allí la barra del sistema está fuera de la ventana.
+ *
+ * Se arregla aquí y no pantalla por pantalla porque TODAS cuelgan de ella:
+ * está antes que cualquier pantalla dentro de la carcasa, así que reservando
+ * su hueco se corrigen las diecinueve de una vez. Las dos que no cuelgan
+ * —el muro, que no la pinta, y el lector, que va por encima de todo— llevan
+ * su propio margen más abajo. */
+@media (display-mode: standalone) {
+  .status-bar {
+    height: var(--isla);
+    padding: 0;
+  }
+  .status-bar > * {
+    display: none;
+  }
 }
 
 .status-bar .glyphs {
@@ -6984,7 +7037,12 @@ button {
    Tres tramos, uno por pagina, no cuatro: en la portada aun no se ha leido
    nada y la barra esta entera vacia. Va mas ancha que el texto, de 5cqw a
    5cqw, que es como esta en la maqueta. */
-.muro-tramos { top: 3.2cqw; left: 5cqw; right: 5cqw; gap: 1.4cqw; }
+/* La isla se suma AQUÍ y en ningún otro sitio. Hay otra regla de `.muro-tramos`
+   más arriba con su propio `top`, y esta la pisa; sumarla en las dos sería el
+   doble descuento de la hoja de paginado otra vez, en el otro eje. Es la única
+   pieza del muro pegada al borde de arriba, y una barra de dos puntos de alto
+   tapada por la cámara no se ve a medias: no se ve. */
+.muro-tramos { top: calc(3.2cqw + var(--isla)); left: 5cqw; right: 5cqw; gap: 1.4cqw; }
 .muro-tramo {
   flex: 1;
   height: 0.42cqw;
@@ -8661,7 +8719,11 @@ button {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 10px;
+  /* El hueco de la isla se paga aquí y no en la barra de la hora: el lector va
+     `position: absolute; inset: 0` por encima de toda la carcasa, así que ni
+     la ve. Es la pantalla donde Pablo lo notó, y con razón: aquí arriba hay
+     una fila de botones, no un título con aire de sobra. */
+  padding: calc(8px + var(--isla)) 10px 8px;
   flex: none;
   border-bottom: 1px solid var(--lee-chapa);
 }
@@ -11065,7 +11127,20 @@ button {
      cuatro puntos restados dos veces, y fue lo que le hizo ver «un tercio de
      pantalla vacío». Está contado en la hoja de paginado. */
   --margen-lado: 16px;
-  --margen-arriba: max(16cqw, 60px);
+  /* Y ARRIBA, LA ISLA. El muro no pinta la barra de la hora, así que aquí no
+     vale el arreglo que sirve para las otras diecinueve pantallas: el texto de
+     un short empieza a 60 del borde y la isla del iPhone mide 59, o sea que la
+     primera línea quedaba justo debajo de la cámara.
+     
+     Se suma al margen de cabeza y no se resta en ningún otro sitio, que es la
+     otra mitad de la regla: el área segura de ABAJO ya va dentro de `--barra`
+     y sumarla dos veces fue lo que le hizo ver «un tercio de pantalla vacío».
+     Esta es la de arriba, es otro eje, y se suma una sola vez.
+     
+     Y no rompe el reparto porque el reparto no calcula: prueba. La hoja
+     encoge, la caja desborda antes y salen las pantallas que salgan. Regla 1
+     de la hoja de paginado. */
+  --margen-arriba: calc(max(16cqw, 60px) + var(--isla));
   --margen-abajo: max(25cqw, 96px);
   padding: var(--margen-arriba) var(--margen-lado) calc(var(--margen-abajo) + var(--barra));
   /* Para que el indicador y los botones se coloquen contra el borde de la hoja
@@ -11522,7 +11597,11 @@ button {
 .muro-foto[data-portada="true"] .muro-credito {
   top: 0;
   bottom: auto;
-  padding: 12.5cqw 5.8cqw 10cqw;
+  /* En la portada el crédito va arriba del todo, así que se lleva la isla. La
+     FOTOGRAFÍA no: esa tiene que seguir subiendo hasta el borde y pasando por
+     detrás de la cámara, que es lo que hace que la portada llene la pantalla.
+     Lo que no puede quedar debajo es la letra. */
+  padding: calc(12.5cqw + var(--isla)) 5.8cqw 10cqw;
   font-size: 2.45cqw;
   /* EL PIE TIENE QUE LEERSE TAMBIÉN SOBRE UNA FOTO CLARA.
      Estaba calculado contra la del Sol, que arriba es negra, y con eso
