@@ -271,6 +271,8 @@ export const CURIOSIDADES: Short[] = [
     ],
     soloPortada: true,
     textoDePablo: true,
+    /* Imagen que pide su texto para DENTRO, todavía sin hacer:
+       IMAGEN — sección «Debajo de cada pata hay dos almohadillas cubiertas de miles de pelos». Foto real al microscopio electrónico de la almohadilla y sus setas. Algo que el lector no ha visto nunca y que no se puede imaginar a partir de la pala */
     bloques: [
       {
         b: "rotulo",
@@ -1184,22 +1186,17 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "La versión que aparece en los libros de texto dice así: la retina retiene cada imagen " +
           "una fracción de segundo, las imágenes sucesivas se solapan, y de esa fusión sale la " +
-          "sensación de movimiento. Se llama persistencia retiniana.",
+          "sensación de movimiento. Se llama persistencia retiniana, y Joseph y Barbara Anderson " +
+          "la desmontaron con una objeción de una sola frase: la fusión o mezcla de imágenes solo " +
+          "podría producir la superposición de vistas sucesivas, nunca una ilusión de movimiento.",
       },
       {
         b: "parrafo",
         texto:
-          "Joseph y Barbara Anderson lo desmontaron con una objeción de una sola frase: la fusión " +
-          "o mezcla de imágenes solo podría producir la superposición de vistas sucesivas, no una " +
-          "ilusión de movimiento.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Piénselo con una pierna. Si una imagen tiene la pierna delante y la siguiente la tiene " +
-          "detrás, y las dos se funden, lo que sale es una figura borrosa con dos piernas. No " +
+          "Piénsalo con una pierna. Si una imagen tiene la pierna delante y la siguiente la tiene " +
+          "detrás, y las dos se funden, lo que sale es una figura borrosa con dos piernas; no " +
           "sale una pierna moviéndose. La mezcla explica el emborronamiento, y el emborronamiento " +
-          "es lo contrario de lo que se está intentando explicar.",
+          "es justo lo contrario de lo que se está intentando explicar.",
       },
       {
         b: "rayo",
@@ -1215,16 +1212,11 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Vale la pena seguir la pista, porque es un caso de manual.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "En 1824 <strong>Peter Mark Roget</strong> publicó un trabajo sobre una rueda que, " +
-          "vista a través de unas rendijas verticales, parecía quieta. No iba sobre movimiento " +
-          "aparente: iba sobre lo contrario. En 1830 <strong>Joseph Plateau</strong> construyó el " +
-          "fenaquistiscopio apoyándose en una noción vaga de <em>fusión</em>, sin fundamento " +
-          "fisiológico.",
+          "Vale la pena seguir la pista, porque es un caso de manual. En 1824 <strong>Peter Mark " +
+          "Roget</strong> publicó un trabajo sobre una rueda que, vista a través de unas rendijas " +
+          "verticales, parecía quieta: no iba sobre movimiento aparente, sino sobre lo contrario. " +
+          "En 1830 <strong>Joseph Plateau</strong>, físico, construyó el fenaquistiscopio " +
+          "apoyándose en una noción vaga de <em>fusión</em>, sin fundamento fisiológico.",
       },
       {
         b: "parrafo",
@@ -1236,7 +1228,7 @@ export const CURIOSIDADES: Short[] = [
         b: "rayo",
         texto:
           "El texto que se cita como origen de la explicación decía justo lo contrario de lo que " +
-          "se le hace decir. Y ha aguantado dos siglos de repetición sin que casi nadie fuera a " +
+          "se le hace decir, y ha aguantado dos siglos de repetición sin que casi nadie fuera a " +
           "mirarlo.",
       },
       {
@@ -1247,29 +1239,20 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Separarlos deja el asunto claro.",
+          "Separarlos deja el asunto claro. El primero es la <strong>fusión de parpadeo</strong>: " +
+          "por encima de cierta frecuencia, una luz intermitente se percibe como continua, y esto " +
+          "sí es cuestión del ojo y explica por qué no se ven los intervalos negros entre " +
+          "fotograma y fotograma, pero no explica nada más. El segundo es el <strong>movimiento " +
+          "aparente</strong>, que es ver desplazamiento entre dos destellos estáticos; lo estudió " +
+          "<strong>Max Wertheimer</strong>, psicólogo, en 1912, y de ahí salió la escuela de la " +
+          "Gestalt. Es un proceso central, del cerebro, no de la retina.",
       },
       {
         b: "parrafo",
         texto:
-          "El primero es la <strong>fusión de parpadeo</strong>. Por encima de cierta frecuencia, " +
-          "una luz intermitente se percibe como continua. Esto sí es cuestión del ojo, y explica " +
-          "por qué no se ven los intervalos negros entre fotograma y fotograma. No explica nada " +
-          "más.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "El segundo es el <strong>movimiento aparente</strong>: ver desplazamiento entre dos " +
-          "destellos estáticos. Lo estudió <strong>Max Wertheimer</strong> en 1912, y de ahí " +
-          "salió la escuela de la Gestalt. Es un proceso central, del cerebro, no de la retina.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Y aquí está el dato que cierra el asunto. El sistema visual sí distingue el movimiento " +
-          "aparente de largo alcance del de corto alcance. Lo que no puede hacer es distinguir el " +
-          "de corto alcance —el del cine— del movimiento real.",
+          "Y aquí está el dato que cierra el asunto: el sistema visual sí distingue el movimiento " +
+          "aparente de largo alcance del de corto alcance, pero lo que no puede hacer es " +
+          "distinguir el de corto alcance —el del cine— del movimiento real.",
       },
       {
         b: "rayo",
@@ -1740,6 +1723,8 @@ export const CURIOSIDADES: Short[] = [
     ],
     soloPortada: true,
     textoDePablo: true,
+    /* Imagen que pide su texto para DENTRO, todavía sin hacer:
+       IMAGEN — sección «Al otro lado del cable hay un bloque que pesa casi lo mismo». Diagrama propio en SVG: hueco vertical con cabina a un lado, contrapeso al otro y la polea motriz arriba. Basta la geometría; nada de flechas de fuerza ni de fó */
     bloques: [
       {
         b: "rotulo",
@@ -1750,29 +1735,26 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "En el hueco del ascensor, deslizándose por unas guías propias, sube y baja un " +
-          "contrapeso unido a la cabina por los mismos cables.",
+          "contrapeso unido a la cabina por los mismos cables. Su masa no es arbitraria: se " +
+          "calcula como el peso de la cabina vacía <strong>más el 40 o el 50 % de la carga " +
+          "máxima</strong> que el ascensor está autorizado a llevar.",
       },
       {
         b: "parrafo",
         texto:
-          "Su masa no es arbitraria. Se calcula como el peso de la cabina vacía <strong>más el 40 " +
-          "o el 50 % de la carga máxima</strong> que el ascensor está autorizado a llevar.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "De ahí sale una consecuencia que explica todo lo demás. Con el ascensor a media carga, " +
-          "los dos lados se equilibran y el motor no tiene que levantar nada: solo vencer el " +
-          "rozamiento y poner el conjunto en movimiento. Con la cabina llena, sube la diferencia " +
-          "entre la carga real y ese 45 % de referencia. Con la cabina vacía, el contrapeso pesa " +
-          "más y es él quien tira: el motor está frenando, no empujando.",
+          "De ahí sale una consecuencia que explica todo lo demás. Con el ascensor a media carga " +
+          "los dos lados se equilibran y el motor no tiene que levantar nada, solo vencer el " +
+          "rozamiento y poner el conjunto en movimiento; con la cabina llena sube únicamente la " +
+          "diferencia entre la carga real y ese 45 % de referencia; y con la cabina vacía el " +
+          "contrapeso pesa más, de modo que es él quien tira y el motor está en realidad " +
+          "frenando, no empujando.",
       },
       {
         b: "rayo",
         texto:
-          "El motor de un ascensor es ridículamente pequeño para el peso que mueve, y no es un " +
-          "prodigio de ingeniería: es que casi nunca mueve ese peso. Mueve el desajuste entre los " +
-          "dos lados.",
+          "El motor de un ascensor es ridículamente pequeño para el peso que mueve, y no por " +
+          "ningún prodigio de ingeniería: es que casi nunca mueve ese peso. Mueve el desajuste " +
+          "entre los dos lados.",
       },
       {
         b: "rotulo",
@@ -1782,29 +1764,25 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Un torno que enrolla cable tiene un límite obvio: la altura del edificio no puede " +
-          "pasar del cable que quepa en el tambor.",
+          "Un torno que enrolla cable tiene un límite obvio, y es que la altura del edificio no " +
+          "puede pasar del cable que quepa en el tambor. Los ascensores de tracción, sin embargo, " +
+          "no funcionan así.",
       },
       {
         b: "parrafo",
         texto:
-          "Los ascensores de tracción no funcionan así. Los cables pasan por encima de una polea " +
-          "de garganta profunda —la polea motriz—, con la cabina colgando de un lado y el " +
-          "contrapeso del otro. El motor hace girar la polea, y lo único que transmite el " +
-          "movimiento a los cables es el rozamiento contra las gargantas, cuyo perfil está " +
-          "diseñado precisamente para que el cable no patine.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Nada se enrolla. Los cables se limitan a pasar por encima.",
+          "Los cables pasan por encima de una polea de garganta profunda —la polea motriz—, con " +
+          "la cabina colgando de un lado y el contrapeso del otro. El motor hace girar esa polea, " +
+          "y lo único que transmite el movimiento a los cables es el rozamiento contra las " +
+          "gargantas, cuyo perfil está diseñado precisamente para que el cable no patine. Nada se " +
+          "enrolla: los cables se limitan a pasar por encima.",
       },
       {
         b: "rayo",
         texto:
           "El sistema no tiene límite de altura por el lado del cable, y ese detalle mecánico " +
-          "menor es lo que permitió que los edificios dejaran de tener un techo práctico de seis " +
-          "o siete plantas.",
+          "aparentemente menor es lo que permitió que los edificios dejaran de tener un techo " +
+          "práctico de seis o siete plantas.",
       },
       {
         b: "rotulo",
@@ -1815,21 +1793,17 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "Una cabina cuelga habitualmente de entre <strong>dos y seis</strong> cables, y en " +
-          "edificios muy altos de doce o más.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "La norma es que cada uno de ellos, por separado, sea capaz de sostener la carga " +
-          "nominal del ascensor <strong>más un 25 % adicional</strong>. No están repartidos el " +
-          "peso entre todos: cada uno podría hacer el trabajo entero.",
+          "edificios muy altos de doce o más. La norma es que cada uno de ellos, por separado, " +
+          "sea capaz de sostener la carga nominal del ascensor <strong>más un 25 % " +
+          "adicional</strong>; no están repartiéndose el peso entre todos, sino que cada uno " +
+          "podría hacer el trabajo entero él solo.",
       },
       {
         b: "rayo",
         texto:
-          "Que los cables se rompan todos a la vez es el miedo estándar, y es el escenario para " +
-          "el que el sistema está peor preparado y menos preparado hace falta que esté. Para que " +
-          "ocurra tienen que fallar seis piezas independientes en el mismo instante.",
+          "Que los cables se rompan todos a la vez es el miedo estándar de cualquiera que entre " +
+          "en un ascensor, y es el escenario para el que menos falta hace estar preparado: exige " +
+          "que fallen seis piezas independientes en el mismo instante.",
       },
     ],
   },
@@ -2187,22 +2161,18 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Esta es la idea que hay que tener antes que ninguna otra, y no la enseñan casi nunca.",
-      },
-      {
-        b: "parrafo",
-        texto:
+          "Esta es la idea que hay que tener antes que ninguna otra, y no la enseñan casi nunca. " +
           "Un objeto que cae acelera, sí, pero al hacerlo tiene que apartar cada vez más aire por " +
           "segundo, y la resistencia crece aproximadamente con el <strong>cuadrado</strong> de la " +
-          "velocidad. Al doble de velocidad, cuatro veces la resistencia.",
+          "velocidad: al doble de velocidad, cuatro veces la resistencia.",
       },
       {
         b: "parrafo",
         texto:
           "Como el peso no cambia y la resistencia sí, llega un momento en que las dos se " +
-          "igualan. A partir de ese instante la aceleración es cero y el cuerpo baja a velocidad " +
-          "constante. Se llama velocidad terminal, y no es un límite que el aire imponga: es un " +
-          "empate.",
+          "igualan, y a partir de ese instante la aceleración es cero y el cuerpo baja a " +
+          "velocidad constante. Eso se llama velocidad terminal, y no es un límite que el aire " +
+          "imponga: es un empate.",
       },
       {
         b: "rayo",
@@ -2225,14 +2195,10 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "Un paracaidista en caída libre, boca abajo y con brazos y piernas extendidos, se " +
-          "estabiliza en torno a los <strong>190 kilómetros por hora</strong>. Con la vela " +
-          "abierta, la velocidad de descenso baja a unos <strong>28 kilómetros por hora</strong>.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Pesa exactamente lo mismo en los dos casos. Lo que ha cambiado es cuánto aire tiene " +
-          "que apartar.",
+          "estabiliza en torno a los <strong>190 kilómetros por hora</strong>; con la vela " +
+          "abierta, la velocidad de descenso baja a unos <strong>28 kilómetros por hora</strong>. " +
+          "Pesa exactamente lo mismo en los dos casos, y lo único que ha cambiado es cuánto aire " +
+          "tiene que apartar.",
       },
       {
         b: "rayo",
@@ -2248,24 +2214,21 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Pasar de 190 a 28 no es gratis, y ocurre en muy poco tiempo.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Durante los pocos segundos que dura la apertura, la desaceleración está en el orden de " +
-          "<strong>tres o cuatro g</strong>: el cuerpo pesa tres o cuatro veces lo suyo contra el " +
+          "Pasar de 190 a 28 no es gratis, y ocurre en muy poco tiempo: durante los pocos " +
+          "segundos que dura la apertura, la desaceleración está en el orden de <strong>tres o " +
+          "cuatro g</strong>, de modo que el cuerpo pesa tres o cuatro veces lo suyo contra el " +
           "arnés.",
       },
       {
         b: "parrafo",
         texto:
-          "Una vela de celdas, por su forma, tiende a abrirse muy deprisa, y a esas velocidades " +
-          "el tirón puede romper la tela o lesionar al paracaidista. Para evitarlo lleva una " +
-          "pieza llamada <strong>deslizador</strong>: un rectángulo de tela con un ojal en cada " +
-          "esquina, atravesado por las cuerdas, que empieza pegado a la vela y va bajando hacia " +
-          "el arnés. Mientras baja mantiene las cuerdas juntas, retrasa el inflado y desvía parte " +
-          "del aire que sube hacia el centro. El frenazo es el mismo, repartido en más tiempo.",
+          "Una vela de celdas, por su forma, tiende además a abrirse muy deprisa, y a esas " +
+          "velocidades el tirón puede romper la tela o lesionar al paracaidista. Para evitarlo " +
+          "lleva una pieza llamada <strong>deslizador</strong>: un rectángulo de tela con un ojal " +
+          "en cada esquina, atravesado por las cuerdas, que empieza pegado a la vela y va bajando " +
+          "hacia el arnés; mientras baja mantiene las cuerdas juntas, retrasa el inflado y desvía " +
+          "parte del aire que sube hacia el centro. El frenazo es el mismo, repartido en más " +
+          "tiempo.",
       },
       {
         b: "rayo",
@@ -2516,23 +2479,20 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Este es todo el fundamento, y cabe en tres frases.",
+          "Este es todo el fundamento, y cabe en tres frases encadenadas. Algunos elementos " +
+          "sueltan electrones con facilidad y otros los aceptan de buena gana; si se ponen en " +
+          "contacto un material del primer tipo y otro del segundo, los electrones pasan de uno a " +
+          "otro y el asunto termina ahí, con la energía disipada en forma de calor y sin servir " +
+          "para nada.",
       },
       {
         b: "parrafo",
         texto:
-          "Algunos elementos sueltan electrones con facilidad; otros los aceptan de buena gana. " +
-          "Si se ponen en contacto un material del primer tipo y otro del segundo, los electrones " +
-          "pasan de uno a otro y el asunto se acaba ahí: la energía se disipa en forma de calor y " +
-          "no sirve para nada.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "La pila hace una cosa muy sencilla. Separa los dos materiales, los mete en un medio " +
-          "que deja pasar iones pero no electrones, y saca los dos extremos por fuera. Ahora los " +
-          "electrones siguen queriendo pasar de un lado al otro, pero el único camino disponible " +
-          "es el cable exterior. Y por ese cable, de camino, pueden encender una bombilla.",
+          "La pila hace entonces una cosa muy sencilla: separa los dos materiales, los mete en un " +
+          "medio que deja pasar iones pero no electrones, y saca los dos extremos por fuera. " +
+          "Ahora los electrones siguen queriendo pasar de un lado al otro, pero el único camino " +
+          "disponible es el cable exterior, y por ese cable, de camino, pueden encender una " +
+          "bombilla.",
       },
       {
         b: "rayo",
@@ -2548,31 +2508,27 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "En la década de 1780, en Bolonia, <strong>Luigi Galvani</strong> observó que las patas " +
-          "de una rana muerta se contraían cuando las tocaba con instrumentos metálicos. Concluyó " +
-          "que el animal almacenaba una forma propia de electricidad, y la llamó <em>electricidad " +
-          "animal</em>.",
+          "En la década de 1780, en Bolonia, <strong>Luigi Galvani</strong>, médico y anatomista, " +
+          "observó que las patas de una rana muerta se contraían cuando las tocaba con " +
+          "instrumentos metálicos, y concluyó que el animal almacenaba una forma propia de " +
+          "electricidad, a la que llamó <em>electricidad animal</em>. <strong>Alessandro " +
+          "Volta</strong> no lo aceptó: sostenía que la electricidad no salía de la rana sino del " +
+          "contacto entre dos metales distintos, y que la pata era simplemente un detector muy " +
+          "sensible.",
       },
       {
         b: "parrafo",
         texto:
-          "<strong>Alessandro Volta</strong> no lo aceptó. Sostenía que la electricidad no salía " +
-          "de la rana, sino del contacto entre dos metales distintos, y que la pata era " +
-          "simplemente un detector muy sensible.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Para demostrarlo hizo lo único que zanja una discusión así: quitar la rana. En 1800 " +
-          "apiló discos de zinc y de cobre alternados, separados por cartones empapados en " +
+          "Para demostrarlo hizo lo único que zanja una discusión así, que es quitar la rana. En " +
+          "1800 apiló discos de zinc y de cobre alternados, separados por cartones empapados en " +
           "salmuera, y aquello dio corriente sin ningún animal por medio.",
       },
       {
         b: "parrafo",
         texto:
-          "Lo interesante es que Galvani tampoco estaba equivocado del todo. Los nervios y los " +
-          "músculos funcionan efectivamente con señales eléctricas, y hoy la bioelectricidad es " +
-          "una disciplina entera. Los dos tenían razón en cosas distintas.",
+          "Lo interesante es que Galvani tampoco estaba equivocado del todo, porque los nervios y " +
+          "los músculos funcionan efectivamente con señales eléctricas y hoy la bioelectricidad " +
+          "es una disciplina entera. Los dos tenían razón en cosas distintas.",
       },
       {
         b: "rayo",
@@ -2588,23 +2544,19 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Al funcionar, una pila transforma unos materiales en otros. La diferencia entre una " +
+          "Al funcionar, una pila transforma unos materiales en otros, y la diferencia entre una " +
           "pila y una batería recargable está justo ahí.",
       },
       {
         b: "parrafo",
         texto:
           "Si esa transformación deja los materiales hechos una ruina —estructuras deshechas, " +
-          "productos que se depositan donde no deben—, no hay manera de volver atrás: la pila se " +
-          "agota y se tira. Es lo que ocurre en una pila alcalina corriente.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Si en cambio la transformación es reversible, se puede aplicar corriente en sentido " +
-          "contrario y forzar a los materiales a volver a su estado inicial. Eso es recargar. Y " +
-          "por eso el gran problema de las baterías no es la primera carga: es que la vuelta " +
-          "atrás nunca es perfecta del todo.",
+          "productos depositados donde no deben—, no hay manera de volver atrás y la pila se " +
+          "agota y se tira, que es lo que ocurre en una pila alcalina corriente. Si en cambio la " +
+          "transformación es reversible, se puede aplicar corriente en sentido contrario y forzar " +
+          "a los materiales a volver a su estado inicial, que es lo que llamamos recargar. Y por " +
+          "eso el gran problema de las baterías no es la primera carga, sino que la vuelta atrás " +
+          "nunca es perfecta del todo.",
       },
       {
         b: "rayo",
@@ -5034,7 +4986,7 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "De la primera escritura conocida, la que se llama <strong>protocuneiforme</strong>, se " +
-          "conservan unas cinco mil tablillas de barro. Casi todas salen de " +
+          "conservan unas cinco mil tablillas de barro; casi todas salen de " +
           "<strong>Uruk</strong>, en el sur del actual Irak, y se fechan entre el 3350 y el 3000 " +
           "antes de nuestra era.",
       },
@@ -5044,13 +4996,9 @@ export const CURIOSIDADES: Short[] = [
           "De esas cinco mil, alrededor del <strong>85 %</strong> son documentos administrativos: " +
           "entradas de mercancía en el almacén central, repartos de raciones, control de personal " +
           "y de jornadas de trabajo. Cebada, escanda, cerveza, ovejas, pescado, tinajas, tejidos, " +
-          "productos lácteos. Cuánto entra, cuánto sale, quién responde.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "No hay poesía. No hay relato. En todo el corpus no aparece prácticamente ningún texto " +
-          "narrativo, y las raíces verbales son rarísimas.",
+          "productos lácteos; cuánto entra, cuánto sale y quién responde. No hay poesía y no hay " +
+          "relato: en todo el corpus no aparece prácticamente ningún texto narrativo, y las " +
+          "raíces verbales son rarísimas.",
       },
       {
         b: "rayo",
@@ -5067,19 +5015,15 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "Sobre unas dieciocho tablillas de aquel periodo se repiten dos signos, " +
-          "<strong>KU</strong> y <strong>ŠIM</strong>, junto a cantidades de grano. Una de ellas " +
-          "dice, traducida sin adornos:",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "<em>28.086 medidas de cebada, 37 meses, Kushim.</em>",
+          "<strong>KU</strong> y <strong>ŠIM</strong>, junto a cantidades de grano, y una de " +
+          "ellas dice, traducida sin adornos: <em>28.086 medidas de cebada, 37 meses, " +
+          "Kushim</em>.",
       },
       {
         b: "parrafo",
         texto:
           "Se suele presentar a Kushim como la persona más antigua cuyo nombre conocemos, hacia " +
-          "el 3200 antes de nuestra era. Conviene decir el resto: los especialistas no están " +
+          "el 3200 antes de nuestra era, y conviene decir el resto: los especialistas no están " +
           "seguros de que sea un nombre. Los dos signos aparecen sin apenas contexto, y podrían " +
           "designar igual de bien a una persona, al cargo que esa persona ocupaba o directamente " +
           "a la institución que llevaba las cuentas.",
@@ -5099,17 +5043,16 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "El 15 % restante de las tablillas no son cuentas. Son listas: listas de oficios, " +
-          "listas de recipientes, listas de animales, ordenadas siempre igual, copiadas una y " +
-          "otra vez.",
+          "El 15 % restante de las tablillas no son cuentas, sino listas: listas de oficios, " +
+          "listas de recipientes, listas de animales, ordenadas siempre igual y copiadas una y " +
+          "otra vez. Eran material de escuela, porque un aprendiz de escriba tenía que memorizar " +
+          "centenares de signos y se los hacían copiar en series fijas.",
       },
       {
         b: "parrafo",
         texto:
-          "Eran material de escuela. Un aprendiz de escriba tenía que memorizar centenares de " +
-          "signos, y se los hacían copiar en series fijas. La proporción cuenta la historia por " +
-          "sí sola: en el periodo más antiguo, Uruk IV, esas listas son el 1 % de lo conservado; " +
-          "en el siguiente, Uruk III, ya son el 20 %.",
+          "La proporción cuenta la historia por sí sola: en el periodo más antiguo, Uruk IV, esas " +
+          "listas son el 1 % de lo conservado; en el siguiente, Uruk III, ya son el 20 %.",
       },
       {
         b: "rayo",
@@ -5138,6 +5081,8 @@ export const CURIOSIDADES: Short[] = [
     ],
     soloPortada: true,
     textoDePablo: true,
+    /* Imagen que pide su texto para DENTRO, todavía sin hacer:
+       IMAGEN — sección «La idea es de Newton y viene con un cañón en una montaña». Diagrama propio en SVG: círculo terrestre, una montaña y cuatro trayectorias desde la cima, cada una más larga, hasta que la cuarta cierra el círculo. Es el dibujo */
     bloques: [
       {
         b: "rotulo",
@@ -5147,21 +5092,17 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Conviene empezar por deshacer la idea que estorba.",
+          "Conviene empezar deshaciendo la idea que estorba. A la altura a la que orbita la " +
+          "Estación Espacial Internacional, unos cuatrocientos kilómetros, la gravedad terrestre " +
+          "es aproximadamente el <strong>90 %</strong> de la que hay a nivel del suelo: no es " +
+          "débil, no es residual y desde luego no es cero.",
       },
       {
         b: "parrafo",
         texto:
-          "A la altura a la que orbita la Estación Espacial Internacional, unos cuatrocientos " +
-          "kilómetros, la gravedad terrestre es aproximadamente el <strong>90 %</strong> de la " +
-          "que hay a nivel del suelo. No es débil, no es residual y desde luego no es cero.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Un astronauta flotando dentro de la estación está sometido a casi el mismo tirón hacia " +
-          "la Tierra que si estuviera en una acera de Madrid. La expresión <em>gravedad cero</em> " +
-          "describe lo que se ve, no lo que ocurre.",
+          "Un astronauta que flota dentro de la estación está sometido a casi el mismo tirón " +
+          "hacia la Tierra que si estuviera parado en una acera de Madrid. La expresión " +
+          "<em>gravedad cero</em>, por tanto, describe lo que se ve, no lo que ocurre.",
       },
       {
         b: "rayo",
@@ -5177,23 +5118,18 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Entonces, ¿de dónde sale la flotación?",
+          "Entonces, ¿de dónde sale la flotación? Es simple: de que la estación está cayendo, y " +
+          "el astronauta también, y el bolígrafo, y la cámara, y el agua del vaso. Todos caen con " +
+          "la misma aceleración, de modo que ninguno se apoya en ninguno; no hay suelo que empuje " +
+          "los pies hacia arriba ni silla que empuje la espalda, y esa ausencia de empuje es " +
+          "exactamente lo que el cuerpo interpreta como peso.",
       },
       {
         b: "parrafo",
         texto:
-          "De que la estación está cayendo. Y el astronauta también. Y el bolígrafo, y la cámara, " +
-          "y el agua del vaso. Todos caen con la misma aceleración, de modo que ninguno se apoya " +
-          "en ninguno. No hay suelo que empuje hacia arriba los pies, no hay silla que empuje la " +
-          "espalda, y esa ausencia de empuje es exactamente lo que el cuerpo interpreta como " +
-          "peso.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Lo mismo pasa, durante un segundo y medio, en la primera bajada de una montaña rusa o " +
-          "en un ascensor que arranca hacia abajo. La sensación del estómago es idéntica; lo " +
-          "único que cambia en órbita es que la caída no termina nunca.",
+          "Lo mismo te ocurre a ti, durante un segundo y medio, en la primera bajada de una " +
+          "montaña rusa o en un ascensor que arranca hacia abajo. La sensación del estómago es " +
+          "idéntica, y lo único que cambia en órbita es que la caída no termina nunca.",
       },
       {
         b: "rayo",
@@ -5210,27 +5146,19 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "El razonamiento aparece en un texto de <strong>Isaac Newton</strong> publicado " +
-          "póstumamente en 1728, <em>Tratado del sistema del mundo</em>, y consiste en imaginar " +
-          "una piedra lanzada desde la cima de una montaña muy alta, sin aire que la frene.",
+          "póstumamente en 1728, el <em>Tratado del sistema del mundo</em>, y consiste en " +
+          "imaginar una piedra lanzada desde la cima de una montaña muy alta, sin aire que la " +
+          "frene. Lanzada despacio cae cerca; lanzada más fuerte cae más lejos; y cada vez más " +
+          "lejos.",
       },
       {
         b: "parrafo",
         texto:
-          "Lanzada despacio, cae cerca. Lanzada más fuerte, cae más lejos. Cada vez más lejos.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Y entonces viene el paso que lo cambia todo: la Tierra es redonda, así que mientras la " +
-          "piedra avanza, el suelo se curva por debajo alejándose de ella. Si se lanza con la " +
+          "Entonces viene el paso que lo cambia todo. La Tierra es redonda, así que mientras la " +
+          "piedra avanza el suelo se curva por debajo y se aleja de ella; si se lanza con la " +
           "velocidad justa, la curva de su caída coincide exactamente con la curva del planeta. " +
           "La piedra sigue cayendo, con la misma fuerza y la misma trayectoria de siempre, pero " +
-          "el suelo se aparta a la misma velocidad a la que ella baja.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Y ya no aterriza nunca.",
+          "el suelo se aparta a la misma velocidad a la que ella baja. Y ya no aterriza nunca.",
       },
       {
         b: "rayo",
@@ -8430,20 +8358,15 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "<strong>TeleGeography</strong>, la consultora que mide ese mercado y a la que todo el " +
           "mundo cita, se puso a rastrear el origen del dato y encontró algo incómodo: la fuente " +
-          "última era su propia página de preguntas frecuentes. Y esa página se apoyaba en una " +
+          "última era su propia página de preguntas frecuentes, que a su vez se apoyaba en una " +
           "estadística de la comisión de telecomunicaciones estadounidense según la cual los " +
           "satélites suponían el 0,37 % de la capacidad internacional <strong>de Estados " +
-          "Unidos</strong>.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Es decir: un dato de un solo país, sobre capacidad y no sobre tráfico, convertido por " +
-          "repetición en una cifra mundial. La propia TeleGeography lo resume con una honestidad " +
-          "poco común: pueden confirmar que la afirmación es cierta, pero no pueden hacer el " +
-          "cálculo con precisión porque no existen datos de tráfico intercontinental por " +
-          "satélite. Los últimos números de la comisión son de 2013, porque después dejó de " +
-          "recogerlos.",
+          "Unidos</strong>. Es decir, un dato de un solo país, sobre capacidad y no sobre " +
+          "tráfico, convertido por repetición en una cifra mundial. La propia TeleGeography lo " +
+          "resume con una honestidad poco común: pueden confirmar que la afirmación es cierta, " +
+          "pero no pueden hacer el cálculo con precisión porque no existen datos de tráfico " +
+          "intercontinental por satélite, y los últimos números de la comisión son de 2013, " +
+          "porque después dejó de recogerlos.",
       },
       {
         b: "rayo",
@@ -8466,24 +8389,20 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Un satélite geoestacionario está a unos <strong>35.786 kilómetros</strong> de altura. " +
-          "Una señal que suba y baje recorre cerca de 72.000 kilómetros, y ni siquiera la luz " +
-          "puede hacer eso en menos de unos <strong>240 milisegundos</strong>. Ida y vuelta, " +
-          "medio segundo largo. Esa cifra no depende de la tecnología: depende de la altura de la " +
-          "órbita y de la velocidad de la luz, y no va a mejorar nunca.",
+          "Un satélite geoestacionario está a unos <strong>35.786 kilómetros</strong> de altura, " +
+          "de modo que una señal que suba y baje recorre cerca de 72.000 kilómetros, y ni " +
+          "siquiera la luz puede hacer eso en menos de unos <strong>240 milisegundos</strong>; " +
+          "ida y vuelta, medio segundo largo. Esa cifra no depende de la tecnología sino de la " +
+          "altura de la órbita y de la velocidad de la luz, y por tanto no va a mejorar nunca.",
       },
       {
         b: "parrafo",
         texto:
           "En una fibra óptica la luz viaja algo más despacio que en el vacío, unos 203.000 " +
           "kilómetros por segundo, dos tercios de su velocidad máxima. Pero el camino es " +
-          "horizontal. La regla que usan los ingenieros es que mil kilómetros de cable equivalen " +
-          "a unos diez milisegundos de ida y vuelta: cruzar el Atlántico sale por unos sesenta.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Sesenta milisegundos contra quinientos.",
+          "horizontal, y la regla que usan los ingenieros dice que mil kilómetros de cable " +
+          "equivalen a unos diez milisegundos de ida y vuelta: cruzar el Atlántico sale por unos " +
+          "sesenta. Sesenta milisegundos contra quinientos.",
       },
       {
         b: "rayo",
@@ -8633,28 +8552,25 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "El tulipán liso, de un solo color, era una flor apreciada y cara pero corriente. Lo " +
-          "que se pagaba a precios extraordinarios eran los ejemplares con los pétalos llameados: " +
-          "fondos blancos o amarillos recorridos por vetas de rojo o de púrpura, distintas en " +
-          "cada flor.",
+          "El tulipán liso, de un solo color, era en la Holanda del siglo XVII una flor apreciada " +
+          "y cara, pero corriente. Lo que se pagaba a precios extraordinarios eran los ejemplares " +
+          "con los pétalos llameados: fondos blancos o amarillos recorridos por vetas de rojo o " +
+          "de púrpura, distintas en cada flor y que no se repetían nunca igual.",
       },
       {
         b: "parrafo",
         texto:
-          "Los holandeses del siglo XVII no sabían de dónde salían esos dibujos. Hoy sí se sabe.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Los produce una infección: un virus del mosaico específico del tulipán, llamado " +
-          "<strong>virus del jaspeado</strong>, que rompe el color único del pétalo en dos o más. " +
-          "De ahí el nombre inglés de aquellas variedades, las <em>broken</em>, las rotas.",
+          "Los holandeses de la época no sabían de dónde salían aquellos dibujos, y hoy sí lo " +
+          "sabemos. Los produce una infección: un virus del mosaico específico del tulipán, " +
+          "llamado <strong>virus del jaspeado</strong>, que rompe el color único del pétalo en " +
+          "dos o más. De ahí viene el nombre que recibieron aquellas variedades en inglés, las " +
+          "<em>broken</em>, las rotas.",
       },
       {
         b: "rayo",
         texto:
-          "La flor más cotizada de la historia era una planta enferma, y su belleza era el " +
-          "síntoma. Nadie lo supo hasta trescientos años después.",
+          "La flor más cotizada de la historia era una planta enferma, y aquella belleza era el " +
+          "síntoma de la enfermedad. Nadie lo supo hasta trescientos años después.",
       },
       {
         b: "rotulo",
@@ -8664,27 +8580,25 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Aquí está la consecuencia económica, y es la que explica lo demás.",
+          "Aquí está la consecuencia económica, que es la que explica todo lo demás y casi nunca " +
+          "se cuenta.",
       },
       {
         b: "parrafo",
         texto:
-          "El virus que produce el dibujo debilita también la planta. Un bulbo infectado se " +
-          "reproduce despacio y da pocos hijuelos. Y como el dibujo depende de la infección y no " +
-          "de la variedad, tampoco se podía garantizar que la descendencia saliera igual.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Es decir: la mercancía más deseada era simultáneamente la más difícil de producir, la " +
-          "más lenta de multiplicar y la única que no se podía prometer con certeza.",
+          "El mismo virus que produce el dibujo debilita también la planta, de modo que un bulbo " +
+          "infectado se reproduce despacio y da pocos hijuelos. Y como el dibujo depende de la " +
+          "infección y no de la variedad, tampoco se podía garantizar que la descendencia saliera " +
+          "igual que el ejemplar que se había comprado. Dicho de otro modo: la mercancía más " +
+          "deseada era simultáneamente la más difícil de producir, la más lenta de multiplicar y " +
+          "la única cuya calidad no se podía prometer.",
       },
       {
         b: "rayo",
         texto:
           "No hacía falta ninguna manía colectiva para que aquellos precios subieran. Un bien " +
           "escaso por naturaleza, imposible de fabricar a voluntad y de calidad no garantizable " +
-          "reúne, él solo, todas las condiciones.",
+          "reúne, él solo y sin ayuda de nadie, todas las condiciones.",
       },
       {
         b: "rotulo",
@@ -8695,19 +8609,16 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "El <strong>Semper Augustus</strong>, el más caro de todos, llegó a venderse por " +
-          "<strong>10.000 florines</strong>, el equivalente a unos 130.000 euros de 2024.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Un obrero cualificado ganaba entre 150 y 350 florines al año. Aquel bulbo costaba, por " +
-          "tanto, entre veintiocho y sesenta y siete años de sueldo.",
+          "<strong>10.000 florines</strong>, el equivalente a unos 130.000 euros de 2024. Para " +
+          "calibrar la cifra conviene ponerla junto a un salario: un obrero cualificado ganaba " +
+          "entre 150 y 350 florines al año, de manera que aquel bulbo costaba entre veintiocho y " +
+          "sesenta y siete años de sueldo.",
       },
       {
         b: "parrafo",
         texto:
           "Un <strong>Viceroy</strong> se cambió por una cesta de bienes valorada en 2.500 " +
-          "florines, más de cinco veces el coste de una casa media. Y en 1635 hay registrada una " +
+          "florines, más de cinco veces el coste de una casa media, y en 1635 hay registrada una " +
           "venta de cuarenta bulbos por cien mil florines.",
       },
       {
@@ -9267,18 +9178,10 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "<strong>Ole Kirk Christiansen</strong> era carpintero en Billund, un pueblo del " +
-          "interior de Jutlandia, en Dinamarca. Hacía muebles, escaleras, tablas de planchar.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "En 1924, sus hijos prendieron sin querer unas virutas de madera. Ardieron el taller y " +
-          "la vivienda familiar, que estaban juntos.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Reconstruyó y siguió con el mismo oficio. Hasta que llegó la crisis.",
+          "interior de Jutlandia, en Dinamarca, y se ganaba la vida haciendo muebles, escaleras y " +
+          "tablas de planchar. En 1924 sus hijos prendieron sin querer unas virutas de madera, y " +
+          "ardieron el taller y la vivienda familiar, que estaban juntos. Reconstruyó y siguió " +
+          "con el mismo oficio, hasta que llegó la crisis.",
       },
       {
         b: "rayo",
@@ -9295,27 +9198,24 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Con la Gran Depresión desapareció el trabajo de construcción. Un carpintero de pueblo " +
-          "sin obras es un carpintero sin ingresos.",
+          "Con la Gran Depresión desapareció el trabajo de construcción, y un carpintero de " +
+          "pueblo sin obras es un carpintero sin ingresos.",
       },
       {
         b: "parrafo",
         texto:
           "Christiansen tenía por costumbre fabricar versiones en miniatura de sus propios " +
-          "productos, para enseñárselas a los clientes: escaleras diminutas, tablas de planchar " +
-          "diminutas. Y fueron esas miniaturas las que le dieron la idea.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "El 10 de agosto de 1932 empezó a fabricar huchas y juguetes de arrastre de madera.",
+          "productos para enseñárselas a los clientes: escaleras diminutas, tablas de planchar " +
+          "diminutas. Y fueron precisamente esas maquetas las que le dieron la idea, porque " +
+          "resultó que se vendían solas. El 10 de agosto de 1932 empezó a fabricar huchas y " +
+          "juguetes de arrastre de madera.",
       },
       {
         b: "rayo",
         texto:
-          "No cambió de sector por visión comercial. Cambió porque lo único que seguía saliendo " +
-          "de su taller cuando no había obras eran las maquetas, y resultó que las maquetas se " +
-          "vendían.",
+          "No cambió de sector por visión comercial ni porque viera venir nada. Cambió porque, " +
+          "cuando dejó de haber obras, lo único que seguía saliendo de su taller eran las " +
+          "maquetas.",
       },
       {
         b: "rotulo",
@@ -9325,14 +9225,9 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "En 1934 organizó entre sus empleados un concurso para ponerle nombre a la empresa. El " +
-          "premio era una botella de vino casero.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "El nombre elegido fue <strong>LEGO</strong>, contracción de la expresión danesa " +
-          "<em>leg godt</em>: jugar bien.",
+          "En 1934 organizó entre sus empleados un concurso para ponerle nombre a la empresa, y " +
+          "el premio era una botella de vino casero. El nombre elegido fue <strong>LEGO</strong>, " +
+          "contracción de la expresión danesa <em>leg godt</em>: jugar bien.",
       },
       {
         b: "parrafo",
@@ -9379,62 +9274,74 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "rotulo",
         texto:
-          "La fecha exacta es el 23 de septiembre de 1889, en Kioto",
+          "Un artesano de Kioto abre un taller de barajas y le pone nombre",
       },
       {
         b: "parrafo",
         texto:
-          "<strong>Fusajiro Yamauchi</strong>, artesano, fundó aquel día en el distrito de " +
-          "Shimogyo, en Kioto, un negocio de producción y distribución de naipes japoneses. En " +
-          "particular, de <strong>hanafuda</strong>: barajas de doce palos, uno por mes del año, " +
-          "ilustradas con flores y plantas.",
+          "El 23 de septiembre de 1889, en el distrito de Shimogyo, en Kioto, un artesano llamado " +
+          "<strong>Fusajiro Yamauchi</strong> puso en marcha un negocio de producción y " +
+          "distribución de naipes japoneses. En concreto fabricaba <strong>hanafuda</strong>, " +
+          "«cartas de flores»: barajas de doce palos, uno por cada mes del año, ilustradas con " +
+          "plantas en lugar de números y de figuras. Las pintaba a mano, una por una, y las " +
+          "vendía en la propia ciudad.",
       },
       {
         b: "parrafo",
         texto:
-          "Las hacía a mano.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Para situar la fecha: faltaban catorce años para que los hermanos Wright levantaran " +
-          "del suelo el primer avión.",
+          "Conviene detenerse un momento en la fecha, porque cuesta situarla. Cuando aquel taller " +
+          "abrió sus puertas faltaban catorce años para que los hermanos Wright levantaran del " +
+          "suelo el primer avión, y la empresa que hoy asociamos a la infancia de tres " +
+          "generaciones seguidas llevaba ya un tiempo funcionando cuando aparecieron la radio, el " +
+          "automóvil de masas y el cine sonoro. Si visitas hoy Kioto, la calle donde estaba aquel " +
+          "primer taller sigue ahí.",
       },
       {
         b: "rayo",
         texto:
-          "La empresa que hoy se asocia a la infancia de tres generaciones seguidas es anterior " +
-          "al automóvil de masas, al avión y a la radio. Empezó pintando cartas a mano.",
+          "La compañía que fabricó la consola portátil más vendida del siglo XX empezó pintando " +
+          "cartas a mano, y es anterior al avión, al coche popular y a la radio.",
       },
       {
         b: "rotulo",
         texto:
-          "Los naipes eran un producto con muchos problemas",
+          "Una baraja se compra una vez en la vida, y ese era el problema",
       },
       {
         b: "parrafo",
         texto:
-          "Hay una razón por la que un negocio de barajas en el Japón de finales del siglo XIX " +
-          "era difícil, y explica la mentalidad posterior de la casa.",
+          "Fabricar naipes en el Japón de finales del siglo XIX tenía una pega de fondo que " +
+          "explica todo lo que vendría después, y merece la pena verla antes de seguir.",
       },
       {
         b: "parrafo",
         texto:
-          "Una baraja es un producto que se compra una vez y dura años. No se gasta, no se rompe " +
-          "y no tiene recambio. Un fabricante de naipes no vende a sus clientes una segunda vez.",
+          "Una baraja es un producto extraordinariamente duradero: no se gasta, no se rompe con " +
+          "el uso normal, no tiene piezas de recambio y no pasa de moda. Quien te compra una hoy " +
+          "no vuelve a comprarte otra en veinte años, de modo que un fabricante de cartas vende a " +
+          "cada cliente una sola vez en su vida. El negocio funciona, pero no crece: solo puede " +
+          "crecer si crece el país.",
       },
       {
         b: "parrafo",
         texto:
-          "Nintendo sobrevivió ochenta años en ese negocio, y llegó a los años sesenta siendo una " +
-          "empresa mediana, rentable y sin ninguna vía de crecimiento.",
+          "Con esa aritmética encima, Nintendo sobrevivió ochenta años y llegó a los años sesenta " +
+          "convertida en una empresa mediana, rentable y sin ninguna vía de crecimiento a la " +
+          "vista. Nada de lo que sabía hacer le servía para ser más grande.",
       },
       {
         b: "rayo",
         texto:
           "La búsqueda desesperada de otra cosa que hacer, que es lo que define a la empresa en " +
-          "la década siguiente, no vino de la ambición. Vino de estar atrapada en un producto que " +
-          "la gente compra una vez en la vida.",
+          "la década siguiente, no nació de la ambición: nació de estar atrapada en un producto " +
+          "que la gente compra una vez y conserva toda la vida.",
+      },
+      {
+        b: "dato",
+        texto:
+          "¿Sabías que…? Una baraja de hanafuda no se organiza por números, sino por meses: doce " +
+          "palos de cuatro cartas cada uno, y cada palo identificado por una planta. El pino es " +
+          "enero; el ciruelo en flor, febrero; el cerezo, marzo.",
       },
     ],
   },
@@ -9560,27 +9467,25 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "<strong>Amancio Ortega</strong> nació el 28 de marzo de 1936 en Busdongo de Arbas, un " +
-          "pueblo de la montaña leonesa. Su padre era ferroviario, y con el tiempo llegó a jefe " +
-          "de estación de Renfe.",
+          "pueblo de la montaña leonesa, y su padre era ferroviario; con el tiempo llegaría a " +
+          "jefe de estación de Renfe. La familia acabó trasladándose a La Coruña, y allí, a los " +
+          "catorce años, Ortega dejó los estudios y entró a trabajar de dependiente en dos " +
+          "tiendas de ropa conocidas de la ciudad.",
       },
       {
         b: "parrafo",
         texto:
-          "La familia se trasladó a La Coruña. Allí, a los catorce años, Ortega dejó los estudios " +
-          "y entró a trabajar de dependiente en dos tiendas de ropa conocidas de la ciudad.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Es decir: aprendió el negocio por el lado del mostrador, no por el de la fábrica. Vio " +
-          "durante años qué entraba, qué se probaba la gente, qué se quedaba colgado.",
+          "Conviene detenerse en ese detalle, porque explica bastante de lo que vino después: " +
+          "aprendió el negocio por el lado del mostrador, no por el de la fábrica. Durante años " +
+          "vio qué entraba en la tienda, qué se probaba la gente, qué se llevaba puesto y qué se " +
+          "quedaba colgado hasta las rebajas.",
       },
       {
         b: "rayo",
         texto:
           "Trece años detrás de un mostrador antes de fabricar nada. La obsesión posterior de la " +
-          "empresa por lo que hace el cliente dentro de la tienda no es una teoría de gestión: es " +
-          "de dónde venía el fundador.",
+          "empresa por lo que hace el cliente dentro de la tienda no es una teoría de gestión " +
+          "aprendida en un máster: es de donde venía el fundador.",
       },
       {
         b: "rotulo",
@@ -9590,20 +9495,23 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "En 1963 creó <strong>Confecciones GOA</strong>, con sus iniciales al revés, y se " +
-          "dedicó a fabricar albornoces. Empezó cosiendo en casa con su mujer, Rosalía Mera, " +
-          "antes de tener nave.",
+          "En 1963 creó <strong>Confecciones GOA</strong> —sus iniciales al revés— y se dedicó a " +
+          "fabricar albornoces, que empezó cosiendo en su propia casa junto a su mujer, Rosalía " +
+          "Mera, antes de tener nave. No había tienda, ni marca, ni catálogo, ni escaparate: un " +
+          "solo producto, cosido en casa y vendido a mayoristas.",
       },
       {
         b: "parrafo",
         texto:
-          "Ni tienda, ni marca, ni catálogo. Un producto, cosido en casa, vendido a mayoristas.",
+          "Y así estuvo doce años. La empresa que hoy se define entera por la velocidad tardó más " +
+          "de una década en dar el primer paso de lo que acabaría siendo su modelo.",
       },
       {
         b: "rayo",
         texto:
-          "Doce años entre el taller y la primera tienda. La empresa que hoy se define por la " +
-          "velocidad tardó más de una década en dar el primer paso de su modelo.",
+          "De ese arranque lento sale un dato que suele perderse en el relato: durante doce años " +
+          "esto fue un taller de confección corriente, indistinguible de otros muchos que había " +
+          "en Galicia.",
       },
       {
         b: "rotulo",
@@ -9614,21 +9522,16 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "La primera tienda <strong>Zara</strong> abrió en 1975 en la calle Juan Flórez, una vía " +
-          "céntrica de La Coruña, con ropa de hombre, mujer y niño.",
+          "céntrica de La Coruña, y vendía ropa de hombre, de mujer y de niño.",
       },
       {
         b: "parrafo",
         texto:
           "El nombre iba a ser otro. Querían llamarla <strong>Zorba</strong>, por la película de " +
-          "1964, y ya habían encargado el rótulo. Entonces descubrieron que había un bar con ese " +
-          "nombre a dos manzanas.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "No cambiaron de idea: cambiaron las letras de sitio. Con las mismas y una <em>a</em> " +
-          "de más, procedente de un juego de letras adicional que habían mandado hacer, salió " +
-          "<strong>Zara</strong>.",
+          "1964, y ya habían encargado los moldes del rótulo cuando descubrieron que había un bar " +
+          "con ese mismo nombre a dos manzanas. No cambiaron de idea: cambiaron las letras de " +
+          "sitio. Con esas mismas y una <em>a</em> de más, que venía de un juego adicional de " +
+          "letras que habían mandado hacer, salió <strong>Zara</strong>.",
       },
       {
         b: "rayo",
@@ -10217,21 +10120,17 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "La arena de cuarzo es dióxido de silicio: un átomo de silicio unido a dos de oxígeno. " +
-          "Para sacar el silicio hay que quitarle el oxígeno, y eso se hace por la vía brutal.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Se mete la arena en un horno de reducción con carbono a unos <strong>2.000 " +
-          "grados</strong>. El carbono se queda con el oxígeno y sale en forma de gas; el silicio " +
-          "queda líquido en el fondo.",
+          "La arena de cuarzo es dióxido de silicio, un átomo de silicio unido a dos de oxígeno, " +
+          "de manera que para sacar el silicio hay que quitarle el oxígeno, y eso se hace por la " +
+          "vía brutal: se mete la arena en un horno de reducción con carbono a unos <strong>2.000 " +
+          "grados</strong>, el carbono se queda con el oxígeno y sale en forma de gas, y el " +
+          "silicio queda líquido en el fondo.",
       },
       {
         b: "parrafo",
         texto:
           "Lo que se obtiene se llama silicio metalúrgico y tiene una pureza del <strong>98 al 99 " +
-          "%</strong>. Suena a mucho. Sirve para hacer aleaciones de aluminio y no sirve " +
+          "%</strong>. Suena a mucho, sirve para hacer aleaciones de aluminio y no sirve " +
           "absolutamente para nada en electrónica.",
       },
       {
@@ -10248,29 +10147,20 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Aquí empieza la parte que de verdad cuesta dinero.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "El silicio bruto se hace reaccionar con ácido clorhídrico a unos 300 grados y se " +
-          "convierte en <strong>triclorosilano</strong>, que es un líquido. Y un líquido se puede " +
-          "destilar, una vez y otra y otra, separando en cada pasada las impurezas por su punto " +
-          "de ebullición.",
+          "Aquí empieza la parte que de verdad cuesta dinero. El silicio bruto se hace reaccionar " +
+          "con ácido clorhídrico a unos 300 grados y se convierte en " +
+          "<strong>triclorosilano</strong>, que es un líquido; y un líquido se puede destilar, " +
+          "una vez y otra y otra, separando en cada pasada las impurezas por su punto de " +
+          "ebullición.",
       },
       {
         b: "parrafo",
         texto:
           "Destilando repetidamente se llega a una pureza del <strong>99,9999999 %</strong>, lo " +
-          "que en la industria se llama <em>nueve nueves</em>. Después ese triclorosilano se " +
-          "calienta con hidrógeno sobre una varilla de silicio a unos 1.100 grados, y el silicio " +
-          "se va depositando encima, ya purísimo.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Conviene traducir la cifra. Nueve nueves significa que por cada mil millones de átomos " +
-          "de silicio hay uno que no lo es.",
+          "que en la industria se llama <em>nueve nueves</em>, y después ese triclorosilano se " +
+          "calienta con hidrógeno sobre una varilla de silicio a unos 1.100 grados, de modo que " +
+          "el silicio se va depositando encima ya purísimo. Conviene traducir la cifra: nueve " +
+          "nueves significa que por cada mil millones de átomos de silicio hay uno que no lo es.",
       },
       {
         b: "rayo",
@@ -16742,29 +16632,24 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "rotulo",
         texto:
-          "El precio se codifica antes de terminar de leerlo",
+          "El precio se archiva antes de terminar de leerlo",
       },
       {
         b: "parrafo",
         texto:
           "El fenómeno se llama <strong>efecto del dígito de la izquierda</strong>, y lo " +
-          "estudiaron Manoj Thomas y Vicki Morwitz en un trabajo de 2005 en el <em>Journal of " +
-          "Consumer Research</em> con un título que lo resume: <em>Penny wise and pound " +
-          "foolish</em>.",
+          "estudiaron Manoj Thomas y Vicki Morwitz, psicólogos del consumo, en un trabajo de 2005 " +
+          "publicado en el <em>Journal of Consumer Research</em> con un título que lo resume " +
+          "entero: <em>Penny wise and pound foolish</em>.",
       },
       {
         b: "parrafo",
         texto:
-          "La idea es que la magnitud de un precio no se calcula al terminar de leerlo, sino que " +
-          "se va formando mientras se lee. Y como se lee de izquierda a derecha, el primer dígito " +
-          "llega antes y actúa como ancla. Para cuando aparecen los céntimos, la impresión de " +
-          "tamaño ya está formada.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Por eso 2,99 se archiva mentalmente en la vecindad del dos, y no en la del tres, " +
-          "aunque esté a un céntimo del tres.",
+          "La idea es la siguiente. La magnitud de un precio no se calcula al terminar de leerlo, " +
+          "sino que se va formando mientras lo lees; y como leemos de izquierda a derecha, el " +
+          "primer dígito llega antes que los demás y actúa como ancla. Para cuando aparecen los " +
+          "céntimos, la impresión de tamaño ya está hecha. Por eso 2,99 se archiva mentalmente en " +
+          "la vecindad del dos, y no en la del tres, aunque esté a un céntimo del tres.",
       },
       {
         b: "rayo",
@@ -16780,21 +16665,17 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Conviene descartar la explicación fácil, porque es falsa y además insultante.",
+          "Conviene descartar la explicación fácil, porque además de falsa es insultante para el " +
+          "comprador. Nadie se equivoca al comparar 2,99 con 3,00, y cualquiera al que se lo " +
+          "preguntes directamente te contestará al momento que se diferencian en un céntimo.",
       },
       {
         b: "parrafo",
         texto:
-          "Nadie se equivoca al comparar 2,99 con 3,00. Cualquiera, preguntado directamente, " +
-          "contesta que se diferencian en un céntimo. El efecto no vive en el conocimiento " +
-          "aritmético, sino en el orden del procesamiento: la comparación de magnitud se ha " +
-          "resuelto antes de que la segunda mitad del número se incorpore.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Es la misma clase de fenómeno que hace que una ilusión óptica siga funcionando después " +
-          "de que a uno se la hayan explicado.",
+          "El efecto no vive, por tanto, en el conocimiento aritmético, sino en el orden del " +
+          "procesamiento: la comparación de magnitud se ha resuelto antes de que la segunda mitad " +
+          "del número llegue a incorporarse. Es la misma clase de fenómeno que hace que una " +
+          "ilusión óptica siga funcionando después de que te la hayan explicado con todo detalle.",
       },
       {
         b: "rayo",
@@ -18698,6 +18579,8 @@ export const CURIOSIDADES: Short[] = [
     ],
     soloPortada: true,
     textoDePablo: true,
+    /* Imagen que pide su texto para DENTRO, todavía sin hacer:
+       IMAGEN — sección «Debajo del fango hay una capa dura, y la ciudad la busca». Diagrama propio en SVG, sección vertical con las capas de abajo arriba: caranto, fango, bosque de estacas, plataforma de tablones, zócalo de piedra de Istria, ladr */
     bloques: [
       {
         b: "rotulo",
@@ -18707,24 +18590,19 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "El fondo de la laguna es limo y arena blanda. Sobre eso no se levanta una iglesia de " +
-          "piedra: se hunde.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Pero a una profundidad de entre cuatro y ocho metros por debajo del nivel del mar hay " +
-          "otra cosa. Se llama <strong>caranto</strong>, y es una arcilla limosa antigua, " +
-          "oxidada, apretada durante milenios hasta quedar dura. Tiene un espesor medio de dos o " +
-          "tres metros y es, con diferencia, lo más firme que hay en toda la laguna.",
+          "El fondo de la laguna es limo y arena blanda, y sobre eso no se levanta una iglesia de " +
+          "piedra: se hunde. Pero a una profundidad de entre cuatro y ocho metros por debajo del " +
+          "nivel del mar hay otra cosa, llamada <strong>caranto</strong>: una arcilla limosa " +
+          "antigua, oxidada, apretada durante milenios hasta quedar dura, con un espesor medio de " +
+          "dos o tres metros, y con diferencia lo más firme que hay en toda la laguna.",
       },
       {
         b: "parrafo",
         texto:
           "La técnica veneciana consiste en clavar estacas de madera —roble, alerce, pino—, de " +
           "unos cinco o seis metros de largo, muy juntas unas de otras, hasta llegar a esa capa o " +
-          "quedar apretadas contra ella. No se clavan unas pocas: se clavan por miles, tan " +
-          "pegadas que el propio suelo entre ellas queda comprimido y deja de ser blando.",
+          "quedar apretadas contra ella. Y no se clavan unas pocas: se clavan por miles, tan " +
+          "pegadas que el propio suelo que queda entre ellas se comprime y deja de ser blando.",
       },
       {
         b: "rayo",
@@ -18746,17 +18624,13 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Venecia no tiene canteras. La piedra clara que se ve en el arranque de los muros, la " +
-          "que moja la marea dos veces al día, es <strong>piedra de Istria</strong>: una caliza " +
-          "tan compacta que resulta prácticamente impermeable, traída por mar desde la orilla de " +
-          "enfrente del Adriático. Por encima de esa franja, ya fuera del alcance del agua, " +
-          "empieza el ladrillo.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Cada palacio del Gran Canal es, leído de abajo arriba, un bosque hincado, una " +
-          "plataforma de madera, un zócalo de piedra importada y luego ladrillo.",
+          "Venecia no tiene canteras, así que la piedra clara que se ve en el arranque de los " +
+          "muros, la que moja la marea dos veces al día, es <strong>piedra de Istria</strong>: " +
+          "una caliza tan compacta que resulta prácticamente impermeable, traída por mar desde la " +
+          "orilla de enfrente del Adriático. Por encima de esa franja, ya fuera del alcance del " +
+          "agua, empieza el ladrillo. Cada palacio del Gran Canal es, leído de abajo arriba, un " +
+          "bosque hincado, una plataforma de madera, un zócalo de piedra importada y luego " +
+          "ladrillo.",
       },
       {
         b: "rayo",
@@ -18772,22 +18646,18 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Esta es la parte que suena a truco y no lo es.",
+          "Esta es la parte que suena a truco y no lo es. Lo que pudre la madera son sobre todo " +
+          "los hongos, y los hongos necesitan oxígeno; una estaca clavada por debajo del nivel " +
+          "freático está permanentemente empapada y sin aire, y en un ambiente anóxico la " +
+          "degradación se vuelve lentísima. Sigue habiendo bacterias trabajando, por supuesto, " +
+          "pero a una velocidad que se mide en siglos, no en años.",
       },
       {
         b: "parrafo",
         texto:
-          "Lo que pudre la madera son sobre todo los hongos, y los hongos necesitan oxígeno. Una " +
-          "estaca clavada por debajo del nivel freático está permanentemente empapada y sin aire: " +
-          "en un ambiente anóxico la degradación se vuelve lentísima. Sigue habiendo bacterias " +
-          "trabajando, pero a una velocidad que se mide en siglos, no en años.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "De ahí se deduce la condición que hay que cumplir. Mientras esas estacas sigan bajo el " +
-          "agua, aguantan. El día que el nivel bajara y les entrara aire, empezarían a pudrirse " +
-          "como cualquier tronco.",
+          "De ahí se deduce además la condición que hay que cumplir. Mientras esas estacas sigan " +
+          "bajo el agua, aguantan; el día que el nivel bajara y les entrara aire, empezarían a " +
+          "pudrirse como cualquier tronco.",
       },
       {
         b: "rayo",
@@ -19493,30 +19363,26 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Conviene empezar por lo que hay dentro del número, porque casi nunca se explica.",
+          "Conviene empezar por lo que hay dentro del número, porque casi nunca se explica y de " +
+          "ahí sale todo lo demás.",
       },
       {
         b: "parrafo",
         texto:
           "El Índice de Precios de Consumo del INE, en su base de 2021, sigue <strong>955 " +
-          "artículos</strong> agrupados en 199 subclases. De esos artículos, 462 se recogen " +
-          "todavía yendo a mirar el precio, y el resto se obtienen directamente de los datos de " +
-          "caja de los comercios.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Y cada artículo entra en el índice con un peso distinto, proporcional a lo que los " +
-          "hogares se gastan realmente en él. Que suba el pan pesa mucho más que que suba el " +
-          "aceite de linaza, no porque el pan importe más, sino porque hay mucho más gasto " +
-          "detrás.",
+          "artículos</strong> agrupados en 199 subclases; de esos artículos, 462 se recogen " +
+          "todavía yendo físicamente a mirar el precio, y el resto se obtienen directamente de " +
+          "los datos de caja de los comercios. Y cada artículo entra en el índice con un peso " +
+          "distinto, proporcional a lo que los hogares se gastan realmente en él: que suba el pan " +
+          "pesa mucho más que que suba el aceite de linaza, no porque el pan importe más, sino " +
+          "porque hay mucho más gasto detrás.",
       },
       {
         b: "rayo",
         texto:
           "El IPC no responde a la pregunta <em>cuánto han subido los precios</em>. Responde a " +
-          "otra: <em>cuánto cuesta ahora comprar exactamente lo mismo que se compraba antes, en " +
-          "las mismas proporciones</em>.",
+          "otra distinta: <em>cuánto cuesta ahora comprar exactamente lo mismo que se compraba " +
+          "antes, en las mismas proporciones</em>.",
       },
       {
         b: "rotulo",
@@ -19528,20 +19394,16 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "Si la cesta se quedara congelada, al cabo de veinte años el índice estaría midiendo el " +
           "coste de una forma de vida que ya no existe: carretes de fotos, línea fija, " +
-          "enciclopedias por fascículos.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Por eso las ponderaciones se revisan <strong>cada año</strong> para los grandes " +
-          "agregados, y la estructura completa se rehace <strong>cada cinco</strong>.",
+          "enciclopedias por fascículos. Por eso las ponderaciones se revisan <strong>cada " +
+          "año</strong> para los grandes agregados, y la estructura completa se rehace " +
+          "<strong>cada cinco</strong>.",
       },
       {
         b: "parrafo",
         texto:
           "Es lo correcto y a la vez es lo incómodo, porque significa que la cesta con la que se " +
-          "mide hoy no es exactamente la misma con la que se medía hace una década. La serie no " +
-          "compara dos veces la misma cosa: compara dos cestas encadenadas.",
+          "mide hoy no es exactamente la misma con la que se medía hace una década: la serie no " +
+          "compara dos veces la misma cosa, sino dos cestas encadenadas.",
       },
       {
         b: "rayo",
@@ -19559,15 +19421,10 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "De ahí sale la sensación, muy extendida y perfectamente razonable, de que la inflación " +
-          "oficial no coincide con la de casa.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "El índice describe un hogar promedio que no existe. Un hogar que dedique una parte " +
-          "grande de su gasto a energía, alquiler y alimentos no vive el mismo 3 % que otro cuyo " +
-          "gasto esté repartido de otra manera. Los dos números son correctos; describen cestas " +
-          "distintas.",
+          "oficial no coincide con la de casa. El índice describe un hogar promedio que no " +
+          "existe, y un hogar que dedique una parte grande de su gasto a energía, alquiler y " +
+          "alimentos no vive el mismo 3 % que otro cuyo gasto esté repartido de otra manera. Los " +
+          "dos números son correctos; lo que ocurre es que describen cestas distintas.",
       },
       {
         b: "rayo",
@@ -24166,17 +24023,13 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "Con dieciséis años entró de aprendiz en <strong>Goupil & Cie</strong>, una casa de " +
-          "comercio de arte. Estuvo allí desde 1869: primero en La Haya, luego en Londres entre " +
-          "1873 y 1875, después en París. En 1876 lo despidieron.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Ese mismo año cruzó otra vez el canal y trabajó de maestro suplente en Inglaterra, " +
-          "primero en Ramsgate y luego en Isleworth. A finales de 1876 estaba de dependiente en " +
-          "una librería de Dordrecht. En enero de 1879 se fue a la cuenca minera del " +
-          "<strong>Borinage</strong>, en Bélgica, como predicador laico. La sociedad misionera " +
-          "que lo había enviado no le renovó el nombramiento.",
+          "comercio de arte, y estuvo allí desde 1869: primero en La Haya, luego en Londres entre " +
+          "1873 y 1875, después en París. En 1876 lo despidieron. Ese mismo año cruzó otra vez el " +
+          "canal y trabajó de maestro suplente en Inglaterra, primero en Ramsgate y luego en " +
+          "Isleworth; a finales de 1876 estaba de dependiente en una librería de Dordrecht; y en " +
+          "enero de 1879 se fue a la cuenca minera del <strong>Borinage</strong>, en Bélgica, " +
+          "como predicador laico, hasta que la sociedad misionera que lo había enviado decidió no " +
+          "renovarle el nombramiento.",
       },
       {
         b: "parrafo",
@@ -24186,8 +24039,9 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "rayo",
         texto:
-          "La lista de trabajos no es una anécdota previa: es el motivo por el que empezó tarde. " +
-          "Nadie llega a los veintisiete sin haber pintado nunca si le ha ido bien en otra cosa.",
+          "La lista de trabajos no es una anécdota previa a la biografía del pintor: es el motivo " +
+          "por el que empezó tarde. Nadie llega a los veintisiete sin haber pintado nunca si le " +
+          "ha ido bien en otra cosa.",
       },
       {
         b: "rotulo",
@@ -24197,28 +24051,24 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Fue allí, en la cuenca minera, donde decidió que iba a ser artista. El Museo Van Gogh " +
-          "de Ámsterdam lo fija con precisión: <strong>tomó la decisión a los veintisiete " +
+          "Fue allí, en la cuenca minera, donde decidió que iba a ser artista, y el Museo Van " +
+          "Gogh de Ámsterdam lo fija con precisión: tomó la decisión <strong>a los veintisiete " +
           "años</strong>.",
       },
       {
         b: "parrafo",
         texto:
-          "Había nacido el 30 de marzo de 1853 en Zundert, en el sur de los Países Bajos. Murió " +
-          "el 29 de julio de 1890 en Auvers-sur-Oise, cerca de París, a los treinta y siete.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Entre una fecha y otra hay diez años. En esos diez años produjo unas <strong>2.100 " +
-          "obras</strong>, de las cuales alrededor de <strong>860 son óleos</strong>. La mayor " +
-          "parte se concentra en los dos últimos.",
+          "Había nacido el 30 de marzo de 1853 en Zundert, en el sur de los Países Bajos, y murió " +
+          "el 29 de julio de 1890 en Auvers-sur-Oise, cerca de París, a los treinta y siete. " +
+          "Entre una fecha y otra hay diez años, y en esos diez años produjo unas <strong>2.100 " +
+          "obras</strong>, de las cuales alrededor de <strong>860 son óleos</strong>, con la " +
+          "mayor parte concentrada en los dos últimos.",
       },
       {
         b: "rayo",
         texto:
-          "No hay una obra temprana y una obra madura. Todo lo que se conoce de él es obra de " +
-          "aprendizaje acelerado y obra final a la vez, porque no hubo tiempo para separar las " +
+          "No hay una obra temprana y una obra madura que comparar. Todo lo que se conoce de él " +
+          "es a la vez aprendizaje acelerado y obra final, porque no hubo tiempo para separar las " +
           "dos cosas.",
       },
       {
@@ -24229,15 +24079,12 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Conviene mirar de cerca el tramo final, porque la cifra cuesta creerla.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Llegó a Auvers-sur-Oise el 20 de mayo de 1890. Murió el 29 de julio. Son setenta días " +
-          "exactos. El Museo de Orsay, que reunió aquel periodo en una exposición, cuenta " +
-          "<strong>setenta y cuatro lienzos</strong> pintados allí, más nueve hojas grandes de " +
-          "dibujo, cuarenta y ocho páginas de cuaderno y el único grabado que hizo en su vida.",
+          "Conviene mirar de cerca el tramo final, porque la cifra cuesta creerla. Llegó a " +
+          "Auvers-sur-Oise el 20 de mayo de 1890 y murió el 29 de julio, de manera que son " +
+          "setenta días exactos; y el Museo de Orsay, que reunió aquel periodo en una exposición, " +
+          "cuenta <strong>setenta y cuatro lienzos</strong> pintados allí, más nueve hojas " +
+          "grandes de dibujo, cuarenta y ocho páginas de cuaderno y el único grabado que hizo en " +
+          "su vida.",
       },
       {
         b: "parrafo",
