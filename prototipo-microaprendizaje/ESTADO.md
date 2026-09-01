@@ -6,8 +6,8 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts con el texto de Pablo | **686** | en 241 series |
-| de esos, **vivos en la app** | **225** | los otros 461 esperan portada |
+| shorts con el texto de Pablo | **683** | en 241 series |
+| de esos, **vivos en la app** | **225** | los otros 458 esperan portada |
 | fotografías guardadas esperando texto | **29** | en `originales/sin-asignar/` |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **339** | 79 para el catálogo entero |
@@ -25,6 +25,11 @@ venía troceada en párrafos de una o dos frases; la v2 los devuelve a prosa
 seguida. Cambian 65 páginas. Las 16 series de `16seriesreescritas` estaban
 contenidas enteras y sin diferencias dentro de `Shortstomo9v2`, o sea que la
 segunda entrega mandaba y la primera no aportaba nada.
+
+Y una trampa al contar: en `referencia/textos-de-pablo/shorts/` hay tres `.md`
+que NO son shorts —`FORMATO.md`, `COLA.md` y `FUENTES-IMAGENES.md`, que son
+documentos de Pablo—, así que un `find . -name '*.md'` da 686 y lo cierto son
+683. Se cuentan solo los de dentro de una carpeta de serie.
 
 Los números se sacan así, y **se vuelven a sacar antes de escribirlos aquí**:
 
