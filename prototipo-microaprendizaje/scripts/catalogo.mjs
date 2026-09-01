@@ -609,10 +609,37 @@ const cadena = (t, sangria) => {
    por nombre —`!== "FORMATO.md"`— y el 29 de agosto llegaron dos documentos
    más y se colaron los dos: el guion pedía una portada para «Cola de temas».
    Filtrar por la regla y no por la lista de nombres se arregla una vez. */
+/* EL ORDEN ES EL DE INCORPORACIÓN, no el alfabético.
+ *
+ * Pablo, el 1 de septiembre: «ponme los shorts en orden de incorporación».
+ *
+ * Por orden de carpeta, «Cómo funciona el cine» —de la última tanda— salía
+ * entre los primeros del muro, y las doce series con las que empezó todo
+ * quedaban repartidas por en medio. El muro no contaba nada.
+ *
+ * Cuándo entró cada serie no está en sus ficheros: `orden` en la cabecera es
+ * qué página va primero DENTRO de una serie, que es otra cosa. Lo sabe el
+ * repositorio, y está volcado en assets/orden-shorts.json —lo escribe
+ * scripts/orden-incorporacion.mjs a partir del primer commit que añadió cada
+ * fichero—. Se lee de ahí y no se le pregunta a git en cada compilación:
+ * serían seiscientas invocaciones.
+ *
+ * Una serie que no esté en la lista va al final: si falta es porque acaba de
+ * llegar y todavía no se ha vuelto a generar el fichero, y ahí es donde le
+ * toca estar. */
+const ORDEN = existsSync(join(AQUI, "assets", "orden-shorts.json"))
+  ? JSON.parse(readFileSync(join(AQUI, "assets", "orden-shorts.json"), "utf8")).orden
+  : {};
+
+const carpetas = readdirSync(TEXTOS)
+  .filter((d) => statSync(join(TEXTOS, d)).isDirectory())
+  .sort((a, b) => (ORDEN[a]?.n ?? 1e9) - (ORDEN[b]?.n ?? 1e9) || a.localeCompare(b, "es"));
+
 const rutas = [];
-for (const d of readdirSync(TEXTOS).sort()) {
+for (const d of carpetas) {
   const p = join(TEXTOS, d);
-  if (!statSync(p).isDirectory()) continue;
+  /* Dentro de la serie manda `orden` de la cabecera, y el nombre del fichero
+     ya lo lleva delante —01-, 02-…—, así que ordenar por nombre lo respeta. */
   for (const f of readdirSync(p).sort()) if (f.endsWith(".md")) rutas.push(join(p, f));
 }
 

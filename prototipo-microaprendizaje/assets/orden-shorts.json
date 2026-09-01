@@ -1,0 +1,970 @@
+{
+ "_": "Cuándo entró cada serie, del primer commit que añadió sus ficheros. Lo escribe scripts/orden-incorporacion.mjs y lo lee scripts/catalogo.mjs. Si llega una tanda nueva hay que volver a generarlo.",
+ "generado": "2026-09-01",
+ "orden": {
+  "como-cicatrizan-las-heridas": {
+   "n": 1,
+   "entro": "2026-08-29"
+  },
+  "como-funciona-la-gravedad": {
+   "n": 2,
+   "entro": "2026-08-29"
+  },
+  "cuanto-le-queda-al-sol": {
+   "n": 3,
+   "entro": "2026-08-29"
+  },
+  "por-que-bostezamos": {
+   "n": 4,
+   "entro": "2026-08-29"
+  },
+  "por-que-crecen-las-unas-despues-de-morir": {
+   "n": 5,
+   "entro": "2026-08-29"
+  },
+  "por-que-crujen-los-nudillos": {
+   "n": 6,
+   "entro": "2026-08-29"
+  },
+  "por-que-duele-el-frio-en-un-diente": {
+   "n": 7,
+   "entro": "2026-08-29"
+  },
+  "por-que-duelen-las-agujetas": {
+   "n": 8,
+   "entro": "2026-08-29"
+  },
+  "por-que-el-cafe-te-despierta": {
+   "n": 9,
+   "entro": "2026-08-29"
+  },
+  "por-que-el-cielo-es-azul": {
+   "n": 10,
+   "entro": "2026-08-29"
+  },
+  "por-que-el-mar-es-salado": {
+   "n": 11,
+   "entro": "2026-08-29"
+  },
+  "por-que-el-tiempo-pasa-mas-rapido": {
+   "n": 12,
+   "entro": "2026-08-29"
+  },
+  "por-que-la-gente-mayor-huele-distinto": {
+   "n": 13,
+   "entro": "2026-08-29"
+  },
+  "por-que-la-miel-nunca-caduca": {
+   "n": 14,
+   "entro": "2026-08-29"
+  },
+  "por-que-las-cebras-tienen-rayas": {
+   "n": 15,
+   "entro": "2026-08-29"
+  },
+  "por-que-las-hojas-cambian-de-color": {
+   "n": 16,
+   "entro": "2026-08-29"
+  },
+  "por-que-lloras-al-cortar-cebolla": {
+   "n": 17,
+   "entro": "2026-08-29"
+  },
+  "por-que-llueve": {
+   "n": 18,
+   "entro": "2026-08-29"
+  },
+  "por-que-los-espejos-invierten": {
+   "n": 19,
+   "entro": "2026-08-29"
+  },
+  "por-que-los-flamencos-son-rosas": {
+   "n": 20,
+   "entro": "2026-08-29"
+  },
+  "por-que-no-puedes-hacerte-cosquillas": {
+   "n": 21,
+   "entro": "2026-08-29"
+  },
+  "por-que-no-recuerdas-tus-primeros-anos": {
+   "n": 22,
+   "entro": "2026-08-29"
+  },
+  "por-que-nos-sonrojamos": {
+   "n": 23,
+   "entro": "2026-08-29"
+  },
+  "por-que-pica-el-picante": {
+   "n": 24,
+   "entro": "2026-08-29"
+  },
+  "por-que-resbala-el-hielo": {
+   "n": 25,
+   "entro": "2026-08-29"
+  },
+  "por-que-se-corta-la-leche": {
+   "n": 26,
+   "entro": "2026-08-29"
+  },
+  "por-que-se-te-duerme-una-pierna": {
+   "n": 27,
+   "entro": "2026-08-29"
+  },
+  "por-que-te-mareas-en-el-coche": {
+   "n": 28,
+   "entro": "2026-08-29"
+  },
+  "por-que-tenemos-estaciones": {
+   "n": 29,
+   "entro": "2026-08-29"
+  },
+  "por-que-tenemos-hipo": {
+   "n": 30,
+   "entro": "2026-08-29"
+  },
+  "por-que-tenemos-piel-de-gallina": {
+   "n": 31,
+   "entro": "2026-08-29"
+  },
+  "por-que-tiritamos": {
+   "n": 32,
+   "entro": "2026-08-29"
+  },
+  "por-que-tu-voz-grabada-suena-rara": {
+   "n": 33,
+   "entro": "2026-08-29"
+  },
+  "por-que-vuelan-los-aviones": {
+   "n": 34,
+   "entro": "2026-08-29"
+  },
+  "sueltos": {
+   "n": 35,
+   "entro": "2026-08-29"
+  },
+  "para-que-sirven-las-huellas-dactilares": {
+   "n": 36,
+   "entro": "2026-08-29"
+  },
+  "por-que-duele-la-cabeza-al-comer-helado": {
+   "n": 37,
+   "entro": "2026-08-29"
+  },
+  "por-que-duele-la-resaca": {
+   "n": 38,
+   "entro": "2026-08-29"
+  },
+  "por-que-el-agua-caliente-se-congela-antes": {
+   "n": 39,
+   "entro": "2026-08-29"
+  },
+  "por-que-el-everest-no-es-la-mas-alta": {
+   "n": 40,
+   "entro": "2026-08-29"
+  },
+  "por-que-los-pelirrojos-necesitan-mas-anestesia": {
+   "n": 41,
+   "entro": "2026-08-29"
+  },
+  "por-que-pica-la-picadura-de-mosquito": {
+   "n": 42,
+   "entro": "2026-08-29"
+  },
+  "por-que-ronronean-los-gatos": {
+   "n": 43,
+   "entro": "2026-08-29"
+  },
+  "por-que-se-pone-duro-el-pan": {
+   "n": 44,
+   "entro": "2026-08-29"
+  },
+  "por-que-se-ven-azules-las-venas": {
+   "n": 45,
+   "entro": "2026-08-29"
+  },
+  "por-que-te-pones-moreno": {
+   "n": 46,
+   "entro": "2026-08-29"
+  },
+  "como-se-forma-un-arcoiris": {
+   "n": 47,
+   "entro": "2026-08-29"
+  },
+  "como-vuelan-los-cohetes": {
+   "n": 48,
+   "entro": "2026-08-29"
+  },
+  "cual-es-el-ser-vivo-mas-grande-del-planeta": {
+   "n": 49,
+   "entro": "2026-08-29"
+  },
+  "cuantas-estrellas-hay-en-el-universo": {
+   "n": 50,
+   "entro": "2026-08-29"
+  },
+  "cuanto-tiempo-le-queda-a-la-luna": {
+   "n": 51,
+   "entro": "2026-08-29"
+  },
+  "el-animal-mas-grande-del-mundo": {
+   "n": 52,
+   "entro": "2026-08-29"
+  },
+  "hasta-que-altura-puede-crecer-un-arbol": {
+   "n": 53,
+   "entro": "2026-08-29"
+  },
+  "por-que-brillan-las-luciernagas": {
+   "n": 54,
+   "entro": "2026-08-29"
+  },
+  "por-que-el-cielo-es-negro-de-noche": {
+   "n": 55,
+   "entro": "2026-08-29"
+  },
+  "por-que-el-hielo-de-los-glaciares-es-azul": {
+   "n": 56,
+   "entro": "2026-08-29"
+  },
+  "por-que-el-mar-brilla-de-noche": {
+   "n": 57,
+   "entro": "2026-08-29"
+  },
+  "por-que-el-mar-es-azul": {
+   "n": 58,
+   "entro": "2026-08-29"
+  },
+  "por-que-hay-auroras-boreales": {
+   "n": 59,
+   "entro": "2026-08-29"
+  },
+  "por-que-la-luna-nos-ensena-siempre-la-misma-cara": {
+   "n": 60,
+   "entro": "2026-08-29"
+  },
+  "por-que-la-luna-se-ve-enorme-en-el-horizonte": {
+   "n": 61,
+   "entro": "2026-08-29"
+  },
+  "por-que-las-abejas-hacen-celdas-hexagonales": {
+   "n": 62,
+   "entro": "2026-08-29"
+  },
+  "por-que-los-buhos-giran-tanto-la-cabeza": {
+   "n": 63,
+   "entro": "2026-08-29"
+  },
+  "por-que-los-colibries-pueden-quedarse-parados-en-el-aire": {
+   "n": 64,
+   "entro": "2026-08-29"
+  },
+  "por-que-los-girasoles-siguen-al-sol": {
+   "n": 65,
+   "entro": "2026-08-29"
+  },
+  "por-que-no-hay-dos-copos-de-nieve-iguales": {
+   "n": 66,
+   "entro": "2026-08-29"
+  },
+  "por-que-son-tan-bonitas-las-mariposas": {
+   "n": 67,
+   "entro": "2026-08-29"
+  },
+  "por-que-un-pulpo-se-camufla-si-es-daltonico": {
+   "n": 68,
+   "entro": "2026-08-29"
+  },
+  "por-que-un-rayo-hace-zigzag": {
+   "n": 69,
+   "entro": "2026-08-29"
+  },
+  "que-es-una-galaxia": {
+   "n": 70,
+   "entro": "2026-08-29"
+  },
+  "que-paises-tienen-bomba-atomica": {
+   "n": 71,
+   "entro": "2026-08-29"
+  },
+  "como-se-hace-el-vino": {
+   "n": 72,
+   "entro": "2026-08-29"
+  },
+  "como-se-hace-la-cerveza": {
+   "n": 73,
+   "entro": "2026-08-29"
+  },
+  "de-donde-sale-el-alcohol": {
+   "n": 74,
+   "entro": "2026-08-29"
+  },
+  "por-que-los-desiertos-estan-donde-estan": {
+   "n": 75,
+   "entro": "2026-08-29"
+  },
+  "por-que-no-recuerdas-el-momento-en-que-te-dormiste": {
+   "n": 76,
+   "entro": "2026-08-29"
+  },
+  "por-que-se-te-queda-una-cancion-pegada": {
+   "n": 77,
+   "entro": "2026-08-29"
+  },
+  "por-que-te-da-flato-al-correr": {
+   "n": 78,
+   "entro": "2026-08-29"
+  },
+  "fuimos-la-unica-especie-humana": {
+   "n": 79,
+   "entro": "2026-08-29"
+  },
+  "como-era-de-verdad-un-gladiador-romano": {
+   "n": 80,
+   "entro": "2026-08-29"
+  },
+  "como-se-construyeron-las-piramides": {
+   "n": 81,
+   "entro": "2026-08-29"
+  },
+  "como-se-descifraron-los-jeroglificos": {
+   "n": 82,
+   "entro": "2026-08-29"
+  },
+  "como-se-hizo-el-primer-pan": {
+   "n": 83,
+   "entro": "2026-08-29"
+  },
+  "cual-es-el-animal-mas-venenoso-del-mundo": {
+   "n": 84,
+   "entro": "2026-08-29"
+  },
+  "cual-es-el-idioma-mas-antiguo-que-se-sigue-hablando": {
+   "n": 85,
+   "entro": "2026-08-29"
+  },
+  "cual-fue-el-primer-videojuego": {
+   "n": 86,
+   "entro": "2026-08-29"
+  },
+  "cuanto-duro-de-verdad-el-imperio-romano": {
+   "n": 87,
+   "entro": "2026-08-29"
+  },
+  "de-donde-sale-el-azucar": {
+   "n": 88,
+   "entro": "2026-08-29"
+  },
+  "de-donde-viene-el-chocolate": {
+   "n": 89,
+   "entro": "2026-08-29"
+  },
+  "de-donde-viene-el-viento": {
+   "n": 90,
+   "entro": "2026-08-29"
+  },
+  "llegaron-los-vikingos-a-america-antes-que-colon": {
+   "n": 91,
+   "entro": "2026-08-29"
+  },
+  "por-que-cayo-el-imperio-romano": {
+   "n": 92,
+   "entro": "2026-08-29"
+  },
+  "por-que-el-mar-muerto-se-esta-secando": {
+   "n": 93,
+   "entro": "2026-08-29"
+  },
+  "por-que-el-platano-no-tiene-semillas": {
+   "n": 94,
+   "entro": "2026-08-29"
+  },
+  "por-que-el-teclado-esta-en-qwerty": {
+   "n": 95,
+   "entro": "2026-08-29"
+  },
+  "por-que-la-zanahoria-es-naranja": {
+   "n": 96,
+   "entro": "2026-08-29"
+  },
+  "por-que-los-mapas-mienten-sobre-el-tamano-de-los-paises": {
+   "n": 97,
+   "entro": "2026-08-29"
+  },
+  "por-que-recuerdas-mal-cosas-que-juras-haber-vivido": {
+   "n": 98,
+   "entro": "2026-08-29"
+  },
+  "que-es-realmente-el-queso": {
+   "n": 99,
+   "entro": "2026-08-29"
+  },
+  "que-fue-la-ruta-de-la-seda": {
+   "n": 100,
+   "entro": "2026-08-29"
+  },
+  "que-fue-realmente-la-peste-negra": {
+   "n": 101,
+   "entro": "2026-08-29"
+  },
+  "que-hay-en-el-fondo-de-la-fosa-de-las-marianas": {
+   "n": 102,
+   "entro": "2026-08-29"
+  },
+  "que-paso-realmente-en-pompeya": {
+   "n": 103,
+   "entro": "2026-08-29"
+  },
+  "quien-construyo-stonehenge-y-para-que": {
+   "n": 104,
+   "entro": "2026-08-29"
+  },
+  "como-erupciona-un-volcan": {
+   "n": 105,
+   "entro": "2026-08-30"
+  },
+  "como-funciona-un-hormiguero": {
+   "n": 106,
+   "entro": "2026-08-30"
+  },
+  "como-funciona-una-cerilla": {
+   "n": 107,
+   "entro": "2026-08-30"
+  },
+  "como-se-descubrio-la-penicilina": {
+   "n": 108,
+   "entro": "2026-08-30"
+  },
+  "como-se-forma-un-cometa": {
+   "n": 109,
+   "entro": "2026-08-30"
+  },
+  "de-donde-sale-el-oro": {
+   "n": 110,
+   "entro": "2026-08-30"
+  },
+  "de-que-vive-el-amazonas": {
+   "n": 111,
+   "entro": "2026-08-30"
+  },
+  "por-que-el-aceite-de-oliva-es-tan-saludable": {
+   "n": 112,
+   "entro": "2026-08-30"
+  },
+  "por-que-el-sahara-fue-verde": {
+   "n": 113,
+   "entro": "2026-08-30"
+  },
+  "por-que-hay-personas-con-ojos-azules": {
+   "n": 114,
+   "entro": "2026-08-30"
+  },
+  "por-que-hay-personas-con-ojos-marrones": {
+   "n": 115,
+   "entro": "2026-08-30"
+  },
+  "por-que-hay-personas-con-ojos-verdes": {
+   "n": 116,
+   "entro": "2026-08-30"
+  },
+  "por-que-hay-personas-rubias": {
+   "n": 117,
+   "entro": "2026-08-30"
+  },
+  "por-que-la-estatua-de-la-libertad-es-verde": {
+   "n": 118,
+   "entro": "2026-08-30"
+  },
+  "por-que-las-estatuas-griegas-son-blancas": {
+   "n": 119,
+   "entro": "2026-08-30"
+  },
+  "por-que-marte-es-rojo": {
+   "n": 120,
+   "entro": "2026-08-30"
+  },
+  "por-que-no-hemos-vuelto-a-la-luna": {
+   "n": 121,
+   "entro": "2026-08-30"
+  },
+  "por-que-saturno-tiene-anillos": {
+   "n": 122,
+   "entro": "2026-08-30"
+  },
+  "por-que-se-abandono-machu-picchu": {
+   "n": 123,
+   "entro": "2026-08-30"
+  },
+  "por-que-son-caros-los-diamantes": {
+   "n": 124,
+   "entro": "2026-08-30"
+  },
+  "que-es-el-salar-de-uyuni": {
+   "n": 125,
+   "entro": "2026-08-30"
+  },
+  "que-es-realmente-una-perla": {
+   "n": 126,
+   "entro": "2026-08-30"
+  },
+  "que-es-un-agujero-de-gusano": {
+   "n": 127,
+   "entro": "2026-08-30"
+  },
+  "que-es-un-agujero-negro": {
+   "n": 128,
+   "entro": "2026-08-30"
+  },
+  "que-es-una-estrella-fugaz": {
+   "n": 129,
+   "entro": "2026-08-30"
+  },
+  "que-fue-el-ejercito-de-terracota": {
+   "n": 130,
+   "entro": "2026-08-30"
+  },
+  "que-hay-debajo-de-la-antartida": {
+   "n": 131,
+   "entro": "2026-08-30"
+  },
+  "quien-fue-cleopatra": {
+   "n": 132,
+   "entro": "2026-08-30"
+  },
+  "quien-fue-isaac-newton": {
+   "n": 133,
+   "entro": "2026-08-30"
+  },
+  "quien-fue-la-persona-mas-rica-del-mundo": {
+   "n": 134,
+   "entro": "2026-08-30"
+  },
+  "quien-fue-nikola-tesla": {
+   "n": 135,
+   "entro": "2026-08-30"
+  },
+  "quien-invento-el-futbol": {
+   "n": 136,
+   "entro": "2026-08-30"
+  },
+  "como-calienta-un-microondas": {
+   "n": 137,
+   "entro": "2026-08-31"
+  },
+  "como-cancelan-el-ruido-unos-auriculares": {
+   "n": 138,
+   "entro": "2026-08-31"
+  },
+  "como-enfria-una-nevera": {
+   "n": 139,
+   "entro": "2026-08-31"
+  },
+  "como-funciona-el-wifi": {
+   "n": 140,
+   "entro": "2026-08-31"
+  },
+  "como-funciona-la-bolsa-de-valores": {
+   "n": 141,
+   "entro": "2026-08-31"
+  },
+  "como-funciona-la-inteligencia-artificial": {
+   "n": 142,
+   "entro": "2026-08-31"
+  },
+  "como-funciona-un-coche": {
+   "n": 143,
+   "entro": "2026-08-31"
+  },
+  "como-funciona-una-cerradura": {
+   "n": 144,
+   "entro": "2026-08-31"
+  },
+  "como-funciona-una-pantalla-tactil": {
+   "n": 145,
+   "entro": "2026-08-31"
+  },
+  "como-genera-electricidad-un-molino-de-viento": {
+   "n": 146,
+   "entro": "2026-08-31"
+  },
+  "como-genera-electricidad-una-placa-solar": {
+   "n": 147,
+   "entro": "2026-08-31"
+  },
+  "como-se-aguanta-en-pie-un-rascacielos": {
+   "n": 148,
+   "entro": "2026-08-31"
+  },
+  "como-se-construyo-el-canal-de-panama": {
+   "n": 149,
+   "entro": "2026-08-31"
+  },
+  "como-un-simple-papel-tiene-valor": {
+   "n": 150,
+   "entro": "2026-08-31"
+  },
+  "como-vuelan-los-helicopteros": {
+   "n": 151,
+   "entro": "2026-08-31"
+  },
+  "cual-es-el-rio-mas-largo-del-mundo": {
+   "n": 152,
+   "entro": "2026-08-31"
+  },
+  "cuanto-aguanta-un-cactus-sin-agua": {
+   "n": 153,
+   "entro": "2026-08-31"
+  },
+  "el-auge-economico-de-china": {
+   "n": 154,
+   "entro": "2026-08-31"
+  },
+  "la-historia-de-bugatti": {
+   "n": 155,
+   "entro": "2026-08-31"
+  },
+  "la-historia-de-ferrari": {
+   "n": 156,
+   "entro": "2026-08-31"
+  },
+  "la-historia-de-lamborghini": {
+   "n": 157,
+   "entro": "2026-08-31"
+  },
+  "la-historia-de-porsche": {
+   "n": 158,
+   "entro": "2026-08-31"
+  },
+  "miguel-de-cervantes": {
+   "n": 159,
+   "entro": "2026-08-31"
+  },
+  "para-que-dormimos": {
+   "n": 160,
+   "entro": "2026-08-31"
+  },
+  "por-que-las-pelotas-de-golf-tienen-hoyuelos": {
+   "n": 161,
+   "entro": "2026-08-31"
+  },
+  "por-que-unos-paises-son-ricos-y-otros-pobres": {
+   "n": 162,
+   "entro": "2026-08-31"
+  },
+  "que-es-realmente-un-hongo": {
+   "n": 163,
+   "entro": "2026-08-31"
+  },
+  "steve-jobs": {
+   "n": 164,
+   "entro": "2026-08-31"
+  },
+  "como-de-bien-ve-un-aguila": {
+   "n": 165,
+   "entro": "2026-08-31"
+  },
+  "como-funciona-un-iman": {
+   "n": 166,
+   "entro": "2026-08-31"
+  },
+  "como-funciona-un-reloj-mecanico": {
+   "n": 167,
+   "entro": "2026-08-31"
+  },
+  "como-funciona-un-tren-de-alta-velocidad": {
+   "n": 168,
+   "entro": "2026-08-31"
+  },
+  "como-funciona-una-camara-de-fotos": {
+   "n": 169,
+   "entro": "2026-08-31"
+  },
+  "como-reconoce-un-pinguino-a-su-cria": {
+   "n": 170,
+   "entro": "2026-08-31"
+  },
+  "como-se-forma-un-tornado": {
+   "n": 171,
+   "entro": "2026-08-31"
+  },
+  "como-se-forma-un-tsunami": {
+   "n": 172,
+   "entro": "2026-08-31"
+  },
+  "como-se-forma-una-cueva": {
+   "n": 173,
+   "entro": "2026-08-31"
+  },
+  "como-se-forman-las-olas": {
+   "n": 174,
+   "entro": "2026-08-31"
+  },
+  "como-se-hace-el-jamon-iberico": {
+   "n": 175,
+   "entro": "2026-08-31"
+  },
+  "como-vuelan-los-pajaros": {
+   "n": 176,
+   "entro": "2026-08-31"
+  },
+  "de-que-esta-hecho-un-hueso": {
+   "n": 177,
+   "entro": "2026-08-31"
+  },
+  "el-camino-de-santiago": {
+   "n": 178,
+   "entro": "2026-08-31"
+  },
+  "la-historia-de-la-alhambra": {
+   "n": 179,
+   "entro": "2026-08-31"
+  },
+  "la-historia-del-titanic": {
+   "n": 180,
+   "entro": "2026-08-31"
+  },
+  "la-sagrada-familia": {
+   "n": 181,
+   "entro": "2026-08-31"
+  },
+  "los-samurais": {
+   "n": 182,
+   "entro": "2026-08-31"
+  },
+  "por-que-cambia-de-color-un-camaleon": {
+   "n": 183,
+   "entro": "2026-08-31"
+  },
+  "por-que-estornudamos": {
+   "n": 184,
+   "entro": "2026-08-31"
+  },
+  "por-que-flota-un-barco-de-acero": {
+   "n": 185,
+   "entro": "2026-08-31"
+  },
+  "por-que-hay-terremotos": {
+   "n": 186,
+   "entro": "2026-08-31"
+  },
+  "por-que-nos-salen-canas": {
+   "n": 187,
+   "entro": "2026-08-31"
+  },
+  "por-que-sube-la-marea": {
+   "n": 188,
+   "entro": "2026-08-31"
+  },
+  "que-es-exactamente-el-fuego": {
+   "n": 189,
+   "entro": "2026-08-31"
+  },
+  "que-es-un-laser": {
+   "n": 190,
+   "entro": "2026-08-31"
+  },
+  "que-fue-antes-el-huevo-o-la-gallina": {
+   "n": 191,
+   "entro": "2026-08-31"
+  },
+  "quien-fue-leonardo-da-vinci": {
+   "n": 192,
+   "entro": "2026-08-31"
+  },
+  "quien-invento-el-submarino": {
+   "n": 193,
+   "entro": "2026-08-31"
+  },
+  "como-andan-las-moscas-por-el-techo": {
+   "n": 194,
+   "entro": "2026-09-01"
+  },
+  "como-funciona-el-cine": {
+   "n": 195,
+   "entro": "2026-09-01"
+  },
+  "como-funciona-un-ascensor": {
+   "n": 196,
+   "entro": "2026-09-01"
+  },
+  "como-funciona-un-paracaidas": {
+   "n": 197,
+   "entro": "2026-09-01"
+  },
+  "como-funciona-una-bateria": {
+   "n": 198,
+   "entro": "2026-09-01"
+  },
+  "como-sabemos-de-que-estan-hechas-las-estrellas": {
+   "n": 199,
+   "entro": "2026-09-01"
+  },
+  "como-se-invento-la-escritura": {
+   "n": 200,
+   "entro": "2026-09-01"
+  },
+  "como-se-sostiene-un-satelite": {
+   "n": 201,
+   "entro": "2026-09-01"
+  },
+  "como-vivian-los-piratas-de-verdad": {
+   "n": 202,
+   "entro": "2026-09-01"
+  },
+  "de-donde-salio-el-agua-de-la-tierra": {
+   "n": 203,
+   "entro": "2026-09-01"
+  },
+  "de-donde-salio-la-luna": {
+   "n": 204,
+   "entro": "2026-09-01"
+  },
+  "decides-tu-o-ya-estaba-decidido": {
+   "n": 205,
+   "entro": "2026-09-01"
+  },
+  "el-dia-que-cayo-constantinopla": {
+   "n": 206,
+   "entro": "2026-09-01"
+  },
+  "eres-la-misma-persona-que-hace-diez-anos": {
+   "n": 207,
+   "entro": "2026-09-01"
+  },
+  "existe-el-infinito": {
+   "n": 208,
+   "entro": "2026-09-01"
+  },
+  "internet-va-por-el-fondo-del-mar": {
+   "n": 209,
+   "entro": "2026-09-01"
+  },
+  "italia-estuvo-dos-siglos-sin-tomate": {
+   "n": 210,
+   "entro": "2026-09-01"
+  },
+  "la-burbuja-de-los-tulipanes": {
+   "n": 211,
+   "entro": "2026-09-01"
+  },
+  "la-caverna-de-platon": {
+   "n": 212,
+   "entro": "2026-09-01"
+  },
+  "la-historia-de-lego": {
+   "n": 213,
+   "entro": "2026-09-01"
+  },
+  "la-historia-de-nintendo": {
+   "n": 214,
+   "entro": "2026-09-01"
+  },
+  "la-historia-de-zara": {
+   "n": 215,
+   "entro": "2026-09-01"
+  },
+  "la-pasta-no-vino-de-china": {
+   "n": 216,
+   "entro": "2026-09-01"
+  },
+  "la-patata-que-cambio-europa": {
+   "n": 217,
+   "entro": "2026-09-01"
+  },
+  "los-chips-se-hacen-con-arena": {
+   "n": 218,
+   "entro": "2026-09-01"
+  },
+  "por-que-crece-tan-rapido-el-bambu": {
+   "n": 219,
+   "entro": "2026-09-01"
+  },
+  "por-que-envejecemos": {
+   "n": 220,
+   "entro": "2026-09-01"
+  },
+  "por-que-hay-gente-que-no-digiere-la-leche": {
+   "n": 221,
+   "entro": "2026-09-01"
+  },
+  "por-que-hay-grupos-sanguineos": {
+   "n": 222,
+   "entro": "2026-09-01"
+  },
+  "por-que-hay-zurdos": {
+   "n": 223,
+   "entro": "2026-09-01"
+  },
+  "por-que-islandia-tiene-tantos-volcanes": {
+   "n": 224,
+   "entro": "2026-09-01"
+  },
+  "por-que-los-precios-acaban-en-99": {
+   "n": 225,
+   "entro": "2026-09-01"
+  },
+  "por-que-mataron-a-socrates": {
+   "n": 226,
+   "entro": "2026-09-01"
+  },
+  "por-que-olvidas-los-suenos": {
+   "n": 227,
+   "entro": "2026-09-01"
+  },
+  "por-que-se-hunde-venecia": {
+   "n": 228,
+   "entro": "2026-09-01"
+  },
+  "por-que-sube-la-inflacion": {
+   "n": 229,
+   "entro": "2026-09-01"
+  },
+  "puede-pensar-una-maquina": {
+   "n": 230,
+   "entro": "2026-09-01"
+  },
+  "que-es-la-conciencia": {
+   "n": 231,
+   "entro": "2026-09-01"
+  },
+  "que-funcion-tiene-la-fiebre": {
+   "n": 232,
+   "entro": "2026-09-01"
+  },
+  "que-funcion-tienen-los-suenos": {
+   "n": 233,
+   "entro": "2026-09-01"
+  },
+  "que-hay-en-el-centro-de-la-tierra": {
+   "n": 234,
+   "entro": "2026-09-01"
+  },
+  "que-paso-con-la-biblioteca-de-alejandria": {
+   "n": 235,
+   "entro": "2026-09-01"
+  },
+  "quien-fue-alejandro-magno": {
+   "n": 236,
+   "entro": "2026-09-01"
+  },
+  "quien-fue-gengis-kan": {
+   "n": 237,
+   "entro": "2026-09-01"
+  },
+  "quien-fue-marie-curie": {
+   "n": 238,
+   "entro": "2026-09-01"
+  },
+  "quien-fue-van-gogh": {
+   "n": 239,
+   "entro": "2026-09-01"
+  },
+  "ves-el-mismo-rojo-que-yo": {
+   "n": 240,
+   "entro": "2026-09-01"
+  },
+  "vivimos-dentro-de-una-simulacion": {
+   "n": 241,
+   "entro": "2026-09-01"
+  }
+ }
+}
