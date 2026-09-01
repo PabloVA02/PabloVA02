@@ -11,32 +11,24 @@ frase_portada: "Arroz instantáneo, taxis y un hotel por horas"
 # En los años sesenta probó de todo y casi todo salió mal
 
 
-## El presidente tenía veintidós años cuando cogió el mando
+## El presidente llegó al cargo con veintidós años
 
-En 1949 murió el presidente de la empresa, y el puesto pasó a su nieto: **Hiroshi Yamauchi**, bisnieto del fundador, que tenía entonces veintidós años.
+En 1949 murió el presidente de la empresa y el puesto pasó a su nieto, **Hiroshi Yamauchi**, bisnieto del fundador, que tenía entonces veintidós años. Heredaba una fábrica de barajas rentable y sin sitio a donde crecer, y a principios de los años sesenta sacó la compañía a bolsa, de modo que por primera vez en su historia tuvo capital fresco y ninguna idea clara de qué hacer con él.
 
-Heredaba una fábrica de barajas sin sitio a donde crecer y a principios de los sesenta sacó la empresa a bolsa. Con ese dinero se puso a probar cosas.
-
-> ⚡ Un hombre de veintitantos con capital fresco y un negocio sin futuro es la receta exacta de lo que vino después.
+> ⚡ Un hombre de veintitantos años, con dinero recién levantado en el mercado y un negocio sin futuro por delante, es la receta exacta de lo que vino después.
 
 
 ## La lista de intentos no parece la de una empresa de videojuegos
 
-Lanzó una línea de **arroz instantáneo** envasado individualmente. Fue un fracaso rotundo.
+Lo que hizo con aquel dinero no se parece al catálogo de ninguna compañía de entretenimiento. Lanzó una línea de **arroz instantáneo** envasado individualmente, que fue un fracaso rotundo; montó un **hotel por horas**, de los de habitación con tarifa por rato; y creó una **compañía de taxis** llamada Daiya que, curiosamente, durante un tiempo funcionó bastante bien. Al cabo de unos años cerró el hotel y cerró los taxis, y se quedó donde estaba: con una fábrica de barajas y ningún sitio a donde crecer.
 
-Montó un **hotel por horas**, de los de habitación con tarifa por rato.
+Fíjate en que ninguno de esos negocios tenía relación con los otros, ni con la empresa, ni entre sí. No estamos ante una estrategia de diversificación bien pensada, con sinergias y estudios de mercado detrás, sino ante un hombre joven probando literalmente lo que se le iba ocurriendo, uno detrás de otro, hasta agotar la lista.
 
-Y creó una **compañía de taxis** llamada Daiya, que durante un tiempo funcionó bien.
-
-Al cabo de unos años cerró el hotel y cerró los taxis.
-
-> ⚡ Ninguno de esos negocios tenía nada que ver con los otros, ni con la empresa, ni entre sí. No era una estrategia de diversificación: era un hombre probando lo que se le ocurría con el dinero de una salida a bolsa.
+> ⚡ Al terminar aquella década, la empresa no había encontrado nada. Lo único que había conseguido era comprobar, pagando por cada comprobación, que no existía ningún atajo fuera de lo que ya sabía hacer.
 
 
-## Y en 1969 montó un departamento pequeño de juegos
+## Y en 1969 monta un departamento pequeño de juegos
 
-Después de aquella ronda de intentos, Yamauchi volvió sobre lo único que la empresa sabía hacer desde 1889, que era entretener a la gente con un objeto barato, y creó en 1969 un pequeño departamento de juegos.
+Después de aquella ronda de fracasos, Yamauchi volvió sobre lo único que la casa llevaba haciendo desde 1889, que era entretener a la gente con un objeto barato, y en 1969 creó un pequeño departamento de juegos dentro de la empresa. De ahí salió todo lo demás.
 
-De ahí salió todo lo demás.
-
-> ⚡ La empresa no encontró su sitio explorando: lo encontró después de agotar las alternativas y volver al terreno que ya conocía. El arroz, el hotel y los taxis no fueron una pérdida de tiempo. Fueron la manera de comprobar que no había atajo.
+> ⚡ El arroz, el hotel y los taxis no fueron una pérdida de tiempo, aunque lo parezcan: fueron el procedimiento por el cual una empresa descubre, a base de intentarlo, cuál es la única cosa que sabe hacer.

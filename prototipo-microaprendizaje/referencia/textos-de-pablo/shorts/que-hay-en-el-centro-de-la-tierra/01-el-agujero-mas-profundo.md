@@ -23,6 +23,8 @@ Y aun así encontraron cosas que nadie esperaba. No apareció la capa de basalto
 
 > ⚡ Todo lo que hemos tocado con nuestras propias manos de este planeta cabe en los primeros doce kilómetros. El otro 99,8 % lo conocemos sin haberlo visto nunca.
 
+> 🖼️ **IMAGEN — sección «Los soviéticos taladraron durante veinticinco años y se quedaron en la corteza».** Diagrama propio en SVG: un cuarto de círculo con el radio terrestre completo y, sobre el borde, la marca del agujero de Kola a escala real. Es una cuestión de escala y no se puede imaginar leyéndola: la marca tiene que salir casi invisible.
+
 
 ## La Tierra se explora escuchando, no cavando
 

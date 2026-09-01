@@ -23,6 +23,8 @@ Y hay algo más. Esas almohadillas segregan un líquido, una emulsión de gotita
 
 > ⚡ Una mosca no se agarra con seis ventosas. Se agarra con miles de espátulas microscópicas por pata, cada una apoyada en su trozo de pared y con una gota de líquido entre medias.
 
+> 🖼️ **IMAGEN — sección «Debajo de cada pata hay dos almohadillas cubiertas de miles de pelos».** Foto real al microscopio electrónico de la almohadilla y sus setas. Algo que el lector no ha visto nunca y que no se puede imaginar a partir de la palabra «pelos».
+
 
 ## Durante décadas se dijo que pegaba el líquido, y ahora eso está en duda
 

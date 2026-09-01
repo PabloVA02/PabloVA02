@@ -11,23 +11,23 @@ frase_portada: "Catorce años antes del primer avión"
 # La empresa es de 1889 y se fundó para hacer naipes
 
 
-## La fecha exacta es el 23 de septiembre de 1889, en Kioto
+## Un artesano de Kioto abre un taller de barajas y le pone nombre
 
-**Fusajiro Yamauchi**, artesano, fundó aquel día en el distrito de Shimogyo, en Kioto, un negocio de producción y distribución de naipes japoneses. En particular, de **hanafuda**: barajas de doce palos, uno por mes del año, ilustradas con flores y plantas.
+El 23 de septiembre de 1889, en el distrito de Shimogyo, en Kioto, un artesano llamado **Fusajiro Yamauchi** puso en marcha un negocio de producción y distribución de naipes japoneses. En concreto fabricaba **hanafuda**, «cartas de flores»: barajas de doce palos, uno por cada mes del año, ilustradas con plantas en lugar de números y de figuras. Las pintaba a mano, una por una, y las vendía en la propia ciudad.
 
-Las hacía a mano.
+Conviene detenerse un momento en la fecha, porque cuesta situarla. Cuando aquel taller abrió sus puertas faltaban catorce años para que los hermanos Wright levantaran del suelo el primer avión, y la empresa que hoy asociamos a la infancia de tres generaciones seguidas llevaba ya un tiempo funcionando cuando aparecieron la radio, el automóvil de masas y el cine sonoro. Si visitas hoy Kioto, la calle donde estaba aquel primer taller sigue ahí.
 
-Para situar la fecha: faltaban catorce años para que los hermanos Wright levantaran del suelo el primer avión.
-
-> ⚡ La empresa que hoy se asocia a la infancia de tres generaciones seguidas es anterior al automóvil de masas, al avión y a la radio. Empezó pintando cartas a mano.
+> ⚡ La compañía que fabricó la consola portátil más vendida del siglo XX empezó pintando cartas a mano, y es anterior al avión, al coche popular y a la radio.
 
 
-## Los naipes eran un producto con muchos problemas
+## Una baraja se compra una vez en la vida, y ese era el problema
 
-Hay una razón por la que un negocio de barajas en el Japón de finales del siglo XIX era difícil, y explica la mentalidad posterior de la casa.
+Fabricar naipes en el Japón de finales del siglo XIX tenía una pega de fondo que explica todo lo que vendría después, y merece la pena verla antes de seguir.
 
-Una baraja es un producto que se compra una vez y dura años. No se gasta, no se rompe y no tiene recambio. Un fabricante de naipes no vende a sus clientes una segunda vez.
+Una baraja es un producto extraordinariamente duradero: no se gasta, no se rompe con el uso normal, no tiene piezas de recambio y no pasa de moda. Quien te compra una hoy no vuelve a comprarte otra en veinte años, de modo que un fabricante de cartas vende a cada cliente una sola vez en su vida. El negocio funciona, pero no crece: solo puede crecer si crece el país.
 
-Nintendo sobrevivió ochenta años en ese negocio, y llegó a los años sesenta siendo una empresa mediana, rentable y sin ninguna vía de crecimiento.
+Con esa aritmética encima, Nintendo sobrevivió ochenta años y llegó a los años sesenta convertida en una empresa mediana, rentable y sin ninguna vía de crecimiento a la vista. Nada de lo que sabía hacer le servía para ser más grande.
 
-> ⚡ La búsqueda desesperada de otra cosa que hacer, que es lo que define a la empresa en la década siguiente, no vino de la ambición. Vino de estar atrapada en un producto que la gente compra una vez en la vida.
+> ⚡ La búsqueda desesperada de otra cosa que hacer, que es lo que define a la empresa en la década siguiente, no nació de la ambición: nació de estar atrapada en un producto que la gente compra una vez y conserva toda la vida.
+
+> 💡 ¿Sabías que…? Una baraja de hanafuda no se organiza por números, sino por meses: doce palos de cuatro cartas cada uno, y cada palo identificado por una planta. El pino es enero; el ciruelo en flor, febrero; el cerezo, marzo.

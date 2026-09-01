@@ -21,6 +21,8 @@ Llevan ahí, aparentemente, desde muy antiguo. Y durante mucho tiempo nadie ten�
 
 > ⚡ Debajo de África y del Pacífico hay dos masas del tamaño de continentes que no están hechas de lo mismo que el resto del manto, y llevan ahí desde casi el principio.
 
+> 🖼️ **IMAGEN — sección «Hay dos manchas del tamaño de continentes en el fondo del manto».** Diagrama propio en SVG: corte del planeta con el núcleo y, apoyadas encima, las dos masas a escala. Cuestión de escala: lo que sorprende es lo grandes que son.
+
 
 ## Un trabajo de 2023 propuso que son el cadáver del planeta que nos golpeó
 

@@ -13,29 +13,23 @@ frase_portada: "Se llamaba Hilary Fisher Page"
 
 ## En 1947 compraron una máquina de inyección y les llegaron unas muestras
 
-Después del segundo incendio, la empresa dio el salto al plástico. En 1947 compró una máquina de moldeo por inyección, y el proveedor de la máquina les envió, como muestra de lo que se podía hacer con ella, unos ladrillos británicos.
+Después del segundo incendio, la empresa dio el salto al plástico y en 1947 compró una máquina de moldeo por inyección. El proveedor de la máquina les envió entonces, como demostración de lo que se podía hacer con ella, unos ladrillos británicos que existían, se vendían y estaban patentados.
 
-Aquellos ladrillos existían, se vendían y estaban patentados.
-
-> ⚡ El objeto que iba a definir la empresa entró por la puerta dentro de la caja de una máquina, como demostración comercial de otro fabricante.
+> ⚡ El objeto que iba a definir a la compañía entró por la puerta dentro de la caja de una máquina, como muestra comercial de otro fabricante.
 
 
 ## Los había inventado un inglés que estudiaba cómo juegan los niños
 
-Se llamaba **Hilary Fisher Page**, había nacido en 1904 y dirigía una empresa juguetera, Kiddicraft. Sus **Self-Locking Building Bricks** —ladrillos de construcción autoenganchables— se pusieron a la venta en 1947.
+Se llamaba **Hilary Fisher Page**, había nacido en 1904 y dirigía una empresa juguetera, Kiddicraft. Sus **Self-Locking Building Bricks** —ladrillos de construcción autoenganchables— se pusieron a la venta en 1947, y estaban protegidos: Page patentó el ladrillo de dos por cuatro tetones en 1947, las ranuras laterales en 1949 y la placa base en 1952.
 
-Y estaban protegidos. Page patentó el ladrillo de dos por cuatro tetones en 1947, las ranuras laterales en 1949 y la placa base en 1952.
+En 1949, la empresa danesa empezó a producir su propia versión, que llamó *Automatic Binding Bricks* y que en 1953 pasó a llamarse ladrillo LEGO.
 
-En 1949, la empresa danesa empezó a producir su propia versión, que llamó *Automatic Binding Bricks*, y que en 1953 pasó a llamarse ladrillo LEGO.
-
-> ⚡ No fue una inspiración lejana ni una convergencia casual. Fue una copia de un producto que estaba en el mercado y patentado, hecha con muestras que el propio proveedor había mandado.
+> ⚡ No fue una inspiración lejana ni una convergencia casual de dos ingenierías. Fue la copia de un producto que estaba en el mercado y patentado, hecha con las muestras que el propio proveedor había mandado.
 
 
 ## Page murió sin llegar a saberlo
 
-Hilary Fisher Page murió en 1957, a los cincuenta y dos años. Fue antes de que LEGO sacara sus ladrillos en el Reino Unido.
-
-Su viuda lo resumió después en una frase.
+Hilary Fisher Page murió en 1957, a los cincuenta y dos años, antes de que LEGO sacara sus ladrillos en el Reino Unido. Su viuda lo resumió después en una frase.
 
 > ❞ Murió antes de que LEGO sacara el producto en Gran Bretaña. No llegó a enterarse.
 > — La viuda de Hilary Fisher Page
