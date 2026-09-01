@@ -6,18 +6,30 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts con el texto de Pablo | **496** | en 196 series |
-| de esos, **vivos en la app** | **178** | los otros 318 esperan portada |
-| fotografías guardadas esperando texto | **28** | en `originales/sin-asignar/` |
+| shorts con el texto de Pablo | **686** | en 241 series |
+| de esos, **vivos en la app** | **225** | los otros 461 esperan portada |
+| fotografías guardadas esperando texto | **29** | en `originales/sin-asignar/` |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **339** | 79 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **338** | 80 para el catálogo entero |
 | emoticonos de las metas | 11 de 16 | Pablo manda los cinco que faltan |
 | resúmenes antiguos generados | 0 | 0 |
 
+**El tomo 9 entró el 1 de septiembre**: 48 series y 187 páginas, de las que 47
+tienen fotografía —una por serie— y 140 esperan la suya. Ahí se ve la forma que
+tiene esto: cada página es un short con su propia imagen, así que una tanda de
+texto sin una foto por página entra a medias por definición.
+
+Ese mismo día Pablo mandó **16 series reescritas** porque la primera versión
+venía troceada en párrafos de una o dos frases; la v2 los devuelve a prosa
+seguida. Cambian 65 páginas. Las 16 series de `16seriesreescritas` estaban
+contenidas enteras y sin diferencias dentro de `Shortstomo9v2`, o sea que la
+segunda entrega mandaba y la primera no aportaba nada.
+
 Los números se sacan así, y **se vuelven a sacar antes de escribirlos aquí**:
 
     node scripts/revisa-shorts.mjs                 shorts vivos
+    node scripts/nocaben.mjs                       bloques sin sitio, muro ENTERO
     node scripts/catalogo.mjs > /dev/null          dentro / esperando portada
     grep -c '^  "' src/libros/paginas.ts           libros con resumen
     ls cubiertas-originales | wc -l                cubiertas de Pablo
