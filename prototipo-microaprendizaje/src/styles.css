@@ -12387,25 +12387,41 @@ button {
 /* ==========================================================================
    LIBRO DIARIO GRATIS — calcado de la captura del 2 de septiembre
 
-   Pablo: «con esa etiqueta exactamente igual», y después: «tiene que ser con
-   el tamaño de nuestros libros, como la sección de recomendados».
+   Pablo, dos veces. Primero: «con esa etiqueta exactamente igual». Después,
+   viendo el resultado: «la etiqueta de gratis hoy no está así, está de forma
+   diferente». Y tenía razón: yo la había puesto ENCIMA de la cubierta, del
+   mismo ancho, pegada como una cabecera. En su captura no es eso.
 
-   Las dos cosas a la vez, así que lo que se calca son las PROPORCIONES, no los
-   puntos. Medido en su captura: tarjeta de 99 de ancho, banda de 23 de alto y
-   texto de unos 12,4. O sea que la banda mide el 23,2 % del ancho de la
-   tarjeta y el texto el 12,5 %.
+   Lo que hay en su captura es una PESTAÑA DETRÁS. Medido en píxeles:
 
-   Nuestra cubierta mide 148, la de «Recomendados», así que la banda sale a 34
-   y el texto a 18,5. La misma tarjeta, más grande.
+     cubierta   x 32..245  → 214 físicos = 107 lógicos
+     banda      x 40..237  → 198 físicos =  99 lógicos
+     banda      y 936..981 (asoma 46 físicos = 23 lógicos)
+     cubierta   y 982 en adelante
 
-   La tira es literalmente la de «Recomendados» —lleva su clase `carrusel`, con
-   su relleno, su hueco de 16 y su anclaje—, y lo único que se le añade encima
-   de la cubierta es la banda.
+   O sea: la banda es MÁS ESTRECHA que la cubierta —4 lógicos por lado— y va
+   por debajo, asomando 23 por arriba. Por eso la cubierta conserva sus cuatro
+   esquinas redondeadas y no se ve ni un borde recto: la banda entera que queda
+   por debajo de la cubierta está tapada, porque también es más estrecha.
 
-   Y LA BANDA VA PEGADA, no flotando: esquinas de arriba redondeadas y las de
-   abajo rectas, la cubierta al revés. Es lo que hace que las dos piezas se
-   lean como una tarjeta sola y no como una pegatina puesta encima. El azul es
-   el suyo, muestreado del píxel: fondo #e7f1fe y letra #1a73e8.
+   Ese detalle es el que lo cambia todo. Pegada encima parece una pegatina;
+   asomando por detrás parece una etiqueta metida en el libro.
+
+   Las proporciones, que es lo que se calca —porque el tamaño manda que sea el
+   nuestro, «como la sección de recomendados»—, sobre una cubierta de 107:
+
+     banda    99/107 = la cubierta menos 8 lógicos (4 por lado)
+     asoma    23/107 = el 21,5 % del ancho
+     letra    ~12/107
+
+   Nuestra cubierta mide 148, así que: banda de 137, asoma 32, letra de 17.
+
+   Los dos azules están muestreados del píxel, y el de la letra NO es el que
+   puse antes: el núcleo del trazo es #3378f7 exacto, no #1a73e8.
+
+   El radio de arriba es el nuestro, 15, el mismo de la cubierta. En su captura
+   los dos radios también son iguales entre sí (unos 5 sobre 107); lo que se
+   copia es que coincidan, no el número.
    ========================================================================== */
 
 .gratis-tira { align-items: flex-start; }
@@ -12415,6 +12431,7 @@ button {
   width: var(--ficha-ancho);
   display: flex;
   flex-direction: column;
+  align-items: center;
   border: 0;
   padding: 0;
   background: none;
@@ -12422,22 +12439,49 @@ button {
   cursor: pointer;
 }
 
+/* La pestaña. Mide 39 de alto y solo asoman 32: los 7 de abajo se los come la
+   cubierta con el margen negativo, y así no hay manera de que se vea el canto
+   inferior de la banda por ningún lado.
+
+   Y la letra va centrada en los 39, NO en los 32 que se ven, que fue lo que
+   probé primero. Está medido: en su captura la banda asoma de 936 a 981 y el
+   texto ocupa de 953 a 975, o sea que su centro cae 5,5 físicos POR DEBAJO del
+   centro de lo que asoma. Eso solo pasa si la letra está centrada en la banda
+   entera, contando el trozo que tapa la cubierta. Deshaciendo la cuenta salen
+   los 28 lógicos de banda —39 a nuestro tamaño— y los 5 de solape.
+
+   Centrarla en la parte visible la sube y se nota: queda pegada al borde de
+   arriba en vez de sentada sobre el libro.
+
+   El cuerpo, 16,2. Sale de las metrías de la fuente y no de medir el ancho
+   aquí dentro, porque este contenedor no tiene la San Francisco de Apple y
+   cae en otra tipografía más ancha; el iPhone de Pablo sí la tiene, que es
+   donde hay que acertar. En su captura la altura de la x son 12 físicos —6
+   lógicos— y la de mayúscula 17 —8,5—; con la x a 0,52 em y la mayúscula a
+   0,72 em de la SF Pro Text, las dos cuentas dan un cuerpo de 11,5-11,8 sobre
+   una cubierta de 107. La nuestra mide 148, así que 11,7 × 1,383 = 16,2. */
 .gratis-etiqueta {
+  box-sizing: border-box;
+  width: calc(var(--ficha-ancho) - 11px);
+  height: 39px;
+  margin-bottom: -7px;
   display: grid;
   place-items: center;
-  height: 34px;
-  border-radius: 8px 8px 0 0;
+  border-radius: 15px 15px 0 0;
   background: #e7f1fe;
-  color: #1a73e8;
-  font-size: 18.5px;
+  color: #3378f7;
+  font-size: 16.2px;
   font-weight: 600;
-  letter-spacing: -0.015em;
 }
 
+/* La cubierta va POR DELANTE de la banda; sin esto el orden del DOM la dejaría
+   debajo y la pestaña se comería la cabeza del libro. Y las cuatro esquinas
+   redondeadas, las de siempre: es una cubierta de «Recomendados», sin más. */
 .gratis-ficha .portada {
+  position: relative;
+  z-index: 1;
   width: var(--ficha-ancho) !important;
   height: var(--ficha-alto) !important;
-  border-radius: 0 0 8px 8px;
 }
 
 /* ==========================================================================
