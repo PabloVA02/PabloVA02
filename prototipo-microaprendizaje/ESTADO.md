@@ -973,6 +973,25 @@ salida no es seguir apretando: es **GitHub Pages sobre `/docs`**, que no tiene
 tope ninguno y solo lo puede activar Pablo. Está en la lista de las tres cosas
 que dependen de él.
 
+### EL BUSCADOR DE SHORTS VIVE EN PAGES, NO EN UN ARTEFACTO
+
+Pablo, el 2 de septiembre: «ponme un buscador de shorts para buscarlo, solo eso,
+para ver los textos y tal». Es una página sola con los 683 textos dentro y una
+caja de búsqueda; lo hace `scripts/buscador.mjs`.
+
+**Se genera DESPUÉS de copiar `docs/`, y en el repositorio de Pages, no aquí.**
+`vite.web.config.mjs` lleva `emptyOutDir: true`, o sea que cualquier cosa suelta
+en `prototipo-microaprendizaje/docs/` desaparece en la compilación siguiente. El
+orden bueno es este:
+
+    npx vite build --config vite.web.config.mjs
+    cp -r docs/. /home/user/curva/docs/
+    node scripts/buscador.mjs > /home/user/curva/docs/buscador.html
+
+Queda en `pablova02.github.io/curva/buscador.html`, al lado de la app. Y no se
+publica como artefacto a propósito: son dos y siguen siendo dos, que es lo que
+dice el apartado de aquí abajo.
+
 ### SOLO HAY DOS ARTEFACTOS PUBLICADOS, Y NO SE CREAN MÁS
 
 Pablo, el 27 de agosto: «queda estos dos artefactos solo, los demás no sirven
