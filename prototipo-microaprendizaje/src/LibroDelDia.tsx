@@ -94,6 +94,28 @@ export function libroDeHoy(hoy = new Date()): Libro | undefined {
   return ELEGIBLES[(diaDelAno(hoy) * 7 + SALTO) % ELEGIBLES.length];
 }
 
+/**
+ * LOS TRES LIBROS GRATIS DE HOY, para quien todavía no tiene cuenta.
+ *
+ * Pablo, el 2 de septiembre, con una captura delante: «cuando el usuario no
+ * tenga cuenta quiero que se vean los libros así, libros diarios gratis, con
+ * esa etiqueta exactamente igual; y si el usuario tiene cuenta que se vea lo
+ * que tenemos ya, ese libro con ese degradado».
+ *
+ * El primero es el mismo que enseña la tarjeta del día a quien sí paga, así
+ * que las dos versiones de la app coinciden en cuál es el libro de hoy y solo
+ * cambia cómo se enseña. Los otros dos salen del mismo salto, que es primo con
+ * el largo de la lista y por eso nunca repite dentro del mismo día.
+ */
+export function librosGratisDeHoy(cuantos = 3, hoy = new Date()): Libro[] {
+  if (!ELEGIBLES.length) return [];
+  const base = (diaDelAno(hoy) * 7 + SALTO) % ELEGIBLES.length;
+  const salidos: Libro[] = [];
+  for (let i = 0; i < cuantos && i < ELEGIBLES.length; i++)
+    salidos.push(ELEGIBLES[(base + i * 37) % ELEGIBLES.length]);
+  return salidos;
+}
+
 /** Lo que queda de hoy, escrito como se dice. */
 function quedaDeHoy(ahora: Date): string {
   const medianoche = new Date(ahora);

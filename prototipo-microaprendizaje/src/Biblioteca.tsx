@@ -21,7 +21,7 @@ import { PortadaLibro } from "./PortadaLibro";
 import { TiraColecciones } from "./Colecciones";
 import { GestionaTemas } from "./Temas";
 import { COLECCIONES_A_LA_VISTA, type Coleccion } from "./colecciones";
-import { LibroDelDia, libroDeHoy } from "./LibroDelDia";
+import { LibroDelDia, libroDeHoy, librosGratisDeHoy } from "./LibroDelDia";
 import { GlyphDado } from "./Dado";
 import type { Foto } from "./shorts";
 
@@ -224,6 +224,49 @@ export function Portada({
    la tira se abre en parrilla. */
 
 type Estado = "todo" | "leyendo" | "guardados" | "terminados";
+
+/* --------------------------------------------------------------------------
+   LIBRO DIARIO GRATIS — lo que ve quien todavía no tiene cuenta
+
+   Pablo, el 2 de septiembre, mandando una captura: «quiero que se vean los
+   libros así, libros diarios gratis, con esa etiqueta exactamente igual».
+
+   Medido en su captura, en un móvil de 375: tres tarjetas de 99 de ancho con
+   20 de hueco, margen de 20, y encima de cada cubierta una banda azul clarita
+   con «Gratis hoy» centrado. La banda no flota sobre la cubierta: va PEGADA
+   encima, con las esquinas de arriba redondeadas y las de abajo rectas, de
+   modo que las dos piezas se leen como una sola tarjeta.
+
+   Quien sí tiene cuenta sigue viendo lo de siempre —la tarjeta grande con el
+   degradado—, que es lo que él pidió expresamente que no se tocara.
+   -------------------------------------------------------------------------- */
+function LibrosGratis({ onAbrir }: { onAbrir: (l: Libro) => void }) {
+  const libros = useMemo(() => librosGratisDeHoy(3), []);
+  if (!libros.length) return null;
+  return (
+    <section className="bloque gratis">
+      <div className="bloque-cabecera">
+        <h2>Libro diario gratis</h2>
+      </div>
+      <div className="gratis-tira">
+        {libros.map((l, i) => (
+          <motion.button
+            key={l.id}
+            className="gratis-ficha"
+            onClick={() => onAbrir(l)}
+            whileTap={{ scale: 0.97 }}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ ...spring, delay: 0.06 + i * 0.05 }}
+          >
+            <span className="gratis-etiqueta">Gratis hoy</span>
+            <Portada libro={l} tamano={99} />
+          </motion.button>
+        ))}
+      </div>
+    </section>
+  );
+}
 
 export function MiBiblioteca({
   guardados,
@@ -804,13 +847,19 @@ export function Inicio({
             quitado: anunciaba en un cartel aparte justo lo que esta tarjeta ES
             para quien no paga. Ahora lo dice la tarjeta misma. Ver
             `LibroDelDia.tsx`. */}
-        <LibroDelDia
-          suscrito={suscrito}
-          guardado={guardados?.has(libroDeHoy()?.id ?? "")}
-          onGuardar={onGuardar}
-          onLeer={onAbrir}
-          onEscuchar={onEscuchar}
-        />
+        {/* Con cuenta, la tarjeta del día de siempre. Sin ella, la tira de tres
+            libros gratis calcada de la captura del 2 de septiembre. */}
+        {suscrito ? (
+          <LibroDelDia
+            suscrito={suscrito}
+            guardado={guardados?.has(libroDeHoy()?.id ?? "")}
+            onGuardar={onGuardar}
+            onLeer={onAbrir}
+            onEscuchar={onEscuchar}
+          />
+        ) : (
+          <LibrosGratis onAbrir={onAbrir} />
+        )}
 
         {/* Los filtros son las mismas ocho de la introducción, en su orden */}
         <motion.div

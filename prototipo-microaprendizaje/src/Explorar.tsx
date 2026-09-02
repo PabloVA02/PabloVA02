@@ -365,7 +365,7 @@ function Tendencias({ onAbrir }: { onAbrir: (l: Libro) => void }) {
           >
             <div className="tend-arte">
               <Portada libro={libro} tamano={172} />
-              <span className="tend-numero" aria-hidden>
+              <span className="tend-numero" aria-hidden data-doble={i + 1 >= 10 ? "true" : undefined}>
                 {i + 1}
               </span>
             </div>
