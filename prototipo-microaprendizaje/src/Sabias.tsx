@@ -126,7 +126,24 @@ export function Sabias() {
           const [antes, medio, despues] = partes(d);
           const estaAbierta = abierto?.id === d.id;
           return (
-            <section key={d.id} className="sab-hueco" data-i={i} style={{ ["--acento" as string]: d.color }}>
+            <section
+              key={d.id}
+              className="sab-hueco"
+              data-i={i}
+              data-conimagen={d.imagen ? "true" : undefined}
+              style={{ ["--acento" as string]: d.color }}
+            >
+              {/* LA ILUSTRACIÓN, A SANGRE Y SIN MARCO. Ocupa la mitad de arriba
+                  y se desvanece hacia abajo hasta desaparecer en el fondo de la
+                  sección. Funciona porque su papel es del mismo crema: no hay
+                  un borde donde acabe la imagen y empiece la pantalla, hay una
+                  transición. Con marco sería una foto pegada; así es la propia
+                  pantalla la que está dibujada. */}
+              {d.imagen && (
+                <div className="sab-lienzo" aria-hidden>
+                  <img src={d.imagen} alt="" decoding="async" />
+                </div>
+              )}
               {/* La tarjeta lleva `layoutId`: cuando se abre, ESTA MISMA crece
                   hasta llenar la pantalla en vez de aparecer otra encima. Por
                   eso mientras está abierta aquí no se pinta, o habría dos. */}

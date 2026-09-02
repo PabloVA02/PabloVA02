@@ -39,9 +39,34 @@ export type Dato = {
   color: string;
   /** El porqué. Tres o cuatro frases, en palabras de la calle. */
   mas: string[];
+  /**
+   * UNA ILUSTRACIÓN, cuando la hay. Opcional a propósito.
+   *
+   * Un dato bueno se sostiene con la frase sola, y una imagen de archivo al
+   * lado lo empequeñece. Por eso la sección nació sin fotos. Pero una
+   * ilustración HECHA para ese dato es otra cosa: no compite con la frase, la
+   * pone en un sitio.
+   *
+   * La primera es la de la Sagrada Familia, que trajo Pablo el 2 de
+   * septiembre. Se pinta a sangre por arriba y se desvanece hacia el fondo,
+   * sin marco: su papel es del mismo crema que la sección, así que las dos
+   * cosas se funden en vez de pegarse.
+   */
+  imagen?: string;
 };
 
 export const DATOS: Dato[] = [
+  {
+    id: "sagrada-familia",
+    titular: "La Sagrada Familia se construyó 137 años sin permiso de obra",
+    realce: "137 años sin permiso de obra",
+    tema: "Arquitectura",
+    color: "var(--clay)",
+    mas: [
+      "Las obras empezaron el 19 de marzo de 1882. El permiso se pidió tres años después al ayuntamiento de Sant Martí de Provençals, que entonces era un pueblo aparte, y allí se quedó: nadie lo resolvió, el pueblo se anexionó a Barcelona en 1897 y el papel se perdió por el camino.",
+      "Nadie se dio cuenta en más de un siglo. Cuando el ayuntamiento abrió expediente, la junta que construye el templo acordó pagar treinta y seis millones de euros por los servicios y las obras de alrededor, y la licencia se firmó por fin en junio de 2019. Ciento treinta y siete años levantando el monumento más visitado de la ciudad sin el papel que le piden a cualquiera para cambiar unas ventanas.",
+    ],
+  },
   {
     id: "ferrari-rojo",
     titular: "Los Ferrari son rojos porque a Italia le tocó ese color",

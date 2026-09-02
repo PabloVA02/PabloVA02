@@ -248,7 +248,10 @@ function LibrosGratis({ onAbrir }: { onAbrir: (l: Libro) => void }) {
       <div className="bloque-cabecera">
         <h2>Libro diario gratis</h2>
       </div>
-      <div className="gratis-tira">
+      {/* La misma tira que «Recomendados»: mismo relleno, mismo hueco y mismo
+          anclaje. Pablo: «tiene que ser con el tamaño de nuestros libros, como
+          la sección de recomendados». Lo único que se le añade es la banda. */}
+      <div className="carrusel gratis-tira">
         {libros.map((l, i) => (
           <motion.button
             key={l.id}
@@ -260,7 +263,7 @@ function LibrosGratis({ onAbrir }: { onAbrir: (l: Libro) => void }) {
             transition={{ ...spring, delay: 0.06 + i * 0.05 }}
           >
             <span className="gratis-etiqueta">Gratis hoy</span>
-            <Portada libro={l} tamano={99} />
+            <Portada libro={l} tamano={148} />
           </motion.button>
         ))}
       </div>

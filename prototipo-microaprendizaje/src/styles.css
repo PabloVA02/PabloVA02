@@ -9716,10 +9716,15 @@ button {
 .tend-tira { align-items: flex-start; }
 .tend {
   flex: none;
-  width: 198px;
-  /* El hueco de la izquierda es para el número, y es la medida exacta de su
-     pastilla: así queda FUERA de la cubierta y no tapa nada. */
-  padding-left: 26px;
+  /* EL ANCHO TIENE QUE INCLUIR EL CANAL DEL NÚMERO. Estaba en 198 con un canal
+     de 108, y como la caja es `border-box` la cubierta —172 y con `!important`—
+     se salía por la derecha: el hueco real entre dos cubiertas quedaba en 42 y
+     el número, que mide 86, se metía 66 puntos por debajo de la de al lado. Eso
+     era lo que Pablo veía: «los de tendencias salen más formados» en su
+     captura, porque allí el dígito se ve entero y aquí se lo comían las
+     cubiertas. 108 de canal más 172 de cubierta son 280. */
+  width: 280px;
+  /* El hueco de la izquierda es para el número. Lo pone `.tend` más abajo. */
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -12235,7 +12240,9 @@ button {
 
 .sab-carta {
   width: 100%;
-  padding: 28px 22px 20px;
+  /* 20 a los lados y no 22: las dos pastillas suman 288 y con 22 quedaban 287
+     de hueco. Por un punto se iban a dos líneas y la tarjeta salía coja. */
+  padding: 28px 20px 20px;
   border-radius: 30px;
   background: var(--tarjeta);
   box-shadow: 0 1px 2px rgba(36, 31, 26, 0.04);
@@ -12280,7 +12287,7 @@ button {
      la tarjeta se ve fatal. Ahí baja la segunda y ya está. De 375 en adelante
      van en fila, que es como está en la captura. */
   flex-wrap: wrap;
-  gap: 9px;
+  gap: 8px;
   margin-top: 24px;
   padding-top: 20px;
   border-top: 1px solid rgba(36, 31, 26, 0.07);
@@ -12380,98 +12387,145 @@ button {
 /* ==========================================================================
    LIBRO DIARIO GRATIS — calcado de la captura del 2 de septiembre
 
-   Medido en su captura, en un móvil de 375: tarjetas de 99 de ancho, 20 de
-   hueco y 20 de margen; tres caben justas. La banda de «Gratis hoy» va PEGADA
-   encima de la cubierta, no flotando sobre ella: esquinas de arriba
-   redondeadas, las de abajo rectas, y la cubierta con las de arriba también
-   rectas, de manera que las dos piezas forman una sola tarjeta.
+   Pablo: «con esa etiqueta exactamente igual», y después: «tiene que ser con
+   el tamaño de nuestros libros, como la sección de recomendados».
 
-   El azul es el suyo, muestreado: fondo #e7f1fe y letra azul. Sobre nuestro
-   fondo oscuro funciona igual de bien —es una chapa clara sobre gris— y era
-   lo que pidió: «con esa etiqueta exactamente igual».
+   Las dos cosas a la vez, así que lo que se calca son las PROPORCIONES, no los
+   puntos. Medido en su captura: tarjeta de 99 de ancho, banda de 23 de alto y
+   texto de unos 12,4. O sea que la banda mide el 23,2 % del ancho de la
+   tarjeta y el texto el 12,5 %.
+
+   Nuestra cubierta mide 148, la de «Recomendados», así que la banda sale a 34
+   y el texto a 18,5. La misma tarjeta, más grande.
+
+   La tira es literalmente la de «Recomendados» —lleva su clase `carrusel`, con
+   su relleno, su hueco de 16 y su anclaje—, y lo único que se le añade encima
+   de la cubierta es la banda.
+
+   Y LA BANDA VA PEGADA, no flotando: esquinas de arriba redondeadas y las de
+   abajo rectas, la cubierta al revés. Es lo que hace que las dos piezas se
+   lean como una tarjeta sola y no como una pegatina puesta encima. El azul es
+   el suyo, muestreado del píxel: fondo #e7f1fe y letra #1a73e8.
    ========================================================================== */
 
-.gratis-tira {
-  display: flex;
-  gap: 20px;
-  padding: 0 var(--shell-pad);
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-
-.gratis-tira::-webkit-scrollbar { display: none; }
+.gratis-tira { align-items: flex-start; }
 
 .gratis-ficha {
   flex: none;
-  width: 99px;
+  width: var(--ficha-ancho);
   display: flex;
   flex-direction: column;
   border: 0;
   padding: 0;
   background: none;
+  scroll-snap-align: start;
   cursor: pointer;
 }
 
 .gratis-etiqueta {
-  display: block;
-  padding: 7px 0;
+  display: grid;
+  place-items: center;
+  height: 34px;
   border-radius: 8px 8px 0 0;
   background: #e7f1fe;
   color: #1a73e8;
-  font-size: 12.5px;
+  font-size: 18.5px;
   font-weight: 600;
-  text-align: center;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
 }
 
-/* La cubierta, del ancho de la tarjeta y con las esquinas de arriba rectas
-   para que encaje bajo la banda. 2:3, como todas. */
 .gratis-ficha .portada {
-  width: 99px !important;
-  height: 149px !important;
+  width: var(--ficha-ancho) !important;
+  height: var(--ficha-alto) !important;
   border-radius: 0 0 8px 8px;
 }
 
 /* ==========================================================================
    LOS NÚMEROS DE TENDENCIAS, calcados de la captura del 2 de septiembre
 
-   Pablo: «los números de tendencias, esos números en grande, quiero que lo
-   hagas exactamente igual donde nosotros lo tenemos».
+   Pablo, dos veces. La primera: «esos números en grande, quiero que lo hagas
+   exactamente igual». La segunda, viendo el resultado: «los de tendencias
+   salen más formados, fíjate en la captura y hazlos iguales».
 
-   Medido en su captura: el dígito mide 105 de alto sobre una cubierta de 152
-   —o sea el 69 %—, va con trazo de 2 y sin relleno, en un gris casi del color
-   del fondo, y se apoya en el mismo suelo que la cubierta. Se lee como una
-   marca de agua, no como una etiqueta: por eso no compite con la portada.
+   Y tenía razón: el suyo se ve ENTERO, metido en el hueco entre dos cubiertas;
+   el nuestro era más grande que el hueco, así que las cubiertas se lo comían
+   por los dos lados y solo asomaba un trozo de la curva. Un dígito a medias no
+   se lee como un número, se lee como una raya.
 
-   Aquí la cubierta mide 258, así que el dígito va a 178 —el mismo 69 %—, y el
-   canal de la izquierda crece de 26 a 60 para que quepa. El gris es el
-   equivalente sobre fondo oscuro: su #f5f5f5 sobre blanco es casi invisible,
-   y aquí lo es un blanco al 15 %.
+   Las tres medidas de su captura, en proporción a la cubierta —101 de ancho
+   por 152 de alto—:
+
+       hueco entre cubiertas   64  =  0,63 del ancho
+       alto del dígito        105  =  0,69 del alto
+       ancho del dígito        51  =  0,50 del ancho
+       grosor del trazo         2  =  0,019 del alto del dígito
+
+   Aquí la cubierta mide 172 × 258, así que el canal sale a 108, el dígito a
+   178 de alto —font-size 250, que en estas cifras da esa altura de caja— y el
+   trazo a 3. Con 108 de canal y 86 de dígito sobran once a cada lado: el
+   número cabe entero y no lo toca nadie.
    ========================================================================== */
 
-.tend { padding-left: 60px; }
+/* El canal de la izquierda, donde vive el número. */
+.tend { padding-left: 108px; }
 
 .tend-numero {
   position: absolute;
-  left: -62px;
-  bottom: -14px;
+  left: -108px;
+  /* Apoyado en el mismo suelo que la cubierta. El −54 compensa el hueco que
+     `line-height: 1` deja bajo la cifra, que no tiene cola. */
+  bottom: -54px;
   display: block;
-  width: auto;
+  width: 108px;
   height: auto;
   padding: 0;
   border-radius: 0;
   background: none;
-  font-size: 178px;
+  text-align: center;
+  font-size: 250px;
   line-height: 1;
   font-weight: 800;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.05em;
   font-variant-numeric: tabular-nums;
-  /* Sin relleno y con trazo: es lo que lo convierte en marca de agua. */
+  /* Sin relleno y con trazo: es lo que lo convierte en marca de agua y no en
+     una etiqueta. El gris es el equivalente del suyo sobre fondo oscuro: su
+     #f5f5f5 sobre blanco es casi invisible, y aquí lo es un blanco al 15 %. */
   color: transparent;
-  -webkit-text-stroke: 2px rgba(242, 236, 225, 0.15);
+  -webkit-text-stroke: 3px rgba(242, 236, 225, 0.15);
   pointer-events: none;
 }
 
-/* Del diez en adelante ocupa el doble, así que se recuesta contra la cubierta
-   en vez de salirse del canal por la izquierda. */
-.tend-numero[data-doble="true"] { left: auto; right: calc(100% - 8px); }
+/* Del diez en adelante son dos cifras y no caben en el canal, así que se
+   estrechan en vez de salirse: el número sigue viéndose entero, que es de lo
+   que iba todo esto. */
+.tend-numero[data-doble="true"] { font-size: 170px; bottom: -36px; }
+
+/* ---------- la ilustración de un dato, cuando la tiene ---------- */
+
+/* Con ilustración, la tarjeta baja al pie y le deja la mitad de arriba. */
+.sab-hueco[data-conimagen="true"] { align-items: flex-end; }
+
+.sab-lienzo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* Hasta un poco más de la mitad: lo justo para que la ilustración tenga
+     aire y la frase siga siendo lo primero que se lee. */
+  height: 58%;
+  pointer-events: none;
+}
+
+.sab-lienzo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 12%;
+  /* SE DESVANECE POR ABAJO, y esto es lo que la integra. La ilustración viene
+     sobre papel crema, el mismo de la sección, así que al difuminar el borde
+     inferior no queda una foto pegada: queda una pantalla dibujada. El corte
+     empieza pronto —al 55 %— porque la parte de abajo del dibujo es la que
+     tiene menos cosas y es la que puede irse sin que se note. */
+  -webkit-mask-image: linear-gradient(to bottom, #000 55%, rgba(0, 0, 0, 0.55) 78%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 55%, rgba(0, 0, 0, 0.55) 78%, transparent 100%);
+}
