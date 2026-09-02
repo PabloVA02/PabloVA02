@@ -42,9 +42,9 @@ import type { Categoria } from "./libros/catalogo";
  *
  * Pablo, el 2 de septiembre: «quita las colecciones de libros de momento».
  *
- * «De momento», así que no se borra nada: las diecisiete colecciones, su
- * orden por intereses y las dos pantallas se quedan enteras y probadas. Lo
- * único que cambia es que no se enseñan. Volver a encenderlas es poner esto
+ * «De momento», así que no se borra nada: las once colecciones, su orden
+ * por intereses, la tira y la pantalla de `Colecciones.tsx` se quedan enteras
+ * y probadas. Lo único que cambia es que no se enseñan. Volver a encenderlas es poner esto
  * en `true` y no hay más sitios que tocar: de aquí lo leen la tira del inicio,
  * el «Aparece en» de la ficha de un libro y la pantalla de la colección.
  *

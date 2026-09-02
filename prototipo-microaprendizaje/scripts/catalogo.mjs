@@ -631,9 +631,38 @@ const ORDEN = existsSync(join(AQUI, "assets", "orden-shorts.json"))
   ? JSON.parse(readFileSync(join(AQUI, "assets", "orden-shorts.json"), "utf8")).orden
   : {};
 
+/* Y ENCIMA DE ESE ORDEN, `--delante`, PARA CUANDO PABLO QUIERE LEER UNO YA.
+ *
+ * Él, el 2 de septiembre: «ponme en el simulador el del ascensor primero, que
+ * lo quiero leer». El muro va por incorporación y el ascensor entró tarde, así
+ * que estaba a un buen rato de dedo. Con `--delante como-funciona-un-ascensor`
+ * sale el primero y lo demás no se mueve.
+ *
+ * Se pasa por la línea de órdenes y NO se guarda en ningún fichero a propósito:
+ * es un apaño para una sesión, no el orden del muro. La compilación siguiente
+ * que no lo lleve vuelve a dejar el muro como estaba, que es lo que se quiere.
+ *
+ * Admite varios —`--delante a --delante b`— y respeta el orden en que se
+ * escriben. Un nombre que no sea una carpeta se canta por la salida de error:
+ * si no, se ordenaría por él en silencio y el short seguiría enterrado. */
+const DELANTE = process.argv.reduce(
+  (l, a, i) => (a === "--delante" && process.argv[i + 1] ? [...l, process.argv[i + 1]] : l),
+  [],
+);
+
 const carpetas = readdirSync(TEXTOS)
   .filter((d) => statSync(join(TEXTOS, d)).isDirectory())
-  .sort((a, b) => (ORDEN[a]?.n ?? 1e9) - (ORDEN[b]?.n ?? 1e9) || a.localeCompare(b, "es"));
+  .sort((a, b) =>
+    puesto(a) - puesto(b) || (ORDEN[a]?.n ?? 1e9) - (ORDEN[b]?.n ?? 1e9) || a.localeCompare(b, "es"));
+
+function puesto(d) {
+  const i = DELANTE.indexOf(d);
+  return i === -1 ? DELANTE.length : i;
+}
+
+for (const d of DELANTE) {
+  if (!carpetas.includes(d)) console.error(`--delante ${d}: no hay ninguna serie con ese nombre`);
+}
 
 const rutas = [];
 for (const d of carpetas) {

@@ -1606,6 +1606,22 @@ de Blinkist. Lo que quedó, y por qué, para que no se deshaga por descuido:
 **Gestiona las recomendaciones**. Se fueron «Retomar» y «Personalizado para
 ti».
 
+**Y desde el 2 de septiembre las colecciones NO SE VEN.** Pablo: «quita las
+colecciones de libros de momento». Lo que sigue en este apartado describe algo
+que está entero en el código y apagado en la pantalla, y conviene leerlo así.
+
+No se borró nada porque él dijo «de momento». Hay un interruptor —
+`COLECCIONES_A_LA_VISTA` en `src/colecciones.ts`, ahora en `false`— y de él
+cuelgan los tres únicos sitios donde asomaban: la tira del inicio, el «Aparece
+en» de la ficha de un libro y la pantalla de la colección. Encenderlo otra vez
+es cambiar esa línea y no hay más que tocar.
+
+Interruptor y no código comentado a propósito: comentado se pudre en cuanto
+cambie cualquier cosa alrededor y nadie se entera hasta que hay que
+resucitarlo, mientras que así el compilador sigue comprobando que las once
+colecciones, su orden por intereses y las dos piezas de `Colecciones.tsx` —la
+tira y la pantalla— encajan con el resto de la app mientras están apagadas.
+
 **La regla que gobierna las dos piezas nuevas, y es la importante:** ninguna
 promete una personalización que no existe. Blinkist llama a sus colecciones
 «elegidas para tus intereses» y Headway «creadas para ti», y las dos mienten el

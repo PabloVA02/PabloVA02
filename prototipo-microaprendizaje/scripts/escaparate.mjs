@@ -4,6 +4,11 @@
        node scripts/escaparate.mjs            la app entera -> movil.html
        node scripts/escaparate.mjs --mirador  el muro       -> shorts.html
 
+   Y `--delante <serie>` saca ese short al principio del muro, solo en esta
+   compilación:
+
+       node scripts/escaparate.mjs --delante como-funciona-un-ascensor
+
    POR QUÉ EXISTE. `movil.html` es un solo fichero HTML con las portadas
    empotradas y un tope de publicación de 16 MB. Pasadas unas sesenta portadas
    no cabe, y seguir bajando la calidad estropea justo lo que Pablo mira. Él lo
@@ -33,8 +38,17 @@ const mirador = process.argv.includes("--mirador");
 const corre = (orden, args) =>
   execFileSync(orden, args, { cwd: AQUI, stdio: ["ignore", "pipe", "inherit"], maxBuffer: 512 * 1024 * 1024 });
 
+/* `--delante <serie>` se le pasa tal cual a catalogo.mjs y saca ese short al
+   principio del muro. Solo en el catálogo recortado —el del simulador—: el que
+   se restaura al final va SIEMPRE sin él, para que un apaño de una tarde no se
+   quede escrito en el repositorio. Se puede repetir. */
+const DELANTE = process.argv.reduce(
+  (l, a, i) => (a === "--delante" && process.argv[i + 1] ? [...l, "--delante", process.argv[i + 1]] : l),
+  [],
+);
+
 const escribe = (conVitrina) => {
-  const args = ["scripts/catalogo.mjs", ...(conVitrina ? ["--vitrina"] : [])];
+  const args = ["scripts/catalogo.mjs", ...(conVitrina ? ["--vitrina", ...DELANTE] : [])];
   writeFileSync(new URL(CATALOGO, `file://${AQUI}`), corre("node", args));
 };
 
