@@ -15,7 +15,7 @@
    terminar, que es lo que cierra el resumen.
    ========================================================================== */
 
-import { useEffect, useState, type CSSProperties } from "react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { GlyphAuriculares, GlyphBack, GlyphLeer, GlyphPausa, GlyphPlay } from "./glyphs";
 import { spring, springSoft } from "./motion";
@@ -174,14 +174,29 @@ export function Lector({
   onCerrar,
   onTerminar,
   audioAlEntrar = false,
+  inicio = 0,
+  onPagina,
 }: {
   paginas: PaginaLibro[];
   onCerrar: () => void;
   onTerminar: () => void;
   /** Se entra por «Escuchar» y no por «Leer»: empieza sonando. */
   audioAlEntrar?: boolean;
+  /** Por qué página se dejó la última vez. Lo lleva `App`. */
+  inicio?: number;
+  /** Se avisa a cada cambio de página, para poder retomarlo. */
+  onPagina?: (n: number) => void;
 }) {
-  const [i, setI] = useState(0);
+  /* SE ABRE POR DONDE SE DEJÓ.
+   *
+   * Pablo, el 2 de septiembre: «cuando empiezo a leer un libro y acabo de una
+   * parte, una vez lo vuelvo a retomar el libro debe abrirse exactamente por
+   * donde se dejó la última vez».
+   *
+   * `inicio` se recorta contra las páginas que hay de verdad: el texto de un
+   * libro se puede reescribir y quedarse más corto, y una página guardada que
+   * ya no existe dejaría el lector en blanco. */
+  const [i, setI] = useState(() => Math.max(0, Math.min(inicio, paginas.length - 1)));
   /** El panel de abajo, el que abre la «Aa». */
   const [ajustes, setAjustes] = useState(false);
   const [fondo, setFondo] = useState<Tono>(() =>
@@ -211,8 +226,22 @@ export function Lector({
      mitad, que es lo que hace que un lector paginado se sienta roto. */
   function ir(n: number) {
     setI(n);
+    onPagina?.(n);
     document.querySelector(".lee-scroll")?.scrollTo({ top: 0 });
   }
+
+  /* El texto llega de un trozo aparte y puede tardar un instante: al montar,
+     `paginas` está vacío y el recorte de arriba deja el arranque en cero. En
+     cuanto llega, se coloca donde tocaba. Solo una vez, y solo si no se ha
+     pasado ya de página a mano. */
+  const colocado = useRef(false);
+  useEffect(() => {
+    if (colocado.current || !paginas.length) return;
+    colocado.current = true;
+    const donde = Math.max(0, Math.min(inicio, paginas.length - 1));
+    if (donde !== i) setI(donde);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [paginas.length]);
 
   /* ---- El audiolibro ----------------------------------------------------
      Suena la voz del propio teléfono; el porqué y las tres decisiones que

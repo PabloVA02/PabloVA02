@@ -217,6 +217,12 @@ export default function App() {
    * se filtran contra el catálogo de hoy, así que un libro retirado desaparece
    * en vez de romper la pantalla. */
   const [empezados, setEmpezados] = useState<string[]>(() => leeLista("curva.empezados"));
+  /* POR DÓNDE VA CADA LIBRO. Un mapa de identificador a número de página, que
+     es lo que hace que al retomarlo se abra donde se dejó y que la barra de
+     «Seguir leyendo» diga cuánto llevas. Va aparte de `empezados` porque
+     responden a preguntas distintas: aquella dice QUÉ has abierto y en qué
+     orden; esta, POR DÓNDE vas de cada uno. */
+  const [paginaDe, setPaginaDe] = useState<Record<string, number>>(() => leeMapa("curva.paginas"));
   const [guardados, setGuardados] = useState<ReadonlySet<string>>(
     () => new Set(leeLista("curva.guardados")),
   );
@@ -231,6 +237,16 @@ export default function App() {
     }
     return null;
   }, [empezados, terminados]);
+
+  /** Apunta por qué página va un libro. */
+  function marcaPagina(id: string, n: number) {
+    setPaginaDe((antes) => {
+      if (antes[id] === n) return antes;
+      const ahora = { ...antes, [id]: n };
+      guardaMapa("curva.paginas", ahora);
+      return ahora;
+    });
+  }
 
   /** Apunta que se ha empezado un libro. Si ya estaba, sube al final. */
   function empieza(id: string) {
@@ -478,6 +494,7 @@ export default function App() {
               intereses={intereses}
               enCursoId={enCursoId}
               terminados={terminados}
+              paginaDe={paginaDe}
               onAbrir={(l) => {
                 setLibro(l);
                 setVolverDeDetalle("inicio");
@@ -678,6 +695,8 @@ export default function App() {
                  puedan leer desde el primer día. */
               paginas={PAGINAS[libro.id] ?? paginasDeResumen(resumen?.partes ?? [])}
               audioAlEntrar={conVoz}
+              inicio={paginaDe[libro.id] ?? 0}
+              onPagina={(n) => marcaPagina(libro.id, n)}
               onCerrar={() => setPantalla("detalle")}
               onTerminar={() => {
                 /* Lo que antes hacía la lección al acabar un capítulo: contar
@@ -690,6 +709,15 @@ export default function App() {
                 setTerminados((antes) => {
                   const ahora = new Set(antes).add(libro.id);
                   guardaLista("curva.terminados", [...ahora]);
+                  return ahora;
+                });
+                /* Y se olvida por dónde iba: un libro acabado no se retoma a
+                   mitad, y si se vuelve a abrir empieza por el principio. */
+                setPaginaDe((antes) => {
+                  if (!(libro.id in antes)) return antes;
+                  const ahora = { ...antes };
+                  delete ahora[libro.id];
+                  guardaMapa("curva.paginas", ahora);
                   return ahora;
                 });
                 setObjetivo(objetivoLibro);
@@ -915,6 +943,35 @@ function leeLista(clave: string): string[] {
     return v.split(",").filter((id) => hay.has(id));
   } catch {
     return [];
+  }
+}
+
+/** El mapa de «por dónde va cada libro»: `id:pagina` separados por comas. */
+function leeMapa(clave: string): Record<string, number> {
+  try {
+    const v = localStorage.getItem(clave);
+    if (!v) return {};
+    const hay = new Set(LIBROS.map((l) => l.id));
+    const m: Record<string, number> = {};
+    for (const par of v.split(",")) {
+      const [id, n] = par.split(":");
+      const k = Number(n);
+      if (hay.has(id) && Number.isInteger(k) && k >= 0) m[id] = k;
+    }
+    return m;
+  } catch {
+    return {};
+  }
+}
+
+function guardaMapa(clave: string, m: Record<string, number>) {
+  try {
+    localStorage.setItem(
+      clave,
+      Object.entries(m).map(([id, n]) => `${id}:${n}`).join(","),
+    );
+  } catch {
+    /* Igual que la lista: se pierde entre sesiones y nada más. */
   }
 }
 

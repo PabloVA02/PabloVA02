@@ -558,6 +558,7 @@ export function Inicio({
   onGestionarTemas,
   enCursoId = null,
   terminados,
+  paginaDe,
 }: {
   /** Abre la tragaperras: un libro al azar. */
   onDado: () => void;
@@ -585,6 +586,8 @@ export function Inicio({
   enCursoId?: string | null;
   /** Los ya acabados, para no ofrecer «seguir» uno que está terminado. */
   terminados?: ReadonlySet<string>;
+  /** Por qué página va cada libro. Lo lleva `App`. */
+  paginaDe?: Record<string, number>;
 }) {
   const [filtro, setFiltro] = useState<string | null>(null);
 
@@ -611,10 +614,23 @@ export function Inicio({
   const ultimo = enCursoId ? LIBROS.find((l) => l.id === enCursoId && !acabado(l)) : undefined;
   const aMedias = LIBROS.find((l) => l.progreso > 0 && !acabado(l));
   const destacado = ultimo ?? aMedias ?? LIBROS.find((l) => !acabado(l)) ?? LIBROS[0];
-  /* La barra: el progreso del catálogo si lo trae. Cuando el libro es el que
-     se acaba de abrir, ese número es cero y una barra al cero no enseña nada
-     de lo que hace la pastilla, así que se pinta un arranque corto. */
-  const avance = destacado.progreso > 0 ? destacado.progreso : 0.15;
+  /* LA BARRA DICE CUÁNTO LLEVAS LEÍDO DE VERDAD.
+   *
+   * Pablo, el 2 de septiembre: «eso debe aparecer en la línea de seguir
+   * leyendo para saber cuánto se lleva leído del libro».
+   *
+   * Sale de la página por la que va —la que guarda el lector al pasar— sobre
+   * las que tiene el libro. Se cuenta la página EMPEZADA, no la terminada: si
+   * vas por la segunda de diez, llevas dos de diez y no una, porque la que
+   * estás leyendo también cuenta. Por eso `+ 1`.
+   *
+   * Antes esto era `destacado.progreso`, el número de los datos de muestra, y
+   * cuando valía cero se pintaba un arranque falso del 15 % para que la barra
+   * no saliera vacía. Un adorno que mentía. Ahora, si de verdad no se ha
+   * pasado de la primera página, la barra enseña esa primera página y ya. */
+  const hojas = Math.max(1, paginasDeLibro(destacado));
+  const porDonde = paginaDe?.[destacado.id];
+  const avance = Math.min(1, ((porDonde ?? 0) + 1) / hojas);
   /* Cada toque en el dado sube este número, y cada cambio lanza una tirada en
      el dibujo de la cabecera. Un contador y no un booleano: dos toques
      seguidos tienen que dar dos tiradas. */
@@ -719,7 +735,18 @@ export function Inicio({
             <Portada libro={destacado} tamano={27} />
           </span>
           <span className="curso-texto">
-            <span className="curso-ceja">Seguir leyendo</span>
+            {/* La ceja lleva la cuenta. La barra dice cuánto de un vistazo, pero
+                «cuánto llevo» se contesta con un número, y ahí abajo hay sitio
+                de sobra. Solo sale cuando se ha pasado de la primera página:
+                antes de eso «1 de 10» es ruido, porque aún no has avanzado. */}
+            <span className="curso-ceja">
+              Seguir leyendo
+              {(paginaDe?.[destacado.id] ?? 0) > 0 && (
+                <span className="curso-cuenta">
+                  {(paginaDe?.[destacado.id] ?? 0) + 1} de {hojas}
+                </span>
+              )}
+            </span>
             <span className="curso-titulo">{destacado.titulo}</span>
           </span>
           <span className="curso-barra">

@@ -8476,7 +8476,20 @@ button {
   border-radius: 4px;
 }
 .curso-texto { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
-.curso-ceja { font-size: 13px; font-weight: 500; color: rgba(255, 255, 255, 0.66); }
+.curso-ceja {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.66);
+}
+/* La cuenta va más apagada que la ceja y con cifras de ancho fijo: al pasar de
+   página no puede bailar el ancho del número. */
+.curso-cuenta {
+  color: rgba(255, 255, 255, 0.42);
+  font-variant-numeric: tabular-nums;
+}
 .curso-titulo {
   font-size: 17px;
   font-weight: 700;
