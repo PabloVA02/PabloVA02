@@ -442,3 +442,32 @@ export function GlyphTrofeo({ tamano = 26 }: { tamano?: number }) {
     </svg>
   );
 }
+
+/**
+ * ¿Sabías que…?: una bombilla, maciza y sin rayos alrededor.
+ *
+ * Va rellena por lo mismo que el rayo de Shorts y el libro de Libros: a
+ * veintidós puntos un trazo fino se deshace. Y sin los rayitos que suelen
+ * dibujarse alrededor de una bombilla encendida, que a este tamaño se
+ * convierten en suciedad y además la confunden con el rayo de la pestaña de
+ * al lado. La silueta sola —el globo y la rosca de tres escalones— se
+ * reconoce sin ayuda.
+ */
+export function GlyphBombilla({ tamano = 20 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
+      {/* El globo: un círculo que se estrecha abajo hasta la rosca. */}
+      <path
+        d="M12 2 A7 7 0 0 0 7.6 14.4 C8.6 15.3 9.1 16.2 9.2 17.2 H14.8 C14.9 16.2 15.4 15.3 16.4 14.4 A7 7 0 0 0 12 2 Z"
+        fill="currentColor"
+      />
+      {/* La rosca. Tres escalones y el último más estrecho, que es lo que la
+          hace leerse como bombilla y no como seta. */}
+      <rect x="9.2" y="18.4" width="5.6" height="1.7" rx="0.85" fill="currentColor" />
+      <path
+        d="M9.9 21.3 H14.1 A2.1 2.1 0 0 1 12 23 A2.1 2.1 0 0 1 9.9 21.3 Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}

@@ -1616,6 +1616,41 @@ equivocado. Lo borró Pablo por orden expresa el 21 de agosto. Si hace falta
 consultarlo por algo, está en el historial de git.
 - `FOTOS.md` — de dónde salen las imágenes y qué se puede afirmar de ellas.
 
+## «¿SABÍAS QUE…?», LA QUINTA PESTAÑA — 2 DE SEPTIEMBRE
+
+Pablo: «añade otra pestaña más, llámala shorts (v2)». Y sobre qué va dentro:
+«una frase corta que guste leerla, en grande, con letras grandes y vistosas, y
+si quieres profundizar un poco más existirá una pestaña donde se abrirá más
+texto […] que divierta el leerlo […] hazlo bonito».
+
+**La de Shorts NO se ha quitado, y es a propósito.** Lo dijo él mismo
+rectificando en la misma frase: «la de shorts déjamela en verdad para
+compararlas». Van una al lado de la otra en la barra porque para comparar dos
+cosas hay que poder saltar de una a otra sin buscarlas.
+
+    src/sabias.ts     los datos, con su titular y su explicación
+    src/Sabias.tsx    la pantalla
+    ?p=sabias         para abrirla suelta
+
+**QUÉ ENTRA AQUÍ Y QUÉ ES UN SHORT.** Un short explica un mecanismo y necesita
+varias pantallas; un «¿sabías que…?» se agota en una frase. Si algo pide dos
+párrafos para entenderse, es un short.
+
+**Y NO ES TRIVIA.** La regla de la casa —«un dato vale si reordena algo que el
+lector creía, no si solo es curioso»— sigue mandando: cada entrada tiene que
+dejar pensando «pues yo creía otra cosa». Por eso hay tantos desmentidos —los
+vikingos, Napoleón, la muralla china—. Los datos que no se pudieron verificar
+bien se cayeron en vez de suavizarse con un «se dice que»: el naranja de la
+zanahoria y la casa de Orange se quedaron fuera por eso.
+
+**Sin fotografía, a propósito.** Una imagen de archivo al lado de un dato bueno
+lo empequeñece. En su sitio va el color, uno por entrada, y es lo único que
+avisa de que has cambiado de tema antes de leer una palabra.
+
+**El tamaño de la letra no se mide, se elige por tramos** según lo que ocupe la
+frase. En los shorts hay un bucle que mide y encoge y cuesta cientos de
+milisegundos; aquí no hace falta, porque no hay que llenar una caja exacta.
+
 ## LA PANTALLA DE INICIO Y EL PERFIL, DESPUÉS DEL 26 DE AGOSTO
 
 Ese día y el siguiente Pablo rehízo media app a base de capturas de Headway y

@@ -12049,3 +12049,239 @@ button {
    anterior: la bolita ya salió allí, así que aquí se esconde y el texto sigue
    alineado con el de arriba. */
 .short-cuerpo ul[data-sigue="true"] > li:first-child::before { visibility: hidden; }
+
+/* ==========================================================================
+   ¿SABÍAS QUE…?  —  la sección de datos curiosos
+
+   Pablo, el 2 de septiembre: «en grande, con letras grandes y vistosas […]
+   hazlo bonito».
+
+   LA IDEA: la frase es la pantalla. Fondo oscuro con un halo del color de la
+   entrada, el dato en serifa a todo lo ancho, y lo que sorprende teñido. Nada
+   más. Sin foto y sin tarjeta a propósito: una imagen de archivo al lado de un
+   dato bueno lo empequeñece, y un marco alrededor lo convierte en una ficha.
+
+   Los tamaños van en `cqw` —la carcasa es el contenedor de consulta—, así que
+   la frase crece con el móvil y se ve igual de grande en uno de 375 que en uno
+   de 430. Es la misma regla que en los shorts.
+   ========================================================================== */
+
+.sab {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  container-type: inline-size;
+  background: var(--fondo);
+  color: var(--paper-deep);
+}
+
+/* La chapa de arriba, del mismo cristal que la del muro para que las dos
+   secciones se reconozcan como hermanas. */
+.sab-marca {
+  position: absolute;
+  z-index: 12;
+  top: calc(16px + var(--isla));
+  left: var(--shell-pad);
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #f2ece1;
+}
+
+.sab-cuenta {
+  position: absolute;
+  z-index: 12;
+  top: calc(16px + var(--isla));
+  right: var(--shell-pad);
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-size: 11px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: #f2ece1;
+}
+
+.sab-cuenta-total { opacity: 0.45; }
+
+.sab-pase {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.sab-pase::-webkit-scrollbar { display: none; }
+
+/* CADA DATO OCUPA LA PANTALLA ENTERA. El halo de color no es decoración: es lo
+   único que separa un dato del siguiente cuando pasas deprisa, y cambiar de
+   color avisa de que has cambiado de tema antes de leer una palabra. */
+.sab-carta {
+  position: relative;
+  height: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: calc(92px + var(--isla)) 7cqw calc(var(--barra) + 92px);
+  background:
+    radial-gradient(120% 68% at 12% 8%, color-mix(in srgb, var(--acento) 26%, transparent) 0%, transparent 62%),
+    radial-gradient(90% 55% at 92% 96%, color-mix(in srgb, var(--acento) 15%, transparent) 0%, transparent 60%),
+    var(--fondo);
+}
+
+.sab-tema {
+  margin: 0 0 4cqw;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--acento);
+}
+
+/* LA FRASE. Serifa, apretada de interlínea porque va grande, y con la primera
+   línea empezando arriba del bloque: leída en dos segundos tiene que entrar
+   por el mismo sitio siempre. */
+.sab-frase {
+  margin: 0;
+  font-family: var(--serifa);
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: -0.015em;
+  color: #f4efe6;
+  text-wrap: balance;
+}
+
+/* Tres tramos según lo que ocupe, en vez de medir y encoger. Una frase de
+   seis palabras puede ir enorme; una de dieciséis, no. */
+.sab-frase[data-tramo="grande"] { font-size: 11.4cqw; }
+.sab-frase[data-tramo="medio"] { font-size: 9.4cqw; }
+.sab-frase[data-tramo="largo"] { font-size: 7.8cqw; }
+
+/* Lo que sorprende, teñido. Es el único color del texto y por eso funciona:
+   el ojo va ahí primero y de ahí sale hacia los lados. */
+.sab-frase em {
+  font-style: normal;
+  color: var(--acento);
+}
+
+.sab-mas {
+  position: absolute;
+  left: 7cqw;
+  bottom: calc(var(--barra) + 26px);
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 20px;
+  border: 1px solid color-mix(in srgb, var(--acento) 45%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--acento) 12%, transparent);
+  color: #f4efe6;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.sab-mas:active { transform: scale(0.97); }
+.sab-mas-flecha { color: var(--acento); font-size: 15px; }
+
+/* ---------- la hoja que sube ---------- */
+
+.sab-velo {
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  border: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  cursor: pointer;
+}
+
+/* Sube hasta donde pide su texto y no más, con un tope: una hoja a pantalla
+   completa para tres párrafos parece que va a haber mucho más de lo que hay. */
+.sab-hoja {
+  position: absolute;
+  z-index: 31;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 82%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 20px var(--shell-pad) calc(var(--barra) + 28px);
+  border-radius: 26px 26px 0 0;
+  background:
+    radial-gradient(120% 60% at 10% 0%, color-mix(in srgb, var(--acento) 20%, transparent) 0%, transparent 70%),
+    var(--paper-deep);
+  color: var(--ink);
+  box-shadow: 0 -24px 60px rgba(0, 0, 0, 0.55);
+}
+
+.sab-hoja::-webkit-scrollbar { display: none; }
+
+/* El asa dice que se puede arrastrar hacia abajo antes de que nadie lo pruebe. */
+.sab-asa {
+  display: block;
+  width: 42px;
+  height: 4px;
+  margin: 0 auto 16px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 28%, transparent);
+}
+
+.sab-cerrar {
+  position: absolute;
+  top: 16px;
+  right: var(--shell-pad);
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 10%, transparent);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.sab-hoja-tema {
+  margin: 0 0 6px;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--acento);
+}
+
+.sab-hoja-titulo {
+  margin: 0 0 14px;
+  padding-right: 34px;
+  font-family: var(--serifa);
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.24;
+  color: var(--ink);
+  text-wrap: balance;
+}
+
+.sab-hoja-texto {
+  font-family: var(--serifa);
+  font-size: 17px;
+  line-height: 1.62;
+  color: var(--ink-soft);
+}
+
+.sab-hoja-texto p { margin: 0 0 13px; }
+.sab-hoja-texto p:last-child { margin-bottom: 0; }
