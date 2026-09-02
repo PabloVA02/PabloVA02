@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useLayoutEffect, useRef, useState, type ReactElement } from "react";
+import { useCallback, useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactElement, type ReactNode } from "react";
 import {
   AnimatePresence,
   animate,
@@ -13,7 +13,7 @@ import { SHORTS, urlFoto, textoDeBloque, type Bloque, type Foto, type Short } fr
 import { conGuiones } from "./silabas";
 import { PORTADAS } from "./portadas";
 import { Cartel } from "./Cartel";
-import { GlyphHeart, GlyphRayo, GlyphShare } from "./glyphs";
+import { GlyphClose, GlyphHeart, GlyphLupa, GlyphRayo, GlyphShare } from "./glyphs";
 import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 
 /* ==========================================================================
@@ -1065,9 +1065,156 @@ function usePaginas(short: Short) {
  * Ken Burns corriendo a la vez y para saber a quién le hablan las flechas del
  * teclado.
  */
+/* --------------------------------------------------------------------------
+   EL BUSCADOR DEL MURO
+
+   Pablo, el 2 de septiembre: «que busque el título del short y me salga».
+
+   POR QUÉ HACE FALTA. El muro es un pase vertical de doscientas y pico
+   historias en orden de incorporación, y llegar a una concreta son doscientos
+   deslizamientos. Con el catálogo de once eso no era un problema; hoy sí, y
+   lo va a ser más.
+
+   NO ES UNA PANTALLA NUEVA, es una hoja encima del muro. Cerrarla tiene que
+   dejar exactamente donde estabas, y una pantalla de verdad —con su entrada en
+   la pila de navegación— no lo hace gratis. Al elegir un resultado, el muro
+   salta a esa historia y la hoja se va.
+
+   QUÉ SE BUSCA. El título manda —es lo que él pidió— pero también entran la
+   categoría, el gancho y el texto entero, porque buscar «ascensor» y que no
+   salga la página que lo explica sería raro de explicar. Lo que sí se respeta
+   es el orden: quien lleva la palabra en el título va delante.
+   -------------------------------------------------------------------------- */
+
+/** Quita tildes y mayúsculas: buscar «volcan» tiene que encontrar «volcán». */
+const llano = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+/* Se calcula UNA vez, al cargar el módulo. Son doscientas y pico historias con
+   su texto entero, y esto se teclea letra a letra: rehacerlo en cada pulsación
+   se nota en un móvil. Es lo mismo que hace `Explorar` con los libros. */
+const INDICE = SHORTS.map((short, i) => ({
+  i,
+  short,
+  titulo: llano(short.titulo),
+  resto: llano([short.categoria, short.gancho ?? "", ...short.bloques.map(textoDeBloque)].join(" ")),
+}));
+
+/** Pinta el trozo que coincide en amarillo, para que se vea por qué ha salido. */
+function realza(texto: string, aguja: string): ReactNode {
+  if (!aguja) return texto;
+  const j = llano(texto).indexOf(aguja);
+  if (j < 0) return texto;
+  return (
+    <>
+      {texto.slice(0, j)}
+      <mark>{texto.slice(j, j + aguja.length)}</mark>
+      {texto.slice(j + aguja.length)}
+    </>
+  );
+}
+
+function BuscadorShorts({
+  onElegir,
+  onCerrar,
+}: {
+  onElegir: (i: number) => void;
+  onCerrar: () => void;
+}) {
+  const [texto, setTexto] = useState("");
+  const caja = useRef<HTMLInputElement>(null);
+  /* Deja que la letra aparezca en la caja antes de recalcular la lista. */
+  const consulta = useDeferredValue(texto.trim());
+
+  useEffect(() => {
+    caja.current?.focus();
+  }, []);
+
+  const halla = useMemo(() => {
+    const q = llano(consulta);
+    if (!q) return INDICE;
+    const partes = q.split(/\s+/);
+    const enTitulo = (e: (typeof INDICE)[number]) => partes.every((p) => e.titulo.includes(p));
+    return INDICE.filter((e) => partes.every((p) => e.titulo.includes(p) || e.resto.includes(p)))
+      .sort((a, b) => Number(enTitulo(b)) - Number(enTitulo(a)) || a.i - b.i);
+  }, [consulta]);
+
+  const primera = llano(consulta).split(/\s+/)[0] ?? "";
+
+  return (
+    <motion.div
+      className="busca"
+      /* Entra deprisa y a propósito. Con el muelle de la casa tardaba setecientos
+         milisegundos en quedarse opaca, y durante ese rato se veía la fotografía
+         del muro por debajo del listado: un buscador que se abre despacio se
+         siente roto, aunque acabe donde tiene que acabar. */
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0, transition: { duration: 0.13, ease: "easeOut" } }}
+      exit={{ opacity: 0, y: 10, transition: { duration: 0.11 } }}
+    >
+      <div className="busca-barra">
+        <div className="busca-caja">
+          <GlyphLupa tamano={16} />
+          <input
+            ref={caja}
+            type="search"
+            value={texto}
+            onChange={(e) => setTexto(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Escape") onCerrar();
+              if (e.key === "Enter" && halla.length) onElegir(halla[0].i);
+            }}
+            placeholder="Busca un short por su título"
+            autoComplete="off"
+            autoCorrect="off"
+            spellCheck={false}
+            aria-label="Buscar un short"
+          />
+        </div>
+        <button className="busca-cerrar" onClick={onCerrar} aria-label="Cerrar el buscador">
+          <GlyphClose />
+        </button>
+      </div>
+
+      <p className="busca-cuenta">
+        {consulta
+          ? `${halla.length} ${halla.length === 1 ? "short" : "shorts"}`
+          : `${SHORTS.length} shorts`}
+      </p>
+
+      <div className="busca-lista">
+        {halla.map((e) => (
+          <button key={e.short.id} className="busca-fila" onClick={() => onElegir(e.i)}>
+            {/* La portada está en `fotos[0]`, no en `foto`: así las escribe el
+                catálogo, y `fotoDe` mira las dos por ese orden. Mirando solo
+                `foto` no salía ni una miniatura y las filas quedaban en un
+                rectángulo de color. Cuando no hay ninguna, el color del tema
+                hace de portada, que es lo que ya hace el cartel del muro. */}
+            <span className="busca-mini" style={{ background: e.short.color }}>
+              {(e.short.fotos?.[0] ?? e.short.foto) && (
+                <img
+                  src={urlFoto((e.short.fotos?.[0] ?? e.short.foto)!, 160)}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              )}
+            </span>
+            <span className="busca-texto">
+              <span className="busca-t">{realza(e.short.titulo, primera)}</span>
+              <span className="busca-cat">{e.short.categoria}</span>
+            </span>
+          </button>
+        ))}
+        {!halla.length && <p className="busca-nada">Nada con «{consulta}».</p>}
+      </div>
+    </motion.div>
+  );
+}
+
 export function MuroShorts({ onLeido }: { onLeido: (s: Short, minutos: number) => void }) {
   const reducido = useReducedMotion();
   const [activo, setActivo] = useState(0);
+  const [buscando, setBuscando] = useState(false);
   const scroll = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -1095,6 +1242,25 @@ export function MuroShorts({ onLeido }: { onLeido: (s: Short, minutos: number) =
    * Devuelve `false` si ya era la última, para que la historia rebote en vez
    * de quedarse quieta sin explicar por qué.
    */
+  /**
+   * Salta a una historia cualquiera, que es lo que hace falta al buscar.
+   *
+   * `setActivo` antes del salto no es adorno: dentro de cada ranura solo hay
+   * historia si está cerca de la activa, así que sin esto se salta a un hueco
+   * y la historia aparece un momento después. La ranura mide lo mismo esté
+   * llena o vacía —`height: 100%`—, o sea que el salto cae donde tiene que
+   * caer igualmente; lo que se gana es que ya esté montada al llegar.
+   *
+   * Y sin animación a propósito: recorrer doscientas pantallas con un muelle
+   * tarda una eternidad y marea.
+   */
+  function irA(i: number) {
+    const destino = scroll.current?.children[i] as HTMLElement | undefined;
+    if (!destino) return;
+    setActivo(i);
+    destino.scrollIntoView({ behavior: "auto", block: "start" });
+  }
+
   function irASiguiente(desde: number) {
     const caja = scroll.current;
     const destino = caja?.children[desde + 1] as HTMLElement | undefined;
@@ -1122,6 +1288,35 @@ export function MuroShorts({ onLeido }: { onLeido: (s: Short, minutos: number) =
         </span>
         Shorts
       </motion.header>
+
+      {/* La lupa, entre la marca y la cuenta. Va en la misma fila y con la misma
+          pastilla que las otras dos: es una tercera pieza de la misma cabecera,
+          no un añadido. */}
+      {SHORTS.length > 0 && (
+        <motion.button
+          className="muro-buscar"
+          onClick={() => setBuscando(true)}
+          aria-label="Buscar un short"
+          initial={{ opacity: 0, y: -12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...springPop, delay: 0.13 }}
+        >
+          <GlyphLupa tamano={16} />
+        </motion.button>
+      )}
+
+      <AnimatePresence>
+        {buscando && (
+          <BuscadorShorts
+            key="busca"
+            onCerrar={() => setBuscando(false)}
+            onElegir={(i) => {
+              irA(i);
+              setBuscando(false);
+            }}
+          />
+        )}
+      </AnimatePresence>
 
       {/* Por cuál del montón vas. Con cien historias, un punto por historia ni
           cabe ni informa: la cuenta sí. Con el muro vacío no se pinta: «1/0»

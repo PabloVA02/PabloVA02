@@ -2980,6 +2980,202 @@ button {
 
 .muro-cuenta-total { opacity: 0.5; }
 
+/* ==========================================================================
+   EL BUSCADOR DEL MURO
+
+   Pablo, el 2 de septiembre: «que busque el título del short y me salga». Es
+   una hoja encima del muro, no una pantalla: al cerrarla se sigue donde se
+   estaba. La lógica está en `BuscadorShorts`, en `src/Shorts.tsx`.
+
+   OJO CON LOS COLORES, que aquí se paga caro equivocarse. Dentro de `.muro`
+   las variables están DADAS LA VUELTA a propósito —`--paper` es el fondo
+   oscuro y `--ink` la crema del texto, está explicado arriba en «LOS SHORTS,
+   EN EL FONDO DE LA APP»—. La primera versión de esta hoja escribió
+   `color: var(--paper)` pensando en el crema y salió tinta oscura sobre fondo
+   oscuro: los títulos no se leían y solo se vio mirando una captura. Así que
+   aquí no hay ni un color a pelo: se leen las cinco variables del muro y ya.
+   ========================================================================== */
+
+.muro-buscar {
+  position: absolute;
+  z-index: 12;
+  /* Baja con la muesca, igual que los tramos de progreso. Clavada en 22 se
+     quedaba POR ENCIMA de los tramos en un móvil con isla —ellos llevan
+     `var(--isla)` y ella no— y encima debajo de la cámara. Aquí no hace falta
+     el `max()` del lector: la lupa está en una esquina, y lo que tapa la
+     cámara es el centro. */
+  top: calc(22px + var(--isla));
+  /* Sola en su fila: la chapa de «Shorts» y el contador llevan `display: none`
+     desde que la pantalla es la página entera —más abajo, «Ni la marca ni el
+     contador salen mientras se lee»—, así que no hay nada de lo que apartarse. */
+  right: var(--shell-pad);
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  /* El mismo cristal que la marca y la cuenta: son tres piezas de una fila. */
+  background: rgba(14, 14, 22, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.muro-buscar:active { transform: scale(0.94); }
+
+.busca {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  color: var(--ink);
+  /* LA CÁMARA DEL SELFIE. La barra de arriba cruza la pantalla entera, así que
+     pasa por debajo de la muesca; la pastilla de «Shorts» se libra porque está
+     en una esquina. Es el mismo `max()` que el lector, y por el mismo motivo:
+     hay móviles con muesca que devuelven 0 en el área segura, y ahí
+     `var(--isla)` a secas deja la caja tapada. Costó tres avisos de Pablo. */
+  padding-top: calc(8px + max(54px, var(--isla)));
+}
+
+.busca-barra {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 0 var(--shell-pad) 10px;
+}
+
+.busca-caja {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--paper-deep);
+}
+
+.busca-caja svg { flex: none; color: var(--ink-soft); }
+
+.busca-caja input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  background: none;
+  outline: none;
+  color: var(--ink);
+  font: inherit;
+  /* 16 exactos y no menos: por debajo de eso iOS acerca la pantalla al enfocar
+     el campo, y de ese acercamiento no se sale solo. */
+  font-size: 16px;
+}
+
+.busca-caja input::placeholder { color: var(--ink-soft); opacity: 0.7; }
+.busca-caja input::-webkit-search-cancel-button,
+.busca-caja input::-webkit-search-decoration { -webkit-appearance: none; display: none; }
+
+.busca-cerrar {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: var(--paper-deep);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.busca-cuenta {
+  margin: 0;
+  padding: 0 var(--shell-pad) 8px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  opacity: 0.75;
+}
+
+.busca-lista {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  /* La barra de pestañas se queda encima: sin este hueco, el último resultado
+     vive debajo de ella y no se puede tocar. */
+  padding: 0 var(--shell-pad) calc(var(--barra) + 16px);
+}
+
+.busca-fila {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  padding: 9px 0;
+  border: 0;
+  /* A media tinta: con doscientas filas, la raya entera hace una reja. */
+  border-top: 1px solid color-mix(in srgb, var(--paper-edge) 45%, transparent);
+  background: none;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.busca-fila:first-child { border-top: 0; }
+.busca-fila:active { opacity: 0.55; }
+
+.busca-mini {
+  flex: none;
+  width: 44px;
+  height: 58px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.busca-mini img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+.busca-texto { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+
+.busca-t {
+  font-family: var(--serifa);
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.busca-t mark {
+  background: var(--ochre);
+  color: var(--paper);
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+.busca-cat {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  opacity: 0.68;
+}
+
+.busca-nada {
+  padding: 44px 0;
+  text-align: center;
+  font-family: var(--serifa);
+  font-size: 16px;
+  color: var(--ink-soft);
+}
+
+
 .muro-pase {
   height: 100%;
   overflow-y: auto;
