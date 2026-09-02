@@ -14,7 +14,7 @@ import { conGuiones } from "./silabas";
 import { PORTADAS } from "./portadas";
 import { Cartel } from "./Cartel";
 import { GlyphClose, GlyphHeart, GlyphLupa, GlyphRayo, GlyphShare } from "./glyphs";
-import { enterVariants, pantalla, spring, springPop, springSoft, springTight } from "./motion";
+import { enterVariants, pantalla, spring, springPop, springSoft, springTight, suave } from "./motion";
 
 /* ==========================================================================
    Shorts.
@@ -1753,7 +1753,18 @@ function PaginaShort({
           data-sinfoto={!portada && !!short.soloPortada}
           style={{ x: xHoja }}
         >
-          <AnimatePresence mode="wait" custom={sentido}>
+          {/* `popLayout` Y NO `wait`. Con `wait`, la página nueva no empieza a
+              existir hasta que la vieja ha terminado de irse, así que entre
+              las dos quedaban dos fotogramas con la hoja en blanco incluso
+              después de dejar la salida en un fotograma: lo que se ve ahí es
+              el montaje de la nueva.
+
+              `popLayout` monta la nueva sin esperar y saca a la vieja del
+              flujo mientras se va. La nueva se maqueta en su sitio de siempre
+              —eso importa: es la caja contra la que se mide el reparto, y no
+              puede cambiar de sitio ni de tamaño—; la única que se mueve es la
+              que ya no se lee. */}
+          <AnimatePresence mode="popLayout" custom={sentido}>
             <motion.div
               key={paso}
               ref={ajusta}
@@ -1766,9 +1777,34 @@ function PaginaShort({
                  sentido del gesto en horizontal y sube en vertical, que es lo
                  que hace que el cambio se sienta como pasar una hoja y no
                  como cambiar de diapositiva. */
-              initial={{ opacity: 0, x: sentido * -22, y: 14 }}
-              animate={{ opacity: 1, x: 0, y: 0, transition: { ...spring, delay: 0.05 } }}
-              exit={{ opacity: 0, x: sentido * 20, y: -10, transition: { duration: 0.16 } }}
+              /* NI LA SALIDA SE MIRA NI LA ENTRADA ESPERA.
+               *
+               * Estaba así: la página que se iba tardaba 160 ms en irse, después
+               * había que montar la nueva, y encima la nueva esperaba 50 ms más
+               * antes de empezar. Con `mode="wait"` todo eso es tiempo con la
+               * hoja VACÍA: en una tira de fotogramas del cambio de página
+               * salían tres seguidos con la página en blanco. Pablo, el 2 de
+               * septiembre: «la transición al pasar de página se ve fatal».
+               *
+               * La que se va desaparece en un fotograma —no hay nada que
+               * mirar en una página que ya no interesa— y la que llega entra sin
+               * esperar. El desplazamiento horizontal se queda, que es lo que
+               * hace que se sienta como pasar una hoja y no como cambiar de
+               * diapositiva, y va con muelle porque es movimiento. La opacidad
+               * va con curva: un muelle no puede pasar de 1 y se queda pegado
+               * arriba mientras sigue oscilando. */
+              initial={{ opacity: 0, x: sentido * -22, y: 10 }}
+              animate={{
+                opacity: 1,
+                x: 0,
+                y: 0,
+                transition: {
+                  opacity: { duration: 0.16, ease: suave },
+                  x: springTight,
+                  y: springTight,
+                },
+              }}
+              exit={{ opacity: 0, transition: { duration: 0.01 } }}
             >
               {portada ? (
                 <Portada short={short} />

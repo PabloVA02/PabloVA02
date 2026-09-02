@@ -255,10 +255,18 @@ button {
   min-height: 600px;
   overflow: hidden;
   isolation: isolate;
-  background: var(--paper);
+  /* EL FONDO DE LA APP, no el papel. Era `--paper`, el beige #f2ece1 de cuando
+     las pantallas eran de papel; hoy todas pintan `--fondo` encima, así que
+     ese beige solo se veía en el instante en que no había ninguna pantalla
+     puesta: el parpadeo claro entre dos pantallas oscuras del que se quejó
+     Pablo, el 2 de septiembre: «la transición se ve fatal». Se veía en una
+     tira de fotogramas del cambio de pestaña: el segundo era una pantalla
+     vacía de color claro entre dos pantallas oscuras. */
+  background: var(--fondo);
   display: flex;
   flex-direction: column;
 }
+
 
 /* Grano sutil: rompe el plano del crema sin introducir otro color */
 .shell::after {

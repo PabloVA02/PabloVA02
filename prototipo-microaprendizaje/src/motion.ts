@@ -61,6 +61,19 @@ export const springTight: Transition = {
 /** La curva de salida estándar: arranca deprisa y frena. */
 export const suave = [0.22, 1, 0.36, 1] as const;
 
+/* LA QUE SE VA, SE VA DE GOLPE. Y no es pereza: con `mode="wait"` la pantalla
+   nueva no empieza a existir hasta que la vieja ha terminado de irse, así que
+   cada milisegundo de salida es un milisegundo con NADA en pantalla. Los 120
+   que tenía eran 120 de ver el fondo de la carcasa desvanecerse hacia el vacío,
+   que es la mitad del «se ve fatal» —la otra mitad era que ese fondo estaba en
+   beige y ya está arreglado—.
+   
+   Yéndose en un fotograma, lo que se ve es la pantalla nueva apareciendo sobre
+   el fondo de la app, que es del mismo color que ella. Ni parpadeo ni hueco.
+   
+   Y la que entra sube seis puntos mientras aparece: lo justo para que tenga
+   dirección y no parezca un corte de vídeo. Doscientos milisegundos, que es lo
+   que tarda una transición de pantalla en iOS y en Material. */
 export const pantalla = {
   initial: { opacity: 0, y: 6 },
   animate: {
@@ -70,8 +83,7 @@ export const pantalla = {
   },
   exit: {
     opacity: 0,
-    y: -4,
-    transition: { duration: 0.12, ease: [0.4, 0, 1, 1] } as Transition,
+    transition: { duration: 0.01 } as Transition,
   },
 } as const;
 
