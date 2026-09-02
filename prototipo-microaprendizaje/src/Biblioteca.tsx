@@ -586,8 +586,8 @@ export function Inicio({
   enCursoId?: string | null;
   /** Los ya acabados, para no ofrecer «seguir» uno que está terminado. */
   terminados?: ReadonlySet<string>;
-  /** Por qué página va cada libro. Lo lleva `App`. */
-  paginaDe?: Record<string, number>;
+  /** Por dónde va cada libro: página y sitio dentro de ella. Lo lleva `App`. */
+  paginaDe?: Record<string, { n: number; en: number }>;
 }) {
   const [filtro, setFiltro] = useState<string | null>(null);
 
@@ -630,7 +630,10 @@ export function Inicio({
    * pasado de la primera página, la barra enseña esa primera página y ya. */
   const hojas = Math.max(1, paginasDeLibro(destacado));
   const porDonde = paginaDe?.[destacado.id];
-  const avance = Math.min(1, ((porDonde ?? 0) + 1) / hojas);
+  /* Páginas enteras leídas más el trozo que llevas de la de ahora. Quien va
+     por la mitad de la quinta de dieciséis ha leído cuatro y media, o sea un
+     28 %, y eso es lo que se pinta. */
+  const avance = Math.min(1, ((porDonde?.n ?? 0) + (porDonde?.en ?? 0)) / hojas);
   /* Cada toque en el dado sube este número, y cada cambio lanza una tirada en
      el dibujo de la cabecera. Un contador y no un booleano: dos toques
      seguidos tienen que dar dos tiradas. */
@@ -741,9 +744,9 @@ export function Inicio({
                 antes de eso «1 de 10» es ruido, porque aún no has avanzado. */}
             <span className="curso-ceja">
               Seguir leyendo
-              {(paginaDe?.[destacado.id] ?? 0) > 0 && (
+              {(porDonde?.n ?? 0) > 0 && (
                 <span className="curso-cuenta">
-                  {(paginaDe?.[destacado.id] ?? 0) + 1} de {hojas}
+                  {(porDonde?.n ?? 0) + 1} de {hojas}
                 </span>
               )}
             </span>

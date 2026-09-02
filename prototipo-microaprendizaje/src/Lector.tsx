@@ -175,6 +175,7 @@ export function Lector({
   onTerminar,
   audioAlEntrar = false,
   inicio = 0,
+  inicioEn = 0,
   onPagina,
 }: {
   paginas: PaginaLibro[];
@@ -184,8 +185,10 @@ export function Lector({
   audioAlEntrar?: boolean;
   /** Por qué página se dejó la última vez. Lo lleva `App`. */
   inicio?: number;
-  /** Se avisa a cada cambio de página, para poder retomarlo. */
-  onPagina?: (n: number) => void;
+  /** Y por dónde iba dentro de ella, en tanto por uno de lo que se desplaza. */
+  inicioEn?: number;
+  /** Se avisa al cambiar de página o de sitio dentro de ella. */
+  onPagina?: (n: number, en: number) => void;
 }) {
   /* SE ABRE POR DONDE SE DEJÓ.
    *
@@ -226,9 +229,74 @@ export function Lector({
      mitad, que es lo que hace que un lector paginado se sienta roto. */
   function ir(n: number) {
     setI(n);
-    onPagina?.(n);
+    /* Página nueva: se empieza arriba, así que el sitio dentro de ella es
+       cero. Sin esto se apuntaría el desplazamiento de la anterior. */
+    onPagina?.(n, 0);
+    puesto.current = true;
     document.querySelector(".lee-scroll")?.scrollTo({ top: 0 });
   }
+
+  /* ---- POR DÓNDE VA DENTRO DE LA PÁGINA ----------------------------------
+   *
+   * Pablo, el 2 de septiembre: «no es que te deje en la misma página, es que
+   * te deje exactamente en la pantalla donde lo dejaste; no tiene por qué ser
+   * siempre al inicio de cada página, puede ser que lo dejase más tarde».
+   *
+   * Y es verdad: una página de resumen es más alta que la pantalla y se lee
+   * desplazando. Dejarlo por la página redondea a lo bruto.
+   *
+   * Se guarda EN TANTO POR UNO de lo que se puede desplazar, no en puntos.
+   * Los puntos no sobreviven a nada: cambia el tamaño de letra con la «Aa»,
+   * se gira el teléfono o se abre en otro móvil y esos 800 puntos caen en
+   * otro párrafo. La proporción aguanta las tres cosas.
+   *
+   * Y se apunta al PARAR de desplazar, no en cada píxel: un dedo bajando
+   * dispara este suceso decenas de veces por segundo y escribir en el disco
+   * del navegador a ese ritmo se nota en un móvil. */
+  const quieto = useRef(0);
+  useEffect(() => {
+    const caja = document.querySelector<HTMLElement>(".lee-scroll");
+    if (!caja) return;
+    const alParar = () => {
+      window.clearTimeout(quieto.current);
+      quieto.current = window.setTimeout(() => {
+        const corre = caja.scrollHeight - caja.clientHeight;
+        onPagina?.(n, corre > 8 ? Math.min(1, caja.scrollTop / corre) : 0);
+      }, 220);
+    };
+    caja.addEventListener("scroll", alParar, { passive: true });
+    return () => {
+      caja.removeEventListener("scroll", alParar);
+      window.clearTimeout(quieto.current);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [n, hay]);
+
+  /* Y al volver, se baja hasta donde estaba. No basta con hacerlo una vez: la
+     altura de la página no es la definitiva hasta que la letra está puesta y
+     el navegador ha maquetado, así que se intenta en tres fotogramas
+     seguidos y se deja de intentar en cuanto alguien toca la pantalla. */
+  const puesto = useRef(false);
+  useEffect(() => {
+    if (puesto.current || !hay || !inicioEn) return;
+    const caja = document.querySelector<HTMLElement>(".lee-scroll");
+    if (!caja) return;
+    let vueltas = 0;
+    let vivo = true;
+    const baja = () => {
+      if (!vivo || puesto.current) return;
+      const corre = caja.scrollHeight - caja.clientHeight;
+      if (corre > 8) {
+        caja.scrollTop = inicioEn * corre;
+        puesto.current = true;
+        return;
+      }
+      if (vueltas++ < 3) requestAnimationFrame(baja);
+    };
+    requestAnimationFrame(baja);
+    return () => { vivo = false; };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [hay, n]);
 
   /* El texto llega de un trozo aparte y puede tardar un instante: al montar,
      `paginas` está vacío y el recorte de arriba deja el arranque en cero. En

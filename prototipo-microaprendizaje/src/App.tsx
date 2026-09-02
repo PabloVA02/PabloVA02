@@ -222,7 +222,7 @@ export default function App() {
      «Seguir leyendo» diga cuánto llevas. Va aparte de `empezados` porque
      responden a preguntas distintas: aquella dice QUÉ has abierto y en qué
      orden; esta, POR DÓNDE vas de cada uno. */
-  const [paginaDe, setPaginaDe] = useState<Record<string, number>>(() => leeMapa("curva.paginas"));
+  const [paginaDe, setPaginaDe] = useState<Record<string, Marca>>(() => leeMapa("curva.paginas"));
   const [guardados, setGuardados] = useState<ReadonlySet<string>>(
     () => new Set(leeLista("curva.guardados")),
   );
@@ -238,11 +238,15 @@ export default function App() {
     return null;
   }, [empezados, terminados]);
 
-  /** Apunta por qué página va un libro. */
-  function marcaPagina(id: string, n: number) {
+  /** Apunta por qué página va un libro y por dónde dentro de ella. */
+  function marcaPagina(id: string, n: number, en: number) {
     setPaginaDe((antes) => {
-      if (antes[id] === n) return antes;
-      const ahora = { ...antes, [id]: n };
+      const ya = antes[id];
+      /* Al centésimo: más fino no se nota al leer y llenaría el disco de
+         decimales que cambian con cada píxel de desplazamiento. */
+      const donde = Math.round(en * 100) / 100;
+      if (ya && ya.n === n && ya.en === donde) return antes;
+      const ahora = { ...antes, [id]: { n, en: donde } };
       guardaMapa("curva.paginas", ahora);
       return ahora;
     });
@@ -695,8 +699,9 @@ export default function App() {
                  puedan leer desde el primer día. */
               paginas={PAGINAS[libro.id] ?? paginasDeResumen(resumen?.partes ?? [])}
               audioAlEntrar={conVoz}
-              inicio={paginaDe[libro.id] ?? 0}
-              onPagina={(n) => marcaPagina(libro.id, n)}
+              inicio={paginaDe[libro.id]?.n ?? 0}
+              inicioEn={paginaDe[libro.id]?.en ?? 0}
+              onPagina={(n, en) => marcaPagina(libro.id, n, en)}
               onCerrar={() => setPantalla("detalle")}
               onTerminar={() => {
                 /* Lo que antes hacía la lección al acabar un capítulo: contar
@@ -946,17 +951,29 @@ function leeLista(clave: string): string[] {
   }
 }
 
-/** El mapa de «por dónde va cada libro»: `id:pagina` separados por comas. */
-function leeMapa(clave: string): Record<string, number> {
+/** Por dónde va un libro: la página y el sitio dentro de ella, de 0 a 1. */
+export type Marca = { n: number; en: number };
+
+/* El mapa de «por dónde va cada libro», como `id:pagina:sitio` separados por
+   comas. El sitio va en tanto por uno y no en puntos a propósito: los puntos
+   no sobreviven a cambiar el tamaño de la letra ni a girar el teléfono.
+
+   Se lee con tolerancia: una entrada vieja de cuando solo se guardaba la
+   página —`id:3`, sin la tercera parte— sigue valiendo y entra con el sitio a
+   cero. Es lo que evita que a quien ya tenía libros a medias se le olviden
+   por haber cambiado el formato. */
+function leeMapa(clave: string): Record<string, Marca> {
   try {
     const v = localStorage.getItem(clave);
     if (!v) return {};
     const hay = new Set(LIBROS.map((l) => l.id));
-    const m: Record<string, number> = {};
+    const m: Record<string, Marca> = {};
     for (const par of v.split(",")) {
-      const [id, n] = par.split(":");
+      const [id, n, en] = par.split(":");
       const k = Number(n);
-      if (hay.has(id) && Number.isInteger(k) && k >= 0) m[id] = k;
+      const d = en === undefined ? 0 : Number(en);
+      if (!hay.has(id) || !Number.isInteger(k) || k < 0) continue;
+      m[id] = { n: k, en: Number.isFinite(d) ? Math.min(1, Math.max(0, d)) : 0 };
     }
     return m;
   } catch {
@@ -964,11 +981,11 @@ function leeMapa(clave: string): Record<string, number> {
   }
 }
 
-function guardaMapa(clave: string, m: Record<string, number>) {
+function guardaMapa(clave: string, m: Record<string, Marca>) {
   try {
     localStorage.setItem(
       clave,
-      Object.entries(m).map(([id, n]) => `${id}:${n}`).join(","),
+      Object.entries(m).map(([id, p]) => `${id}:${p.n}:${p.en}`).join(","),
     );
   } catch {
     /* Igual que la lista: se pierde entre sesiones y nada más. */
