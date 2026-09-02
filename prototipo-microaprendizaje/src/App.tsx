@@ -196,30 +196,51 @@ export default function App() {
      mientras se lee, que es cuando importan. */
   const preferencias = usePreferencias();
   const [libro, setLibro] = useState<Libro>(LIBROS[0]);
-  /* EL LIBRO A MEDIAS, que es el que enseña «Seguir leyendo».
+  /* LO QUE HAS EMPEZADO, GUARDADO Y TERMINADO, y que sobreviva a cerrar la app.
    *
-   * Pablo, el 1 de septiembre: «debe aparecer la portada del libro que se
-   * estaba leyendo en ese momento, el último de todos que se abrió y no se
-   * terminó».
+   * Pablo, el 2 de septiembre: «cuando empiezo un libro y no lo termino debe
+   * aparecer en la biblioteca que no lo acabé, deberá aparecer en leyendo, y
+   * los demás deben funcionar también, guardados, terminados y todo».
    *
-   * Antes no había ningún dato de eso: la pastilla cogía el primero del
-   * catálogo con `progreso > 0`, un número escrito a mano en los datos de
-   * muestra, así que salía siempre el mismo —el de Grecia— hubieras abierto lo
-   * que hubieras abierto.
+   * Antes «Leyendo» miraba `l.progreso`, un número escrito a mano en los datos
+   * de muestra que no mueve nadie al leer: salían siempre los mismos libros
+   * abrieras el que abrieras. Y guardados y terminados vivían en memoria, así
+   * que al cerrar la app se perdían enteros.
    *
-   * Se guarda en el disco del navegador por la misma razón que las
-   * preferencias: un «seguir leyendo» que se olvida al recargar no es seguir
-   * leyendo. Y se guarda SOLO EL IDENTIFICADOR, no el libro entero: el
-   * catálogo cambia con cada versión y un objeto viejo guardado ahí traería
-   * portadas y capítulos que ya no existen. */
-  const [enCursoId, setEnCursoId] = useState<string | null>(() => {
-    try {
-      const id = localStorage.getItem("curva.leyendo");
-      return id && LIBROS.some((l) => l.id === id) ? id : null;
-    } catch {
-      return null;
+   * Ahora las tres son listas de identificadores en el disco del navegador.
+   * `empezados` va EN ORDEN, del más viejo al más reciente, y de ahí sale
+   * gratis el libro de «Seguir leyendo»: el último que no esté terminado. Un
+   * solo dato en vez de dos que se pueden contradecir.
+   *
+   * Se guardan solo los identificadores, no los libros: el catálogo cambia con
+   * cada versión y un objeto viejo traería portadas que ya no existen. Al leer
+   * se filtran contra el catálogo de hoy, así que un libro retirado desaparece
+   * en vez de romper la pantalla. */
+  const [empezados, setEmpezados] = useState<string[]>(() => leeLista("curva.empezados"));
+  const [guardados, setGuardados] = useState<ReadonlySet<string>>(
+    () => new Set(leeLista("curva.guardados")),
+  );
+  const [terminados, setTerminados] = useState<ReadonlySet<string>>(
+    () => new Set(leeLista("curva.terminados")),
+  );
+
+  /** El de «Seguir leyendo»: el último abierto que aún no se ha acabado. */
+  const enCursoId = useMemo(() => {
+    for (let i = empezados.length - 1; i >= 0; i--) {
+      if (!terminados.has(empezados[i])) return empezados[i];
     }
-  });
+    return null;
+  }, [empezados, terminados]);
+
+  /** Apunta que se ha empezado un libro. Si ya estaba, sube al final. */
+  function empieza(id: string) {
+    setEmpezados((antes) => {
+      const ahora = [...antes.filter((x) => x !== id), id];
+      guardaLista("curva.empezados", ahora);
+      return ahora;
+    });
+  }
+
   /** Se ha entrado por «Escuchar»: el lector arranca con la voz puesta. */
   const [conVoz, setConVoz] = useState(false);
   /** A dónde vuelve el cierre. Un short no devuelve a la ficha de un libro. */
@@ -273,18 +294,8 @@ export default function App() {
   const [meta, setMeta] = useState(15);
   /** El total de siempre. Vive en el cuadro de estadísticas del perfil. */
   const [minutosTotales, setMinutosTotales] = useState(1847);
-  /* Los libros guardados. Vive aquí arriba y no dentro de la estantería
-     porque el mismo libro se guarda desde dos sitios —la esquina de la
-     cubierta y el botón redondo de su ficha— y los dos tienen que enseñar lo
-     mismo. Con el estado dentro de `Inicio`, guardar desde la ficha no se
-     notaba al volver a la parrilla. */
-  const [guardados, setGuardados] = useState<ReadonlySet<string>>(() => new Set());
   /** El aviso de «guardado en tu biblioteca», que se va solo. */
   const [avisoGuardado, setAvisoGuardado] = useState<string | null>(null);
-  /* Los que se han leído hasta el final. La biblioteca tiene una sección de
-     terminados y sin esto estaría siempre vacía: se apunta al pulsar
-     «Finalizar resumen», que es el único sitio donde consta que se acabó. */
-  const [terminados, setTerminados] = useState<ReadonlySet<string>>(() => new Set());
 
   /* La semana en curso lleva pegado lo de esta sesión, que sí es de verdad:
      los minutos de hoy y las ideas de los resúmenes que se hayan terminado.
@@ -314,6 +325,7 @@ export default function App() {
       const ahora = new Set(antes);
       if (estaba) ahora.delete(l.id);
       else ahora.add(l.id);
+      guardaLista("curva.guardados", [...ahora]);
       return ahora;
     });
     setAvisoGuardado(estaba ? "Quitado de tu biblioteca" : "Guardado en tu biblioteca");
@@ -344,7 +356,7 @@ export default function App() {
     /* Aquí y no en `onAbrir`: abrir la FICHA de un libro es mirarlo, y mirar
        una portada no es haber empezado a leer. Lo que cuenta es entrar en el
        texto. */
-    recuerdaEnCurso(cual.id);
+    empieza(cual.id);
     setCompletados(0);
     arranque.current = Date.now();
     void cargarResumen(cual.id).then(setResumen);
@@ -352,27 +364,6 @@ export default function App() {
     /* Derecho a leer, siempre. El mapa de capítulos era una parada de más
        entre «quiero este libro» y el texto. */
     setPantalla("lector");
-  }
-
-  /** Apunta el libro que se está leyendo. */
-  function recuerdaEnCurso(id: string) {
-    setEnCursoId(id);
-    try {
-      localStorage.setItem("curva.leyendo", id);
-    } catch {
-      /* Modo privado, o el disco lleno. Se pierde la memoria entre sesiones y
-         no pasa nada más: dentro de esta, el estado de React sigue valiendo. */
-    }
-  }
-
-  /** Lo olvida al terminarlo: un libro acabado ya no se «sigue leyendo». */
-  function olvidaEnCurso(id: string) {
-    setEnCursoId((antes) => (antes === id ? null : antes));
-    try {
-      if (localStorage.getItem("curva.leyendo") === id) localStorage.removeItem("curva.leyendo");
-    } catch {
-      /* Igual que arriba. */
-    }
   }
 
   /* El texto no está en memoria desde el arranque: se pide al abrir la ficha
@@ -554,6 +545,7 @@ export default function App() {
               key="biblioteca"
               guardados={guardados}
               terminados={terminados}
+              empezados={empezados}
               onAbrir={(l) => {
                 setLibro(l);
                 setPantalla("detalle");
@@ -695,8 +687,11 @@ export default function App() {
                 setMinutosHoy((n) => n + gastado);
                 setMinutosTotales((n) => n + gastado);
                 setLeidas((n) => n + 1);
-                setTerminados((antes) => new Set(antes).add(libro.id));
-                olvidaEnCurso(libro.id);
+                setTerminados((antes) => {
+                  const ahora = new Set(antes).add(libro.id);
+                  guardaLista("curva.terminados", [...ahora]);
+                  return ahora;
+                });
                 setObjetivo(objetivoLibro);
                 setVuelta("detalle");
                 setPantalla("fin");
@@ -900,6 +895,36 @@ function BarraPestanas({
       )}
     </AnimatePresence>
   );
+}
+
+/* ---- Lo que se recuerda entre sesiones ------------------------------------
+   Tres listas de identificadores en el disco del navegador: lo empezado, lo
+   guardado y lo terminado. Se leen filtrando contra el catálogo DE HOY, así
+   que un libro retirado desaparece en vez de dejar una ficha rota, y se
+   escriben como texto plano separado por comas, que es todo lo que hace falta
+   y se lee de un vistazo desde las herramientas del navegador.
+
+   Todo va entre `try`: en modo privado, o con el disco lleno, `localStorage`
+   lanza. Sin la guarda, la app entera se queda en blanco por no poder
+   apuntar que has guardado un libro. */
+function leeLista(clave: string): string[] {
+  try {
+    const v = localStorage.getItem(clave);
+    if (!v) return [];
+    const hay = new Set(LIBROS.map((l) => l.id));
+    return v.split(",").filter((id) => hay.has(id));
+  } catch {
+    return [];
+  }
+}
+
+function guardaLista(clave: string, ids: readonly string[]) {
+  try {
+    localStorage.setItem(clave, ids.join(","));
+  } catch {
+    /* Se pierde entre sesiones y nada más: dentro de esta, el estado de React
+       sigue mandando. */
+  }
 }
 
 function StatusBar() {

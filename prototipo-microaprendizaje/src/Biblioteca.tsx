@@ -228,6 +228,7 @@ type Estado = "todo" | "leyendo" | "guardados" | "terminados";
 export function MiBiblioteca({
   guardados,
   terminados,
+  empezados = [],
   onAbrir,
   onGuardar,
   onExplorar,
@@ -235,6 +236,8 @@ export function MiBiblioteca({
   guardados: ReadonlySet<string>;
   /** Los leídos hasta el final. Se apuntan al pulsar «Finalizar resumen». */
   terminados: ReadonlySet<string>;
+  /** Los que se han abierto a leer alguna vez, en orden. Los lleva `App`. */
+  empezados?: readonly string[];
   onAbrir: (libro: Libro) => void;
   onGuardar: (libro: Libro) => void;
   /** Salida de la pantalla vacía: no se deja a nadie delante de una nada. */
@@ -256,7 +259,19 @@ export function MiBiblioteca({
      estés siguiendo. */
   const secciones = useMemo(() => {
     const fin = LIBROS.filter((l) => terminados.has(l.id));
-    const leyendo = LIBROS.filter((l) => !terminados.has(l.id) && l.progreso > 0);
+    /* LEYENDO ES LO QUE SE HA ABIERTO Y NO SE HA ACABADO, y en el orden en que
+       se abrió, del más reciente al más viejo: lo último que estabas leyendo
+       es lo primero que quieres ver.
+
+       Miraba `l.progreso`, que es un número escrito a mano en los datos de
+       muestra y que no mueve nadie al leer: salían siempre los mismos tres
+       libros abrieras el que abrieras, y el que acababas de dejar a medias no
+       estaba. */
+    const abiertos = [...empezados].reverse();
+    const leyendo = abiertos
+      .filter((id) => !terminados.has(id))
+      .map((id) => LIBROS.find((l) => l.id === id))
+      .filter((l): l is Libro => !!l);
     const guarda = LIBROS.filter((l) => guardados.has(l.id));
     /* Dos nombres por sección: el largo para el rótulo, que ahí hay sitio, y
        el corto para la fila de filtros, donde cuatro nombres largos no caben
@@ -269,7 +284,7 @@ export function MiBiblioteca({
       { id: "guardados" as const, nombre: "Para más tarde", corto: "Guardados", libros: guarda },
       { id: "terminados" as const, nombre: "Terminado", corto: "Terminados", libros: fin },
     ];
-  }, [guardados, terminados]);
+  }, [guardados, terminados, empezados]);
 
   const texto = busca.trim().toLowerCase();
   const cuela = (l: Libro) =>

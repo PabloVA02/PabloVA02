@@ -7583,16 +7583,32 @@ button {
 
 /* El filete de dentro, que es lo que hace que parezca una cubierta y no un
    cuadro de color: dos reglas finas separadas del borde. */
+/* EL MARCO, PEGADO AL FILO Y NO A MEDIO CAMINO.
+ *
+ * Pablo, el 2 de septiembre: «fíjate que los libros en la sección de leyendo y
+ * de guardados no son del mismo tamaño».
+ *
+ * Medidos, median lo mismo: 148 x 222 los dos. Lo que cambiaba era lo que se
+ * ve DENTRO. Una cubierta dibujada va a sangre, de filo a filo; esta, que es
+ * la de papel que se genera para los libros sin dibujo, llevaba el marco
+ * metido cinco unidades y media por cada lado —unos ocho puntos— más otra
+ * línea dentro. Al lado de una cubierta a sangre eso se lee como una tarjeta
+ * más pequeña dentro de su casilla, y es exactamente lo que él veía en «Lo que
+ * perdimos de Grecia».
+ *
+ * Con el marco a dos unidades y media la cubierta llena su casilla y las dos
+ * pesan lo mismo en la fila. El filete de dentro se queda, que es lo que le da
+ * el aire de libro impreso; solo deja de sobrar papel alrededor. */
 .port-marco {
   position: absolute;
-  inset: calc(var(--u) * 5.5);
+  inset: calc(var(--u) * 2.5);
   border: 1px solid color-mix(in srgb, var(--tinta-portada) 42%, transparent);
   pointer-events: none;
 }
 .port-marco::after {
   content: "";
   position: absolute;
-  inset: calc(var(--u) * 1.6);
+  inset: calc(var(--u) * 1.4);
   border: 1px solid color-mix(in srgb, var(--tinta-portada) 20%, transparent);
 }
 
