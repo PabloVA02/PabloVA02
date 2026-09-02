@@ -1643,6 +1643,28 @@ vikingos, Napoleón, la muralla china—. Los datos que no se pudieron verificar
 bien se cayeron en vez de suavizarse con un «se dice que»: el naranja de la
 zanahoria y la casa de Orange se quedaron fuera por eso.
 
+**EL DISEÑO ESTÁ CALCADO DE WISER**, de una captura que mandó Pablo el 2 de
+septiembre: «cálcalo todo, excepto lo que para nosotros no es útil». De ahí
+salen los tramos de progreso de arriba, la fila de marca con su chapa redonda,
+la tarjeta centrada de esquinas muy redondeadas sobre papel crema, el texto en
+negrita de palo seco y las pastillas grises separadas por un filete.
+
+Lo que NO se calcó, y por qué: la equis de cerrar —ellos lo enseñan como una
+pantalla que se abre encima de la app y aquí es una pestaña— y la tarjeta de
+abajo con el libro y el botón «Leer», que es su manera de llevar de la cita al
+libro que la contiene; nuestros datos no salen de un libro y ponerla sería
+inventarse una procedencia. El azul marino tampoco: es el color de su marca, y
+el nuestro es el pardo de Curva sobre el mismo crema.
+
+**«Saber más» ABRE LA TARJETA, no una hoja desde abajo.** La primera versión
+era una hoja que subía y Pablo la tumbó: «uno mucho mejor y moderno, que se
+abre sobre la propia pantalla». Ahora la tarjeta que estabas mirando crece
+hasta llenar la pantalla —`layoutId` de Framer— y el texto aparece dentro. Es
+una sola pieza que cambia de tamaño, no dos pantallas que se relevan, y por eso
+se entiende sin explicación: lo que se abre es lo que tocaste. El texto entra
+con 160 ms de retraso a propósito; entrando a la vez, la caja cambiaría de alto
+mientras se mueve y el movimiento saldría a tirones.
+
 **Sin fotografía, a propósito.** Una imagen de archivo al lado de un dato bueno
 lo empequeñece. En su sitio va el color, uno por entrada, y es lo único que
 avisa de que has cambiado de tema antes de leer una palabra.

@@ -168,7 +168,14 @@
    * aire, partido por dos—, así que un libro mide lo mismo en toda la app y
    * además crece con la pantalla en vez de quedarse en un número de un móvil
    * concreto. */
+  /* El hueco entre bloques del inicio y de la biblioteca. Uno solo. */
+  --ritmo: 28px;
   --ficha-hueco: 16px;
+  /* Y el tamaño de una portada de libro, medido en la captura de Headway a
+     375 de ancho. Los dos números van juntos porque la proporción de una
+     cubierta es 2:3 y romperla se ve a la primera. */
+  --ficha-ancho: 148px;
+  --ficha-alto: 222px;
 
   /* LA ISLA. En un iPhone la cámara frontal y la hora se comen la franja de
      arriba, y la app se mete DEBAJO de ellas a propósito: el `index.html`
@@ -219,8 +226,17 @@ body,
 body {
   background: var(--paper-deep);
   color: var(--ink);
-  font-family: "Avenir Next", Avenir, "Segoe UI Variable Display", "Segoe UI",
-    system-ui, -apple-system, "Helvetica Neue", sans-serif;
+  /* LA DEL SISTEMA PRIMERO, y es lo que pidió Pablo el 2 de septiembre
+     mandando una captura de Headway: «copia las letras, el tamaño, la forma,
+     el grosor, todo exactamente igual».
+     
+     Lo que más separaba las dos pantallas no era el tamaño —midiendo las
+     capitales, la suya y la nuestra andaban por lo mismo— sino la FORMA:
+     ellos usan la letra del sistema y nosotros pedíamos Avenir Next, que en
+     un iPhone existe y se servía. Poniendo la del sistema delante, en su
+     móvil sale exactamente la misma que la de la captura. */
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui,
+    "Segoe UI Variable Display", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -1121,7 +1137,9 @@ button {
 /* Los rótulos, con las medidas de la referencia: el titular grande y
    apretado, el subtítulo justo debajo y casi tan grande —iba en 13,5 y ahí
    parecía un pie de foto en vez de la segunda línea del rótulo—. */
-.bloque { margin-top: 26px; }
+/* Sin margen: el hueco lo pone el `gap` de la columna, y así es el mismo
+   entre todos los bloques. Ver `.inicio-scroll`. */
+.bloque { margin-top: 0; }
 .bloque h2 {
   margin: 0;
   padding: 0 var(--shell-pad);
@@ -1711,7 +1729,11 @@ button {
      que una palabra larga del gancho ensanchaba su columna y las dos
      portadas salían de distinto tamaño. Con el mínimo a cero las columnas
      son iguales pase lo que pase dentro. */
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  /* Columnas del ancho de la referencia, no estiradas: es lo que hace que un
+     libro mida lo mismo en la tira y en la parrilla. Lo que sobra a la derecha
+     queda como margen, igual que en la tira queda el asomo de la tercera. */
+  grid-template-columns: repeat(2, var(--ficha-ancho));
+  justify-content: start;
   gap: 18px var(--ficha-hueco);
   margin-top: 12px;
   padding: 0 var(--shell-pad);
@@ -7228,7 +7250,8 @@ button {
      acaban en una que trae cualquier sistema. */
   --serifa: "Iowan Old Style", Charter, "Bitstream Charter", Georgia,
     "Noto Serif", "Times New Roman", serif;
-  --sans: "Avenir Next", Avenir, "Segoe UI Variable Display", "Segoe UI",
+  --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui,
+    "Segoe UI Variable Display", "Segoe UI",
     system-ui, -apple-system, "Helvetica Neue", sans-serif;
 
   /* Y LA LETRA DE LEER LOS TEMAS, que esta sí se descarga —va dentro del CSS,
@@ -8213,7 +8236,43 @@ button {
    con área segura la barra sola ya son 98: la pastilla acababa encima del
    «Leer» de la tarjeta del día. La pastilla mide 52 y se apoya 18 sobre la
    barra, así que hacen falta 88 por encima de ella para que no toque nada. */
-.inicio-scroll { padding-top: 0; padding-bottom: calc(var(--barra) + 88px); }
+/* EL MISMO HUECO ENTRE TODOS LOS BLOQUES, Y SE DECLARA UNA VEZ.
+ *
+ * Pablo, el 2 de septiembre, con la captura de Headway delante: «la distancia
+ * entre cosas y cosas debe ser igual». No lo era: medidos en pantalla, los
+ * huecos del inicio iban 12, 16, 33 y 27, porque cada bloque traía su propio
+ * margen de cuando se escribió.
+ *
+ * Ahora la columna lleva `gap` y ningún bloque pone margen: con un solo número
+ * no puede haber dos distintos. Los 28 salen de la captura, donde entre el pie
+ * de una sección y el rótulo de la siguiente hay unos 40 de hueco visible, que
+ * con el aire de la línea de texto son unos 28 de caja.
+ *
+ * `:empty` no es un adorno: la fila de filtros se pinta vacía cuando no hay
+ * ninguno, y sin esto sumaba su hueco igual y dejaba un salto doble en medio
+ * de la pantalla sin que se viera por qué. */
+.inicio-scroll {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ritmo);
+  padding-top: 0;
+  padding-bottom: calc(var(--barra) + 88px);
+}
+
+.inicio-scroll > * { flex: none; }
+.inicio-scroll > *:empty { display: none; }
+
+/* Y NINGÚN BLOQUE PONE SU MARGEN. Con el `gap` puesto seguían saliendo huecos
+   de 40, 44, 61 y 54 porque cada uno arrastraba el suyo de cuando se escribió
+   —12 la pastilla, 16 la tarjeta del día, 20 los filtros, 33 y 26 las tiras— y
+   se sumaban al de la columna. Aquí se ponen a cero de una vez: si algún día
+   una sección necesita más aire, se cambia `--ritmo` y se mueven todas juntas,
+   que es lo que pidió Pablo. */
+/* Con `.inicio` delante para ganar por especificidad: cada bloque declara su
+   margen con una clase suya —0,1,0— y las suyas van más abajo en el fichero,
+   así que a igualdad de peso ganaban ellas. Con dos clases, no. */
+.inicio .inicio-scroll > *,
+.guardados .inicio-scroll > * { margin-top: 0; margin-bottom: 0; }
 .inicio-cabecera {
   height: 60px;
   padding: 0 var(--shell-pad);
@@ -8321,8 +8380,11 @@ button {
    Y dentro de la sección, de caja a caja:
      del rótulo al subtítulo    52 px de línea a línea → 3 de margen
      del subtítulo a la tira    62 px hasta el filo    → 15 de margen */
-.bloque { margin-top: 26px; }
-.inicio .filtros + .bloque { margin-top: 33px; }
+/* Sin márgenes: el hueco entre bloques lo pone el `gap` de `.inicio-scroll`,
+   uno solo para todos. Los 26 y los 33 que había aquí eran dos de los cuatro
+   huecos distintos que Pablo vio comparando con Headway. */
+.bloque { margin-top: 0; }
+.inicio .filtros + .bloque { margin-top: 0; }
 
 /* --- Fichas ------------------------------------------------------------- */
 /* Medido a lo ancho sobre la captura:
@@ -8345,11 +8407,21 @@ button {
    Antes eran 148 × 222 clavados. Además de no coincidir con la parrilla, un
    número fijo no crece: en un móvil ancho las cubiertas se quedaban pequeñas
    y sobraba sitio a los lados. */
-.carrusel .ficha { width: calc((100% - var(--ficha-hueco)) / 2); gap: 0; }
+/* 148 × 222, QUE ES LO MEDIDO EN LA CAPTURA DE HEADWAY del 2 de septiembre,
+   en un móvil de 375: margen de 16, portada de 148, hueco de 16, otra de 148
+   y la tercera asomando 31 puntos. Pablo: «los libros deben tener exactamente
+   el mismo tamaño que aparece ahí, se ven dos libros y un poco más».
+
+   Y es un número fijo a propósito. Estuvo un rato en `calc((100% - hueco) / 2)`
+   para que la tira y la parrilla midieran igual, y medían igual pero salían a
+   164: en la tira cabían dos justas y se perdía el trozo de la tercera, que es
+   justo lo que avisa de que la tira se desliza. Con 148 fijos vuelven las dos
+   cosas —el tamaño de la referencia y el asomo— y la parrilla usa el mismo
+   número, así que siguen midiendo igual entre ellas. */
+.carrusel .ficha { width: var(--ficha-ancho); gap: 0; }
 .carrusel .portada {
-  width: 100% !important;
-  height: auto !important;
-  aspect-ratio: 2 / 3;
+  width: var(--ficha-ancho) !important;
+  height: var(--ficha-alto) !important;
 }
 /* El redondeo de la cubierta, medido por el arco de la esquina: toca el filo
    recto 13 px más abajo, o sea 6,5 puntos. */
@@ -8919,7 +8991,7 @@ button {
   margin-top: 15px;
 }
 .parrilla .ficha { width: 100%; gap: 0; }
-.parrilla .portada { width: 100% !important; height: auto !important; aspect-ratio: 2 / 3; border-radius: 7px; }
+.parrilla .portada { width: var(--ficha-ancho) !important; height: var(--ficha-alto) !important; border-radius: 7px; }
 .guardados .bloque-sub { padding: 0 var(--shell-pad); }
 
 .guardados-vacio {
@@ -12051,19 +12123,20 @@ button {
 .short-cuerpo ul[data-sigue="true"] > li:first-child::before { visibility: hidden; }
 
 /* ==========================================================================
-   ¿SABÍAS QUE…?  —  la sección de datos curiosos
+   ¿SABÍAS QUE…?  —  calcado de la captura de Wiser del 2 de septiembre
 
-   Pablo, el 2 de septiembre: «en grande, con letras grandes y vistosas […]
-   hazlo bonito».
+   Pablo: «cálcalo todo, excepto lo que para nosotros no es útil».
 
-   LA IDEA: la frase es la pantalla. Fondo oscuro con un halo del color de la
-   entrada, el dato en serifa a todo lo ancho, y lo que sorprende teñido. Nada
-   más. Sin foto y sin tarjeta a propósito: una imagen de archivo al lado de un
-   dato bueno lo empequeñece, y un marco alrededor lo convierte en una ficha.
+   Medido sobre su captura, en puntos de un móvil de 375: los tramos de arriba
+   miden 4 de alto con 6 de aire; la chapa de la marca, 40; la tarjeta tiene
+   30 de radio y 30 de relleno; el texto va en negrita de palo seco a 34 con
+   interlínea corta; y las pastillas de dentro llevan un gris del 6 % sobre el
+   papel. Todo eso está aquí.
 
-   Los tamaños van en `cqw` —la carcasa es el contenedor de consulta—, así que
-   la frase crece con el móvil y se ve igual de grande en uno de 375 que en uno
-   de 430. Es la misma regla que en los shorts.
+   EL COLOR ES NUESTRO, y es lo único que no se calca. Su tinta es azul marino
+   —el color de su marca— y la nuestra es el pardo de Curva sobre el mismo
+   papel crema que ya usaba la app. La relación entre los dos es la misma; lo
+   que cambia es de quién es.
    ========================================================================== */
 
 .sab {
@@ -12071,45 +12144,70 @@ button {
   flex: 1;
   min-height: 0;
   container-type: inline-size;
-  background: var(--fondo);
-  color: var(--paper-deep);
+
+  /* La sección va en claro, como la captura, y por eso se declaran aquí sus
+     variables en vez de heredar las oscuras del resto de la app. */
+  --papel: #efe8dd;
+  --tarjeta: #f7f3ec;
+  --tinta: #241f1a;
+  --tinta-suave: #6f6555;
+  --gris-pastilla: rgba(36, 31, 26, 0.07);
+
+  background: var(--papel);
+  color: var(--tinta);
 }
 
-/* La chapa de arriba, del mismo cristal que la del muro para que las dos
-   secciones se reconozcan como hermanas. */
+/* ---------- los tramos de arriba ---------- */
+
+.sab-tramos {
+  position: absolute;
+  z-index: 12;
+  top: calc(10px + var(--isla));
+  left: var(--shell-pad);
+  right: var(--shell-pad);
+  display: flex;
+  gap: 5px;
+}
+
+.sab-tramo {
+  flex: 1;
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(36, 31, 26, 0.13);
+  transition: background 0.25s ease;
+}
+
+.sab-tramo[data-estado="visto"] { background: rgba(36, 31, 26, 0.32); }
+.sab-tramo[data-estado="ahora"] { background: var(--tinta); }
+
+/* ---------- la fila de la marca ---------- */
+
 .sab-marca {
   position: absolute;
   z-index: 12;
-  top: calc(16px + var(--isla));
+  top: calc(28px + var(--isla));
   left: var(--shell-pad);
-  padding: 7px 14px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.07);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  font-size: 12.5px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 17px;
   font-weight: 700;
-  letter-spacing: 0.02em;
-  color: #f2ece1;
+  letter-spacing: -0.01em;
+  color: var(--tinta);
 }
 
-.sab-cuenta {
-  position: absolute;
-  z-index: 12;
-  top: calc(16px + var(--isla));
-  right: var(--shell-pad);
-  padding: 7px 12px;
+.sab-chapa {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.07);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  font-size: 11px;
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-  color: #f2ece1;
+  background: #fffdf9;
+  color: var(--acento, #241f1a);
+  box-shadow: 0 1px 3px rgba(36, 31, 26, 0.1);
 }
 
-.sab-cuenta-total { opacity: 0.45; }
+/* ---------- el pase ---------- */
 
 .sab-pase {
   height: 100%;
@@ -12122,166 +12220,159 @@ button {
 
 .sab-pase::-webkit-scrollbar { display: none; }
 
-/* CADA DATO OCUPA LA PANTALLA ENTERA. El halo de color no es decoración: es lo
-   único que separa un dato del siguiente cuando pasas deprisa, y cambiar de
-   color avisa de que has cambiado de tema antes de leer una palabra. */
-.sab-carta {
-  position: relative;
+/* Cada dato ocupa la pantalla y la tarjeta va centrada, con el hueco de arriba
+   reservado para los tramos y la marca. */
+.sab-hueco {
   height: 100%;
   scroll-snap-align: start;
   scroll-snap-stop: always;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: calc(92px + var(--isla)) 7cqw calc(var(--barra) + 92px);
-  background:
-    radial-gradient(120% 68% at 12% 8%, color-mix(in srgb, var(--acento) 26%, transparent) 0%, transparent 62%),
-    radial-gradient(90% 55% at 92% 96%, color-mix(in srgb, var(--acento) 15%, transparent) 0%, transparent 60%),
-    var(--fondo);
+  align-items: center;
+  padding: calc(84px + var(--isla)) var(--shell-pad) calc(var(--barra) + 24px);
+}
+
+/* ---------- la tarjeta ---------- */
+
+.sab-carta {
+  width: 100%;
+  padding: 28px 22px 20px;
+  border-radius: 30px;
+  background: var(--tarjeta);
+  box-shadow: 0 1px 2px rgba(36, 31, 26, 0.04);
 }
 
 .sab-tema {
-  margin: 0 0 4cqw;
+  margin: 0 0 14px;
   font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--acento);
 }
 
-/* LA FRASE. Serifa, apretada de interlínea porque va grande, y con la primera
-   línea empezando arriba del bloque: leída en dos segundos tiene que entrar
-   por el mismo sitio siempre. */
+/* LA FRASE. Palo seco y negrita, como en la captura: es lo que le da el aire
+   de cartel. La serifa se probó y hacía otra cosa —más libro, menos titular—,
+   y lo que pidió Pablo fue esto. */
 .sab-frase {
   margin: 0;
-  font-family: var(--serifa);
-  font-weight: 600;
-  line-height: 1.14;
-  letter-spacing: -0.015em;
-  color: #f4efe6;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: -0.022em;
+  color: var(--tinta);
   text-wrap: balance;
 }
 
-/* Tres tramos según lo que ocupe, en vez de medir y encoger. Una frase de
-   seis palabras puede ir enorme; una de dieciséis, no. */
-.sab-frase[data-tramo="grande"] { font-size: 11.4cqw; }
-.sab-frase[data-tramo="medio"] { font-size: 9.4cqw; }
-.sab-frase[data-tramo="largo"] { font-size: 7.8cqw; }
+.sab-frase[data-tramo="grande"] { font-size: 9.6cqw; }
+.sab-frase[data-tramo="medio"] { font-size: 8.4cqw; }
+.sab-frase[data-tramo="largo"] { font-size: 7.2cqw; }
+.sab-frase[data-tramo="abierto"] { font-size: 6.4cqw; }
 
-/* Lo que sorprende, teñido. Es el único color del texto y por eso funciona:
-   el ojo va ahí primero y de ahí sale hacia los lados. */
 .sab-frase em {
   font-style: normal;
   color: var(--acento);
 }
 
-.sab-mas {
-  position: absolute;
-  left: 7cqw;
-  bottom: calc(var(--barra) + 26px);
+/* Las pastillas, separadas del texto por el filete finísimo de la captura. */
+.sab-acciones {
+  display: flex;
+  /* En un móvil de 320 —el más estrecho que se vende— las dos pastillas no
+     caben en una fila por ocho puntos, y una pastilla cortada por el borde de
+     la tarjeta se ve fatal. Ahí baja la segunda y ya está. De 375 en adelante
+     van en fila, que es como está en la captura. */
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(36, 31, 26, 0.07);
+}
+
+.sab-pastilla {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
-  padding: 12px 20px;
-  border: 1px solid color-mix(in srgb, var(--acento) 45%, transparent);
+  gap: 8px;
+  /* Las dos pastillas tienen que caber en una fila dentro de la tarjeta, y en
+     un móvil de 375 el sitio que queda dentro son 287 puntos. Con 18 de
+     relleno a cada lado y cuerpo 15 no cabían: «Compartir» se salía por el
+     borde derecho de la tarjeta. */
+  padding: 11px 16px;
+  border: 0;
   border-radius: 999px;
-  background: color-mix(in srgb, var(--acento) 12%, transparent);
-  color: #f4efe6;
-  font-size: 14px;
-  font-weight: 700;
+  background: var(--gris-pastilla);
+  color: var(--tinta);
+  font-size: 14.5px;
+  font-weight: 600;
+  /* En una línea siempre. «Saber más» partido en dos deja una pastilla el
+     doble de alta que la de al lado y se ve descuadrado a la primera. */
+  white-space: nowrap;
   cursor: pointer;
 }
 
-.sab-mas:active { transform: scale(0.97); }
-.sab-mas-flecha { color: var(--acento); font-size: 15px; }
+.sab-pastilla svg { width: 16px; height: 16px; }
+.sab-pastilla:active { transform: scale(0.97); }
 
-/* ---------- la hoja que sube ---------- */
+/* La principal lleva el color del dato: es el único sitio de la pantalla donde
+   el color se rellena en vez de solo teñir letra, y por eso se va el ojo. */
+.sab-pastilla-fuerte {
+  background: var(--acento);
+  color: #fffdf9;
+}
+
+/* ---------- la tarjeta abierta ---------- */
 
 .sab-velo {
   position: absolute;
   inset: 0;
   z-index: 30;
-  border: 0;
-  padding: 0;
-  background: rgba(0, 0, 0, 0.55);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
-  cursor: pointer;
+  display: flex;
+  align-items: stretch;
+  padding: calc(14px + var(--isla)) var(--shell-pad) calc(var(--barra) + 14px);
+  background: rgba(36, 31, 26, 0.32);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 
-/* Sube hasta donde pide su texto y no más, con un tope: una hoja a pantalla
-   completa para tres párrafos parece que va a haber mucho más de lo que hay. */
-.sab-hoja {
-  position: absolute;
-  z-index: 31;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  max-height: 82%;
+/* La misma tarjeta, ahora ocupando todo. No es otra pantalla: es la de antes,
+   que ha crecido —de ahí el `layoutId` en el componente—. */
+.sab-carta-abierta {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 26px 24px 20px;
   overflow-y: auto;
   scrollbar-width: none;
-  padding: 20px var(--shell-pad) calc(var(--barra) + 28px);
-  border-radius: 26px 26px 0 0;
-  background:
-    radial-gradient(120% 60% at 10% 0%, color-mix(in srgb, var(--acento) 20%, transparent) 0%, transparent 70%),
-    var(--paper-deep);
-  color: var(--ink);
-  box-shadow: 0 -24px 60px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 26px 70px rgba(36, 31, 26, 0.32);
 }
 
-.sab-hoja::-webkit-scrollbar { display: none; }
-
-/* El asa dice que se puede arrastrar hacia abajo antes de que nadie lo pruebe. */
-.sab-asa {
-  display: block;
-  width: 42px;
-  height: 4px;
-  margin: 0 auto 16px;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--ink) 28%, transparent);
-}
+.sab-carta-abierta::-webkit-scrollbar { display: none; }
 
 .sab-cerrar {
   position: absolute;
-  top: 16px;
-  right: var(--shell-pad);
+  top: 20px;
+  right: 20px;
   display: grid;
   place-items: center;
   width: 32px;
   height: 32px;
   border: 0;
   border-radius: 999px;
-  background: color-mix(in srgb, var(--ink) 10%, transparent);
-  color: var(--ink);
+  background: var(--gris-pastilla);
+  color: var(--tinta);
   cursor: pointer;
 }
 
-.sab-hoja-tema {
-  margin: 0 0 6px;
-  font-size: 10.5px;
-  font-weight: 700;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--acento);
-}
+.sab-carta-abierta .sab-tema { padding-right: 40px; }
+.sab-carta-abierta .sab-frase { padding-right: 12px; }
 
-.sab-hoja-titulo {
-  margin: 0 0 14px;
-  padding-right: 34px;
+.sab-texto {
+  margin-top: 20px;
   font-family: var(--serifa);
-  font-size: 21px;
-  font-weight: 600;
-  line-height: 1.24;
-  color: var(--ink);
-  text-wrap: balance;
-}
-
-.sab-hoja-texto {
-  font-family: var(--serifa);
-  font-size: 17px;
+  font-size: 17.5px;
   line-height: 1.62;
-  color: var(--ink-soft);
+  color: var(--tinta-suave);
 }
 
-.sab-hoja-texto p { margin: 0 0 13px; }
-.sab-hoja-texto p:last-child { margin-bottom: 0; }
+.sab-texto p { margin: 0 0 14px; }
+.sab-texto p:last-child { margin-bottom: 0; }
+
+/* Empuja el pie al fondo de la tarjeta abierta cuando sobra sitio. */
+.sab-acciones-abierta { margin-top: auto; }

@@ -1,40 +1,51 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { DATOS, type Dato } from "./sabias";
-import { GlyphClose } from "./glyphs";
+import { GlyphClose, GlyphShare } from "./glyphs";
 import { pantalla, spring, springTight, suave } from "./motion";
 
 /* ==========================================================================
-   ¿SABÍAS QUE…?  —  la sección de datos curiosos
+   ¿SABÍAS QUE…?  —  calcado de la captura de Wiser del 2 de septiembre
 
-   Pablo, el 2 de septiembre: «pones una frase corta que guste leerla, en
-   grande, con letras grandes y vistosas, y si quieres profundizar un poco más
-   existirá una pestaña donde se abrirá más texto».
+   Pablo: «me gustaría más que tuviera más este estilo, cálcalo todo excepto lo
+   que para nosotros no es útil».
 
-   Así que la pantalla es la frase y nada más. Ni foto, ni tarjeta, ni marco:
-   el dato ocupa el móvil entero y lo único que compite con él es el botón de
-   abrir. La foto se cayó a propósito —una imagen genérica al lado de un dato
-   bueno lo empequeñece— y en su sitio va el color, uno por entrada.
+   LO QUE SE CALCA, que es casi todo:
 
-   SE PASA COMO EL MURO, deslizando hacia arriba, porque es el gesto que ya
-   tiene aprendido de los shorts y porque un dato se lee en seis segundos: lo
-   que hace falta es que el siguiente esté a un dedo de distancia.
+   · Los tramos de progreso arriba del todo, uno por entrada, como en una
+     historia de Instagram. Dicen cuántas hay y por cuál vas sin ocupar sitio.
+   · La fila de marca debajo: chapa redonda y el nombre de la sección.
+   · La TARJETA centrada, que es el hallazgo de la captura. Fondo un punto más
+     claro que la página, esquinas muy redondeadas, mucho aire dentro, y el
+     texto en negrita de palo seco a un tamaño que ocupa media pantalla.
+   · Las pastillas grises debajo del texto, dentro de la propia tarjeta y
+     separadas por un filete finísimo.
+   · El fondo beige, que además es el papel de Curva de toda la vida.
 
-   EL TAMAÑO DE LA LETRA NO SE MIDE, SE ELIGE POR TRAMOS. Con `cqw` la letra
-   crece con la pantalla, y con tres tramos según lo que ocupe la frase se
-   evita el bucle de medir y encoger que en los shorts cuesta cientos de
-   milisegundos. Aquí no hace falta: no hay que llenar una caja exacta, solo
-   que quepa holgada y se vea grande.
+   LO QUE NO SE CALCA, porque para nosotros no sirve:
+
+   · La equis de cerrar. Wiser enseña esto como una pantalla que se abre encima
+     de la app; aquí es una pestaña, y de una pestaña no se sale cerrando.
+   · La tarjeta de abajo con el libro y el botón «Leer». Es su manera de llevar
+     de la cita al libro que la contiene; nuestros datos no salen de un libro,
+     así que poner una tarjeta ahí sería inventarse una procedencia.
+
+   Y LO QUE SE AÑADE: «Saber más» no abre una hoja desde abajo —eso era lo que
+   había antes y Pablo pidió «uno mucho mejor y moderno, que se abre sobre la
+   propia pantalla»—. Lo que hace es ABRIR LA TARJETA: la misma que estabas
+   mirando crece hasta llenar la pantalla y el texto aparece dentro. Es una
+   sola pieza que cambia de tamaño, no dos pantallas que se relevan, y por eso
+   se entiende sin explicación: lo que se abre es lo que tocaste.
    ========================================================================== */
 
-/** Tres tramos de tamaño. Una frase corta puede ir enorme; una larga, no. */
+/** Tres tramos de tamaño, según lo que ocupe la frase. Ver `sabias.ts`. */
 function tramo(t: string) {
   if (t.length <= 42) return "grande";
   if (t.length <= 62) return "medio";
   return "largo";
 }
 
-/** Parte el titular en tres para poder teñir el trozo que sorprende. */
+/** Parte el titular para teñir el trozo que sorprende. */
 function partes(d: Dato): [string, string, string] {
   if (!d.realce) return [d.titular, "", ""];
   const i = d.titular.indexOf(d.realce);
@@ -48,8 +59,6 @@ export function Sabias() {
   const [abierto, setAbierto] = useState<Dato | null>(null);
   const pase = useRef<HTMLDivElement>(null);
 
-  /* Cuál está delante. Igual que en el muro: lo dice el navegador, no un
-     cálculo con la posición del scroll. */
   useEffect(() => {
     const caja = pase.current;
     if (!caja) return;
@@ -67,7 +76,6 @@ export function Sabias() {
     return () => ojo.disconnect();
   }, []);
 
-  /* Con el panel abierto, la tecla de escape lo cierra. */
   useEffect(() => {
     if (!abierto) return;
     const t = (e: KeyboardEvent) => e.key === "Escape" && setAbierto(null);
@@ -82,93 +90,128 @@ export function Sabias() {
       animate={pantalla.animate}
       exit={pantalla.exit}
     >
+      {/* Los tramos, uno por dato. El que va delante se pinta entero y los
+          anteriores a media tinta: se ve de un vistazo cuánto llevas. */}
+      <div className="sab-tramos" aria-hidden>
+        {DATOS.map((d, i) => (
+          <span
+            key={d.id}
+            className="sab-tramo"
+            data-estado={i === activo ? "ahora" : i < activo ? "visto" : "queda"}
+          />
+        ))}
+      </div>
+
       <motion.header
         className="sab-marca"
-        initial={{ opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0, transition: { ...springTight, delay: 0.08 } }}
+        initial={{ opacity: 0, y: -8 }}
+        animate={{ opacity: 1, y: 0, transition: { ...springTight, delay: 0.06 } }}
       >
+        <span className="sab-chapa" aria-hidden>
+          {/* La bombilla de la pestaña, en pequeño y encerrada en su chapa. */}
+          <svg width="17" height="17" viewBox="0 0 24 24">
+            <path
+              d="M12 2 A7 7 0 0 0 7.6 14.4 C8.6 15.3 9.1 16.2 9.2 17.2 H14.8 C14.9 16.2 15.4 15.3 16.4 14.4 A7 7 0 0 0 12 2 Z"
+              fill="currentColor"
+            />
+            <rect x="9.2" y="18.4" width="5.6" height="1.7" rx="0.85" fill="currentColor" />
+            <path d="M9.9 21.3 H14.1 A2.1 2.1 0 0 1 12 23 A2.1 2.1 0 0 1 9.9 21.3 Z" fill="currentColor" />
+          </svg>
+        </span>
         ¿Sabías que…?
       </motion.header>
-
-      <motion.div
-        className="sab-cuenta"
-        aria-hidden
-        initial={{ opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0, transition: { ...springTight, delay: 0.12 } }}
-      >
-        {activo + 1}
-        <span className="sab-cuenta-total">/{DATOS.length}</span>
-      </motion.div>
 
       <div className="sab-pase" ref={pase}>
         {DATOS.map((d, i) => {
           const [antes, medio, despues] = partes(d);
+          const estaAbierta = abierto?.id === d.id;
           return (
-            <article
-              key={d.id}
-              className="sab-carta"
-              data-i={i}
-              style={{ ["--acento" as string]: d.color }}
-            >
-              <p className="sab-tema">{d.tema}</p>
-              <h2 className="sab-frase" data-tramo={tramo(d.titular)}>
-                {antes}
-                {medio && <em>{medio}</em>}
-                {despues}
-              </h2>
-              <button className="sab-mas" type="button" onClick={() => setAbierto(d)}>
-                Saber más
-                {/* Hacia ARRIBA, que es de donde viene la hoja. Con la flecha
-                    hacia abajo —que fue lo primero— el botón prometía bajar y
-                    lo que pasaba era lo contrario. */}
-                <span className="sab-mas-flecha" aria-hidden>
-                  ↑
-                </span>
-              </button>
-            </article>
+            <section key={d.id} className="sab-hueco" data-i={i} style={{ ["--acento" as string]: d.color }}>
+              {/* La tarjeta lleva `layoutId`: cuando se abre, ESTA MISMA crece
+                  hasta llenar la pantalla en vez de aparecer otra encima. Por
+                  eso mientras está abierta aquí no se pinta, o habría dos. */}
+              {!estaAbierta && (
+                <motion.article layoutId={`sab-${d.id}`} className="sab-carta" transition={spring}>
+                  <motion.p layoutId={`sab-tema-${d.id}`} className="sab-tema">
+                    {d.tema}
+                  </motion.p>
+                  <motion.h2
+                    layoutId={`sab-frase-${d.id}`}
+                    className="sab-frase"
+                    data-tramo={tramo(d.titular)}
+                  >
+                    {antes}
+                    {medio && <em>{medio}</em>}
+                    {despues}
+                  </motion.h2>
+                  <motion.div layoutId={`sab-pie-${d.id}`} className="sab-acciones">
+                    <button className="sab-pastilla sab-pastilla-fuerte" onClick={() => setAbierto(d)}>
+                      <span aria-hidden>＋</span> Saber más
+                    </button>
+                    <button
+                      className="sab-pastilla"
+                      onClick={() => {
+                        const texto = `¿Sabías que… ${d.titular}?`;
+                        void navigator.share?.({ text: texto }).catch(() => {});
+                      }}
+                    >
+                      <GlyphShare /> Compartir
+                    </button>
+                  </motion.div>
+                </motion.article>
+              )}
+            </section>
           );
         })}
       </div>
 
       <AnimatePresence>
         {abierto && (
-          <>
-            <motion.button
-              key="velo"
-              className="sab-velo"
-              aria-label="Cerrar"
-              onClick={() => setAbierto(null)}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1, transition: { duration: 0.16, ease: suave } }}
-              exit={{ opacity: 0, transition: { duration: 0.12 } }}
-            />
-            <motion.div
-              key="hoja"
-              className="sab-hoja"
-              style={{ ["--acento" as string]: abierto.color }}
-              initial={{ y: reducido ? 0 : "100%" }}
-              animate={{ y: 0, transition: reducido ? { duration: 0.15 } : spring }}
-              exit={{ y: reducido ? 0 : "100%", opacity: reducido ? 0 : 1, transition: { duration: 0.2, ease: suave } }}
-              drag={reducido ? false : "y"}
-              dragConstraints={{ top: 0, bottom: 0 }}
-              dragElastic={{ top: 0, bottom: 0.4 }}
-              onDragEnd={(_, info) => {
-                if (info.offset.y > 90 || info.velocity.y > 500) setAbierto(null);
-              }}
+          <motion.div
+            key="velo"
+            className="sab-velo"
+            style={{ ["--acento" as string]: abierto.color }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { duration: 0.18, ease: suave } }}
+            exit={{ opacity: 0, transition: { duration: 0.16 } }}
+          >
+            <motion.article
+              layoutId={`sab-${abierto.id}`}
+              className="sab-carta sab-carta-abierta"
+              transition={reducido ? { duration: 0.16 } : spring}
             >
-              <span className="sab-asa" aria-hidden />
               <button className="sab-cerrar" onClick={() => setAbierto(null)} aria-label="Cerrar">
                 <GlyphClose />
               </button>
-              <p className="sab-hoja-tema">{abierto.tema}</p>
-              <h3 className="sab-hoja-titulo">{abierto.titular}</h3>
-              <div className="sab-hoja-texto">
+              <motion.p layoutId={`sab-tema-${abierto.id}`} className="sab-tema">
+                {abierto.tema}
+              </motion.p>
+              <motion.h2
+                layoutId={`sab-frase-${abierto.id}`}
+                className="sab-frase"
+                data-tramo="abierto"
+              >
+                {abierto.titular}
+              </motion.h2>
+              {/* El texto llega DESPUÉS de que la tarjeta haya crecido: si
+                  entrara a la vez, la caja cambiaría de alto mientras se
+                  mueve y el movimiento saldría a tirones. */}
+              <motion.div
+                className="sab-texto"
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0, transition: { duration: 0.22, ease: suave, delay: 0.16 } }}
+              >
                 {abierto.mas.map((p, i) => (
                   <p key={i}>{p}</p>
                 ))}
-              </div>
-            </motion.div>
-          </>
+              </motion.div>
+              <motion.div layoutId={`sab-pie-${abierto.id}`} className="sab-acciones sab-acciones-abierta">
+                <button className="sab-pastilla sab-pastilla-fuerte" onClick={() => setAbierto(null)}>
+                  Cerrar
+                </button>
+              </motion.div>
+            </motion.article>
+          </motion.div>
         )}
       </AnimatePresence>
     </motion.div>

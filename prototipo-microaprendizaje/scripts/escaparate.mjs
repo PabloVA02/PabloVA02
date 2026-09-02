@@ -52,6 +52,25 @@ const escribe = (conVitrina) => {
   writeFileSync(new URL(CATALOGO, `file://${AQUI}`), corre("node", args));
 };
 
+/* PRIMERO SE COMPRUEBA QUE EL CATÁLOGO ESTÉ ENTERO, y no es paranoia: el 2 de
+   septiembre el contenedor se quedó sin memoria y mató este guion a media
+   compilación. Un `finally` protege de una excepción, no de que te maten el
+   proceso, así que el catálogo RECORTADO se quedó en disco: 126 shorts en vez
+   de 225. No dio ningún error, y lo que lo destapó fue que las comprobaciones
+   del paginado midieran once temas en vez de quince.
+
+   Así que al arrancar se mira cuántos hay y, si son menos de los que debería,
+   se restaura antes de tocar nada. Una carrera muerta se cura sola en la
+   siguiente en vez de esperar a que alguien se dé cuenta. */
+const cuenta = () =>
+  (readFileSync(new URL(CATALOGO, `file://${AQUI}`), "utf8").match(/^ {4}id: "/gm) ?? []).length;
+const recorte = JSON.parse(readFileSync(new URL("assets/vitrina.json", `file://${AQUI}`), "utf8")).fuera.length;
+if (cuenta() <= recorte) {
+  console.error(`El catálogo estaba recortado (${cuenta()} shorts). Se restaura antes de empezar.`);
+  escribe(false);
+  console.error(`  restaurado: ${cuenta()} shorts`);
+}
+
 try {
   escribe(true);
   corre("npx", ["vite", "build", "--config", mirador ? "vite.shorts.config.mjs" : "vite.artefacto.config.mjs"]);

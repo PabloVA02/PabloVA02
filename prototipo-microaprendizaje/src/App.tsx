@@ -454,7 +454,11 @@ export default function App() {
       <div className="shell">
         {/* La barra de la hora no sale mientras se lee: en la maqueta la
             pantalla es la pagina entera, de borde a borde. */}
-        {pantalla !== "shorts" && <StatusBar />}
+        {/* Ni en el muro ni en «¿Sabías que…?»: las dos son la pantalla entera
+            de borde a borde, y una barra de la hora en oscuro encima del papel
+            crema de la segunda corta la página por arriba. Las dos reservan
+            ellas mismas el hueco del área segura. */}
+        {pantalla !== "shorts" && pantalla !== "sabias" && <StatusBar />}
         <AnimatePresence mode="wait">
           {pantalla === "intro" && (
             <Onboarding
