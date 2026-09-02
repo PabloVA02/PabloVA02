@@ -727,6 +727,14 @@ function reparte(
   /* El tope es el cinturón: cada vuelta o coloca un bloque o parte uno, y las
      dos cosas avanzan, así que el bucle termina. Si algún día no lo hiciera,
      mejor un reparto corto que una pestaña colgada. */
+  /* AQUÍ SE PROBÓ A BISECAR EL LLENADO Y SALIÓ PEOR. La idea era buena sobre
+     el papel —«¿caben los k primeros?» solo puede pasar de sí a no una vez,
+     así que se puede bisecar igual que ya se biseca dentro de un párrafo— y
+     ahorraba medidas de verdad. Lo que no se tuvo en cuenta es que cada prueba
+     obliga a pintar y despintar el prefijo entero, y ese trasiego de nodos
+     cuesta más que las medidas que ahorra: `desborda` subía de 570 a 766 ms
+     con el procesador a un cuarto de velocidad, y el reparto salía idéntico
+     pantalla por pantalla. Se midió y se quitó. Que no vuelva. */
   for (let vueltas = 0; cola.length && vueltas < 5000; vueltas++) {
     const b = cola.shift()!;
     const el = pinta(b);
@@ -1005,11 +1013,24 @@ function encola(tarea: () => void) {
   COLA.push(tarea);
   if (colaEnMarcha) return;
   colaEnMarcha = true;
-  /* Arranca en el fotograma siguiente, no en el primer hueco de verdad: lo que
-     se quiere es no bloquear la PRIMERA pintada, no aplazar el trabajo sine
-     die. Con `requestIdleCallback` la primera medida podía tardar medio
-     segundo y el dedo llega antes. */
-  requestAnimationFrame(() => setTimeout(sigueLaCola, 0));
+  /* ARRANCA CUANDO LA ANIMACIÓN DE ENTRADA HA TERMINADO, no en el fotograma
+     siguiente.
+     
+     No bloquear la primera pintada no basta: la pantalla entra con una
+     transición de 200 ms, y si el reparto empieza a medir en el fotograma
+     siguiente, esa transición se pinta a trompicones aunque la pantalla ya
+     esté puesta. Lo que se ve entonces es exactamente lo que Pablo llamaba
+     «un efecto raro».
+     
+     Con 260 ms el muelle ya ha parado y el trabajo cae sobre una pantalla
+     quieta, que es donde no se nota. Y sigue habiendo margen de sobra: lo que
+     se está mirando es la PORTADA, y el reparto solo hace falta cuando el dedo
+     pasa a la página uno. Nadie entra en Shorts y desliza en un cuarto de
+     segundo.
+     
+     No se usa `requestIdleCallback` porque en un móvil cargado puede tardar
+     medio segundo largo, y ahí sí llega antes el dedo. */
+  setTimeout(sigueLaCola, 260);
 }
 
 /**
@@ -1329,12 +1350,14 @@ export function MuroShorts({ onLeido }: { onLeido: (s: Short, minutos: number) =
    * tiempo sigue estando, solo que no se paga al entrar. */
   const [vecinas, setVecinas] = useState(0);
   useEffect(() => {
-    const ric = (globalThis as { requestIdleCallback?: (cb: () => void, o?: object) => number })
-      .requestIdleCallback;
-    const abre = () => setVecinas(VECINAS);
-    if (ric) { const id = ric(abre, { timeout: 900 }); return () => (globalThis as any).cancelIdleCallback?.(id); }
-    const id = setTimeout(abre, 260);
-    return () => clearTimeout(id);
+    /* Y SE ABREN DE UNA EN UNA, no las cuatro de golpe. Cada vecina que se
+       monta trae su fotografía a descodificar y su título a encajar, y las
+       cuatro juntas volvían a hacer un pico de trescientos milisegundos justo
+       después de entrar. Escalonadas, cada paso cuesta la mitad y entre uno y
+       otro el navegador respira. Los tiempos son de después de la transición,
+       que dura 200. */
+    const relojes = [setTimeout(() => setVecinas(1), 320), setTimeout(() => setVecinas(2), 900)];
+    return () => relojes.forEach(clearTimeout);
   }, []);
 
   useEffect(() => {
@@ -1943,34 +1966,23 @@ function useUnaLinea(texto: string) {
       }
 
       /* No cabe en una línea sin quedarse ilegible: se envuelve y se busca la
-         escala más grande que entre en tres renglones.
+         escala más grande que entre en tres renglones. De 0,04 en 0,04 y de
+         mayor a menor, PARANDO EN LA PRIMERA QUE CABE.
 
-         POR BISECCIÓN Y NO DE 0,04 EN 0,04. Da lo mismo —cuanto más pequeña la
-         letra, menos renglones, así que si una escala cabe todas las menores
-         caben— y cuesta tres medidas en vez de cinco. Y cada medida no es un
-         cálculo: es escribir en la maqueta y volver a leerla, o sea obligar al
-         navegador a rehacer el reparto de la caja entera. Medido con el
-         procesador a un cuarto de velocidad, este bucle se llevaba 216 ms de
-         los que cuesta entrar en Shorts.
-
-         El `getComputedStyle` también sale del bucle todo lo que se puede: se
-         lee una vez por escala probada y no dos. */
+         Aquí NO se bisecta, y se probó: la bisección siempre gasta tres
+         medidas, mientras que este bucle empieza por la mayor y casi siempre
+         acierta a la primera, porque un título que no cabe en una línea suele
+         caber en tres sin encoger casi nada. Medido con el procesador a un
+         cuarto de velocidad, la bisección subía este ajuste de 216 a 333 ms.
+         La bisección gana cuando no se sabe por dónde empezar; aquí sí se
+         sabe. */
       e.setAttribute("data-envuelve", "true");
-      const cabeEn = (s: number) => {
+      const renglon = () => parseFloat(getComputedStyle(e).lineHeight) || 1;
+      for (let s = SUELO_UNA_LINEA; s >= SUELO_ENVUELTO - 0.001; s -= 0.04) {
         e.style.setProperty("--encoge", String(s));
-        const renglon = parseFloat(getComputedStyle(e).lineHeight) || 1;
-        return Math.round(e.scrollHeight / renglon) <= RENGLONES_TITULAR;
-      };
-      /* Las mismas escalas de antes, para que ningún título cambie de tamaño
-         por este cambio: de SUELO_UNA_LINEA hacia abajo, de 0,04 en 0,04. */
-      const escalas: number[] = [];
-      for (let s = SUELO_UNA_LINEA; s >= SUELO_ENVUELTO - 0.001; s -= 0.04) escalas.push(s);
-      let izq = 0, der = escalas.length - 1, elegida = -1;
-      while (izq <= der) {
-        const m = (izq + der) >> 1;
-        if (cabeEn(escalas[m])) { elegida = m; der = m - 1; } else { izq = m + 1; }
+        if (Math.round(e.scrollHeight / renglon()) <= RENGLONES_TITULAR) return;
       }
-      e.style.setProperty("--encoge", String(elegida >= 0 ? escalas[elegida] : SUELO_ENVUELTO));
+      e.style.setProperty("--encoge", String(SUELO_ENVUELTO));
     };
     ajusta();
     const ro = new ResizeObserver(ajusta);
