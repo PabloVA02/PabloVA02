@@ -157,6 +157,18 @@
 
   --radius-card: 26px;
   --shell-pad: 22px;
+  /* EL AIRE ENTRE DOS FICHAS DE LIBRO, y de ahí sale su ancho.
+   *
+   * Pablo, el 2 de septiembre: «hay diferencia de tamaño entre los libros de
+   * la biblioteca, es la sección de todo y leyendo». La tenía: en «Todo» las
+   * cubiertas iban a 148 puntos clavados y en los filtros la parrilla las
+   * estiraba a 164. Medido en pantalla, no leído del CSS.
+   *
+   * Ahora las dos salen de la misma cuenta —el ancho que queda, menos este
+   * aire, partido por dos—, así que un libro mide lo mismo en toda la app y
+   * además crece con la pantalla en vez de quedarse en un número de un móvil
+   * concreto. */
+  --ficha-hueco: 16px;
 
   /* LA ISLA. En un iPhone la cámara frontal y la hora se comen la franja de
      arriba, y la app se mete DEBAJO de ellas a propósito: el `index.html`
@@ -1692,7 +1704,7 @@ button {
      portadas salían de distinto tamaño. Con el mínimo a cero las columnas
      son iguales pase lo que pase dentro. */
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px 12px;
+  gap: 18px var(--ficha-hueco);
   margin-top: 12px;
   padding: 0 var(--shell-pad);
 }
@@ -8312,13 +8324,25 @@ button {
    Y a lo alto, y 781..1224 → 222, que es el 2:3 exacto de 148. La casilla
    tiene la proporción DEL LIBRO y no una inventada: la cubierta manda sobre
    la casilla, no al revés. */
-.carrusel { gap: 16px; margin-top: 15px; }
+.carrusel { gap: var(--ficha-hueco); margin-top: 15px; }
 /* Sin esto la tira arranca pegada al filo: el anclaje de deslizamiento lleva
    la primera ficha al borde del área visible y se come el margen lateral.
    `scroll-padding` le dice dónde está de verdad el borde. */
 .carrusel { scroll-padding-inline: var(--shell-pad); }
-.carrusel .ficha { width: 148px; gap: 0; }
-.carrusel .portada { width: 148px !important; height: 222px !important; }
+/* LA MISMA CUENTA QUE LA PARRILLA, y por eso miden igual: el ancho útil menos
+   el aire, partido por dos. El porcentaje se resuelve contra la caja de
+   contenido del carrusel, que tiene el mismo relleno lateral que la parrilla,
+   así que los dos dan el mismo número en cualquier móvil.
+
+   Antes eran 148 × 222 clavados. Además de no coincidir con la parrilla, un
+   número fijo no crece: en un móvil ancho las cubiertas se quedaban pequeñas
+   y sobraba sitio a los lados. */
+.carrusel .ficha { width: calc((100% - var(--ficha-hueco)) / 2); gap: 0; }
+.carrusel .portada {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 2 / 3;
+}
 /* El redondeo de la cubierta, medido por el arco de la esquina: toca el filo
    recto 13 px más abajo, o sea 6,5 puntos. */
 .carrusel .portada { border-radius: 7px; }
