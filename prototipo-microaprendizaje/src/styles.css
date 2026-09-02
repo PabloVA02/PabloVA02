@@ -180,6 +180,11 @@
      encontraron las pantallas que faltaban—. */
   --isla: env(safe-area-inset-top, 0px);
 
+  /* Lo que mide la barra de la hora que dibuja la app. Se declara aquí porque
+     el lector, que se pinta POR ENCIMA de ella, necesita reservar lo mismo
+     para no quedarse debajo de la cámara. */
+  --hora: 46px;
+
   /* Duraciones del reposo: números primos desfasados para que nunca sincronicen */
   --idle-a: 7.3s;
   --idle-b: 9.1s;
@@ -8724,7 +8729,29 @@ button {
      la ve. Es la pantalla donde Pablo lo notó, y con razón: aquí arriba hay
      una fila de botones, no un título con aire de sobra. */
   padding: 8px 10px;
-  padding-top: calc(8px + var(--isla));
+  /* EL MAYOR DE LOS DOS, Y NO EL ÁREA SEGURA A SECAS.
+   *
+   * Pablo lo devolvió dos veces —«me sigue saliendo tapado»— con el arreglo ya
+   * publicado, y la pista estaba en QUÉ pantalla se quejaba: solo el lector.
+   * Las demás van por debajo de la barra de la hora, que es un elemento del
+   * flujo, y por eso se salvan pase lo que pase. El lector es el único que se
+   * pinta por encima de todo y se salta esa protección.
+   *
+   * Fiarlo solo a `env(safe-area-inset-top)` es fiarlo a que el móvil informe,
+   * y eso no lo puedo comprobar desde aquí. Reservando el mayor entre la barra
+   * de la hora y el área segura, el lector queda protegido en las dos ramas:
+   * si el área segura informa, gana ella —59 en un iPhone con isla—; y si
+   * devuelve cero, queda igualado con lo que reservan las demás pantallas, que
+   * es exactamente lo que a él no se le tapa.
+   *
+   * El suelo son 54 y no los 46 de la barra de la hora: la isla del iPhone
+   * acaba a 48 puntos del borde, así que 46 + 8 dejaba siete puntos de aire y
+   * eso es quedarse al filo. Con 54 quedan catorce, y en un iPhone con muesca
+   * —que acaba más arriba— sobra de largo.
+   *
+   * De regalo, en el simulador el lector deja de empezar veinte puntos más
+   * arriba que el resto. */
+  padding-top: calc(8px + max(54px, var(--isla)));
   flex: none;
   border-bottom: 1px solid var(--lee-chapa);
 }
