@@ -48,7 +48,7 @@
  * PIL—, así que la reescritura la hace Chromium, que es lo que ya usa
  * `movil.mjs` para las fotografías.
  */
-import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from "node:fs";
 import { join, basename, extname } from "node:path";
 import { chromium } from "playwright";
 
@@ -137,8 +137,14 @@ const previo = existsSync(destino) ? readFileSync(destino, "utf8") : "";
 /* Lo que ya estaba: la imagen incrustada y las tres líneas de su ficha. De
    aquí sale la fusión —lo que no venga en la carpeta se queda tal cual— y de
    aquí sale también el `alt` escrito a mano de las que sí vienen. */
+/* LAS CUBIERTAS SON FICHEROS, NO TEXTO, DESDE EL 2 DE SEPTIEMBRE. Antes se
+   escribían aquí dentro en base64 y de ahí se releían al regenerar; ahora se
+   escriben en `cubiertas/servir/` y el módulo solo lleva los `import`. El
+   motivo está en `scripts/saca-cubiertas.mjs`: en base64 se bajaban los 19,4
+   MB enteros en la primera visita aunque no se mirara ni una. Lo que se relee
+   ahora es qué ficheros hay, para no perder los de tandas anteriores. */
 const urisPrevias = new Map(
-  [...previo.matchAll(/^const ([A-Z_0-9]+) =\n  "(data:image\/webp;base64,[^"]+)";$/gm)]
+  [...previo.matchAll(/^import ([A-Z_0-9]+) from "\.\.\/\.\.\/([^"]+)";$/gm)]
     .map((m) => [m[1], m[2]]),
 );
 const fichasPrevias = new Map(
@@ -213,7 +219,26 @@ for (const e of hechas) {
 }
 const lista = [...todas.values()].sort((a, b) => a.id.localeCompare(b.id, "es"));
 
-const constantes = lista.map((e) => `const ${e.constante} =\n  "${e.uri}";\n`).join("\n");
+/* Cada cubierta, a su fichero. El nombre sale de la constante, en minúsculas
+   y con guiones, que es lo que hizo `saca-cubiertas.mjs` la primera vez. */
+const SERVIR = "cubiertas/servir";
+mkdirSync(new URL(`../${SERVIR}/`, RAIZ), { recursive: true });
+let bytesEscritos = 0;
+for (const e of lista) {
+  const archivo = `${e.constante.toLowerCase().replace(/_/g, "-")}.webp`;
+  e.ruta = `${SERVIR}/${archivo}`;
+  /* Las de tandas anteriores ya están en disco y su `uri` es la ruta: no hay
+     nada que decodificar ni que volver a escribir. */
+  if (e.uri.startsWith("data:")) {
+    const datos = Buffer.from(e.uri.slice(e.uri.indexOf(",") + 1), "base64");
+    writeFileSync(new URL(`../${e.ruta}`, RAIZ), datos);
+    bytesEscritos += datos.length;
+  } else {
+    e.ruta = e.uri;
+  }
+}
+
+const constantes = lista.map((e) => `import ${e.constante} from "../../${e.ruta}";`).join("\n") + "\n";
 
 const registro = lista
   .map(
@@ -232,10 +257,9 @@ writeFileSync(
   `${cabecera}${constantes}\nexport const CUBIERTAS_PROPIAS: Record<string, Foto> = {\n${registro}\n};\n`,
 );
 
-const peso = lista.reduce((s, e) => s + e.uri.length, 0);
 console.log(
   `\n${lista.length} cubiertas en total · ${hechas.length} de esta tanda · ` +
-    `${(peso / 1024 / 1024).toFixed(1)} MB de texto`,
+    `${(bytesEscritos / 1024 / 1024).toFixed(1)} MB escritos en ${SERVIR}/`,
 );
 if (sinAlt.length) {
   console.log(`\n⚠  sin descripción escrita a mano, hay que ponérsela:`);

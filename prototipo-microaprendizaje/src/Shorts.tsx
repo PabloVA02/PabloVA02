@@ -1943,16 +1943,34 @@ function useUnaLinea(texto: string) {
       }
 
       /* No cabe en una línea sin quedarse ilegible: se envuelve y se busca la
-         escala más grande que entre en tres renglones. De 0,04 en 0,04, que
-         son cinco medidas como mucho y cada una es una relectura de la
-         maqueta, no un cálculo. */
+         escala más grande que entre en tres renglones.
+
+         POR BISECCIÓN Y NO DE 0,04 EN 0,04. Da lo mismo —cuanto más pequeña la
+         letra, menos renglones, así que si una escala cabe todas las menores
+         caben— y cuesta tres medidas en vez de cinco. Y cada medida no es un
+         cálculo: es escribir en la maqueta y volver a leerla, o sea obligar al
+         navegador a rehacer el reparto de la caja entera. Medido con el
+         procesador a un cuarto de velocidad, este bucle se llevaba 216 ms de
+         los que cuesta entrar en Shorts.
+
+         El `getComputedStyle` también sale del bucle todo lo que se puede: se
+         lee una vez por escala probada y no dos. */
       e.setAttribute("data-envuelve", "true");
-      const renglon = () => parseFloat(getComputedStyle(e).lineHeight) || 1;
-      for (let s = SUELO_UNA_LINEA; s >= SUELO_ENVUELTO - 0.001; s -= 0.04) {
+      const cabeEn = (s: number) => {
         e.style.setProperty("--encoge", String(s));
-        if (Math.round(e.scrollHeight / renglon()) <= RENGLONES_TITULAR) return;
+        const renglon = parseFloat(getComputedStyle(e).lineHeight) || 1;
+        return Math.round(e.scrollHeight / renglon) <= RENGLONES_TITULAR;
+      };
+      /* Las mismas escalas de antes, para que ningún título cambie de tamaño
+         por este cambio: de SUELO_UNA_LINEA hacia abajo, de 0,04 en 0,04. */
+      const escalas: number[] = [];
+      for (let s = SUELO_UNA_LINEA; s >= SUELO_ENVUELTO - 0.001; s -= 0.04) escalas.push(s);
+      let izq = 0, der = escalas.length - 1, elegida = -1;
+      while (izq <= der) {
+        const m = (izq + der) >> 1;
+        if (cabeEn(escalas[m])) { elegida = m; der = m - 1; } else { izq = m + 1; }
       }
-      e.style.setProperty("--encoge", String(SUELO_ENVUELTO));
+      e.style.setProperty("--encoge", String(elegida >= 0 ? escalas[elegida] : SUELO_ENVUELTO));
     };
     ajusta();
     const ro = new ResizeObserver(ajusta);

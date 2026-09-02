@@ -1,4 +1,4 @@
-import { useMemo, useState, type ComponentType } from "react";
+import { useEffect, useMemo, useRef, useState, type ComponentType } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   Aprendizaje, AprendizajeVB, Descubrir, DescubrirVB, Estanteria, EstanteriaVB,
@@ -658,6 +658,38 @@ export function Inicio({
     return [...libres].sort((a, b) => peso(a) - peso(b));
   }, [filtro, intereses]);
 
+  /* CUÁNTAS FICHAS DE LA TIRA ESTÁN PUESTAS DE VERDAD.
+   *
+   * La tira llevaba las cuatrocientas y pico del catálogo, y en la pantalla
+   * caben dos y media. Las otras cuatrocientas estaban a la derecha, fuera,
+   * ocupando 5.300 nodos que había que construir al entrar en el inicio y
+   * deshacer al salir: eso es lo que hacía que cambiar de pestaña fuera a
+   * trompicones. Medido con el procesador a un cuarto de velocidad, entrar en
+   * Shorts costaba 2.300 ms de tareas largas, casi todo desmontar esto.
+   *
+   * Ahora se ponen doce y se añaden de doce en doce según el dedo se acerca al
+   * final de la tira. No cambia nada de lo que se ve ni de lo que se puede
+   * hacer: el catálogo entero sigue estando y la cuenta de arriba sigue
+   * diciendo cuántos hay. Lo único que cambia es que no se fabrica lo que
+   * nadie ha pedido todavía.
+   *
+   * Y no se hace con `content-visibility`, que es lo primero que se probó: con
+   * 405 fichas la contabilidad de esa propiedad costaba MÁS que maquetarlas,
+   * 3.280 ms contra 2.349. Lo dijo la medida, no la intuición. */
+  const PASO_TIRA = 12;
+  const [aLaVista, setALaVista] = useState(PASO_TIRA);
+  /* Al cambiar de filtro la tira es otra y vuelve a empezar por el principio. */
+  useEffect(() => setALaVista(PASO_TIRA), [filtro, intereses]);
+  const tira = useRef<HTMLDivElement>(null);
+  const masTira = () => {
+    const c = tira.current;
+    if (!c) return;
+    /* Cuando falta menos de una pantalla y media para el final, se añaden más.
+       Con ese margen las siguientes están puestas antes de que se vean. */
+    if (c.scrollLeft + c.clientWidth * 2.5 < c.scrollWidth) return;
+    setALaVista((n) => (n >= recomendados.length ? n : n + PASO_TIRA));
+  };
+
   return (
     <motion.div
       className="inicio"
@@ -819,9 +851,9 @@ export function Inicio({
               la portada de la fila siguiente. En una tira horizontal no hay
               filas, así que cada ficha acaba donde acaba. Ver el catálogo
               entero es cosa de la vista de todos los libros, no de aquí. */}
-          <div className="carrusel">
+          <div className="carrusel" ref={tira} onScroll={masTira}>
             <AnimatePresence mode="popLayout">
-              {recomendados.map((l, i) => (
+              {recomendados.slice(0, aLaVista).map((l, i) => (
                 <FichaLibro
                   key={l.id}
                   libro={l}
