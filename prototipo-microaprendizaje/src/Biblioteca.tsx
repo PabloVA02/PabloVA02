@@ -20,7 +20,7 @@ import { SUBTITULOS } from "./libros/subtitulos";
 import { PortadaLibro } from "./PortadaLibro";
 import { TiraColecciones } from "./Colecciones";
 import { GestionaTemas } from "./Temas";
-import type { Coleccion } from "./colecciones";
+import { COLECCIONES_A_LA_VISTA, type Coleccion } from "./colecciones";
 import { LibroDelDia, libroDeHoy } from "./LibroDelDia";
 import { GlyphDado } from "./Dado";
 import type { Foto } from "./shorts";
@@ -841,7 +841,7 @@ export function Inicio({
             varias semanas», así que la segunda solo tiene sentido después de
             que la primera no haya bastado. Con el filtro puesto no salen: el
             filtro es una categoría y una colección no lo es. */}
-        {!filtro && onColeccion && (
+        {COLECCIONES_A_LA_VISTA && !filtro && onColeccion && (
           <TiraColecciones intereses={intereses} onAbrir={onColeccion} />
         )}
 
@@ -1138,7 +1138,7 @@ export function DetalleLibro({
           </ul>
         </motion.section>
 
-        {libro.coleccion && (
+        {COLECCIONES_A_LA_VISTA && libro.coleccion && (
           <motion.section custom={9} variants={enterVariants} initial="hidden" animate="shown">
             <h2 className="detalle-seccion">Aparece en</h2>
             <div className="detalle-coleccion">

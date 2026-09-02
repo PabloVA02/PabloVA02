@@ -38,6 +38,22 @@ import type { Categoria } from "./libros/catalogo";
    la estantería de la librería.
    ========================================================================== */
 
+/* ¿SE ENSEÑAN LAS COLECCIONES?
+ *
+ * Pablo, el 2 de septiembre: «quita las colecciones de libros de momento».
+ *
+ * «De momento», así que no se borra nada: las diecisiete colecciones, su
+ * orden por intereses y las dos pantallas se quedan enteras y probadas. Lo
+ * único que cambia es que no se enseñan. Volver a encenderlas es poner esto
+ * en `true` y no hay más sitios que tocar: de aquí lo leen la tira del inicio,
+ * el «Aparece en» de la ficha de un libro y la pantalla de la colección.
+ *
+ * Se hace con un interruptor y no comentando el código por dos razones. Una,
+ * que comentado se pudre: al mes siguiente ya no compila y nadie se entera
+ * hasta que hace falta. Y dos, que así el compilador sigue comprobando que
+ * todo eso encaja. */
+export const COLECCIONES_A_LA_VISTA = false;
+
 export type Coleccion = {
   id: string;
   /** La promesa, en tres o cuatro palabras. Va grande dentro del azulejo. */

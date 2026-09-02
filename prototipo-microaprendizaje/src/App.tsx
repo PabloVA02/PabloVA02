@@ -28,7 +28,7 @@ import { GlyphBiblioteca, GlyphLibros, GlyphLupa, GlyphRayo } from "./glyphs";
 import { PantallaColeccion } from "./Colecciones";
 import { AjustarTemas, categoriasDe } from "./Temas";
 import { Tragaperras } from "./Dado";
-import type { Coleccion } from "./colecciones";
+import { COLECCIONES_A_LA_VISTA, type Coleccion } from "./colecciones";
 
 type Pantalla =
   | "intro" | "pago" | "inicio" | "detalle" | "lector" | "fin" | "racha" | "reto"
@@ -536,7 +536,7 @@ export default function App() {
               }}
             />
           )}
-          {pantalla === "coleccion" && coleccion && (
+          {COLECCIONES_A_LA_VISTA && pantalla === "coleccion" && coleccion && (
             <PantallaColeccion
               key="coleccion"
               coleccion={coleccion}
