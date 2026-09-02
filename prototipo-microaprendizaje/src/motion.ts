@@ -30,6 +30,51 @@ export const springTight: Transition = {
   mass: 0.7,
 };
 
+/* ==========================================================================
+   CÓMO ENTRA Y SALE UNA PANTALLA ENTERA
+
+   Pablo, el 2 de septiembre: «cuando cambias de página se ve un efecto raro y
+   va 0 fluido; necesito que la transición sea mucho más fluida y más bonita».
+
+   Lo raro tenía nombre: la opacidad iba con MUELLE. Un muelle se pasa de largo
+   y vuelve —para eso está—, pero la opacidad no puede pasar de 1: se queda
+   pegada arriba mientras el muelle sigue oscilando, y lo que se ve es un
+   aparecer irregular, con una detención a media entrada. Los muelles son para
+   lo que se mueve; para lo que se enciende, una curva.
+
+   La curva es una salida rápida y sin rebote —empieza deprisa y frena—, que es
+   la que usan iOS y Material para lo mismo. La entrada dura 200 ms y la salida
+   120: la salida siempre más corta, porque con `mode="wait"` hay que verla
+   entera antes de que empiece la otra y nadie quiere esperar a que algo se
+   vaya.
+
+   Y SOLO SE ANIMAN OPACIDAD Y DESPLAZAMIENTO. Las dos las resuelve la tarjeta
+   gráfica sin volver a calcular la maqueta; cualquier otra cosa —un alto, un
+   margen— obliga al navegador a rehacer el reparto en cada fotograma, y ahí es
+   donde se pierden los sesenta por segundo.
+
+   Los seis puntos de subida son a propósito tan pocos: lo justo para que la
+   pantalla tenga dirección y no parezca un corte. Más recorrido en una pantalla
+   entera se lee como un salto, no como una transición.
+   ========================================================================== */
+
+/** La curva de salida estándar: arranca deprisa y frena. */
+export const suave = [0.22, 1, 0.36, 1] as const;
+
+export const pantalla = {
+  initial: { opacity: 0, y: 6 },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.2, ease: suave } as Transition,
+  },
+  exit: {
+    opacity: 0,
+    y: -4,
+    transition: { duration: 0.12, ease: [0.4, 0, 1, 1] } as Transition,
+  },
+} as const;
+
 /** Para elementos que entran con peso: rebote perceptible pero corto. */
 export const springPop: Transition = {
   type: "spring",

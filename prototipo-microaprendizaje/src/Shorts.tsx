@@ -14,7 +14,7 @@ import { conGuiones } from "./silabas";
 import { PORTADAS } from "./portadas";
 import { Cartel } from "./Cartel";
 import { GlyphClose, GlyphHeart, GlyphLupa, GlyphRayo, GlyphShare } from "./glyphs";
-import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
+import { enterVariants, pantalla, spring, springPop, springSoft, springTight } from "./motion";
 
 /* ==========================================================================
    Shorts.
@@ -974,15 +974,78 @@ function parteBloque(
  * Devuelve las pantallas ya hechas —bloques de verdad, alguno partido— y la
  * referencia de la caja donde se mide.
  */
-function usePaginas(short: Short) {
+/* --------------------------------------------------------------------------
+   LA COLA DE MEDIR
+
+   Las cuatro historias vecinas se miden fuera del camino de pintar, pero si
+   las cuatro entran en el mismo hueco vuelve a salir una tarea larga: medido
+   a un cuarto de velocidad, 688 ms de una sentada, que es un tirón al
+   deslizar aunque la pantalla ya estuviera pintada.
+
+   Así que van de una en una, con un fotograma de por medio. Cada medida suela
+   unos 170 ms a esa velocidad; entre una y otra el navegador puede pintar,
+   que es lo único que se le pide.
+   -------------------------------------------------------------------------- */
+const COLA: (() => void)[] = [];
+let colaEnMarcha = false;
+
+function sigueLaCola() {
+  const tarea = COLA.shift();
+  if (!tarea) {
+    colaEnMarcha = false;
+    return;
+  }
+  tarea();
+  /* Un fotograma y una vuelta al bucle de sucesos: lo primero deja pintar, lo
+     segundo deja atender un toque antes de la medida siguiente. */
+  requestAnimationFrame(() => setTimeout(sigueLaCola, 0));
+}
+
+function encola(tarea: () => void) {
+  COLA.push(tarea);
+  if (colaEnMarcha) return;
+  colaEnMarcha = true;
+  /* Arranca en el fotograma siguiente, no en el primer hueco de verdad: lo que
+     se quiere es no bloquear la PRIMERA pintada, no aplazar el trabajo sine
+     die. Con `requestIdleCallback` la primera medida podía tardar medio
+     segundo y el dedo llega antes. */
+  requestAnimationFrame(() => setTimeout(sigueLaCola, 0));
+}
+
+/**
+ * El reparto en pantallas de UNA historia.
+ *
+ * `alVuelo` decide si se mide antes de pintar o después. Y no es un detalle de
+ * rendimiento cualquiera: es la diferencia entre entrar en Shorts y que la app
+ * se quede dos segundos congelada o no.
+ *
+ * El muro monta la historia que se ve y las dos de cada lado —cinco—, y las
+ * cinco medían aquí mismo, dentro de un `useLayoutEffect`, o sea SÍNCRONAS Y
+ * ANTES DE PINTAR. Medido con el procesador a un cuarto de velocidad, que es
+ * más o menos un iPhone de hace tres años: el fotograma del cambio de pestaña
+ * duraba 1.933 ms, con una tarea de 1.147. Dos segundos de pantalla clavada.
+ *
+ * Las cuatro de los lados no se ven. Lo único que hay que tener listo antes de
+ * pintar es la que está delante; las demás se miden en el primer hueco que
+ * deja el navegador, y para cuando el dedo llega a ellas ya está hecho.
+ */
+function usePaginas(short: Short, medir: boolean) {
   const medidor = useRef<HTMLDivElement>(null);
   const [paginas, setPaginas] = useState<Bloque[][]>(() =>
     short.bloques.length ? [short.bloques] : [],
   );
+  /* La medida, guardada para poder pedirla desde fuera del efecto que la
+     define. Y `medirRef`, para que los observadores lean el valor de AHORA y
+     no el que había cuando se montaron. */
+  const mideRef = useRef<(() => void) | null>(null);
+  const medirRef = useRef(medir);
+  medirRef.current = medir;
+  const hecho = useRef(false);
 
   useLayoutEffect(() => {
     const caja = medidor.current;
     if (!caja || !short.bloques.length) return;
+    hecho.current = false;
     let vivo = true;
     let midiendo = false;
     let ultimo = "";
@@ -1021,33 +1084,67 @@ function usePaginas(short: Short) {
 
       cuerpo.innerHTML = "";
       midiendo = false;
+      hecho.current = true;
       const firma = JSON.stringify(nuevas);
       if (firma === ultimo) return;
       ultimo = firma;
       setPaginas(nuevas);
     };
-
-    /* SE MIDE CON LA LETRA YA CARGADA. Con la de respaldo del sistema las
-       alturas son otras y el reparto sale mal: entre una serifa y la de palo
-       seco de reserva hay renglones de diferencia en un párrafo largo. */
-    if (document.fonts?.status === "loaded") mide();
-    document.fonts?.ready.then(mide).catch(() => mide());
-    /* Y si no hay API de fuentes, se mide igual en el cuadro siguiente. */
-    requestAnimationFrame(mide);
+    mideRef.current = mide;
 
     /* Regla 6: se rehace al girar el móvil y al cambiar el tamaño de letra del
        sistema. Lo primero cambia el ancho de la hoja; lo segundo, el alto de lo
-       medido. El observador ve las dos cosas. */
-    const ojo = new ResizeObserver(() => mide());
+       medido. El observador ve las dos cosas.
+
+       Ahora además apaga `hecho`: cambiar de tamaño invalida el reparto aunque
+       ya estuviera calculado. Y solo vuelve a medir si esta historia es la que
+       se está leyendo; si no, se quedará pendiente y se medirá cuando lo sea. */
+    const rehacer = () => {
+      hecho.current = false;
+      if (medirRef.current) encola(mide);
+    };
+    const ojo = new ResizeObserver(rehacer);
     ojo.observe(caja);
     if (caja.parentElement) ojo.observe(caja.parentElement);
-    window.addEventListener("orientationchange", mide);
+    window.addEventListener("orientationchange", rehacer);
     return () => {
       vivo = false;
+      mideRef.current = null;
       ojo.disconnect();
-      window.removeEventListener("orientationchange", mide);
+      window.removeEventListener("orientationchange", rehacer);
     };
   }, [short]);
+
+  /* SOLO SE PAGINA LA HISTORIA QUE SE ESTÁ LEYENDO, Y DESPUÉS DE PINTAR.
+   *
+   * El muro monta cinco historias —la de delante y dos por lado— y las cinco
+   * se paginaban. Medido con el procesador a un cuarto de velocidad, entrar en
+   * Shorts costaba unos 3.000 ms de trabajo repartidos en diecisiete tareas
+   * largas: no un tirón, sino varios segundos a trompicones, que es lo que
+   * Pablo describió como «va 0 fluido». Y las animaciones no tenían nada que
+   * ver: quitándolas del todo el trabajo era el mismo, 2.874 ms.
+   *
+   * Las cuatro de los lados no se leen. Se paginan cuando les toca estar
+   * delante, y para entonces hay tiempo de sobra: toda historia ABRE POR SU
+   * PORTADA —fotografía y título, sin texto que repartir—, así que el reparto
+   * tiene el rato que el lector tarda en pasar de la portada a la página uno.
+   *
+   * Y va por la cola, nunca aquí mismo: medir es escribir en la maqueta y
+   * volver a leerla ochenta veces seguidas, y hacerlo dentro del gesto que
+   * trae la historia a primer plano es exactamente lo que se quiere evitar. */
+  useEffect(() => {
+    if (!medir || hecho.current || !short.bloques.length) return;
+    const pide = () => mideRef.current?.();
+    encola(pide);
+    /* SE MIDE CON LA LETRA YA CARGADA. Con la de respaldo del sistema las
+       alturas son otras y el reparto sale mal: entre una serifa y la de palo
+       seco de reserva hay renglones de diferencia en un párrafo largo. */
+    let vivo = true;
+    document.fonts?.ready.then(() => {
+      if (vivo && medirRef.current) encola(pide);
+    }).catch(() => {});
+    return () => { vivo = false; };
+  }, [medir, short]);
 
   return { paginas, medidor };
 }
@@ -1217,6 +1314,29 @@ export function MuroShorts({ onLeido }: { onLeido: (s: Short, minutos: number) =
   const [buscando, setBuscando] = useState(false);
   const scroll = useRef<HTMLDivElement>(null);
 
+  /* CUÁNTAS VECINAS HAY MONTADAS, Y POR QUÉ EMPIEZA EN CERO.
+   *
+   * Entrar en Shorts montaba de golpe la historia de delante y las dos de cada
+   * lado. Cinco historias es cinco fotografías descodificándose y cinco
+   * repartos de texto midiéndose contra el DOM, todo dentro del fotograma del
+   * cambio de pestaña: 1.933 ms clavados con el procesador a un cuarto de
+   * velocidad, que es más o menos el iPhone de hace tres años.
+   *
+   * Las cuatro de los lados no se ven. Así que al entrar se monta UNA, la
+   * pantalla aparece, y las vecinas llegan después, cuando el navegador está
+   * libre. Para cuando el dedo se mueve ya están puestas: el margen de una
+   * pantalla entera que hacía falta para que la foto de la siguiente llegue a
+   * tiempo sigue estando, solo que no se paga al entrar. */
+  const [vecinas, setVecinas] = useState(0);
+  useEffect(() => {
+    const ric = (globalThis as { requestIdleCallback?: (cb: () => void, o?: object) => number })
+      .requestIdleCallback;
+    const abre = () => setVecinas(VECINAS);
+    if (ric) { const id = ric(abre, { timeout: 900 }); return () => (globalThis as any).cancelIdleCallback?.(id); }
+    const id = setTimeout(abre, 260);
+    return () => clearTimeout(id);
+  }, []);
+
   useEffect(() => {
     const caja = scroll.current;
     if (!caja) return;
@@ -1258,6 +1378,9 @@ export function MuroShorts({ onLeido }: { onLeido: (s: Short, minutos: number) =
     const destino = scroll.current?.children[i] as HTMLElement | undefined;
     if (!destino) return;
     setActivo(i);
+    /* Y si el salto llega antes de que se hayan abierto las vecinas, se abren:
+       si no, se cae en una ranura vacía y la historia aparece un poco después. */
+    setVecinas((v) => (v === 0 ? VECINAS : v));
     destino.scrollIntoView({ behavior: "auto", block: "start" });
   }
 
@@ -1272,9 +1395,9 @@ export function MuroShorts({ onLeido }: { onLeido: (s: Short, minutos: number) =
   return (
     <motion.div
       className="muro"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: spring }}
-      exit={{ opacity: 0, transition: { duration: 0.18 } }}
+      initial={pantalla.initial}
+      animate={pantalla.animate}
+      exit={pantalla.exit}
     >
       {/* La marca flota sobre la foto: la sección se reconoce sin robar sitio */}
       <motion.header
@@ -1365,7 +1488,7 @@ export function MuroShorts({ onLeido }: { onLeido: (s: Short, minutos: number) =
       <div className="muro-pase" ref={scroll}>
         {SHORTS.map((s, i) => (
           <div key={s.id} className="muro-ranura" data-indice={i}>
-            {Math.abs(i - activo) <= VECINAS && (
+            {Math.abs(i - activo) <= vecinas && (
               <PaginaShort
                 short={s}
                 indice={i}
@@ -1414,7 +1537,19 @@ function PaginaShort({
 
   /* Las pantallas de esta historia, calculadas midiendo. Ver `usePaginas` y
      `.claude/skills/paginado-shorts/SKILL.md`. */
-  const { paginas, medidor } = usePaginas(short);
+  /* NINGUNA MIDE ANTES DE PINTAR, NI SIQUIERA LA QUE SE VE.
+   *
+   * Y se puede porque el muro ABRE POR LA PORTADA: la primera pantalla de toda
+   * historia es la fotografía y el título, que no necesitan reparto ninguno.
+   * El texto no se ve hasta que el dedo pasa de página, y para entonces la
+   * medida lleva hecha desde el fotograma siguiente al de entrar.
+   *
+   * Midiendo antes de pintar, el fotograma del cambio de pestaña duraba 1.933
+   * ms con el procesador a un cuarto de velocidad. Lo caro no es el reparto en
+   * sí: es que cada paso de la bisección escribe en la maqueta y vuelve a
+   * leerla, y eso obliga al navegador a rehacer el reparto de la columna
+   * entera cada vez. Ochenta veces seguidas, antes de pintar nada. */
+  const { paginas, medidor } = usePaginas(short, activo);
   const total = paginas.length + 1;
 
   // Un solo valor de gesto para toda la historia: el texto va pegado al dedo.

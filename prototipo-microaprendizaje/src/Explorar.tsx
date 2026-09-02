@@ -10,7 +10,7 @@ import { PORTADAS_LIBRO } from "./libros/portadas";
 import { PAGINAS } from "./libros/paginas";
 import { GLIFOS_GENERO } from "./glifos-generos";
 import { GlyphClose, GlyphLupa } from "./glyphs";
-import { spring, springSoft } from "./motion";
+import { pantalla, spring, springSoft } from "./motion";
 
 /* ==========================================================================
    Explorar: el buscador, las tendencias y los géneros.
@@ -137,10 +137,9 @@ export function Explorar({
   return (
     <motion.section
       className="explorar"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={springSoft}
+      initial={pantalla.initial}
+      animate={pantalla.animate}
+      exit={pantalla.exit}
     >
       <header className="explorar-cabecera">
         <h1>Explorar</h1>

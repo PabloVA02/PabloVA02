@@ -17,13 +17,17 @@
    Y el nombre del caché lleva versión: al cambiarlo se borra el anterior
    entero. Es la manera de no acumular tres compilaciones en el teléfono.
    ========================================================================== */
-/* v2, del 1 de septiembre. Se sube el número CUANDO HAY QUE ASEGURAR que
+/* v3, del 2 de septiembre. Se sube porque cambia la maqueta de la carcasa —el
+   hueco de abajo que veía Pablo en su iPhone— y conviene que nadie se quede
+   con la hoja de estilos de antes guardada en el teléfono.
+
+   v2, del 1 de septiembre. Se sube el número CUANDO HAY QUE ASEGURAR que
    nadie se queda con lo de antes: al cambiarlo, `activate` borra el caché
    entero y el teléfono vuelve a pedirlo todo. Aquí se sube porque Pablo seguía
    viendo la barra del lector debajo de la cámara con el arreglo ya publicado, y
    la duda «¿lo tiene o no lo tiene?» valía más que los megas que cuesta
    volver a bajar las fotografías. */
-const CACHE = "curva-v2";
+const CACHE = "curva-v3";
 
 self.addEventListener("install", (e) => {
   /* Sin lista de precarga a propósito: el paquete son decenas de megas de

@@ -7627,11 +7627,38 @@ button {
     inset: 0;
     height: auto;
   }
+  /* LA CARCASA SE CLAVA AL ESCENARIO, NO SE MIDE.
+   *
+   * Estaba en `height: 100%`, que es una cadena de porcentajes —carcasa sobre
+   * escenario sobre #root sobre body sobre html— y basta con que un eslabón
+   * mida distinto para que la carcasa se quede corta. Es lo que le pasaba a
+   * Pablo el 2 de septiembre: la barra de pestañas acababa 44 puntos antes del
+   * borde y por debajo asomaba una franja morada. Cuarenta y cuatro es
+   * exactamente el área segura de arriba de su iPhone, o sea que un eslabón de
+   * la cadena estaba descontándola.
+   *
+   * Con `inset: 0` no hay cadena ni porcentajes: la carcasa ocupa el escenario,
+   * que a su vez está clavado a la ventana. No hay nada que pueda medirse mal.
+   *
+   * En el navegador NO SE REPRODUCE —ahí los porcentajes salen bien—, así que
+   * esto no se comprueba mirando la pantalla del ordenador. Es de la misma
+   * familia que el doble descuento del área segura: cosas que solo existen en
+   * un teléfono. */
   .shell {
-    height: 100%;
+    position: absolute;
+    inset: 0;
+    width: auto;
+    height: auto;
+    min-height: 0;
+    max-height: none;
   }
+  /* Y EL CINTURÓN, QUE ESTABA DEL COLOR EQUIVOCADO. La idea era que si algún
+   * día quedaba un pixel sin cubrir no se viera; pintaba `--paper`, que en
+   * tema oscuro es #1b1720, y el fondo de la app es `--fondo`, #151515. O sea
+   * que el cinturón no tapaba el hueco: lo dibujaba de otro color, y por eso
+   * se veía tan bien en la captura. */
   body {
-    background: var(--paper);
+    background: var(--fondo);
   }
 }
 /* El alto de la barra de pestañas, en un solo sitio. Lo usan la barra y el
@@ -8161,7 +8188,12 @@ button {
 /* La cabecera de la captura es una banda de 60 puntos cerrada por un filete:
    el hueco entre la barra de estado y la raya va de y=92 a y=213 en píxeles
    de la captura. El filete es #4e4e4e, muestreado. */
-.inicio-scroll { padding-top: 0; padding-bottom: 152px; }
+/* El hueco de abajo es la barra de pestañas MÁS la pastilla de «Tu regalo»,
+   que flota encima del contenido y no lo empuja. Eran 152 fijos, y en un móvil
+   con área segura la barra sola ya son 98: la pastilla acababa encima del
+   «Leer» de la tarjeta del día. La pastilla mide 52 y se apoya 18 sobre la
+   barra, así que hacen falta 88 por encima de ella para que no toque nada. */
+.inicio-scroll { padding-top: 0; padding-bottom: calc(var(--barra) + 88px); }
 .inicio-cabecera {
   height: 60px;
   padding: 0 var(--shell-pad);
@@ -8724,7 +8756,17 @@ button {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 82px;
+  /* SOBRE LA BARRA, NO A 82 PUNTOS DEL SUELO.
+   *
+   * Estaba en `bottom: 82px`, un número fijo que salió de un móvil sin área
+   * segura. En un iPhone la barra de pestañas mide `64 + 34` = 98, o sea que
+   * la pastilla caía DENTRO de la barra y, por arriba, justo encima de los
+   * botones «Leer» y «Escuchar» de la tarjeta del día. Se ve en la captura que
+   * mandó Pablo el 2 de septiembre: «Leer» tapado por la mitad.
+   *
+   * Se lee `--barra`, que es donde vive el alto de la barra con su área segura
+   * ya sumada UNA vez, y se le añade el aire. Así vale para cualquier móvil. */
+  bottom: calc(var(--barra) + 18px);
   z-index: 24;
   width: max-content;
   margin: 0 auto;

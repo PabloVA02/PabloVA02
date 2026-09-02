@@ -5,7 +5,7 @@ import {
   LuzLuna, LuzLunaVB, MapaAventura, MapaAventuraVB, Memoria, MemoriaVB,
   PensarArte, PensarArteVB,
 } from "./undraw";
-import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
+import { enterVariants, pantalla, spring, springPop, springSoft, springTight } from "./motion";
 import {
   GlyphAuriculares, GlyphAvatar, GlyphClose, GlyphDescargar, GlyphGuardar,
   GlyphLeer, GlyphLupa, GlyphPaginas, GlyphPuntos, GlyphRegalo,
@@ -302,9 +302,9 @@ export function MiBiblioteca({
   return (
     <motion.div
       className="inicio guardados"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: spring }}
-      exit={{ opacity: 0, transition: { duration: 0.18 } }}
+      initial={pantalla.initial}
+      animate={pantalla.animate}
+      exit={pantalla.exit}
     >
       <div className="inicio-scroll">
         <header className="inicio-cabecera">
@@ -661,9 +661,9 @@ export function Inicio({
   return (
     <motion.div
       className="inicio"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: spring }}
-      exit={{ opacity: 0, transition: { duration: 0.18 } }}
+      initial={pantalla.initial}
+      animate={pantalla.animate}
+      exit={pantalla.exit}
     >
       <div className="inicio-scroll">
         <header className="inicio-cabecera">
