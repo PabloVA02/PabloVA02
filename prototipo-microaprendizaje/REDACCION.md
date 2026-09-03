@@ -533,6 +533,41 @@ mismo color se usa a once puntos en el rótulo y de fondo de un botón con letra
 blanca encima, y el ocre de la paleta vieja daba 2,1 de contraste sobre el
 papel crema. Estos nueve pasan de 4,5 en los tres sitios.
 
+### Y en un short es el mismo criterio, con su propia paleta
+
+Pablo, en la misma tanda: «si hablas de Ferrari, que es lo más relevante, pues
+tienes que pintar la frase de Ferrari en rojo, y eso hazlo con el resto de
+shorts».
+
+La diferencia con un dato es dónde vive el color. En un short **no tiñe solo
+unas palabras: tiñe la pantalla** —el degradado del cartel, la barra de
+progreso, el «¿Sabías que…?» del final—, y esas pantallas son oscuras. Los
+nueve de arriba están calculados para leerse sobre papel crema y ahí se apagan.
+Así que los shorts tienen los suyos, los mismos nueve significados con los
+tonos claros del sistema:
+
+| significado | dato (papel crema) | short (pantalla oscura) |
+|---|---|---|
+| rojo | `--dato-rojo` | `--rojo` |
+| fuego, calor, Sol | `--dato-naranja` | `--fuego` |
+| oro, miel, arena | `--dato-oro` | `--ochre` |
+| lo que crece | `--dato-verde` | `--sage` |
+| agua, hielo | `--dato-mar` | `--teal` |
+| azul de verdad, espacio | `--dato-galaxia` | `--azul` |
+| mente, sueños, imperios | `--dato-morado` | `--plum` |
+| piedra, metal, máquinas | `--dato-gris` | `--slate` |
+| cuerpo, barro, tierra | `--dato-tierra` | `--clay` |
+
+Tres ejemplos de los 225, para ver el criterio funcionando: los tres shorts de
+ojos —azules, marrones y verdes— van en azul, tierra y verde; el ejército de
+terracota va en `--clay` y la Alhambra también, porque su titular dice que se
+llama así por el color del barro; y Marie Curie va en verde, que es de lo que
+brillaba el radio en su mesa.
+
+**Dos shorts seguidos pueden repetir color.** Antes eso era un fallo —el
+validador lo miraba— y ahora es lo correcto. Si molesta, lo que se cambia es el
+orden del muro, no el color.
+
 **Cuando ninguno encaja, no se inventa uno:** se mira qué palabra se está
 tiñendo y, si de verdad no tiene color, se cambia el `realce` por el trozo de
 la frase que sí lo tiene. Es lo que se hizo con el pulpo —se teñía «tres

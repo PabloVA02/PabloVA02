@@ -248,7 +248,24 @@ export type Short = {
    * encontrarse la otra.
    */
   curioso?: true;
-  /** Color de acento: tiñe el fondo de lectura, el cartel y el progreso. */
+  /**
+   * Color de acento: tiñe el fondo de lectura, el cartel y el progreso.
+   *
+   * LO ELIGE LO QUE CUENTA EL SHORT, no la variedad. Pablo, el 3 de
+   * septiembre: «si hablas de Ferrari, que es lo más relevante, pues tienes
+   * que pintar la frase de Ferrari en rojo, y eso hazlo con el resto de
+   * shorts». Antes se repartían como los de las categorías de la estantería
+   * —cualquiera vale mientras el de al lado sea otro— y eso es lo que quitó.
+   *
+   * Son nueve y están en `REDACCION.md`, apartado 4 quater, con la tabla de
+   * cuál va con qué. En corto: `--rojo` lo que es rojo, `--fuego` el calor,
+   * `--ochre` el oro y la arena, `--sage` lo que crece, `--teal` el agua,
+   * `--azul` el azul de verdad y el espacio, `--plum` la mente y los imperios,
+   * `--slate` la piedra y las máquinas, `--clay` el cuerpo y el barro.
+   *
+   * Y dos shorts seguidos PUEDEN repetir color. Si molesta, se cambia el orden
+   * del muro.
+   */
   color: string;
   /** La portada, cuando ya hay foto real. Si no, manda `encargo`. */
   foto?: Foto;

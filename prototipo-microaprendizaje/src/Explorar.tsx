@@ -364,11 +364,16 @@ function Tendencias({ onAbrir }: { onAbrir: (l: Libro) => void }) {
             transition={{ ...spring, delay: 0.05 + Math.min(i, 6) * 0.045 }}
           >
             <div className="tend-arte">
-              <Portada libro={libro} tamano={172} />
-              <span className="tend-numero" aria-hidden data-doble={i + 1 >= 10 ? "true" : undefined}>
-                {i + 1}
-              </span>
+              <Portada libro={libro} tamano={148} />
             </div>
+            {/* El número va debajo, en su raya, y no encima del dibujo: ahí
+                taparía el nombre del autor, que es lo que ponen todas las
+                cubiertas en esa esquina. La explicación entera está en el CSS,
+                en `.tend-rango`. */}
+            <p className="tend-rango" aria-hidden>
+              <span className="tend-numero">{i + 1}</span>
+              <span className="tend-raya" />
+            </p>
             <p className="tend-promesa">{t.promesa}</p>
             <p className="tend-pie">
               {libro.autor} · {tiempo(minutosDeLibro(libro))}

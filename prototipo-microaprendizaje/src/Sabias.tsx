@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { DATOS, type Dato } from "./sabias";
-import { GlyphClose, GlyphShare } from "./glyphs";
-import { pantalla, spring, springTight, suave } from "./motion";
+import { GlyphClose, GlyphGuardar, GlyphShare } from "./glyphs";
+import { pantalla, spring, suave } from "./motion";
 
 /* ==========================================================================
    ¿SABÍAS QUE…?  —  calcado de la captura de Wiser del 2 de septiembre
@@ -53,28 +53,48 @@ function partes(d: Dato): [string, string, string] {
   return [d.titular.slice(0, i), d.realce, d.titular.slice(i + d.realce.length)];
 }
 
+/* LO GUARDADO, en el disco del navegador y con el mismo formato que el resto
+   de la app: una lista de identificadores separados por comas, leída filtrando
+   contra los datos DE HOY —así un dato retirado desaparece en vez de dejar una
+   entrada rota— y todo entre `try`, porque en modo privado o con el disco
+   lleno `localStorage` lanza y sin la guarda se queda la pantalla en blanco
+   por no poder apuntar que has guardado una curiosidad.
+
+   Vive aquí y no en `App.tsx` a propósito: lo de allí es una lista de LIBROS,
+   se filtra contra el catálogo de libros y un dato no es un libro. Meterlos en
+   el mismo saco haría que cada uno borrara al otro al guardarse. */
+const CLAVE = "curva.sabias.guardados";
+
+function leeGuardados(): string[] {
+  try {
+    const v = localStorage.getItem(CLAVE);
+    if (!v) return [];
+    const hay = new Set(DATOS.map((d) => d.id));
+    return v.split(",").filter((id) => hay.has(id));
+  } catch {
+    return [];
+  }
+}
+
 export function Sabias() {
   const reducido = useReducedMotion();
-  const [activo, setActivo] = useState(0);
   const [abierto, setAbierto] = useState<Dato | null>(null);
+  const [guardados, setGuardados] = useState<ReadonlySet<string>>(() => new Set(leeGuardados()));
   const pase = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    const caja = pase.current;
-    if (!caja) return;
-    const ojo = new IntersectionObserver(
-      (entradas) => {
-        for (const e of entradas)
-          if (e.isIntersecting) {
-            const i = Number((e.target as HTMLElement).dataset.i);
-            if (!Number.isNaN(i)) setActivo(i);
-          }
-      },
-      { root: caja, threshold: 0.6 },
-    );
-    for (const hijo of Array.from(caja.children)) ojo.observe(hijo);
-    return () => ojo.disconnect();
-  }, []);
+  const guardar = (id: string) => {
+    setGuardados((antes) => {
+      const ahora = new Set(antes);
+      if (ahora.has(id)) ahora.delete(id);
+      else ahora.add(id);
+      try {
+        localStorage.setItem(CLAVE, [...ahora].join(","));
+      } catch {
+        /* Se pierde entre sesiones y nada más: dentro de esta manda React. */
+      }
+      return ahora;
+    });
+  };
 
   useEffect(() => {
     if (!abierto) return;
@@ -90,39 +110,18 @@ export function Sabias() {
       animate={pantalla.animate}
       exit={pantalla.exit}
     >
-      {/* Los tramos, uno por dato. El que va delante se pinta entero y los
-          anteriores a media tinta: se ve de un vistazo cuánto llevas. */}
-      <div className="sab-tramos" aria-hidden>
-        {DATOS.map((d, i) => (
-          <span
-            key={d.id}
-            className="sab-tramo"
-            data-estado={i === activo ? "ahora" : i < activo ? "visto" : "queda"}
-          />
-        ))}
-      </div>
+      {/* NI TRAMOS NI FILA DE MARCA. Los dos venían calcados de la captura de
+          Wiser y los quitó Pablo el 3 de septiembre: «quitar lo de sabías que
+          y lo de la raya esa de al lado».
 
-      {/* Sobre una ilustración, la marca se mete en su pastilla: la tinta oscura
-          encima del azul del dibujo no se lee. Ver la nota del CSS. */}
-      <motion.header
-        className="sab-marca"
-        data-sobreimagen={DATOS[activo]?.imagen ? "true" : "false"}
-        initial={{ opacity: 0, y: -8 }}
-        animate={{ opacity: 1, y: 0, transition: { ...springTight, delay: 0.06 } }}
-      >
-        <span className="sab-chapa" aria-hidden>
-          {/* La bombilla de la pestaña, en pequeño y encerrada en su chapa. */}
-          <svg width="17" height="17" viewBox="0 0 24 24">
-            <path
-              d="M12 2 A7 7 0 0 0 7.6 14.4 C8.6 15.3 9.1 16.2 9.2 17.2 H14.8 C14.9 16.2 15.4 15.3 16.4 14.4 A7 7 0 0 0 12 2 Z"
-              fill="currentColor"
-            />
-            <rect x="9.2" y="18.4" width="5.6" height="1.7" rx="0.85" fill="currentColor" />
-            <path d="M9.9 21.3 H14.1 A2.1 2.1 0 0 1 12 23 A2.1 2.1 0 0 1 9.9 21.3 Z" fill="currentColor" />
-          </svg>
-        </span>
-        ¿Sabías que…?
-      </motion.header>
+          Y con la sección llamándose ya Shorts, tenía razón por partida doble:
+          un rótulo que dice «¿Sabías que…?» encima de una pestaña que dice
+          «Shorts» son dos nombres para lo mismo, y los tramos contaban
+          veintitrés pantallas en una lista que va a crecer, o sea que a los
+          cincuenta datos habrían sido cincuenta rayitas de dos puntos.
+
+          Su CSS —`.sab-tramos`, `.sab-tramo`, `.sab-marca`, `.sab-chapa`—
+          sigue en `styles.css` por si vuelven. */}
 
       <div className="sab-pase" ref={pase}>
         {DATOS.map((d, i) => {
@@ -164,18 +163,34 @@ export function Sabias() {
                     {medio && <em>{medio}</em>}
                     {despues}
                   </motion.h2>
+                  {/* UNA PASTILLA CON LETRA Y DOS BOTONES REDONDOS. Antes eran
+                      dos pastillas con letra y sumaban 288 de los 291 que hay:
+                      meter «Guardar» de tercera se iba a dos líneas. Y no hace
+                      falta el rótulo —el marcador y la flecha se entienden
+                      solos, y así «Saber más», que es lo que se quiere que se
+                      pulse, se queda con todo el ancho que sobra. */}
                   <motion.div layoutId={`sab-pie-${d.id}`} className="sab-acciones">
                     <button className="sab-pastilla sab-pastilla-fuerte" onClick={() => setAbierto(d)}>
                       <span aria-hidden>＋</span> Saber más
                     </button>
                     <button
-                      className="sab-pastilla"
+                      className="sab-redondo"
+                      aria-label={guardados.has(d.id) ? "Quitar de guardados" : "Guardar"}
+                      aria-pressed={guardados.has(d.id)}
+                      data-on={guardados.has(d.id) ? "true" : undefined}
+                      onClick={() => guardar(d.id)}
+                    >
+                      <GlyphGuardar relleno={guardados.has(d.id)} />
+                    </button>
+                    <button
+                      className="sab-redondo"
+                      aria-label="Compartir"
                       onClick={() => {
                         const texto = `¿Sabías que… ${d.titular}?`;
                         void navigator.share?.({ text: texto }).catch(() => {});
                       }}
                     >
-                      <GlyphShare /> Compartir
+                      <GlyphShare />
                     </button>
                   </motion.div>
                 </motion.article>

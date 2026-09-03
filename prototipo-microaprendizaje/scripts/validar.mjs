@@ -57,13 +57,24 @@ const LIMITES = {
      tope aquí solo podría cumplirse recortándoselo. Lo que queda es el suelo,
      que sigue diciendo algo: por debajo de 300 no es una historia. */
   historia: { min: 300 },
-  /** Los cinco acentos del sistema visual. No hay más colores. */
-  /* Los cinco acentos de la paleta, más el teal, que entró en agosto de 2026
-     como noveno acento para Deportes y que en el muro hace falta: con cinco,
-     dos shorts seguidos de ciencia repiten color y la barra de tramos parece
-     la misma historia. Los tonos están en `src/styles.css`. */
+  /* LOS NUEVE COLORES DE UN SHORT, y ya no se reparten para variar.
+
+     Eran seis y se elegían como los de las categorías de la estantería:
+     cualquiera vale mientras el de al lado sea otro. Pablo lo cambió el 3 de
+     septiembre: «si hablas de Ferrari, que es lo más relevante, pues tienes
+     que pintar la frase de Ferrari en rojo, y eso hazlo con el resto de
+     shorts». O sea que el color lo elige LO QUE CUENTA EL SHORT.
+
+     Con seis no llegaba: no había ningún rojo —y Ferrari, la sangre, la lava y
+     el tomate lo piden—, ni un naranja de fuego, ni un azul que fuera azul.
+     Entran `--rojo`, `--fuego` y `--azul`, que ya existían o casi, y quedan
+     nueve. Cuál va con qué está en `REDACCION.md`, apartado 4 quater.
+
+     Y dos shorts seguidos pueden repetir color: eso antes era un fallo y ahora
+     es lo correcto. Si molesta, lo que hay que cambiar es el orden del muro,
+     no el color. */
   colores: ["var(--clay)", "var(--ochre)", "var(--sage)", "var(--plum)", "var(--slate)",
-            "var(--teal)"],
+            "var(--teal)", "var(--rojo)", "var(--fuego)", "var(--azul)"],
 };
 
 /** Lectura media en español, palabras por minuto, para el cálculo de tiempo. */

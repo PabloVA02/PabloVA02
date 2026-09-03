@@ -30,6 +30,14 @@
   --slate-deep: #42545e;
   --clay-deep: #9e5637;
 
+  /* EL AZUL PROFUNDO, el noveno acento de los shorts. Faltaba: entre el slate
+     —azul grisáceo de piedra y de metal— y el teal —verde azulado de agua— no
+     había ningún azul que dijera «azul». Y hace falta desde que el color de un
+     short lo elige lo que cuenta: el espacio, un ojo azul, un morpho, un
+     Bugatti. Va claro porque las pantallas de lectura son oscuras y este color
+     se usa ahí de letra y de degradado. */
+  --azul: #6b86e8;
+
   /* ==========================================================================
      LOS COLORES QUE SIGNIFICAN ALGO
 
@@ -9767,60 +9775,77 @@ button {
 .tend-tira { align-items: flex-start; }
 .tend {
   flex: none;
-  /* EL ANCHO TIENE QUE INCLUIR EL CANAL DEL NÚMERO. Estaba en 198 con un canal
-     de 108, y como la caja es `border-box` la cubierta —172 y con `!important`—
-     se salía por la derecha: el hueco real entre dos cubiertas quedaba en 42 y
-     el número, que mide 86, se metía 66 puntos por debajo de la de al lado. Eso
-     era lo que Pablo veía: «los de tendencias salen más formados» en su
-     captura, porque allí el dígito se ve entero y aquí se lo comían las
-     cubiertas. 108 de canal más 172 de cubierta son 280. */
-  width: 280px;
-  /* El hueco de la izquierda es para el número. Lo pone `.tend` más abajo. */
+  /* EL MISMO ANCHO QUE TODO LO DEMÁS. Estuvo en 280 —108 de canal para el
+     número y 172 de cubierta— y Pablo lo devolvió: «no me gustan esos números,
+     pon otros más bonitos y más pequeños, porque ahora mismo solo se ve un
+     libro y me gustaría que se viesen más».
+
+     Tenía las dos razones. La de bulto: con 280 por tarjeta en una pantalla de
+     390 no cabe ni una y media. Y la de fondo: un número de 250 puntos es el
+     recurso de Netflix, y aquí se comía la sección entera para decir algo que
+     se dice con un dígito pequeño.
+
+     Ahora la cubierta mide lo mismo que en Recomendados y en el libro diario
+     gratis —148 × 222— y el número no ocupa ancho ninguno, así que se ven dos
+     enteros y un tercio del tercero, que es la proporción de la referencia. */
+  width: var(--ficha-ancho);
   display: flex;
   flex-direction: column;
   text-align: left;
   scroll-snap-align: start;
 }
 .tend-arte { position: relative; }
-.tend .portada { width: 172px !important; height: 258px !important; border-radius: 8px; }
-
-/* El número, en el canal de la izquierda y a la altura del pie de la
-   cubierta.
-
-   Estuvo encima del dibujo, medio salido por la esquina, y era un error de
-   los que solo se ven montados: la esquina de abajo a la izquierda es donde
-   TODAS las cubiertas ponen el nombre del autor. Tapaba la eme de «Morgan
-   Housel» y la jota de «James Clear». Fuera del dibujo no puede tapar nada,
-   pase lo que pase con las cubiertas que vengan. */
-.tend-numero {
-  position: absolute;
-  left: -26px;
-  bottom: 0;
-  display: grid;
-  place-items: center;
-  width: 26px;
-  height: 26px;
-  border-radius: 999px;
-  background: #6ddc89;
-  color: #10301d;
-  font-size: 14px;
-  font-weight: 800;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: -0.02em;
+.tend .portada {
+  width: var(--ficha-ancho) !important;
+  height: var(--ficha-alto) !important;
 }
-/* Del diez en adelante la pastilla se estira hacia dentro del canal en vez
-   de hacia la cubierta. */
-.tend-numero { min-width: 26px; padding: 0 5px; left: auto; right: calc(100% + 8px); }
 
-/* La promesa es lo que se lee: va en blanco y con cuerpo de titular, no de
-   pie de foto. Tres líneas como mucho —a 172 de ancho, diez palabras caben
-   justas— y las que sobren se cortan, porque una cuarta línea desalinea la
-   tira entera. */
+/* EL NÚMERO VA EN UNA RAYA, COMO EL NÚMERO DE UN CAPÍTULO.
+
+   Es lo que queda después de descartar los dos sitios de siempre. Encima del
+   dibujo no puede ir: la esquina de abajo a la izquierda es donde TODAS las
+   cubiertas ponen el nombre del autor —tapaba la eme de «Morgan Housel» y la
+   jota de «James Clear»—, y las otras tres esquinas tienen el título o el
+   sello de guardar. Y en un canal a la izquierda tampoco: eso es lo que hacía
+   que solo cupiera un libro.
+
+   Debajo de la cubierta no estorba a nadie y no cuesta un punto de ancho. La
+   cifra va en la serifa del libro, que en esta tira no la usa nada más, y la
+   raya sale de ella y llega al filo de la cubierta: se lee como la apertura de
+   un capítulo y no como una medalla. El número es un orden, que es justo lo
+   que dice una lista de tendencias.
+
+   Y no hay caso raro con el diez: dos cifras ensanchan la cifra y acortan la
+   raya, y ya está. El `data-doble` de antes se puede tirar. */
+.tend-rango {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 13px;
+}
+.tend-numero {
+  font-family: var(--serifa);
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  font-variant-numeric: lining-nums tabular-nums;
+  color: rgba(242, 236, 225, 0.92);
+}
+.tend-raya {
+  flex: 1;
+  height: 1px;
+  background: rgba(242, 236, 225, 0.17);
+}
+
+/* La promesa es lo que se lee. Tres líneas como mucho —a 148 de ancho, ocho
+   palabras caben justas— y las que sobren se cortan, porque una cuarta línea
+   desalinea la tira entera. */
 .tend-promesa {
-  margin: 18px 0 0;
-  font-size: 15px;
+  margin: 9px 0 0;
+  font-size: 14px;
   font-weight: 650;
-  line-height: 1.32;
+  line-height: 1.34;
   letter-spacing: -0.015em;
   color: #fff;
   display: -webkit-box;
@@ -9829,8 +9854,8 @@ button {
   overflow: hidden;
 }
 .tend-pie {
-  margin: 6px 0 0;
-  font-size: 13px;
+  margin: 5px 0 0;
+  font-size: 12.5px;
   line-height: 1.25;
   color: #7a7a7a;
   white-space: nowrap;
@@ -12335,7 +12360,10 @@ button {
   scroll-snap-stop: always;
   display: flex;
   align-items: center;
-  padding: calc(84px + var(--isla)) var(--shell-pad) calc(var(--barra) + 24px);
+  /* Eran 84 de arriba y estaban reservados para los tramos y la fila de marca.
+     Quitados los dos, la tarjeta se queda con la pantalla entera y lo único
+     que hay que respetar es la cámara. */
+  padding: calc(28px + max(36px, var(--isla))) var(--shell-pad) calc(var(--barra) + 24px);
 }
 
 /* ---------- la tarjeta ---------- */
@@ -12417,6 +12445,48 @@ button {
 }
 
 .sab-pastilla svg { width: 16px; height: 16px; }
+
+/* LOS DOS BOTONES REDONDOS: guardar y compartir.
+
+   Antes «Compartir» era una pastilla con su rótulo, y las dos sumaban 288 de
+   los 291 que hay dentro de la tarjeta en un móvil de 375. O sea que meter
+   «Guardar» de tercera con letra era imposible sin partir la fila.
+
+   Sin rótulo caben las tres de sobra y encima queda mejor: el marcador y la
+   flecha se entienden sin que nadie los explique, y «Saber más» —que es lo
+   que se quiere que se pulse— se queda con todo el ancho que sobra en vez de
+   competir con dos hermanas de su tamaño.
+
+   Redondos y no cuadrados porque la tarjeta entera va a 30 de radio y las
+   pastillas a 999: un cuadrado con esquinas aquí dentro sería la única forma
+   recta de la pantalla. */
+.sab-redondo {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--gris-pastilla);
+  color: var(--tinta);
+  cursor: pointer;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+.sab-redondo svg { width: 17px; height: 17px; }
+
+/* Guardado: se rellena y se tiñe del color del dato. Es el mismo lenguaje que
+   la pastilla fuerte —el color macizo dice «esto ya está hecho»— y así se ve
+   de un vistazo cuáles te has quedado sin tener que leer nada. */
+.sab-redondo[data-on="true"] {
+  background: var(--acento);
+  color: #fffdf9;
+}
+
+/* Y «Saber más» se estira: es la acción de la tarjeta y los otros dos son
+   accesorios. Sin esto los tres se reparten el ancho a partes iguales y la
+   jerarquía se pierde. */
+.sab-acciones .sab-pastilla-fuerte { flex: 1; justify-content: center; }
 .sab-pastilla:active { transform: scale(0.97); }
 
 /* La principal lleva el color del dato: es el único sitio de la pantalla donde
@@ -12610,65 +12680,13 @@ button {
   height: var(--ficha-alto) !important;
 }
 
-/* ==========================================================================
-   LOS NÚMEROS DE TENDENCIAS, calcados de la captura del 2 de septiembre
+/* Los números gigantes de tendencias —un dígito de 250 puntos, sin relleno y
+   con el trazo a un 15 % de blanco, metido en un canal de 108— vivían aquí.
+   Los pidió Pablo el 2 de septiembre calcados de Headway y los quitó el 3:
+   «no me gustan esos números, pon otros más bonitos y más pequeños, porque
+   ahora mismo solo se ve un libro». Están en el historial de git, y lo que hay
+   ahora está explicado donde se define `.tend-rango`. */
 
-   Pablo, dos veces. La primera: «esos números en grande, quiero que lo hagas
-   exactamente igual». La segunda, viendo el resultado: «los de tendencias
-   salen más formados, fíjate en la captura y hazlos iguales».
-
-   Y tenía razón: el suyo se ve ENTERO, metido en el hueco entre dos cubiertas;
-   el nuestro era más grande que el hueco, así que las cubiertas se lo comían
-   por los dos lados y solo asomaba un trozo de la curva. Un dígito a medias no
-   se lee como un número, se lee como una raya.
-
-   Las tres medidas de su captura, en proporción a la cubierta —101 de ancho
-   por 152 de alto—:
-
-       hueco entre cubiertas   64  =  0,63 del ancho
-       alto del dígito        105  =  0,69 del alto
-       ancho del dígito        51  =  0,50 del ancho
-       grosor del trazo         2  =  0,019 del alto del dígito
-
-   Aquí la cubierta mide 172 × 258, así que el canal sale a 108, el dígito a
-   178 de alto —font-size 250, que en estas cifras da esa altura de caja— y el
-   trazo a 3. Con 108 de canal y 86 de dígito sobran once a cada lado: el
-   número cabe entero y no lo toca nadie.
-   ========================================================================== */
-
-/* El canal de la izquierda, donde vive el número. */
-.tend { padding-left: 108px; }
-
-.tend-numero {
-  position: absolute;
-  left: -108px;
-  /* Apoyado en el mismo suelo que la cubierta. El −54 compensa el hueco que
-     `line-height: 1` deja bajo la cifra, que no tiene cola. */
-  bottom: -54px;
-  display: block;
-  width: 108px;
-  height: auto;
-  padding: 0;
-  border-radius: 0;
-  background: none;
-  text-align: center;
-  font-size: 250px;
-  line-height: 1;
-  font-weight: 800;
-  letter-spacing: -0.05em;
-  font-variant-numeric: tabular-nums;
-  /* Sin relleno y con trazo: es lo que lo convierte en marca de agua y no en
-     una etiqueta. El gris es el equivalente del suyo sobre fondo oscuro: su
-     #f5f5f5 sobre blanco es casi invisible, y aquí lo es un blanco al 15 %. */
-  color: transparent;
-  -webkit-text-stroke: 3px rgba(242, 236, 225, 0.15);
-  pointer-events: none;
-}
-
-/* Del diez en adelante son dos cifras y no caben en el canal, así que se
-   estrechan en vez de salirse: el número sigue viéndose entero, que es de lo
-   que iba todo esto. */
-.tend-numero[data-doble="true"] { font-size: 170px; bottom: -36px; }
 
 /* ---------- la ilustración de un dato, cuando la tiene ---------- */
 
