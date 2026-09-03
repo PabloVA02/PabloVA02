@@ -25,7 +25,7 @@ import { PAGINAS, paginasDeResumen } from "./libros/paginas";
 import { AvisoRegalo, Oferta } from "./Regalo";
 import { Resena, tocaPedirResena } from "./Resena";
 import { spring, springPop, springSoft, springTight } from "./motion";
-import { GlyphBiblioteca, GlyphBombilla, GlyphLibros, GlyphLupa, GlyphRayo } from "./glyphs";
+import { GlyphBiblioteca, GlyphLibros, GlyphLupa, GlyphRayo } from "./glyphs";
 import { PantallaColeccion } from "./Colecciones";
 import { AjustarTemas, categoriasDe } from "./Temas";
 import { Tragaperras } from "./Dado";
@@ -893,12 +893,26 @@ function BarraPestanas({
 }) {
   const tabs: { id: Tab; nombre: string; Icono: (p: { tamano?: number }) => ReactElement }[] = [
     { id: "libros", nombre: "Libros", Icono: GlyphLibros },
-    { id: "shorts", nombre: "Shorts", Icono: GlyphRayo },
-    /* PEGADA A SHORTS, Y ES EL SITIO QUE PIDIÓ PABLO: «la de shorts déjamela
-       en verdad para compararlas, añade otra pestaña más, llámala shorts
-       (v2)». Para comparar dos cosas hay que poder saltar de una a otra sin
-       buscar, así que van juntas. */
-    { id: "sabias", nombre: "Shorts v2", Icono: GlyphBombilla },
+    /* SHORTS ES ESTA, Y SOLO ESTA. Pablo, el 3 de septiembre: «quita los shorts
+       antiguos pero no los borres, deja los v2, y le cambias el nombre: le
+       pones Shorts con el rayo».
+
+       O sea que la comparación se acabó y ganó la nueva. Se queda con el nombre
+       y con el rayo, que es el símbolo de los shorts en esta app desde el
+       principio; la bombilla era de la pestaña provisional.
+
+       LA VIEJA NO SE BORRA, y no hay ni una línea suya tocada: el muro sigue
+       entero en `Shorts.tsx`, los 225 shorts en su catálogo, su buscador y su
+       maqueta. Lo único que se le quita es la pestaña. Se sigue entrando con
+       `?p=shorts` —y así se ve en el simulador y en la web—, y volver a
+       ponerla es añadir aquí la línea que había:
+
+           { id: "shorts", nombre: "Shorts", Icono: GlyphRayo },
+
+       Con la pestaña quitada, `activa` no encuentra a quién marcar cuando se
+       entra por `?p=shorts`: la barra sale sin pastilla. Es lo que toca —esa
+       pantalla ya no es una sección— y sirve para volver a las que sí. */
+    { id: "sabias", nombre: "Shorts", Icono: GlyphRayo },
     /* Explorar va en tercer lugar, como en las dos referencias: es la
        pantalla a la que se entra a buscar algo, y buscar viene después de
        mirar lo que te proponen y antes de volver a lo que ya es tuyo. */

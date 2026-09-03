@@ -1616,17 +1616,27 @@ equivocado. Lo borró Pablo por orden expresa el 21 de agosto. Si hace falta
 consultarlo por algo, está en el historial de git.
 - `FOTOS.md` — de dónde salen las imágenes y qué se puede afirmar de ellas.
 
-## «¿SABÍAS QUE…?», LA QUINTA PESTAÑA — 2 DE SEPTIEMBRE
+## «¿SABÍAS QUE…?» ES SHORTS — 2 Y 3 DE SEPTIEMBRE
 
-Pablo: «añade otra pestaña más, llámala shorts (v2)». Y sobre qué va dentro:
-«una frase corta que guste leerla, en grande, con letras grandes y vistosas, y
-si quieres profundizar un poco más existirá una pestaña donde se abrirá más
-texto […] que divierta el leerlo […] hazlo bonito».
+Nació el 2 como quinta pestaña, para comparar: «añade otra pestaña más, llámala
+shorts (v2)», y «la de shorts déjamela en verdad para compararlas». Sobre qué
+va dentro: «una frase corta que guste leerla, en grande, con letras grandes y
+vistosas, y si quieres profundizar un poco más existirá una pestaña donde se
+abrirá más texto […] que divierta el leerlo […] hazlo bonito».
 
-**La de Shorts NO se ha quitado, y es a propósito.** Lo dijo él mismo
-rectificando en la misma frase: «la de shorts déjamela en verdad para
-compararlas». Van una al lado de la otra en la barra porque para comparar dos
-cosas hay que poder saltar de una a otra sin buscarlas.
+**El 3 se acabó la comparación y ganó esta.** Pablo: «quita los shorts antiguos
+pero no los borres, deja los v2, y le cambias el nombre: le pones Shorts con el
+rayo». Así que la barra vuelve a tener cuatro pestañas y la segunda es esta,
+con el rayo de siempre.
+
+**EL MURO VIEJO NO SE HA BORRADO Y NO SE BORRA.** No se le ha tocado ni una
+línea: `Shorts.tsx` entero, los 225 shorts de su catálogo, su buscador, sus
+fotos y su maqueta. Lo único que se le ha quitado es la pestaña.
+
+    ?p=shorts         para abrirlo, en el simulador y en la web
+
+Y para devolverle la pestaña basta con reponer su línea en la lista `tabs` de
+`App.tsx`, que está escrita ahí mismo en el comentario.
 
     src/sabias.ts     los datos, con su titular y su explicación
     src/Sabias.tsx    la pantalla
