@@ -490,6 +490,55 @@ llevar delante el título de otras cinco novelas. La forma es impecable y el
 contenido está vacío: **se copia lo primero y se hace lo contrario con lo
 segundo.**
 
+## 4 quater. El color de las palabras teñidas SIGNIFICA algo
+
+Norma de Pablo, 3 de septiembre de 2026:
+
+> «Cuando colorees unas palabras deben tener cierto sentido. Por ejemplo, la
+> frase donde hablas de Ferrari deberá ser roja, o la frase donde hablas del
+> espacio, pues azul galaxia.»
+
+Vale para todo lo que se tiñe en la app: el `realce` de un «¿Sabías que…?», el
+de un short y el destacado de la página de un libro.
+
+**Lo que se elige por el color son LAS PALABRAS TEÑIDAS, no el tema.** Es la
+única regla que hay que recordar, y es donde se falla. En «hay más árboles en
+la Tierra que estrellas en nuestra galaxia» lo que se tiñe es la galaxia: va en
+azul, aunque el dato hable de árboles. En «el plátano es una baya y la fresa
+no» lo teñido es la fresa: va en rojo, aunque el dato hable del plátano.
+
+Y **no se rota para variar.** Antes de esta norma, los colores se repartían
+como los de las categorías de la estantería —cualquiera vale mientras el de al
+lado sea otro—, y eso es justo lo que Pablo quitó. Dos datos del espacio
+seguidos van los dos en azul galaxia. Si aburre, el problema es el orden de los
+datos, no el color.
+
+Los nueve y cuándo va cada uno:
+
+| color | para qué |
+|---|---|
+| rojo | lo que es rojo de verdad: un Ferrari, una fresa, la sangre, Nintendo |
+| naranja | el calor y el fuego: el verano, el Sol, un cañón; el azafrán de la India |
+| oro | el oro, la miel, el plátano, la arena, el amarillo de Módena |
+| verde | lo que crece: árboles, plantas, selva |
+| mar | el agua y el hielo: el mar, una bañera, Groenlandia, la sangre de un pulpo |
+| galaxia | lo de ahí arriba: el espacio, la Luna, las estrellas; y el azul de Oxford |
+| morado | la púrpura del que manda: imperios, coronas, Napoleón |
+| gris | el gris literal —un flamenco que nace gris— y la ceniza |
+| tierra | el marrón: la piedra, el barro, la obra |
+
+Los valores están en `src/styles.css`, en el bloque «LOS COLORES QUE SIGNIFICAN
+ALGO». **No son los acentos de categoría de siempre**, y no es capricho: el
+mismo color se usa a once puntos en el rótulo y de fondo de un botón con letra
+blanca encima, y el ocre de la paleta vieja daba 2,1 de contraste sobre el
+papel crema. Estos nueve pasan de 4,5 en los tres sitios.
+
+**Cuando ninguno encaja, no se inventa uno:** se mira qué palabra se está
+tiñendo y, si de verdad no tiene color, se cambia el `realce` por el trozo de
+la frase que sí lo tiene. Es lo que se hizo con el pulpo —se teñía «tres
+corazones» y ahora se tiñe «la sangre azul»—, y de paso el realce mejoró, que
+es lo normal: el trozo con color suele ser el trozo con la sorpresa.
+
 ## 4 ter. La prueba del título tapado
 
 Es la comprobación más rápida que existe y detecta el fallo más común. **Tapa

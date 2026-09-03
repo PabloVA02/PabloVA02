@@ -30,6 +30,57 @@
   --slate-deep: #42545e;
   --clay-deep: #9e5637;
 
+  /* ==========================================================================
+     LOS COLORES QUE SIGNIFICAN ALGO
+
+     Norma de Pablo, 3 de septiembre: «cuando colorees unas palabras deben
+     tener cierto sentido; por ejemplo, la frase donde hablas de Ferrari deberá
+     ser roja, o la frase donde hablas del espacio, pues azul galaxia».
+
+     Los ocho acentos de arriba son de CATEGORÍA: reparten la estantería por
+     bloques y da igual cuál le toque a cada libro mientras el de al lado sea
+     otro. Estos son de CONTENIDO: se eligen por lo que dicen las palabras que
+     se tiñen, y no se rotan nunca. Un dato del espacio va en azul galaxia
+     aunque el anterior también lo fuera.
+
+     Por qué son más oscuros que los acentos de siempre: aquí el color no se
+     usa solo para teñir letra grande. Va también en el rótulo de once puntos y
+     de fondo de la pastilla de «Saber más», con la letra blanca encima. El
+     ocre de la paleta vieja daba 2,1 de contraste sobre el papel crema —o sea,
+     ilegible en cuanto la letra es pequeña— y estos ocho pasan de 4,5 en los
+     tres sitios.
+
+     Cuándo se usa cada uno, que es lo único que importa para acertar:
+
+       rojo      lo que es rojo de verdad: un Ferrari, una fresa, la sangre,
+                 el logotipo de Nintendo
+       naranja   el calor y el fuego: el verano, el Sol, un cañón, y el azafrán
+                 de la bandera de la India
+       oro       el oro, la miel, el plátano, la arena, el amarillo de Módena
+       verde     lo que crece: árboles, plantas, selva
+       mar       el agua y el hielo: el mar, una bañera, Groenlandia, la sangre
+                 azul de un pulpo
+       galaxia   lo que está ahí arriba: el espacio, la Luna, las estrellas —y
+                 el azul de Oxford, que se llama así por algo
+       morado    la púrpura del que manda: imperios, coronas, Napoleón
+       gris      el gris literal —un flamenco que nace gris— y la ceniza
+       tierra    el marrón: la piedra, el barro, la obra
+
+     Si un dato nuevo no encaja en ninguno, el que manda es el de las palabras
+     teñidas, no el del tema. En «hay más árboles que estrellas en la galaxia»
+     lo que se tiñe es la galaxia, así que va en azul, aunque el dato sea de
+     árboles.
+     ========================================================================== */
+  --dato-rojo: #c4342a;
+  --dato-naranja: #b8621c;
+  --dato-oro: #9a6c15;
+  --dato-verde: #3f7a35;
+  --dato-mar: #1d6f86;
+  --dato-galaxia: #35408f;
+  --dato-morado: #6a4a8c;
+  --dato-gris: #6f6a62;
+  --dato-tierra: #7a5233;
+
   /* El noveno acento, para la categoría de Deportes (agosto de 2026). Los
      ocho de arriba estaban repartidos ya, y repetir uno rompe la lectura por
      bloques de la estantería. Verde azulado: es el único hueco que quedaba
