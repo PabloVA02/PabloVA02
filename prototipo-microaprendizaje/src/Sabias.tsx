@@ -102,8 +102,11 @@ export function Sabias() {
         ))}
       </div>
 
+      {/* Sobre una ilustración, la marca se mete en su pastilla: la tinta oscura
+          encima del azul del dibujo no se lee. Ver la nota del CSS. */}
       <motion.header
         className="sab-marca"
+        data-sobreimagen={DATOS[activo]?.imagen ? "true" : "false"}
         initial={{ opacity: 0, y: -8 }}
         animate={{ opacity: 1, y: 0, transition: { ...springTight, delay: 0.06 } }}
       >

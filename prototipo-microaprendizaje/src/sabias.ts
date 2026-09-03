@@ -27,6 +27,16 @@
    que aparecer TAL CUAL dentro del titular o no se pinta.
    ========================================================================== */
 
+/* La ilustración va IMPORTADA y no en `public/`, y no es un capricho de
+   organización: así la resuelve el empaquetador, y eso es lo que hace que la
+   misma línea valga para los dos destinos. En la compilación del artefacto
+   —`assetsInlineLimit` sin tope— se convierte en la imagen entera metida en el
+   HTML, que es la única forma de que se vea dentro del simulador de Pablo, con
+   su política de seguridad cerrada. En la de la web sale un fichero con su
+   huella, que se cachea. Un fichero en `public/` no haría ni lo uno ni lo
+   otro. */
+import sagradaFamilia from "./ilustraciones/sagrada-familia.avif";
+
 export type Dato = {
   id: string;
   /** La frase grande. Corta, y lo que sorprende al final. */
@@ -66,6 +76,7 @@ export const DATOS: Dato[] = [
       "Las obras empezaron el 19 de marzo de 1882. El permiso se pidió tres años después al ayuntamiento de Sant Martí de Provençals, que entonces era un pueblo aparte, y allí se quedó: nadie lo resolvió, el pueblo se anexionó a Barcelona en 1897 y el papel se perdió por el camino.",
       "Nadie se dio cuenta en más de un siglo. Cuando el ayuntamiento abrió expediente, la junta que construye el templo acordó pagar treinta y seis millones de euros por los servicios y las obras de alrededor, y la licencia se firmó por fin en junio de 2019. Ciento treinta y siete años levantando el monumento más visitado de la ciudad sin el papel que le piden a cualquiera para cambiar unas ventanas.",
     ],
+    imagen: sagradaFamilia,
   },
   {
     id: "ferrari-rojo",

@@ -12164,10 +12164,23 @@ button {
 
 /* ---------- los tramos de arriba ---------- */
 
+/* El `max(30px, …)` es el suelo de la cámara, y es el mismo apaño que ya lleva
+   el lector unas mil líneas más arriba —«costó tres avisos de Pablo»—.
+
+   `--isla` sale de `env(safe-area-inset-top)`, y eso vale cero en dos sitios
+   que importan: el navegador de escritorio y, sobre todo, DENTRO DEL SIMULADOR,
+   que dibuja su propia isla negra encima de la app y no tiene forma de contarle
+   al CSS que está ahí. Sin suelo, los tramos pasaban por detrás de esa isla y
+   la marca se le metía debajo. Treinta y seis salen de lo que mide la isla dibujada
+   —9 de margen y 26 de alto—, más el dedo de aire que hace falta porque el
+   simulador encoge la app un 4 % para meterla en su marco de 375.
+
+   En un iPhone de verdad `--isla` vale 59 y gana el `max`, así que ahí no
+   cambia nada de lo que ya estaba medido. */
 .sab-tramos {
   position: absolute;
   z-index: 12;
-  top: calc(10px + var(--isla));
+  top: calc(10px + max(36px, var(--isla)));
   left: var(--shell-pad);
   right: var(--shell-pad);
   display: flex;
@@ -12190,7 +12203,8 @@ button {
 .sab-marca {
   position: absolute;
   z-index: 12;
-  top: calc(28px + var(--isla));
+  /* El mismo suelo que los tramos, por el mismo motivo. */
+  top: calc(28px + max(36px, var(--isla)));
   left: var(--shell-pad);
   display: flex;
   align-items: center;
@@ -12212,6 +12226,36 @@ button {
   box-shadow: 0 1px 3px rgba(36, 31, 26, 0.1);
 }
 
+/* LA MARCA, CUANDO DEBAJO HAY UNA ILUSTRACIÓN.
+
+   El rótulo va en la tinta parda de la sección, que sobre el papel crema se
+   lee de sobra. Sobre el azul del cielo de la Sagrada Familia, no: es tinta
+   oscura sobre color oscuro y desaparece justo en la palabra.
+
+   Se resuelve como lo resuelve cualquier aplicación que pone su cabecera
+   encima de una foto: la fila entera se mete en una pastilla de papel medio
+   transparente con el fondo desenfocado detrás. Así se lee siempre, dé donde
+   dé, y no hay que retocar el dibujo ni bajarle una cortina por arriba, que
+   era lo otro que se probó y le comía las agujas.
+
+   Los márgenes negativos son para que la chapa se quede EXACTAMENTE donde
+   estaba: el relleno de la pastilla la empujaría cinco puntos a la derecha y
+   cinco hacia abajo, y la fila bailaría al pasar de un dato con dibujo a uno
+   sin él. */
+.sab-marca[data-sobreimagen="true"] {
+  margin: -5px 0 0 -5px;
+  padding: 5px 17px 5px 5px;
+  border-radius: 999px;
+  background: rgba(247, 243, 236, 0.74);
+  -webkit-backdrop-filter: blur(12px) saturate(1.1);
+  backdrop-filter: blur(12px) saturate(1.1);
+  box-shadow: 0 1px 10px rgba(36, 31, 26, 0.1);
+}
+
+/* Dentro de la pastilla la chapa pierde su sombra: dos sombras a tres puntos
+   una de otra se leen como suciedad, no como relieve. */
+.sab-marca[data-sobreimagen="true"] .sab-chapa { box-shadow: none; }
+
 /* ---------- el pase ---------- */
 
 .sab-pase {
@@ -12228,6 +12272,13 @@ button {
 /* Cada dato ocupa la pantalla y la tarjeta va centrada, con el hueco de arriba
    reservado para los tramos y la marca. */
 .sab-hueco {
+  /* SIN ESTO LA ILUSTRACIÓN SE VA A TODAS LAS PANTALLAS. El lienzo se coloca
+     en absoluto, así que se cuelga del primer antepasado colocado, y si esta
+     pantalla no lo está, ese antepasado es la sección entera: el dibujo de la
+     Sagrada Familia se quedaba clavado y aparecía detrás del dato del Ferrari
+     y de todos los demás. Estaba así desde que se montó el hueco y no se vio
+     porque solo se había mirado el primer dato. */
+  position: relative;
   height: 100%;
   scroll-snap-align: start;
   scroll-snap-stop: always;
@@ -12439,6 +12490,30 @@ button {
   cursor: pointer;
 }
 
+/* EL COLOR NO ES EL SUYO, Y ES LO ÚNICO QUE NO SE CALCA. Pablo, viendo la
+   primera versión con los dos azules de Headway: «no me gusta cómo queda lo de
+   gratis hoy, no sé si es por los colores o porque…».
+
+   La razón es que copié valores donde había que copiar una relación. Su #e7f1fe
+   es un azul casi blanco, y en su app funciona porque la página TAMBIÉN es
+   blanca: la chapa apenas se levanta del papel, susurra. Puesto sobre nuestro
+   #151515, ese mismo color pasa a ser lo más claro de la pantalla —más que las
+   cubiertas, que son lo que hay que mirar— y se lee como una pegatina de otra
+   aplicación.
+
+   Lo que se conserva es la relación: una chapa que se levanta un poco del
+   fondo. Sobre oscuro eso es un azul de luminancia media, no un casi blanco.
+
+   Y azul y no otro color porque en esta app el azul ya significa algo. Está
+   escrito en la barra de pestañas: el verde es «lo que ya es tuyo» —la pestaña
+   en la que estás, lo que llevas leído, el regalo— y «el azul se queda para lo
+   que se te ofrece». Un libro gratis hoy es exactamente eso.
+
+   El tono es el #4397f7 de la app un paso más hondo. Se probaron los dos: el
+   claro grita sobre el fondo negro y encima deja el blanco en 3,0 de contraste,
+   por debajo del mínimo; este da 5,1 y deja que las cubiertas manden. El azul
+   vivo se queda para lo que se toca —el botón de suscribirse, el de invitar—,
+   que no es el caso de un rótulo. */
 /* La pestaña. Mide 39 de alto y solo asoman 32: los 7 de abajo se los come la
    cubierta con el margen negativo, y así no hay manera de que se vea el canto
    inferior de la banda por ningún lado.
@@ -12468,8 +12543,8 @@ button {
   display: grid;
   place-items: center;
   border-radius: 15px 15px 0 0;
-  background: #e7f1fe;
-  color: #3378f7;
+  background: #2f6ec4;
+  color: #fff;
   font-size: 16.2px;
   font-weight: 600;
 }

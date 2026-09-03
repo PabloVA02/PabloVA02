@@ -359,7 +359,31 @@ if (cubiertas.length) {
    Salen en WebP y no en AVIF porque el lienzo del navegador no sabe escribir
    AVIF. Da igual: los ficheros de verdad, los que van a R2 y a la app, se
    quedan en `portadas/` intactos. Esto es solo la copia del escaparate. */
-const portadas = [...js.matchAll(/data:image\/avif;base64,[A-Za-z0-9+/=]+/g)].map((m) => m[0]);
+/* LAS ILUSTRACIONES NO SON PORTADAS Y NO SE ENCOGEN CON ELLAS.
+
+   Una portada de short se pinta en el simulador a 172 puntos como mucho, y por
+   eso `--portadas-ancho` puede bajar hasta 355 sin que se note. Una ilustración
+   de `¿Sabías que…?` se pinta A TODO EL ANCHO DE LA PANTALLA: a 355 se ve
+   borrosa, que es exactamente lo que pasó con la de la Sagrada Familia la
+   primera vez que entró aquí.
+
+   No hay manera de distinguirlas mirando el `data:`, así que se distinguen por
+   dónde viven: se leen los ficheros de `src/ilustraciones/` y se arma con cada
+   uno el mismo texto que escribe el empaquetador al empotrarlo. Lo que
+   coincida, se salta. Es exacto —Vite mete los bytes tal cual— y se mantiene
+   solo: la ilustración que se añada mañana queda protegida sin tocar nada. */
+const DIR_ILUSTRACIONES = join(RAIZ, "src", "ilustraciones");
+const INTOCABLES = new Set(
+  existsSync(DIR_ILUSTRACIONES)
+    ? readdirSync(DIR_ILUSTRACIONES)
+        .filter((n) => n.endsWith(".avif"))
+        .map((n) => `data:image/avif;base64,${readFileSync(join(DIR_ILUSTRACIONES, n)).toString("base64")}`)
+    : [],
+);
+
+const portadas = [...js.matchAll(/data:image\/avif;base64,[A-Za-z0-9+/=]+/g)]
+  .map((m) => m[0])
+  .filter((d) => !INTOCABLES.has(d));
 if (portadas.length) {
   const antes = portadas.reduce((s, c) => s + c.length, 0);
   const nav3 = await chromium.launch({ executablePath: process.env.CHROMIUM ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
