@@ -129,70 +129,156 @@ export type Dato = {
 
 export const DATOS: Dato[] = [
   /* ------------------------------------------------------------------------
-     LA TANDA DEL 4 DE SEPTIEMBRE, TERCER INTENTO — Y ESTA ES LA BUENA.
+     CUARTO INTENTO, Y AQUÍ SE PARA. Tres devoluciones seguidas de Pablo:
 
-     Dos devoluciones seguidas de Pablo, y la segunda es la que da la regla:
-     «es que son datos raros, tío; quiero que sean como súper sorprendentes,
-     solo datos que impacten mucho al leerlos».
+       1ª  «son un poco ambiguas» — eran historias de origen: quién inventó qué.
+       2ª  «son datos raros» — eran rarezas de bichos y de órganos.
+       3ª  «está fatal, muchas cosas ni se entienden; pon cosas más fáciles de
+            entender, o sea curiosidades y sabías que, cosas que al leerlas te
+            quedes impresionado».
 
-     RARO NO ES SORPRENDENTE, y ahí estaba el fallo. La lengua del pájaro
-     carpintero, las huellas del koala, el forro del estómago: todo eso es raro
-     —cosas curiosas de bichos y de órganos que casi nadie conoce—, y lo raro
-     produce un «anda, mira» y se olvida. Lo que impacta es otra cosa.
+     LA TERCERA ES LA QUE LO EXPLICA TODO. Mi tanda anterior estaba llena de
+     choques de tiempo —el Tyrannosaurus y el Estegosaurio, las pirámides y los
+     mamuts, la guillotina y La guerra de las galaxias—, y esos no se entienden
+     de golpe: hay que saber cuándo fue cada cosa y hacer una resta mental. Son
+     datos para el que ya sabe. El lector del metro los mira, no le llega nada,
+     y pasa.
 
-     LO QUE IMPACTA CHOCA DOS COSAS QUE YA CONOCES. No hace falta que el dato
-     sea de algo exótico; hace falta que ponga en orden distinto dos cosas que
-     el lector tiene ya en la cabeza y que creía colocadas de otra manera. El
-     Tyrannosaurus y el Estegosaurio. Las pirámides y los mamuts. La guillotina
-     y La guerra de las galaxias. La Luna y una maleta.
+     Y LO QUE FUNCIONA ESTABA AQUÍ DESDE EL PRIMER DÍA. Los que Pablo nunca ha
+     tocado son los que ya había: el pulpo tiene tres corazones, el flamenco
+     nace gris, el uómbat hace la caca cuadrada, la miel no caduca. Todos
+     tienen la misma forma, y es la más simple que existe:
 
-     Por eso los mejores de esta sección desde el principio son los de tiempo
-     comparado —Cleopatra y la Luna, los tiburones y los árboles, Oxford y los
-     aztecas—: los dos extremos son famosos y el orden es imposible.
+         UN SUJETO QUE TODO EL MUNDO CONOCE + UNA COSA RARÍSIMA QUE HACE
 
-     Las otras dos familias que sí pegan fuerte: la ESCALA que no te cabe en la
-     cabeza —una cucharilla que pesa más que la humanidad, un papel doblado que
-     llega a la Luna— y lo que te toca A TI AHORA MISMO —el Sol que estás
-     viendo salió hace ocho minutos—.
+     Nada que saber antes. Nada que calcular. Se ve en la cabeza al leerlo.
+     Cinco o seis palabras. Y la reacción no es «ah, claro», es «¿QUÉ?».
 
-     La prueba sigue siendo la misma y ahora con una vuelta más: si el titular
-     se puede decir de memoria en la mesa de un bar Y el de enfrente contesta
-     «¿qué dices?», entra.
+     Lo que se cae por el camino, y hay que aceptarlo: el dato elegante. El
+     choque de fechas es precioso para quien ya conoce las dos fechas, y esta
+     sección no se escribe para ese.
+
+     La prueba, la definitiva: se lee el titular en voz alta a alguien que no
+     sepa nada del tema. Si tiene que preguntar algo antes de reaccionar, fuera.
      ------------------------------------------------------------------------ */
   {
-    id: "trex-estegosaurio",
-    titular: "El Tyrannosaurus vivió más cerca de ti que del Estegosaurio",
-    realce: "más cerca de ti que del Estegosaurio",
-    tema: "Naturaleza",
-    color: "var(--dato-tierra)", // la roca donde salen
+    id: "nutrias-de-la-mano",
+    titular: "Las nutrias duermen cogidas de la mano",
+    realce: "cogidas de la mano",
+    tema: "Animales",
+    color: "var(--dato-mar)", // el agua
     mas: [
-      "Salen juntos en todos los dibujos, en el mismo pantano y peleándose. No llegaron a verse ni de lejos. El Estegosaurio se extinguió hace unos ciento cincuenta millones de años y el Tyrannosaurus apareció hace unos sesenta y ocho. Entre los dos hay ochenta y tres millones de años. Entre el Tyrannosaurus y tú, sesenta y seis.",
-      "Para hacerse una idea de lo que son ochenta y tres millones de años: es más que toda la era de los mamíferos, desde que se acabaron los dinosaurios hasta este momento, y todavía sobran diecisiete. Para un Tyrannosaurus, un Estegosaurio era exactamente lo que un Tyrannosaurus es para nosotros: un bicho de museo que llevaba muerto una eternidad.",
-      "Los dinosaurios no vivieron en una época. Vivieron en muchas, y entre unas y otras cabe la nuestra entera con sitio de sobra.",
+      "Duermen en el agua, boca arriba, y el mar las va moviendo. Para no despertarse cada una en una punta, se dan la mano y se quedan enganchadas toda la noche. Las madres lo hacen con las crías, y a veces se juntan grupos enteros y acaban formando una balsa de nutrias flotando pegadas.",
+      "Cuando duermen solas usan otro truco igual de bueno: se enrollan una tira de alga alrededor del cuerpo y se quedan amarradas a ella, como quien se ata a un muelle para no irse con la corriente.",
+      "Y lo hacen dormidas, sin enterarse.",
     ],
   },
   {
-    id: "mamuts-piramides",
-    titular: "Cuando se terminó la Gran Pirámide todavía quedaban mamuts vivos",
-    realce: "todavía quedaban mamuts vivos",
-    tema: "Historia",
-    color: "var(--dato-mar)", // el Ártico
+    id: "caballos-no-vomitan",
+    titular: "Los caballos no pueden vomitar",
+    realce: "no pueden vomitar",
+    tema: "Animales",
+    color: "var(--dato-tierra)", // el establo
     mas: [
-      "La Gran Pirámide se dio por terminada hacia el año 2560 antes de Cristo. En la isla de Wrangel, en pleno Ártico, un grupo de mamuts aguantó hasta alrededor del 1650 antes de Cristo. Novecientos años más tarde. Egipto llevaba casi un milenio con la pirámide levantada y en el otro extremo del mundo todavía había mamuts pastando.",
-      "Eran mamuts pequeños, además. La isla se separó del continente hace unos doce mil años con unos cuantos dentro, y en una isla los animales grandes se van encogiendo generación tras generación porque no hay comida para tanto cuerpo. Llegaron a ser unos cientos. Se apagaron por una mezcla de consanguinidad, cambio de clima y la llegada de los humanos, que aparecieron por allí justo cuando quedaban los últimos.",
-      "Así que hubo un momento, y duró siglos, en el que existían a la vez los faraones y los mamuts.",
+      "No es que aguanten mucho ni que les dé apuro: es que no pueden. La puerta que tienen entre el tubo de la garganta y el estómago funciona en un solo sentido. Deja pasar la comida hacia abajo, y cuando el estómago empuja hacia arriba se cierra todavía más fuerte. Desde dentro no hay manera de abrirla.",
+      "Además el tubo entra al estómago en un ángulo muy cerrado, así que cuanto más lleno está, más se aprieta ese cierre. Y los movimientos del propio tubo van solo en una dirección: hacia abajo.",
+      "Por eso un cólico en un caballo es tan serio. Lo que le ha sentado mal no tiene por dónde salir.",
     ],
   },
   {
-    id: "guillotina-star-wars",
-    titular: "Francia guillotinó a un hombre el año que se estrenó La guerra de las galaxias",
-    realce: "el año que se estrenó La guerra de las galaxias",
-    tema: "Historia",
-    color: "var(--dato-rojo)", // la cuchilla
+    id: "cebras-negras",
+    titular: "Las cebras son negras con rayas blancas, no al revés",
+    realce: "negras con rayas blancas",
+    tema: "Animales",
+    color: "var(--dato-gris)", // el blanco y negro
     mas: [
-      "La película se estrenó el 25 de mayo de 1977. El 10 de septiembre de ese mismo año, en la cárcel de Baumettes de Marsella, Hamida Djandoubi murió en la guillotina. Cuatro meses después. Fue la última ejecución con guillotina de Francia y la última decapitación legal de todo Occidente.",
-      "Y no era una antigualla que sobrevivía en un rincón por inercia: la guillotina seguía siendo el método oficial de ejecución de la República francesa, y lo fue hasta que se abolió la pena de muerte, en 1981. La máquina que se asocia a las pelucas y a Robespierre estuvo funcionando hasta hace cuatro días.",
-      "Aquel verano había gente saliendo del cine hablando de naves espaciales.",
+      "Si le afeitas una cebra, la piel que hay debajo es negra entera. El negro es el color de la casa. Lo raro son las bandas blancas: son las zonas donde el pelo no recibe la orden de pintarse y sale sin color.",
+      "Y no hay dos cebras iguales. Cada una lleva su propio dibujo, tan distinto como una huella dactilar, y las crías reconocen a su madre por el patrón igual que nosotros reconocemos una cara.",
+      "Así que la pregunta buena no es por qué tienen rayas blancas. Es por qué se les despinta el negro justo ahí.",
+    ],
+  },
+  {
+    id: "delfines-nombres",
+    titular: "Los delfines se llaman unos a otros por su nombre",
+    realce: "por su nombre",
+    tema: "Animales",
+    color: "var(--dato-mar)", // el mar
+    mas: [
+      "Cada delfín se inventa de pequeño un silbido propio y lo usa el resto de su vida para decir quién es. La mitad de lo que silba un delfín es eso: su nombre, repetido.",
+      "Y se llaman entre ellos. Unos biólogos escoceses grabaron el silbido de un delfín concreto y se lo pusieron por un altavoz a un grupo: contestó ese y ninguno más. Los otros ni se giraron. Además copian el silbido de sus amigos y de su familia para llamarlos desde lejos, que es exactamente lo que hacemos nosotros gritando un nombre.",
+      "Es el único caso conocido de un animal que se pone nombres.",
+    ],
+  },
+  {
+    id: "mas-alto-por-la-manana",
+    titular: "Eres más alto por la mañana que por la noche",
+    realce: "más alto por la mañana",
+    tema: "Cuerpo",
+    color: "var(--dato-rojo)", // por dentro
+    mas: [
+      "Entre uno y dos centímetros. Entre las vértebras de la espalda hay unos discos blandos que hacen de amortiguador, y todo el día de pie el peso del cuerpo los va aplastando un poco. Por la noche, tumbado, no aguantan nada y se vuelven a hinchar.",
+      "Por eso quien mide a la gente en serio apunta también la hora. Y en el espacio, sin ningún peso encima, esos discos se estiran del todo: los astronautas vuelven de una misión larga hasta cinco centímetros más altos, y lo pierden a los pocos días de volver a pisar el suelo.",
+      "Tu récord de altura lo bates todos los días al levantarte de la cama.",
+    ],
+  },
+  {
+    id: "cosquillas",
+    titular: "Nadie puede hacerse cosquillas a sí mismo",
+    realce: "a sí mismo",
+    tema: "Cuerpo",
+    color: "var(--dato-morado)", // el cerebro
+    mas: [
+      "Lo puede intentar cualquiera y no sale. El motivo es que el cerebro va siempre un paso por delante de tu propia mano: antes de que la muevas, ya ha calculado dónde va a tocar y qué vas a notar. Y lo que estaba previsto no hace cosquillas.",
+      "De ese cálculo se encarga una parte de atrás del cerebro que se pasa el día adivinando las consecuencias de tus movimientos, precisamente para que no te sobresalten. Toda la gracia de las cosquillas está en la sorpresa, y contigo mismo no hay sorpresa posible.",
+      "En un experimento montaron una máquina que retrasaba unas décimas de segundo el movimiento del propio dedo. Con ese retraso, y solo con él, las cosquillas volvían a funcionar.",
+    ],
+  },
+  {
+    id: "plastico-de-burbujas",
+    titular: "El plástico de burbujas se inventó para decorar paredes",
+    realce: "para decorar paredes",
+    tema: "Objetos",
+    color: "var(--dato-gris)", // el plástico
+    mas: [
+      "En 1957, dos ingenieros de Nueva Jersey querían fabricar un papel de pared con relieve, muy moderno para la época. Pegaron dos cortinas de ducha de plástico con una máquina de calor y les salió una lámina llena de burbujas de aire atrapadas. Como papel pintado no lo quiso absolutamente nadie.",
+      "Lo intentaron después como aislante para invernaderos y tampoco. Así que se sentaron a buscarle usos y llegaron a apuntar más de cuatrocientos. El que funcionó apareció en 1960: IBM empezó a mandar ordenadores por correo y necesitaba envolverlos en algo que aguantara los golpes.",
+      "Setenta años después sigue siendo lo único que la gente rompe a propósito por gusto.",
+    ],
+  },
+  {
+    id: "pulpo-por-el-pico",
+    titular: "Un pulpo cabe por cualquier agujero por el que le quepa el pico",
+    realce: "por el que le quepa el pico",
+    tema: "Animales",
+    color: "var(--dato-mar)", // el mar
+    mas: [
+      "No tiene ni un solo hueso. Lo único duro de todo su cuerpo es el pico, que se parece al de un loro y le sirve para partir conchas. La cabeza, los ojos, el cuerpo entero: todo lo demás es blando y se puede aplastar tanto como haga falta.",
+      "Así que si el pico pasa, pasa el pulpo. Uno de dos kilos tiene el pico del tamaño de una moneda, y por un agujero de ese tamaño se cuela entero. En los acuarios es un problema conocido y hay que taparlo todo, hasta los desagües.",
+      "Lo demás lo va apretando y estirando hasta que cabe.",
+    ],
+  },
+  {
+    id: "antartida-desierto",
+    titular: "La Antártida es el desierto más grande del mundo",
+    realce: "el desierto más grande del mundo",
+    tema: "El mundo",
+    color: "var(--dato-gris)", // el hielo
+    mas: [
+      "Un desierto no es un sitio con arena y calor: es un sitio donde casi no llueve. En el interior de la Antártida caen unos cincuenta milímetros de agua al año, menos que en el Sáhara. Y ocupa catorce millones de kilómetros cuadrados, así que no solo es desierto: es el más grande que hay.",
+      "Hay zonas donde no cae nada desde hace dos millones de años. Se llaman los valles secos, no tienen ni hielo, y son lo más parecido a Marte que existe en la Tierra: la NASA ha ido allí a probar sus robots antes de mandarlos.",
+      "Todo ese hielo está ahí porque nunca se derrite, no porque nieve mucho.",
+    ],
+  },
+  {
+    id: "pinguinos-piedra",
+    titular: "Los pingüinos le regalan una piedra a su pareja",
+    realce: "una piedra",
+    tema: "Animales",
+    color: "var(--dato-tierra)", // la piedra
+    mas: [
+      "Los pingüinos papúa hacen el nido con piedras, y las buenas —lisas y del tamaño justo— no sobran. Así que el macho busca la mejor que encuentra, se acerca a la hembra que le gusta y se la deja a los pies. Si ella la coge y la pone en el nido, ya hay pareja.",
+      "Y se las roban sin ningún disimulo. Es normal ver a uno llevándose una piedra del nido del vecino mientras el vecino mira para otro lado, y la bronca de picotazos que se monta cuando lo pillan.",
+      "La colonia entera funciona como un mercado de piedras.",
     ],
   },
   {
@@ -202,8 +288,8 @@ export const DATOS: Dato[] = [
     tema: "Tecnología",
     color: "var(--dato-galaxia)", // la Luna
     mas: [
-      "El Apolo 11 alunizó en julio de 1969. La maleta con ruedas la pidió como patente Bernard Sadow en 1970 y se la concedieron en 1972. La idea se le ocurrió arrastrando dos maletas por una aduana mientras veía a un operario mover una máquina enorme, sin esfuerzo, encima de una plataforma con rueditas.",
-      "Y costó venderla. Los grandes almacenes le decían que un hombre no iba a ir tirando de una maleta pudiendo llevarla en brazos, que quedaba mal. Se puso a la venta en Macy's en 1970. La que usas tú —vertical, dos ruedas y asa telescópica— es todavía más tardía: la inventó un piloto de línea aérea en los años ochenta.",
+      "El Apolo 11 alunizó en julio de 1969. La maleta con ruedas la pidió como patente Bernard Sadow en 1970 y se la dieron en 1972. La idea se le ocurrió arrastrando dos maletas por una aduana mientras veía a un operario mover una máquina enorme, sin esfuerzo, encima de una plataforma con rueditas.",
+      "Y costó venderla. Los grandes almacenes le decían que un hombre no iba a ir tirando de una maleta pudiendo llevarla en brazos, que quedaba mal. Salió a la venta en Macy's en 1970. La que usas tú —vertical, dos ruedas y asa que sale y entra— es todavía más tardía: la inventó un piloto de línea aérea en los años ochenta.",
       "Entre pisar la Luna y arrastrar una maleta por un aeropuerto pasó casi un año.",
     ],
   },
@@ -214,98 +300,26 @@ export const DATOS: Dato[] = [
     tema: "Espacio",
     color: "var(--dato-naranja)", // el Sol
     mas: [
-      "La luz va a trescientos mil kilómetros por segundo, que es rapidísimo pero no es instantáneo. Del Sol a aquí hay ciento cincuenta millones de kilómetros, y el viaje le lleva ocho minutos y veinte segundos. O sea que el Sol que estás viendo por la ventana es el de hace ocho minutos.",
-      "Con lo demás es mucho peor. La luz de la estrella más cercana tarda algo más de cuatro años en llegar. La de otras que se ven a simple vista lleva viajando desde antes de que se construyera ninguna catedral. Mirar el cielo de noche es mirar un montón de fechas distintas a la vez.",
-      "Y durante esos ocho minutos todo seguiría exactamente igual. La luz, el calor, las sombras en el suelo. Y ya no habría Sol.",
+      "La luz va a trescientos mil kilómetros por segundo, que es rapidísimo pero no es instantáneo. Del Sol hasta aquí hay ciento cincuenta millones de kilómetros, y el viaje le lleva ocho minutos y veinte segundos. O sea que el Sol que ves por la ventana es el de hace ocho minutos.",
+      "Con lo demás es mucho peor. La luz de la estrella más cercana tarda algo más de cuatro años en llegar, y la de otras que se ven a simple vista lleva viajando desde antes de que se construyera ninguna catedral. El cielo de noche son un montón de fechas distintas a la vez.",
+      "Y durante esos ocho minutos todo seguiría igual. La luz, el calor, las sombras en el suelo. Y ya no habría Sol.",
     ],
   },
-  {
-    id: "papel-doblado",
-    titular: "Un papel doblado cuarenta y dos veces llegaría a la Luna",
-    realce: "llegaría a la Luna",
-    tema: "Números",
-    color: "var(--dato-gris)", // el folio
-    mas: [
-      "Un folio tiene una décima de milímetro de grosor. Al doblarlo una vez tiene dos décimas; a la segunda, cuatro; a la tercera, ocho. Cada pliegue no suma: multiplica por dos. Y multiplicar por dos, hecho muchas veces seguidas, es una de esas cosas que el cerebro humano no está preparado para imaginar.",
-      "A los diez pliegues tienes el grosor de una mano. A los veintitrés, un kilómetro. A los treinta ya son cien kilómetros y estás fuera de la atmósfera. Y a los cuarenta y dos son cuatrocientos cuarenta mil kilómetros. La Luna está a trescientos ochenta y cuatro mil.",
-      "Doblarlo de verdad no se puede, claro: a los pocos pliegues el papel se parte antes que doblarse. Pero las cuentas son las cuentas, y son estas.",
-    ],
-  },
-  {
-    id: "circulo-medio-mundo",
-    titular: "En un círculo del mapa vive más gente que en todo el resto del planeta",
-    realce: "más gente que en todo el resto del planeta",
-    tema: "El mundo",
-    color: "var(--dato-mar)", // el mar de la China
-    mas: [
-      "Se traza un círculo de cuatro mil kilómetros de radio centrado más o menos en el mar de la China Meridional. Dentro caben China, la India, Indonesia, Pakistán, Bangladés, Japón y una veintena de países más. Y dentro viven unos cuatro mil doscientos millones de personas, de los ocho mil que somos.",
-      "Lo dibujó en 2013 un tipo en un mensaje de internet, firmando con el apodo Valeriepieris, y se le quedó el nombre. Años después un cartógrafo de verdad, Alasdair Rae, lo rehizo bien —el original estaba trazado sobre un mapa plano y no sobre una esfera, que no es lo mismo— y le salió lo mismo, solo que con el centro un poco movido.",
-      "Todo lo demás —América entera, África entera, Europa entera, Rusia, Australia— cabe en la otra mitad.",
-    ],
-  },
-  {
-    id: "fax-antes-telefono",
-    titular: "El fax se inventó treinta años antes que el teléfono",
-    realce: "treinta años antes que el teléfono",
-    tema: "Tecnología",
-    color: "var(--dato-gris)", // el cable
-    mas: [
-      "Alexander Bain, un relojero escocés, patentó en 1843 una máquina que copiaba un documento a distancia por un cable. Bell no patentó el teléfono hasta 1876. Treinta y tres años de diferencia.",
-      "Y funcionaba, que es lo mejor. Dos péndulos idénticos balanceándose a la vez, uno en cada punta del cable. El de salida iba recorriendo una plancha de metal punto por punto y, cada vez que tocaba un relieve, mandaba un pulso. El de llegada movía una aguja sobre un papel empapado en una solución que se ennegrecía al pasarle corriente. Línea a línea, ahí aparecía la copia.",
-      "Supimos mandar la letra de alguien antes que su voz.",
-    ],
-  },
-  {
-    id: "cucharilla-estrella",
-    titular: "Una cucharilla de estrella de neutrones pesaría más que toda la humanidad",
-    realce: "más que toda la humanidad",
-    tema: "Espacio",
-    color: "var(--dato-galaxia)", // lo que queda de una estrella
-    mas: [
-      "Cuando una estrella grande se queda sin combustible, se cae hacia dentro de golpe y se aplasta hasta quedarse en una bola de unos veinte kilómetros de ancho —el tamaño de una ciudad— con más masa que el Sol entero metida ahí. A esa presión los átomos ya no tienen hueco: se les va todo el vacío que tienen dentro y queda solo el núcleo.",
-      "Un centímetro cúbico de eso pesa unos cuatrocientos millones de toneladas. Una cucharilla de café son unos cinco centímetros cúbicos: dos mil millones de toneladas. Los ocho mil millones de personas que estamos vivas ahora mismo, todas juntas y subidas a la misma báscula, pesamos alrededor de quinientos millones.",
-      "Cuatro veces la humanidad entera, en una cuchara de las del azúcar.",
-    ],
-  },
-  {
-    id: "anne-frank-luther-king",
-    titular: "Anne Frank y Martin Luther King nacieron el mismo año",
-    realce: "el mismo año",
-    tema: "Historia",
-    color: "var(--dato-morado)", // el siglo que los junta
-    mas: [
-      "1929, con cinco meses de diferencia. Él en enero, en Atlanta. Ella en junio, en Fráncfort. Uno de los dos suena a historia antigua, de esa que se estudia con fotos en blanco y negro, y el otro suena a casi ayer. Son de la misma quinta.",
-      "Anne Frank murió de tifus en Bergen-Belsen a los quince años, unas semanas antes de que los británicos llegaran al campo. A Martin Luther King lo mataron en 1968, a los treinta y nueve, y le dio tiempo a hacer todo lo que hizo. La diferencia entre los dos no es la época: es que a una la mataron a los quince.",
-      "De haber vivido, hoy tendría noventa y siete años. Hay gente de su edad exacta dando charlas en institutos.",
-    ],
-  },
-  /* De la tanda anterior se quedan las cinco que sí impactan —el Krakatoa, la
-     vuelta de Neptuno, la baraja, las dos islas y la medusa— y se caen las cinco
-     que eran solo raras: la lengua del pájaro carpintero, las huellas del koala,
-     la peste del baile de 1518, el wasabi y el forro del estómago. Están en el
-     historial de git si alguna vez hacen falta. */
+  /* Lo que se salva de las tandas anteriores: las que se entienden sin pensar.
+     El Krakatoa —con el titular reescrito, porque «dio cuatro vueltas a la
+     Tierra» obligaba a preguntarse qué es lo que daba vueltas—, la baraja, las
+     dos islas, la medusa, la Luna y las maletas, y los ocho minutos del Sol.
+     Todo lo demás de aquellas tandas está en el historial de git. */
   {
     id: "krakatoa",
-    titular: "El estallido del Krakatoa dio cuatro vueltas a la Tierra",
-    realce: "dio cuatro vueltas a la Tierra",
+    titular: "Un volcán estalló en 1883 y se oyó a cinco mil kilómetros",
+    realce: "se oyó a cinco mil kilómetros",
     tema: "Naturaleza",
     color: "var(--dato-rojo)", // el volcán
     mas: [
       "El 27 de agosto de 1883 la isla voló por los aires, y el ruido se oyó con claridad en Rodrigues, una isla perdida del océano Índico que está a cuatro mil ochocientos kilómetros. Para hacerse una idea: de Madrid a Moscú hay tres mil cuatrocientos. Aquello se oyó mil cuatrocientos kilómetros más lejos todavía, y los que lo oyeron pensaron que eran cañonazos de un barco en apuros.",
       "La onda de presión no se paró ahí. Le dio cuatro vueltas al planeta, y los barómetros de media Europa la fueron registrando cada vez que pasaba por encima, sin que nadie entendiera al principio qué estaban midiendo. En Perth, a tres mil cien kilómetros, la gente salió a la calle a mirar. Y a sesenta y cinco kilómetros del volcán, a los marineros de los barcos que había allí les reventaron los tímpanos.",
       "Es el sonido más fuerte del que se tiene registro. Nadie ha vuelto a oír nada parecido, y con suerte nadie lo oirá.",
-    ],
-  },
-  {
-    id: "neptuno-una-vuelta",
-    titular: "Neptuno solo ha dado una vuelta al Sol desde que lo descubrimos",
-    realce: "una vuelta al Sol",
-    tema: "Espacio",
-    color: "var(--dato-galaxia)", // un planeta
-    mas: [
-      "Tarda ciento sesenta y cinco años terrestres en completar su órbita. Lo encontramos la noche del 23 al 24 de septiembre de 1846, y terminó su primera vuelta el 11 de julio de 2011. O sea que en todo el tiempo que llevamos sabiendo que existe, allí ha pasado un año. Uno.",
-      "Y se encontró de una manera que no se ha repetido con ningún otro planeta: no mirando, sino calculando. Urbain Le Verrier se dio cuenta de que Urano no iba por donde debía, y dedujo con lápiz y papel que tenía que haber algo más grande tirando de él desde más lejos. Mandó las coordenadas por carta a Berlín, y Johann Galle apuntó el telescopio esa misma noche y lo encontró a menos de un grado de donde ponía el papel.",
-      "Es el único planeta que existió primero en un cuaderno.",
     ],
   },
   {
