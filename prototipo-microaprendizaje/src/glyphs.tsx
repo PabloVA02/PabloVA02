@@ -442,14 +442,20 @@ export function GlyphLlama({ tamano = 22 }: { tamano?: number }) {
    veintitrés puntos los dos trazos se juntaban. Y la de sentido: el aro es lo
    que se pone cuando el icono lleva DENTRO una foto tuya, y aquí no hay foto.
 
-   Lo que queda son dos trazos —un círculo y un arco— y se lee antes.
+   Lo que queda son dos trazos, la cabeza y los hombros. Se probaron dos: un
+   arco de circunferencia limpio y ÉSTE, que es el que eligió Pablo —«perfil
+   persona sola»—. La diferencia es que aquí los hombros no son media
+   circunferencia sino una curva que se levanta en los extremos, o sea la forma
+   que tiene un torso de verdad; y la cabeza es tres décimas mayor, que a
+   veintitrés puntos es lo que hace que se lea como una persona y no como una
+   seta.
    ========================================================================== */
 export function GlyphAvatar({ tamano = 24 }: { tamano?: number }) {
   return (
     <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
       <g fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-        <circle cx="12" cy="8.4" r="3.4" />
-        <path d="M5.4 19.8a6.9 6.9 0 0 1 13.2 0" />
+        <circle cx="12" cy="8.3" r="3.7" />
+        <path d="M4.9 20.2c.9-4 3.7-6.2 7.1-6.2s6.2 2.2 7.1 6.2" />
       </g>
     </svg>
   );
