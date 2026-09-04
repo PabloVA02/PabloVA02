@@ -2,7 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { DATOS, type Dato } from "./sabias";
 import { GlyphClose, GlyphGuardar, GlyphShare } from "./glyphs";
-import { Boceto } from "./bocetos";
+/* `Boceto` no se importa: desde el 4 de septiembre los dibujos no se pintan.
+   `src/bocetos.tsx` sigue entero —85 dibujos y once escenas— y para reponerlos
+   hay que volver a importarlo aquí. El porqué está en la tarjeta, más abajo. */
 import { pantalla, spring, suave } from "./motion";
 
 /* ==========================================================================
@@ -158,14 +160,27 @@ export function Sabias() {
                   eso mientras está abierta aquí no se pinta, o habría dos. */}
               {!estaAbierta && (
                 <motion.article layoutId={`sab-${d.id}`} className="sab-carta" transition={spring}>
-                  {/* EL BOCETO. Va encima del texto y a línea, sin relleno ni
-                      color: es el dibujo de lo que se está contando, no un
-                      icono ni una ilustración. Ver `bocetos.tsx`. */}
-                  {d.boceto && (
-                    <div className="sab-boceto">
-                      <Boceto nombre={d.boceto} escena={d.escena} />
-                    </div>
-                  )}
+                  {/* EL BOCETO NO SE PINTA. Pablo, el 4 de septiembre: «quita
+                      los bocetos, en verdad, de los shorts; no queda bien».
+
+                      Es la tercera vuelta del mismo sitio: primero dibujos
+                      hechos a mano —«están fatal hechos»—, después los de
+                      Fluent Emoji con su escena de color, y ahora ninguno. Y
+                      tiene sentido: la frase de un «¿sabías que…?» se sostiene
+                      sola, y un dibujo al lado la convierte en el pie de una
+                      ilustración.
+
+                      NO SE HA BORRADO NADA. `bocetos.tsx` sigue entero con sus
+                      85 dibujos y sus once escenas, y cada dato conserva su
+                      `boceto` y su `escena`. Para que vuelvan, se descomenta
+                      esto y se repone `.sab-boceto` en `styles.css`:
+
+                        {d.boceto && (
+                          <div className="sab-boceto">
+                            <Boceto nombre={d.boceto} escena={d.escena} />
+                          </div>
+                        )}
+                  */}
                   <motion.p layoutId={`sab-tema-${d.id}`} className="sab-tema">
                     {d.tema}
                   </motion.p>

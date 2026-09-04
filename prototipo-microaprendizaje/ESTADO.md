@@ -1679,23 +1679,31 @@ mientras se mueve y el movimiento saldría a tirones.
 lo empequeñece. En su sitio va un dibujo, uno por entrada, y es lo único que
 avisa de que has cambiado de tema antes de leer una palabra.
 
-**Y ese dibujo NO lo dibujamos nosotros.** Se probó y salió mal: Pablo devolvió
-los míos el 4 de septiembre —«están fatal hechos»— y acertaba, porque a ese
-grosor de línea un gato y un perro de frente eran el mismo bulto. Los de ahora
-son de **Fluent Emoji**, de Microsoft, alto contraste, licencia MIT. Están
-empotrados en `src/bocetos.tsx` de uno en uno: el paquete trae mil quinientos y
-usamos 85, y meterlo entero por el cinco por ciento no cabe en el tope de
-dieciséis megas del simulador. El aviso de copyright va en la cabecera de ese
-fichero, que es la única condición de la licencia y por eso no se borra.
+**Y AL FINAL NO HAY DIBUJO.** El 4 de septiembre se probaron dos tandas. La
+primera, dibujada a mano, la devolvió el mismo día —«están fatal hechos»— y
+acertaba: a ese grosor de línea un gato y un perro de frente eran el mismo
+bulto. La segunda salió de **Fluent Emoji**, de Microsoft, con una escena de
+color detrás de cada uno —el mar sus olas azules, el campo su línea de suelo—.
+Estaba bien hecha, y también se cayó: «quita los bocetos, en verdad, de los
+shorts; no queda bien».
 
-**El color vive en la ESCENA, no en el dibujo.** Detrás de cada uno hay un
-círculo de color suave y dos o tres trazos: el mar sus olas azules, el campo su
-línea de suelo, la noche sus estrellas, el motor sus rayas rojas de velocidad.
-Once escenas para cien datos, a propósito —con una por dato serían cien
-pegatinas—. Y cuando la escena discutiría con el dato, manda el dato: el
-atardecer de Marte es azul, así que su círculo es azul aunque el dibujo sea el
-mismo sol poniente de siempre. Eso se dice en el campo `escena` del dato, y hay
-doce excepciones así.
+Y es lo correcto aunque costara dos vueltas verlo: la frase de un «¿sabías
+que…?» se sostiene sola —para eso se ha peleado tanto que cuente el dato
+entero—, y un dibujo al lado la convierte en el pie de una ilustración.
+
+**NO SE HA BORRADO NADA.** `src/bocetos.tsx` sigue con sus 85 dibujos y sus once
+escenas, y cada dato conserva su `boceto` y su `escena`. Cómo reponerlos está
+escrito en `Sabias.tsx`, en el hueco donde se pintaban. Y el aviso de copyright
+de Fluent Emoji se queda donde está, porque la licencia obliga mientras el
+código esté en el repositorio.
+
+**LO QUE SÍ QUEDA ES LA TARJETA.** Al quitar el dibujo, la frase se quedaba
+flotando en medio de la pantalla, y Pablo lo vio venir: «no sé si poner un
+cuadrado o así que rodee la frase, como antes». Se le pasaron cinco acabados
+con `scripts/tarjeta-sabias.mjs` y está puesto el término medio: un filo de un
+punto al 12 % y de relleno `--tarjeta`, que es medio tono por encima del papel
+de la sección. La tarjeta blanca con sombra del principio pesaba demasiado
+sobre el crema; sin nada, la frase no tenía dónde apoyarse.
 
 **El tamaño de la letra no se mide, se elige por tramos** según lo que ocupe la
 frase. En los shorts hay un bucle que mide y encoge y cuesta cientos de

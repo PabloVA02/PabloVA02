@@ -579,16 +579,22 @@ Así que la sección queda así, y las tres cosas van juntas:
   nombre» ya está completo. Cuando la versión corta deja la pregunta puesta
   —«el velcro se copió de una planta»— se alarga lo justo para cerrarla y ni
   una palabra más. Los cien están entre 21 y 61 caracteres, con 40 de media.
-- **Un dibujo por dato**, y no hecho por nosotros. Los primeros los dibujé a
-  mano y Pablo los devolvió el mismo día: «no me gustan nada los bocetos, están
-  fatal hechos». Tenía razón —un gato y un perro de frente, a ese grosor de
-  línea, eran el mismo bulto—. Ahora salen de **Fluent Emoji**, de Microsoft,
-  en su variante de alto contraste: mil quinientos dibujos monocromos hechos
-  por un equipo de verdad y consistentes entre sí, con licencia MIT. Viven en
-  `src/bocetos.tsx`, empotrados uno a uno —se usan 85 de los mil quinientos— y
-  con el aviso de copyright escrito en la cabecera del fichero, que es la única
-  condición que pone esa licencia. Hay menos dibujos que datos a propósito; el
-  que no tenga el suyo se queda con el más cercano de su familia.
+- **Y NINGÚN DIBUJO. La frase va sola.** Se probaron dos tandas el mismo 4 de
+  septiembre: primero unos dibujados a mano —«no me gustan nada los bocetos,
+  están fatal hechos», y tenía razón, porque a ese grosor de línea un gato y un
+  perro de frente eran el mismo bulto— y después los de **Fluent Emoji**, de
+  Microsoft, profesionales y con su escena de color. Esa segunda tanda estaba
+  bien hecha y también se cayó: «quita los bocetos, en verdad, de los shorts;
+  no queda bien».
+
+  Y es la decisión correcta, aunque costara dos vueltas descubrirlo: un
+  «¿sabías que…?» se sostiene con la frase sola —para eso se ha peleado tanto
+  que la frase cuente el dato entero—, y un dibujo al lado la convierte en el
+  pie de una ilustración. Lo que se mira deja de ser lo que se lee.
+
+  **No se ha borrado nada.** `src/bocetos.tsx` sigue entero con sus 85 dibujos
+  y sus once escenas, y cada dato conserva su `boceto` y su `escena`. Cómo
+  reponerlos está escrito en `Sabias.tsx`, en el hueco donde se pintaban.
 - **Y la página en dos tintas.** Fuera el color de acento del rótulo, de la
   frase y de los botones. El trozo que sorprende ya no se tiñe: se subraya con
   una línea finísima, que es lo que haría alguien con un lápiz encima de su
@@ -596,34 +602,29 @@ Así que la sección queda así, y las tres cosas van juntas:
   relleno se convierte en la mancha más oscura de la pantalla y se lleva la
   mirada que tenía que ir a la frase.
 
-**Ojo con la contradicción, que es real:** el apartado 4 quater dice que el
-color de las palabras teñidas significa algo. Eso sigue mandando EN LOS SHORTS.
-En «¿Sabías que…?» no hay color, y no es un olvido.
-
-### El color entró por el dibujo, no por la letra
+### El color entró por el dibujo, y se fue con él
 
 Pablo, el mismo 4 de septiembre, viendo los dibujos ya profesionales: «puedes
 dibujar más si quieres y pones algún color que otro, por ejemplo un delfín y
 con las olas del mar azules; sabes, algún detalle en color para que quede
 bonito».
 
-O sea que la página se queda en dos tintas —la letra no vuelve a teñirse— y el
-color entra por otro sitio: **cada dibujo va sobre una escena**, que es un
-círculo de color muy suave y dos o tres trazos encima. El mar lleva sus olas
-azules, el campo su línea de suelo, la noche sus estrellas, el motor sus rayas
-de velocidad en rojo. El dibujo en sí sigue sin pintarse: va en la tinta de la
-página, encima.
+Así se hizo: la letra se quedó en dos tintas y el color entró por otro sitio
+—cada dibujo iba sobre una ESCENA, un círculo de color muy suave con dos o tres
+trazos: el mar sus olas azules, el campo su línea de suelo, la noche sus
+estrellas—. Once escenas para cien datos, para que el conjunto se leyera como
+una colección y no como cien pegatinas.
 
-Son once escenas para cien datos, y ese número es la gracia: con una por dato
-serían cien pegatinas distintas; con once, el conjunto se lee como una
-colección. Están en `src/bocetos.tsx`, en `ESCENAS`.
+**Y se fue esa misma tarde, con los dibujos.** Quitado el dibujo, no queda
+dónde poner el color: en la letra ya se había descartado, y teñir el marco de
+la tarjeta sería inventar un sitio nuevo para un color que no lo pedía.
 
-**Y la escena tiene que decir la verdad.** Es la misma norma del 4 quater, solo
-que aplicada al dibujo: el atardecer de Marte usa el mismo sol poniente que el
-nuestro, y ahí el círculo naranja MIENTE, porque el dato es justamente que allí
-el atardecer es azul. Para eso está el campo `escena` de cada dato, que pisa la
-del dibujo. A 4 de septiembre hay doce excepciones así, y todas son iguales de
-fondo: **cuando el color de la escena discute con el dato, manda el dato.**
+Así que la pantalla queda en dos tintas, sin excepción. Lo que la separa de la
+de al lado no es el color: es la frase.
+
+**Ojo con la contradicción, que es real:** el apartado 4 quater dice que el
+color de las palabras teñidas significa algo. Eso sigue mandando EN LOS SHORTS.
+En «¿Sabías que…?» no hay color, y no es un olvido.
 
 ### Y en un short es el mismo criterio, con su propia paleta
 
