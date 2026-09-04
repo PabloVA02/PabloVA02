@@ -326,20 +326,44 @@ export function Explorar({
 }
 
 /* --------------------------------------------------------------------------
-   Tendencias.
+   Tendencias: DEL 1 AL 10, con el número grande.
 
-   La cubierta grande y debajo la promesa. El número de orden va ENCIMA de la
-   cubierta, en la esquina de abajo a la izquierda y medio salido: puesto
-   dentro se comía el dibujo, y puesto debajo competía con la promesa por la
-   misma línea de lectura.
+   Pablo, el 4 de septiembre: «en tendencias enumera, como te dije, poniendo
+   los números en grande; hazlo bonito y que esté bien puesto y cuadrado. Solo
+   pones del 1 al 10. En tendencias solo pones Tendencias y ya, con el mismo
+   tamaño y la misma letra que la de libro diario gratis».
+
+   Las tres cosas y por qué:
+
+   DIEZ Y NO VEINTE. Una lista numerada dice cuántos son por el último número
+   que enseña, y a la vez es una promesa: el diez tiene que ser mejor que el
+   once. Con veintiuno escritos, del undécimo en adelante el orden ya no lo
+   sostenía nada. Los otros once siguen en `tendencias.ts` y vuelven subiendo
+   ese diez.
+
+   EL NÚMERO, GRANDE Y DEBAJO. Estuvo a 21 puntos con una raya al lado, y antes
+   a 250 al modo de Netflix, que se comía la sección entera. Ahora va a 44,
+   solo, alineado con el canto izquierdo de la cubierta y de la promesa: el
+   número, la cubierta y el texto arrancan los tres en la misma vertical, que
+   es lo que hace que la tira se lea cuadrada.
+
+   Y NO VA ENCIMA DE LA CUBIERTA. Ahí taparía el nombre del autor, que es lo
+   que ponen todas las cubiertas justo en esa esquina.
+
+   EL RÓTULO, A SECAS. Se fue el «Los que prometen algo, y lo cumplen»: la
+   promesa de cada libro está escrita debajo de su cubierta, así que el
+   subtítulo lo decía dos veces.
    -------------------------------------------------------------------------- */
+
+/** Cuántas caben en la lista. Diez, y el número se enseña. */
+const CUANTAS_TENDENCIAS = 10;
 
 function Tendencias({ onAbrir }: { onAbrir: (l: Libro) => void }) {
   const libros = useMemo(
     () =>
-      TENDENCIAS.map((t) => ({ t, libro: porId(t.id) })).filter(
-        (x): x is { t: (typeof TENDENCIAS)[number]; libro: Libro } => !!x.libro,
-      ),
+      TENDENCIAS.map((t) => ({ t, libro: porId(t.id) }))
+        .filter((x): x is { t: (typeof TENDENCIAS)[number]; libro: Libro } => !!x.libro)
+        .slice(0, CUANTAS_TENDENCIAS),
     [],
   );
   if (!libros.length) return null;
@@ -347,10 +371,7 @@ function Tendencias({ onAbrir }: { onAbrir: (l: Libro) => void }) {
   return (
     <section className="bloque tendencias">
       <div className="bloque-cabecera">
-        <div>
-          <h2>Tendencias</h2>
-          <p className="bloque-sub">Los que prometen algo, y lo cumplen</p>
-        </div>
+        <h2>Tendencias</h2>
       </div>
       <div className="carrusel tend-tira">
         {libros.map(({ t, libro }, i) => (
@@ -366,14 +387,9 @@ function Tendencias({ onAbrir }: { onAbrir: (l: Libro) => void }) {
             <div className="tend-arte">
               <Portada libro={libro} tamano={148} />
             </div>
-            {/* El número va debajo, en su raya, y no encima del dibujo: ahí
-                taparía el nombre del autor, que es lo que ponen todas las
-                cubiertas en esa esquina. La explicación entera está en el CSS,
-                en `.tend-rango`. */}
-            <p className="tend-rango" aria-hidden>
-              <span className="tend-numero">{i + 1}</span>
-              <span className="tend-raya" />
-            </p>
+            {/* El puesto. `aria-hidden` porque el orden ya lo dice la lista a
+                quien la escucha, y oír «uno» antes de cada título sobra. */}
+            <p className="tend-numero" aria-hidden>{i + 1}</p>
             <p className="tend-promesa">{t.promesa}</p>
             <p className="tend-pie">
               {libro.autor} · {tiempo(minutosDeLibro(libro))}

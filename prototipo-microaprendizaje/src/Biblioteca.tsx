@@ -7,18 +7,20 @@ import {
 } from "./undraw";
 import { enterVariants, pantalla, spring, springPop, springSoft, springTight } from "./motion";
 import {
-  GlyphAuriculares, GlyphAvatar, GlyphClose, GlyphDescargar, GlyphGuardar,
-  GlyphLeer, GlyphLupa, GlyphPaginas, GlyphPuntos, GlyphRegalo,
-  GlyphReloj, GlyphShare, GlyphVisto,
+  GlyphAuriculares, GlyphAvatar, GlyphClose, GlyphDescargado, GlyphDescargar,
+  GlyphGuardar, GlyphLeer, GlyphLupa, GlyphPaginas, GlyphPuntos, GlyphQuitar,
+  GlyphRegalo, GlyphReloj, GlyphShare, GlyphTresPuntos, GlyphVisto,
 } from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
 import { APRENDERAS } from "./libros/aprenderas";
 import { PAGINAS, PAGINAS_POR_RESUMEN, minutosDePaginas } from "./libros/paginas";
 import { PUNTOS } from "./libros/puntos";
+import { SUPERVENTAS } from "./libros/superventas";
 import { desbloquea } from "./voz";
 import { SUBTITULOS } from "./libros/subtitulos";
 import { PortadaLibro } from "./PortadaLibro";
 import { TiraColecciones } from "./Colecciones";
+import { Hoja } from "./Hoja";
 import { GestionaTemas } from "./Temas";
 import { COLECCIONES_A_LA_VISTA, type Coleccion } from "./colecciones";
 import { LibroDelDia, libroDeHoy, librosGratisDeHoy } from "./LibroDelDia";
@@ -275,8 +277,10 @@ export function MiBiblioteca({
   guardados,
   terminados,
   empezados = [],
+  paginaDe,
   onAbrir,
   onGuardar,
+  onTerminar,
   onExplorar,
 }: {
   guardados: ReadonlySet<string>;
@@ -284,14 +288,56 @@ export function MiBiblioteca({
   terminados: ReadonlySet<string>;
   /** Los que se han abierto a leer alguna vez, en orden. Los lleva `App`. */
   empezados?: readonly string[];
+  /** Por qué página va cada libro. De aquí sale la barra de cada cubierta. */
+  paginaDe?: Record<string, { n: number; en: number }>;
   onAbrir: (libro: Libro) => void;
   onGuardar: (libro: Libro) => void;
+  /** Darlo por leído desde el menú, sin tener que abrirlo y llegar al final. */
+  onTerminar?: (libro: Libro) => void;
   /** Salida de la pantalla vacía: no se deja a nadie delante de una nada. */
   onExplorar: () => void;
 }) {
   const [filtro, setFiltro] = useState<Estado>("todo");
   const [buscando, setBuscando] = useState(false);
   const [busca, setBusca] = useState("");
+  /* El libro cuyo menú está abierto, o nada. Uno solo: dos menús a la vez no
+     tienen sentido y guardarlo por id evitaría tener que buscarlo otra vez. */
+  const [menu, setMenu] = useState<Libro | null>(null);
+
+  /* LO DESCARGADO SE RECUERDA. En un prototipo no hay nada que bajar, pero el
+     botón tiene que comportarse como el de verdad: se pulsa una vez, se queda
+     hecho, y sigue hecho al volver a entrar. Por eso vive en el almacén del
+     navegador y no en un estado que se borra al cambiar de pantalla. */
+  const [descargados, setDescargados] = useState<ReadonlySet<string>>(() => {
+    try {
+      return new Set((localStorage.getItem("curva.descargados") || "").split(",").filter(Boolean));
+    } catch {
+      return new Set();
+    }
+  });
+  const alternarDescarga = (l: Libro) =>
+    setDescargados((antes) => {
+      const ahora = new Set(antes);
+      if (ahora.has(l.id)) ahora.delete(l.id);
+      else ahora.add(l.id);
+      try {
+        localStorage.setItem("curva.descargados", [...ahora].join(","));
+      } catch {
+        /* Navegación privada: se pierde al salir y no pasa nada. */
+      }
+      return ahora;
+    });
+
+  /* CUÁNTO LLEVA LEÍDO DE CADA UNO, en la misma cuenta que la barra grande del
+     inicio: las páginas enteras pasadas más el trozo que lleva de la de ahora,
+     sobre las que tiene el libro. Un libro terminado no enseña barra: ya no es
+     algo que estés siguiendo. */
+  const avanceDe = (l: Libro) => {
+    if (terminados.has(l.id)) return 0;
+    const marca = paginaDe?.[l.id];
+    if (!marca) return 0;
+    return Math.min(1, (marca.n + marca.en) / Math.max(1, paginasDeLibro(l)));
+  };
 
   /* GUARDADOS SON TODOS LOS QUE LLEVAN EL MARCADOR, sin más condiciones.
      Estaban excluidos los que ya se estaban leyendo, con la idea de que cada
@@ -468,6 +514,11 @@ export function MiBiblioteca({
                       onAbrir={() => onAbrir(l)}
                       guardado={guardados.has(l.id)}
                       onGuardar={() => onGuardar(l)}
+                      avance={avanceDe(l)}
+                      acciones
+                      descargado={descargados.has(l.id)}
+                      onDescargar={() => alternarDescarga(l)}
+                      onMenu={() => setMenu(l)}
                     />
                   ))}
                 </div>
@@ -493,8 +544,85 @@ export function MiBiblioteca({
           </p>
         )}
       </div>
+
+      {/* EL MENÚ DE LOS TRES PUNTOS. Pablo dijo qué va dentro: «compartir,
+          quitar de la biblioteca o marcar como terminado».
+
+          Va en la hoja de siempre y no en un globo pegado al botón: son
+          cubiertas de 148 puntos pegadas al borde de la pantalla, y un globo
+          ahí se sale o tapa la cubierta de al lado. La hoja siempre cabe, se
+          cierra arrastrando y ya se sabe usar en el resto de la app.
+
+          El título es el del libro: tocas tres puntos en una fila de
+          cubiertas parecidas y lo primero que hay que confirmar es cuál. */}
+      <Hoja abierta={!!menu} titulo={menu?.titulo ?? ""} pie={menu?.autor} onCerrar={() => setMenu(null)}>
+        <div className="menu-libro">
+          <button
+            type="button"
+            className="menu-fila"
+            onClick={() => {
+              const l = menu;
+              setMenu(null);
+              if (l) comparteLibro(l);
+            }}
+          >
+            <span className="menu-icono" aria-hidden><GlyphShare /></span>
+            Compartir
+          </button>
+          <button
+            type="button"
+            className="menu-fila"
+            onClick={() => {
+              const l = menu;
+              setMenu(null);
+              if (l) onTerminar?.(l);
+            }}
+            /* Terminado ya: la fila se queda, apagada. Quitarla movería las
+               otras dos de sitio según el libro, y un menú que cambia de
+               forma obliga a leerlo entero cada vez. */
+            disabled={!!menu && terminados.has(menu.id)}
+          >
+            <span className="menu-icono" aria-hidden><GlyphVisto tamano={17} /></span>
+            {menu && terminados.has(menu.id) ? "Ya está terminado" : "Marcar como terminado"}
+          </button>
+          <button
+            type="button"
+            className="menu-fila"
+            data-peligro
+            onClick={() => {
+              const l = menu;
+              setMenu(null);
+              if (l) onGuardar(l);
+            }}
+          >
+            <span className="menu-icono" aria-hidden><GlyphQuitar /></span>
+            Quitar de la biblioteca
+          </button>
+        </div>
+      </Hoja>
     </motion.div>
   );
+}
+
+/* COMPARTIR. En un móvil de verdad esto abre la bandeja del sistema; donde no
+   la haya —un navegador de escritorio— se copia el enlace, que es lo más
+   parecido a lo que esperabas. Y si tampoco se puede, no se hace nada ruidoso:
+   un fallo al compartir no merece un cartel de error. */
+function comparteLibro(l: Libro) {
+  const datos = {
+    title: l.titulo,
+    text: `${l.titulo}, de ${l.autor}, resumido en Curva.`,
+    url: `https://pablova02.github.io/curva/?libro=${l.id}`,
+  };
+  try {
+    if (typeof navigator !== "undefined" && navigator.share) {
+      void navigator.share(datos).catch(() => {});
+      return;
+    }
+    void navigator?.clipboard?.writeText(datos.url).catch(() => {});
+  } catch {
+    /* Sin permiso para compartir ni para copiar. Se queda como estaba. */
+  }
 }
 
 /* -------------------------------------------------------------------------
@@ -515,6 +643,11 @@ export function FichaLibro({
   i,
   guardado = false,
   onGuardar,
+  avance = 0,
+  acciones = false,
+  descargado = false,
+  onDescargar,
+  onMenu,
 }: {
   libro: Libro;
   onAbrir: () => void;
@@ -522,6 +655,28 @@ export function FichaLibro({
   /** Si ya está en su biblioteca. Pinta el botón en azul y macizo. */
   guardado?: boolean;
   onGuardar?: () => void;
+  /**
+   * LO QUE LLEVA LEÍDO, de 0 a 1, y lo que pinta la barra de debajo.
+   *
+   * Va aparte de `libro.progreso` a propósito: ese es un número escrito a mano
+   * en los datos de muestra y no lo mueve nadie al leer. Este sale de la
+   * página por la que va de verdad, y quien lo calcula es quien tiene esa
+   * cuenta —`App`— y lo baja hasta aquí.
+   */
+  avance?: number;
+  /**
+   * EN LA BIBLIOTECA EL MARCADOR SOBRA. Pablo, el 4 de septiembre: «el botón
+   * de guardar nuestro lo quitas porque en ese caso no tiene sentido, y pones
+   * lo suyo, descargar, y los tres puntitos».
+   *
+   * Y tiene razón: un libro que ya está en tu biblioteca no se guarda otra
+   * vez. Lo que hace falta ahí es lo contrario —sacarlo— y eso vive dentro del
+   * menú, junto a compartir y a darlo por terminado.
+   */
+  acciones?: boolean;
+  descargado?: boolean;
+  onDescargar?: () => void;
+  onMenu?: () => void;
 }) {
   return (
     <motion.button
@@ -541,40 +696,98 @@ export function FichaLibro({
             Al pulsarlo se pone azul y da un rebote, y sale el aviso de que se
             ha guardado. El rebote va en el propio icono y no en el botón: si
             escala la caja, el filete y la esquina de la cubierta se mueven con
-            ella y parece que la ficha entera tiembla. */}
-        <motion.span
-          className="ficha-guardar"
-          data-guardado={guardado}
-          role="button"
-          tabIndex={-1}
-          aria-label={guardado ? "Quitar de tu biblioteca" : "Guardar en tu biblioteca"}
-          aria-pressed={guardado}
-          onClick={(e) => {
-            e.stopPropagation();
-            onGuardar?.();
-          }}
-          whileTap={{ scale: 0.86 }}
-        >
+            ella y parece que la ficha entera tiembla.
+
+            Dentro de la biblioteca no se pinta: allí el libro ya está dentro y
+            lo que hay son las dos teclas de abajo. */}
+        {!acciones && (
           <motion.span
-            className="guardar-icono"
-            animate={guardado ? { scale: [1, 1.34, 1], rotate: [0, -9, 0] } : { scale: 1, rotate: 0 }}
-            transition={springPop}
+            className="ficha-guardar"
+            data-guardado={guardado}
+            role="button"
+            tabIndex={-1}
+            aria-label={guardado ? "Quitar de tu biblioteca" : "Guardar en tu biblioteca"}
+            aria-pressed={guardado}
+            onClick={(e) => {
+              e.stopPropagation();
+              onGuardar?.();
+            }}
+            whileTap={{ scale: 0.86 }}
           >
-            <GlyphGuardar relleno={guardado} />
+            <motion.span
+              className="guardar-icono"
+              animate={guardado ? { scale: [1, 1.34, 1], rotate: [0, -9, 0] } : { scale: 1, rotate: 0 }}
+              transition={springPop}
+            >
+              <GlyphGuardar relleno={guardado} />
+            </motion.span>
           </motion.span>
-        </motion.span>
+        )}
         <Portada libro={libro} tamano={148} />
-        {libro.progreso > 0 && (
-          <div className="ficha-barra">
-            <motion.div
-              className="ficha-relleno"
-              initial={{ scaleX: 0 }}
-              animate={{ scaleX: libro.progreso }}
-              transition={{ ...springSoft, delay: 0.3 + i * 0.05 }}
-            />
+        {/* Descargar y el menú, apoyados en el borde de abajo de la cubierta.
+            Medido en la captura de Pablo, en un móvil de 375: teclas de 39
+            puntos, ocho de margen por los tres lados, esquinas de 11 y el
+            mismo gris macizo del marcador. */}
+        {acciones && (
+          <div className="ficha-teclas">
+            <motion.span
+              className="ficha-tecla"
+              data-hecho={descargado}
+              role="button"
+              tabIndex={-1}
+              aria-label={descargado ? "Descargado para leer sin conexión" : "Descargar para leer sin conexión"}
+              onClick={(e) => {
+                e.stopPropagation();
+                onDescargar?.();
+              }}
+              whileTap={{ scale: 0.9 }}
+            >
+              {descargado ? <GlyphDescargado /> : <GlyphDescargar />}
+            </motion.span>
+            <motion.span
+              className="ficha-tecla"
+              role="button"
+              tabIndex={-1}
+              aria-label={`Más opciones de ${libro.titulo}`}
+              aria-haspopup="menu"
+              onClick={(e) => {
+                e.stopPropagation();
+                onMenu?.();
+              }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <GlyphTresPuntos />
+            </motion.span>
           </div>
         )}
       </div>
+      {/* LA BARRA DE PROGRESO, DEBAJO DE LA CUBIERTA Y NO ENCIMA.
+
+          Estaba dentro, flotando sobre el dibujo con un carril blanco, y
+          Pablo mandó la de Headway: «cópiame la barra azul de progreso de
+          seguir leyendo, hazla igual o casi casi igual». Medida en su
+          captura: ocho puntos de alto, todo el ancho de la cubierta, extremos
+          redondos, carril gris y relleno azul.
+
+          Y fuera de la cubierta es mejor sitio: encima tapaba justo el pie de
+          la portada, que es donde suele ir el nombre del autor impreso. */}
+      {avance > 0 && (
+        <div
+          className="ficha-barra"
+          role="progressbar"
+          aria-valuenow={Math.round(avance * 100)}
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-label={`Llevas leído el ${Math.round(avance * 100)} %`}
+        >
+          <motion.div
+            className="ficha-relleno"
+            initial={{ scaleX: 0 }}
+            animate={{ scaleX: avance }}
+            transition={{ ...springSoft, delay: 0.3 + i * 0.05 }}
+          />
+        </div>
+      )}
       {/* Bajo la cubierta va el AUTOR y nada más. Es lo que hace la
           referencia, y tiene su lógica: el título ya está escrito, grande,
           en la propia cubierta, así que repetirlo debajo era decir dos veces
@@ -696,6 +909,14 @@ export function Inicio({
   /* Sus intereses primero, y dentro de cada bloque el orden del catálogo.
      Es la única personalización real que puede hacer el prototipo, y se nota
      nada más entrar: lo que pidió está arriba. */
+  /* Los superventas, en el orden en que están escritos —de más vendido a
+     menos— y sin filtrar por nada. Se cae el que no esté en el catálogo, que
+     es la única manera de que borrar un libro no deje un hueco aquí. */
+  const superventas = useMemo(
+    () => SUPERVENTAS.map((s) => LIBROS.find((l) => l.id === s.id)).filter((l): l is Libro => !!l),
+    [],
+  );
+
   const recomendados = useMemo(() => {
     const libres = LIBROS.filter((l) => l.progreso === 0);
     if (filtro) return libres.filter((l) => l.categoria === filtro);
@@ -880,14 +1101,23 @@ export function Inicio({
         <section className="bloque">
           <div className="bloque-cabecera">
             <div>
-              <h2>{filtro ?? (intereses.length ? "Para ti" : "Recomendados")}</h2>
-              <p className="bloque-sub">
-                {filtro
-                  ? `${recomendados.length} ${recomendados.length === 1 ? "libro" : "libros"}`
-                  : intereses.length
-                    ? "Empezando por lo que elegiste"
-                    : "Creemos que te van a gustar"}
-              </p>
+              {/* «PARA TI» Y NADA MÁS. Pablo, el 4 de septiembre: «en vez de
+                  recomendados quiero que solo ponga Para ti». Decía
+                  «Recomendados» a secas para quien todavía no había elegido
+                  temas y «Para ti» para quien sí, con un subtítulo debajo que
+                  explicaba cuál de las dos cosas era.
+
+                  El nombre vale igual en los dos casos y el subtítulo sobraba:
+                  al lado hay un botón que dice «Gestionar», que es de donde se
+                  saca que esto se puede cambiar. Con el filtro puesto sí queda
+                  el rótulo de la categoría y su cuenta, porque ahí el número es
+                  el resultado de lo que acabas de pulsar. */}
+              <h2>{filtro ?? "Para ti"}</h2>
+              {filtro && (
+                <p className="bloque-sub">
+                  {recomendados.length} {recomendados.length === 1 ? "libro" : "libros"}
+                </p>
+              )}
             </div>
             {/* Lleva a los mismos filtros de arriba: es el atajo para quien
                 entra queriendo cambiar lo que le proponemos, no para quien
@@ -918,6 +1148,37 @@ export function Inicio({
             </AnimatePresence>
           </div>
         </section>
+
+        {/* BEST SELLERS, JUSTO DEBAJO. Pablo, el 4 de septiembre: «y debajo
+            otra fila de best sellers».
+
+            El sitio importa y es el que él dijo: primero lo que te podría
+            gustar a TI, y después lo que le ha gustado a todo el mundo. Al
+            revés, la fila personal quedaría de apéndice de la general.
+
+            Con un filtro puesto no sale. El filtro es una categoría —«Historia»,
+            «Dinero»— y una lista de superventas no se filtra por tema sin
+            dejar de ser lo que es: los tres más vendidos de una categoría no
+            son best sellers, son los tres primeros de una lista corta. */}
+        {!filtro && (
+          <section className="bloque">
+            <div className="bloque-cabecera">
+              <h2>Best sellers</h2>
+            </div>
+            <div className="carrusel">
+              {superventas.map((l, i) => (
+                <FichaLibro
+                  key={l.id}
+                  libro={l}
+                  i={Math.min(i, 9)}
+                  onAbrir={() => onAbrir(l)}
+                  guardado={guardados?.has(l.id)}
+                  onGuardar={onGuardar && (() => onGuardar(l))}
+                />
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Las colecciones van justo debajo de lo que recomendamos, que es
             donde las ponen Headway y Blinkist. El sitio no es capricho suyo:

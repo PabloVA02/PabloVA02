@@ -352,6 +352,27 @@ export default function App() {
     setAvisoGuardado(estaba ? "Quitado de tu biblioteca" : "Guardado en tu biblioteca");
   }
 
+  /* DARLO POR LEÍDO DESDE EL MENÚ DE LA BIBLIOTECA, sin abrirlo y llegar al
+     final. Hace lo mismo que «Finalizar resumen» en las dos cosas que importan
+     —apuntarlo en terminados y olvidar por dónde iba—, y no toca los minutos
+     ni las ideas: esos son de lo que se ha leído de verdad, y marcar una
+     casilla no es haber leído. */
+  function darPorTerminado(l: Libro) {
+    setTerminados((antes) => {
+      const ahora = new Set(antes).add(l.id);
+      guardaLista("curva.terminados", [...ahora]);
+      return ahora;
+    });
+    setPaginaDe((antes) => {
+      if (!(l.id in antes)) return antes;
+      const ahora = { ...antes };
+      delete ahora[l.id];
+      guardaMapa("curva.paginas", ahora);
+      return ahora;
+    });
+    setAvisoGuardado("Marcado como terminado");
+  }
+
   /** El aviso del regalo: se enseña una vez, al llegar al inicio. */
   const [avisoRegalo, setAvisoRegalo] = useState(false);
   const [regaloVisto, setRegaloVisto] = useState(false);
@@ -572,11 +593,13 @@ export default function App() {
               guardados={guardados}
               terminados={terminados}
               empezados={empezados}
+              paginaDe={paginaDe}
               onAbrir={(l) => {
                 setLibro(l);
                 setPantalla("detalle");
               }}
               onGuardar={alternarGuardado}
+              onTerminar={darPorTerminado}
               onExplorar={() => setPantalla("inicio")}
             />
           )}

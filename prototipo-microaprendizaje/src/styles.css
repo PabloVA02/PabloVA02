@@ -1247,22 +1247,88 @@ button {
 }
 .portada svg { width: 82%; height: 82%; }
 
+/* LA BARRA DE PROGRESO DE UNA CUBIERTA, calcada de la captura de Headway que
+   mandó Pablo el 4 de septiembre —«hazla igual o casi casi igual»—. Medida en
+   sus píxeles, a 2x: alto 16, o sea 8; ancho el de la cubierta entera; carril
+   #4e4e4e; relleno #0097fb; y diecisiete puntos entre el borde de abajo de la
+   cubierta y el arranque de la barra, o sea ocho.
+
+   Estaba dentro de la cubierta, flotando con un carril blanco translúcido, y
+   ahí tapaba el pie de la portada, que es justo donde suele ir impreso el
+   nombre del autor. */
 .ficha-barra {
-  position: absolute;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  height: 6px;
+  width: 100%;
+  height: 8px;
+  margin-top: 8px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.55);
+  background: #4e4e4e;
   overflow: hidden;
 }
 .ficha-relleno {
   height: 100%;
   border-radius: 999px;
-  background: var(--sage);
+  /* El azul de la referencia lleva un degradado vertical mínimo, de #0096f9
+     arriba a #0099ff abajo. Se nota poco y es lo que le quita el plano. */
+  background: linear-gradient(180deg, #0096f9, #0099ff);
   transform-origin: left center;
 }
+
+/* LAS DOS TECLAS DE LA CUBIERTA EN LA BIBLIOTECA: descargar y el menú.
+   Medidas en la misma captura: 39 de lado, 8 de margen por abajo y por los
+   costados, esquinas de 11 y el gris macizo #383838, que es el mismo del
+   marcador y así no aparece un tercer gris en la pantalla. */
+.ficha-teclas {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+.ficha-tecla {
+  pointer-events: auto;
+  width: 39px;
+  height: 39px;
+  border-radius: 11px;
+  background: #383838;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+/* Descargado: el mismo botón, en verde, que es el acento de la casa. No se
+   apaga ni desaparece —hay que poder deshacerlo— pero deja de pedir que lo
+   pulses. */
+.ficha-tecla[data-hecho="true"] {
+  background: var(--verde);
+  color: #10240f;
+}
+
+/* El menú de los tres puntos, dentro de la hoja de siempre. */
+.menu-libro { display: grid; gap: 2px; }
+.menu-fila {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  padding: 15px 4px;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--hoja-tinta);
+  text-align: left;
+  cursor: pointer;
+}
+.menu-fila + .menu-fila { box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08); }
+.menu-icono { display: grid; place-items: center; width: 22px; opacity: 0.85; }
+.menu-fila:disabled { opacity: 0.42; cursor: default; }
+/* Sacar un libro de tu biblioteca es lo único de aquí que se deshace peor, así
+   que va en rojo. Los otros dos, no: teñir las tres filas sería no decir
+   nada. */
+.menu-fila[data-peligro] { color: #ff6b5e; }
 
 .ficha-titulo {
   margin: 9px 0 0;
@@ -6752,17 +6818,28 @@ button {
   --night: var(--fondo);
 }
 
-.ajustes {
-  position: relative;
-  /* La hoja que sube desde los ajustes iba en morado, a juego con el fondo
-     morado de antes. Con el fondo gris, el morado se quedaba solo: ahora es
-     el gris de las superficies, un peldaño por encima del fondo. */
+/* LOS COLORES DE LA HOJA, EN LA RAÍZ Y NO EN LOS AJUSTES.
+
+   Vivían dentro de `.ajustes`, que era el único sitio desde donde subía una
+   hoja. El 4 de septiembre subió otra —el menú de los tres puntos de una
+   cubierta en la biblioteca— y salió TRANSPARENTE: los rótulos flotando sobre
+   las portadas, sin fondo ninguno y sin ningún error en pantalla. Una variable
+   que no existe no se queja, simplemente no pinta.
+
+   Los valores son exactamente los que tenía, así que los ajustes no cambian:
+   la hoja iba en morado a juego con el fondo morado de antes, y con el fondo
+   gris es el gris de las superficies, un peldaño por encima del fondo. */
+:root {
   --hoja-fondo: #2c2c2c;
   --hoja-sup: rgba(242, 236, 225, 0.075);
   --hoja-sup-alta: rgba(242, 236, 225, 0.13);
   --hoja-borde: rgba(242, 236, 225, 0.14);
   --hoja-tinta: var(--paper);
   --hoja-suave: rgba(242, 236, 225, 0.55);
+}
+
+.ajustes {
+  position: relative;
 }
 
 .hoja-velo {
@@ -9817,25 +9894,29 @@ button {
 
    Y no hay caso raro con el diez: dos cifras ensanchan la cifra y acortan la
    raya, y ya está. El `data-doble` de antes se puede tirar. */
-.tend-rango {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  margin-top: 13px;
-}
+/* EL PUESTO, GRANDE Y SOLO. Pablo, el 4 de septiembre: «pon los números en
+   grande; hazlo bonito y que esté bien puesto y cuadrado».
+
+   Cuarenta y cuatro puntos, en la serifa de leer, alineado con el canto
+   izquierdo de la cubierta y de la promesa. Lo que lo deja cuadrado son dos
+   detalles:
+
+     `tabular-nums`, para que el 1 ocupe lo mismo que el 8 y las diez tarjetas
+       tengan la cifra empezando en la misma vertical;
+     y `line-height: 0.82`, que recorta el aire que la fuente deja encima y
+       debajo —a 44 puntos son catorce— y deja la cifra pegada a su renglón.
+
+   Iba con una raya al lado, que servía para rellenar el hueco a la derecha de
+   un número de 21 puntos. A 44 no hay hueco que rellenar. */
 .tend-numero {
+  margin: 12px 0 0;
   font-family: var(--serifa);
-  font-size: 21px;
-  font-weight: 600;
-  line-height: 1;
-  letter-spacing: 0.01em;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 0.82;
+  letter-spacing: -0.03em;
   font-variant-numeric: lining-nums tabular-nums;
-  color: rgba(242, 236, 225, 0.92);
-}
-.tend-raya {
-  flex: 1;
-  height: 1px;
-  background: rgba(242, 236, 225, 0.17);
+  color: rgba(242, 236, 225, 0.94);
 }
 
 /* La promesa es lo que se lee. Tres líneas como mucho —a 148 de ancho, ocho
@@ -12722,8 +12803,19 @@ button {
   display: grid;
   place-items: center;
   border-radius: 15px 15px 0 0;
-  background: #2f6ec4;
-  color: #fff;
+  /* EL VERDE DE LA CASA, y no el azul de la referencia. Pablo, el 4 de
+     septiembre: «lo de gratis hoy de los libros, ponme un verde mejor, que
+     pegue con el fondo y sea bonito».
+
+     Es `--verde`, el mismo de la pestaña activa de la barra de abajo y del
+     botón de «Ver libros». O sea que no entra un color nuevo en la pantalla:
+     entra el que ya estaba, en un sitio más. El azul venía de la captura de
+     Headway y era el único azul de la app.
+
+     Letra oscura y no blanca: sobre este verde, el blanco da 1,9 de contraste
+     y no se lee; el verde oscuro de aquí da 8,4. */
+  background: var(--verde);
+  color: #0d2a1a;
   font-size: 16.2px;
   font-weight: 600;
 }

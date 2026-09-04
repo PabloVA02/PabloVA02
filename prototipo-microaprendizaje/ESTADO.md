@@ -1701,6 +1701,115 @@ doce excepciones así.
 frase. En los shorts hay un bucle que mide y encoge y cuesta cientos de
 milisegundos; aquí no hace falta, porque no hay que llenar una caja exacta.
 
+## LA BIBLIOTECA, CON LA BARRA Y LAS DOS TECLAS — 4 de septiembre
+
+Pablo mandó una captura de Headway y tres cosas: «cópiame la barra azul de
+progreso de seguir leyendo, hazla igual o casi casi igual; el botón de guardar
+nuestro lo quitas porque en ese caso no tiene sentido y pones lo suyo,
+descargar, y los tres puntitos, que tendrán la función de compartir, quitar de
+la biblioteca o marcar como terminado».
+
+**LA BARRA, MEDIDA EN SUS PÍXELES** y no a ojo. A 2x: alto 16 —o sea 8—, el
+ancho entero de la cubierta, extremos redondos, carril `#4e4e4e` y relleno
+`#0097fb` con un degradado vertical mínimo. Diecisiete puntos entre el borde de
+abajo de la cubierta y el arranque de la barra, o sea ocho.
+
+Y va DEBAJO de la cubierta, que es la otra mitad del cambio. La nuestra estaba
+dentro, flotando sobre el dibujo con un carril blanco translúcido, y ahí tapaba
+el pie de la portada, que es donde suele ir impreso el nombre del autor.
+
+**LA BARRA DICE LO QUE HA PASADO DE VERDAD.** No sale de `libro.progreso` —un
+número escrito a mano en los datos de muestra que no mueve nadie al leer— sino
+de `paginaDe`, la página por la que va, que `App` baja hasta `MiBiblioteca`. Es
+la misma cuenta de la barra grande del inicio: páginas enteras pasadas más el
+trozo de la de ahora, sobre las que tiene el libro. Un libro terminado no
+enseña barra: ya no es algo que estés siguiendo.
+
+**LAS DOS TECLAS**, también medidas: 39 de lado, 8 de margen por abajo y por
+los costados, esquinas de 11 y el gris macizo `#383838` —que es el mismo del
+marcador, así que no aparece un tercer gris—. Descargar a la izquierda, los
+tres puntos a la derecha.
+
+**Y el marcador desaparece, pero SOLO EN LA BIBLIOTECA.** Es la razón que dio
+él y es buena: un libro que ya está dentro no se guarda otra vez. En Inicio y
+en Explorar sigue igual, porque allí sí se guarda. Lo que hace falta dentro es
+lo contrario —sacarlo—, y eso vive en el menú.
+
+**EL MENÚ VA EN LA HOJA DE SIEMPRE**, no en un globo pegado al botón: son
+cubiertas de 148 puntos pegadas al borde de la pantalla, y un globo ahí se sale
+o tapa la de al lado. Sus tres filas, en el orden en que se usan: compartir,
+marcar como terminado, quitar de la biblioteca. La última en rojo, que es la
+única que se deshace peor.
+
+**«Marcar como terminado» apunta el libro y olvida por dónde iba, y nada más.**
+No suma minutos ni ideas: esos son de lo que se ha leído de verdad, y marcar
+una casilla no es haber leído.
+
+**Y un fallo que este menú destapó:** los colores de la hoja —`--hoja-fondo` y
+compañía— vivían dentro de `.ajustes`, que era el único sitio desde donde subía
+una. La primera hoja que subió desde otra pantalla salió TRANSPARENTE, con los
+rótulos flotando sobre las portadas y sin ningún error por ninguna parte: una
+variable que no existe no se queja, simplemente no pinta. Ahora están en
+`:root`, con los mismos valores.
+
+### «Para ti», «Best sellers» y las tendencias del 1 al 10
+
+De la misma tanda: «en vez de recomendados quiero que solo ponga Para ti y
+debajo otra fila de best sellers; después, en tendencias, enumera poniendo los
+números en grande, que esté bien puesto y cuadrado, solo del 1 al 10, y en
+tendencias solo pones Tendencias y ya, con el mismo tamaño y la misma letra que
+la de libro diario gratis».
+
+**«Para ti» y nada más.** El rótulo decía «Recomendados» a secas para quien no
+había elegido temas todavía y «Para ti» para quien sí, con un subtítulo que
+explicaba cuál de las dos era. El nombre vale igual en los dos casos, y al lado
+hay un botón que dice «Gestionar», que ya cuenta que eso se puede cambiar. Con
+un filtro puesto sí queda el rótulo de la categoría y su cuenta, porque ahí el
+número es el resultado de lo que acabas de pulsar.
+
+**«Best sellers» es una fila nueva y una lista nueva**, en
+`src/libros/superventas.ts`. No se filtra ni se personaliza: son doce títulos de
+los que se informan decenas de millones de ejemplares, en el orden de la cifra
+que se cita habitualmente. Esa cifra está escrita en el fichero y NO se enseña
+en pantalla, porque es una estimación —las ventas de un libro con ochenta años
+y cien ediciones no las tiene contadas nadie— y lo que sí se sostiene entero es
+lo que se le dice al lector: que son de los más vendidos.
+
+Va debajo de «Para ti» y no encima, que es el orden que él dijo y el que tiene
+sentido: primero lo que te podría gustar a ti, después lo que le ha gustado a
+todo el mundo. Con un filtro puesto no sale: los tres más vendidos de una
+categoría no son best sellers, son los tres primeros de una lista corta.
+
+**Tendencias, del 1 al 10.** Eran veintiuna. Una lista numerada dice cuántos son
+por el último número que enseña, y a la vez promete que el diez es mejor que el
+once; del undécimo en adelante ese orden ya no lo sostenía nada. Los otros once
+siguen en `tendencias.ts` y vuelven subiendo `CUANTAS_TENDENCIAS`.
+
+**Y el número, a 44 puntos.** Estuvo a 250 al modo de Netflix —se comía la
+sección— y después a 21 con una raya al lado. Ahora va solo, en la serifa, con
+`tabular-nums` y `line-height: 0.82`, alineado con el canto izquierdo de la
+cubierta y de la promesa: los tres arrancan en la misma vertical, que es lo que
+hace que la tira se lea cuadrada. Encima de la cubierta no va, que ahí taparía
+el nombre del autor.
+
+**Y el rótulo, a secas.** Se fue el «Los que prometen algo, y lo cumplen»: la
+promesa de cada libro ya está escrita debajo de su cubierta.
+
+**Ojo, que Tendencias vive en EXPLORAR, no en Libros.** Es la única de las
+cuatro cosas de esta tanda que no está en la pantalla de Libros.
+
+### Y «Gratis hoy» pasa a verde
+
+«Ponme un verde mejor, que pegue con el fondo y sea bonito.» Es `--verde`, el
+mismo de la pestaña activa de la barra de abajo y del botón de «Ver libros»,
+con la letra en `#0d2a1a`: sobre ese verde el blanco da 1,9 de contraste y no
+se lee; el verde oscuro da 8,4. El azul de antes venía de la captura de Headway
+y era el único azul de la app.
+
+Se le pasaron siete a elegir —el azul de antes, menta, esmeralda, bosque, lima,
+salvia oscura y verde azulado—, montados con `scripts/verdes-gratis.mjs` sobre la
+tira de verdad. Si elige otro, se cambia una línea en `.gratis-etiqueta`.
+
 ## LA PANTALLA DE INICIO Y EL PERFIL, DESPUÉS DEL 26 DE AGOSTO
 
 Ese día y el siguiente Pablo rehízo media app a base de capturas de Headway y
