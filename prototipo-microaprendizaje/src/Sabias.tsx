@@ -39,10 +39,16 @@ import { pantalla, spring, suave } from "./motion";
    ========================================================================== */
 
 /** Tres tramos de tamaño, según lo que ocupe la frase. Ver `sabias.ts`. */
+/* Cinco tamaños y no tres. Desde que los titulares cuentan el dato ENTERO
+   —Pablo, 4 de septiembre: «cosas que se entiendan»— hay frases de 127
+   caracteres donde antes ninguna pasaba de 70, y con tres escalones las
+   largas se salían de la tarjeta. */
 function tramo(t: string) {
   if (t.length <= 42) return "grande";
   if (t.length <= 62) return "medio";
-  return "largo";
+  if (t.length <= 85) return "largo";
+  if (t.length <= 105) return "mayor";
+  return "muy-largo";
 }
 
 /** Parte el titular para teñir el trozo que sorprende. */

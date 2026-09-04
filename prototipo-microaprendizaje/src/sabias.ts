@@ -160,10 +160,59 @@ export const DATOS: Dato[] = [
 
      La prueba, la definitiva: se lee el titular en voz alta a alguien que no
      sepa nada del tema. Si tiene que preguntar algo antes de reaccionar, fuera.
+
+     Y DOS COSAS MÁS QUE DIJO PABLO EL 4 DE SEPTIEMBRE, viendo los cien:
+
+     · «Pon número en vez de letras, anda, para los números.» Las cifras van en
+       CIFRA, en el titular y en el texto de dentro: 300 huesos, 30.000 dientes,
+       800.000 años, las 10:10. Esto va contra lo que dice la skill `estilo-app`
+       —que los números que se leen de corrido van en letra— y manda esto, que
+       es más nuevo y es de él. En un titular que se lee de un vistazo, un
+       número escrito con letras hay que leerlo dos veces.
+
+       Lo que sigue en letra, porque no son cifras: «millones de años» cuando
+       quiere decir muchísimos y no una cantidad, «las dos» cuando es un
+       pronombre —«ninguna de las dos»—, y «por ciento».
+
+     · «EL TITULAR CUENTA EL DATO ENTERO.» Es lo último y lo más importante, y
+       llegó con una tanda de capturas de una app de curiosidades: «te paso un
+       ejemplo de cómo me gustan, cosas que se entiendan, es lo que quiero».
+
+       Lo que hay en esas capturas no son titulares: son el hecho completo, en
+       una frase o dos, sin nada escondido. «El mechero se inventó antes que la
+       cerilla.» «Una cucaracha puede vivir varias semanas con la cabeza
+       cortada.» «Las abejas de una fábrica de chocolate en Francia empezaron a
+       comerse los dulces y a hacer miel azul y verde.» Se lee y ya está: no
+       hay que pulsar nada para entenderlo.
+
+       Lo que yo estaba haciendo era lo contrario —un gancho de seis palabras y
+       la explicación detrás del botón—, y por eso se quedaban a medias. «El
+       velcro se copió de una planta» deja al lector con la pregunta puesta. Lo
+       que se pide es: «El velcro se copió de las bolitas que se le pegaron en
+       el pantalón a un ingeniero suizo volviendo de cazar».
+
+       Así que la frase de la tarjeta puede ser larga —hay titulares de 127
+       caracteres— y lleva la respuesta dentro, normalmente detrás de dos
+       puntos o de un «porque». Los cien se reescribieron enteros con esa
+       forma, y `tramo()` pasó de tres tamaños de letra a cinco para que las
+       largas quepan.
+
+       Lo de detrás del botón deja de ser la explicación y pasa a ser lo que
+       siempre debió: la historia, los nombres y la ráfaga.
+
+     · «El título se tiene que entender a la perfección nada más leerlo.»
+       Devolvió tres: «hay un planeta donde llueve cristal, y de lado» —el «y de
+       lado» no pinta nada ahí—, «hay un árbol vivo que ya estaba ahí hace casi
+       diez mil años» —enrevesado; ahora dice «hay un árbol que tiene 9.500
+       años»— y aprobó «las abejas reconocen caras humanas» como el modelo.
+
+       O sea: sujeto, verbo, sorpresa. Sin subordinadas, sin aclaraciones
+       metidas con comas y sin nada detrás de la sorpresa. Se revisaron los
+       cien y se reescribieron cuarenta y uno.
      ------------------------------------------------------------------------ */
   {
     id: "nutrias-de-la-mano",
-    titular: "Las nutrias duermen cogidas de la mano",
+    titular: "Las nutrias duermen cogidas de la mano para no separarse mientras el mar las mueve",
     realce: "cogidas de la mano",
     tema: "Animales",
     color: "var(--dato-mar)", // el agua
@@ -175,7 +224,7 @@ export const DATOS: Dato[] = [
   },
   {
     id: "caballos-no-vomitan",
-    titular: "Los caballos no pueden vomitar",
+    titular: "Los caballos no pueden vomitar: la puerta de su estómago solo se abre hacia dentro",
     realce: "no pueden vomitar",
     tema: "Animales",
     color: "var(--dato-tierra)", // el establo
@@ -187,20 +236,20 @@ export const DATOS: Dato[] = [
   },
   {
     id: "cebras-negras",
-    titular: "Las cebras son negras con rayas blancas, no al revés",
+    titular: "Las cebras son negras con rayas blancas, no blancas con rayas negras: la piel de debajo es negra entera",
     realce: "negras con rayas blancas",
     tema: "Animales",
     color: "var(--dato-gris)", // el blanco y negro
     mas: [
       "Si le afeitas una cebra, la piel que hay debajo es negra entera. El negro es el color de la casa. Lo raro son las bandas blancas: son las zonas donde el pelo no recibe la orden de pintarse y sale sin color.",
-      "Y no hay dos cebras iguales. Cada una lleva su propio dibujo, tan distinto como una huella dactilar, y las crías reconocen a su madre por el patrón igual que nosotros reconocemos una cara.",
+      "Y no hay 2 cebras iguales. Cada una lleva su propio dibujo, tan distinto como una huella dactilar, y las crías reconocen a su madre por el patrón igual que nosotros reconocemos una cara.",
       "Así que la pregunta buena no es por qué tienen rayas blancas. Es por qué se les despinta el negro justo ahí.",
     ],
   },
   {
     id: "delfines-nombres",
-    titular: "Los delfines se llaman unos a otros por su nombre",
-    realce: "por su nombre",
+    titular: "Los delfines se ponen nombre: cada uno se inventa de pequeño un silbido propio y los demás lo usan para llamarlo",
+    realce: "se ponen nombre",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -211,20 +260,20 @@ export const DATOS: Dato[] = [
   },
   {
     id: "mas-alto-por-la-manana",
-    titular: "Eres más alto por la mañana que por la noche",
+    titular: "Eres entre 1 y 2 centímetros más alto por la mañana que por la noche, porque de día el peso te aplasta la espalda",
     realce: "más alto por la mañana",
     tema: "Cuerpo",
     color: "var(--dato-rojo)", // por dentro
     mas: [
-      "Entre uno y dos centímetros. Entre las vértebras de la espalda hay unos discos blandos que hacen de amortiguador, y todo el día de pie el peso del cuerpo los va aplastando un poco. Por la noche, tumbado, no aguantan nada y se vuelven a hinchar.",
-      "Por eso quien mide a la gente en serio apunta también la hora. Y en el espacio, sin ningún peso encima, esos discos se estiran del todo: los astronautas vuelven de una misión larga hasta cinco centímetros más altos, y lo pierden a los pocos días de volver a pisar el suelo.",
+      "Entre uno y 2 centímetros. Entre las vértebras de la espalda hay unos discos blandos que hacen de amortiguador, y todo el día de pie el peso del cuerpo los va aplastando un poco. Por la noche, tumbado, no aguantan nada y se vuelven a hinchar.",
+      "Por eso quien mide a la gente en serio apunta también la hora. Y en el espacio, sin ningún peso encima, esos discos se estiran del todo: los astronautas vuelven de una misión larga hasta 5 centímetros más altos, y lo pierden a los pocos días de volver a pisar el suelo.",
       "Tu récord de altura lo bates todos los días al levantarte de la cama.",
     ],
   },
   {
     id: "cosquillas",
-    titular: "Nadie puede hacerse cosquillas a sí mismo",
-    realce: "a sí mismo",
+    titular: "Nadie puede hacerse cosquillas a sí mismo, porque el cerebro ya sabe dónde vas a tocar antes de que llegues",
+    realce: "hacerse cosquillas a sí mismo",
     tema: "Cuerpo",
     color: "var(--dato-morado)", // el cerebro
     mas: [
@@ -235,44 +284,44 @@ export const DATOS: Dato[] = [
   },
   {
     id: "plastico-de-burbujas",
-    titular: "El plástico de burbujas se inventó para decorar paredes",
-    realce: "para decorar paredes",
+    titular: "El plástico de burbujas se inventó en 1957 para vender papel de pared, y no lo quiso nadie",
+    realce: "para vender papel de pared",
     tema: "Objetos",
     color: "var(--dato-gris)", // el plástico
     mas: [
-      "En 1957, dos ingenieros de Nueva Jersey querían fabricar un papel de pared con relieve, muy moderno para la época. Pegaron dos cortinas de ducha de plástico con una máquina de calor y les salió una lámina llena de burbujas de aire atrapadas. Como papel pintado no lo quiso absolutamente nadie.",
-      "Lo intentaron después como aislante para invernaderos y tampoco. Así que se sentaron a buscarle usos y llegaron a apuntar más de cuatrocientos. El que funcionó apareció en 1960: IBM empezó a mandar ordenadores por correo y necesitaba envolverlos en algo que aguantara los golpes.",
-      "Setenta años después sigue siendo lo único que la gente rompe a propósito por gusto.",
+      "En 1957, 2 ingenieros de Nueva Jersey querían fabricar un papel de pared con relieve, muy moderno para la época. Pegaron 2 cortinas de ducha de plástico con una máquina de calor y les salió una lámina llena de burbujas de aire atrapadas. Como papel pintado no lo quiso absolutamente nadie.",
+      "Lo intentaron después como aislante para invernaderos y tampoco. Así que se sentaron a buscarle usos y llegaron a apuntar más de 400. El que funcionó apareció en 1960: IBM empezó a mandar ordenadores por correo y necesitaba envolverlos en algo que aguantara los golpes.",
+      "70 años después sigue siendo lo único que la gente rompe a propósito por gusto.",
     ],
   },
   {
     id: "pulpo-por-el-pico",
-    titular: "Un pulpo cabe por cualquier agujero por el que le quepa el pico",
-    realce: "por el que le quepa el pico",
+    titular: "Un pulpo cabe por cualquier agujero del tamaño de su pico, porque es lo único duro que tiene en el cuerpo",
+    realce: "del tamaño de su pico",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
       "No tiene ni un solo hueso. Lo único duro de todo su cuerpo es el pico, que se parece al de un loro y le sirve para partir conchas. La cabeza, los ojos, el cuerpo entero: todo lo demás es blando y se puede aplastar tanto como haga falta.",
-      "Así que si el pico pasa, pasa el pulpo. Uno de dos kilos tiene el pico del tamaño de una moneda, y por un agujero de ese tamaño se cuela entero. En los acuarios es un problema conocido y hay que taparlo todo, hasta los desagües.",
+      "Así que si el pico pasa, pasa el pulpo. Uno de 2 kilos tiene el pico del tamaño de una moneda, y por un agujero de ese tamaño se cuela entero. En los acuarios es un problema conocido y hay que taparlo todo, hasta los desagües.",
       "Lo demás lo va apretando y estirando hasta que cabe.",
     ],
   },
   {
     id: "antartida-desierto",
-    titular: "La Antártida es el desierto más grande del mundo",
+    titular: "La Antártida es el desierto más grande del mundo: en el interior llueve menos que en el Sáhara",
     realce: "el desierto más grande del mundo",
     tema: "El mundo",
     color: "var(--dato-gris)", // el hielo
     mas: [
-      "Un desierto no es un sitio con arena y calor: es un sitio donde casi no llueve. En el interior de la Antártida caen unos cincuenta milímetros de agua al año, menos que en el Sáhara. Y ocupa catorce millones de kilómetros cuadrados, así que no solo es desierto: es el más grande que hay.",
-      "Hay zonas donde no cae nada desde hace dos millones de años. Se llaman los valles secos, no tienen ni hielo, y son lo más parecido a Marte que existe en la Tierra: la NASA ha ido allí a probar sus robots antes de mandarlos.",
+      "Un desierto no es un sitio con arena y calor: es un sitio donde casi no llueve. En el interior de la Antártida caen unos 50 milímetros de agua al año, menos que en el Sáhara. Y ocupa 14 millones de kilómetros cuadrados, así que no solo es desierto: es el más grande que hay.",
+      "Hay zonas donde no cae nada desde hace 2 millones de años. Se llaman los valles secos, no tienen ni hielo, y son lo más parecido a Marte que existe en la Tierra: la NASA ha ido allí a probar sus robots antes de mandarlos.",
       "Todo ese hielo está ahí porque nunca se derrite, no porque nieve mucho.",
     ],
   },
   {
     id: "pinguinos-piedra",
-    titular: "Los pingüinos le regalan una piedra a su pareja",
-    realce: "una piedra",
+    titular: "Los pingüinos le regalan una piedra a la hembra que les gusta, y si ella la acepta hay pareja",
+    realce: "le regalan una piedra",
     tema: "Animales",
     color: "var(--dato-tierra)", // la piedra
     mas: [
@@ -284,8 +333,8 @@ export const DATOS: Dato[] = [
   /* --- TANDA 2 --------------------------------------------------------- */
   {
     id: "mariposas-patas",
-    titular: "Las mariposas saborean con las patas",
-    realce: "con las patas",
+    titular: "Las mariposas saborean con las patas: para saber si una flor sirve les basta con posarse encima",
+    realce: "saborean con las patas",
     tema: "Animales",
     color: "var(--dato-naranja)", // las alas
     mas: [
@@ -296,8 +345,8 @@ export const DATOS: Dato[] = [
   },
   {
     id: "cucaracha-sin-cabeza",
-    titular: "Una cucaracha puede vivir una semana sin cabeza",
-    realce: "sin cabeza",
+    titular: "Una cucaracha puede vivir una semana sin cabeza, y al final se muere de sed porque no puede beber",
+    realce: "una semana sin cabeza",
     tema: "Animales",
     color: "var(--dato-tierra)", // el bicho
     mas: [
@@ -308,55 +357,55 @@ export const DATOS: Dato[] = [
   },
   {
     id: "huesos-al-nacer",
-    titular: "Naces con trescientos huesos y de mayor tienes doscientos seis",
-    realce: "de mayor tienes doscientos seis",
+    titular: "Naces con unos 300 huesos y de mayor tienes 206, porque muchos se van soldando entre ellos al crecer",
+    realce: "de mayor tienes 206",
     tema: "Cuerpo",
     color: "var(--dato-gris)", // el hueso
     mas: [
-      "No se pierden: se pegan. Un bebé viene con muchas piezas separadas y bastante blandas, porque un esqueleto de una sola pieza no pasaría por donde tiene que pasar al nacer. Con los años esas piezas se van soldando entre ellas hasta quedarse en doscientos seis.",
-      "El cráneo es el ejemplo claro: son varias placas sueltas con huecos blandos entre ellas —la famosa mollera— que dejan que la cabeza se amolde al salir y que luego siga creciendo. No terminan de cerrarse hasta los dos años.",
-      "Y hay una que no acaba de fraguar hasta los veinticinco: la parte de delante del cráneo, justo detrás de la frente.",
+      "No se pierden: se pegan. Un bebé viene con muchas piezas separadas y bastante blandas, porque un esqueleto de una sola pieza no pasaría por donde tiene que pasar al nacer. Con los años esas piezas se van soldando entre ellas hasta quedarse en 206.",
+      "El cráneo es el ejemplo claro: son varias placas sueltas con huecos blandos entre ellas —la famosa mollera— que dejan que la cabeza se amolde al salir y que luego siga creciendo. No terminan de cerrarse hasta los 2 años.",
+      "Y hay una que no acaba de fraguar hasta los 25: la parte de delante del cráneo, justo detrás de la frente.",
     ],
   },
   {
     id: "nariz-invisible",
-    titular: "Tu nariz está siempre en medio y el cerebro te la borra",
+    titular: "Tu nariz está todo el día en mitad de lo que miras y el cerebro te la borra por no ser útil",
     realce: "el cerebro te la borra",
     tema: "Cuerpo",
     color: "var(--dato-morado)", // el cerebro
     mas: [
-      "La tienes ahí abajo, en el centro de todo lo que miras, tapando un trozo. Está en el campo de visión de los dos ojos las veinticuatro horas del día. Pero el cerebro decidió hace mucho que eso no es información: no cambia nunca, no avisa de nada, y lo tacha.",
+      "La tienes ahí abajo, en el centro de todo lo que miras, tapando un trozo. Está en el campo de visión de los dos ojos las 24 horas del día. Pero el cerebro decidió hace mucho que eso no es información: no cambia nunca, no avisa de nada, y lo tacha.",
       "Es lo mismo que hace con el ruido de la nevera o con la sensación de la ropa en la piel. Lo que no varía deja de existir para la cabeza, porque avisar de ello sería gastar atención en algo que no sirve.",
       "Basta con que alguien la nombre para que vuelva a aparecer. Ya la estás viendo.",
     ],
   },
   {
     id: "soldadura-espacio",
-    titular: "En el espacio dos piezas de metal limpias se sueldan al tocarse",
-    realce: "se sueldan al tocarse",
+    titular: "En el espacio dos piezas de metal que se tocan se quedan pegadas para siempre, y es un problema serio de la ingeniería espacial",
+    realce: "se quedan pegadas para siempre",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // el vacío
     mas: [
-      "Aquí abajo dos trozos de metal no se pegan porque están cubiertos de una capa finísima de óxido y de suciedad que el aire les va poniendo. Esa capa hace de separador. En el vacío no hay aire que la forme, así que si las piezas están de verdad limpias y se aprietan una contra otra, los átomos de un lado no distinguen los del otro y se unen como si nunca hubieran sido dos.",
+      "Aquí abajo 2 trozos de metal no se pegan porque están cubiertos de una capa finísima de óxido y de suciedad que el aire les va poniendo. Esa capa hace de separador. En el vacío no hay aire que la forme, así que si las piezas están de verdad limpias y se aprietan una contra otra, los átomos de un lado no distinguen los del otro y se unen como si nunca hubieran sido 2.",
       "No es tan fácil como suena, y conviene decirlo: hacen falta superficies muy limpias y algo de presión. Pero pasa lo suficiente como para que sea un quebradero de cabeza de la ingeniería espacial desde los años cuarenta: hay antenas, bisagras y engranajes que se han quedado agarrados ahí arriba y no ha habido manera de moverlos.",
       "Lo llaman soldadura en frío, y en el espacio se diseña para evitarla, no para usarla.",
     ],
   },
   {
     id: "velcro-cardo",
-    titular: "El velcro se copió de las bolitas que se te pegan en el pantalón",
-    realce: "las bolitas que se te pegan en el pantalón",
+    titular: "El velcro se copió de las bolitas que se le pegaron en el pantalón a un ingeniero suizo volviendo de cazar",
+    realce: "las bolitas que se le pegaron en el pantalón",
     tema: "Objetos",
     color: "var(--dato-verde)", // la planta
     mas: [
       "En 1941 un ingeniero suizo, George de Mestral, volvió de cazar con el perro y con los pantalones llenos de esas bolitas secas que se enganchan al pasar entre matorrales. En vez de quitárselas y ya está, metió una debajo del microscopio.",
-      "Lo que vio fueron cientos de ganchitos diminutos, cada uno con la punta doblada, agarrados a los rizos de la tela. Ni pegamento ni nada: ganchos y lazos. Tardó ocho años en fabricar lo mismo en nailon.",
-      "El nombre lo hizo juntando dos palabras francesas: velours, terciopelo, y crochet, gancho. Velcro.",
+      "Lo que vio fueron cientos de ganchitos diminutos, cada uno con la punta doblada, agarrados a los rizos de la tela. Ni pegamento ni nada: ganchos y lazos. Tardó 8 años en fabricar lo mismo en nailon.",
+      "El nombre lo hizo juntando 2 palabras francesas: velours, terciopelo, y crochet, gancho. Velcro.",
     ],
   },
   {
     id: "pina-come-boca",
-    titular: "La piña te come la boca mientras tú te la comes",
+    titular: "La piña te come la boca mientras te la comes: lleva una sustancia que deshace las proteínas de tu lengua",
     realce: "te come la boca",
     tema: "Comida",
     color: "var(--dato-oro)", // la piña
@@ -368,7 +417,7 @@ export const DATOS: Dato[] = [
   },
   {
     id: "lapices-sin-plomo",
-    titular: "Los lápices nunca han llevado plomo",
+    titular: "Los lápices nunca han llevado plomo: llevan grafito, y el nombre viene de una confusión del siglo XVI",
     realce: "nunca han llevado plomo",
     tema: "Objetos",
     color: "var(--dato-gris)", // el grafito
@@ -380,33 +429,33 @@ export const DATOS: Dato[] = [
   },
   {
     id: "sahara-amazonas",
-    titular: "El polvo del Sáhara es lo que abona la selva del Amazonas",
+    titular: "El polvo del Sáhara cruza el Atlántico y es lo que abona la selva del Amazonas: 27 millones de toneladas al año",
     realce: "abona la selva del Amazonas",
     tema: "El mundo",
     color: "var(--dato-tierra)", // la arena
     mas: [
-      "Cada año el viento levanta millones de toneladas de polvo del Sáhara, las cruza el Atlántico entero y las deja caer sobre Sudamérica. Un satélite de la NASA lo midió: unos veintisiete millones de toneladas llegan a la cuenca del Amazonas.",
-      "Y no es polvo cualquiera. Lleva fósforo, que es justo lo que a la selva se le agota: allí llueve tanto que el suelo se lava constantemente y los nutrientes se van con el agua. Los veintidós mil toneladas de fósforo que trae el polvo compensan casi exactamente lo que la lluvia se lleva.",
+      "Cada año el viento levanta millones de toneladas de polvo del Sáhara, las cruza el Atlántico entero y las deja caer sobre Sudamérica. Un satélite de la NASA lo midió: unos 27 millones de toneladas llegan a la cuenca del Amazonas.",
+      "Y no es polvo cualquiera. Lleva fósforo, que es justo lo que a la selva se le agota: allí llueve tanto que el suelo se lava constantemente y los nutrientes se van con el agua. Las 22.000 toneladas de fósforo que trae el polvo compensan casi exactamente lo que la lluvia se lleva.",
       "Y casi todo sale del mismo sitio: una hondonada seca en el Chad, el fondo de un lago que desapareció, donde el viento levanta lo que dejaron millones de años de criaturas de agua dulce.",
     ],
   },
   {
     id: "joroba-camello",
-    titular: "En la joroba del camello no hay agua",
-    realce: "no hay agua",
+    titular: "En la joroba del camello no hay agua: hay grasa, y el agua la guarda en la sangre",
+    realce: "no hay agua: hay grasa",
     tema: "Animales",
     color: "var(--dato-oro)", // el desierto
     mas: [
       "Hay grasa. Es una despensa, no una cantimplora: el animal tira de ella cuando no encuentra comida, y por eso la joroba se le desinfla y se le queda colgando cuando lleva mucho tiempo sin comer.",
       "Ponerla ahí arriba en vez de repartirla por el cuerpo tiene su lógica en el desierto: con la grasa concentrada en un solo bulto, el resto del cuerpo puede soltar calor sin una manta de aislante por debajo.",
-      "El agua la guarda en la sangre, y ahí sí es un fenómeno: puede beber más de cien litros en diez minutos.",
+      "El agua la guarda en la sangre, y ahí sí es un fenómeno: puede beber más de 100 litros en 10 minutos.",
     ],
   },
   /* --- TANDA 3 --------------------------------------------------------- */
   {
     id: "gatos-sin-dulce",
-    titular: "Los gatos no saben lo que es el sabor dulce",
-    realce: "no saben lo que es el sabor dulce",
+    titular: "Los gatos no notan el sabor dulce porque tienen roto el gen que fabrica ese sensor",
+    realce: "no notan el sabor dulce",
     tema: "Animales",
     color: "var(--dato-tierra)", // el gato
     mas: [
@@ -417,32 +466,32 @@ export const DATOS: Dato[] = [
   },
   {
     id: "caracol-tres-anos",
-    titular: "Un caracol puede dormir tres años seguidos",
-    realce: "tres años seguidos",
+    titular: "Un caracol puede dormir 3 años seguidos, tapiado dentro de su concha, esperando a que llueva",
+    realce: "3 años seguidos",
     tema: "Animales",
     color: "var(--dato-verde)", // la hoja
     mas: [
       "Cuando el tiempo se pone imposible —demasiado frío o demasiado seco— se mete en la concha, sella la boca con una tapa de baba que se le endurece como una costra, y se apaga. El corazón le va lentísimo y deja de gastar casi nada.",
-      "Lo normal es que pase así unos meses. Pero si la sequía no acaba, puede aguantar tapiado hasta tres años esperando a que llueva.",
+      "Lo normal es que pase así unos meses. Pero si la sequía no acaba, puede aguantar tapiado hasta 3 años esperando a que llueva.",
       "Y en cuanto cae agua encima de la concha, se despierta, rompe la tapa y sale como si no hubiera pasado nada.",
     ],
   },
   {
     id: "cuello-jirafa",
-    titular: "Tu cuello y el de una jirafa tienen los mismos huesos",
-    realce: "los mismos huesos",
+    titular: "Una jirafa tiene 7 huesos en el cuello, los mismos que tú, solo que cada uno mide 30 centímetros",
+    realce: "los mismos que tú",
     tema: "Animales",
     color: "var(--dato-oro)", // la sabana
     mas: [
-      "Siete. Tú tienes siete vértebras en el cuello y una jirafa también. La diferencia no es el número, es el tamaño: cada una de las suyas mide hasta treinta centímetros.",
-      "Y no es cosa de las jirafas: casi todos los mamíferos llevan siete, del ratón a la ballena, tengan el cuello que tengan. Es de las cosas más fijas que hay en el diseño de un mamífero.",
+      "7. Tú tienes 7 vértebras en el cuello y una jirafa también. La diferencia no es el número, es el tamaño: cada una de las suyas mide hasta 30 centímetros.",
+      "Y no es cosa de las jirafas: casi todos los mamíferos llevan 7, del ratón a la ballena, tengan el cuello que tengan. Es de las cosas más fijas que hay en el diseño de un mamífero.",
       "Las excepciones se cuentan con los dedos de una mano, y una es el perezoso, que tiene alguna de más para poder girar la cabeza sin moverse del sitio.",
     ],
   },
   {
     id: "llorar-en-el-espacio",
-    titular: "En el espacio no se puede llorar",
-    realce: "no se puede llorar",
+    titular: "En el espacio no se puede llorar: las lágrimas no caen, se quedan hechas una bola pegada al ojo",
+    realce: "las lágrimas no caen",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // el espacio
     mas: [
@@ -453,19 +502,19 @@ export const DATOS: Dato[] = [
   },
   {
     id: "lluvia-de-cristal",
-    titular: "Hay un planeta donde llueve cristal, y de lado",
-    realce: "llueve cristal, y de lado",
+    titular: "Hay un planeta a 63 años luz donde en vez de agua llueve cristal derretido",
+    realce: "llueve cristal derretido",
     tema: "Espacio",
     color: "var(--dato-mar)", // el azul del planeta
     mas: [
-      "Se llama HD 189733b y está a sesenta y tres años luz. Visto de lejos es de un azul precioso, casi como la Tierra, y ese azul no es agua: son partículas de silicato flotando en el aire, o sea cristal derretido en gotas microscópicas.",
-      "Ahí arriba hay más de mil grados, así que ese cristal se condensa como se condensa aquí el vapor de agua, y cae. Solo que no cae hacia abajo: hay vientos de siete mil kilómetros por hora, así que va de lado. Una sola gota, a esa velocidad, llega con la energía de un proyectil.",
+      "Se llama HD 189733b y está a 63 años luz. Visto de lejos es de un azul precioso, casi como la Tierra, y ese azul no es agua: son partículas de silicato flotando en el aire, o sea cristal derretido en gotas microscópicas.",
+      "Ahí arriba hay más de 1.000 grados, así que ese cristal se condensa como se condensa aquí el vapor de agua, y cae. Solo que no cae hacia abajo: hay vientos de 7.000 kilómetros por hora, así que va de lado. Una sola gota, a esa velocidad, llega con la energía de un proyectil.",
       "Es de los planetas mejor estudiados que hay fuera del sistema solar, y desde lejos parece el nuestro.",
     ],
   },
   {
     id: "esmalte-no-vuelve",
-    titular: "El esmalte de los dientes es lo único de tu cuerpo que no se regenera",
+    titular: "El esmalte de los dientes es lo único de tu cuerpo que no se regenera: lo que se pierde no vuelve",
     realce: "no se regenera",
     tema: "Cuerpo",
     color: "var(--dato-gris)", // el diente
@@ -477,8 +526,8 @@ export const DATOS: Dato[] = [
   },
   {
     id: "chocolate-blanco",
-    titular: "El chocolate blanco no lleva ni una gota de cacao",
-    realce: "ni una gota de cacao",
+    titular: "El chocolate blanco no lleva cacao: lleva su manteca, que es blanca y no sabe a nada",
+    realce: "no lleva cacao",
     tema: "Comida",
     color: "var(--dato-oro)", // la manteca
     mas: [
@@ -489,7 +538,7 @@ export const DATOS: Dato[] = [
   },
   {
     id: "cocodrilo-lengua",
-    titular: "Un cocodrilo no puede sacar la lengua",
+    titular: "Un cocodrilo no puede sacar la lengua: la tiene pegada al suelo de la boca para no tragar agua al cazar",
     realce: "no puede sacar la lengua",
     tema: "Animales",
     color: "var(--dato-verde)", // el río
@@ -501,8 +550,8 @@ export const DATOS: Dato[] = [
   },
   {
     id: "ketchup-medicina",
-    titular: "El kétchup se vendía en las farmacias como medicina",
-    realce: "como medicina",
+    titular: "El kétchup se vendía en las farmacias como medicina para la diarrea, y llegó a venderse en pastillas",
+    realce: "como medicina para la diarrea",
     tema: "Comida",
     color: "var(--dato-rojo)", // el tomate
     mas: [
@@ -513,81 +562,81 @@ export const DATOS: Dato[] = [
   },
   {
     id: "agujero-ventanilla",
-    titular: "Las ventanillas de los aviones llevan un agujero a propósito",
-    realce: "un agujero a propósito",
+    titular: "Las ventanillas de los aviones tienen un agujero para que sea el cristal de fuera el que aguante toda la presión",
+    realce: "tienen un agujero",
     tema: "Objetos",
     color: "var(--dato-mar)", // el cielo
     mas: [
       "Ese puntito que hay abajo del todo del cristal no es un defecto ni una grieta. Está puesto ahí de fábrica, y sin él la ventanilla sería más peligrosa.",
-      "Cada ventanilla son tres capas. Arriba, la cabina va con presión; fuera, a diez mil metros, casi no hay. La capa de fuera es la que tiene que aguantar toda esa diferencia, y el agujerito de la capa de en medio es lo que se encarga de que así sea: deja pasar el aire para que la presión empuje contra el cristal exterior y no contra el interior.",
+      "Cada ventanilla son 3 capas. Arriba, la cabina va con presión; fuera, a 10.000 metros, casi no hay. La capa de fuera es la que tiene que aguantar toda esa diferencia, y el agujerito de la capa de en medio es lo que se encarga de que así sea: deja pasar el aire para que la presión empuje contra el cristal exterior y no contra el interior.",
       "Y de paso sirve para otra cosa que se agradece: por ahí se escapa la humedad, y por eso el cristal no se empaña.",
     ],
   },
   /* --- TANDA 4 --------------------------------------------------------- */
   {
     id: "estrellas-y-arena",
-    titular: "Hay más estrellas en el cielo que granos de arena en todas las playas",
-    realce: "que granos de arena en todas las playas",
+    titular: "Hay más estrellas en el universo que granos de arena en todas las playas de la Tierra juntas",
+    realce: "que granos de arena",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // el cielo
     mas: [
-      "La cuenta de la arena la han hecho: sumando todas las playas del mundo salen unos siete trillones de granos. Un siete con dieciocho ceros detrás.",
-      "Y las estrellas del universo que podemos ver salen a unos cien mil millones de galaxias con unos cien mil millones de estrellas cada una. Un uno con veintidós o veinticuatro ceros. Aunque se coja el cálculo más tacaño de estrellas y el más generoso de arena, ganan las estrellas por mil veces.",
-      "Lo dijo Carl Sagan en televisión hace cincuenta años y desde entonces se ha comprobado varias veces. Sigue siendo verdad, y por goleada.",
+      "La cuenta de la arena la han hecho: sumando todas las playas del mundo salen unos 7 trillones de granos. Un 7 con 18 ceros detrás.",
+      "Y las estrellas del universo que podemos ver salen a unos 100.000 millones de galaxias con unos 100.000 millones de estrellas cada una. Un 1 con 22 o 24 ceros. Aunque se coja el cálculo más tacaño de estrellas y el más generoso de arena, ganan las estrellas por 1.000 veces.",
+      "Lo dijo Carl Sagan en televisión hace 50 años y desde entonces se ha comprobado varias veces. Sigue siendo verdad, y por goleada.",
     ],
   },
   {
     id: "ojo-avestruz",
-    titular: "El ojo de un avestruz es más grande que su cerebro",
+    titular: "El ojo de un avestruz es más grande que su cerebro: mide 5 centímetros y el cerebro le cabe en una nuez",
     realce: "más grande que su cerebro",
     tema: "Animales",
     color: "var(--dato-tierra)", // la llanura seca
     mas: [
-      "Cada ojo mide unos cinco centímetros, el más grande de cualquier animal terrestre: más o menos una pelota de billar. El cerebro le cabe en una nuez.",
+      "Cada ojo mide unos 5 centímetros, el más grande de cualquier animal terrestre: más o menos una pelota de billar. El cerebro le cabe en una nuez.",
       "Y no es una rareza sin sentido. Vive en llanuras abiertas donde lo único que le salva es ver al león antes de que el león la vea a ella, así que la evolución le pagó ojos en vez de sesera.",
-      "Le funciona. Con esos ojos distingue movimiento a varios kilómetros, y corriendo llega a los setenta por hora.",
+      "Le funciona. Con esos ojos distingue movimiento a varios kilómetros, y corriendo llega a los 70 por hora.",
     ],
   },
   {
     id: "elefantes-no-saltan",
-    titular: "Los elefantes son el único mamífero que no puede saltar",
-    realce: "no puede saltar",
+    titular: "Los elefantes no pueden saltar: sus patas van rectas como columnas y no tienen muelle",
+    realce: "no pueden saltar",
     tema: "Animales",
     color: "var(--dato-gris)", // el elefante
     mas: [
-      "Para saltar hacen falta dos cosas: pesar poco para lo fuerte que eres, y tener las patas con muelle. Un elefante no tiene ninguna de las dos. Sus huesos van casi rectos, uno encima de otro, como columnas, porque así aguantan las seis toneladas sin partirse. Una columna no rebota.",
+      "Para saltar hacen falta 2 cosas: pesar poco para lo fuerte que eres, y tener las patas con muelle. Un elefante no tiene ninguna de las dos. Sus huesos van casi rectos, uno encima de otro, como columnas, porque así aguantan las 6 toneladas sin partirse. Una columna no rebota.",
       "Encima le faltan los tendones elásticos que tienen en las patas los animales que saltan, esos que se estiran y devuelven la energía como una goma.",
-      "Nunca tiene las cuatro patas en el aire, ni corriendo. Y aun así alcanza los veinticinco por hora.",
+      "Nunca tiene las 4 patas en el aire, ni corriendo. Y aun así alcanza los 25 por hora.",
     ],
   },
   {
     id: "platano-radiactivo",
-    titular: "Un plátano es ligeramente radiactivo",
+    titular: "Un plátano es ligeramente radiactivo por el potasio que lleva, y a ti te pasa lo mismo",
     realce: "ligeramente radiactivo",
     tema: "Comida",
     color: "var(--dato-oro)", // el plátano
     mas: [
       "Por el potasio. Todo el potasio del mundo lleva una pizca de una versión inestable que se desintegra sola, y el plátano está lleno de potasio. Así que sí: el plátano emite radiación, igual que las patatas, las alubias o tú mismo.",
       "Los que trabajan con radiación lo usan de chiste serio: la «dosis plátano», que es lo que te llevas por comerte uno, y sirve para explicarle a la gente que una cifra de radiación sola no dice nada si no se compara con algo.",
-      "Para igualar una radiografía de pecho harían falta unos mil plátanos. De una sola sentada.",
+      "Para igualar una radiografía de pecho harían falta unos 1.000 plátanos. De una sola sentada.",
     ],
   },
   {
     id: "bandera-nepal",
-    titular: "La bandera de Nepal es la única del mundo que no es rectangular",
-    realce: "la única del mundo que no es rectangular",
+    titular: "Nepal tiene la única bandera del mundo que no es rectangular: son dos triángulos con el borde en zigzag",
+    realce: "la única bandera del mundo que no es rectangular",
     tema: "El mundo",
     color: "var(--dato-rojo)", // la bandera
     mas: [
-      "Son dos triángulos, uno encima de otro, con el borde derecho en zigzag. Vienen de dos banderines que se usaban por separado y que en el siglo pasado se juntaron en uno solo.",
-      "Y la constitución del país no la describe con palabras: la describe con geometría. Hay un anexo con veinticuatro instrucciones de dibujo —traza una línea, marca un punto aquí, une con aquel— para que cualquiera pueda construirla exacta con regla y compás.",
-      "Los dos dibujos de dentro son la Luna y el Sol, y están ahí para decir que el país durará lo que duren los dos.",
+      "Son 2 triángulos, uno encima de otro, con el borde derecho en zigzag. Vienen de 2 banderines que se usaban por separado y que en el siglo pasado se juntaron en uno solo.",
+      "Y la constitución del país no la describe con palabras: la describe con geometría. Hay un anexo con 24 instrucciones de dibujo —traza una línea, marca un punto aquí, une con aquel— para que cualquiera pueda construirla exacta con regla y compás.",
+      "Los 2 dibujos de dentro son la Luna y el Sol, y están ahí para decir que el país durará lo que duren los 2.",
     ],
   },
   {
     id: "gambas-corazon",
-    titular: "Las gambas tienen el corazón en la cabeza",
-    realce: "en la cabeza",
+    titular: "Las gambas tienen el corazón en la cabeza, junto con el estómago y casi todo lo demás",
+    realce: "el corazón en la cabeza",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -598,8 +647,8 @@ export const DATOS: Dato[] = [
   },
   {
     id: "nariz-de-perro",
-    titular: "La nariz de un perro es tan única como tu huella dactilar",
-    realce: "tan única como tu huella dactilar",
+    titular: "La nariz de un perro tiene un dibujo de arrugas único, como tu huella dactilar, y sirve para identificarlo",
+    realce: "un dibujo de arrugas único",
     tema: "Animales",
     color: "var(--dato-tierra)", // el perro
     mas: [
@@ -610,45 +659,45 @@ export const DATOS: Dato[] = [
   },
   {
     id: "abejas-caras",
-    titular: "Las abejas reconocen caras humanas",
+    titular: "Las abejas reconocen caras humanas y las recuerdan días después, con un cerebro de menos de 1 millón de neuronas",
     realce: "reconocen caras humanas",
     tema: "Animales",
     color: "var(--dato-oro)", // la miel
     mas: [
       "Se comprobó con fotos y con agua con azúcar: se les enseñaba una cara concreta y, si acertaban al ir hacia ella, cobraban premio. Aprendieron. Y días después seguían distinguiéndola de otras caras parecidas.",
-      "Lo raro es cómo lo hacen. Su cerebro tiene menos de un millón de neuronas —el tuyo tiene ochenta y seis mil millones— y aun así juntan los ojos, la nariz y la boca en un conjunto y lo recuerdan como una sola cosa. Es parecido a lo que haces tú.",
+      "Lo raro es cómo lo hacen. Su cerebro tiene menos de 1 millón de neuronas —el tuyo tiene 86.000 millones— y aun así juntan los ojos, la nariz y la boca en un conjunto y lo recuerdan como una sola cosa. Es parecido a lo que haces tú.",
       "No es que sepan quién eres. Es que saben que esa combinación de rasgos ya la habían visto antes.",
     ],
   },
   {
     id: "cien-rayos-por-segundo",
-    titular: "En este momento están cayendo unos cien rayos por segundo en el mundo",
-    realce: "unos cien rayos por segundo",
+    titular: "Cada segundo caen unos 100 rayos en el mundo, repartidos entre las 2.000 tormentas que hay activas ahora mismo",
+    realce: "unos 100 rayos",
     tema: "Naturaleza",
     color: "var(--dato-naranja)", // el rayo
     mas: [
-      "En cualquier instante hay unas dos mil tormentas activas repartidas por el planeta, casi todas en el trópico, y entre todas sueltan alrededor de cien relámpagos cada segundo. De esos, unos cuarenta y cuatro tocan el suelo.",
-      "Son ocho millones de rayos al día. Se cuentan de verdad: hay una red de antenas repartida por el mundo que detecta el chasquido de radio que suelta cada descarga y triangula dónde ha caído.",
-      "El sitio donde más caen del planeta es un lago de Venezuela, el Maracaibo, donde hay tormenta casi trescientas noches al año.",
+      "En cualquier instante hay unas 2.000 tormentas activas repartidas por el planeta, casi todas en el trópico, y entre todas sueltan alrededor de 100 relámpagos cada segundo. De esos, unos 44 tocan el suelo.",
+      "Son 8 millones de rayos al día. Se cuentan de verdad: hay una red de antenas repartida por el mundo que detecta el chasquido de radio que suelta cada descarga y triangula dónde ha caído.",
+      "El sitio donde más caen del planeta es un lago de Venezuela, el Maracaibo, donde hay tormenta casi 300 noches al año.",
     ],
   },
   {
     id: "panda-catorce-horas",
-    titular: "Un panda se pasa catorce horas al día comiendo",
-    realce: "catorce horas al día",
+    titular: "Un panda se pasa 14 horas al día comiendo porque el bambú casi no alimenta y él tiene tripa de carnívoro",
+    realce: "14 horas al día comiendo",
     tema: "Animales",
     color: "var(--dato-verde)", // el bambú
     mas: [
       "Y no le queda otra. Por dentro tiene el aparato digestivo de un carnívoro —corto, hecho para carne— y se ha empeñado en comer bambú, que alimenta poquísimo. Aprovecha alrededor de la sexta parte de lo que traga.",
-      "Así que la cuenta le sale a base de cantidad: entre doce y treinta y ocho kilos de bambú al día, masticando sin parar. Y lo que entra, sale: hace de vientre unas cuarenta veces cada día.",
+      "Así que la cuenta le sale a base de cantidad: entre 12 y 38 kilos de bambú al día, masticando sin parar. Y lo que entra, sale: hace de vientre unas 40 veces cada día.",
       "El resto del tiempo lo pasa durmiendo, porque tampoco le da la energía para mucho más.",
     ],
   },
   /* --- TANDA 5 --------------------------------------------------------- */
   {
     id: "relojes-diez-y-diez",
-    titular: "En los anuncios, todos los relojes marcan las diez y diez",
-    realce: "todos los relojes marcan las diez y diez",
+    titular: "En los anuncios todos los relojes marcan las 10:10, porque así las manecillas no tapan el nombre de la marca",
+    realce: "marcan las 10:10",
     tema: "Objetos",
     color: "var(--dato-gris)", // la esfera
     mas: [
@@ -659,20 +708,20 @@ export const DATOS: Dato[] = [
   },
   {
     id: "conchas-en-el-everest",
-    titular: "En la cima del Everest hay conchas de mar",
+    titular: "En la cima del Everest hay conchas de mar, porque esa roca era el fondo de un océano hace 450 millones de años",
     realce: "hay conchas de mar",
     tema: "El mundo",
     color: "var(--dato-mar)", // el mar que hubo
     mas: [
-      "La roca de arriba del todo es caliza, y la caliza se hace en el fondo del mar con los restos de bichos con concha. Dentro hay fósiles de animales marinos de hace unos cuatrocientos cincuenta millones de años.",
+      "La roca de arriba del todo es caliza, y la caliza se hace en el fondo del mar con los restos de bichos con concha. Dentro hay fósiles de animales marinos de hace unos 450 millones de años.",
       "Estuvieron en el fondo de un océano que se llamaba Tetis. Luego la India, que era una isla enorme a la deriva, chocó contra Asia y ese fondo marino no tuvo por dónde escapar: se arrugó hacia arriba como una alfombra empujada contra la pared.",
       "Sigue subiendo, además. Unos milímetros cada año, porque la India todavía empuja.",
     ],
   },
   {
     id: "renos-ojos-azules",
-    titular: "A los renos les cambia el color de los ojos en invierno",
-    realce: "les cambia el color de los ojos",
+    titular: "A los renos se les ponen los ojos azules en invierno para ver mejor en la oscuridad del Ártico",
+    realce: "se les ponen los ojos azules",
     tema: "Animales",
     color: "var(--dato-galaxia)", // el invierno
     mas: [
@@ -683,43 +732,43 @@ export const DATOS: Dato[] = [
   },
   {
     id: "pupilas-de-cabra",
-    titular: "Las cabras tienen las pupilas rectangulares",
-    realce: "rectangulares",
+    titular: "Las cabras tienen las pupilas rectangulares y con esa ranura ven casi 340 grados a su alrededor",
+    realce: "las pupilas rectangulares",
     tema: "Animales",
     color: "var(--dato-tierra)", // el monte
     mas: [
       "Una raya horizontal, como una ranura de buzón. Y no es solo de las cabras: la tienen casi todos los animales que pastan y a los que se comen otros —ovejas, caballos, ciervos—, mientras que los que cazan al acecho, como el gato, la tienen vertical.",
-      "Con esa ranura ven casi trescientos cuarenta grados alrededor sin mover la cabeza. Estando agachadas comiendo, tienen medio horizonte controlado.",
-      "Y lo mejor: cuando bajan la cabeza para pastar, los ojos les giran dentro de la cuenca para que la ranura siga estando horizontal. Las dos a la vez, cada una para su lado.",
+      "Con esa ranura ven casi 340 grados alrededor sin mover la cabeza. Estando agachadas comiendo, tienen medio horizonte controlado.",
+      "Y lo mejor: cuando bajan la cabeza para pastar, los ojos les giran dentro de la cuenca para que la ranura siga estando horizontal. Las 2 a la vez, cada una para su lado.",
     ],
   },
   {
     id: "hipopotamo-sudor-rojo",
-    titular: "Los hipopótamos sudan un líquido rojo",
+    titular: "Los hipopótamos sudan un líquido rojo que les hace de crema solar y de desinfectante a la vez",
     realce: "un líquido rojo",
     tema: "Animales",
     color: "var(--dato-rojo)", // el líquido
     mas: [
-      "Sale transparente y a los pocos minutos se vuelve rojo anaranjado, así que durante siglos se creyó que sudaban sangre. No es sangre ni es sudor: es una sustancia que fabrican en la piel y que hace dos trabajos a la vez.",
+      "Sale transparente y a los pocos minutos se vuelve rojo anaranjado, así que durante siglos se creyó que sudaban sangre. No es sangre ni es sudor: es una sustancia que fabrican en la piel y que hace 2 trabajos a la vez.",
       "El primero es de crema solar. Filtra el ultravioleta, y un animal que se pasa el día metido en un río ecuatorial con la piel desnuda lo necesita. El segundo es de desinfectante: mata bacterias, y a un hipopótamo se le hacen heridas constantemente peleando con otros.",
       "Con el tiempo pasa de rojo a marrón. Un hipopótamo al sol acaba con la piel del color del barro seco, y no es barro.",
     ],
   },
   {
     id: "medusas-sin-nada",
-    titular: "Las medusas no tienen cerebro, ni corazón, ni sangre",
+    titular: "Las medusas no tienen cerebro, ni corazón, ni sangre, ni huesos: son agua en un 95 por ciento",
     realce: "cerebro, ni corazón, ni sangre",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
-      "Tampoco huesos ni pulmones. Son agua en un noventa y cinco por ciento y una capa de gelatina que las mantiene con forma. Si sacas una a la arena, en unas horas no queda casi nada: se evapora.",
+      "Tampoco huesos ni pulmones. Son agua en un 95 por ciento y una capa de gelatina que las mantiene con forma. Si sacas una a la arena, en unas horas no queda casi nada: se evapora.",
       "Funcionan sin nada de eso porque son finísimas. El oxígeno les entra por la piel a todas las células directamente, así que no hace falta un corazón que lo reparta. Y en vez de cerebro tienen una red de nervios repartida por todo el cuerpo que decide sin jefe.",
-      "Llevan así más de quinientos millones de años, mucho antes que los dinosaurios y que los árboles.",
+      "Llevan así más de 500 millones de años, mucho antes que los dinosaurios y que los árboles.",
     ],
   },
   {
     id: "aduana-de-la-luna",
-    titular: "Los astronautas del Apolo 11 tuvieron que pasar por la aduana",
+    titular: "Los astronautas del Apolo 11 tuvieron que pasar por la aduana, y en el impreso pusieron «Luna» como lugar de procedencia",
     realce: "pasar por la aduana",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // la Luna
@@ -731,36 +780,36 @@ export const DATOS: Dato[] = [
   },
   {
     id: "pisa-se-torcio-antes",
-    titular: "La torre de Pisa empezó a torcerse antes de estar terminada",
-    realce: "antes de estar terminada",
+    titular: "La torre de Pisa ya estaba torcida con el tercer piso puesto, y los de arriba se hicieron curvados para compensar",
+    realce: "ya estaba torcida con el tercer piso",
     tema: "El mundo",
     color: "var(--dato-tierra)", // el suelo blando
     mas: [
       "Se empezó en 1173 y ya con el tercer piso puesto se estaba hundiendo por un lado: debajo hay arcilla blanda y no aguantaba el peso repartido. Las obras se pararon casi un siglo por una guerra, y ese parón la salvó, porque le dio tiempo al suelo a asentarse.",
       "Cuando volvieron a construir, ya sabían que estaba torcida. Así que hicieron los pisos de arriba ligeramente curvados hacia el otro lado, intentando enderezarla sobre la marcha. Por eso la torre no está inclinada recta: está un poco doblada, como un plátano.",
-      "Tardaron casi doscientos años en acabarla, y nunca estuvo derecha ni un día.",
+      "Tardaron casi 200 años en acabarla, y nunca estuvo derecha ni un día.",
     ],
   },
   {
     id: "japon-mascotas",
-    titular: "En Japón hay más perros y gatos que niños",
-    realce: "más perros y gatos que niños",
+    titular: "En Japón hay más perros y gatos en las casas que niños menores de 15 años",
+    realce: "más perros y gatos",
     tema: "El mundo",
     color: "var(--dato-oro)", // el país
     mas: [
-      "Las cuentas del país dan alrededor de quince o dieciséis millones de perros y gatos en las casas, y algo menos de quince millones de niños menores de quince años. La diferencia lleva creciendo desde hace más de una década.",
+      "Las cuentas del país dan alrededor de 15 o 16 millones de perros y gatos en las casas, y algo menos de 15 millones de niños menores de 15 años. La diferencia lleva creciendo desde hace más de una década.",
       "No es una anécdota simpática: es la foto de un país que lleva medio siglo teniendo menos hijos. Cada año nacen menos japoneses que el anterior, y el número de casas donde vive una persona sola con un animal sube en paralelo.",
       "Hay ropa, hoteles, guarderías y hasta seguros médicos para mascotas. Y carritos de bebé que se venden para llevar al perro.",
     ],
   },
   {
     id: "esparragos-y-el-pis",
-    titular: "Los espárragos le cambian el olor al pis, pero no todo el mundo lo nota",
-    realce: "no todo el mundo lo nota",
+    titular: "Los espárragos cambian el olor del pis en 15 minutos, pero hay gente que no puede olerlo",
+    realce: "hay gente que no puede olerlo",
     tema: "Cuerpo",
     color: "var(--dato-verde)", // el espárrago
     mas: [
-      "El espárrago lleva un compuesto de azufre que el cuerpo parte en trozos pequeños y volátiles, y esos trozos salen en el pis a los quince o veinte minutos de comértelo. Rapidísimo.",
+      "El espárrago lleva un compuesto de azufre que el cuerpo parte en trozos pequeños y volátiles, y esos trozos salen en el pis a los 15 o 20 minutos de comértelo. Rapidísimo.",
       "Aquí viene lo bueno: hay gente que no lo huele. Ni un poco. Depende de una letra concreta del ADN, en la zona de los genes del olfato, y buena parte de la población la tiene cambiada. Para esa gente el pis huele exactamente igual que siempre.",
       "Durante años se discutió si unos lo producían y otros no. Resultó ser lo otro: lo produce casi todo el mundo, y lo que cambia es quién puede olerlo.",
     ],
@@ -768,8 +817,8 @@ export const DATOS: Dato[] = [
   /* --- TANDA 6 --------------------------------------------------------- */
   {
     id: "atardecer-azul-en-marte",
-    titular: "En Marte los atardeceres son azules",
-    realce: "son azules",
+    titular: "En Marte los atardeceres son azules, justo al revés que aquí, por el polvo que hay en su aire",
+    realce: "los atardeceres son azules",
     tema: "Espacio",
     color: "var(--dato-mar)", // el azul del cielo marciano
     mas: [
@@ -780,56 +829,56 @@ export const DATOS: Dato[] = [
   },
   {
     id: "hongo-mas-grande",
-    titular: "El ser vivo más grande del mundo es un hongo",
+    titular: "El ser vivo más grande del mundo es un hongo de Oregón que ocupa 10 kilómetros cuadrados bajo tierra",
     realce: "es un hongo",
     tema: "Naturaleza",
     color: "var(--dato-verde)", // el bosque
     mas: [
-      "Está en un bosque de Oregón y ocupa casi diez kilómetros cuadrados. No se ve: casi todo es una red de hilos blancos que va por debajo de la tierra y por dentro de las raíces de los árboles, extendiéndose despacio en todas direcciones. En la superficie solo asoman setas de vez en cuando.",
+      "Está en un bosque de Oregón y ocupa casi 10 kilómetros cuadrados. No se ve: casi todo es una red de hilos blancos que va por debajo de la tierra y por dentro de las raíces de los árboles, extendiéndose despacio en todas direcciones. En la superficie solo asoman setas de vez en cuando.",
       "Se comprobó que era un solo individuo y no muchos porque todas las muestras que sacaron, kilómetros aparte, tenían el mismo ADN. Es un único organismo, con una sola vida.",
-      "Le calculan entre dos mil y ocho mil años. Lleva ahí desde antes de que existiera la escritura, y no ha hecho más que crecer.",
+      "Le calculan entre 2.000 y 8.000 años. Lleva ahí desde antes de que existiera la escritura, y no ha hecho más que crecer.",
     ],
   },
   {
     id: "tortugas-respiran-por-detras",
-    titular: "Hay tortugas que respiran por el culo",
+    titular: "Hay tortugas que respiran por el culo, y así aguantan 21 días seguidos sin subir a por aire",
     realce: "respiran por el culo",
     tema: "Animales",
     color: "var(--dato-tierra)", // el río
     mas: [
-      "Suena a broma y está estudiado con nombre y apellidos. La tortuga del río Fitzroy, en Australia, tiene dentro de esa abertura dos bolsas llenas de pliegues finísimos y regados de vasos sanguíneos. Mete agua a bombeo, el oxígeno pasa a la sangre por esos pliegues, y saca el agua otra vez.",
-      "Da hasta sesenta bombeos por minuto y saca de ahí hasta el setenta por ciento del oxígeno que necesita. Puede pasarse veintiún días seguidos sin subir a la superficie.",
+      "Suena a broma y está estudiado con nombre y apellidos. La tortuga del río Fitzroy, en Australia, tiene dentro de esa abertura 2 bolsas llenas de pliegues finísimos y regados de vasos sanguíneos. Mete agua a bombeo, el oxígeno pasa a la sangre por esos pliegues, y saca el agua otra vez.",
+      "Da hasta 60 bombeos por minuto y saca de ahí hasta el 70 por ciento del oxígeno que necesita. Puede pasarse 21 días seguidos sin subir a la superficie.",
       "Y no es un caso único. Muchas tortugas de agua fría lo usan en invierno para pasar meses debajo de un estanque helado, cuando subir a por aire es imposible.",
     ],
   },
   {
     id: "rayo-hace-cristal",
-    titular: "Cuando un rayo cae en la arena, la convierte en cristal",
-    realce: "la convierte en cristal",
+    titular: "Cuando un rayo cae en la arena la funde y deja un tubo de cristal con la forma exacta del rayo",
+    realce: "un tubo de cristal",
     tema: "Naturaleza",
     color: "var(--dato-naranja)", // el rayo
     mas: [
-      "Un rayo lleva tanta energía que en el punto donde entra la temperatura sube por encima de los mil ochocientos grados en una fracción de segundo. La arena se funde de golpe y, al enfriarse igual de rápido, se queda hecha cristal.",
+      "Un rayo lleva tanta energía que en el punto donde entra la temperatura sube por encima de los 1.800 grados en una fracción de segundo. La arena se funde de golpe y, al enfriarse igual de rápido, se queda hecha cristal.",
       "Lo que sale es un tubo hueco y retorcido que va siguiendo el camino que hizo la corriente al meterse en el suelo. Puede tener un dedo de grosor y bajar varios metros. Por fuera es rugoso y arenoso; por dentro, liso y brillante.",
       "Se llaman fulguritas y son literalmente la forma del rayo, congelada. Hay quien las busca en los desiertos después de las tormentas.",
     ],
   },
   {
     id: "huellas-en-la-luna",
-    titular: "Las huellas de los astronautas seguirán en la Luna millones de años",
+    titular: "Las huellas de los astronautas seguirán en la Luna millones de años, porque allí no hay viento ni lluvia que las borre",
     realce: "seguirán en la Luna millones de años",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // la Luna
     mas: [
       "Allí no hay aire, así que no hay viento que las barra. No hay agua, así que no hay lluvia que las deshaga. Y no hay plantas ni bichos que las pisen. Nada de lo que borra una huella aquí abajo existe allí.",
       "El polvo lunar ayuda además: no es arena redondeada, son trozos afilados de roca machacada por millones de impactos, y encajan unos con otros como piezas rotas. Una pisada ahí se queda con el dibujo de la suela marcado.",
-      "Lo único que las irá borrando es el goteo lentísimo de micrometeoritos. Se calcula que en un millón de años seguirán reconociéndose.",
+      "Lo único que las irá borrando es el goteo lentísimo de micrometeoritos. Se calcula que en 1 millón de años seguirán reconociéndose.",
     ],
   },
   {
     id: "dientes-de-tiburon",
-    titular: "Un tiburón puede gastar treinta mil dientes en su vida",
-    realce: "treinta mil dientes",
+    titular: "Un tiburón gasta 30.000 dientes en su vida: los lleva en filas y el de detrás ocupa el hueco en unos días",
+    realce: "30.000 dientes",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -840,104 +889,104 @@ export const DATOS: Dato[] = [
   },
   {
     id: "un-millon-de-tierras",
-    titular: "Dentro del Sol caben un millón de Tierras",
-    realce: "caben un millón de Tierras",
+    titular: "Dentro del Sol cabrían 1,3 millones de Tierras, y aun así no es una estrella grande",
+    realce: "1,3 millones de Tierras",
     tema: "Espacio",
     color: "var(--dato-naranja)", // el Sol
     mas: [
-      "Un millón trescientas mil, para ser exactos, si se pudieran ir metiendo sin dejar huecos. Y el Sol no es una estrella grande: entre las que se ven en el cielo hay muchas que lo dejan en nada.",
-      "Otra manera de verlo, con lo que hay en la mesa. Si el Sol fuera una pelota de baloncesto, la Tierra sería la cabeza de un alfiler puesta a treinta metros.",
-      "Y pese a todo eso, el Sol es lo pequeño de la historia: pesa el noventa y nueve coma ocho por ciento de todo el sistema solar. Los ocho planetas, las lunas, los asteroides y los cometas juntos son las migas que sobraron.",
+      "1.300.000, para ser exactos, si se pudieran ir metiendo sin dejar huecos. Y el Sol no es una estrella grande: entre las que se ven en el cielo hay muchas que lo dejan en nada.",
+      "Otra manera de verlo, con lo que hay en la mesa. Si el Sol fuera una pelota de baloncesto, la Tierra sería la cabeza de un alfiler puesta a 30 metros.",
+      "Y pese a todo eso, el Sol es lo pequeño de la historia: pesa el 99,8 por ciento de todo el sistema solar. Los 8 planetas, las lunas, los asteroides y los cometas juntos son las migas que sobraron.",
     ],
   },
   {
     id: "aire-antiguo-en-el-hielo",
-    titular: "En el hielo de la Antártida hay aire de hace ochocientos mil años",
-    realce: "aire de hace ochocientos mil años",
+    titular: "En el hielo de la Antártida hay burbujas con el aire que había en el planeta hace 800.000 años",
+    realce: "el aire que había en el planeta hace 800.000 años",
     tema: "Naturaleza",
     color: "var(--dato-gris)", // el hielo
     mas: [
       "Cada nevada atrapa burbujas de aire, y encima cae la del año siguiente, y la del siguiente. Al fondo, el hielo es una pila de inviernos apretados con el aire de cada uno guardado dentro, intacto.",
-      "Se sacan cilindros de hielo de más de tres kilómetros de profundidad, se cuentan las capas como los anillos de un árbol y se abren las burbujas en un laboratorio. Lo que se respira ahí dentro es literalmente el aire que había en el planeta aquel año.",
-      "Gracias a eso sabemos cuánto dióxido de carbono había hace ochocientos mil años, sin tener que estimarlo. Está medido.",
+      "Se sacan cilindros de hielo de más de 3 kilómetros de profundidad, se cuentan las capas como los anillos de un árbol y se abren las burbujas en un laboratorio. Lo que se respira ahí dentro es literalmente el aire que había en el planeta aquel año.",
+      "Gracias a eso sabemos cuánto dióxido de carbono había hace 800.000 años, sin tener que estimarlo. Está medido.",
     ],
   },
   {
     id: "ojo-de-calamar",
-    titular: "El ojo de un calamar gigante es del tamaño de un plato",
-    realce: "del tamaño de un plato",
+    titular: "El ojo de un calamar gigante mide 30 centímetros, el más grande de cualquier animal que haya existido",
+    realce: "mide 30 centímetros",
     tema: "Animales",
     color: "var(--dato-mar)", // el fondo del mar
     mas: [
-      "Casi treinta centímetros de diámetro: el ojo más grande de cualquier animal que haya existido, hoy o antes. Un ojo humano mide dos centímetros y medio.",
+      "Casi 30 centímetros de diámetro: el ojo más grande de cualquier animal que haya existido, hoy o antes. Un ojo humano mide 2 centímetros y medio.",
       "Vive a cientos de metros de profundidad, donde no llega ni un rayo de sol, así que uno pensaría que no le sirve de nada. Sirve, y para una cosa concreta: detectar el resplandor que sueltan los bichos pequeños cuando un cachalote pasa nadando entre ellos.",
       "O sea que ese ojo no está para ver. Está para ver venir al único animal que se lo come.",
     ],
   },
   {
     id: "corazon-cien-mil",
-    titular: "Tu corazón late unas cien mil veces al día",
-    realce: "cien mil veces al día",
+    titular: "Tu corazón late 100.000 veces al día y lleva haciéndolo desde antes de que tuvieras cerebro",
+    realce: "100.000 veces al día",
     tema: "Cuerpo",
     color: "var(--dato-rojo)", // el corazón
     mas: [
-      "Unos setenta por minuto, cuatro mil doscientos por hora, cien mil al día. Al año son casi cuarenta millones, y en una vida de ochenta años pasan de tres mil millones de latidos sin pararse ni una sola vez.",
+      "Unos 70 por minuto, 4.200 por hora, 100.000 al día. Al año son casi 40 millones, y en una vida de 80 años pasan de 3.000 millones de latidos sin pararse ni una sola vez.",
       "Y no es un músculo cualquiera. Los demás se cansan; este no puede permitírselo, así que sus células están llenas de las fábricas de energía diminutas que tienen todas las células, pero en una cantidad que no tiene ningún otro tejido del cuerpo.",
-      "Empezó a latir cuando eras un embrión de tres semanas, antes de que hubiera un cerebro que se lo mandara.",
+      "Empezó a latir cuando eras un embrión de 3 semanas, antes de que hubiera un cerebro que se lo mandara.",
     ],
   },
   /* --- TANDA 7, la que cierra los cien ---------------------------------- */
   {
     id: "andromeda-choque",
-    titular: "Nuestra galaxia va a chocar con la de al lado",
+    titular: "Nuestra galaxia va a chocar con la de al lado dentro de 4.000 millones de años",
     realce: "va a chocar con la de al lado",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // el cielo
     mas: [
-      "Andrómeda viene hacia nosotros a unos cuatrocientos mil kilómetros por hora, y no es una suposición: se mide viendo cómo se corre el color de su luz. Llegará dentro de unos cuatro mil millones de años.",
-      "Y no será un choque como uno se imagina. Dentro de una galaxia las estrellas están tan separadas que casi ninguna dará contra otra: es como cruzar dos enjambres de mosquitos. Lo que sí pasará es que la gravedad lo revolverá todo y las dos acabarán fundidas en una galaxia nueva, más redonda.",
+      "Andrómeda viene hacia nosotros a unos 400.000 kilómetros por hora, y no es una suposición: se mide viendo cómo se corre el color de su luz. Llegará dentro de unos 4.000 millones de años.",
+      "Y no será un choque como uno se imagina. Dentro de una galaxia las estrellas están tan separadas que casi ninguna dará contra otra: es como cruzar 2 enjambres de mosquitos. Lo que sí pasará es que la gravedad lo revolverá todo y las dos acabarán fundidas en una galaxia nueva, más redonda.",
       "Para entonces el Sol llevará mucho tiempo apagándose. Pero el cielo de esas noches, con la otra galaxia ocupando media bóveda, habría sido algo que ver.",
     ],
   },
   {
     id: "arbol-de-diez-mil-anos",
-    titular: "Hay un árbol vivo que ya estaba ahí hace casi diez mil años",
-    realce: "hace casi diez mil años",
+    titular: "Hay un abeto en Suecia que lleva vivo 9.500 años: el tronco se le muere y de la misma raíz brota otro",
+    realce: "lleva vivo 9.500 años",
     tema: "Naturaleza",
     color: "var(--dato-verde)", // el árbol
     mas: [
-      "Está en una montaña de Suecia, es un abeto y visto de lejos no impresiona: un arbolillo flaco de unos cinco metros. El tronco que se ve es joven, de unos siglos. Lo viejo son las raíces, y se han datado en unos nueve mil quinientos años.",
+      "Está en una montaña de Suecia, es un abeto y visto de lejos no impresiona: un arbolillo flaco de unos 5 metros. El tronco que se ve es joven, de unos siglos. Lo viejo son las raíces, y se han datado en unos 9.500 años.",
       "El truco es que cuando el tronco se muere, de la misma raíz brota otro. Ha repetido esa operación cientos de veces mientras a su alrededor se acababa la última glaciación, se inventaba la agricultura y se levantaban y caían todos los imperios.",
       "Le llaman Old Tjikko, por el perro del que lo encontró.",
     ],
   },
   {
     id: "vida-en-una-cucharada",
-    titular: "En una cucharada de tierra hay más seres vivos que personas en el mundo",
-    realce: "más seres vivos que personas en el mundo",
+    titular: "En una cucharada de tierra de jardín hay más seres vivos que personas en todo el mundo",
+    realce: "más seres vivos que personas",
     tema: "Naturaleza",
     color: "var(--dato-tierra)", // la tierra
     mas: [
-      "En un gramo de tierra de jardín se cuentan miles de millones de bacterias, más cientos de metros de hilos de hongo enrollados, más miles de bichos microscópicos. Somos ocho mil millones de personas: eso cabe en una cucharada de tierra, y sobra.",
+      "En un gramo de tierra de jardín se cuentan miles de millones de bacterias, más cientos de metros de hilos de hongo enrollados, más miles de bichos microscópicos. Somos 8.000 millones de personas: eso cabe en una cucharada de tierra, y sobra.",
       "Y no está ahí de adorno. Esa multitud es la que deshace las hojas caídas, la que suelta los minerales que las raíces necesitan y la que fabrica el suelo. Sin ella, la tierra sería polvo estéril.",
       "La mayoría de esas especies no tienen nombre todavía. Se han descrito muy pocas, porque casi ninguna se deja cultivar en un laboratorio.",
     ],
   },
   {
     id: "una-abeja-una-gota",
-    titular: "Una abeja fabrica en toda su vida menos de una cucharadita de miel",
-    realce: "menos de una cucharadita",
+    titular: "Una abeja fabrica en toda su vida la doceava parte de una cucharadita de miel",
+    realce: "la doceava parte de una cucharadita",
     tema: "Comida",
     color: "var(--dato-oro)", // la miel
     mas: [
-      "La doceava parte de una cucharadita, para ser exactos. Eso es todo lo que produce una obrera desde que empieza a salir a volar hasta que se muere, unas seis semanas después en plena temporada.",
-      "Para juntar un solo bote de medio kilo hacen falta unas dos mil abejas trabajando toda su vida, y entre todas suman más de tres vueltas al mundo en kilómetros volados.",
+      "La doceava parte de una cucharadita, para ser exactos. Eso es todo lo que produce una obrera desde que empieza a salir a volar hasta que se muere, unas 6 semanas después en plena temporada.",
+      "Para juntar un solo bote de medio kilo hacen falta unas 2.000 abejas trabajando toda su vida, y entre todas suman más de 3 vueltas al mundo en kilómetros volados.",
       "Cuando abres un bote de miel, tienes delante la vida entera de un par de miles de animales.",
     ],
   },
   {
     id: "flamenco-cabeza-al-reves",
-    titular: "Los flamencos comen con la cabeza del revés",
+    titular: "Los flamencos comen con la cabeza del revés, porque su pico solo filtra el agua puesto boca abajo",
     realce: "con la cabeza del revés",
     tema: "Animales",
     color: "var(--dato-rojo)", // el flamenco
@@ -949,31 +998,31 @@ export const DATOS: Dato[] = [
   },
   {
     id: "dieciseis-amaneceres",
-    titular: "En la Estación Espacial amanece dieciséis veces al día",
-    realce: "dieciséis veces al día",
+    titular: "En la Estación Espacial amanece 16 veces al día, porque da una vuelta a la Tierra cada 90 minutos",
+    realce: "amanece 16 veces al día",
     tema: "Espacio",
     color: "var(--dato-naranja)", // el amanecer
     mas: [
-      "Da una vuelta entera a la Tierra cada noventa minutos, a veintiocho mil kilómetros por hora. En cada vuelta pasa del lado iluminado al lado de sombra y vuelve, así que en veinticuatro horas ve dieciséis amaneceres y dieciséis puestas de sol.",
+      "Da una vuelta entera a la Tierra cada 90 minutos, a 28.000 kilómetros por hora. En cada vuelta pasa del lado iluminado al lado de sombra y vuelve, así que en 24 horas ve 16 amaneceres y 16 puestas de sol.",
       "Eso rompe el sueño de cualquiera, y es un problema serio: la tripulación duerme con horario de Londres, en cabinas del tamaño de una cabina telefónica, atados con correas para no salir flotando, y con antifaz.",
       "El amanecer, eso sí, dura unos segundos. Se pasa del negro absoluto a una raya azul y naranja en el borde del planeta, y de ahí a pleno día.",
     ],
   },
   {
     id: "lengua-oso-hormiguero",
-    titular: "La lengua del oso hormiguero mide sesenta centímetros",
-    realce: "sesenta centímetros",
+    titular: "La lengua del oso hormiguero mide 60 centímetros y no le sale de la mandíbula, sino del esternón",
+    realce: "mide 60 centímetros",
     tema: "Animales",
     color: "var(--dato-tierra)", // el hormiguero
     mas: [
-      "Es más larga que su propia cabeza, y no la sujeta la mandíbula: le sale de una pieza pegada al esternón, en mitad del pecho. Va y viene ciento cincuenta veces por minuto, más de dos veces por segundo.",
+      "Es más larga que su propia cabeza, y no la sujeta la mandíbula: le sale de una pieza pegada al esternón, en mitad del pecho. Va y viene 150 veces por minuto, más de 2 veces por segundo.",
       "No tiene un solo diente. Rompe el hormiguero con las uñas, mete la lengua, la saca pegajosa de hormigas y termina. Se marcha antes de que las hormigas soldado se organicen: un minuto por hormiguero, y a otro.",
-      "Así se come treinta mil hormigas al día, de doscientos hormigueros distintos, sin acabar con ninguno.",
+      "Así se come 30.000 hormigas al día, de 200 hormigueros distintos, sin acabar con ninguno.",
     ],
   },
   {
     id: "pepitas-de-manzana",
-    titular: "Las pepitas de la manzana llevan cianuro",
+    titular: "Las pepitas de la manzana llevan cianuro, aunque harían falta cientos bien masticadas para hacer daño",
     realce: "llevan cianuro",
     tema: "Comida",
     color: "var(--dato-verde)", // la manzana
@@ -985,38 +1034,38 @@ export const DATOS: Dato[] = [
   },
   {
     id: "primer-movil",
-    titular: "El primer móvil pesaba casi un kilo y costaba cuatro mil dólares",
-    realce: "casi un kilo",
+    titular: "El primer móvil salió en 1983, pesaba 790 gramos y costaba 4.000 dólares para dar media hora de conversación",
+    realce: "costaba 4.000 dólares",
     tema: "Objetos",
     color: "var(--dato-gris)", // el aparato
     mas: [
-      "Salió en 1983, se llamaba DynaTAC 8000X y era un ladrillo de treinta centímetros con una antena de goma encima. Setecientos noventa gramos. Cuatro mil dólares de entonces, que hoy serían más de doce mil.",
-      "Y con eso hablabas media hora. La batería tardaba diez horas en cargarse para dar treinta minutos de conversación, así que la gente que se lo podía permitir llevaba una segunda batería en el maletín.",
+      "Salió en 1983, se llamaba DynaTAC 8000X y era un ladrillo de 30 centímetros con una antena de goma encima. 790 gramos. 4.000 dólares de entonces, que hoy serían más de 12.000.",
+      "Y con eso hablabas media hora. La batería tardaba 10 horas en cargarse para dar 30 minutos de conversación, así que la gente que se lo podía permitir llevaba una segunda batería en el maletín.",
       "No hacía nada más. Ni mensajes, ni agenda, ni pantalla más allá de un renglón rojo con el número. Llamar, y ya.",
     ],
   },
   {
     id: "luna-maletas",
-    titular: "Llegamos a la Luna antes de ponerle ruedas a las maletas",
-    realce: "antes de ponerle ruedas a las maletas",
+    titular: "Llegamos a la Luna en 1969 y la maleta con ruedas no se patentó hasta el año siguiente",
+    realce: "la maleta con ruedas no se patentó hasta el año siguiente",
     tema: "Tecnología",
     color: "var(--dato-galaxia)", // la Luna
     mas: [
-      "El Apolo 11 alunizó en julio de 1969. La maleta con ruedas la pidió como patente Bernard Sadow en 1970 y se la dieron en 1972. La idea se le ocurrió arrastrando dos maletas por una aduana mientras veía a un operario mover una máquina enorme, sin esfuerzo, encima de una plataforma con rueditas.",
-      "Y costó venderla. Los grandes almacenes le decían que un hombre no iba a ir tirando de una maleta pudiendo llevarla en brazos, que quedaba mal. Salió a la venta en Macy's en 1970. La que usas tú —vertical, dos ruedas y asa que sale y entra— es todavía más tardía: la inventó un piloto de línea aérea en los años ochenta.",
+      "El Apolo 11 alunizó en julio de 1969. La maleta con ruedas la pidió como patente Bernard Sadow en 1970 y se la dieron en 1972. La idea se le ocurrió arrastrando 2 maletas por una aduana mientras veía a un operario mover una máquina enorme, sin esfuerzo, encima de una plataforma con rueditas.",
+      "Y costó venderla. Los grandes almacenes le decían que un hombre no iba a ir tirando de una maleta pudiendo llevarla en brazos, que quedaba mal. Salió a la venta en Macy's en 1970. La que usas tú —vertical, 2 ruedas y asa que sale y entra— es todavía más tardía: la inventó un piloto de línea aérea en los años 80.",
       "Entre pisar la Luna y arrastrar una maleta por un aeropuerto pasó casi un año.",
     ],
   },
   {
     id: "sol-ocho-minutos",
-    titular: "Si el Sol se apagara ahora, no lo sabríamos hasta dentro de ocho minutos",
-    realce: "hasta dentro de ocho minutos",
+    titular: "Si el Sol se apagara ahora mismo, tardaríamos 8 minutos y 20 segundos en enterarnos",
+    realce: "8 minutos y 20 segundos",
     tema: "Espacio",
     color: "var(--dato-naranja)", // el Sol
     mas: [
-      "La luz va a trescientos mil kilómetros por segundo, que es rapidísimo pero no es instantáneo. Del Sol hasta aquí hay ciento cincuenta millones de kilómetros, y el viaje le lleva ocho minutos y veinte segundos. O sea que el Sol que ves por la ventana es el de hace ocho minutos.",
-      "Con lo demás es mucho peor. La luz de la estrella más cercana tarda algo más de cuatro años en llegar, y la de otras que se ven a simple vista lleva viajando desde antes de que se construyera ninguna catedral. El cielo de noche son un montón de fechas distintas a la vez.",
-      "Y durante esos ocho minutos todo seguiría igual. La luz, el calor, las sombras en el suelo. Y ya no habría Sol.",
+      "La luz va a 300.000 kilómetros por segundo, que es rapidísimo pero no es instantáneo. Del Sol hasta aquí hay 150 millones de kilómetros, y el viaje le lleva 8 minutos y 20 segundos. O sea que el Sol que ves por la ventana es el de hace 8 minutos.",
+      "Con lo demás es mucho peor. La luz de la estrella más cercana tarda algo más de 4 años en llegar, y la de otras que se ven a simple vista lleva viajando desde antes de que se construyera ninguna catedral. El cielo de noche son un montón de fechas distintas a la vez.",
+      "Y durante esos 8 minutos todo seguiría igual. La luz, el calor, las sombras en el suelo. Y ya no habría Sol.",
     ],
   },
   /* Lo que se salva de las tandas anteriores: las que se entienden sin pensar.
@@ -1026,44 +1075,44 @@ export const DATOS: Dato[] = [
      Todo lo demás de aquellas tandas está en el historial de git. */
   {
     id: "krakatoa",
-    titular: "Un volcán estalló en 1883 y se oyó a cinco mil kilómetros",
-    realce: "se oyó a cinco mil kilómetros",
+    titular: "El volcán Krakatoa estalló en 1883 y el ruido se oyó a 4.800 kilómetros: es el sonido más fuerte del que hay registro",
+    realce: "se oyó a 4.800 kilómetros",
     tema: "Naturaleza",
     color: "var(--dato-rojo)", // el volcán
     mas: [
-      "El 27 de agosto de 1883 la isla voló por los aires, y el ruido se oyó con claridad en Rodrigues, una isla perdida del océano Índico que está a cuatro mil ochocientos kilómetros. Para hacerse una idea: de Madrid a Moscú hay tres mil cuatrocientos. Aquello se oyó mil cuatrocientos kilómetros más lejos todavía, y los que lo oyeron pensaron que eran cañonazos de un barco en apuros.",
-      "La onda de presión no se paró ahí. Le dio cuatro vueltas al planeta, y los barómetros de media Europa la fueron registrando cada vez que pasaba por encima, sin que nadie entendiera al principio qué estaban midiendo. En Perth, a tres mil cien kilómetros, la gente salió a la calle a mirar. Y a sesenta y cinco kilómetros del volcán, a los marineros de los barcos que había allí les reventaron los tímpanos.",
+      "El 27 de agosto de 1883 la isla voló por los aires, y el ruido se oyó con claridad en Rodrigues, una isla perdida del océano Índico que está a 4.800 kilómetros. Para hacerse una idea: de Madrid a Moscú hay 3.400. Aquello se oyó 1.400 kilómetros más lejos todavía, y los que lo oyeron pensaron que eran cañonazos de un barco en apuros.",
+      "La onda de presión no se paró ahí. Le dio 4 vueltas al planeta, y los barómetros de media Europa la fueron registrando cada vez que pasaba por encima, sin que nadie entendiera al principio qué estaban midiendo. En Perth, a 3.100 kilómetros, la gente salió a la calle a mirar. Y a 65 kilómetros del volcán, a los marineros de los barcos que había allí les reventaron los tímpanos.",
       "Es el sonido más fuerte del que se tiene registro. Nadie ha vuelto a oír nada parecido, y con suerte nadie lo oirá.",
     ],
   },
   {
     id: "diomede",
-    titular: "Rusia y Estados Unidos están a cuatro kilómetros",
-    realce: "a cuatro kilómetros",
+    titular: "Rusia y Estados Unidos están a 4 kilómetros: dos islas del estrecho de Bering, una enfrente de la otra",
+    realce: "están a 4 kilómetros",
     tema: "El mundo",
     color: "var(--dato-mar)", // el estrecho helado
     mas: [
-      "En mitad del estrecho de Bering hay dos islas, una enfrente de otra, separadas por tres kilómetros y ochocientos metros de agua. La grande es rusa. La pequeña es estadounidense y tiene un pueblo con escuela. En los inviernos más fríos el mar se hiela entre las dos.",
-      "Y por ese canal pasa la línea internacional de cambio de fecha, así que a la rusa la llaman la isla de Mañana y a la americana la isla de Ayer. La diferencia entre las dos no es de veinticuatro horas, que sería lo lógico, sino de veintiuna: los husos horarios no están repartidos a partes iguales y ahí se nota.",
+      "En mitad del estrecho de Bering hay 2 islas, una enfrente de otra, separadas por 3 kilómetros y 800 metros de agua. La grande es rusa. La pequeña es estadounidense y tiene un pueblo con escuela. En los inviernos más fríos el mar se hiela entre las 2.",
+      "Y por ese canal pasa la línea internacional de cambio de fecha, así que a la rusa la llaman la isla de Mañana y a la americana la isla de Ayer. La diferencia entre las dos no es de 24 horas, que sería lo lógico, sino de veintiuna: los husos horarios no están repartidos a partes iguales y ahí se nota.",
       "Desde la playa de una se ve el día siguiente.",
     ],
   },
   {
     id: "barajar-cartas",
-    titular: "Hay más maneras de barajar unas cartas que átomos en la Tierra",
-    realce: "que átomos en la Tierra",
+    titular: "Hay más maneras de ordenar una baraja de 52 cartas que átomos en toda la Tierra",
+    realce: "que átomos en toda la Tierra",
     tema: "Números",
     color: "var(--dato-rojo)", // los corazones de la baraja
     mas: [
-      "Cincuenta y dos cartas se pueden ordenar de un número que se escribe con un 8 y sesenta y siete ceros detrás. Los átomos que hay en el planeta entero, contando el mar, el aire y el hierro del centro, son un 1 con unos cincuenta ceros. No es que haya un poco más de barajas: hay cien mil billones de veces más.",
+      "52 cartas se pueden ordenar de un número que se escribe con un 8 y 67 ceros detrás. Los átomos que hay en el planeta entero, contando el mar, el aire y el hierro del centro, son un 1 con unos 50 ceros. No es que haya un poco más de barajas: hay 100.000 billones de veces más.",
       "Otra manera de verlo. Si alguien se hubiera puesto a barajar un mazo distinto cada segundo desde el principio del universo, y llevara ahí desde entonces, hoy no habría llegado ni a la milmillonésima parte de todas las combinaciones posibles.",
       "Así que cada vez que barajas bien una baraja, estás poniendo esas cartas en un orden que casi con toda seguridad no ha existido nunca y no va a volver a existir.",
     ],
   },
   {
     id: "medusa-inmortal",
-    titular: "Hay una medusa que vuelve a ser cría cuando le conviene",
-    realce: "vuelve a ser cría",
+    titular: "Hay una medusa que cuando se hace vieja se deshace y vuelve a montarse siendo cría, y puede repetirlo",
+    realce: "vuelve a montarse siendo cría",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -1077,43 +1126,43 @@ export const DATOS: Dato[] = [
      se quedan hasta que Pablo diga. */
   {
     id: "medalla-de-plata",
-    titular: "Una medalla de oro olímpica es de plata",
+    titular: "Una medalla de oro olímpica es de plata con 6 gramos de oro por fuera: menos de lo que pesa una moneda de un euro",
     realce: "es de plata",
     tema: "Deporte",
     color: "var(--dato-gris)", // la plata que hay debajo
     mas: [
-      "El reglamento del Comité Olímpico lo dice con todas las letras: la medalla de primer puesto tiene que ser de plata de ley —al menos un 92,5 %— y llevar por fuera un mínimo de seis gramos de oro. Seis gramos es menos de lo que pesa una moneda de un euro.",
-      "Las últimas macizas se repartieron en Estocolmo en 1912, y llevaban unos veinticuatro gramos de oro cada una. Después llegó la guerra, el metal se puso imposible y los Juegos empezaron a crecer: fundir cientos de medallas de oro puro cada cuatro años dejó de tener sentido.",
-      "Así que cada vez que un campeón se muerde la medalla para la foto, lo que está mordiendo es plata con seis gramos de barniz caro.",
+      "El reglamento del Comité Olímpico lo dice con todas las letras: la medalla de primer puesto tiene que ser de plata de ley —al menos un 92,5 %— y llevar por fuera un mínimo de 6 gramos de oro. 6 gramos es menos de lo que pesa una moneda de un euro.",
+      "Las últimas macizas se repartieron en Estocolmo en 1912, y llevaban unos 24 gramos de oro cada una. Después llegó la guerra, el metal se puso imposible y los Juegos empezaron a crecer: fundir cientos de medallas de oro puro cada 4 años dejó de tener sentido.",
+      "Así que cada vez que un campeón se muerde la medalla para la foto, lo que está mordiendo es plata con 6 gramos de barniz caro.",
     ],
   },
   {
     id: "caja-negra-naranja",
-    titular: "La caja negra de un avión es naranja",
+    titular: "La caja negra de un avión es naranja, para poder encontrarla entre los restos o en el fondo del mar",
     realce: "es naranja",
     tema: "Tecnología",
     color: "var(--dato-naranja)", // el color que es
     mas: [
       "Se pinta de un naranja fuerte, y por el motivo más razonable del mundo: hay que encontrarla entre toneladas de chatarra retorcida, a veces en el fondo del mar. Lo negro nunca fue el color. El nombre se le quedó pegado por otro lado y ya no hubo manera de quitárselo.",
-      "La inventó un químico australiano, David Warren, después de investigar un accidente en 1954 y darse cuenta de que nadie sabía qué habían dicho los pilotos en los últimos minutos. En Australia no le hicieron caso durante años. La suya tiene además una coincidencia que él se pasó la vida desmintiendo: en 1934, cuando tenía nueve años, su padre murió en el Miss Hobart, un avión que desapareció sobre el estrecho de Bass y del que nunca se supo qué pasó.",
+      "La inventó un químico australiano, David Warren, después de investigar un accidente en 1954 y darse cuenta de que nadie sabía qué habían dicho los pilotos en los últimos minutos. En Australia no le hicieron caso durante años. La suya tiene además una coincidencia que él se pasó la vida desmintiendo: en 1934, cuando tenía 9 años, su padre murió en el Miss Hobart, un avión que desapareció sobre el estrecho de Bass y del que nunca se supo qué pasó.",
       "Warren decía que el accidente no tuvo nada que ver, y que lo que le empujó fue el último regalo que le hizo su padre antes de subirse a aquel avión: una radio de galena, con la que el niño se aficionó a la electrónica escuchándola por la noche debajo de las mantas del internado.",
     ],
   },
   {
     id: "sagrada-familia",
-    titular: "La Sagrada Familia se construyó 137 años sin permiso de obra",
+    titular: "La Sagrada Familia se construyó 137 años sin permiso de obra: la licencia no se firmó hasta 2019",
     realce: "137 años sin permiso de obra",
     tema: "Arquitectura",
     color: "var(--dato-tierra)", // la piedra y la obra
     mas: [
-      "Las obras empezaron el 19 de marzo de 1882. El permiso se pidió tres años después al ayuntamiento de Sant Martí de Provençals, que entonces era un pueblo aparte, y allí se quedó: nadie lo resolvió, el pueblo se anexionó a Barcelona en 1897 y el papel se perdió por el camino.",
-      "Nadie se dio cuenta en más de un siglo. Cuando el ayuntamiento abrió expediente, la junta que construye el templo acordó pagar treinta y seis millones de euros por los servicios y las obras de alrededor, y la licencia se firmó por fin en junio de 2019. Ciento treinta y siete años levantando el monumento más visitado de la ciudad sin el papel que le piden a cualquiera para cambiar unas ventanas.",
+      "Las obras empezaron el 19 de marzo de 1882. El permiso se pidió 3 años después al ayuntamiento de Sant Martí de Provençals, que entonces era un pueblo aparte, y allí se quedó: nadie lo resolvió, el pueblo se anexionó a Barcelona en 1897 y el papel se perdió por el camino.",
+      "Nadie se dio cuenta en más de un siglo. Cuando el ayuntamiento abrió expediente, la junta que construye el templo acordó pagar 36 millones de euros por los servicios y las obras de alrededor, y la licencia se firmó por fin en junio de 2019. 137 años levantando el monumento más visitado de la ciudad sin el papel que le piden a cualquiera para cambiar unas ventanas.",
     ],
   },
   {
     id: "ferrari-rojo",
-    titular: "Los Ferrari son rojos porque a Italia le tocó ese color",
-    realce: "le tocó ese color",
+    titular: "Los Ferrari son rojos porque en las carreras antiguas el color lo decidía el país, y a Italia le tocó el rojo",
+    realce: "el color lo decidía el país",
     tema: "Motor",
     color: "var(--dato-rojo)", // el color del que habla la frase
     mas: [
@@ -1123,173 +1172,173 @@ export const DATOS: Dato[] = [
   },
   {
     id: "caballo-ferrari",
-    titular: "El caballo de Ferrari lo llevaba pintado un piloto de guerra",
-    realce: "un piloto de guerra",
+    titular: "El escudo de Ferrari es el caballo que llevaba pintado en el avión un piloto italiano de la Primera Guerra Mundial",
+    realce: "el caballo que llevaba pintado en el avión",
     tema: "Motor",
     color: "var(--dato-oro)", // el amarillo de Módena del escudo
     mas: [
-      "Francesco Baracca fue el aviador italiano más famoso de la Primera Guerra Mundial, y llevaba un caballo negro encabritado pintado en el fuselaje. Lo derribaron en 1918, con treinta y un aviones enemigos a sus espaldas.",
+      "Francesco Baracca fue el aviador italiano más famoso de la Primera Guerra Mundial, y llevaba un caballo negro encabritado pintado en el fuselaje. Lo derribaron en 1918, con 31 aviones enemigos a sus espaldas.",
       "Años después, la madre de Baracca conoció a un joven Enzo Ferrari y le dijo que pusiera el caballo de su hijo en sus coches, que le daría suerte. Él lo hizo y le añadió un fondo amarillo, que es el color de Módena, su ciudad.",
     ],
   },
   {
     id: "india",
-    titular: "El país con más gente del mundo ya no es China",
-    realce: "ya no es China",
+    titular: "El país con más gente del mundo ya no es China: desde 2023 es la India",
+    realce: "desde 2023 es la India",
     tema: "El mundo",
     color: "var(--dato-naranja)", // el azafrán de su bandera
     mas: [
-      "India la adelantó en 2023 y hoy anda por los mil cuatrocientos cincuenta millones de personas. China llevaba en cabeza desde que hay cuentas fiables.",
-      "Y la distancia va a seguir creciendo un tiempo, porque en China nacen cada vez menos niños mientras que en India la población todavía es joven. Uno de cada seis habitantes del planeta es indio.",
+      "India la adelantó en 2023 y hoy anda por los 1.450 millones de personas. China llevaba en cabeza desde que hay cuentas fiables.",
+      "Y la distancia va a seguir creciendo un tiempo, porque en China nacen cada vez menos niños mientras que en India la población todavía es joven. Uno de cada 6 habitantes del planeta es indio.",
     ],
   },
   {
     id: "cleopatra",
-    titular: "Cleopatra vivió más cerca de la llegada a la Luna que de las pirámides",
-    realce: "más cerca de la llegada a la Luna",
+    titular: "Cleopatra vivió más cerca de la llegada del hombre a la Luna que de la construcción de las pirámides",
+    realce: "más cerca de la llegada del hombre a la Luna",
     tema: "Historia",
     color: "var(--dato-galaxia)", // la Luna, que es lo que se tiñe
     mas: [
-      "La Gran Pirámide se terminó hacia el año 2560 antes de Cristo. Cleopatra murió en el 30 antes de Cristo. Entre las dos hay dos mil quinientos años.",
-      "Del día que murió Cleopatra al día que Armstrong pisó la Luna hay dos mil. O sea que ella estaba quinientos años más cerca del cohete que de la pirámide, y la pirámide ya era una antigualla cuando ella nació.",
+      "La Gran Pirámide se terminó hacia el año 2560 antes de Cristo. Cleopatra murió en el 30 antes de Cristo. Entre las 2 hay 2.500 años.",
+      "Del día que murió Cleopatra al día que Armstrong pisó la Luna hay 2.000. O sea que ella estaba 500 años más cerca del cohete que de la pirámide, y la pirámide ya era una antigualla cuando ella nació.",
     ],
   },
   {
     id: "tiburones",
-    titular: "Los tiburones son más antiguos que los árboles",
-    realce: "más antiguos que los árboles",
+    titular: "Los tiburones llevan en el mar 100 millones de años más que los árboles en la tierra",
+    realce: "100 millones de años más que los árboles",
     tema: "Naturaleza",
     color: "var(--dato-verde)", // los árboles, que es lo que se tiñe
     mas: [
-      "Los primeros tiburones andaban por el mar hace unos cuatrocientos veinte millones de años. Los primeros árboles con tronco de verdad aparecieron hace unos trescientos ochenta y cinco.",
-      "Treinta y cinco millones de años de diferencia. Cuando el primer árbol echó raíces, los tiburones llevaban ya una eternidad haciendo lo mismo que hacen hoy.",
+      "Los primeros tiburones andaban por el mar hace unos 420 millones de años. Los primeros árboles con tronco de verdad aparecieron hace unos 385.",
+      "35 millones de años de diferencia. Cuando el primer árbol echó raíces, los tiburones llevaban ya una eternidad haciendo lo mismo que hacen hoy.",
     ],
   },
   {
     id: "venus",
-    titular: "En Venus un día dura más que un año",
-    realce: "más que un año",
+    titular: "En Venus un día dura más que un año: tarda más en girar sobre sí mismo que en dar la vuelta al Sol",
+    realce: "un día dura más que un año",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // un planeta
     mas: [
-      "Venus tarda doscientos cuarenta y tres días terrestres en dar una vuelta sobre sí mismo, y solo doscientos veinticinco en dar la vuelta al Sol.",
+      "Venus tarda 243 días terrestres en dar una vuelta sobre sí mismo, y solo 225 en dar la vuelta al Sol.",
       "O sea que allí te da tiempo a cumplir años antes de ver amanecer. Y por si fuera poco gira al revés que los demás planetas, así que el Sol sale por el oeste.",
     ],
   },
   {
     id: "eiffel",
-    titular: "La torre Eiffel es más alta en verano",
-    realce: "más alta en verano",
+    titular: "La torre Eiffel es hasta 15 centímetros más alta en verano, porque el calor le estira el hierro",
+    realce: "15 centímetros más alta en verano",
     tema: "Ingeniería",
     color: "var(--dato-naranja)", // el calor del verano, que es lo que la estira
     mas: [
-      "Está hecha de hierro, y el hierro se estira con el calor. Entre un día de invierno y uno de verano la torre gana unos quince centímetros.",
+      "Está hecha de hierro, y el hierro se estira con el calor. Entre un día de invierno y uno de verano la torre gana unos 15 centímetros.",
       "También se inclina un poco: la cara que da el sol se calienta antes que la de la sombra, así que la punta se aparta unos centímetros del lado soleado. Vuelve sola al ponerse el sol.",
     ],
   },
   {
     id: "platano-baya",
-    titular: "El plátano es una baya y la fresa no",
-    realce: "y la fresa no",
+    titular: "El plátano es una baya y la fresa no lo es, por mucho que parezca al revés",
+    realce: "y la fresa no lo es",
     tema: "Naturaleza",
     color: "var(--dato-rojo)", // la fresa, que es lo que se tiñe
     mas: [
       "Para un botánico, una baya es un fruto carnoso que sale de una sola flor y lleva las semillas dentro. El plátano cumple. El tomate y el aguacate también.",
-      "La fresa no. Lo rojo que te comes es la base de la flor, hinchada; los frutos de verdad son esos puntitos amarillos de fuera, y cada uno lleva su semilla. Te comes doscientos frutos por fresa.",
+      "La fresa no. Lo rojo que te comes es la base de la flor, hinchada; los frutos de verdad son esos puntitos amarillos de fuera, y cada uno lleva su semilla. Te comes 200 frutos por fresa.",
     ],
   },
   {
     id: "pulpo",
-    titular: "Un pulpo tiene tres corazones y la sangre azul",
-    realce: "la sangre azul",
+    titular: "Un pulpo tiene 3 corazones y la sangre azul en vez de roja",
+    realce: "3 corazones y la sangre azul",
     tema: "Naturaleza",
     color: "var(--dato-mar)", // la sangre azul
     mas: [
-      "Dos corazones empujan la sangre hacia las branquias y el tercero la reparte por el resto del cuerpo. Y es azul porque para transportar el oxígeno usa cobre en vez de hierro, que es lo que a nosotros nos pone la sangre roja.",
+      "2 corazones empujan la sangre hacia las branquias y el tercero la reparte por el resto del cuerpo. Y es azul porque para transportar el oxígeno usa cobre en vez de hierro, que es lo que a nosotros nos pone la sangre roja.",
       "Lo mejor es lo que pasa cuando nada: el corazón grande se le para. Por eso un pulpo prefiere andar por el fondo a nadar, porque nadar le agota de una manera que a nosotros nos costaría explicar.",
     ],
   },
   {
     id: "arboles-estrellas",
-    titular: "Hay más árboles en la Tierra que estrellas en nuestra galaxia",
-    realce: "que estrellas en nuestra galaxia",
+    titular: "Hay más árboles en la Tierra que estrellas en nuestra galaxia: 3 billones contra unos 200.000 millones",
+    realce: "más árboles en la Tierra que estrellas",
     tema: "Naturaleza",
     color: "var(--dato-galaxia)", // las estrellas de la galaxia, que es lo que se tiñe
     mas: [
-      "El recuento más serio que se ha hecho da unos tres billones de árboles en el planeta. La Vía Láctea tiene entre cien mil y cuatrocientos mil millones de estrellas.",
-      "O sea que por cada estrella de nuestra galaxia hay como diez árboles aquí abajo. Aun así hemos talado casi la mitad de los que había cuando empezó la agricultura.",
+      "El recuento más serio que se ha hecho da unos 3 billones de árboles en el planeta. La Vía Láctea tiene entre 100.000 y 400.000 millones de estrellas.",
+      "O sea que por cada estrella de nuestra galaxia hay como 10 árboles aquí abajo. Aun así hemos talado casi la mitad de los que había cuando empezó la agricultura.",
     ],
   },
   {
     id: "saturno",
-    titular: "Saturno flotaría en una bañera lo bastante grande",
-    realce: "flotaría",
+    titular: "Saturno flotaría en el agua, porque pesa menos que ella aunque es 750 veces más grande que la Tierra",
+    realce: "flotaría en el agua",
     tema: "Espacio",
     color: "var(--dato-mar)", // la bañera: lo que se tiñe es «flotaría»
     mas: [
-      "Es el único planeta del sistema solar que pesa menos que el agua: unos setenta gramos por cada cien de agua. Es casi todo hidrógeno y helio, y muy poco apretado.",
-      "La bañera tendría que medir ciento veinte mil kilómetros de ancho, así que el chiste no se puede comprobar. Pero el número es real.",
+      "Es el único planeta del sistema solar que pesa menos que el agua: unos 70 gramos por cada 100 de agua. Es casi todo hidrógeno y helio, y muy poco apretado.",
+      "La bañera tendría que medir 120.000 kilómetros de ancho, así que el chiste no se puede comprobar. Pero el número es real.",
     ],
   },
   {
     id: "rayo",
-    titular: "Un rayo está cinco veces más caliente que la superficie del Sol",
-    realce: "cinco veces más caliente",
+    titular: "Un rayo calienta el aire hasta 5 veces más que la superficie del Sol, y por eso se oye el trueno",
+    realce: "5 veces más que la superficie del Sol",
     tema: "Espacio",
     color: "var(--dato-naranja)", // el calor, cinco veces el del Sol
     mas: [
-      "El aire por el que pasa un rayo llega a unos treinta mil grados. La superficie del Sol está a cinco mil quinientos.",
+      "El aire por el que pasa un rayo llega a unos 30.000 grados. La superficie del Sol está a 5.500.",
       "Lo que pasa es que dura unas millonésimas de segundo y es finísimo, así que no calienta nada a su alrededor. El trueno es justamente eso: el aire estallando de golpe al calentarse tan deprisa.",
     ],
   },
   {
     id: "muralla",
-    titular: "La muralla china no se ve desde el espacio",
-    realce: "no se ve",
+    titular: "La muralla china no se ve desde el espacio: es larguísima pero solo tiene unos metros de ancho",
+    realce: "no se ve desde el espacio",
     tema: "Historia",
     color: "var(--dato-galaxia)", // el espacio desde donde no se ve
     mas: [
-      "Es larguísima, sí, pero estrecha: unos pocos metros de ancho, y del color de la tierra que tiene al lado. Verla desde la órbita sería como distinguir un pelo humano a dos kilómetros.",
+      "Es larguísima, sí, pero estrecha: unos pocos metros de ancho, y del color de la tierra que tiene al lado. Verla desde la órbita sería como distinguir un pelo humano a 2 kilómetros.",
       "Lo han desmentido los propios astronautas, chinos incluidos. La frase circula desde antes de que nadie hubiera subido, que es lo que la hace curiosa: se dio por buena durante décadas sin que nadie pudiera comprobarla.",
     ],
   },
   {
     id: "vikingos",
-    titular: "Los vikingos nunca llevaron cascos con cuernos",
-    realce: "nunca",
+    titular: "Los vikingos nunca llevaron cascos con cuernos: se los puso un diseñador de vestuario para una ópera en 1876",
+    realce: "nunca llevaron cascos con cuernos",
     tema: "Historia",
     color: "var(--dato-mar)", // el mar del norte
     mas: [
-      "No ha aparecido ni uno solo en ninguna excavación, y se han excavado muchas. Con cuernos, un casco es peor casco: le da al enemigo dos asas para tirarte la cabeza hacia atrás.",
+      "No ha aparecido ni uno solo en ninguna excavación, y se han excavado muchas. Con cuernos, un casco es peor casco: le da al enemigo 2 asas para tirarte la cabeza hacia atrás.",
       "La imagen viene del vestuario que un diseñador alemán hizo en 1876 para una ópera de Wagner. Siglo y medio después, sale en todos los dibujos animados.",
     ],
   },
   {
     id: "napoleon",
-    titular: "Napoleón no era bajo, era normal",
-    realce: "era normal",
+    titular: "Napoleón no era bajo: medía 1,68, la altura normal de un francés de su época",
+    realce: "no era bajo",
     tema: "Historia",
     color: "var(--dato-morado)", // la púrpura imperial
     mas: [
-      "Medía un metro sesenta y ocho, que era justo la media de un francés de su época. La leyenda viene de un lío de medidas: en Francia se apuntó su altura en pulgadas francesas, que eran más largas que las inglesas, y al traducirlo salió un hombre mucho más bajo.",
+      "Medía un metro 68, que era justo la media de un francés de su época. La leyenda viene de un lío de medidas: en Francia se apuntó su altura en pulgadas francesas, que eran más largas que las inglesas, y al traducirlo salió un hombre mucho más bajo.",
       "Ayudó que los granaderos de su guardia fueran elegidos por altos, así que en los retratos siempre sale rodeado de gigantes.",
     ],
   },
   {
     id: "guerra-corta",
-    titular: "La guerra más corta de la historia duró treinta y ocho minutos",
-    realce: "treinta y ocho minutos",
+    titular: "La guerra más corta de la historia duró 38 minutos, entre Reino Unido y Zanzíbar en 1896",
+    realce: "duró 38 minutos",
     tema: "Historia",
     color: "var(--dato-naranja)", // el fuego de los cañones
     mas: [
       "Zanzíbar contra el Reino Unido, el 27 de agosto de 1896. Había muerto el sultán y subió al trono uno que a los británicos no les convenía. Le dieron un ultimátum de unas horas.",
-      "A las nueve y dos minutos de la mañana empezó el bombardeo. A las nueve y cuarenta se había acabado todo. El sultán se escapó por una puerta trasera y acabó en el exilio.",
+      "A las 9 y 2 minutos de la mañana empezó el bombardeo. A las nueve y cuarenta se había acabado todo. El sultán se escapó por una puerta trasera y acabó en el exilio.",
     ],
   },
   {
     id: "nintendo",
-    titular: "Nintendo empezó haciendo barajas en 1889",
-    realce: "en 1889",
+    titular: "Nintendo se fundó en 1889 y se pasó 80 años haciendo barajas antes de tocar un videojuego",
+    realce: "haciendo barajas",
     tema: "Historia",
     color: "var(--dato-rojo)", // el rojo de Nintendo, que es de siempre
     mas: [
@@ -1299,7 +1348,7 @@ export const DATOS: Dato[] = [
   },
   {
     id: "flamenco",
-    titular: "Un flamenco nace gris",
+    titular: "Un flamenco nace gris y se vuelve rosa por lo que come",
     realce: "nace gris",
     tema: "Naturaleza",
     color: "var(--dato-gris)", // gris, literal: es la palabra teñida
@@ -1310,19 +1359,19 @@ export const DATOS: Dato[] = [
   },
   {
     id: "miel",
-    titular: "La miel es el único alimento que no se estropea nunca",
+    titular: "La miel no se estropea nunca: se ha encontrado miel de hace 3.000 años en tumbas egipcias y seguía comestible",
     realce: "no se estropea nunca",
     tema: "Naturaleza",
     color: "var(--dato-oro)", // la miel
     mas: [
       "Casi no tiene agua y es ácida, así que una bacteria que caiga dentro no puede ni beber ni multiplicarse. Además las abejas le añaden una sustancia que remata a lo que quede vivo.",
-      "En tumbas egipcias se han encontrado tarros de miel de hace tres mil años que seguían siendo miel. Lo único que le pasa con el tiempo es que se vuelve dura y opaca, y eso se arregla con un baño de agua caliente.",
+      "En tumbas egipcias se han encontrado tarros de miel de hace 3.000 años que seguían siendo miel. Lo único que le pasa con el tiempo es que se vuelve dura y opaca, y eso se arregla con un baño de agua caliente.",
     ],
   },
   {
     id: "groenlandia",
-    titular: "Groenlandia es catorce veces más pequeña que África",
-    realce: "catorce veces",
+    titular: "Groenlandia es 14 veces más pequeña que África, aunque en los mapas salgan casi iguales",
+    realce: "14 veces más pequeña que África",
     tema: "El mundo",
     color: "var(--dato-mar)", // el hielo
     mas: [
@@ -1332,19 +1381,19 @@ export const DATOS: Dato[] = [
   },
   {
     id: "oxford",
-    titular: "En Oxford ya se daban clases antes de que existiera el imperio azteca",
-    realce: "antes de que existiera el imperio azteca",
+    titular: "En Oxford ya se daban clases 200 años antes de que existiera el imperio azteca",
+    realce: "200 años antes de que existiera el imperio azteca",
     tema: "Historia",
     color: "var(--dato-galaxia)", // el azul Oxford se llama así por algo
     mas: [
       "Hay constancia de enseñanza en Oxford desde 1096. Tenochtitlan, la capital azteca, se fundó en 1325.",
-      "Doscientos treinta años de diferencia. Cuando los mexicas llegaron a la laguna donde iban a levantar su ciudad, en Oxford ya llevaban generaciones discutiendo de teología.",
+      "230 años de diferencia. Cuando los mexicas llegaron a la laguna donde iban a levantar su ciudad, en Oxford ya llevaban generaciones discutiendo de teología.",
     ],
   },
   {
     id: "uombat",
-    titular: "El uómbat hace la caca cuadrada",
-    realce: "cuadrada",
+    titular: "El uómbat hace la caca cuadrada para que no ruede y le sirva de señal",
+    realce: "la caca cuadrada",
     tema: "Naturaleza",
     color: "var(--dato-tierra)", // marrón, que es lo que es
     mas: [

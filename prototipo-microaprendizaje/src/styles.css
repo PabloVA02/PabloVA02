@@ -12402,6 +12402,8 @@ button {
 .sab-frase[data-tramo="grande"] { font-size: 9.6cqw; }
 .sab-frase[data-tramo="medio"] { font-size: 8.4cqw; }
 .sab-frase[data-tramo="largo"] { font-size: 7.2cqw; }
+.sab-frase[data-tramo="mayor"] { font-size: 6.3cqw; }
+.sab-frase[data-tramo="muy-largo"] { font-size: 5.7cqw; }
 .sab-frase[data-tramo="abierto"] { font-size: 6.4cqw; }
 
 .sab-frase em {

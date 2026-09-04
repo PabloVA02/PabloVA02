@@ -533,6 +533,37 @@ mismo color se usa a once puntos en el rótulo y de fondo de un botón con letra
 blanca encima, y el ocre de la paleta vieja daba 2,1 de contraste sobre el
 papel crema. Estos nueve pasan de 4,5 en los tres sitios.
 
+## 4 quinquies. En un «¿sabías que…?», la frase cuenta el dato ENTERO
+
+Norma de Pablo, 4 de septiembre de 2026, con capturas de una app de
+curiosidades: «te paso un ejemplo de cómo me gustan, cosas que se entiendan, es
+lo que quiero». Y antes, en la misma tanda: «el título se tiene que entender a
+la perfección nada más leerlo».
+
+**La frase grande no es un gancho: es el hecho completo.** Se lee, se entiende y
+no hace falta pulsar nada. Puede ser larga —hay titulares de 127 caracteres— y
+la respuesta suele ir detrás de dos puntos o de un «porque».
+
+| mal, deja la pregunta puesta | bien, cierra el dato |
+|---|---|
+| El velcro se copió de una planta | El velcro se copió de las bolitas que se le pegaron en el pantalón a un ingeniero suizo volviendo de cazar |
+| En la joroba del camello no hay agua | En la joroba del camello no hay agua: hay grasa, y el agua la guarda en la sangre |
+| El país con más gente del mundo ya no es China | El país con más gente del mundo ya no es China: desde 2023 es la India |
+
+**Y lo de detrás del botón deja de ser la explicación.** Pasa a ser lo que
+siempre debió: la historia, los nombres y la ráfaga.
+
+**Los números van en CIFRA**, en la frase grande y en el texto de dentro: 300
+huesos, 30.000 dientes, 800.000 años, las 10:10. Esto va contra el apartado 5
+—«en letra cuando se leen de corrido»— y manda esto, que es más nuevo. En una
+frase que se lee de un vistazo, un número escrito con letras hay que leerlo dos
+veces. Siguen en letra los que no son cifras: «millones de años» cuando quiere
+decir muchísimos, «las dos» cuando es pronombre, y «por ciento».
+
+**Nada detrás de la sorpresa.** Pablo devolvió «hay un planeta donde llueve
+cristal, y de lado»: «quita ese de lado, no pinta nada ahí». Un añadido que
+abre otra pregunta después del remate estropea la frase entera.
+
 ### Y en un short es el mismo criterio, con su propia paleta
 
 Pablo, en la misma tanda: «si hablas de Ferrari, que es lo más relevante, pues
