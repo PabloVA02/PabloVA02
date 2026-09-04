@@ -2056,17 +2056,33 @@ Si algún día se quiere claro, el bueno es el crema `#f2ece1` y no el blanco
 puro: es el papel que ya usa la pantalla de lectura, y con él las cubiertas
 claras conservan su canto.
 
-### Y «Gratis hoy» pasa a verde
+### «Gratis hoy»: primero pasó a verde, después perdió la etiqueta
 
-«Ponme un verde mejor, que pegue con el fondo y sea bonito.» Es `--verde`, el
-mismo de la pestaña activa de la barra de abajo y del botón de «Ver libros»,
-con la letra en `#0d2a1a`: sobre ese verde el blanco da 1,9 de contraste y no
-se lee; el verde oscuro da 8,4. El azul de antes venía de la captura de Headway
-y era el único azul de la app.
+«Ponme un verde mejor, que pegue con el fondo y sea bonito.» Se le pasaron
+siete con `scripts/verdes-gratis.mjs` y se puso `--verde`, el mismo de la
+pestaña activa y del botón de «Ver libros», con la letra oscura: sobre ese
+verde el blanco da 1,9 de contraste y no se lee.
 
-Se le pasaron siete a elegir —el azul de antes, menta, esmeralda, bosque, lima,
-salvia oscura y verde azulado—, montados con `scripts/verdes-gratis.mjs` sobre la
-tira de verdad. Si elige otro, se cambia una línea en `.gratis-etiqueta`.
+**Y un rato después se fue la etiqueta entera:** «quita la etiqueta esa de
+gratis hoy y solo pon gratis hoy en verde o azul».
+
+Era una pestaña de 39 puntos, más estrecha que la cubierta, metida por detrás y
+asomando por arriba, calcada al píxel de una captura de Headway —está medida en
+el comentario de `styles.css`, que se conserva por si vuelve—. Estaba bien
+copiada y aun así sobraba, por el mismo motivo que se cayeron los adornos de
+«¿Sabías que…?»: la cubierta ya es la pieza que se mira, y una banda de color
+encima le quita sitio y le tapa el canto de arriba.
+
+Ahora son dos palabras en verde **debajo** de la cubierta. Arriba obligaba a
+que todas las cubiertas de la tira empezaran más abajo; abajo ocupa el sitio
+del nombre del autor, que en esta tira no se pone.
+
+Y el orden del DOM es cubierta y después rótulo, con `order` en el CSS para
+pintarlo: así quien escucha la pantalla oye primero de qué libro se trata y
+luego que hoy es gratis.
+
+**En azul es una línea** —`color: #2f9bff`—, que es el de la referencia. Está en
+verde porque es el color de la casa y el azul sería el único de esa pantalla.
 
 ## LA PANTALLA DE INICIO Y EL PERFIL, DESPUÉS DEL 26 DE AGOSTO
 

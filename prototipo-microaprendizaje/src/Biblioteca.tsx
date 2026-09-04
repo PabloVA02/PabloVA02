@@ -264,8 +264,11 @@ function LibrosGratis({ onAbrir }: { onAbrir: (l: Libro) => void }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ ...spring, delay: 0.06 + i * 0.05 }}
           >
-            <span className="gratis-etiqueta">Gratis hoy</span>
+            {/* El orden del DOM es cubierta y después rótulo; el `order` del
+                CSS es el que manda, y así el lector de pantalla oye primero de
+                qué libro se trata y luego que hoy es gratis. */}
             <Portada libro={l} tamano={148} />
+            <span className="gratis-etiqueta">Gratis hoy</span>
           </motion.button>
         ))}
       </div>

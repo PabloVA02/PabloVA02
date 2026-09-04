@@ -12926,29 +12926,29 @@ button {
    lógicos— y la de mayúscula 17 —8,5—; con la x a 0,52 em y la mayúscula a
    0,72 em de la SF Pro Text, las dos cuentas dan un cuerpo de 11,5-11,8 sobre
    una cubierta de 107. La nuestra mide 148, así que 11,7 × 1,383 = 16,2. */
+/* «GRATIS HOY», SIN PESTAÑA Y SIN CAJA. Pablo, el 4 de septiembre: «quita la
+   etiqueta esa de gratis hoy y solo pon gratis hoy en verde o azul».
+
+   Era una pestaña de 39 puntos de alto, más estrecha que la cubierta, metida
+   por detrás y asomando por arriba: calcada al píxel de una captura de
+   Headway. Estaba bien copiada y aun así sobraba, y el motivo es el mismo por
+   el que se cayeron los adornos de «¿Sabías que…?»: la cubierta ya es la pieza
+   que se mira, y una banda de color encima le quita sitio y le tapa el canto
+   de arriba.
+
+   Dos palabras en verde dicen lo mismo, y ahora la cubierta entera se ve.
+
+   El renglón se queda con el alto que ocupa la letra y nada más, y va debajo
+   de la cubierta y no encima: arriba obligaba a que todas las cubiertas de la
+   tira empezaran más abajo, y aquí ocupa el sitio del nombre del autor, que en
+   esta tira no se pone. */
 .gratis-etiqueta {
-  box-sizing: border-box;
-  width: calc(var(--ficha-ancho) - 11px);
-  height: 39px;
-  margin-bottom: -7px;
-  display: grid;
-  place-items: center;
-  border-radius: 15px 15px 0 0;
-  /* EL VERDE DE LA CASA, y no el azul de la referencia. Pablo, el 4 de
-     septiembre: «lo de gratis hoy de los libros, ponme un verde mejor, que
-     pegue con el fondo y sea bonito».
-
-     Es `--verde`, el mismo de la pestaña activa de la barra de abajo y del
-     botón de «Ver libros». O sea que no entra un color nuevo en la pantalla:
-     entra el que ya estaba, en un sitio más. El azul venía de la captura de
-     Headway y era el único azul de la app.
-
-     Letra oscura y no blanca: sobre este verde, el blanco da 1,9 de contraste
-     y no se lee; el verde oscuro de aquí da 8,4. */
-  background: var(--verde);
-  color: #0d2a1a;
-  font-size: 16.2px;
-  font-weight: 600;
+  order: 1;
+  margin-top: 9px;
+  color: var(--verde);
+  font-size: 14px;
+  font-weight: 730;
+  letter-spacing: 0.01em;
 }
 
 /* La cubierta va POR DELANTE de la banda; sin esto el orden del DOM la dejaría
