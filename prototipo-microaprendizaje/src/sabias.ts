@@ -765,6 +765,236 @@ export const DATOS: Dato[] = [
       "Durante años se discutió si unos lo producían y otros no. Resultó ser lo otro: lo produce casi todo el mundo, y lo que cambia es quién puede olerlo.",
     ],
   },
+  /* --- TANDA 6 --------------------------------------------------------- */
+  {
+    id: "atardecer-azul-en-marte",
+    titular: "En Marte los atardeceres son azules",
+    realce: "son azules",
+    tema: "Espacio",
+    color: "var(--dato-mar)", // el azul del cielo marciano
+    mas: [
+      "Justo al revés que aquí. Nuestro cielo es azul de día y se pone rojo al ponerse el sol; el de Marte es rojizo de día y se pone azul alrededor del sol cuando anochece.",
+      "El motivo es el polvo. El aire de Marte está lleno de partículas finísimas de polvo del tamaño justo para dejar pasar el azul en línea recta y desviar el resto de los colores. Así que la luz que llega directa desde el sol poniente llega azulada, y el resto del cielo se queda de color óxido.",
+      "Los robots que hay allí lo han fotografiado varias veces. Es una de las cosas más raras de ver de todo el sistema solar.",
+    ],
+  },
+  {
+    id: "hongo-mas-grande",
+    titular: "El ser vivo más grande del mundo es un hongo",
+    realce: "es un hongo",
+    tema: "Naturaleza",
+    color: "var(--dato-verde)", // el bosque
+    mas: [
+      "Está en un bosque de Oregón y ocupa casi diez kilómetros cuadrados. No se ve: casi todo es una red de hilos blancos que va por debajo de la tierra y por dentro de las raíces de los árboles, extendiéndose despacio en todas direcciones. En la superficie solo asoman setas de vez en cuando.",
+      "Se comprobó que era un solo individuo y no muchos porque todas las muestras que sacaron, kilómetros aparte, tenían el mismo ADN. Es un único organismo, con una sola vida.",
+      "Le calculan entre dos mil y ocho mil años. Lleva ahí desde antes de que existiera la escritura, y no ha hecho más que crecer.",
+    ],
+  },
+  {
+    id: "tortugas-respiran-por-detras",
+    titular: "Hay tortugas que respiran por el culo",
+    realce: "respiran por el culo",
+    tema: "Animales",
+    color: "var(--dato-tierra)", // el río
+    mas: [
+      "Suena a broma y está estudiado con nombre y apellidos. La tortuga del río Fitzroy, en Australia, tiene dentro de esa abertura dos bolsas llenas de pliegues finísimos y regados de vasos sanguíneos. Mete agua a bombeo, el oxígeno pasa a la sangre por esos pliegues, y saca el agua otra vez.",
+      "Da hasta sesenta bombeos por minuto y saca de ahí hasta el setenta por ciento del oxígeno que necesita. Puede pasarse veintiún días seguidos sin subir a la superficie.",
+      "Y no es un caso único. Muchas tortugas de agua fría lo usan en invierno para pasar meses debajo de un estanque helado, cuando subir a por aire es imposible.",
+    ],
+  },
+  {
+    id: "rayo-hace-cristal",
+    titular: "Cuando un rayo cae en la arena, la convierte en cristal",
+    realce: "la convierte en cristal",
+    tema: "Naturaleza",
+    color: "var(--dato-naranja)", // el rayo
+    mas: [
+      "Un rayo lleva tanta energía que en el punto donde entra la temperatura sube por encima de los mil ochocientos grados en una fracción de segundo. La arena se funde de golpe y, al enfriarse igual de rápido, se queda hecha cristal.",
+      "Lo que sale es un tubo hueco y retorcido que va siguiendo el camino que hizo la corriente al meterse en el suelo. Puede tener un dedo de grosor y bajar varios metros. Por fuera es rugoso y arenoso; por dentro, liso y brillante.",
+      "Se llaman fulguritas y son literalmente la forma del rayo, congelada. Hay quien las busca en los desiertos después de las tormentas.",
+    ],
+  },
+  {
+    id: "huellas-en-la-luna",
+    titular: "Las huellas de los astronautas seguirán en la Luna millones de años",
+    realce: "seguirán en la Luna millones de años",
+    tema: "Espacio",
+    color: "var(--dato-galaxia)", // la Luna
+    mas: [
+      "Allí no hay aire, así que no hay viento que las barra. No hay agua, así que no hay lluvia que las deshaga. Y no hay plantas ni bichos que las pisen. Nada de lo que borra una huella aquí abajo existe allí.",
+      "El polvo lunar ayuda además: no es arena redondeada, son trozos afilados de roca machacada por millones de impactos, y encajan unos con otros como piezas rotas. Una pisada ahí se queda con el dibujo de la suela marcado.",
+      "Lo único que las irá borrando es el goteo lentísimo de micrometeoritos. Se calcula que en un millón de años seguirán reconociéndose.",
+    ],
+  },
+  {
+    id: "dientes-de-tiburon",
+    titular: "Un tiburón puede gastar treinta mil dientes en su vida",
+    realce: "treinta mil dientes",
+    tema: "Animales",
+    color: "var(--dato-mar)", // el mar
+    mas: [
+      "No los tiene clavados en el hueso como tú: los lleva sujetos a la encía, en filas, y detrás de la fila que usa hay varias más esperando, tumbadas hacia atrás. Cuando se le cae uno, el de detrás rota hacia delante y ocupa el hueco en cuestión de días.",
+      "Es una cinta transportadora. Algunas especies cambian de diente cada semana, y a lo largo de una vida larga la cuenta se va a decenas de miles.",
+      "Por eso los dientes de tiburón fosilizados se encuentran a montones y sus esqueletos casi nunca: el resto del animal es cartílago, que no aguanta, y el diente es lo único duro que tiene.",
+    ],
+  },
+  {
+    id: "un-millon-de-tierras",
+    titular: "Dentro del Sol caben un millón de Tierras",
+    realce: "caben un millón de Tierras",
+    tema: "Espacio",
+    color: "var(--dato-naranja)", // el Sol
+    mas: [
+      "Un millón trescientas mil, para ser exactos, si se pudieran ir metiendo sin dejar huecos. Y el Sol no es una estrella grande: entre las que se ven en el cielo hay muchas que lo dejan en nada.",
+      "Otra manera de verlo, con lo que hay en la mesa. Si el Sol fuera una pelota de baloncesto, la Tierra sería la cabeza de un alfiler puesta a treinta metros.",
+      "Y pese a todo eso, el Sol es lo pequeño de la historia: pesa el noventa y nueve coma ocho por ciento de todo el sistema solar. Los ocho planetas, las lunas, los asteroides y los cometas juntos son las migas que sobraron.",
+    ],
+  },
+  {
+    id: "aire-antiguo-en-el-hielo",
+    titular: "En el hielo de la Antártida hay aire de hace ochocientos mil años",
+    realce: "aire de hace ochocientos mil años",
+    tema: "Naturaleza",
+    color: "var(--dato-gris)", // el hielo
+    mas: [
+      "Cada nevada atrapa burbujas de aire, y encima cae la del año siguiente, y la del siguiente. Al fondo, el hielo es una pila de inviernos apretados con el aire de cada uno guardado dentro, intacto.",
+      "Se sacan cilindros de hielo de más de tres kilómetros de profundidad, se cuentan las capas como los anillos de un árbol y se abren las burbujas en un laboratorio. Lo que se respira ahí dentro es literalmente el aire que había en el planeta aquel año.",
+      "Gracias a eso sabemos cuánto dióxido de carbono había hace ochocientos mil años, sin tener que estimarlo. Está medido.",
+    ],
+  },
+  {
+    id: "ojo-de-calamar",
+    titular: "El ojo de un calamar gigante es del tamaño de un plato",
+    realce: "del tamaño de un plato",
+    tema: "Animales",
+    color: "var(--dato-mar)", // el fondo del mar
+    mas: [
+      "Casi treinta centímetros de diámetro: el ojo más grande de cualquier animal que haya existido, hoy o antes. Un ojo humano mide dos centímetros y medio.",
+      "Vive a cientos de metros de profundidad, donde no llega ni un rayo de sol, así que uno pensaría que no le sirve de nada. Sirve, y para una cosa concreta: detectar el resplandor que sueltan los bichos pequeños cuando un cachalote pasa nadando entre ellos.",
+      "O sea que ese ojo no está para ver. Está para ver venir al único animal que se lo come.",
+    ],
+  },
+  {
+    id: "corazon-cien-mil",
+    titular: "Tu corazón late unas cien mil veces al día",
+    realce: "cien mil veces al día",
+    tema: "Cuerpo",
+    color: "var(--dato-rojo)", // el corazón
+    mas: [
+      "Unos setenta por minuto, cuatro mil doscientos por hora, cien mil al día. Al año son casi cuarenta millones, y en una vida de ochenta años pasan de tres mil millones de latidos sin pararse ni una sola vez.",
+      "Y no es un músculo cualquiera. Los demás se cansan; este no puede permitírselo, así que sus células están llenas de las fábricas de energía diminutas que tienen todas las células, pero en una cantidad que no tiene ningún otro tejido del cuerpo.",
+      "Empezó a latir cuando eras un embrión de tres semanas, antes de que hubiera un cerebro que se lo mandara.",
+    ],
+  },
+  /* --- TANDA 7, la que cierra los cien ---------------------------------- */
+  {
+    id: "andromeda-choque",
+    titular: "Nuestra galaxia va a chocar con la de al lado",
+    realce: "va a chocar con la de al lado",
+    tema: "Espacio",
+    color: "var(--dato-galaxia)", // el cielo
+    mas: [
+      "Andrómeda viene hacia nosotros a unos cuatrocientos mil kilómetros por hora, y no es una suposición: se mide viendo cómo se corre el color de su luz. Llegará dentro de unos cuatro mil millones de años.",
+      "Y no será un choque como uno se imagina. Dentro de una galaxia las estrellas están tan separadas que casi ninguna dará contra otra: es como cruzar dos enjambres de mosquitos. Lo que sí pasará es que la gravedad lo revolverá todo y las dos acabarán fundidas en una galaxia nueva, más redonda.",
+      "Para entonces el Sol llevará mucho tiempo apagándose. Pero el cielo de esas noches, con la otra galaxia ocupando media bóveda, habría sido algo que ver.",
+    ],
+  },
+  {
+    id: "arbol-de-diez-mil-anos",
+    titular: "Hay un árbol vivo que ya estaba ahí hace casi diez mil años",
+    realce: "hace casi diez mil años",
+    tema: "Naturaleza",
+    color: "var(--dato-verde)", // el árbol
+    mas: [
+      "Está en una montaña de Suecia, es un abeto y visto de lejos no impresiona: un arbolillo flaco de unos cinco metros. El tronco que se ve es joven, de unos siglos. Lo viejo son las raíces, y se han datado en unos nueve mil quinientos años.",
+      "El truco es que cuando el tronco se muere, de la misma raíz brota otro. Ha repetido esa operación cientos de veces mientras a su alrededor se acababa la última glaciación, se inventaba la agricultura y se levantaban y caían todos los imperios.",
+      "Le llaman Old Tjikko, por el perro del que lo encontró.",
+    ],
+  },
+  {
+    id: "vida-en-una-cucharada",
+    titular: "En una cucharada de tierra hay más seres vivos que personas en el mundo",
+    realce: "más seres vivos que personas en el mundo",
+    tema: "Naturaleza",
+    color: "var(--dato-tierra)", // la tierra
+    mas: [
+      "En un gramo de tierra de jardín se cuentan miles de millones de bacterias, más cientos de metros de hilos de hongo enrollados, más miles de bichos microscópicos. Somos ocho mil millones de personas: eso cabe en una cucharada de tierra, y sobra.",
+      "Y no está ahí de adorno. Esa multitud es la que deshace las hojas caídas, la que suelta los minerales que las raíces necesitan y la que fabrica el suelo. Sin ella, la tierra sería polvo estéril.",
+      "La mayoría de esas especies no tienen nombre todavía. Se han descrito muy pocas, porque casi ninguna se deja cultivar en un laboratorio.",
+    ],
+  },
+  {
+    id: "una-abeja-una-gota",
+    titular: "Una abeja fabrica en toda su vida menos de una cucharadita de miel",
+    realce: "menos de una cucharadita",
+    tema: "Comida",
+    color: "var(--dato-oro)", // la miel
+    mas: [
+      "La doceava parte de una cucharadita, para ser exactos. Eso es todo lo que produce una obrera desde que empieza a salir a volar hasta que se muere, unas seis semanas después en plena temporada.",
+      "Para juntar un solo bote de medio kilo hacen falta unas dos mil abejas trabajando toda su vida, y entre todas suman más de tres vueltas al mundo en kilómetros volados.",
+      "Cuando abres un bote de miel, tienes delante la vida entera de un par de miles de animales.",
+    ],
+  },
+  {
+    id: "flamenco-cabeza-al-reves",
+    titular: "Los flamencos comen con la cabeza del revés",
+    realce: "con la cabeza del revés",
+    tema: "Animales",
+    color: "var(--dato-rojo)", // el flamenco
+    mas: [
+      "Meten la cabeza en el agua y la giran hasta ponerla boca abajo, con la parte de arriba del pico rozando el fondo. Comen así todo el rato, en una postura que en cualquier otro animal sería un accidente.",
+      "Es la única manera de que les funcione el pico. Lo tienen lleno de láminas finísimas, como las barbas de una ballena, y usan la lengua de bomba: meten agua con barro, la empujan fuera por las láminas y se quedan con lo que no pasa. Para que ese filtro trabaje bien tiene que ir del derecho, y su pico va del derecho cuando la cabeza va del revés.",
+      "De ahí sale también su color: de los bichos rosados que se quedan en el filtro.",
+    ],
+  },
+  {
+    id: "dieciseis-amaneceres",
+    titular: "En la Estación Espacial amanece dieciséis veces al día",
+    realce: "dieciséis veces al día",
+    tema: "Espacio",
+    color: "var(--dato-naranja)", // el amanecer
+    mas: [
+      "Da una vuelta entera a la Tierra cada noventa minutos, a veintiocho mil kilómetros por hora. En cada vuelta pasa del lado iluminado al lado de sombra y vuelve, así que en veinticuatro horas ve dieciséis amaneceres y dieciséis puestas de sol.",
+      "Eso rompe el sueño de cualquiera, y es un problema serio: la tripulación duerme con horario de Londres, en cabinas del tamaño de una cabina telefónica, atados con correas para no salir flotando, y con antifaz.",
+      "El amanecer, eso sí, dura unos segundos. Se pasa del negro absoluto a una raya azul y naranja en el borde del planeta, y de ahí a pleno día.",
+    ],
+  },
+  {
+    id: "lengua-oso-hormiguero",
+    titular: "La lengua del oso hormiguero mide sesenta centímetros",
+    realce: "sesenta centímetros",
+    tema: "Animales",
+    color: "var(--dato-tierra)", // el hormiguero
+    mas: [
+      "Es más larga que su propia cabeza, y no la sujeta la mandíbula: le sale de una pieza pegada al esternón, en mitad del pecho. Va y viene ciento cincuenta veces por minuto, más de dos veces por segundo.",
+      "No tiene un solo diente. Rompe el hormiguero con las uñas, mete la lengua, la saca pegajosa de hormigas y termina. Se marcha antes de que las hormigas soldado se organicen: un minuto por hormiguero, y a otro.",
+      "Así se come treinta mil hormigas al día, de doscientos hormigueros distintos, sin acabar con ninguno.",
+    ],
+  },
+  {
+    id: "pepitas-de-manzana",
+    titular: "Las pepitas de la manzana llevan cianuro",
+    realce: "llevan cianuro",
+    tema: "Comida",
+    color: "var(--dato-verde)", // la manzana
+    mas: [
+      "Llevan un compuesto que, al masticarlo, se rompe y suelta cianuro de verdad. También lo tienen los huesos de la cereza, del melocotón y de la almendra amarga. Es la manera que tiene la planta de proteger la semilla: quien la muerda, que lo pase mal.",
+      "Ahora la parte tranquilizadora. Enteras no pasa nada: la cáscara de la pepita aguanta el viaje por el estómago sin abrirse. Y aunque las masticaras, harían falta cientos de pepitas de golpe, muy bien trituradas, para llegar a una dosis peligrosa.",
+      "O sea que una manzana comida con pepitas y todo no le ha hecho daño a nadie. Pero el cianuro está.",
+    ],
+  },
+  {
+    id: "primer-movil",
+    titular: "El primer móvil pesaba casi un kilo y costaba cuatro mil dólares",
+    realce: "casi un kilo",
+    tema: "Objetos",
+    color: "var(--dato-gris)", // el aparato
+    mas: [
+      "Salió en 1983, se llamaba DynaTAC 8000X y era un ladrillo de treinta centímetros con una antena de goma encima. Setecientos noventa gramos. Cuatro mil dólares de entonces, que hoy serían más de doce mil.",
+      "Y con eso hablabas media hora. La batería tardaba diez horas en cargarse para dar treinta minutos de conversación, así que la gente que se lo podía permitir llevaba una segunda batería en el maletín.",
+      "No hacía nada más. Ni mensajes, ni agenda, ni pantalla más allá de un renglón rojo con el número. Llamar, y ya.",
+    ],
+  },
   {
     id: "luna-maletas",
     titular: "Llegamos a la Luna antes de ponerle ruedas a las maletas",
@@ -807,18 +1037,6 @@ export const DATOS: Dato[] = [
     ],
   },
   {
-    id: "barajar-cartas",
-    titular: "Hay más maneras de barajar unas cartas que átomos en la Tierra",
-    realce: "que átomos en la Tierra",
-    tema: "Números",
-    color: "var(--dato-rojo)", // los corazones de la baraja
-    mas: [
-      "Cincuenta y dos cartas se pueden ordenar de un número que se escribe con un 8 y sesenta y siete ceros detrás. Los átomos que hay en el planeta entero, contando el mar, el aire y el hierro del centro, son un 1 con unos cincuenta ceros. No es que haya un poco más de barajas: hay cien mil billones de veces más.",
-      "Otra manera de verlo. Si alguien se hubiera puesto a barajar un mazo distinto cada segundo desde el principio del universo, y llevara ahí desde entonces, hoy no habría llegado ni a la milmillonésima parte de todas las combinaciones posibles.",
-      "Así que cada vez que barajas bien una baraja, estás poniendo esas cartas en un orden que casi con toda seguridad no ha existido nunca y no va a volver a existir.",
-    ],
-  },
-  {
     id: "diomede",
     titular: "Rusia y Estados Unidos están a cuatro kilómetros",
     realce: "a cuatro kilómetros",
@@ -828,6 +1046,18 @@ export const DATOS: Dato[] = [
       "En mitad del estrecho de Bering hay dos islas, una enfrente de otra, separadas por tres kilómetros y ochocientos metros de agua. La grande es rusa. La pequeña es estadounidense y tiene un pueblo con escuela. En los inviernos más fríos el mar se hiela entre las dos.",
       "Y por ese canal pasa la línea internacional de cambio de fecha, así que a la rusa la llaman la isla de Mañana y a la americana la isla de Ayer. La diferencia entre las dos no es de veinticuatro horas, que sería lo lógico, sino de veintiuna: los husos horarios no están repartidos a partes iguales y ahí se nota.",
       "Desde la playa de una se ve el día siguiente.",
+    ],
+  },
+  {
+    id: "barajar-cartas",
+    titular: "Hay más maneras de barajar unas cartas que átomos en la Tierra",
+    realce: "que átomos en la Tierra",
+    tema: "Números",
+    color: "var(--dato-rojo)", // los corazones de la baraja
+    mas: [
+      "Cincuenta y dos cartas se pueden ordenar de un número que se escribe con un 8 y sesenta y siete ceros detrás. Los átomos que hay en el planeta entero, contando el mar, el aire y el hierro del centro, son un 1 con unos cincuenta ceros. No es que haya un poco más de barajas: hay cien mil billones de veces más.",
+      "Otra manera de verlo. Si alguien se hubiera puesto a barajar un mazo distinto cada segundo desde el principio del universo, y llevara ahí desde entonces, hoy no habría llegado ni a la milmillonésima parte de todas las combinaciones posibles.",
+      "Así que cada vez que barajas bien una baraja, estás poniendo esas cartas en un orden que casi con toda seguridad no ha existido nunca y no va a volver a existir.",
     ],
   },
   {
