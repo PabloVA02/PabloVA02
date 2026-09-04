@@ -1697,13 +1697,20 @@ escrito en `Sabias.tsx`, en el hueco donde se pintaban. Y el aviso de copyright
 de Fluent Emoji se queda donde está, porque la licencia obliga mientras el
 código esté en el repositorio.
 
-**LO QUE SÍ QUEDA ES LA TARJETA.** Al quitar el dibujo, la frase se quedaba
-flotando en medio de la pantalla, y Pablo lo vio venir: «no sé si poner un
-cuadrado o así que rodee la frase, como antes». Se le pasaron cinco acabados
-con `scripts/tarjeta-sabias.mjs` y está puesto el término medio: un filo de un
-punto al 12 % y de relleno `--tarjeta`, que es medio tono por encima del papel
-de la sección. La tarjeta blanca con sombra del principio pesaba demasiado
-sobre el crema; sin nada, la frase no tenía dónde apoyarse.
+**Y LA TARJETA TAMPOCO SE PINTA.** Al quitar el dibujo se probó a reponerla
+—«no sé si poner un cuadrado o así que rodee la frase, como antes»—, se le
+pasaron cinco acabados con `scripts/tarjeta-sabias.mjs`, y al verla puesta la
+devolvió: «yo creo que sin recuadro ni nada, y no subrayes, no hace falta».
+
+Así que en esta pantalla ya no hay NADA dibujado salvo las letras y el filete
+de los botones. Ni color, ni dibujo, ni recuadro, ni subrayado. Y el criterio
+que lo justifica es el mismo en los cuatro casos: cuando la frase entera cabe
+en cuatro palabras, la frase no necesita que nada la señale, la enmarque ni la
+acompañe; lo único que puede hacer cualquiera de esas cosas es quitarle sitio.
+
+La única que sobrevive es la tarjeta ABIERTA, la que crece a pantalla completa,
+y sobrevive porque ahí el fondo no es un adorno: sin él se verían los datos de
+detrás a través del texto.
 
 **El tamaño de la letra no se mide, se elige por tramos** según lo que ocupe la
 frase. En los shorts hay un bucle que mide y encoge y cuesta cientos de

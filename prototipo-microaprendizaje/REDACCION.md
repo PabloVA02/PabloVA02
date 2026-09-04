@@ -595,12 +595,26 @@ Así que la sección queda así, y las tres cosas van juntas:
   **No se ha borrado nada.** `src/bocetos.tsx` sigue entero con sus 85 dibujos
   y sus once escenas, y cada dato conserva su `boceto` y su `escena`. Cómo
   reponerlos está escrito en `Sabias.tsx`, en el hueco donde se pintaban.
-- **Y la página en dos tintas.** Fuera el color de acento del rótulo, de la
-  frase y de los botones. El trozo que sorprende ya no se tiñe: se subraya con
-  una línea finísima, que es lo que haría alguien con un lápiz encima de su
-  propia letra. Los botones van de contorno, no macizos, porque un botón
-  relleno se convierte en la mancha más oscura de la pantalla y se lleva la
-  mirada que tenía que ir a la frase.
+- **Y la página en una tinta, sin nada alrededor.** Fuera el color de acento
+  del rótulo, de la frase y de los botones. Y fuera también las dos cosas que
+  se probaron para sustituirlo: **el subrayado del trozo que sorprende** y **el
+  recuadro alrededor de la frase**. Pablo, el 4 de septiembre: «yo creo que sin
+  recuadro ni nada, y no subrayes, no hace falta».
+
+  Las dos sobraban por el mismo motivo, y es el motivo por el que se pelearon
+  tanto los titulares: **cuando la frase entera cabe en cuatro palabras, el
+  trozo que sorprende ES la frase**. Subrayarlo dentro de sí mismo no dice
+  nada, y encerrar en un cuadro algo que ya está solo en la pantalla no lo
+  separa de nada.
+
+  Los botones sí van de contorno, no macizos, porque un botón relleno se
+  convierte en la mancha más oscura de la pantalla y se lleva la mirada que
+  tenía que ir a la frase.
+
+  El campo `realce` se queda escrito en los cien datos, con su norma; lo que ya
+  no existe es el `<em>` que lo envolvía. Y bien ido: un `<em>` que se ve igual
+  que lo de al lado engaña a quien escucha la pantalla, porque el lector de voz
+  lo entona y en la pantalla no hay nada que entonar.
 
 ### El color entró por el dibujo, y se fue con él
 

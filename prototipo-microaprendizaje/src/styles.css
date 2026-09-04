@@ -12486,35 +12486,32 @@ button {
    papel, tinta y una línea. La tarjeta sigue existiendo en el código —el
    `layoutId` la necesita para crecer al abrirse— pero ya no se ve: es el papel
    de la pantalla. */
-/* LA TARJETA. Pablo, el 4 de septiembre, después de quitar los dibujos: «hazlo
-   estéticamente más bonito si puedes; no sé si poner un cuadrado o así que
-   rodee la frase, como antes».
+/* LA TARJETA NO SE PINTA. Ha ido y ha vuelto dos veces en el mismo día, así
+   que conviene que estén las tres apuntadas:
 
-   Ha ido y ha vuelto, y las dos veces por un motivo. Nació calcada de Wiser:
-   blanca, con sombra y esquinas muy redondeadas. Se le quitó el 4 de
-   septiembre por la mañana, cuando la página pasó a dos tintas: un bloque
-   blanco sobre el papel crema era la mancha más clara de la pantalla y se
-   llevaba la mirada que tenía que ir a la frase. Y sin nada, quitados los
-   dibujos, la frase se quedaba flotando en medio de la pantalla sin apoyo.
+   1. Nació calcada de Wiser: blanca, con sombra y esquinas muy redondeadas.
+   2. Se le quitó el 4 de septiembre por la mañana, cuando la página pasó a dos
+      tintas: un bloque blanco sobre el papel crema era la mancha más clara de
+      la pantalla y se llevaba la mirada que tenía que ir a la frase.
+   3. Volvió esa tarde, en fino, al quitar los dibujos —«no sé si poner un
+      cuadrado o así que rodee la frase, como antes»—, y él la devolvió al
+      verla: «yo creo que sin recuadro ni nada».
 
-   Lo de ahora es el término medio y se eligió mirando cuatro: un filo de un
-   punto al 12 % y de relleno `--tarjeta`, que es medio tono por encima del
-   papel de la sección —#f7f3ec sobre #efe8dd—. Suficiente para que la frase
-   esté DENTRO de algo, y no tanto como para que ese algo compita con ella. Y
-   es el testigo que ya estaba declarado ahí arriba para esto, así que no entra
-   un color nuevo.
+   Y tiene razón, aunque haga falta verlo puesto para saberlo: un recuadro
+   alrededor de una frase de cuatro palabras la encierra sin ganar nada, porque
+   la frase ya está sola en la pantalla. No hay nada de lo que separarla.
 
-   El filo, además, es el mismo recurso que los tres botones de abajo, que van
-   de contorno: la tarjeta y lo que lleva dentro están dibujados igual. */
+   Lo que queda es la caja de siempre, sin fondo ni filo, con el aire justo por
+   los lados. Lo único dibujado en esta pantalla son las letras y el filete de
+   los botones. */
 .sab-carta {
   width: 100%;
-  padding: 34px 24px 26px;
+  padding: 8px 4px 0;
   border-radius: 26px;
-  background: var(--tarjeta);
-  box-shadow: inset 0 0 0 1px rgba(36, 31, 26, 0.12);
+  background: none;
+  box-shadow: none;
   text-align: center;
 }
-
 /* EL BOCETO. Grande y centrado encima del texto, a línea y en la tinta de la
    página con la mitad de fuerza: tiene que acompañar y no competir con la
    frase, que es lo que se lee. `currentColor` hace todo el trabajo —el dibujo
@@ -12582,13 +12579,13 @@ button {
 /* El trozo que sorprende ya no se tiñe: se subraya con una línea finísima, que
    es lo que haría alguien con un lápiz encima de su propia letra. Marca igual
    y no mete un color donde no lo hay. */
+/* El `<em>` del realce ya no se pinta —ni en color ni subrayado— y de hecho ya
+   no se escribe: ver `Sabias.tsx`, encima de `partes`. La regla se queda por si
+   vuelve, sin decoración, para que no se cuele la cursiva del navegador. */
 .sab-frase em {
   font-style: normal;
   color: inherit;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 5px;
-  text-decoration-color: rgba(36, 31, 26, 0.26);
+  text-decoration: none;
 }
 
 /* Las pastillas, separadas del texto por el filete finísimo de la captura. */
@@ -12698,8 +12695,10 @@ button {
 
 /* La misma tarjeta, ahora ocupando todo. No es otra pantalla: es la de antes,
    que ha crecido —de ahí el `layoutId` en el componente—. */
-/* Abierta llena la pantalla, así que ahí sí es opaca y con sombra de verdad:
-   detrás está el resto de la sección y tiene que taparlo. */
+/* Abierta llena la pantalla, así que ahí sí lleva fondo y sombra de verdad:
+   detrás está el resto de la sección y tiene que taparlo. Es lo único que
+   sobrevive del recuadro que Pablo devolvió, y sobrevive porque aquí no es un
+   adorno: sin fondo se verían los datos de detrás a través del texto. */
 .sab-carta-abierta {
   position: relative;
   display: flex;

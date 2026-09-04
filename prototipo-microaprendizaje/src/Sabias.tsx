@@ -54,13 +54,30 @@ function tramo(t: string) {
   return "muy-largo";
 }
 
-/** Parte el titular para teñir el trozo que sorprende. */
-function partes(d: Dato): [string, string, string] {
-  if (!d.realce) return [d.titular, "", ""];
-  const i = d.titular.indexOf(d.realce);
-  if (i < 0) return [d.titular, "", ""];
-  return [d.titular.slice(0, i), d.realce, d.titular.slice(i + d.realce.length)];
-}
+/* EL REALCE YA NO SE PINTA. Pablo, el 4 de septiembre: «yo creo que sin recuadro
+   ni nada, y no subrayes, no hace falta».
+
+   El trozo que sorprende se tiñó primero de color, y él lo quitó —«esos colores
+   me parecen muy orteras»—; después se subrayó con una línea finísima, y ahora
+   también. Y va sobrando: cuando la frase entera cabe en cuatro palabras, el
+   trozo que sorprende ES la frase, así que marcarlo dentro de sí mismo no dice
+   nada.
+
+   El campo `realce` SE QUEDA en los cien datos, con su norma escrita en
+   `sabias.ts`. Lo que se ha ido es el `<em>` que lo envolvía, y con razón: un
+   `<em>` que se ve igual que lo de al lado engaña a quien escucha la pantalla,
+   porque el lector de voz lo entona y en la pantalla no hay nada que entonar.
+
+   Para reponerlo, esta función parte el titular en tres:
+
+     function partes(d: Dato): [string, string, string] {
+       if (!d.realce) return [d.titular, "", ""];
+       const i = d.titular.indexOf(d.realce);
+       if (i < 0) return [d.titular, "", ""];
+       return [d.titular.slice(0, i), d.realce, d.titular.slice(i + d.realce.length)];
+     }
+
+   y en la tarjeta iba `{antes}{medio && <em>{medio}</em>}{despues}`. */
 
 /* LO GUARDADO, en el disco del navegador y con el mismo formato que el resto
    de la app: una lista de identificadores separados por comas, leída filtrando
@@ -134,7 +151,6 @@ export function Sabias() {
 
       <div className="sab-pase" ref={pase}>
         {DATOS.map((d, i) => {
-          const [antes, medio, despues] = partes(d);
           const estaAbierta = abierto?.id === d.id;
           return (
             <section
@@ -189,9 +205,7 @@ export function Sabias() {
                     className="sab-frase"
                     data-tramo={tramo(d.titular)}
                   >
-                    {antes}
-                    {medio && <em>{medio}</em>}
-                    {despues}
+                    {d.titular}
                   </motion.h2>
                   {/* UNA PASTILLA CON LETRA Y DOS BOTONES REDONDOS. Antes eran
                       dos pastillas con letra y sumaban 288 de los 291 que hay:
