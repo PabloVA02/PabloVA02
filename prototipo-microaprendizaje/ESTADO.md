@@ -1843,10 +1843,28 @@ la misma cuenta de la barra grande del inicio: páginas enteras pasadas más el
 trozo de la de ahora, sobre las que tiene el libro. Un libro terminado no
 enseña barra: ya no es algo que estés siguiendo.
 
-**LAS DOS TECLAS**, también medidas: 39 de lado, 8 de margen por abajo y por
-los costados, esquinas de 11 y el gris macizo `#383838` —que es el mismo del
-marcador, así que no aparece un tercer gris—. Descargar a la izquierda, los
-tres puntos a la derecha.
+**LAS DOS TECLAS DURARON UNA TARDE.** Se hicieron medidas de su captura —39 de
+lado, 8 de margen, esquinas de 11 y el gris del marcador— apoyadas en el borde
+de abajo de la cubierta, que es donde las pone Headway. Y las devolvió: «lo de
+descargar y los tres puntitos quítalo y ponlo en otro lado, que no tape la
+portada; lo de descargar quítalo y solo deja los tres puntitos y ya».
+
+Tenía razón en las dos. **Sobre la cubierta estorbaban de verdad**: se comían
+justo el pie, que es donde casi todas llevan impreso el nombre del autor. Y
+**descargar sobraba**: en un prototipo no hay nada que bajar, así que era un
+botón que solo sabía ponerse verde.
+
+Ahora queda **el menú y nada más, en el renglón del autor y a su derecha**. Ese
+renglón ya existía y le sobra sitio, así que el menú no cuesta ni un punto de
+alto y la cubierta se ve entera. Va sin fondo ni filo: el renglón es texto
+pequeño y una tecla con caja al lado pesaría más que el nombre.
+
+**Y el autor pasa a partirse en dos líneas.** En el carrusel iba a una línea con
+puntos suspensivos; quitándole 22 puntos para el menú, «Yuval Noah Harari» —el
+autor de dos de los libros más vistos— se quedaba en «Yuval Noah Ha…». Un
+nombre partido se lee entero; uno cortado, no. Ojo con la regla: `.carrusel
+.ficha-autor` pone `nowrap` más abajo en el mismo fichero y con la misma
+especificidad, así que ganaba por orden; hay que subir a tres clases.
 
 **Y el marcador desaparece, pero SOLO EN LA BIBLIOTECA.** Es la razón que dio
 él y es buena: un libro que ya está dentro no se guarda otra vez. En Inicio y

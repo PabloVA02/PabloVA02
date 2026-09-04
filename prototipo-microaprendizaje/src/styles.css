@@ -1273,37 +1273,65 @@ button {
   transform-origin: left center;
 }
 
-/* LAS DOS TECLAS DE LA CUBIERTA EN LA BIBLIOTECA: descargar y el menú.
-   Medidas en la misma captura: 39 de lado, 8 de margen por abajo y por los
-   costados, esquinas de 11 y el gris macizo #383838, que es el mismo del
-   marcador y así no aparece un tercer gris en la pantalla. */
-.ficha-teclas {
-  position: absolute;
-  left: 8px;
-  right: 8px;
-  bottom: 8px;
-  z-index: 2;
+/* EL MENÚ DE LOS TRES PUNTOS, EN EL RENGLÓN DEL AUTOR Y NO SOBRE LA CUBIERTA.
+
+   Estuvo apoyado en el borde de abajo de la cubierta, con una tecla de
+   descargar al lado, que es donde las pone Headway. Pablo lo devolvió el 4 de
+   septiembre: «lo de descargar y los tres puntitos quítalo y ponlo en otro
+   lado, que no tape la portada; lo de descargar quítalo y solo deja los tres
+   puntitos».
+
+   Y en la portada estorbaban de verdad: se comían el pie de la cubierta, que
+   es justo donde casi todas llevan impreso el nombre del autor. Aquí abajo el
+   renglón ya existía y le sobra sitio a la derecha —«Paulo Coelho» deja media
+   línea vacía—, así que el menú no cuesta ni un punto de alto.
+
+   Sin fondo ni filo: el renglón es texto pequeño y una tecla con caja al lado
+   pesaría más que el nombre del autor, que es lo que hay que leer. */
+.ficha-pie {
   display: flex;
-  justify-content: space-between;
-  pointer-events: none;
+  align-items: flex-start;
+  gap: 4px;
+  width: 100%;
 }
-.ficha-tecla {
-  pointer-events: auto;
-  width: 39px;
-  height: 39px;
-  border-radius: 11px;
-  background: #383838;
+/* CON EL MENÚ AL LADO, EL AUTOR SE PARTE EN DOS LÍNEAS EN VEZ DE CORTARSE.
+   En el carrusel el nombre va a una línea con puntos suspensivos, que con los
+   148 puntos enteros valía; quitándole 22 para el menú, «Yuval Noah Harari»
+   —que es el autor de dos de los libros más vistos— se quedaba en «Yuval Noah
+   Ha…». Un nombre partido se lee entero; uno cortado, no. Y en una tira
+   horizontal cada ficha acaba donde acaba, así que la segunda línea no
+   descuadra nada. */
+/* `.carrusel .ficha-autor` pone `nowrap` más abajo en este mismo fichero y con
+   la misma especificidad, así que ganaba por orden. Con `.carrusel` delante
+   esta sube a tres clases y manda esté donde esté. */
+.ficha-pie .ficha-autor,
+.carrusel .ficha-pie .ficha-autor {
+  flex: 1;
+  min-width: 0;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: clip;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.ficha-menu {
+  flex: none;
+  /* El dibujo mide 17 y el blanco de alrededor lo sube a 28, que es lo que
+     hace que el dedo lo acierte sin que se vea una tecla. */
   display: grid;
   place-items: center;
-  color: #fff;
+  width: 26px;
+  height: 26px;
+  /* Se sale ocho puntos por la derecha, al hueco que hay entre una ficha y la
+     siguiente. Es sitio que no usa nadie, y son ocho puntos que se le
+     devuelven al nombre del autor: sin esto «Yuval Noah Harari» se corta con
+     puntos suspensivos, y antes cabía entero. */
+  margin: 5px -8px 0 0;
+  border-radius: 999px;
+  color: #8d8d8d;
 }
-/* Descargado: el mismo botón, en verde, que es el acento de la casa. No se
-   apaga ni desaparece —hay que poder deshacerlo— pero deja de pedir que lo
-   pulses. */
-.ficha-tecla[data-hecho="true"] {
-  background: var(--verde);
-  color: #10240f;
-}
+.ficha-menu:active { background: rgba(255, 255, 255, 0.08); }
 
 /* El menú de los tres puntos, dentro de la hoja de siempre. */
 .menu-libro { display: grid; gap: 2px; }

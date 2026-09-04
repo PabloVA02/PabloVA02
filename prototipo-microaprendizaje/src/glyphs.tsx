@@ -142,17 +142,6 @@ export function GlyphTresPuntos() {
   );
 }
 
-/* Ya descargado: el mismo suelo del icono de descargar, con un visto encima en
-   vez de la flecha. Cambia el gesto, no el sitio, así que se lee como el mismo
-   botón en otro estado y no como otro botón. */
-export function GlyphDescargado() {
-  return (
-    <svg width="17" height="17" viewBox="0 0 17 17" aria-hidden>
-      <path d="M4.6 7.6 L7.6 10.6 L12.4 4.6 M3.6 13.6 H13.4" {...trazo} />
-    </svg>
-  );
-}
-
 /* Quitar de la biblioteca: el marcador tachado. La raya va del mismo grosor
    que el trazo para que no parezca un error de dibujo. */
 export function GlyphQuitar() {

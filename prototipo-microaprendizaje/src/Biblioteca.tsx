@@ -7,7 +7,7 @@ import {
 } from "./undraw";
 import { enterVariants, pantalla, spring, springPop, springSoft, springTight } from "./motion";
 import {
-  GlyphAuriculares, GlyphAvatar, GlyphClose, GlyphDescargado, GlyphDescargar,
+  GlyphAuriculares, GlyphAvatar, GlyphClose, GlyphDescargar,
   GlyphGuardar, GlyphLeer, GlyphLupa, GlyphPaginas, GlyphPuntos, GlyphQuitar,
   GlyphRegalo, GlyphReloj, GlyphShare, GlyphTresPuntos, GlyphVisto,
 } from "./glyphs";
@@ -304,30 +304,6 @@ export function MiBiblioteca({
      tienen sentido y guardarlo por id evitaría tener que buscarlo otra vez. */
   const [menu, setMenu] = useState<Libro | null>(null);
 
-  /* LO DESCARGADO SE RECUERDA. En un prototipo no hay nada que bajar, pero el
-     botón tiene que comportarse como el de verdad: se pulsa una vez, se queda
-     hecho, y sigue hecho al volver a entrar. Por eso vive en el almacén del
-     navegador y no en un estado que se borra al cambiar de pantalla. */
-  const [descargados, setDescargados] = useState<ReadonlySet<string>>(() => {
-    try {
-      return new Set((localStorage.getItem("curva.descargados") || "").split(",").filter(Boolean));
-    } catch {
-      return new Set();
-    }
-  });
-  const alternarDescarga = (l: Libro) =>
-    setDescargados((antes) => {
-      const ahora = new Set(antes);
-      if (ahora.has(l.id)) ahora.delete(l.id);
-      else ahora.add(l.id);
-      try {
-        localStorage.setItem("curva.descargados", [...ahora].join(","));
-      } catch {
-        /* Navegación privada: se pierde al salir y no pasa nada. */
-      }
-      return ahora;
-    });
-
   /* CUÁNTO LLEVA LEÍDO DE CADA UNO, en la misma cuenta que la barra grande del
      inicio: las páginas enteras pasadas más el trozo que lleva de la de ahora,
      sobre las que tiene el libro. Un libro terminado no enseña barra: ya no es
@@ -516,8 +492,6 @@ export function MiBiblioteca({
                       onGuardar={() => onGuardar(l)}
                       avance={avanceDe(l)}
                       acciones
-                      descargado={descargados.has(l.id)}
-                      onDescargar={() => alternarDescarga(l)}
                       onMenu={() => setMenu(l)}
                     />
                   ))}
@@ -645,8 +619,6 @@ export function FichaLibro({
   onGuardar,
   avance = 0,
   acciones = false,
-  descargado = false,
-  onDescargar,
   onMenu,
 }: {
   libro: Libro;
@@ -672,10 +644,18 @@ export function FichaLibro({
    * Y tiene razón: un libro que ya está en tu biblioteca no se guarda otra
    * vez. Lo que hace falta ahí es lo contrario —sacarlo— y eso vive dentro del
    * menú, junto a compartir y a darlo por terminado.
+   *
+   * DESPUÉS SE QUEDÓ SOLO EL MENÚ, y fuera de la cubierta. Un rato más tarde:
+   * «lo de descargar y los tres puntitos de biblioteca quítalo y ponlo en otro
+   * lado, que no tape la portada; lo de descargar quítalo y solo deja los tres
+   * puntitos y ya».
+   *
+   * Las dos teclas iban apoyadas en el borde de abajo de la cubierta, que es
+   * donde las pone Headway, y ahí tapan el pie de la portada —justo donde casi
+   * todas llevan impreso el nombre del autor—. Ahora el menú baja al renglón
+   * del autor, a la derecha, y la cubierta se ve entera.
    */
   acciones?: boolean;
-  descargado?: boolean;
-  onDescargar?: () => void;
   onMenu?: () => void;
 }) {
   return (
@@ -724,42 +704,6 @@ export function FichaLibro({
           </motion.span>
         )}
         <Portada libro={libro} tamano={148} />
-        {/* Descargar y el menú, apoyados en el borde de abajo de la cubierta.
-            Medido en la captura de Pablo, en un móvil de 375: teclas de 39
-            puntos, ocho de margen por los tres lados, esquinas de 11 y el
-            mismo gris macizo del marcador. */}
-        {acciones && (
-          <div className="ficha-teclas">
-            <motion.span
-              className="ficha-tecla"
-              data-hecho={descargado}
-              role="button"
-              tabIndex={-1}
-              aria-label={descargado ? "Descargado para leer sin conexión" : "Descargar para leer sin conexión"}
-              onClick={(e) => {
-                e.stopPropagation();
-                onDescargar?.();
-              }}
-              whileTap={{ scale: 0.9 }}
-            >
-              {descargado ? <GlyphDescargado /> : <GlyphDescargar />}
-            </motion.span>
-            <motion.span
-              className="ficha-tecla"
-              role="button"
-              tabIndex={-1}
-              aria-label={`Más opciones de ${libro.titulo}`}
-              aria-haspopup="menu"
-              onClick={(e) => {
-                e.stopPropagation();
-                onMenu?.();
-              }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <GlyphTresPuntos />
-            </motion.span>
-          </div>
-        )}
       </div>
       {/* LA BARRA DE PROGRESO, DEBAJO DE LA CUBIERTA Y NO ENCIMA.
 
@@ -791,8 +735,30 @@ export function FichaLibro({
       {/* Bajo la cubierta va el AUTOR y nada más. Es lo que hace la
           referencia, y tiene su lógica: el título ya está escrito, grande,
           en la propia cubierta, así que repetirlo debajo era decir dos veces
-          lo mismo y estirar la ficha ciento cuarenta puntos. */}
-      <p className="ficha-autor">{libro.autor}</p>
+          lo mismo y estirar la ficha ciento cuarenta puntos.
+
+          Y a su derecha, en la biblioteca, los tres puntos. Aquí y no sobre la
+          cubierta: el renglón del autor ya existe, tiene sitio de sobra a la
+          derecha —los nombres cortos dejan media línea vacía— y no tapa nada. */}
+      <div className="ficha-pie">
+        <p className="ficha-autor">{libro.autor}</p>
+        {acciones && (
+          <motion.span
+            className="ficha-menu"
+            role="button"
+            tabIndex={-1}
+            aria-label={`Más opciones de ${libro.titulo}`}
+            aria-haspopup="menu"
+            onClick={(e) => {
+              e.stopPropagation();
+              onMenu?.();
+            }}
+            whileTap={{ scale: 0.88 }}
+          >
+            <GlyphTresPuntos />
+          </motion.span>
+        )}
+      </div>
     </motion.button>
   );
 }
