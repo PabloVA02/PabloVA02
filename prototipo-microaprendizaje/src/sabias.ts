@@ -92,6 +92,20 @@ export type Dato = {
   /** Dos palabras que sitúan, para que se vea de qué va antes de leer. */
   tema: string;
   /**
+   * EL BOCETO: el dibujo a línea que acompaña al dato.
+   *
+   * Pablo, 4 de septiembre: «una especie de boceto sin colores ni nada, solo
+   * con líneas, de dibujos de lo que estamos hablando; por ejemplo un boceto
+   * muy simple de delfines por la página».
+   *
+   * El nombre sale de `bocetos.tsx`. Hay menos dibujos que datos y es a
+   * propósito: dos datos de tiburón comparten tiburón, y el que no tenga uno
+   * propio se queda con el más cercano de su familia. Un dibujo aproximado que
+   * acompaña vale más que un hueco.
+   */
+  boceto?: string;
+
+  /**
    * EL COLOR DICE ALGO. Norma de Pablo del 3 de septiembre: «cuando colorees
    * unas palabras deben tener cierto sentido; por ejemplo, la frase donde
    * hablas de Ferrari deberá ser roja, o la frase donde hablas del espacio,
@@ -212,8 +226,9 @@ export const DATOS: Dato[] = [
      ------------------------------------------------------------------------ */
   {
     id: "nutrias-de-la-mano",
-    titular: "Las nutrias duermen cogidas de la mano para no separarse mientras el mar las mueve",
+    titular: "Las nutrias duermen cogidas de la mano",
     realce: "cogidas de la mano",
+    boceto: "nutria",
     tema: "Animales",
     color: "var(--dato-mar)", // el agua
     mas: [
@@ -224,8 +239,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "caballos-no-vomitan",
-    titular: "Los caballos no pueden vomitar: la puerta de su estómago solo se abre hacia dentro",
+    titular: "Los caballos no pueden vomitar",
     realce: "no pueden vomitar",
+    boceto: "caballo",
     tema: "Animales",
     color: "var(--dato-tierra)", // el establo
     mas: [
@@ -236,8 +252,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "cebras-negras",
-    titular: "Las cebras son negras con rayas blancas, no blancas con rayas negras: la piel de debajo es negra entera",
+    titular: "Las cebras son negras con rayas blancas",
     realce: "negras con rayas blancas",
+    boceto: "cebra",
     tema: "Animales",
     color: "var(--dato-gris)", // el blanco y negro
     mas: [
@@ -248,8 +265,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "delfines-nombres",
-    titular: "Los delfines se ponen nombre: cada uno se inventa de pequeño un silbido propio y los demás lo usan para llamarlo",
+    titular: "Los delfines se ponen nombre",
     realce: "se ponen nombre",
+    boceto: "delfin",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -260,8 +278,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "mas-alto-por-la-manana",
-    titular: "Eres entre 1 y 2 centímetros más alto por la mañana que por la noche, porque de día el peso te aplasta la espalda",
+    titular: "Eres más alto por la mañana que por la noche",
     realce: "más alto por la mañana",
+    boceto: "cuerpo",
     tema: "Cuerpo",
     color: "var(--dato-rojo)", // por dentro
     mas: [
@@ -272,8 +291,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "cosquillas",
-    titular: "Nadie puede hacerse cosquillas a sí mismo, porque el cerebro ya sabe dónde vas a tocar antes de que llegues",
-    realce: "hacerse cosquillas a sí mismo",
+    titular: "Nadie puede hacerse cosquillas a sí mismo",
+    realce: "a sí mismo",
+    boceto: "mano",
     tema: "Cuerpo",
     color: "var(--dato-morado)", // el cerebro
     mas: [
@@ -284,8 +304,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "plastico-de-burbujas",
-    titular: "El plástico de burbujas se inventó en 1957 para vender papel de pared, y no lo quiso nadie",
-    realce: "para vender papel de pared",
+    titular: "El plástico de burbujas se inventó para decorar paredes",
+    realce: "para decorar paredes",
+    boceto: "burbujas",
     tema: "Objetos",
     color: "var(--dato-gris)", // el plástico
     mas: [
@@ -296,8 +317,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "pulpo-por-el-pico",
-    titular: "Un pulpo cabe por cualquier agujero del tamaño de su pico, porque es lo único duro que tiene en el cuerpo",
-    realce: "del tamaño de su pico",
+    titular: "Un pulpo cabe por donde le quepa el pico",
+    realce: "por donde le quepa el pico",
+    boceto: "pulpo",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -308,8 +330,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "antartida-desierto",
-    titular: "La Antártida es el desierto más grande del mundo: en el interior llueve menos que en el Sáhara",
+    titular: "La Antártida es el desierto más grande del mundo",
     realce: "el desierto más grande del mundo",
+    boceto: "hielo",
     tema: "El mundo",
     color: "var(--dato-gris)", // el hielo
     mas: [
@@ -320,8 +343,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "pinguinos-piedra",
-    titular: "Los pingüinos le regalan una piedra a la hembra que les gusta, y si ella la acepta hay pareja",
-    realce: "le regalan una piedra",
+    titular: "Los pingüinos ligan regalando piedras",
+    realce: "regalando piedras",
+    boceto: "pinguino",
     tema: "Animales",
     color: "var(--dato-tierra)", // la piedra
     mas: [
@@ -333,8 +357,9 @@ export const DATOS: Dato[] = [
   /* --- TANDA 2 --------------------------------------------------------- */
   {
     id: "mariposas-patas",
-    titular: "Las mariposas saborean con las patas: para saber si una flor sirve les basta con posarse encima",
-    realce: "saborean con las patas",
+    titular: "Las mariposas saborean con las patas",
+    realce: "con las patas",
+    boceto: "mariposa",
     tema: "Animales",
     color: "var(--dato-naranja)", // las alas
     mas: [
@@ -345,8 +370,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "cucaracha-sin-cabeza",
-    titular: "Una cucaracha puede vivir una semana sin cabeza, y al final se muere de sed porque no puede beber",
-    realce: "una semana sin cabeza",
+    titular: "Una cucaracha vive una semana sin cabeza",
+    realce: "sin cabeza",
+    boceto: "cucaracha",
     tema: "Animales",
     color: "var(--dato-tierra)", // el bicho
     mas: [
@@ -357,8 +383,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "huesos-al-nacer",
-    titular: "Naces con unos 300 huesos y de mayor tienes 206, porque muchos se van soldando entre ellos al crecer",
-    realce: "de mayor tienes 206",
+    titular: "Naces con 300 huesos y acabas con 206",
+    realce: "acabas con 206",
+    boceto: "hueso",
     tema: "Cuerpo",
     color: "var(--dato-gris)", // el hueso
     mas: [
@@ -369,8 +396,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "nariz-invisible",
-    titular: "Tu nariz está todo el día en mitad de lo que miras y el cerebro te la borra por no ser útil",
-    realce: "el cerebro te la borra",
+    titular: "Tu cerebro te borra la nariz de lo que ves",
+    realce: "te borra la nariz",
+    boceto: "cara",
     tema: "Cuerpo",
     color: "var(--dato-morado)", // el cerebro
     mas: [
@@ -381,8 +409,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "soldadura-espacio",
-    titular: "En el espacio dos piezas de metal que se tocan se quedan pegadas para siempre, y es un problema serio de la ingeniería espacial",
-    realce: "se quedan pegadas para siempre",
+    titular: "En el espacio los metales se pegan solos",
+    realce: "se pegan solos",
+    boceto: "metal",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // el vacío
     mas: [
@@ -393,8 +422,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "velcro-cardo",
-    titular: "El velcro se copió de las bolitas que se le pegaron en el pantalón a un ingeniero suizo volviendo de cazar",
-    realce: "las bolitas que se le pegaron en el pantalón",
+    titular: "El velcro se copió de un cardo",
+    realce: "de un cardo",
+    boceto: "cardo",
     tema: "Objetos",
     color: "var(--dato-verde)", // la planta
     mas: [
@@ -405,8 +435,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "pina-come-boca",
-    titular: "La piña te come la boca mientras te la comes: lleva una sustancia que deshace las proteínas de tu lengua",
+    titular: "La piña te come la boca mientras te la comes",
     realce: "te come la boca",
+    boceto: "pina",
     tema: "Comida",
     color: "var(--dato-oro)", // la piña
     mas: [
@@ -417,8 +448,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "lapices-sin-plomo",
-    titular: "Los lápices nunca han llevado plomo: llevan grafito, y el nombre viene de una confusión del siglo XVI",
+    titular: "Los lápices nunca han llevado plomo",
     realce: "nunca han llevado plomo",
+    boceto: "lapiz",
     tema: "Objetos",
     color: "var(--dato-gris)", // el grafito
     mas: [
@@ -429,8 +461,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "sahara-amazonas",
-    titular: "El polvo del Sáhara cruza el Atlántico y es lo que abona la selva del Amazonas: 27 millones de toneladas al año",
-    realce: "abona la selva del Amazonas",
+    titular: "El polvo del Sáhara abona el Amazonas",
+    realce: "abona el Amazonas",
+    boceto: "duna",
     tema: "El mundo",
     color: "var(--dato-tierra)", // la arena
     mas: [
@@ -441,8 +474,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "joroba-camello",
-    titular: "En la joroba del camello no hay agua: hay grasa, y el agua la guarda en la sangre",
-    realce: "no hay agua: hay grasa",
+    titular: "En la joroba del camello no hay agua, hay grasa",
+    realce: "no hay agua, hay grasa",
+    boceto: "camello",
     tema: "Animales",
     color: "var(--dato-oro)", // el desierto
     mas: [
@@ -454,8 +488,9 @@ export const DATOS: Dato[] = [
   /* --- TANDA 3 --------------------------------------------------------- */
   {
     id: "gatos-sin-dulce",
-    titular: "Los gatos no notan el sabor dulce porque tienen roto el gen que fabrica ese sensor",
+    titular: "Los gatos no notan el sabor dulce",
     realce: "no notan el sabor dulce",
+    boceto: "gato",
     tema: "Animales",
     color: "var(--dato-tierra)", // el gato
     mas: [
@@ -466,8 +501,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "caracol-tres-anos",
-    titular: "Un caracol puede dormir 3 años seguidos, tapiado dentro de su concha, esperando a que llueva",
+    titular: "Un caracol puede dormir 3 años seguidos",
     realce: "3 años seguidos",
+    boceto: "caracol",
     tema: "Animales",
     color: "var(--dato-verde)", // la hoja
     mas: [
@@ -478,8 +514,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "cuello-jirafa",
-    titular: "Una jirafa tiene 7 huesos en el cuello, los mismos que tú, solo que cada uno mide 30 centímetros",
-    realce: "los mismos que tú",
+    titular: "La jirafa tiene los mismos huesos de cuello que tú",
+    realce: "los mismos huesos de cuello que tú",
+    boceto: "jirafa",
     tema: "Animales",
     color: "var(--dato-oro)", // la sabana
     mas: [
@@ -490,8 +527,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "llorar-en-el-espacio",
-    titular: "En el espacio no se puede llorar: las lágrimas no caen, se quedan hechas una bola pegada al ojo",
-    realce: "las lágrimas no caen",
+    titular: "En el espacio no se puede llorar",
+    realce: "no se puede llorar",
+    boceto: "astronauta",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // el espacio
     mas: [
@@ -502,8 +540,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "lluvia-de-cristal",
-    titular: "Hay un planeta a 63 años luz donde en vez de agua llueve cristal derretido",
-    realce: "llueve cristal derretido",
+    titular: "Hay un planeta donde llueve cristal",
+    realce: "llueve cristal",
+    boceto: "planeta",
     tema: "Espacio",
     color: "var(--dato-mar)", // el azul del planeta
     mas: [
@@ -514,8 +553,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "esmalte-no-vuelve",
-    titular: "El esmalte de los dientes es lo único de tu cuerpo que no se regenera: lo que se pierde no vuelve",
+    titular: "El esmalte de los dientes no se regenera",
     realce: "no se regenera",
+    boceto: "diente",
     tema: "Cuerpo",
     color: "var(--dato-gris)", // el diente
     mas: [
@@ -526,8 +566,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "chocolate-blanco",
-    titular: "El chocolate blanco no lleva cacao: lleva su manteca, que es blanca y no sabe a nada",
+    titular: "El chocolate blanco no lleva cacao",
     realce: "no lleva cacao",
+    boceto: "chocolate",
     tema: "Comida",
     color: "var(--dato-oro)", // la manteca
     mas: [
@@ -538,8 +579,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "cocodrilo-lengua",
-    titular: "Un cocodrilo no puede sacar la lengua: la tiene pegada al suelo de la boca para no tragar agua al cazar",
+    titular: "Un cocodrilo no puede sacar la lengua",
     realce: "no puede sacar la lengua",
+    boceto: "cocodrilo",
     tema: "Animales",
     color: "var(--dato-verde)", // el río
     mas: [
@@ -550,8 +592,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "ketchup-medicina",
-    titular: "El kétchup se vendía en las farmacias como medicina para la diarrea, y llegó a venderse en pastillas",
-    realce: "como medicina para la diarrea",
+    titular: "El kétchup se vendía como medicina",
+    realce: "como medicina",
+    boceto: "tomate",
     tema: "Comida",
     color: "var(--dato-rojo)", // el tomate
     mas: [
@@ -562,8 +605,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "agujero-ventanilla",
-    titular: "Las ventanillas de los aviones tienen un agujero para que sea el cristal de fuera el que aguante toda la presión",
-    realce: "tienen un agujero",
+    titular: "Las ventanillas de los aviones tienen un agujero a propósito",
+    realce: "un agujero a propósito",
+    boceto: "ventanilla",
     tema: "Objetos",
     color: "var(--dato-mar)", // el cielo
     mas: [
@@ -575,8 +619,9 @@ export const DATOS: Dato[] = [
   /* --- TANDA 4 --------------------------------------------------------- */
   {
     id: "estrellas-y-arena",
-    titular: "Hay más estrellas en el universo que granos de arena en todas las playas de la Tierra juntas",
-    realce: "que granos de arena",
+    titular: "Hay más estrellas que granos de arena en las playas",
+    realce: "más estrellas que granos de arena",
+    boceto: "estrellas",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // el cielo
     mas: [
@@ -587,8 +632,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "ojo-avestruz",
-    titular: "El ojo de un avestruz es más grande que su cerebro: mide 5 centímetros y el cerebro le cabe en una nuez",
+    titular: "El ojo de un avestruz es más grande que su cerebro",
     realce: "más grande que su cerebro",
+    boceto: "avestruz",
     tema: "Animales",
     color: "var(--dato-tierra)", // la llanura seca
     mas: [
@@ -599,8 +645,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "elefantes-no-saltan",
-    titular: "Los elefantes no pueden saltar: sus patas van rectas como columnas y no tienen muelle",
+    titular: "Los elefantes no pueden saltar",
     realce: "no pueden saltar",
+    boceto: "elefante",
     tema: "Animales",
     color: "var(--dato-gris)", // el elefante
     mas: [
@@ -611,8 +658,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "platano-radiactivo",
-    titular: "Un plátano es ligeramente radiactivo por el potasio que lleva, y a ti te pasa lo mismo",
-    realce: "ligeramente radiactivo",
+    titular: "Un plátano es un poco radiactivo",
+    realce: "un poco radiactivo",
+    boceto: "platano",
     tema: "Comida",
     color: "var(--dato-oro)", // el plátano
     mas: [
@@ -623,8 +671,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "bandera-nepal",
-    titular: "Nepal tiene la única bandera del mundo que no es rectangular: son dos triángulos con el borde en zigzag",
-    realce: "la única bandera del mundo que no es rectangular",
+    titular: "La bandera de Nepal no es rectangular",
+    realce: "no es rectangular",
+    boceto: "bandera",
     tema: "El mundo",
     color: "var(--dato-rojo)", // la bandera
     mas: [
@@ -635,8 +684,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "gambas-corazon",
-    titular: "Las gambas tienen el corazón en la cabeza, junto con el estómago y casi todo lo demás",
-    realce: "el corazón en la cabeza",
+    titular: "Las gambas tienen el corazón en la cabeza",
+    realce: "en la cabeza",
+    boceto: "gamba",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -647,8 +697,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "nariz-de-perro",
-    titular: "La nariz de un perro tiene un dibujo de arrugas único, como tu huella dactilar, y sirve para identificarlo",
-    realce: "un dibujo de arrugas único",
+    titular: "La nariz de un perro es como una huella dactilar",
+    realce: "como una huella dactilar",
+    boceto: "perro",
     tema: "Animales",
     color: "var(--dato-tierra)", // el perro
     mas: [
@@ -659,8 +710,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "abejas-caras",
-    titular: "Las abejas reconocen caras humanas y las recuerdan días después, con un cerebro de menos de 1 millón de neuronas",
+    titular: "Las abejas reconocen caras humanas",
     realce: "reconocen caras humanas",
+    boceto: "abeja",
     tema: "Animales",
     color: "var(--dato-oro)", // la miel
     mas: [
@@ -671,8 +723,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "cien-rayos-por-segundo",
-    titular: "Cada segundo caen unos 100 rayos en el mundo, repartidos entre las 2.000 tormentas que hay activas ahora mismo",
-    realce: "unos 100 rayos",
+    titular: "Cada segundo caen 100 rayos en el mundo",
+    realce: "100 rayos",
+    boceto: "rayo",
     tema: "Naturaleza",
     color: "var(--dato-naranja)", // el rayo
     mas: [
@@ -683,8 +736,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "panda-catorce-horas",
-    titular: "Un panda se pasa 14 horas al día comiendo porque el bambú casi no alimenta y él tiene tripa de carnívoro",
-    realce: "14 horas al día comiendo",
+    titular: "Un panda come 14 horas al día",
+    realce: "14 horas al día",
+    boceto: "panda",
     tema: "Animales",
     color: "var(--dato-verde)", // el bambú
     mas: [
@@ -696,8 +750,9 @@ export const DATOS: Dato[] = [
   /* --- TANDA 5 --------------------------------------------------------- */
   {
     id: "relojes-diez-y-diez",
-    titular: "En los anuncios todos los relojes marcan las 10:10, porque así las manecillas no tapan el nombre de la marca",
-    realce: "marcan las 10:10",
+    titular: "En los anuncios los relojes marcan las 10:10",
+    realce: "las 10:10",
+    boceto: "reloj",
     tema: "Objetos",
     color: "var(--dato-gris)", // la esfera
     mas: [
@@ -708,8 +763,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "conchas-en-el-everest",
-    titular: "En la cima del Everest hay conchas de mar, porque esa roca era el fondo de un océano hace 450 millones de años",
-    realce: "hay conchas de mar",
+    titular: "En la cima del Everest hay conchas de mar",
+    realce: "conchas de mar",
+    boceto: "montana",
     tema: "El mundo",
     color: "var(--dato-mar)", // el mar que hubo
     mas: [
@@ -720,8 +776,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "renos-ojos-azules",
-    titular: "A los renos se les ponen los ojos azules en invierno para ver mejor en la oscuridad del Ártico",
-    realce: "se les ponen los ojos azules",
+    titular: "A los renos se les ponen los ojos azules en invierno",
+    realce: "los ojos azules",
+    boceto: "reno",
     tema: "Animales",
     color: "var(--dato-galaxia)", // el invierno
     mas: [
@@ -732,8 +789,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "pupilas-de-cabra",
-    titular: "Las cabras tienen las pupilas rectangulares y con esa ranura ven casi 340 grados a su alrededor",
-    realce: "las pupilas rectangulares",
+    titular: "Las cabras tienen las pupilas rectangulares",
+    realce: "rectangulares",
+    boceto: "cabra",
     tema: "Animales",
     color: "var(--dato-tierra)", // el monte
     mas: [
@@ -744,8 +802,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "hipopotamo-sudor-rojo",
-    titular: "Los hipopótamos sudan un líquido rojo que les hace de crema solar y de desinfectante a la vez",
-    realce: "un líquido rojo",
+    titular: "Los hipopótamos sudan rojo",
+    realce: "sudan rojo",
+    boceto: "hipopotamo",
     tema: "Animales",
     color: "var(--dato-rojo)", // el líquido
     mas: [
@@ -756,8 +815,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "medusas-sin-nada",
-    titular: "Las medusas no tienen cerebro, ni corazón, ni sangre, ni huesos: son agua en un 95 por ciento",
-    realce: "cerebro, ni corazón, ni sangre",
+    titular: "Las medusas no tienen cerebro ni corazón",
+    realce: "cerebro ni corazón",
+    boceto: "medusa",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -768,8 +828,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "aduana-de-la-luna",
-    titular: "Los astronautas del Apolo 11 tuvieron que pasar por la aduana, y en el impreso pusieron «Luna» como lugar de procedencia",
-    realce: "pasar por la aduana",
+    titular: "Los del Apolo 11 pasaron por la aduana al volver",
+    realce: "pasaron por la aduana",
+    boceto: "cohete",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // la Luna
     mas: [
@@ -780,8 +841,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "pisa-se-torcio-antes",
-    titular: "La torre de Pisa ya estaba torcida con el tercer piso puesto, y los de arriba se hicieron curvados para compensar",
-    realce: "ya estaba torcida con el tercer piso",
+    titular: "La torre de Pisa se torció antes de acabarla",
+    realce: "antes de acabarla",
+    boceto: "torre_inclinada",
     tema: "El mundo",
     color: "var(--dato-tierra)", // el suelo blando
     mas: [
@@ -792,8 +854,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "japon-mascotas",
-    titular: "En Japón hay más perros y gatos en las casas que niños menores de 15 años",
-    realce: "más perros y gatos",
+    titular: "En Japón hay más mascotas que niños",
+    realce: "más mascotas que niños",
+    boceto: "gato",
     tema: "El mundo",
     color: "var(--dato-oro)", // el país
     mas: [
@@ -804,8 +867,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "esparragos-y-el-pis",
-    titular: "Los espárragos cambian el olor del pis en 15 minutos, pero hay gente que no puede olerlo",
-    realce: "hay gente que no puede olerlo",
+    titular: "Los espárragos cambian el olor del pis",
+    realce: "cambian el olor del pis",
+    boceto: "esparrago",
     tema: "Cuerpo",
     color: "var(--dato-verde)", // el espárrago
     mas: [
@@ -817,8 +881,9 @@ export const DATOS: Dato[] = [
   /* --- TANDA 6 --------------------------------------------------------- */
   {
     id: "atardecer-azul-en-marte",
-    titular: "En Marte los atardeceres son azules, justo al revés que aquí, por el polvo que hay en su aire",
-    realce: "los atardeceres son azules",
+    titular: "En Marte los atardeceres son azules",
+    realce: "son azules",
+    boceto: "planeta",
     tema: "Espacio",
     color: "var(--dato-mar)", // el azul del cielo marciano
     mas: [
@@ -829,8 +894,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "hongo-mas-grande",
-    titular: "El ser vivo más grande del mundo es un hongo de Oregón que ocupa 10 kilómetros cuadrados bajo tierra",
+    titular: "El ser vivo más grande del mundo es un hongo",
     realce: "es un hongo",
+    boceto: "seta",
     tema: "Naturaleza",
     color: "var(--dato-verde)", // el bosque
     mas: [
@@ -841,8 +907,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "tortugas-respiran-por-detras",
-    titular: "Hay tortugas que respiran por el culo, y así aguantan 21 días seguidos sin subir a por aire",
-    realce: "respiran por el culo",
+    titular: "Hay tortugas que respiran por el culo",
+    realce: "por el culo",
+    boceto: "tortuga",
     tema: "Animales",
     color: "var(--dato-tierra)", // el río
     mas: [
@@ -853,8 +920,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "rayo-hace-cristal",
-    titular: "Cuando un rayo cae en la arena la funde y deja un tubo de cristal con la forma exacta del rayo",
-    realce: "un tubo de cristal",
+    titular: "Un rayo convierte la arena en cristal",
+    realce: "en cristal",
+    boceto: "rayo",
     tema: "Naturaleza",
     color: "var(--dato-naranja)", // el rayo
     mas: [
@@ -865,8 +933,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "huellas-en-la-luna",
-    titular: "Las huellas de los astronautas seguirán en la Luna millones de años, porque allí no hay viento ni lluvia que las borre",
-    realce: "seguirán en la Luna millones de años",
+    titular: "Las huellas de la Luna durarán millones de años",
+    realce: "millones de años",
+    boceto: "luna",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // la Luna
     mas: [
@@ -877,8 +946,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "dientes-de-tiburon",
-    titular: "Un tiburón gasta 30.000 dientes en su vida: los lleva en filas y el de detrás ocupa el hueco en unos días",
+    titular: "Un tiburón gasta 30.000 dientes en su vida",
     realce: "30.000 dientes",
+    boceto: "tiburon",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -889,8 +959,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "un-millon-de-tierras",
-    titular: "Dentro del Sol cabrían 1,3 millones de Tierras, y aun así no es una estrella grande",
+    titular: "Dentro del Sol caben 1,3 millones de Tierras",
     realce: "1,3 millones de Tierras",
+    boceto: "sol",
     tema: "Espacio",
     color: "var(--dato-naranja)", // el Sol
     mas: [
@@ -901,8 +972,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "aire-antiguo-en-el-hielo",
-    titular: "En el hielo de la Antártida hay burbujas con el aire que había en el planeta hace 800.000 años",
-    realce: "el aire que había en el planeta hace 800.000 años",
+    titular: "En el hielo antártico hay aire de hace 800.000 años",
+    realce: "aire de hace 800.000 años",
+    boceto: "hielo",
     tema: "Naturaleza",
     color: "var(--dato-gris)", // el hielo
     mas: [
@@ -913,8 +985,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "ojo-de-calamar",
-    titular: "El ojo de un calamar gigante mide 30 centímetros, el más grande de cualquier animal que haya existido",
-    realce: "mide 30 centímetros",
+    titular: "El ojo del calamar gigante mide 30 centímetros",
+    realce: "30 centímetros",
+    boceto: "calamar",
     tema: "Animales",
     color: "var(--dato-mar)", // el fondo del mar
     mas: [
@@ -925,8 +998,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "corazon-cien-mil",
-    titular: "Tu corazón late 100.000 veces al día y lleva haciéndolo desde antes de que tuvieras cerebro",
+    titular: "Tu corazón late 100.000 veces al día",
     realce: "100.000 veces al día",
+    boceto: "corazon",
     tema: "Cuerpo",
     color: "var(--dato-rojo)", // el corazón
     mas: [
@@ -938,8 +1012,9 @@ export const DATOS: Dato[] = [
   /* --- TANDA 7, la que cierra los cien ---------------------------------- */
   {
     id: "andromeda-choque",
-    titular: "Nuestra galaxia va a chocar con la de al lado dentro de 4.000 millones de años",
-    realce: "va a chocar con la de al lado",
+    titular: "Nuestra galaxia va a chocar con la de al lado",
+    realce: "va a chocar",
+    boceto: "estrellas",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // el cielo
     mas: [
@@ -950,8 +1025,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "arbol-de-diez-mil-anos",
-    titular: "Hay un abeto en Suecia que lleva vivo 9.500 años: el tronco se le muere y de la misma raíz brota otro",
-    realce: "lleva vivo 9.500 años",
+    titular: "Hay un árbol vivo de 9.500 años",
+    realce: "de 9.500 años",
+    boceto: "arbol",
     tema: "Naturaleza",
     color: "var(--dato-verde)", // el árbol
     mas: [
@@ -962,8 +1038,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "vida-en-una-cucharada",
-    titular: "En una cucharada de tierra de jardín hay más seres vivos que personas en todo el mundo",
-    realce: "más seres vivos que personas",
+    titular: "En una cucharada de tierra hay más vida que gente en el mundo",
+    realce: "más vida que gente en el mundo",
+    boceto: "cucharada",
     tema: "Naturaleza",
     color: "var(--dato-tierra)", // la tierra
     mas: [
@@ -974,8 +1051,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "una-abeja-una-gota",
-    titular: "Una abeja fabrica en toda su vida la doceava parte de una cucharadita de miel",
-    realce: "la doceava parte de una cucharadita",
+    titular: "Una abeja hace unas gotas de miel en toda su vida",
+    realce: "unas gotas de miel",
+    boceto: "miel",
     tema: "Comida",
     color: "var(--dato-oro)", // la miel
     mas: [
@@ -986,8 +1064,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "flamenco-cabeza-al-reves",
-    titular: "Los flamencos comen con la cabeza del revés, porque su pico solo filtra el agua puesto boca abajo",
-    realce: "con la cabeza del revés",
+    titular: "Los flamencos comen con la cabeza del revés",
+    realce: "del revés",
+    boceto: "flamenco",
     tema: "Animales",
     color: "var(--dato-rojo)", // el flamenco
     mas: [
@@ -998,8 +1077,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "dieciseis-amaneceres",
-    titular: "En la Estación Espacial amanece 16 veces al día, porque da una vuelta a la Tierra cada 90 minutos",
-    realce: "amanece 16 veces al día",
+    titular: "En la Estación Espacial amanece 16 veces al día",
+    realce: "16 veces al día",
+    boceto: "astronauta",
     tema: "Espacio",
     color: "var(--dato-naranja)", // el amanecer
     mas: [
@@ -1010,8 +1090,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "lengua-oso-hormiguero",
-    titular: "La lengua del oso hormiguero mide 60 centímetros y no le sale de la mandíbula, sino del esternón",
-    realce: "mide 60 centímetros",
+    titular: "La lengua del oso hormiguero mide 60 centímetros",
+    realce: "60 centímetros",
+    boceto: "hormiguero",
     tema: "Animales",
     color: "var(--dato-tierra)", // el hormiguero
     mas: [
@@ -1022,8 +1103,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "pepitas-de-manzana",
-    titular: "Las pepitas de la manzana llevan cianuro, aunque harían falta cientos bien masticadas para hacer daño",
+    titular: "Las pepitas de la manzana llevan cianuro",
     realce: "llevan cianuro",
+    boceto: "manzana",
     tema: "Comida",
     color: "var(--dato-verde)", // la manzana
     mas: [
@@ -1034,8 +1116,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "primer-movil",
-    titular: "El primer móvil salió en 1983, pesaba 790 gramos y costaba 4.000 dólares para dar media hora de conversación",
-    realce: "costaba 4.000 dólares",
+    titular: "El primer móvil pesaba 790 gramos",
+    realce: "790 gramos",
+    boceto: "movil",
     tema: "Objetos",
     color: "var(--dato-gris)", // el aparato
     mas: [
@@ -1046,8 +1129,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "luna-maletas",
-    titular: "Llegamos a la Luna en 1969 y la maleta con ruedas no se patentó hasta el año siguiente",
-    realce: "la maleta con ruedas no se patentó hasta el año siguiente",
+    titular: "Llegamos a la Luna antes que las maletas con ruedas",
+    realce: "antes que las maletas con ruedas",
+    boceto: "maleta",
     tema: "Tecnología",
     color: "var(--dato-galaxia)", // la Luna
     mas: [
@@ -1058,8 +1142,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "sol-ocho-minutos",
-    titular: "Si el Sol se apagara ahora mismo, tardaríamos 8 minutos y 20 segundos en enterarnos",
-    realce: "8 minutos y 20 segundos",
+    titular: "El Sol que ves salió hace 8 minutos",
+    realce: "hace 8 minutos",
+    boceto: "sol",
     tema: "Espacio",
     color: "var(--dato-naranja)", // el Sol
     mas: [
@@ -1075,8 +1160,9 @@ export const DATOS: Dato[] = [
      Todo lo demás de aquellas tandas está en el historial de git. */
   {
     id: "krakatoa",
-    titular: "El volcán Krakatoa estalló en 1883 y el ruido se oyó a 4.800 kilómetros: es el sonido más fuerte del que hay registro",
-    realce: "se oyó a 4.800 kilómetros",
+    titular: "El Krakatoa se oyó a 4.800 kilómetros",
+    realce: "a 4.800 kilómetros",
+    boceto: "volcan",
     tema: "Naturaleza",
     color: "var(--dato-rojo)", // el volcán
     mas: [
@@ -1087,8 +1173,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "diomede",
-    titular: "Rusia y Estados Unidos están a 4 kilómetros: dos islas del estrecho de Bering, una enfrente de la otra",
-    realce: "están a 4 kilómetros",
+    titular: "Rusia y Estados Unidos están a 4 kilómetros",
+    realce: "a 4 kilómetros",
+    boceto: "islas",
     tema: "El mundo",
     color: "var(--dato-mar)", // el estrecho helado
     mas: [
@@ -1099,8 +1186,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "barajar-cartas",
-    titular: "Hay más maneras de ordenar una baraja de 52 cartas que átomos en toda la Tierra",
-    realce: "que átomos en toda la Tierra",
+    titular: "Hay más barajas posibles que átomos en la Tierra",
+    realce: "que átomos en la Tierra",
+    boceto: "cartas",
     tema: "Números",
     color: "var(--dato-rojo)", // los corazones de la baraja
     mas: [
@@ -1111,8 +1199,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "medusa-inmortal",
-    titular: "Hay una medusa que cuando se hace vieja se deshace y vuelve a montarse siendo cría, y puede repetirlo",
-    realce: "vuelve a montarse siendo cría",
+    titular: "Hay una medusa que vuelve a ser cría",
+    realce: "vuelve a ser cría",
+    boceto: "medusa",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -1126,8 +1215,9 @@ export const DATOS: Dato[] = [
      se quedan hasta que Pablo diga. */
   {
     id: "medalla-de-plata",
-    titular: "Una medalla de oro olímpica es de plata con 6 gramos de oro por fuera: menos de lo que pesa una moneda de un euro",
+    titular: "Una medalla de oro olímpica es de plata",
     realce: "es de plata",
+    boceto: "medalla",
     tema: "Deporte",
     color: "var(--dato-gris)", // la plata que hay debajo
     mas: [
@@ -1138,8 +1228,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "caja-negra-naranja",
-    titular: "La caja negra de un avión es naranja, para poder encontrarla entre los restos o en el fondo del mar",
+    titular: "La caja negra de un avión es naranja",
     realce: "es naranja",
+    boceto: "avion",
     tema: "Tecnología",
     color: "var(--dato-naranja)", // el color que es
     mas: [
@@ -1150,8 +1241,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "sagrada-familia",
-    titular: "La Sagrada Familia se construyó 137 años sin permiso de obra: la licencia no se firmó hasta 2019",
+    titular: "La Sagrada Familia estuvo 137 años sin permiso de obra",
     realce: "137 años sin permiso de obra",
+    boceto: "templo",
     tema: "Arquitectura",
     color: "var(--dato-tierra)", // la piedra y la obra
     mas: [
@@ -1161,8 +1253,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "ferrari-rojo",
-    titular: "Los Ferrari son rojos porque en las carreras antiguas el color lo decidía el país, y a Italia le tocó el rojo",
-    realce: "el color lo decidía el país",
+    titular: "Los Ferrari son rojos porque a Italia le tocó ese color",
+    realce: "le tocó ese color",
+    boceto: "coche",
     tema: "Motor",
     color: "var(--dato-rojo)", // el color del que habla la frase
     mas: [
@@ -1172,8 +1265,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "caballo-ferrari",
-    titular: "El escudo de Ferrari es el caballo que llevaba pintado en el avión un piloto italiano de la Primera Guerra Mundial",
-    realce: "el caballo que llevaba pintado en el avión",
+    titular: "El escudo de Ferrari viene de un avión de guerra",
+    realce: "de un avión de guerra",
+    boceto: "avion",
     tema: "Motor",
     color: "var(--dato-oro)", // el amarillo de Módena del escudo
     mas: [
@@ -1183,8 +1277,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "india",
-    titular: "El país con más gente del mundo ya no es China: desde 2023 es la India",
-    realce: "desde 2023 es la India",
+    titular: "El país con más gente ya no es China, es la India",
+    realce: "es la India",
+    boceto: "mundo",
     tema: "El mundo",
     color: "var(--dato-naranja)", // el azafrán de su bandera
     mas: [
@@ -1194,8 +1289,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "cleopatra",
-    titular: "Cleopatra vivió más cerca de la llegada del hombre a la Luna que de la construcción de las pirámides",
-    realce: "más cerca de la llegada del hombre a la Luna",
+    titular: "Cleopatra vivió más cerca de la Luna que de las pirámides",
+    realce: "más cerca de la Luna que de las pirámides",
+    boceto: "piramide",
     tema: "Historia",
     color: "var(--dato-galaxia)", // la Luna, que es lo que se tiñe
     mas: [
@@ -1205,8 +1301,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "tiburones",
-    titular: "Los tiburones llevan en el mar 100 millones de años más que los árboles en la tierra",
-    realce: "100 millones de años más que los árboles",
+    titular: "Los tiburones son más antiguos que los árboles",
+    realce: "más antiguos que los árboles",
+    boceto: "tiburon",
     tema: "Naturaleza",
     color: "var(--dato-verde)", // los árboles, que es lo que se tiñe
     mas: [
@@ -1216,8 +1313,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "venus",
-    titular: "En Venus un día dura más que un año: tarda más en girar sobre sí mismo que en dar la vuelta al Sol",
-    realce: "un día dura más que un año",
+    titular: "En Venus un día dura más que un año",
+    realce: "más que un año",
+    boceto: "planeta",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // un planeta
     mas: [
@@ -1227,8 +1325,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "eiffel",
-    titular: "La torre Eiffel es hasta 15 centímetros más alta en verano, porque el calor le estira el hierro",
-    realce: "15 centímetros más alta en verano",
+    titular: "La torre Eiffel es más alta en verano",
+    realce: "más alta en verano",
+    boceto: "torre",
     tema: "Ingeniería",
     color: "var(--dato-naranja)", // el calor del verano, que es lo que la estira
     mas: [
@@ -1238,8 +1337,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "platano-baya",
-    titular: "El plátano es una baya y la fresa no lo es, por mucho que parezca al revés",
-    realce: "y la fresa no lo es",
+    titular: "El plátano es una baya y la fresa no",
+    realce: "y la fresa no",
+    boceto: "platano",
     tema: "Naturaleza",
     color: "var(--dato-rojo)", // la fresa, que es lo que se tiñe
     mas: [
@@ -1249,8 +1349,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "pulpo",
-    titular: "Un pulpo tiene 3 corazones y la sangre azul en vez de roja",
+    titular: "Un pulpo tiene 3 corazones y la sangre azul",
     realce: "3 corazones y la sangre azul",
+    boceto: "pulpo",
     tema: "Naturaleza",
     color: "var(--dato-mar)", // la sangre azul
     mas: [
@@ -1260,8 +1361,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "arboles-estrellas",
-    titular: "Hay más árboles en la Tierra que estrellas en nuestra galaxia: 3 billones contra unos 200.000 millones",
-    realce: "más árboles en la Tierra que estrellas",
+    titular: "Hay más árboles que estrellas en nuestra galaxia",
+    realce: "más árboles que estrellas",
+    boceto: "arbol",
     tema: "Naturaleza",
     color: "var(--dato-galaxia)", // las estrellas de la galaxia, que es lo que se tiñe
     mas: [
@@ -1271,8 +1373,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "saturno",
-    titular: "Saturno flotaría en el agua, porque pesa menos que ella aunque es 750 veces más grande que la Tierra",
+    titular: "Saturno flotaría en el agua",
     realce: "flotaría en el agua",
+    boceto: "saturno",
     tema: "Espacio",
     color: "var(--dato-mar)", // la bañera: lo que se tiñe es «flotaría»
     mas: [
@@ -1282,8 +1385,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "rayo",
-    titular: "Un rayo calienta el aire hasta 5 veces más que la superficie del Sol, y por eso se oye el trueno",
-    realce: "5 veces más que la superficie del Sol",
+    titular: "Un rayo está 5 veces más caliente que el Sol",
+    realce: "5 veces más caliente que el Sol",
+    boceto: "rayo",
     tema: "Espacio",
     color: "var(--dato-naranja)", // el calor, cinco veces el del Sol
     mas: [
@@ -1293,8 +1397,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "muralla",
-    titular: "La muralla china no se ve desde el espacio: es larguísima pero solo tiene unos metros de ancho",
+    titular: "La muralla china no se ve desde el espacio",
     realce: "no se ve desde el espacio",
+    boceto: "muralla",
     tema: "Historia",
     color: "var(--dato-galaxia)", // el espacio desde donde no se ve
     mas: [
@@ -1304,8 +1409,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "vikingos",
-    titular: "Los vikingos nunca llevaron cascos con cuernos: se los puso un diseñador de vestuario para una ópera en 1876",
+    titular: "Los vikingos nunca llevaron cascos con cuernos",
     realce: "nunca llevaron cascos con cuernos",
+    boceto: "casco_vikingo",
     tema: "Historia",
     color: "var(--dato-mar)", // el mar del norte
     mas: [
@@ -1315,8 +1421,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "napoleon",
-    titular: "Napoleón no era bajo: medía 1,68, la altura normal de un francés de su época",
-    realce: "no era bajo",
+    titular: "Napoleón no era bajo, medía 1,68",
+    realce: "medía 1,68",
+    boceto: "bicornio",
     tema: "Historia",
     color: "var(--dato-morado)", // la púrpura imperial
     mas: [
@@ -1326,8 +1433,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "guerra-corta",
-    titular: "La guerra más corta de la historia duró 38 minutos, entre Reino Unido y Zanzíbar en 1896",
-    realce: "duró 38 minutos",
+    titular: "La guerra más corta de la historia duró 38 minutos",
+    realce: "38 minutos",
+    boceto: "reloj",
     tema: "Historia",
     color: "var(--dato-naranja)", // el fuego de los cañones
     mas: [
@@ -1337,8 +1445,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "nintendo",
-    titular: "Nintendo se fundó en 1889 y se pasó 80 años haciendo barajas antes de tocar un videojuego",
+    titular: "Nintendo empezó haciendo barajas en 1889",
     realce: "haciendo barajas",
+    boceto: "cartas",
     tema: "Historia",
     color: "var(--dato-rojo)", // el rojo de Nintendo, que es de siempre
     mas: [
@@ -1348,8 +1457,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "flamenco",
-    titular: "Un flamenco nace gris y se vuelve rosa por lo que come",
+    titular: "Un flamenco nace gris",
     realce: "nace gris",
+    boceto: "flamenco",
     tema: "Naturaleza",
     color: "var(--dato-gris)", // gris, literal: es la palabra teñida
     mas: [
@@ -1359,8 +1469,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "miel",
-    titular: "La miel no se estropea nunca: se ha encontrado miel de hace 3.000 años en tumbas egipcias y seguía comestible",
+    titular: "La miel no se estropea nunca",
     realce: "no se estropea nunca",
+    boceto: "miel",
     tema: "Naturaleza",
     color: "var(--dato-oro)", // la miel
     mas: [
@@ -1370,8 +1481,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "groenlandia",
-    titular: "Groenlandia es 14 veces más pequeña que África, aunque en los mapas salgan casi iguales",
-    realce: "14 veces más pequeña que África",
+    titular: "Groenlandia es 14 veces más pequeña que África",
+    realce: "14 veces más pequeña",
+    boceto: "mundo",
     tema: "El mundo",
     color: "var(--dato-mar)", // el hielo
     mas: [
@@ -1381,8 +1493,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "oxford",
-    titular: "En Oxford ya se daban clases 200 años antes de que existiera el imperio azteca",
-    realce: "200 años antes de que existiera el imperio azteca",
+    titular: "Oxford es más antigua que el imperio azteca",
+    realce: "más antigua que el imperio azteca",
+    boceto: "edificio",
     tema: "Historia",
     color: "var(--dato-galaxia)", // el azul Oxford se llama así por algo
     mas: [
@@ -1392,8 +1505,9 @@ export const DATOS: Dato[] = [
   },
   {
     id: "uombat",
-    titular: "El uómbat hace la caca cuadrada para que no ruede y le sirva de señal",
+    titular: "El uómbat hace la caca cuadrada",
     realce: "la caca cuadrada",
+    boceto: "piedra",
     tema: "Naturaleza",
     color: "var(--dato-tierra)", // marrón, que es lo que es
     mas: [

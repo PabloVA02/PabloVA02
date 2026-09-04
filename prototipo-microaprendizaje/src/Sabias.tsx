@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { DATOS, type Dato } from "./sabias";
 import { GlyphClose, GlyphGuardar, GlyphShare } from "./glyphs";
+import { Boceto } from "./bocetos";
 import { pantalla, spring, suave } from "./motion";
 
 /* ==========================================================================
@@ -157,6 +158,14 @@ export function Sabias() {
                   eso mientras está abierta aquí no se pinta, o habría dos. */}
               {!estaAbierta && (
                 <motion.article layoutId={`sab-${d.id}`} className="sab-carta" transition={spring}>
+                  {/* EL BOCETO. Va encima del texto y a línea, sin relleno ni
+                      color: es el dibujo de lo que se está contando, no un
+                      icono ni una ilustración. Ver `bocetos.tsx`. */}
+                  {d.boceto && (
+                    <div className="sab-boceto">
+                      <Boceto nombre={d.boceto} />
+                    </div>
+                  )}
                   <motion.p layoutId={`sab-tema-${d.id}`} className="sab-tema">
                     {d.tema}
                   </motion.p>

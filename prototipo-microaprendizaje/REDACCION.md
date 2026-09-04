@@ -564,6 +564,36 @@ decir muchísimos, «las dos» cuando es pronombre, y «por ciento».
 cristal, y de lado»: «quita ese de lado, no pinta nada ahí». Un añadido que
 abre otra pregunta después del remate estropea la frase entera.
 
+### Y la frase, corta; el dibujo, a línea; la página, sin color
+
+Pablo, 4 de septiembre, después de ver los cien contados enteros: «prefiero que
+sean más cortos […] por ejemplo que digas solo "los delfines se ponen nombre"».
+Y en la misma frase: «los colores esos que ponen realmente no me gustan, me
+parece muy ortera; mejora la estética de la página […] intenta hacer como una
+especie de boceto sin colores ni nada, solo con líneas, de dibujos de lo que
+estamos hablando; por ejemplo un boceto muy simple de delfines por la página».
+
+Así que la sección queda así, y las tres cosas van juntas:
+
+- **Corta por defecto, larga solo si hace falta.** «Los delfines se ponen
+  nombre» ya está completo. Cuando la versión corta deja la pregunta puesta
+  —«el velcro se copió de una planta»— se alarga lo justo para cerrarla y ni
+  una palabra más. Los cien están entre 21 y 61 caracteres, con 40 de media.
+- **Un boceto a línea por dato.** Sin relleno, sin sombra y sin color propio:
+  heredan `currentColor` y viven en `src/bocetos.tsx`. Hay menos dibujos que
+  datos a propósito; el que no tenga el suyo se queda con el más cercano de su
+  familia.
+- **Y la página en dos tintas.** Fuera el color de acento del rótulo, de la
+  frase y de los botones. El trozo que sorprende ya no se tiñe: se subraya con
+  una línea finísima, que es lo que haría alguien con un lápiz encima de su
+  propia letra. Los botones van de contorno, no macizos, porque un botón
+  relleno se convierte en la mancha más oscura de la pantalla y se lleva la
+  mirada que tenía que ir a la frase.
+
+**Ojo con la contradicción, que es real:** el apartado 4 quater dice que el
+color de las palabras teñidas significa algo. Eso sigue mandando EN LOS SHORTS.
+En «¿Sabías que…?» no hay color, y no es un olvido.
+
 ### Y en un short es el mismo criterio, con su propia paleta
 
 Pablo, en la misma tanda: «si hablas de Ferrari, que es lo más relevante, pues

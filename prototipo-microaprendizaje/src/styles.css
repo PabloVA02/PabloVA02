@@ -12368,15 +12368,38 @@ button {
 
 /* ---------- la tarjeta ---------- */
 
+/* LA HOJA DE CUADERNO. Antes esto era una tarjeta —fondo propio, esquinas de
+   30 y una sombra—, y Pablo la mandó al taller entera el 4 de septiembre: «los
+   colores esos que ponen realmente no me gustan, me parece muy ortera; mejora
+   la estética de la página».
+
+   Lo que se quita es todo lo que estorba a un boceto: el color de acento en la
+   letra y en los botones, el fondo de la tarjeta y la sombra. Lo que queda es
+   papel, tinta y una línea. La tarjeta sigue existiendo en el código —el
+   `layoutId` la necesita para crecer al abrirse— pero ya no se ve: es el papel
+   de la pantalla. */
 .sab-carta {
   width: 100%;
-  /* 20 a los lados y no 22: las dos pastillas suman 288 y con 22 quedaban 287
-     de hueco. Por un punto se iban a dos líneas y la tarjeta salía coja. */
-  padding: 28px 20px 20px;
+  padding: 8px 4px 0;
   border-radius: 30px;
-  background: var(--tarjeta);
-  box-shadow: 0 1px 2px rgba(36, 31, 26, 0.04);
+  background: none;
+  box-shadow: none;
+  text-align: center;
 }
+
+/* EL BOCETO. Grande y centrado encima del texto, a línea y en la tinta de la
+   página con la mitad de fuerza: tiene que acompañar y no competir con la
+   frase, que es lo que se lee. `currentColor` hace todo el trabajo —el dibujo
+   no trae color ninguno— y por eso basta con poner aquí el `color`. */
+.sab-boceto {
+  display: grid;
+  place-items: center;
+  margin: 0 auto 26px;
+  width: 44cqw;
+  max-width: 190px;
+  color: rgba(36, 31, 26, 0.5);
+}
+.sab-boceto svg { width: 100%; height: auto; display: block; }
 
 .sab-tema {
   margin: 0 0 14px;
@@ -12384,7 +12407,7 @@ button {
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--acento);
+  color: var(--tinta-suave);
 }
 
 /* LA FRASE. Palo seco y negrita, como en la captura: es lo que le da el aire
@@ -12406,14 +12429,22 @@ button {
 .sab-frase[data-tramo="muy-largo"] { font-size: 5.7cqw; }
 .sab-frase[data-tramo="abierto"] { font-size: 6.4cqw; }
 
+/* El trozo que sorprende ya no se tiñe: se subraya con una línea finísima, que
+   es lo que haría alguien con un lápiz encima de su propia letra. Marca igual
+   y no mete un color donde no lo hay. */
 .sab-frase em {
   font-style: normal;
-  color: var(--acento);
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  text-decoration-color: rgba(36, 31, 26, 0.26);
 }
 
 /* Las pastillas, separadas del texto por el filete finísimo de la captura. */
 .sab-acciones {
   display: flex;
+  justify-content: center;
   /* En un móvil de 320 —el más estrecho que se vende— las dos pastillas no
      caben en una fila por ocho puntos, y una pastilla cortada por el borde de
      la tarjeta se ve fatal. Ahí baja la segunda y ya está. De 375 en adelante
@@ -12470,19 +12501,20 @@ button {
   height: 42px;
   border: 0;
   border-radius: 999px;
-  background: var(--gris-pastilla);
+  background: none;
+  box-shadow: inset 0 0 0 1.5px rgba(36, 31, 26, 0.22);
   color: var(--tinta);
   cursor: pointer;
   transition: background 0.18s ease, color 0.18s ease;
 }
 .sab-redondo svg { width: 17px; height: 17px; }
 
-/* Guardado: se rellena y se tiñe del color del dato. Es el mismo lenguaje que
-   la pastilla fuerte —el color macizo dice «esto ya está hecho»— y así se ve
-   de un vistazo cuáles te has quedado sin tener que leer nada. */
+/* Guardado: se rellena de tinta. Sin color con el que marcarlo, lo que dice
+   «esto ya está hecho» es el macizo contra el contorno. */
 .sab-redondo[data-on="true"] {
-  background: var(--acento);
-  color: #fffdf9;
+  background: var(--tinta);
+  box-shadow: none;
+  color: var(--papel);
 }
 
 /* Y «Saber más» se estira: es la acción de la tarjeta y los otros dos son
@@ -12491,11 +12523,13 @@ button {
 .sab-acciones .sab-pastilla-fuerte { flex: 1; justify-content: center; }
 .sab-pastilla:active { transform: scale(0.97); }
 
-/* La principal lleva el color del dato: es el único sitio de la pantalla donde
-   el color se rellena en vez de solo teñir letra, y por eso se va el ojo. */
+/* La principal va de contorno, no rellena. Con la página en dos tintas, un
+   botón macizo se convierte en la mancha más oscura de la pantalla y se lleva
+   la mirada que tenía que ir a la frase. */
 .sab-pastilla-fuerte {
-  background: var(--acento);
-  color: #fffdf9;
+  background: none;
+  color: var(--tinta);
+  box-shadow: inset 0 0 0 1.5px rgba(36, 31, 26, 0.55);
 }
 
 /* ---------- la tarjeta abierta ---------- */
