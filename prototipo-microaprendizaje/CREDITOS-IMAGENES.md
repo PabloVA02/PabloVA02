@@ -21,6 +21,16 @@ Se usan 85 de los mil quinientos que trae el paquete, empotrados uno a uno.
 
     https://github.com/microsoft/fluentui-emoji
 
+**El pollito del cupón** (`src/ilustraciones/pollito-cupon.webp`) y **los once
+emoticonos de los objetivos** (`src/emoticonos-metas.ts`) los aportó Pablo. No
+son de Commons ni de ningún paquete de terceros, así que no llevan cita: son
+suyos y entran en la aplicación por eso.
+
+Del pollito se guarda una sola versión, de 900 puntos de ancho y con el fondo
+en transparente. El original venía en PNG sobre un gris plano (#1f1f21); ese
+gris se pasó a alfa para que el dibujo sirva sobre cualquier color, y de hecho
+en la app va sobre el papel crema, no sobre gris.
+
 **El dado 3D de la cabecera era del mismo sitio** y ya no se pinta: el 4 de
 septiembre Pablo lo retiró y en su lugar hay un símbolo de barajar dibujado por
 nosotros. `src/dado-3d.ts` sigue en el repositorio por si se quisiera volver a

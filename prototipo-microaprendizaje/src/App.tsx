@@ -176,7 +176,10 @@ function pantallaInicial(): Pantalla {
      que hay que comparar contra la referencia y no se llega a ellas sin pasar
      por la estantería. El libro que abren es el primero del catálogo, que es
      el que ya trae `libro` por defecto. */
-  const validas = ["intro", "shorts", "sabias", "inicio", "perfil", "ajustes", "detalle", "lector", "biblioteca", "explorar"];
+  /* «oferta» entra por lo mismo que «detalle» y «lector»: es una pantalla a la
+     que solo se llega abriendo el regalo, y hay que poder mirarla suelta para
+     compararla. */
+  const validas = ["intro", "shorts", "sabias", "inicio", "perfil", "ajustes", "detalle", "lector", "biblioteca", "explorar", "oferta"];
   return validas.includes(p ?? "") ? (p as Pantalla) : "intro";
 }
 

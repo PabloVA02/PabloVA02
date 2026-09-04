@@ -201,15 +201,21 @@ export function GestionaTemas({
       transition={springSoft}
     >
       <div className="gestiona">
+        {/* El mismo rótulo que la pantalla que abre, y no otro: la tarjeta es
+            la puerta, así que decir aquí una cosa y dentro otra obliga a
+            comprobar que se ha llegado al sitio. Antes eran «Gestiona las
+            recomendaciones» fuera y «¿Cambiamos lo que te proponemos?» dentro.
+
+            La frase era la de Headway palabra por palabra —«Para conseguir
+            nuevas recomendaciones, tienes que ajustar tus objetivos»—, que es
+            un trámite explicado. Ahora dice qué ganas. */}
         <h2 className="gestiona-titulo" ref={titular}>
-          Gestiona las recomendaciones
+          Escoge tus objetivos
         </h2>
-        {/* La frase es la suya, palabra por palabra. Cae en dos líneas igual
-            que en la captura, que es parte de la forma del recuadro. */}
         <p className="gestiona-sub">
           {hay
-            ? "Para conseguir nuevas recomendaciones, tienes que ajustar tus objetivos"
-            : "Elige lo que quieres conseguir y la estantería se ordena por ello"}
+            ? "Cambia a dónde quieres llegar y la estantería se recoloca sola"
+            : "Marca a dónde quieres llegar y ponemos delante los libros que llevan ahí"}
         </p>
 
         {hay && (
@@ -229,7 +235,7 @@ export function GestionaTemas({
           onClick={onGestionar}
           whileTap={{ scale: 0.98 }}
         >
-          {hay ? "Gestionar" : "Elegir objetivos"}
+          {hay ? "Cambiar objetivos" : "Elegir objetivos"}
         </motion.button>
       </div>
     </motion.section>
@@ -272,9 +278,24 @@ export function AjustarTemas({
       </div>
 
       <div className="ajtemas-scroll">
-        <h1 className="ajtemas-titulo">¿Cambiamos lo que te proponemos?</h1>
+        {/* EL RÓTULO Y SU FRASE. Pablo, el 4 de septiembre: «cambia el texto y
+            pon Escoge tus objetivos o algo así; pones un texto pequeño que se
+            vea mejor que ahora, de alcanza tus metas o alguna frase así
+            motivadora que prometa cosas».
+
+            El de antes —«¿Cambiamos lo que te proponemos?»— preguntaba, y una
+            pregunta en un rótulo deja al lector decidiendo si contestar en vez
+            de haciendo lo que va a hacer. Éste es una orden corta y dice el
+            nombre de lo que se elige.
+
+            Y la frase promete algo QUE SE CUMPLE, que es la única manera de
+            prometer aquí: marcar objetivos reordena la estantería de verdad.
+            Lo que no puede decir esta pantalla, por mucho que anime, es que
+            haya nada calculado para ti: no lo hay, y esa es la norma de la
+            casa desde que se quitó «Personalizado para ti». */}
+        <h1 className="ajtemas-titulo">Escoge tus objetivos</h1>
         <p className="ajtemas-sub">
-          La estantería se ordena por lo que dejes marcado aquí.
+          Marca a dónde quieres llegar y ponemos delante los libros que llevan ahí.
         </p>
         {/* El tope se enseña, no se aplica en silencio. Al llegar a cinco, la
             casilla de los que no están elegidos deja de responder, y sin este

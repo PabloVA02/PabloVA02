@@ -1743,6 +1743,82 @@ detrás a través del texto.
 frase. En los shorts hay un bucle que mide y encoge y cuesta cientos de
 milisegundos; aquí no hace falta, porque no hay que llenar una caja exacta.
 
+## LA OFERTA Y LOS OBJETIVOS — 4 de septiembre, noche
+
+Pablo: «cambia el texto y pon Escoge tus objetivos o algo así; pones un texto
+pequeño que se vea mejor que ahora, de alcanza tus metas o alguna frase así
+motivadora que prometa cosas. Y pon este pollo que te paso en el .zip para
+nuestra oferta; haz esa parte muy bonita, la de la oferta, con las mejores
+técnicas de marketing del mundo para que la gente compre».
+
+### El pollito manda sobre el precio, y no al revés
+
+El dibujo trae **«44 % DE DESCUENTO» pintado dentro**. La oferta estaba en
+14,99 sobre 23,99, que son 38. O sea que la pantalla habría dicho dos números
+distintos a la vez.
+
+Se ha movido el precio, no el dibujo: **13,49 €/año**, que sobre 23,99 da 43,8
+y redondea a 44. **Si algún día cambia el precio hay que mirar esto**, porque
+`DESCUENTO` se recalcula solo y el PNG no.
+
+El dibujo venía sobre un gris plano (#1f1f21) sin transparencia. Ese gris se ha
+pasado a alfa, así que ahora sirve sobre cualquier fondo —y de hecho va sobre
+el papel crema de la oferta, que se ha quedado como estaba—.
+
+Y el titular que contaba «38 % menos» subiendo desde cero **se ha ido**: el
+número ya está en el cupón, más grande, y decirlo dos veces en la misma
+pantalla es competir consigo mismo. En su sitio hay una frase que dice lo que
+el cupón no dice: qué se compra.
+
+### Lo que se le añadió a la oferta, y por qué eso y no otra cosa
+
+Lo que faltaba no era adorno: **era la razón**. La pantalla pedía dinero por una
+palabra —«la oferta»— y quien no supiera ya lo que hay dentro de Curva no tenía
+con qué comparar el precio. Ahora hay cuatro renglones con lo que te llevas,
+uno por línea, y las tres cifras **se cuentan de los propios datos**: el día que
+entren cien resúmenes más, la pantalla lo dice sola. Un número escrito a mano
+ahí se queda viejo en una semana, y ese número es una afirmación sobre lo que
+alguien está comprando.
+
+Lo demás son cuatro cosas que funcionan y que además son verdad:
+
+- **el ancla**: el precio viejo tachado al lado del nuevo, que ya estaba;
+- **el precio por mes** —1,12 €— y la comparación con un café, que es literal:
+  a ese precio no hay café en España que salga por menos;
+- **el botón en primera persona**, «Quiero mi 44 %», que se lee como algo que
+  decide el lector y no como algo que le piden;
+- **quitar el riesgo debajo del botón**: cancela cuando quieras, sin
+  permanencia.
+
+**LO QUE NO SE HA HECHO, Y ES A PROPÓSITO.** Las técnicas que más venden de
+verdad son la cuenta atrás, el «quedan 3 plazas», las reseñas de cinco
+estrellas y el «1.482 personas se han suscrito hoy». Todas serían mentira aquí,
+y Curva vende exactamente lo contrario: somos los que decimos dónde falla cada
+libro. Una pantalla de pago que miente se carga esa promesa entera, y se la
+carga justo en el momento en que se pide la tarjeta.
+
+Si Pablo quiere urgencia, la honesta existe y no está puesta porque no sé si es
+verdad en el producto: si el cupón caduca de verdad, decirlo. Eso hay que
+decidirlo, no inventarlo.
+
+### Y los objetivos ya no preguntan
+
+«¿Cambiamos lo que te proponemos?» era una pregunta, y una pregunta en un
+rótulo deja al lector decidiendo si contestar en vez de haciendo lo que va a
+hacer. Ahora es **«Escoge tus objetivos»**, dentro y en la tarjeta que abre —el
+mismo rótulo en los dos sitios, que antes eran dos distintos y obligaban a
+comprobar que se había llegado al sitio—.
+
+Y la frase de debajo promete algo **que se cumple**: «Marca a dónde quieres
+llegar y ponemos delante los libros que llevan ahí». Es la única manera de
+prometer en esta pantalla. Lo que no puede decir, por mucho que anime, es que
+haya algo calculado para ti: no lo hay, y esa es la norma de la casa desde que
+se quitó «Personalizado para ti».
+
+La de antes era la de Headway palabra por palabra —«Para conseguir nuevas
+recomendaciones, tienes que ajustar tus objetivos»—, que es un trámite
+explicado.
+
 ## LA BIBLIOTECA, CON LA BARRA Y LAS DOS TECLAS — 4 de septiembre
 
 Pablo mandó una captura de Headway y tres cosas: «cópiame la barra azul de
