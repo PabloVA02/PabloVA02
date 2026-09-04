@@ -129,31 +129,161 @@ export type Dato = {
 
 export const DATOS: Dato[] = [
   /* ------------------------------------------------------------------------
-     LA TANDA DEL 4 DE SEPTIEMBRE, SEGUNDO INTENTO.
+     LA TANDA DEL 4 DE SEPTIEMBRE, TERCER INTENTO — Y ESTA ES LA BUENA.
 
-     La primera fueron diez historias de origen —el mordisco de Apple, el
-     logotipo de Nike, el cruasán vienés, las estrellas Michelin— y Pablo las
-     devolvió: «son un poco ambiguas, no me gustan; me gustaría que fueran
-     datos y cosas más interesantes, de todo tipo pero cosas divertidas de
-     leer».
+     Dos devoluciones seguidas de Pablo, y la segunda es la que da la regla:
+     «es que son datos raros, tío; quiero que sean como súper sorprendentes,
+     solo datos que impacten mucho al leerlos».
 
-     Y tenía razón, y el fallo se ve al ponerlas en fila. Todas eran de la
-     misma familia: quién inventó qué y qué quiso decir el que lo hizo. Eso
-     necesita que el lector ya se hubiera hecho la pregunta —¿por qué tiene un
-     mordisco?—, y si no se la había hecho, el titular no le dice nada. Encima
-     la mitad eran negaciones: «no es francés», «no lo inventó Coca-Cola». Una
-     negación te quita algo y no te deja nada en la mano.
+     RARO NO ES SORPRENDENTE, y ahí estaba el fallo. La lengua del pájaro
+     carpintero, las huellas del koala, el forro del estómago: todo eso es raro
+     —cosas curiosas de bichos y de órganos que casi nadie conoce—, y lo raro
+     produce un «anda, mira» y se olvida. Lo que impacta es otra cosa.
 
-     LO QUE SÍ FUNCIONA se ve en las dos que sobrevivieron de aquella tanda y
-     en las que ya había: un hecho FÍSICO, que se puede ver en la cabeza, con
-     un número o una imagen dentro, y que se cuenta entero en una frase. La
-     medalla de oro es de plata. La caja negra es naranja. El pulpo tiene tres
-     corazones. No hay que saber nada antes para que te haga levantar la vista.
+     LO QUE IMPACTA CHOCA DOS COSAS QUE YA CONOCES. No hace falta que el dato
+     sea de algo exótico; hace falta que ponga en orden distinto dos cosas que
+     el lector tiene ya en la cabeza y que creía colocadas de otra manera. El
+     Tyrannosaurus y el Estegosaurio. Las pirámides y los mamuts. La guillotina
+     y La guerra de las galaxias. La Luna y una maleta.
 
-     La prueba, para no volver a equivocarse: si el titular se puede repetir de
-     memoria en la mesa de un bar, entra. Si hay que explicar antes de qué va,
-     es un short.
+     Por eso los mejores de esta sección desde el principio son los de tiempo
+     comparado —Cleopatra y la Luna, los tiburones y los árboles, Oxford y los
+     aztecas—: los dos extremos son famosos y el orden es imposible.
+
+     Las otras dos familias que sí pegan fuerte: la ESCALA que no te cabe en la
+     cabeza —una cucharilla que pesa más que la humanidad, un papel doblado que
+     llega a la Luna— y lo que te toca A TI AHORA MISMO —el Sol que estás
+     viendo salió hace ocho minutos—.
+
+     La prueba sigue siendo la misma y ahora con una vuelta más: si el titular
+     se puede decir de memoria en la mesa de un bar Y el de enfrente contesta
+     «¿qué dices?», entra.
      ------------------------------------------------------------------------ */
+  {
+    id: "trex-estegosaurio",
+    titular: "El Tyrannosaurus vivió más cerca de ti que del Estegosaurio",
+    realce: "más cerca de ti que del Estegosaurio",
+    tema: "Naturaleza",
+    color: "var(--dato-tierra)", // la roca donde salen
+    mas: [
+      "Salen juntos en todos los dibujos, en el mismo pantano y peleándose. No llegaron a verse ni de lejos. El Estegosaurio se extinguió hace unos ciento cincuenta millones de años y el Tyrannosaurus apareció hace unos sesenta y ocho. Entre los dos hay ochenta y tres millones de años. Entre el Tyrannosaurus y tú, sesenta y seis.",
+      "Para hacerse una idea de lo que son ochenta y tres millones de años: es más que toda la era de los mamíferos, desde que se acabaron los dinosaurios hasta este momento, y todavía sobran diecisiete. Para un Tyrannosaurus, un Estegosaurio era exactamente lo que un Tyrannosaurus es para nosotros: un bicho de museo que llevaba muerto una eternidad.",
+      "Los dinosaurios no vivieron en una época. Vivieron en muchas, y entre unas y otras cabe la nuestra entera con sitio de sobra.",
+    ],
+  },
+  {
+    id: "mamuts-piramides",
+    titular: "Cuando se terminó la Gran Pirámide todavía quedaban mamuts vivos",
+    realce: "todavía quedaban mamuts vivos",
+    tema: "Historia",
+    color: "var(--dato-mar)", // el Ártico
+    mas: [
+      "La Gran Pirámide se dio por terminada hacia el año 2560 antes de Cristo. En la isla de Wrangel, en pleno Ártico, un grupo de mamuts aguantó hasta alrededor del 1650 antes de Cristo. Novecientos años más tarde. Egipto llevaba casi un milenio con la pirámide levantada y en el otro extremo del mundo todavía había mamuts pastando.",
+      "Eran mamuts pequeños, además. La isla se separó del continente hace unos doce mil años con unos cuantos dentro, y en una isla los animales grandes se van encogiendo generación tras generación porque no hay comida para tanto cuerpo. Llegaron a ser unos cientos. Se apagaron por una mezcla de consanguinidad, cambio de clima y la llegada de los humanos, que aparecieron por allí justo cuando quedaban los últimos.",
+      "Así que hubo un momento, y duró siglos, en el que existían a la vez los faraones y los mamuts.",
+    ],
+  },
+  {
+    id: "guillotina-star-wars",
+    titular: "Francia guillotinó a un hombre el año que se estrenó La guerra de las galaxias",
+    realce: "el año que se estrenó La guerra de las galaxias",
+    tema: "Historia",
+    color: "var(--dato-rojo)", // la cuchilla
+    mas: [
+      "La película se estrenó el 25 de mayo de 1977. El 10 de septiembre de ese mismo año, en la cárcel de Baumettes de Marsella, Hamida Djandoubi murió en la guillotina. Cuatro meses después. Fue la última ejecución con guillotina de Francia y la última decapitación legal de todo Occidente.",
+      "Y no era una antigualla que sobrevivía en un rincón por inercia: la guillotina seguía siendo el método oficial de ejecución de la República francesa, y lo fue hasta que se abolió la pena de muerte, en 1981. La máquina que se asocia a las pelucas y a Robespierre estuvo funcionando hasta hace cuatro días.",
+      "Aquel verano había gente saliendo del cine hablando de naves espaciales.",
+    ],
+  },
+  {
+    id: "luna-maletas",
+    titular: "Llegamos a la Luna antes de ponerle ruedas a las maletas",
+    realce: "antes de ponerle ruedas a las maletas",
+    tema: "Tecnología",
+    color: "var(--dato-galaxia)", // la Luna
+    mas: [
+      "El Apolo 11 alunizó en julio de 1969. La maleta con ruedas la pidió como patente Bernard Sadow en 1970 y se la concedieron en 1972. La idea se le ocurrió arrastrando dos maletas por una aduana mientras veía a un operario mover una máquina enorme, sin esfuerzo, encima de una plataforma con rueditas.",
+      "Y costó venderla. Los grandes almacenes le decían que un hombre no iba a ir tirando de una maleta pudiendo llevarla en brazos, que quedaba mal. Se puso a la venta en Macy's en 1970. La que usas tú —vertical, dos ruedas y asa telescópica— es todavía más tardía: la inventó un piloto de línea aérea en los años ochenta.",
+      "Entre pisar la Luna y arrastrar una maleta por un aeropuerto pasó casi un año.",
+    ],
+  },
+  {
+    id: "sol-ocho-minutos",
+    titular: "Si el Sol se apagara ahora, no lo sabríamos hasta dentro de ocho minutos",
+    realce: "hasta dentro de ocho minutos",
+    tema: "Espacio",
+    color: "var(--dato-naranja)", // el Sol
+    mas: [
+      "La luz va a trescientos mil kilómetros por segundo, que es rapidísimo pero no es instantáneo. Del Sol a aquí hay ciento cincuenta millones de kilómetros, y el viaje le lleva ocho minutos y veinte segundos. O sea que el Sol que estás viendo por la ventana es el de hace ocho minutos.",
+      "Con lo demás es mucho peor. La luz de la estrella más cercana tarda algo más de cuatro años en llegar. La de otras que se ven a simple vista lleva viajando desde antes de que se construyera ninguna catedral. Mirar el cielo de noche es mirar un montón de fechas distintas a la vez.",
+      "Y durante esos ocho minutos todo seguiría exactamente igual. La luz, el calor, las sombras en el suelo. Y ya no habría Sol.",
+    ],
+  },
+  {
+    id: "papel-doblado",
+    titular: "Un papel doblado cuarenta y dos veces llegaría a la Luna",
+    realce: "llegaría a la Luna",
+    tema: "Números",
+    color: "var(--dato-gris)", // el folio
+    mas: [
+      "Un folio tiene una décima de milímetro de grosor. Al doblarlo una vez tiene dos décimas; a la segunda, cuatro; a la tercera, ocho. Cada pliegue no suma: multiplica por dos. Y multiplicar por dos, hecho muchas veces seguidas, es una de esas cosas que el cerebro humano no está preparado para imaginar.",
+      "A los diez pliegues tienes el grosor de una mano. A los veintitrés, un kilómetro. A los treinta ya son cien kilómetros y estás fuera de la atmósfera. Y a los cuarenta y dos son cuatrocientos cuarenta mil kilómetros. La Luna está a trescientos ochenta y cuatro mil.",
+      "Doblarlo de verdad no se puede, claro: a los pocos pliegues el papel se parte antes que doblarse. Pero las cuentas son las cuentas, y son estas.",
+    ],
+  },
+  {
+    id: "circulo-medio-mundo",
+    titular: "En un círculo del mapa vive más gente que en todo el resto del planeta",
+    realce: "más gente que en todo el resto del planeta",
+    tema: "El mundo",
+    color: "var(--dato-mar)", // el mar de la China
+    mas: [
+      "Se traza un círculo de cuatro mil kilómetros de radio centrado más o menos en el mar de la China Meridional. Dentro caben China, la India, Indonesia, Pakistán, Bangladés, Japón y una veintena de países más. Y dentro viven unos cuatro mil doscientos millones de personas, de los ocho mil que somos.",
+      "Lo dibujó en 2013 un tipo en un mensaje de internet, firmando con el apodo Valeriepieris, y se le quedó el nombre. Años después un cartógrafo de verdad, Alasdair Rae, lo rehizo bien —el original estaba trazado sobre un mapa plano y no sobre una esfera, que no es lo mismo— y le salió lo mismo, solo que con el centro un poco movido.",
+      "Todo lo demás —América entera, África entera, Europa entera, Rusia, Australia— cabe en la otra mitad.",
+    ],
+  },
+  {
+    id: "fax-antes-telefono",
+    titular: "El fax se inventó treinta años antes que el teléfono",
+    realce: "treinta años antes que el teléfono",
+    tema: "Tecnología",
+    color: "var(--dato-gris)", // el cable
+    mas: [
+      "Alexander Bain, un relojero escocés, patentó en 1843 una máquina que copiaba un documento a distancia por un cable. Bell no patentó el teléfono hasta 1876. Treinta y tres años de diferencia.",
+      "Y funcionaba, que es lo mejor. Dos péndulos idénticos balanceándose a la vez, uno en cada punta del cable. El de salida iba recorriendo una plancha de metal punto por punto y, cada vez que tocaba un relieve, mandaba un pulso. El de llegada movía una aguja sobre un papel empapado en una solución que se ennegrecía al pasarle corriente. Línea a línea, ahí aparecía la copia.",
+      "Supimos mandar la letra de alguien antes que su voz.",
+    ],
+  },
+  {
+    id: "cucharilla-estrella",
+    titular: "Una cucharilla de estrella de neutrones pesaría más que toda la humanidad",
+    realce: "más que toda la humanidad",
+    tema: "Espacio",
+    color: "var(--dato-galaxia)", // lo que queda de una estrella
+    mas: [
+      "Cuando una estrella grande se queda sin combustible, se cae hacia dentro de golpe y se aplasta hasta quedarse en una bola de unos veinte kilómetros de ancho —el tamaño de una ciudad— con más masa que el Sol entero metida ahí. A esa presión los átomos ya no tienen hueco: se les va todo el vacío que tienen dentro y queda solo el núcleo.",
+      "Un centímetro cúbico de eso pesa unos cuatrocientos millones de toneladas. Una cucharilla de café son unos cinco centímetros cúbicos: dos mil millones de toneladas. Los ocho mil millones de personas que estamos vivas ahora mismo, todas juntas y subidas a la misma báscula, pesamos alrededor de quinientos millones.",
+      "Cuatro veces la humanidad entera, en una cuchara de las del azúcar.",
+    ],
+  },
+  {
+    id: "anne-frank-luther-king",
+    titular: "Anne Frank y Martin Luther King nacieron el mismo año",
+    realce: "el mismo año",
+    tema: "Historia",
+    color: "var(--dato-morado)", // el siglo que los junta
+    mas: [
+      "1929, con cinco meses de diferencia. Él en enero, en Atlanta. Ella en junio, en Fráncfort. Uno de los dos suena a historia antigua, de esa que se estudia con fotos en blanco y negro, y el otro suena a casi ayer. Son de la misma quinta.",
+      "Anne Frank murió de tifus en Bergen-Belsen a los quince años, unas semanas antes de que los británicos llegaran al campo. A Martin Luther King lo mataron en 1968, a los treinta y nueve, y le dio tiempo a hacer todo lo que hizo. La diferencia entre los dos no es la época: es que a una la mataron a los quince.",
+      "De haber vivido, hoy tendría noventa y siete años. Hay gente de su edad exacta dando charlas en institutos.",
+    ],
+  },
+  /* De la tanda anterior se quedan las cinco que sí impactan —el Krakatoa, la
+     vuelta de Neptuno, la baraja, las dos islas y la medusa— y se caen las cinco
+     que eran solo raras: la lengua del pájaro carpintero, las huellas del koala,
+     la peste del baile de 1518, el wasabi y el forro del estómago. Están en el
+     historial de git si alguna vez hacen falta. */
   {
     id: "krakatoa",
     titular: "El estallido del Krakatoa dio cuatro vueltas a la Tierra",
@@ -164,42 +294,6 @@ export const DATOS: Dato[] = [
       "El 27 de agosto de 1883 la isla voló por los aires, y el ruido se oyó con claridad en Rodrigues, una isla perdida del océano Índico que está a cuatro mil ochocientos kilómetros. Para hacerse una idea: de Madrid a Moscú hay tres mil cuatrocientos. Aquello se oyó mil cuatrocientos kilómetros más lejos todavía, y los que lo oyeron pensaron que eran cañonazos de un barco en apuros.",
       "La onda de presión no se paró ahí. Le dio cuatro vueltas al planeta, y los barómetros de media Europa la fueron registrando cada vez que pasaba por encima, sin que nadie entendiera al principio qué estaban midiendo. En Perth, a tres mil cien kilómetros, la gente salió a la calle a mirar. Y a sesenta y cinco kilómetros del volcán, a los marineros de los barcos que había allí les reventaron los tímpanos.",
       "Es el sonido más fuerte del que se tiene registro. Nadie ha vuelto a oír nada parecido, y con suerte nadie lo oirá.",
-    ],
-  },
-  {
-    id: "lengua-carpintero",
-    titular: "La lengua del pájaro carpintero le da la vuelta al cráneo por dentro",
-    realce: "le da la vuelta al cráneo por dentro",
-    tema: "Animales",
-    color: "var(--dato-tierra)", // la madera
-    mas: [
-      "No acaba en la boca, ni de lejos. Sale por el pico, vuelve a entrar por el agujero de la nariz, se parte en dos ramas, sube por encima de la cabeza, la rodea por detrás y las dos mitades se vuelven a juntar en la nuca. Es tan larga que, enrollada así, le da la vuelta entera al cráneo por dentro.",
-      "Sirve para lo evidente: sacarla varios centímetros dentro de un agujero y pescar las larvas del fondo. Pero lo bueno es lo otro. Cada vez que el pico golpea la madera, los músculos que sujetan ese lazo se tensan alrededor del cráneo y lo mantienen quieto contra la columna.",
-      "O sea que lo que le impide quedarse tonto de tanto martillear es, literalmente, su propia lengua haciéndole de cinturón de seguridad.",
-    ],
-  },
-  {
-    id: "huellas-koala",
-    titular: "Un koala deja las mismas huellas dactilares que tú",
-    realce: "las mismas huellas dactilares que tú",
-    tema: "Animales",
-    color: "var(--dato-gris)", // el koala
-    mas: [
-      "Es el único animal fuera de los primates que tiene huellas dactilares de verdad, con sus arcos, sus bucles y sus espirales. Y no se parecen un poco a las nuestras: se parecen tanto que al microscopio cuesta separar una de otra.",
-      "Lo vio Maciej Henneberg, antropólogo de la Universidad de Adelaida, a mediados de los noventa, y lo publicó con un título que no se olvida: «Huellas dactilares por homoplasia: koalas y humanos». Él mismo avisó a la policía de que una huella de koala podía pasar por humana. Lo que se cuenta después —que un koala llegó a liar una investigación de verdad— no tiene ni un caso documentado detrás, así que no.",
-      "Lo verdaderamente raro es cómo llegaron ahí. Nuestro linaje y el suyo se separaron hace unos ciento sesenta millones de años. Dos animales que no tienen nada que ver acabaron por su cuenta en el mismo dibujo.",
-    ],
-  },
-  {
-    id: "peste-del-baile",
-    titular: "En 1518, cientos de personas de Estrasburgo bailaron durante dos meses",
-    realce: "bailaron durante dos meses",
-    tema: "Historia",
-    color: "var(--dato-morado)", // la ciudad y su locura
-    mas: [
-      "Empezó el 14 de julio con una sola mujer, Frau Troffea, que salió a la calle y se puso a bailar. Sin música y sin parar. Estuvo así todo el día hasta caer agotada, y a la mañana siguiente volvió a levantarse y a empezar, con los pies hinchados y sangrando.",
-      "En una semana había treinta personas más. En un mes, según las crónicas, hasta cuatrocientas. Y las autoridades tomaron la decisión más asombrosa de toda la historia: concluyeron que la cura era bailar hasta que se les pasara, así que les despejaron el mercado de los caballos, les montaron un tablado y les contrataron músicos.",
-      "Duró unos dos meses y se apagó como había venido, sin que nadie haya sabido nunca por qué. Cuántos murieron no está claro: las crónicas de entonces no coinciden entre ellas, y eso hay que dejarlo dicho tal cual.",
     ],
   },
   {
@@ -239,18 +333,6 @@ export const DATOS: Dato[] = [
     ],
   },
   {
-    id: "wasabi",
-    titular: "El wasabi de casi cualquier restaurante es rábano teñido de verde",
-    realce: "rábano teñido de verde",
-    tema: "Comida",
-    color: "var(--dato-verde)", // el colorante
-    mas: [
-      "El wasabi de verdad es el tallo de una planta que solo crece bien metida en arroyos fríos de montaña, en Japón. Se ralla en el momento, delante del cliente, porque el picor se le va en un cuarto de hora. Con esas condiciones el kilo se pone en cientos de euros.",
-      "Así que lo que llega a la mesa casi siempre es otra cosa: rábano picante europeo, mostaza en polvo y colorante verde, a veces con un uno o un dos por ciento de wasabi de verdad para poder ponerlo en la etiqueta. Los cálculos que se manejan dicen que entre el 95 y el 99 % de lo que se sirve fuera de Japón no lleva wasabi. Y dentro de Japón, alrededor del 95 %.",
-      "Se nota, además, sin ser un experto: lo que pica en el wasabi sube por la nariz y se va enseguida; lo que pica en el rábano se queda en la lengua.",
-    ],
-  },
-  {
     id: "medusa-inmortal",
     titular: "Hay una medusa que vuelve a ser cría cuando le conviene",
     realce: "vuelve a ser cría",
@@ -260,18 +342,6 @@ export const DATOS: Dato[] = [
       "Se llama Turritopsis dohrnii, mide menos que una uña y hace algo que no hace ningún otro animal conocido. Cuando está herida, cuando pasa hambre o simplemente cuando se hace vieja, se deja caer al fondo, se deshace en un montoncito y vuelve a montarse desde el principio, en la forma de cría que tuvo al nacer.",
       "Lo que ocurre dentro es todavía más raro: sus células adultas no se mueren y se sustituyen, se convierten en otras distintas. Una que era músculo puede pasar a ser nervio. Y no es un truco de una sola vez: en laboratorio se ha visto rejuvenecer a todas las que se sometieron a la prueba, una y otra vez.",
       "En el mar se las comen, claro, como a todo. Pero de viejas no se mueren.",
-    ],
-  },
-  {
-    id: "forro-del-estomago",
-    titular: "El estómago se cambia el forro cada tres días para no digerirse a sí mismo",
-    realce: "para no digerirse a sí mismo",
-    tema: "Cuerpo",
-    color: "var(--dato-rojo)", // por dentro
-    mas: [
-      "Dentro del estómago hay ácido clorhídrico, que es el que se usa para limpiar metal. La pregunta interesante no es cómo deshace la comida, que se entiende sola: es por qué no te deshace a ti, que estás hecho de lo mismo que un filete.",
-      "Son tres defensas trabajando a la vez. Una capa de moco pegada a la pared, de menos de dos décimas de milímetro. Unas células que van soltando bicarbonato dentro de ese moco, de manera que la cara que da al ácido es ácida y la que toca la carne es casi neutra. Y, por si algo se cuela igualmente, un recambio constante: la superficie entera del estómago se cae y se vuelve a hacer cada tres a cinco días.",
-      "Estás estrenando estómago más o menos cada semana.",
     ],
   },
   /* Las dos que se salvan de la primera tanda: son de esta familia y no de la
