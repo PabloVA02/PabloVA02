@@ -1286,16 +1286,43 @@ nombre que tienen puesto ellos, que me gusta más la verdad, deja eso». Manda l
 segundo y está decidido: si a alguien le vuelve a parecer que habría que
 reescribirlos, ya se probó y se volvió atrás.
 
-Dos matices que sí siguen en pie. En su app en español una pone «Grow in
-faith», en inglés, que es un descuido suyo: aquí va traducida, «Crecer en tu
-fe». Y las cuatro últimas no están en su lista y son nuestras, porque nuestro
-catálogo tiene estantes que el suyo no tiene: «Rendir en el deporte»,
-«Entender el mundo de hoy», «Leer lo que nunca leíste» y «Saber mirar un
-cuadro».
+Un matiz que sigue en pie: en su app en español una pone «Grow in faith», en
+inglés, que es un descuido suyo. Aquí va traducida, «Crecer en tu fe».
 
-Los dieciséis dibujos de `Temas.tsx` **siguen siendo provisionales**: planos, a
-dos tintas —rojo #fa5b4a y oro #f8bb31—, en la familia de los que ya mandó
-Pablo. Cambiar uno es cambiar su función y nada más.
+### ONCE Y NO DIECISÉIS — 4 de septiembre
+
+Pablo mandó once emoticonos el 27 de agosto y las otras cinco metas llevaban
+desde entonces con un dibujo provisional mío. Al pasarle la hoja con los suyos:
+«vale, pues borra el resto, que no tienen emoticono».
+
+Se fueron estas cinco, y con ellas los dieciséis dibujos provisionales de
+`Temas.tsx`, que ya no los usa nadie —eso era exactamente lo que su propio
+comentario decía que había que hacer el día que todas tuvieran emoticono—:
+
+    { nombre: "Triunfar en tu vida profesional", categorias: ["Economía", "Psicología"] },
+    { nombre: "Rendir en el deporte",            categorias: ["Deportes", "Salud"] },
+    { nombre: "Entender el mundo de hoy",        categorias: ["Historia", "Economía", "Ciencia"] },
+    { nombre: "Leer lo que nunca leíste",        categorias: ["Literatura"] },
+    { nombre: "Saber mirar un cuadro",           categorias: ["Arte", "Historia"] },
+
+**Y HAY QUE SABER LO QUE SE PIERDE**, porque no son solo cinco filas menos.
+Cada meta dice de qué estantes tira, y `categoriasDe()` traduce lo que marca el
+lector a lo que el resto de la app ordena. De esas cinco salían las ÚNICAS
+menciones a dos estantes:
+
+- **Historia**, que estaba en «Entender el mundo de hoy» y «Saber mirar un
+  cuadro». Y es el estante más grande del catálogo.
+- **Arte**, que estaba solo en «Saber mirar un cuadro».
+
+O sea que ya nadie puede decir que le interesa la historia ni el arte, y esos
+libros no suben nunca en su estantería. Los libros siguen ahí y se llega a
+ellos por los filtros y por el buscador; lo que se ha perdido es la manera de
+pedirlos desde la introducción.
+
+Se arregla de dos maneras: el día que lleguen esos dos emoticonos, reponiendo
+las líneas de arriba; o metiendo Historia y Arte detrás de alguna de las once
+que quedan. **Está sin hacer a propósito**, porque lo segundo cambiaría lo que
+promete una meta que Pablo ya aprobó, y eso es decisión suya.
 
 ## EL RECUADRO Y LA LISTA, MEDIDOS SOBRE LAS CAPTURAS
 

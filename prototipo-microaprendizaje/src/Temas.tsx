@@ -58,14 +58,39 @@ import { spring, springSoft } from "./motion";
    —«Equilibrar tu vida», «Alcanzar la felicidad»—, no textos con autor: lo
    que sí es de Headway, y no se copia, es el resumen de cada libro.
 
-   Las CUATRO ÚLTIMAS no están en su lista y son nuestras, porque nuestro
-   catálogo tiene estantes que el suyo no tiene: el deporte, la literatura,
-   la historia y el arte.
+   Una de las suyas va traducida, no copiada: en su app en español pone «Grow
+   in faith», en inglés, que es un descuido suyo. Aquí es «Crecer en tu fe»,
+   que es lo que quiere decir, con Filosofía y Literatura detrás, que es de lo
+   que tenemos libros.
 
-   Y una de las suyas va traducida, no copiada: en su app en español pone
-   «Grow in faith», en inglés, que es un descuido suyo. Aquí es «Crecer en tu
-   fe», que es lo que quiere decir, con Filosofía y Literatura detrás, que es
-   de lo que tenemos libros.
+   ONCE Y NO DIECISÉIS, DESDE EL 4 DE SEPTIEMBRE. Pablo mandó once emoticonos
+   el 27 de agosto y las otras cinco metas llevaban desde entonces con un
+   dibujo provisional mío. Al pasarle la hoja con los suyos: «vale, pues borra
+   el resto, que no tienen emoticono».
+
+   Las cinco que se fueron, por si vuelven —basta con reponer la línea—:
+
+     { nombre: "Triunfar en tu vida profesional", categorias: ["Economía", "Psicología"] },
+     { nombre: "Rendir en el deporte",            categorias: ["Deportes", "Salud"] },
+     { nombre: "Entender el mundo de hoy",        categorias: ["Historia", "Economía", "Ciencia"] },
+     { nombre: "Leer lo que nunca leíste",        categorias: ["Literatura"] },
+     { nombre: "Saber mirar un cuadro",           categorias: ["Arte", "Historia"] },
+
+   Y HAY QUE SABER LO QUE SE PIERDE, porque no es solo que haya cinco filas
+   menos. Cada meta dice de qué estantes tira, y `categoriasDe()` es lo que
+   traduce lo que marca el lector a lo que el resto de la app ordena. De esas
+   cinco salían las ÚNICAS menciones a dos estantes:
+
+     · HISTORIA, que estaba en «Entender el mundo de hoy» y «Saber mirar un
+       cuadro». Y es el estante más grande del catálogo.
+     · ARTE, que estaba solo en «Saber mirar un cuadro».
+
+   O sea que a partir de ahora nadie puede decir que le interesa la historia ni
+   el arte, y esos libros no suben nunca en su estantería. Los libros siguen
+   ahí y se llega a ellos por los filtros y por el buscador; lo que se ha
+   perdido es la manera de pedirlos desde la introducción. Se arregla el día
+   que lleguen esos dos emoticonos, o metiendo Historia y Arte detrás de alguna
+   de las once que quedan.
    -------------------------------------------------------------------------- */
 
 export type Meta = {
@@ -76,7 +101,6 @@ export type Meta = {
 
 export const METAS: readonly Meta[] = [
   { nombre: "Aumentar tu productividad", categorias: ["Psicología", "Economía"] },
-  { nombre: "Triunfar en tu vida profesional", categorias: ["Economía", "Psicología"] },
   { nombre: "Llegar a ser rico", categorias: ["Economía"] },
   { nombre: "Potenciar tu inteligencia", categorias: ["Filosofía", "Ciencia", "Psicología"] },
   { nombre: "Confiar más en ti mismo", categorias: ["Psicología"] },
@@ -86,11 +110,7 @@ export const METAS: readonly Meta[] = [
   { nombre: "Mejorar tu vida sexual", categorias: ["Psicología", "Salud"] },
   { nombre: "Cómo ser mejores padres", categorias: ["Psicología", "Salud"] },
   { nombre: "Disfrutar de una vida sana", categorias: ["Salud", "Deportes"] },
-  { nombre: "Rendir en el deporte", categorias: ["Deportes", "Salud"] },
   { nombre: "Crecer en tu fe", categorias: ["Filosofía", "Literatura"] },
-  { nombre: "Entender el mundo de hoy", categorias: ["Historia", "Economía", "Ciencia"] },
-  { nombre: "Leer lo que nunca leíste", categorias: ["Literatura"] },
-  { nombre: "Saber mirar un cuadro", categorias: ["Arte", "Historia"] },
 ];
 
 /** Lo mismo que la introducción: hasta cinco. */
@@ -115,175 +135,18 @@ export function categoriasDe(metas: readonly string[]): string[] {
   return fuera;
 }
 
-/* --------------------------------------------------------------------------
-   Los dieciséis dibujos
-
-   PROVISIONALES: Pablo dijo que manda los suyos. Están hechos en la familia
-   de los que ya mandó —el candado, las entradas, la mano—: planos, sin filete
-   y a dos tintas, rojo y oro. Cambiar uno es cambiar su función de aquí
-   abajo y nada más.
-   -------------------------------------------------------------------------- */
-
-const R = "#fa5b4a";
-const O = "#f8bb31";
-
-function Marco({ children }: { children: React.ReactNode }) {
-  return (
-    <svg viewBox="0 0 48 48" width="26" height="26" aria-hidden>
-      {children}
-    </svg>
-  );
-}
-
-const DIBUJOS: Record<string, () => React.ReactElement> = {
-  /* Un cronómetro: la esfera y las agujas. */
-  "Aumentar tu productividad": () => (
-    <Marco>
-      <circle cx="24" cy="28" r="16" fill={O} />
-      <rect x="19" y="2" width="10" height="5" rx="2.5" fill={R} />
-      <rect x="21.6" y="6" width="4.8" height="6.5" fill={R} />
-      <path d="M24 28V18M24 28h7.5" fill="none" stroke={R} strokeWidth="3.6" strokeLinecap="round" />
-    </Marco>
-  ),
-  /* Un maletín. */
-  "Triunfar en tu vida profesional": () => (
-    <Marco>
-      <rect x="5" y="15" width="38" height="25" rx="4" fill={R} />
-      <path d="M18 15v-3.6A3.4 3.4 0 0 1 21.4 8h5.2A3.4 3.4 0 0 1 30 11.4V15" fill="none" stroke={O} strokeWidth="3.4" />
-      <rect x="5" y="23" width="38" height="4" fill={O} />
-      <rect x="20.5" y="21" width="7" height="8" rx="2.4" fill={O} />
-    </Marco>
-  ),
-  /* Un billete con su moneda. */
-  "Llegar a ser rico": () => (
-    <Marco>
-      <rect x="4" y="13" width="33" height="20" rx="3" fill={R} />
-      <circle cx="20.5" cy="23" r="5.6" fill={O} />
-      <circle cx="34" cy="33" r="10" fill={O} />
-      <rect x="32" y="27" width="4" height="12" rx="2" fill={R} />
-    </Marco>
-  ),
-  /* Una bombilla. */
-  "Potenciar tu inteligencia": () => (
-    <Marco>
-      <path d="M24 4c8 0 14 6 14 13.6 0 5-2.6 7.8-4.8 10.4-1.6 2-2.2 3-2.2 5.4H17c0-2.4-.6-3.4-2.2-5.4C12.6 25.4 10 22.6 10 17.6 10 10 16 4 24 4Z" fill={O} />
-      <rect x="16.6" y="36" width="14.8" height="4.2" rx="2.1" fill={R} />
-      <rect x="19" y="41.4" width="10" height="4.2" rx="2.1" fill={R} />
-    </Marco>
-  ),
-  /* Un escudo con una chispa. */
-  "Confiar más en ti mismo": () => (
-    <Marco>
-      <path d="M24 4l16 5.8v12C40 32 33 40 24 44 15 40 8 32 8 21.8v-12Z" fill={R} />
-      <path d="M24 14l3 6.6 6.6 3-6.6 3-3 6.6-3-6.6-6.6-3 6.6-3Z" fill={O} />
-    </Marco>
-  ),
-  /* Una balanza. */
-  "Equilibrar tu vida": () => (
-    <Marco>
-      <rect x="22" y="7" width="4" height="32" rx="2" fill={R} />
-      <rect x="13" y="38" width="22" height="5" rx="2.5" fill={R} />
-      <rect x="8" y="13" width="32" height="4" rx="2" fill={O} />
-      <path d="M12 17 6 28h12Z" fill={O} />
-      <path d="M36 17 30 28h12Z" fill={O} />
-    </Marco>
-  ),
-  /* Una taza con su vapor. */
-  "Alcanzar la felicidad": () => (
-    <Marco>
-      <rect x="7" y="19" width="25" height="19" rx="4" fill={R} />
-      <path d="M32 23h3.6a5.2 5.2 0 0 1 0 10.4H32" fill="none" stroke={O} strokeWidth="4" />
-      <rect x="5" y="38" width="30" height="4.4" rx="2.2" fill={O} />
-      <path d="M15 14V8M22 14V5" fill="none" stroke={O} strokeWidth="3.2" strokeLinecap="round" />
-    </Marco>
-  ),
-  /* Dos aros enlazados. */
-  "Tener relaciones sanas": () => (
-    <Marco>
-      <circle cx="18" cy="24" r="11" fill="none" stroke={R} strokeWidth="5" />
-      <circle cx="30" cy="24" r="11" fill="none" stroke={O} strokeWidth="5" />
-    </Marco>
-  ),
-  /* Dos corazones. */
-  "Mejorar tu vida sexual": () => (
-    <Marco>
-      <path d="M17 43C7 35.4 3 31.2 3 24.8A8.6 8.6 0 0 1 17 19a8.6 8.6 0 0 1 14 5.8C31 31.2 27 35.4 17 43Z" fill={R} />
-      <path d="M35 28.5c-6.8-5.1-9.2-7.7-9.2-11.6a5.2 5.2 0 0 1 9.2-3.4 5.2 5.2 0 0 1 9.2 3.4c0 3.9-2.4 6.5-9.2 11.6Z" fill={O} />
-    </Marco>
-  ),
-  /* Un adulto y un niño. */
-  "Cómo ser mejores padres": () => (
-    <Marco>
-      <circle cx="16" cy="13" r="7" fill={R} />
-      <path d="M4 43c0-7.4 5.4-12.6 12-12.6S28 35.6 28 43Z" fill={R} />
-      <circle cx="35" cy="21" r="5.6" fill={O} />
-      <path d="M25.6 43c0-5.4 4.2-9.2 9.4-9.2s9.4 3.8 9.4 9.2Z" fill={O} />
-    </Marco>
-  ),
-  /* Una manzana. */
-  "Disfrutar de una vida sana": () => (
-    <Marco>
-      <path d="M24 15c4-3.2 10.4-3 13.4 1.2 3.4 4.8 1.8 13.4-2.2 20-2.6 4.4-5.6 7.6-8 7.6-1.6 0-2-.8-3.2-.8s-1.6.8-3.2.8c-2.4 0-5.4-3.2-8-7.6-4-6.6-5.6-15.2-2.2-20C13.6 12 20 11.8 24 15Z" fill={R} />
-      <path d="M24 14V7" fill="none" stroke={O} strokeWidth="3.2" strokeLinecap="round" />
-      <path d="M24.5 10c2.4-5 8.5-5.4 8.5-5.4s.4 6-4.6 7.4c-2.6.7-3.9-2-3.9-2Z" fill={O} />
-    </Marco>
-  ),
-  /* Una copa. */
-  "Rendir en el deporte": () => (
-    <Marco>
-      <path d="M14 6h20v11c0 6-4.5 10.6-10 10.6S14 23 14 17Z" fill={O} />
-      <path d="M14 9H9v3.4c0 4 2.4 6.6 5.6 7.2M34 9h5v3.4c0 4-2.4 6.6-5.6 7.2" fill="none" stroke={R} strokeWidth="3" strokeLinecap="round" />
-      <rect x="21" y="27" width="6" height="7" fill={R} />
-      <rect x="13" y="34" width="22" height="6" rx="2.4" fill={R} />
-    </Marco>
-  ),
-  /* Una brújula. */
-  "Crecer en tu fe": () => (
-    <Marco>
-      <circle cx="24" cy="24" r="18" fill={R} />
-      <path d="M35 13 27.5 27.5 13 35l7.5-14.5Z" fill={O} />
-    </Marco>
-  ),
-  /* Un globo terráqueo. */
-  "Entender el mundo de hoy": () => (
-    <Marco>
-      <circle cx="24" cy="24" r="18" fill={R} />
-      <path d="M24 6c4.8 5 4.8 31 0 36M6 24h36M9.4 14h29.2M9.4 34h29.2" fill="none" stroke={O} strokeWidth="2.6" />
-    </Marco>
-  ),
-  /* Un libro abierto. */
-  "Leer lo que nunca leíste": () => (
-    <Marco>
-      <path d="M6 11c5.6-2 11.2-2 16.8 0v27c-5.6-2-11.2-2-16.8 0Z" fill={R} />
-      <path d="M42 11c-5.6-2-11.2-2-16.8 0v27c5.6-2 11.2-2 16.8 0Z" fill={O} />
-      <rect x="22.6" y="10" width="2.8" height="29" rx="1.4" fill={R} />
-    </Marco>
-  ),
-  /* Un cuadro con su marco. */
-  "Saber mirar un cuadro": () => (
-    <Marco>
-      <rect x="5" y="7" width="38" height="34" rx="3.4" fill={O} />
-      <rect x="10.5" y="12.5" width="27" height="23" rx="2" fill={R} />
-      <circle cx="17.5" cy="19" r="3" fill={O} />
-      <path d="M10.5 35.5V33l8-8 5 5 6-6 8 8v3.5Z" fill={O} />
-    </Marco>
-  ),
-};
-
-/** El dibujo de una meta, por su nombre.
+/** El emoticono de una meta, por su nombre. Todas tienen el suyo.
  *
- *  Manda el emoticono de Pablo cuando lo hay, y si no, el dibujo provisional
- *  de aquí arriba. El 27 de agosto llegaron once de dieciséis, así que las dos
- *  cosas conviven en la misma lista y tienen que verse iguales: por eso el
- *  emoticono sale a 26 puntos clavados, que es lo que mide el `<svg>`, y por
- *  eso los dibujos se hicieron desde el principio en su familia —planos, a
- *  dos tintas, rojo y oro—. Cuando lleguen las cinco que faltan, esta función
- *  se queda en una línea y `DIBUJOS` se borra entero. */
+ *  Aquí había una segunda mitad: dieciséis dibujos provisionales míos, en la
+ *  familia de los de Pablo —planos, a dos tintas, rojo y oro—, que se pintaban
+ *  cuando una meta no tenía emoticono suyo. Con las cinco metas descolgadas ya
+ *  no hay ninguna en ese caso, así que se ha ido, que es exactamente lo que
+ *  decía este comentario que había que hacer el día que pasara.
+ *
+ *  Sale a 26 puntos clavados, que es lo que medían aquellos `<svg>`. */
 export function DibujoTema({ tema }: { tema: string }) {
   const suyo = EMOTICONOS_METAS[tema];
-  if (suyo) return <img src={suyo} width={26} height={26} alt="" aria-hidden />;
-  const D = DIBUJOS[tema];
-  return D ? <D /> : null;
+  return suyo ? <img src={suyo} width={26} height={26} alt="" aria-hidden /> : null;
 }
 
 /* --------------------------------------------------------------------------
