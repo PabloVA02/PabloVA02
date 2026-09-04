@@ -11,7 +11,6 @@ import {
 import { Portada, type Libro } from "./Biblioteca";
 import { spring, springPop } from "./motion";
 import { GlyphClose } from "./glyphs";
-import { DADO_3D } from "./dado-3d";
 
 /* ==========================================================================
    EL DADO Y LA TRAGAPERRAS
@@ -202,14 +201,10 @@ function tirada(libros: Libro[], ganador: Libro): Libro[] {
 }
 
 /* --------------------------------------------------------------------------
-   EL DADO DE LA CABECERA
+   EL BOTÓN DE «SÁCAME UN LIBRO», EN LA CABECERA
 
-   El dibujo no es nuestro: es el emoji de dado en tres dimensiones de FLUENT
-   EMOJI, de Microsoft, con licencia MIT. Ver `dado-3d.ts`, que lleva el origen
-   y la licencia.
-
-   AQUÍ HAN PASADO CUATRO, y conviene que estén los cuatro apuntados para que
-   nadie vuelva a probar uno que ya se descartó:
+   AQUÍ HAN PASADO CINCO DIBUJOS, y conviene que estén los cinco apuntados para
+   que nadie vuelva a probar uno que ya se descartó:
 
    1. Un cuadrado de oro con cinco puntos rojos, dibujado por mí, meneándose
       cada cinco segundos. «Pon otro mucho más bonito con animación que
@@ -218,28 +213,37 @@ function tirada(libros: Libro[], ganador: Libro): Libro[] {
       «Nada, muy feo.» Y con razón: el cubo de Noto es plano, gris y de tres
       caras casi iguales; a treinta puntos es una mancha con puntos.
    3. Un dado plano de frente, en crema con los puntos en tinta, dibujado por
-      mí. Se leía perfectamente y era lo que había pedido —«haz un dado más
-      simple que se vea bien que es un dado»—, pero: «el dado no me gusta,
-      quiero que sea en 3D».
-   4. Éste. Es 3D de verdad y está bajado de fuera, que son las dos cosas que
-      pedía: tiene luz —la cara de arriba clara, la izquierda en penumbra, la
-      derecha a media luz—, esquinas redondeadas y los puntos morados con uno
-      rojo arriba. A treinta puntos sigue leyéndose como un cubo.
+      mí. Se leía perfectamente, pero: «el dado no me gusta, quiero que sea
+      en 3D».
+   4. El dado 3D de Fluent Emoji, de Microsoft. Tenía luz y esquinas
+      redondeadas y se leía como un cubo. Y el 4 de septiembre: «el dado no me
+      gusta cómo queda, ¿qué podríamos poner para que quedase mejor?».
+   5. Éste, que YA NO ES UN DADO.
 
-   CÓMO SE MUEVE, y por qué así y no girando. Es una imagen de un cubo visto
-   en isométrica, no un cubo de verdad: girarlo sobre sus ejes lo delataría
-   —las caras no cambian—. Lo que sí es honesto con un dibujo así es una
-   TIRADA: se levanta, da una vuelta en el aire, cae y aplasta un poco al
-   tocar la mesa. Eso es lo que hace un dado lanzado, y es lo que se lee.
+   POR QUÉ SE CAMBIA EL SÍMBOLO Y NO EL DIBUJO. Cuatro dados, cuatro
+   devoluciones. El último era el que él mismo pidió —en 3D, bajado de fuera y
+   bien hecho— y siguió sin gustarle, así que el problema no era cómo estaba
+   dibujado el dado: era que un objeto de tres dimensiones con luz, sombra y
+   dos colores está solo en una cabecera donde todo lo demás son trazos
+   blancos de 1,8. Por bien hecho que esté, ahí dentro es un cuerpo extraño.
+
+   Lo que hay ahora es el símbolo de BARAJAR: dos flechas que se cruzan. Dice
+   lo que hace el botón —darte un libro al azar— sin tener que dibujar el
+   objeto que lo decide, y es de la misma familia que la lupa, el marcador y
+   el rayo de la barra.
+
+   CÓMO SE MUEVE, y por qué así. Un dado rueda; unas flechas, no. Lo honesto
+   con este dibujo es una SACUDIDA corta, la de quien menea la bolsa antes de
+   sacar la ficha: dos idas y venidas de dos puntos y para.
 
      · Al tocarlo, siempre.
      · Y solo, cada nueve segundos, para que se vea que se puede tocar.
      · Con `prefers-reduced-motion`, nunca.
    -------------------------------------------------------------------------- */
 
-export function GlyphDado({
-  tamano = 30,
-  /** Sube uno cada vez que se toca: cada cambio lanza una tirada. */
+export function GlyphAzar({
+  tamano = 26,
+  /** Sube uno cada vez que se toca: cada cambio lanza una sacudida. */
   tirada: pulsos = 0,
 }: {
   tamano?: number;
@@ -249,55 +253,59 @@ export function GlyphDado({
   const controles = useAnimationControls();
   const primera = useRef(true);
 
-  const rodar = useMemo(
+  const menear = useMemo(
     () => () => {
       if (reducido) return;
       controles.start({
-        /* Sube, gira y cae. El aplastado del final —0,9 de alto por 1,08 de
-           ancho— es un fotograma y es el que hace que se note que ha tocado
-           mesa; sin él el dado aterriza como una pluma. */
-        rotate: [0, 200, 360, 360],
-        y: [0, -7, 1, 0],
-        scaleY: [1, 1, 0.9, 1],
-        scaleX: [1, 1, 1.08, 1],
-        transition: {
-          duration: 0.72,
-          times: [0, 0.45, 0.78, 1],
-          ease: [0.25, 0.7, 0.35, 1],
-        },
+        x: [0, -2.4, 2.4, -1.6, 0],
+        rotate: [0, -4, 4, -2, 0],
+        transition: { duration: 0.42, ease: [0.35, 0.6, 0.3, 1] },
       });
     },
     [controles, reducido],
   );
 
   /* Al tocarlo. La primera pasada se salta: `pulsos` arranca en cero y el
-     efecto se dispara una vez al montar, y un dado que rueda solo nada más
+     efecto se dispara una vez al montar, y un icono que se menea solo nada más
      abrir la app parece un fallo. */
   useEffect(() => {
     if (primera.current) {
       primera.current = false;
       return;
     }
-    rodar();
-  }, [pulsos, rodar]);
+    menear();
+  }, [pulsos, menear]);
 
   useEffect(() => {
     if (reducido) return;
-    const t = window.setInterval(rodar, 9000);
+    const t = window.setInterval(menear, 9000);
     return () => window.clearInterval(t);
-  }, [rodar, reducido]);
+  }, [menear, reducido]);
 
   return (
-    <motion.img
-      className="dado-3d"
-      src={DADO_3D}
+    <motion.svg
       width={tamano}
       height={tamano}
+      viewBox="0 0 24 24"
       animate={controles}
-      alt=""
       aria-hidden
-      draggable={false}
-    />
+      focusable="false"
+    >
+      <g
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        {/* Las dos trayectorias que se cruzan, y las dos puntas de flecha. */}
+        <path d="M3 7.4h3.1c1.7 0 2.7 1 3.7 2.3l3.3 4.6c1 1.3 2 2.3 3.7 2.3H21" />
+        <path d="M3 16.6h3.1c1.7 0 2.7-1 3.7-2.3l.9-1.3" />
+        <path d="M13.9 9.6l.9-1.2c1-1.3 2-2.3 3.7-2.3H21" />
+        <path d="M18.6 3.7 21 6.1l-2.4 2.4" />
+        <path d="M18.6 13.9 21 16.3l-2.4 2.4" />
+      </g>
+    </motion.svg>
   );
 }
 

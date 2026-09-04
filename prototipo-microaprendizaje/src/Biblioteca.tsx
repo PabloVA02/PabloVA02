@@ -24,7 +24,7 @@ import { Hoja } from "./Hoja";
 import { GestionaTemas } from "./Temas";
 import { COLECCIONES_A_LA_VISTA, type Coleccion } from "./colecciones";
 import { LibroDelDia, libroDeHoy, librosGratisDeHoy } from "./LibroDelDia";
-import { GlyphDado } from "./Dado";
+import { GlyphAzar } from "./Dado";
 import type { Foto } from "./shorts";
 
 /* ==========================================================================
@@ -971,20 +971,24 @@ export function Inicio({
           </motion.h1>
           {/* Dos botones en una sola pastilla partida por un filete, como en la
               captura de Headway. Ellos ponen ahí el fuego de la racha; el 27
-              de agosto Pablo lo cambió por un DADO, que abre la tragaperras y
-              saca un libro al azar. Es mejor sitio: la racha ya se ve entera
-              en el perfil y en su pantalla, mientras que «no sé qué leer» es
-              el problema que se tiene justo al abrir la app, que es cuando se
-              mira aquí arriba.
+              de agosto Pablo lo cambió por sacar un libro AL AZAR, que abre la
+              tragaperras. Es mejor sitio: la racha ya se ve entera en el perfil
+              y en su pantalla, mientras que «no sé qué leer» es el problema que
+              se tiene justo al abrir la app, que es cuando se mira aquí arriba.
 
-              Y va sin la cifra al lado. El «3» era de la racha; junto a un
-              dado no querría decir nada, y un número que no significa nada en
-              la esquina de una pantalla se lee igual: se intenta entender.
+              Y va sin la cifra al lado. El «3» era de la racha; aquí no querría
+              decir nada, y un número que no significa nada en la esquina de una
+              pantalla se lee igual: se intenta entender.
 
-              El dado se mueve solo cada cinco segundos, con dos golpes de
-              muñeca. Sin eso es un icono más de una fila de iconos y nadie lo
-              toca; con eso pide que lo pulses, que es exactamente lo que hay
-              que hacer con él. */}
+              EL DIBUJO YA NO ES UN DADO, y por qué está contado entero en
+              `Dado.tsx`, encima de `GlyphAzar`: se probaron cuatro dados y los
+              cuatro se devolvieron, el último siendo el 3D que él mismo había
+              pedido. El problema no era el dado, era que un objeto con luz y
+              sombra está solo en una cabecera de trazos blancos.
+
+              Se menea solo cada nueve segundos. Sin eso es un icono más de una
+              fila de iconos y nadie lo toca; con eso pide que lo pulses, que es
+              exactamente lo que hay que hacer con él. */}
           <motion.div
             className="cabecera-pastilla"
             initial={{ opacity: 0, scale: 0.86 }}
@@ -1003,7 +1007,7 @@ export function Inicio({
               whileTap={{ scale: 0.9 }}
               aria-label="Sacar un libro al azar"
             >
-              <GlyphDado tamano={28} tirada={tiradas} />
+              <GlyphAzar tamano={26} tirada={tiradas} />
             </motion.button>
             <span className="cabecera-filete" aria-hidden />
             <motion.button

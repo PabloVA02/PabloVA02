@@ -14,11 +14,18 @@ enlace— y este fichero se regenera con `node scripts/creditos.mjs`.
 
 ## Lo que no es una imagen de Commons
 
-**El dado de la cabecera** es el emoji de dado en tres dimensiones de **Fluent
-Emoji**, de Microsoft (`dado-3d.ts`), con **licencia MIT**: permite el uso
-comercial y obliga a conservar el aviso de copyright, que es esta línea.
+**Los dibujos de «¿Sabías que…?»** son de **Fluent Emoji**, de Microsoft, en su
+variante de alto contraste (`src/bocetos.tsx`), con **licencia MIT**: permite
+el uso comercial y obliga a conservar el aviso de copyright, que es esta línea.
+Se usan 85 de los mil quinientos que trae el paquete, empotrados uno a uno.
 
     https://github.com/microsoft/fluentui-emoji
+
+**El dado 3D de la cabecera era del mismo sitio** y ya no se pinta: el 4 de
+septiembre Pablo lo retiró y en su lugar hay un símbolo de barajar dibujado por
+nosotros. `src/dado-3d.ts` sigue en el repositorio por si se quisiera volver a
+él —nadie lo importa, así que no entra en el paquete—, y su aviso de copyright
+es el de arriba, que es el mismo proyecto y la misma licencia.
 
 **La llama de la racha** es la animación del emoji de fuego de **Noto Animated
 Emoji**, de Google (`fuego-noto.json`, del emoji U+1F525). Va bajo **CC BY

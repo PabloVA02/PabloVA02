@@ -680,7 +680,7 @@ export function Ajustes({
         <Legal
           parrafos={[
             "Las fotografías de las historias son 2274 imágenes de Wikimedia Commons. Cada una se pide a Commons en el momento de mostrarla: la aplicación no las almacena ni las redistribuye. Su autor y su licencia van guardados junto a cada imagen.",
-            "El dado de la cabecera es el emoji de dado en 3D de Fluent Emoji, de Microsoft, con licencia MIT. github.com/microsoft/fluentui-emoji",
+            "Los dibujos de «¿Sabías que…?» son de Fluent Emoji, de Microsoft, en su variante de alto contraste, con licencia MIT. github.com/microsoft/fluentui-emoji",
             "La llama de la racha es la animación del emoji de fuego de Noto Animated Emoji, de Google, bajo licencia Creative Commons Reconocimiento 4.0 (CC BY 4.0). googlefonts.github.io/noto-emoji-animation",
             "Las cubiertas de los libros están dibujadas para Curva y no proceden de ninguna colección externa.",
             "La lista completa, imagen a imagen y con su licencia, está publicada en el repositorio del proyecto.",

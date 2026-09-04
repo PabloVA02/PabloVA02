@@ -431,13 +431,25 @@ export function GlyphLlama({ tamano = 22 }: { tamano?: number }) {
 
 /* El perfil de la cabecera: cabeza y hombros dentro de un aro, de trazo, para
    que case con la lupa y con el marcador. */
+/* EL PERFIL: la cabeza y los hombros, y nada más.
+
+   Pablo, el 4 de septiembre: «el perfil cámbialo, el símbolo, pon otra cosa
+   más minimalista y bonita».
+
+   Tenía un aro alrededor, y el aro sobraba por dos razones. La de dibujo: la
+   persona ya vive dentro de la pastilla de la cabecera, que es redonda por su
+   lado, así que el aro era un segundo círculo dentro del primero y a
+   veintitrés puntos los dos trazos se juntaban. Y la de sentido: el aro es lo
+   que se pone cuando el icono lleva DENTRO una foto tuya, y aquí no hay foto.
+
+   Lo que queda son dos trazos —un círculo y un arco— y se lee antes.
+   ========================================================================== */
 export function GlyphAvatar({ tamano = 24 }: { tamano?: number }) {
   return (
     <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
-      <g fill="none" stroke="currentColor" strokeWidth="1.8">
-        <circle cx="12" cy="12" r="9.1" />
-        <circle cx="12" cy="9.8" r="3.1" />
-        <path d="M6.1 19.4c1.1-2.6 3.3-4 5.9-4s4.8 1.4 5.9 4" strokeLinecap="round" />
+      <g fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+        <circle cx="12" cy="8.4" r="3.4" />
+        <path d="M5.4 19.8a6.9 6.9 0 0 1 13.2 0" />
       </g>
     </svg>
   );

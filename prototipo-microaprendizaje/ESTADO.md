@@ -1798,6 +1798,54 @@ promesa de cada libro ya está escrita debajo de su cubierta.
 **Ojo, que Tendencias vive en EXPLORAR, no en Libros.** Es la única de las
 cuatro cosas de esta tanda que no está en la pantalla de Libros.
 
+### La pastilla de la cabecera: se acabó el dado
+
+Pablo, el 4 de septiembre: «el dado no me gusta cómo queda, ¿qué podríamos
+poner para que quedase mejor? Prueba cosas. Y el perfil cámbialo, el símbolo,
+pon otra cosa más minimalista y bonita; haz esa parte más bonita».
+
+**HAN SIDO CUATRO DADOS Y CUATRO DEVOLUCIONES**, y el cuarto era el que él
+mismo había pedido —«quiero que sea en 3D»—, bajado de fuera y bien hecho. La
+lista entera está en `Dado.tsx`, encima de `GlyphAzar`.
+
+Así que el problema no era cómo estaba dibujado el dado: era que un objeto de
+tres dimensiones con luz, sombra y dos colores está SOLO en una cabecera donde
+todo lo demás son trazos blancos de 1,8. Por bien hecho que esté, ahí dentro es
+un cuerpo extraño. Por eso esta vez se cambia el SÍMBOLO y no el dibujo.
+
+**Ahora es el de BARAJAR**, dos flechas que se cruzan. Dice lo que hace el botón
+—darte un libro al azar— sin dibujar el objeto que lo decide, y es de la misma
+familia que la lupa, el marcador y el rayo de la barra. Se le pasaron cinco a
+elegir con `scripts/cabecera-iconos.mjs`: el 3D de ahora, un dado a línea,
+barajar, una chispa y una brújula.
+
+**Y el dado a línea NO se propuso como recomendación aunque sale en la hoja**,
+porque ya se probó y se devolvió en agosto. Repetir una opción descartada sin
+decirlo es hacerle perder el tiempo.
+
+**Cómo se mueve.** Un dado rueda; unas flechas, no. Lo honesto con este dibujo
+es una sacudida corta —la de quien menea la bolsa antes de sacar la ficha—: dos
+idas y venidas y para. Sigue saliendo sola cada nueve segundos, que es lo que
+hace que alguien lo toque.
+
+**EL PERFIL PIERDE EL ARO.** Era una persona dentro de un círculo, y el círculo
+sobraba por dos razones. La de dibujo: la persona ya vive dentro de la pastilla,
+que es redonda por su lado, así que el aro era un segundo círculo dentro del
+primero y a veintitrés puntos los dos trazos se juntaban. Y la de sentido: el
+aro es lo que se pone cuando dentro va una FOTO tuya, y aquí no hay foto.
+
+**Y LA PASTILLA.** Iba en `#383838` macizo con un filo de `#606060` —un gris
+contra otro gris, los dos a mano— y pesaba más que nada de lo que tiene
+alrededor: en esa pantalla lo único opaco era ella, y el ojo se le iba antes que
+al saludo. Ahora es crema al 8 % con un filo al 14 %, que es lo que ya usan los
+filtros y el botón de «Gestionar». El filete de en medio se queda, más corto y
+más flojo: sin él los dos botones se leen como un control solo, y son dos cosas
+que no tienen nada que ver.
+
+**`src/dado-3d.ts` no se borra.** Nadie lo importa, así que no entra en el
+paquete, y sigue ahí por si algún día se vuelve. Su crédito —Fluent Emoji, MIT—
+ya estaba puesto por los dibujos de «¿Sabías que…?», que son del mismo sitio.
+
 ### Tendencias, sin los textos: el puesto y el crédito en una fila
 
 Pablo, un rato después: «quita el texto de abajo de tendencias, el de "un 1 %

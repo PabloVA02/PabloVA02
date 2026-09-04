@@ -8419,14 +8419,24 @@ button {
 /* La pastilla de la cabecera: fuego y racha a un lado, la cara al otro, y un
    filete de un punto separándolos, como en la captura. Es una sola pieza a la
    vista y dos botones al tacto. */
+/* Y EL COLOR, del 4 de septiembre: «haz esa parte más bonita». Iba en #383838
+   macizo con un filo de #606060 —un gris contra otro gris, los dos elegidos a
+   mano— y eso la hacía pesar más que nada de lo que tiene alrededor: en esa
+   pantalla lo único opaco es esta pastilla, y el ojo se iba a ella antes que
+   al saludo.
+
+   Ahora es crema al 8 % con un filo al 14 %, que es exactamente lo que usan
+   los filtros y el botón de «Gestionar» de más abajo. Sobre el fondo casi
+   negro da el mismo escalón, pero se apoya en el fondo en vez de taparlo, y
+   deja de ser un color nuevo en la paleta. */
 .cabecera-pastilla {
   display: flex;
   align-items: center;
   height: 42px;
   padding: 0 4px;
   border-radius: 999px;
-  background: #383838;
-  border: 1px solid #606060;
+  background: rgba(242, 236, 225, 0.08);
+  border: 1px solid rgba(242, 236, 225, 0.14);
 }
 .pastilla-racha {
   display: flex;
@@ -8444,10 +8454,13 @@ button {
   font-weight: 700;
   font-variant-numeric: tabular-nums;
 }
+/* El filete SE QUEDA, más corto y más flojo. Sin él los dos botones se leen
+   como un control solo, y son dos cosas que no tienen nada que ver: uno saca
+   un libro al azar y el otro abre tu perfil. */
 .cabecera-filete {
   width: 1px;
-  height: 20px;
-  background: #606060;
+  height: 16px;
+  background: rgba(242, 236, 225, 0.16);
 }
 .pastilla-perfil {
   display: grid;
@@ -10824,10 +10837,6 @@ button {
 
 /* El dibujo trae su sombra pintada dentro, así que no lleva ninguna aquí: dos
    sombras, una del dibujo y otra de CSS, se cruzan y se ve. */
-.dado-3d {
-  display: block;
-  transform-origin: 50% 62%;
-}
 
 .trag {
   position: absolute;
