@@ -1289,6 +1289,39 @@ reescribirlos, ya se probó y se volvió atrás.
 Un matiz que sigue en pie: en su app en español una pone «Grow in faith», en
 inglés, que es un descuido suyo. Aquí va traducida, «Crecer en tu fe».
 
+### SEIS EMOTICONOS MÁS, Y AL BUSCADOR — 4 de septiembre, noche
+
+«Más emoticonos; los otros los pones en el buscador.» Vinieron siete, y uno de
+ellos no era «otro»:
+
+- **el cofre con monedas SUSTITUYE a la hucha** de «Llegar a ser rico», que es
+  una meta y ya tenía el suyo;
+- **los seis restantes van a los géneros de Explorar**, en
+  `src/emoticonos-generos.ts`, con la misma mecánica que las metas: manda el
+  suyo cuando lo hay y si no queda el glifo dibujado.
+
+**LA CLAVE ES EL `id` DEL GÉNERO, NO SU NOMBRE**, porque los nombres de sus
+ficheros y los nuestros no coinciden y conviene que quede escrito cuál es cuál:
+
+    filosofia   el pensador con la interrogación
+    historia    el libro con la pluma
+    deportes    el trofeo
+    vidas       los dos perfiles — él lo llamó «personalidades»
+    mente       la cabeza con el cerebro — él lo llamó «psicología», que es la
+                CATEGORÍA; el género que la enseña se llama «Mente y emociones»
+    dinero      la balanza — él lo llamó «economía»; el género es «Dinero e
+                inversiones»
+
+**FALTAN ONCE Y SE NOTA**, porque los suyos son coral y oro y los míos verdes
+de línea: Desarrollo personal, Hábitos y rutinas, Gente y relaciones, Amor y
+sexo, Concentración, Liderazgo y empresa, Sentido de la vida, Salud y cuerpo,
+Ciencia, Novela y Arte y creatividad. Cuando lleguen, `glifos-generos.tsx` se
+borra entero.
+
+**Y de paso, un número que mentía.** El subtítulo de los géneros decía «Catorce
+maneras de entrar» y hay diecisiete: estaba escrito a mano y se quedó viejo al
+añadir géneros, sin que nada avisara. Ahora se cuenta solo.
+
 ### ONCE Y NO DIECISÉIS — 4 de septiembre
 
 Pablo mandó once emoticonos el 27 de agosto y las otras cinco metas llevaban

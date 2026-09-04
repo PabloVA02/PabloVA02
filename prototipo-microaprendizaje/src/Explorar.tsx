@@ -9,6 +9,7 @@ import { SUBTITULOS } from "./libros/subtitulos";
 import { PORTADAS_LIBRO } from "./libros/portadas";
 import { PAGINAS } from "./libros/paginas";
 import { GLIFOS_GENERO } from "./glifos-generos";
+import { EMOTICONOS_GENERO } from "./emoticonos-generos";
 import { GlyphClose, GlyphLupa } from "./glyphs";
 import { pantalla, spring, springSoft } from "./motion";
 
@@ -417,17 +418,41 @@ function Tendencias({ onAbrir }: { onAbrir: (l: Libro) => void }) {
    obliga a tocar nada aquí.
    -------------------------------------------------------------------------- */
 
+/* El número en letra, que es como se escribe dentro de una frase. Llega hasta
+   treinta porque de ahí no van a pasar los géneros; si algún día pasan, cae a
+   la cifra, que es feo pero verdad, y nunca a un número equivocado. */
+const LETRAS = [
+  "Cero", "Una", "Dos", "Tres", "Cuatro", "Cinco", "Seis", "Siete", "Ocho",
+  "Nueve", "Diez", "Once", "Doce", "Trece", "Catorce", "Quince", "Dieciséis",
+  "Diecisiete", "Dieciocho", "Diecinueve", "Veinte", "Veintiuna", "Veintidós",
+  "Veintitrés", "Veinticuatro", "Veinticinco", "Veintiséis", "Veintisiete",
+  "Veintiocho", "Veintinueve", "Treinta",
+];
+const enLetra = (n: number) => LETRAS[n] ?? String(n);
+
 function Generos({ onElegir }: { onElegir: (id: string) => void }) {
   return (
     <section className="bloque generos">
       <div className="bloque-cabecera">
         <div>
           <h2>Qué te apetece</h2>
-          <p className="bloque-sub">Catorce maneras de entrar</p>
+          {/* LA CUENTA SE CUENTA. Decía «Catorce maneras de entrar» y hay
+              diecisiete: el número estaba escrito a mano y se quedó viejo al
+              añadir géneros, sin que nadie se enterara. Es un número pequeño y
+              da igual para usar la app, pero es una afirmación falsa en
+              pantalla, y de esas no hay ninguna a propósito. */}
+          <p className="bloque-sub">{enLetra(GENEROS.length)} maneras de entrar</p>
         </div>
       </div>
       <div className="genero-parrilla">
         {GENEROS.map((g, i) => {
+          /* MANDA EL EMOTICONO DE PABLO CUANDO LO HAY, y si no, el glifo
+             dibujado. El 4 de septiembre llegaron seis de diecisiete, así que
+             las dos cosas conviven en la misma parrilla y tienen que verse
+             iguales: por eso el emoticono sale a 21 puntos clavados, que es lo
+             que mide el `<svg>` de al lado. Cuando lleguen los once que
+             faltan, esto se queda en una línea y `GLIFOS_GENERO` se borra. */
+          const suyo = EMOTICONOS_GENERO[g.id];
           const Icono = GLIFOS_GENERO[g.icono];
           return (
             <motion.button
@@ -440,7 +465,11 @@ function Generos({ onElegir }: { onElegir: (id: string) => void }) {
               transition={{ ...spring, delay: 0.04 + Math.min(i, 9) * 0.03 }}
             >
               <span className="genero-icono" aria-hidden>
-                {Icono ? <Icono tamano={21} /> : null}
+                {suyo ? (
+                  <img src={suyo} width={21} height={21} alt="" />
+                ) : Icono ? (
+                  <Icono tamano={21} />
+                ) : null}
               </span>
               <span className="genero-nombre">{g.nombre}</span>
             </motion.button>

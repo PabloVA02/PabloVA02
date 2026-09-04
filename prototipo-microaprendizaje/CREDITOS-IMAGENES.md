@@ -21,8 +21,9 @@ Se usan 85 de los mil quinientos que trae el paquete, empotrados uno a uno.
 
     https://github.com/microsoft/fluentui-emoji
 
-**El pollito del cupón** (`src/ilustraciones/pollito-cupon.webp`) y **los once
-emoticonos de los objetivos** (`src/emoticonos-metas.ts`) los aportó Pablo. No
+**El pollito del cupón** (`src/ilustraciones/pollito-cupon.webp`), **los once
+emoticonos de los objetivos** (`src/emoticonos-metas.ts`) y **los seis de los
+géneros del buscador** (`src/emoticonos-generos.ts`) los aportó Pablo. No
 son de Commons ni de ningún paquete de terceros, así que no llevan cita: son
 suyos y entran en la aplicación por eso.
 
