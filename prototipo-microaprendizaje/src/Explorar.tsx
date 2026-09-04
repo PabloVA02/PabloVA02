@@ -387,13 +387,20 @@ function Tendencias({ onAbrir }: { onAbrir: (l: Libro) => void }) {
             <div className="tend-arte">
               <Portada libro={libro} tamano={148} />
             </div>
-            {/* El puesto. `aria-hidden` porque el orden ya lo dice la lista a
+            {/* EL PIE: el puesto grande a la izquierda y, a su lado, de quién
+                es y lo que se tarda. En una fila y no en tres renglones: sin la
+                promesa en medio, apilarlos dejaba la cifra sola en una línea
+                entera y la tarjeta se alargaba para no decir nada.
+
+                El número es `aria-hidden` porque el orden ya lo dice la lista a
                 quien la escucha, y oír «uno» antes de cada título sobra. */}
-            <p className="tend-numero" aria-hidden>{i + 1}</p>
-            <p className="tend-promesa">{t.promesa}</p>
-            <p className="tend-pie">
-              {libro.autor} · {tiempo(minutosDeLibro(libro))}
-            </p>
+            <div className="tend-pie">
+              <span className="tend-numero" aria-hidden>{i + 1}</span>
+              <span className="tend-quien">
+                <span className="tend-autor">{libro.autor}</span>
+                <span className="tend-min">{tiempo(minutosDeLibro(libro))}</span>
+              </span>
+            </div>
           </motion.button>
         ))}
       </div>

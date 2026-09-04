@@ -1798,6 +1798,47 @@ promesa de cada libro ya está escrita debajo de su cubierta.
 **Ojo, que Tendencias vive en EXPLORAR, no en Libros.** Es la única de las
 cuatro cosas de esta tanda que no está en la pantalla de Libros.
 
+### Tendencias, sin los textos: el puesto y el crédito en una fila
+
+Pablo, un rato después: «quita el texto de abajo de tendencias, el de "un 1 %
+al día"; esos textos quítalos y coloca el número por ahí, y si puedes mejorar
+la estética, mejor aún».
+
+Sin la promesa, la cifra se quedaba sola en un renglón entero y la tarjeta
+medía cuarenta puntos más para no decir nada. Ahora el puesto y el crédito
+comparten fila: la cifra grande a la izquierda y, a su lado, el autor encima de
+los minutos. La tarjeta pasa de 356 puntos de alto a 269.
+
+**Las promesas NO se han borrado**: siguen escritas en `libros/tendencias.ts`,
+que es donde estaban, con sus reglas de redacción. Lo único que ha cambiado es
+que no se pintan en la tira. Si vuelven, vuelven de ahí.
+
+### Fondo blanco o fondo negro en Libros: qué se le contestó
+
+Preguntó el 4 de septiembre —«¿a ver cómo quedaría con fondo blanco en la
+sección de libros? ¿me lo recomiendas, o mejor en negro? ¿Qué dice la
+psicología?»— y se le pasaron los tres montados sobre la pantalla de verdad con
+`scripts/fondo-claro.mjs`: el negro de ahora, blanco puro y el crema de leer.
+
+**La recomendación fue dejarlo en negro, y el motivo no es la moda.** Lo que
+dice la investigación es de LEER: con texto largo, tinta oscura sobre fondo
+claro gana —se lee con menos errores y algo más rápido, porque la pantalla
+clara contrae la pupila y eso aumenta la profundidad de campo—. Pero la
+pantalla de Libros no es de leer: es de mirar cubiertas. Ahí la que manda es la
+regla contraria, y es la razón por la que Netflix, Spotify o Steam son oscuros:
+la cubierta es el producto, y un fondo claro compite con ella.
+
+Y se ve en la propia captura: sobre blanco, las cubiertas de fondo crema —«Por
+qué amamos», «La Odisea»— pierden el filo y se derraman en la página.
+
+**Lo que la app ya hace es lo correcto y conviene no romperlo:** oscuro para
+buscar, crema para leer. Es la misma división, y cada mitad está del lado que
+le toca.
+
+Si algún día se quiere claro, el bueno es el crema `#f2ece1` y no el blanco
+puro: es el papel que ya usa la pantalla de lectura, y con él las cubiertas
+claras conservan su canto.
+
 ### Y «Gratis hoy» pasa a verde
 
 «Ponme un verde mejor, que pegue con el fondo y sea bonito.» Es `--verde`, el

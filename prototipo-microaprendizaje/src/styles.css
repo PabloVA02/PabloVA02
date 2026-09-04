@@ -9894,54 +9894,72 @@ button {
 
    Y no hay caso raro con el diez: dos cifras ensanchan la cifra y acortan la
    raya, y ya está. El `data-doble` de antes se puede tirar. */
-/* EL PUESTO, GRANDE Y SOLO. Pablo, el 4 de septiembre: «pon los números en
-   grande; hazlo bonito y que esté bien puesto y cuadrado».
+/* EL PIE DE UNA TENDENCIA: el puesto y, al lado, de quién es y lo que se tarda.
 
-   Cuarenta y cuatro puntos, en la serifa de leer, alineado con el canto
-   izquierdo de la cubierta y de la promesa. Lo que lo deja cuadrado son dos
-   detalles:
+   Pablo, el 4 de septiembre: «quita el texto de abajo de tendencias, el de "un
+   1 % al día"; esos textos quítalos y coloca el número por ahí, y si puedes
+   mejorar la estética, mejor aún».
 
-     `tabular-nums`, para que el 1 ocupe lo mismo que el 8 y las diez tarjetas
-       tengan la cifra empezando en la misma vertical;
-     y `line-height: 0.82`, que recorta el aire que la fuente deja encima y
-       debajo —a 44 puntos son catorce— y deja la cifra pegada a su renglón.
+   Sin la promesa, la cifra se quedaba sola en un renglón entero y la tarjeta
+   medía cuarenta puntos más para no decir nada. Así que el puesto y el crédito
+   comparten fila: la cifra grande a la izquierda, y a su lado el autor encima
+   de los minutos, los dos pequeños. La cifra manda por tamaño y el crédito
+   rellena el hueco que dejaba, que es lo que hace que la fila se lea maciza en
+   vez de coja.
 
-   Iba con una raya al lado, que servía para rellenar el hueco a la derecha de
-   un número de 21 puntos. A 44 no hay hueco que rellenar. */
-.tend-numero {
+   `align-items: center` y no `baseline`: son dos renglones pequeños contra una
+   cifra de 44, y lo que tiene que cuadrar es el bloque entero contra el bloque
+   entero, no la primera línea de uno contra la única del otro. */
+.tend-pie {
+  display: flex;
+  align-items: center;
+  gap: 11px;
   margin: 12px 0 0;
+  min-width: 0;
+}
+
+/* El puesto. Cuarenta y cuatro puntos, en la serifa de leer. Lo que lo deja
+   cuadrado son dos detalles: `tabular-nums`, para que el 1 ocupe lo mismo que
+   el 8 y las diez tarjetas tengan la cifra empezando en la misma vertical; y
+   `line-height: 0.8`, que recorta el aire que la fuente deja encima y debajo
+   —a 44 puntos son catorce— y deja la cifra a la altura del crédito.
+
+   Estuvo a 250 al modo de Netflix, que se comía la sección entera, y después a
+   21 con una raya al lado que rellenaba el hueco de la derecha. A 44 y con el
+   crédito al lado no hay hueco que rellenar. */
+.tend-numero {
+  flex: none;
   font-family: var(--serifa);
   font-size: 44px;
   font-weight: 700;
-  line-height: 0.82;
+  line-height: 0.8;
   letter-spacing: -0.03em;
   font-variant-numeric: lining-nums tabular-nums;
   color: rgba(242, 236, 225, 0.94);
 }
-
-/* La promesa es lo que se lee. Tres líneas como mucho —a 148 de ancho, ocho
-   palabras caben justas— y las que sobren se cortan, porque una cuarta línea
-   desalinea la tira entera. */
-.tend-promesa {
-  margin: 9px 0 0;
-  font-size: 14px;
-  font-weight: 650;
-  line-height: 1.34;
-  letter-spacing: -0.015em;
-  color: #fff;
+.tend-quien {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+/* El autor, en dos líneas como mucho: «Antoine de Saint-Exupéry» no cabe en
+   una a 92 puntos de ancho, y cortarlo con puntos suspensivos deja al autor
+   sin apellido. */
+.tend-autor {
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.22;
+  color: rgba(242, 236, 225, 0.86);
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.tend-pie {
-  margin: 5px 0 0;
-  font-size: 12.5px;
-  line-height: 1.25;
+.tend-min {
+  font-size: 12px;
+  line-height: 1.1;
   color: #7a7a7a;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 /* --- Los géneros -------------------------------------------------------- */
@@ -12835,7 +12853,7 @@ button {
    Los pidió Pablo el 2 de septiembre calcados de Headway y los quitó el 3:
    «no me gustan esos números, pon otros más bonitos y más pequeños, porque
    ahora mismo solo se ve un libro». Están en el historial de git, y lo que hay
-   ahora está explicado donde se define `.tend-rango`. */
+   ahora está explicado donde se define `.tend-pie`. */
 
 
 /* ---------- la ilustración de un dato, cuando la tiene ---------- */
