@@ -9,7 +9,7 @@ import { enterVariants, pantalla, spring, springPop, springSoft, springTight } f
 import {
   GlyphAuriculares, GlyphAvatar, GlyphClose, GlyphDescargar,
   GlyphGuardar, GlyphLeer, GlyphLupa, GlyphPaginas, GlyphPuntos, GlyphQuitar,
-  GlyphRegalo, GlyphReloj, GlyphShare, GlyphTresPuntos, GlyphVisto,
+  GlyphReloj, GlyphShare, GlyphTresPuntos, GlyphVisto,
 } from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
 import { APRENDERAS } from "./libros/aprenderas";
@@ -24,6 +24,7 @@ import { Hoja } from "./Hoja";
 import { GestionaTemas } from "./Temas";
 import { COLECCIONES_A_LA_VISTA, type Coleccion } from "./colecciones";
 import { LibroDelDia, libroDeHoy, librosGratisDeHoy, quedaDeHoy } from "./LibroDelDia";
+import regaloCaja from "./ilustraciones/regalo.webp";
 import { GlyphAzar } from "./Dado";
 import type { Foto } from "./shorts";
 
@@ -1208,24 +1209,34 @@ export function Inicio({
 
       </div>
 
-      {/* «Tu regalo»: la pastilla verde de la captura, centrada y flotando
-          sobre el contenido. El verde no es decoración: es el único color
-          cálido de una pantalla de grises y azul, y es el que la gente asocia
-          a que algo está disponible y no cuesta nada. Al tocarla sale el
-          descuento. */}
+      {/* EL REGALO, SIN RÓTULO. Pablo, el 4 de septiembre: «donde pone tu
+          regalo solo pones el emoticono».
+
+          Era una pastilla verde con un lazo dibujado y las palabras «Tu
+          regalo». Ahora es su propio dibujo del regalo y nada más, en un botón
+          redondo. Se entiende igual —un regalo es un regalo— y deja de ser la
+          pieza más ancha de la pantalla flotando encima de las cubiertas.
+
+          `aria-label` porque sin texto no hay nada que leer en voz alta, y
+          quitarle el nombre a un botón es quitárselo a quien no ve el dibujo.
+
+          Late despacio, que es lo que hace que se mire: quieto, un botón
+          redondo en una esquina es un icono más. */}
       {onOferta && (
         <motion.button
           className="regalo-flota"
           onClick={onOferta}
-          whileTap={{ scale: 0.95 }}
+          aria-label="Tu regalo"
+          whileTap={{ scale: 0.94 }}
           initial={{ opacity: 0, y: 14, scale: 0.9 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ ...springPop, delay: 0.5 }}
+          animate={{ opacity: 1, y: 0, scale: [1, 1.05, 1] }}
+          transition={{
+            ...springPop,
+            delay: 0.5,
+            scale: { duration: 2.6, repeat: Infinity, ease: "easeInOut", delay: 1.2 },
+          }}
         >
-          <span className="regalo-lazo" aria-hidden>
-            <GlyphRegalo />
-          </span>
-          Tu regalo
+          <img src={regaloCaja} width={38} height={40} alt="" />
         </motion.button>
       )}
 

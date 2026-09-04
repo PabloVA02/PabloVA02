@@ -2101,6 +2101,35 @@ Si algún día se quiere claro, el bueno es el crema `#f2ece1` y no el blanco
 puro: es el papel que ya usa la pantalla de lectura, y con él las cubiertas
 claras conservan su canto.
 
+### El regalo también es suyo, y el botón se queda sin rótulo
+
+«Pon este regalo donde tenemos el regalo, y donde pone Tu regalo solo pones el
+emoticono; haz que quede todo bonito.»
+
+**LA CAJA DEL AVISO.** Aquí había una caja dibujada por mí: isométrica de
+verdad —la tapa y el cuerpo compartían puntos de fuga—, con la tapa que salía
+despedida al abrirse y un zorro que asomaba por dentro. Se va entera, y con
+ella el zorro. Están en el historial de git.
+
+Y no se pierde nada de lo que hacía, porque **ya casi no lo hacía**: desde que
+la oferta enseña el pollito, esta caja solo aparecía CERRADA. Toda su
+maquinaria de apertura llevaba horas sin que la mirara nadie. Lo que sí se
+conserva es el meneo lento, que es lo que pide que la toques.
+
+**EL BOTÓN FLOTANTE PIERDE EL RÓTULO.** Era una pastilla verde de 52 puntos de
+alto con un lazo dibujado y las palabras «Tu regalo», y era la pieza más ancha
+de la pantalla flotando encima de las cubiertas. Ahora es un botón redondo de
+60 con su dibujo dentro y nada más.
+
+**El fondo se queda VERDE aunque el dibujo sea coral y oro**, y no es descuido:
+el verde es el color de «esto no cuesta nada» en toda la app —la pestaña
+activa, el «Ver libros», el «Gratis hoy»— y este botón es justo eso. Se probó
+también en gris y en crema, y en los dos el botón dejaba de pedir que lo
+tocaran.
+
+**Y lleva `aria-label`**, porque sin texto no hay nada que leer en voz alta:
+quitarle el nombre a un botón es quitárselo a quien no ve el dibujo.
+
 ### Y la tira de gratis lleva cuenta atrás
 
 «Ahora un contador en libro diario gratis, uno bonito, no muy aparatoso.»

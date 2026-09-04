@@ -9103,22 +9103,31 @@ button {
    * ya sumada UNA vez, y se le añade el aire. Así vale para cualquier móvil. */
   bottom: calc(var(--barra) + 18px);
   z-index: 24;
-  width: max-content;
+  /* REDONDO Y SIN RÓTULO desde el 4 de septiembre. Era una pastilla verde de
+     52 de alto con el lazo y las palabras «Tu regalo», y ocupaba media
+     pantalla flotando encima de las cubiertas.
+   *
+   * El fondo se queda VERDE aunque el dibujo sea coral y oro, y no es
+   * descuido: el verde es el color de «esto no cuesta nada» en toda la app
+   * —la pestaña activa, el «Ver libros», el «Gratis hoy»— y este botón es
+   * justo eso. Coral sobre verde suena a choque escrito, pero el dibujo lleva
+   * su propio contorno oro y a 38 puntos se recorta limpio; se probó también
+   * en gris y en crema, y en los dos el botón dejaba de pedir que lo tocaran.
+   *
+   * 60 de lado: es el mínimo cómodo para un botón que flota solo, y el dibujo
+   * a 38 deja once puntos de aire por lado. */
+  width: 60px;
+  height: 60px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  height: 52px;
-  padding: 0 26px 0 21px;
+  display: grid;
+  place-items: center;
   border-radius: 999px;
   background: #6ddc89;
-  color: #10301d;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: -0.01em;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
 }
-.regalo-lazo { display: grid; place-items: center; }
+/* La caja del aviso: el dibujo de Pablo, con el meneo que ya tenía la caja
+   dibujada. `display: block` para que no le salga el renglón de debajo. */
+.regalo-imagen { display: block; }
 
 /* --- Mi biblioteca: lo tuyo, en tres estados ---------------------------- */
 
