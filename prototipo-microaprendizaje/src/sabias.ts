@@ -6,10 +6,21 @@
    pestaña donde se abrirá más texto. Con vocabulario para todos los públicos y
    sobre todo que divierta el leerlo».
 
+   Y EL 4 DE SEPTIEMBRE LA ABRIÓ A TODO: «en curiosidades tienes que poner no
+   solo curiosidades, sino cosas de todo tipo que la gente no sepa y le guste
+   leer, que sea adictivo de leer. Por ejemplo, por qué el Ferrari es rojo lo
+   explicas; quién fue Cleopatra; Apple es una manzana rota por tal… o sea,
+   todo lo que se te ocurra, de todos los ámbitos».
+
+   Así que aquí entra cualquier cosa: marcas, personajes, lengua, deporte,
+   dinero, comida, arquitectura. Lo que decide no es el ámbito, es la forma.
+
    LA DIFERENCIA CON UN SHORT, que es lo que decide si algo entra aquí o allí:
-   un short explica un mecanismo y necesita varias pantallas; esto se agota en
-   una frase. Si algo pide dos párrafos para entenderse, no es un «¿sabías
-   que…?», es un short.
+   un short explica un mecanismo y necesita varias pantallas; esto **cabe en
+   una frase que se entiende sola**, y lo demás es propina. Si algo NECESITA
+   dos párrafos para entenderse, es un short. Que se puedan escribir dos
+   párrafos alrededor no lo convierte en uno: eso es lo que hay detrás del
+   botón, y es donde la sección engancha.
 
    Y AUN ASÍ NO ES TRIVIA. La regla de la casa —«un dato vale si reordena algo
    que el lector creía, no si solo es curioso»— sigue mandando aquí: cada
@@ -17,6 +28,32 @@
    tantos desmentidos: los vikingos, Napoleón, la muralla. Un dato que solo
    sirva para rellenar es peor que uno menos, porque enseña a saltarse la
    sección.
+
+   LAS TRES FORMAS QUE HAY, que es lo que evita que treinta entradas seguidas
+   suenen a plantilla. No son categorías del menú: no se enseñan al lector.
+
+     · EL DESMENTIDO — creías A y es B. «La caja negra es naranja.» «El rojo de
+       Papá Noel no lo inventó Coca-Cola.» Es la más fuerte y la que más se
+       repite, y por eso no puede ser la única.
+     · EL ORIGEN — de dónde salió algo que usas o dices todos los días sin
+       preguntártelo. «OK» empezó siendo una falta de ortografía a propósito;
+       el cruasán es vienés; las estrellas Michelin las inventó una fábrica de
+       neumáticos.
+     · LA PERSONA — un solo hecho que recoloca a alguien que creías conocer.
+       No una biografía en miniatura: Cleopatra fue la primera de su familia en
+       trescientos años que aprendió el idioma del país que gobernaba.
+
+   Y LO QUE HACE QUE ENGANCHE ESTÁ DETRÁS DEL BOTÓN, no en el titular. El
+   titular es la puerta; el texto de dentro es lo que hace que se pulse el
+   siguiente. La forma es la misma que la de los shorts buenos —está en la
+   skill `estilo-app`, apartado 1—: **se despacha el porqué en tres o cuatro
+   frases y después viene la ráfaga**, tres o cuatro cosas pequeñas con nombre
+   propio, seguidas y sin desarrollar ninguna. El anillo de diamantes que Nike
+   le regaló doce años después a la estudiante del logotipo. Las guías Michelin
+   haciendo de calzo bajo un banco de trabajo. La radio de galena que un niño
+   de nueve años escuchaba debajo de las mantas.
+
+   Y se acaba en una imagen, nunca en una moraleja.
 
    TODOS ESTÁN COMPROBADOS. Los que no se pudieron verificar bien se cayeron,
    no se suavizaron con un «se dice que»: el color naranja de la zanahoria y la
@@ -91,6 +128,131 @@ export type Dato = {
 };
 
 export const DATOS: Dato[] = [
+  /* ------------------------------------------------------------------------
+     LA TANDA DEL 4 DE SEPTIEMBRE — diez ejemplos de la sección abierta a todo.
+     Van los primeros a propósito: son los que Pablo pidió ver para decir si le
+     gusta cómo quedan. Cada uno lleva su fuente comprobada en el comentario.
+     ------------------------------------------------------------------------ */
+  {
+    id: "apple-mordisco",
+    titular: "Apple le dio un mordisco a su manzana para que no pareciera una cereza",
+    realce: "para que no pareciera una cereza",
+    tema: "Marcas",
+    color: "var(--dato-rojo)", // una manzana
+    mas: [
+      "Lo dibujó Rob Janoff en 1977. Se compró una bolsa de manzanas, las tuvo una semana encima de la mesa y las fue simplificando hasta dejar una silueta. El problema apareció al hacerla pequeña: una manzana entera y redonda, del tamaño de una uña, deja de ser una manzana y pasa a ser una cereza, un tomate o cualquier otra fruta redonda. La solución fue la que se le hace a una manzana en la vida real. Le dio un bocado, y con el bocado se entendía la escala.",
+      "Todo lo demás que has oído se lo han preguntado a él y lo ha ido negando una leyenda tras otra. Que si el pecado original. Que si es un homenaje a Alan Turing, al que encontraron muerto en 1954 con una manzana mordida al lado. Janoff dice que esa última le encanta y que no es verdad. Y el juego de palabras que todo el mundo da por intencionado —«bite», mordisco, y «byte», la unidad de información— tampoco lo era: se lo señaló su director creativo cuando el logotipo ya estaba hecho.",
+      "O sea que el símbolo más reconocible de la informática es una manzana con un mordisco puesto ahí por un motivo de fontanería: que se distinguiera de una cereza a un centímetro de distancia.",
+    ],
+  },
+  {
+    id: "nike-treinta-y-cinco",
+    titular: "El logotipo de Nike costó treinta y cinco dólares",
+    realce: "treinta y cinco dólares",
+    tema: "Marcas",
+    color: "var(--dato-oro)", // el dinero
+    mas: [
+      "En 1971 lo dibujó Carolyn Davidson, estudiante de diseño en Portland. Conocía a Phil Knight porque él daba clases de contabilidad en su facultad y ella se había ofrecido a hacerle rótulos por horas. Le pasó una factura de diecisiete horas y media a dos dólares la hora: treinta y cinco dólares. Knight no se enamoró de él —eligió ese porque tenía que elegir alguno y llegaba tarde a la fábrica— y así se quedó.",
+      "Lo interesante es la segunda parte, que casi nadie cuenta. Doce años después, con la empresa ya enorme, la llamaron a una comida, le montaron una fiesta y le dieron un anillo de oro y diamantes con la forma del logotipo. Y un sobre con acciones.",
+      "Ese paquete de acciones vale hoy más de un millón de dólares. La factura sigue siendo de treinta y cinco.",
+    ],
+  },
+  {
+    id: "cleopatra-egipcio",
+    titular: "Cleopatra fue la primera de su familia en trescientos años que aprendió egipcio",
+    realce: "la primera de su familia en trescientos años",
+    tema: "Historia",
+    color: "var(--dato-morado)", // la púrpura de quien reina
+    mas: [
+      "Los Ptolomeos no eran egipcios. Eran macedonios: descendientes de un general de Alejandro Magno que se quedó con Egipto al repartirse el imperio, y que llevaban gobernando el país desde el año 305 antes de Cristo. Nueve generaciones de reyes y reinas en un palacio donde se hablaba griego, se escribía en griego y se juzgaba en griego. El idioma del país que gobernaban era, para ellos, el idioma del servicio.",
+      "Plutarco cuenta que ella fue la primera de todos que se molestó en aprenderlo. Y que no paró ahí: hablaba con etíopes, hebreos, árabes, sirios, medos y partos sin necesidad de intérprete, cosa que en una corte de embajadas es menos una elegancia que un arma.",
+      "Así que lo de que Cleopatra era egipcia es falso dos veces. No lo era de sangre, y hasta ella tampoco lo había sido de lengua ninguna de las nueve generaciones anteriores.",
+    ],
+  },
+  {
+    id: "ok-falta-de-ortografia",
+    titular: "«OK» empezó siendo una falta de ortografía a propósito",
+    realce: "una falta de ortografía a propósito",
+    tema: "Lengua",
+    color: "var(--dato-gris)", // la tinta del periódico
+    mas: [
+      "El 23 de marzo de 1839, en el Boston Morning Post, un redactor llamado Charles Gordon Greene escribió «o.k.» en un artículo de burla contra un periódico rival. Estaba imitando una moda que corría entonces entre los jóvenes cultos de Boston: escribir mal una expresión a posta y después abreviarla. «All correct», todo correcto, se convertía primero en «oll korrect» y luego en dos letras.",
+      "Debería haberse muerto como el resto de aquellas bromas, y estuvo a punto. La salvó una campaña electoral: al año siguiente, los partidarios de Martin Van Buren, al que llamaban «Old Kinderhook» por el pueblo donde había nacido, se dieron cuenta de que las iniciales les servían y salieron a la calle con carteles de «Vote for OK».",
+      "Y de dónde venía exactamente no se supo hasta los años sesenta, cuando un lingüista de Columbia, Allen Walker Read, se dedicó a tumbar una por una todas las demás explicaciones —que si el choctaw, que si el francés, que si un panadero— hasta dar con aquel periódico. La palabra que más se dice en el planeta salió de un chiste tipográfico de una redacción aburrida.",
+    ],
+  },
+  {
+    id: "cruasan-vienes",
+    titular: "El cruasán no es francés",
+    realce: "no es francés",
+    tema: "Comida",
+    color: "var(--dato-oro)", // la masa dorada
+    mas: [
+      "En 1839 un austríaco, August Zang, abrió en el número 92 de la calle Richelieu de París una panadería vienesa. Vendía lo de su tierra, y sobre todo un bollo con forma de media luna que allí se llamaba kipferl y que en Viena llevaba siglos haciéndose. En diez años París estaba llena de imitaciones.",
+      "Lo que sí es francés es lo que le hicieron después. El kipferl se amasaba como un bollo normal; los panaderos parisinos lo pasaron a hojaldre, que es doblar una plancha de mantequilla dentro de la masa una y otra vez hasta dejar cientos de capas. Esa es la técnica que hace que un cruasán se deshaga. La primera receta francesa de cruasán con hojaldre es de 1915, la publicó Sylvain Claudius Goy.",
+      "Y la historia bonita —que lo trajo María Antonieta desde Viena al casarse— no tiene ni un solo papel que la sostenga. Aunque el idioma sí guardó la pista: en cualquier panadería de Francia el cruasán sigue estando en el estante de la viennoiserie. La cosa de Viena.",
+    ],
+  },
+  {
+    id: "michelin-neumaticos",
+    titular: "Las estrellas Michelin las inventó una fábrica de neumáticos para vender más",
+    realce: "para vender más",
+    tema: "Comida",
+    color: "var(--dato-rojo)", // la guía roja
+    mas: [
+      "En 1900, André y Édouard Michelin fabricaban ruedas en un país donde casi nadie tenía coche, así que su problema no era vender neumáticos: era que la gente condujera. Repartieron gratis treinta y cinco mil ejemplares de una guía con mapas, listas de mecánicos, dónde repostar, cómo cambiar una rueda y —al final— dónde dormir y dónde comer. Cuanto más lejos fuera uno a cenar, antes se le gastaban las ruedas.",
+      "Dejó de ser gratis por una escena concreta. André Michelin entró en una tienda de neumáticos y vio sus guías apiladas debajo de un banco de trabajo, haciendo de calzo para que no cojeara. A partir de 1922 costó siete francos, con la idea de que uno solo respeta lo que paga.",
+      "Ciento veinticinco años después, un cocinero puede llorar en televisión por una estrella que reparte una empresa de ruedas. Y la guía sigue siendo roja.",
+    ],
+  },
+  {
+    id: "eiffel-antena",
+    titular: "La torre Eiffel se libró del desguace porque servía de antena",
+    realce: "porque servía de antena",
+    tema: "Arquitectura",
+    color: "var(--dato-tierra)", // el hierro pintado
+    mas: [
+      "Se levantó para la Exposición de 1889 y el permiso del suelo era de veinte años. En 1910 la torre pasaba a ser del ayuntamiento de París, y el ayuntamiento no tenía ninguna obligación de dejarla en pie: había nacido como una atracción de feria y buena parte de los artistas de la ciudad llevaban dos décadas firmando cartas para que la quitaran.",
+      "Lo que la salvó no fue que gustara. Fue que era, con diferencia, lo más alto que había en Francia donde colgar un cable. En 1898 Eugène Ducretet ya había cruzado en morse los cuatro kilómetros que separan la torre del Panteón, y en 1904 el ejército le instaló arriba una estación de radio permanente. Para el año del desguace, aquel hierro se había vuelto material militar.",
+      "La concesión se le renovó a Eiffel setenta años más a partir del 1 de enero de 1910. El monumento más fotografiado del mundo sigue en pie porque a alguien le hacía falta un palo alto.",
+    ],
+  },
+  {
+    id: "medalla-de-plata",
+    titular: "Una medalla de oro olímpica es de plata",
+    realce: "es de plata",
+    tema: "Deporte",
+    color: "var(--dato-gris)", // la plata que hay debajo
+    mas: [
+      "El reglamento del Comité Olímpico lo dice con todas las letras: la medalla de primer puesto tiene que ser de plata de ley —al menos un 92,5 %— y llevar por fuera un mínimo de seis gramos de oro. Seis gramos es menos de lo que pesa una moneda de un euro.",
+      "Las últimas macizas se repartieron en Estocolmo en 1912, y llevaban unos veinticuatro gramos de oro cada una. Después llegó la guerra, el metal se puso imposible y los Juegos empezaron a crecer: fundir cientos de medallas de oro puro cada cuatro años dejó de tener sentido.",
+      "Así que cada vez que un campeón se muerde la medalla para la foto, lo que está mordiendo es plata con seis gramos de barniz caro.",
+    ],
+  },
+  {
+    id: "papa-noel-rojo",
+    titular: "El rojo de Papá Noel no lo inventó Coca-Cola",
+    realce: "no lo inventó Coca-Cola",
+    tema: "Marcas",
+    color: "var(--dato-rojo)", // el traje
+    mas: [
+      "Lo que hizo Coca-Cola en 1931, con los anuncios que pintó Haddon Sundblom, fue fijar la cara: quitarle el aire de duende que tenía hasta entonces y convertirlo en un señor grande, de mejillas coloradas, que parece tu abuelo. Eso sí es suyo, y es la razón de que hoy nos lo imaginemos así.",
+      "El traje ya estaba puesto desde hacía cincuenta años. Thomas Nast lo dibujó de rojo con ribete blanco en la revista Harper's Weekly en 1881. La revista Puck lo sacó de rojo en varias portadas a principios de siglo. Y una marca de agua mineral, White Rock, usó un Papá Noel de rojo en sus anuncios en 1915 y en 1923, años antes de que Coca-Cola empezara.",
+      "La empresa no le puso el traje: le puso la cara, y después lo repartió por el mundo entero. Que tampoco es poco.",
+    ],
+  },
+  {
+    id: "caja-negra-naranja",
+    titular: "La caja negra de un avión es naranja",
+    realce: "es naranja",
+    tema: "Tecnología",
+    color: "var(--dato-naranja)", // el color que es
+    mas: [
+      "Se pinta de un naranja fuerte, y por el motivo más razonable del mundo: hay que encontrarla entre toneladas de chatarra retorcida, a veces en el fondo del mar. Lo negro nunca fue el color. El nombre se le quedó pegado por otro lado y ya no hubo manera de quitárselo.",
+      "La inventó un químico australiano, David Warren, después de investigar un accidente en 1954 y darse cuenta de que nadie sabía qué habían dicho los pilotos en los últimos minutos. En Australia no le hicieron caso durante años. La suya tiene además una coincidencia que él se pasó la vida desmintiendo: en 1934, cuando tenía nueve años, su padre murió en el Miss Hobart, un avión que desapareció sobre el estrecho de Bass y del que nunca se supo qué pasó.",
+      "Warren decía que el accidente no tuvo nada que ver, y que lo que le empujó fue el último regalo que le hizo su padre antes de subirse a aquel avión: una radio de galena, con la que el niño se aficionó a la electrónica escuchándola por la noche debajo de las mantas del internado.",
+    ],
+  },
   {
     id: "sagrada-familia",
     titular: "La Sagrada Familia se construyó 137 años sin permiso de obra",
