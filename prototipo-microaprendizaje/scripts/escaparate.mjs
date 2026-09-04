@@ -82,13 +82,15 @@ try {
           ancho se estira todo lo que deja el tope, no más. */
        "--tope", "14", "--portadas-ancho", "680", "--salida", "shorts.html",
        "--titulo", "El muro de shorts, con las fotos de verdad"]
-    /* Los anchos de aquí abajo son los que hacen que quepa, y se han vuelto a
-       bajar el 31 de agosto: con las portadas de la tanda nueva dentro,
-       232/530 daban 19,1 MB y el aviso salta a 15,5. Con 175/355 sale por
-       15,1. Cuando entre otra tanda habrá que volver a bajarlos —o ampliar
-       assets/vitrina.json, que es lo que Pablo autorizó primero—. */
+    /* Los anchos de aquí abajo son los que hacen que quepa, y hay que volver a
+       bajarlos cada vez que crece el catálogo. Historial: 232/530 daban 19,1
+       MB el 31 de agosto; 175/355 dejaron aquello en 15,1; y el 4 de
+       septiembre, con 350 cubiertas ya escritas, esos mismos 175/355 volvían a
+       salir por 16,6 —por encima del tope de 16—. Con 168/320 sale por 14,1.
+       La otra salida, y es la que Pablo autorizó primero, es ampliar
+       assets/vitrina.json y dejar más shorts fuera del simulador. */
     : ["--dist", "dist-artefacto", "--ancho", "800", "--calidad", "0.8", "--tope", "8",
-       "--cubiertas-ancho", "175", "--cubiertas-calidad", "0.70", "--portadas-ancho", "355"];
+       "--cubiertas-ancho", "168", "--cubiertas-calidad", "0.70", "--portadas-ancho", "320"];
   process.stdout.write(corre("node", [...comunes, ...propios]));
 } finally {
   /* PASE LO QUE PASE, el catálogo vuelve a estar entero. Y se COMPRUEBA: la

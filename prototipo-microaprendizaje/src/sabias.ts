@@ -106,6 +106,19 @@ export type Dato = {
   boceto?: string;
 
   /**
+   * LA ESCENA, solo cuando la del dibujo no vale.
+   *
+   * Cada dibujo trae su escena de color —el mar sus olas azules, el campo su
+   * línea de suelo—, y con eso basta casi siempre. La excepción es cuando el
+   * mismo dibujo cuenta dos cosas distintas: el atardecer de Marte se dibuja
+   * con el mismo sol poniente que el nuestro, y ahí el naranja miente, porque
+   * el dato es que allí el atardecer es AZUL. En esos casos manda el dato.
+   *
+   * Los nombres están en `bocetos.tsx`.
+   */
+  escena?: string;
+
+  /**
    * EL COLOR DICE ALGO. Norma de Pablo del 3 de septiembre: «cuando colorees
    * unas palabras deben tener cierto sentido; por ejemplo, la frase donde
    * hablas de Ferrari deberá ser roja, o la frase donde hablas del espacio,
@@ -228,7 +241,7 @@ export const DATOS: Dato[] = [
     id: "nutrias-de-la-mano",
     titular: "Las nutrias duermen cogidas de la mano",
     realce: "cogidas de la mano",
-    boceto: "nutria",
+    boceto: "otter",
     tema: "Animales",
     color: "var(--dato-mar)", // el agua
     mas: [
@@ -241,7 +254,7 @@ export const DATOS: Dato[] = [
     id: "caballos-no-vomitan",
     titular: "Los caballos no pueden vomitar",
     realce: "no pueden vomitar",
-    boceto: "caballo",
+    boceto: "horse",
     tema: "Animales",
     color: "var(--dato-tierra)", // el establo
     mas: [
@@ -254,7 +267,7 @@ export const DATOS: Dato[] = [
     id: "cebras-negras",
     titular: "Las cebras son negras con rayas blancas",
     realce: "negras con rayas blancas",
-    boceto: "cebra",
+    boceto: "zebra",
     tema: "Animales",
     color: "var(--dato-gris)", // el blanco y negro
     mas: [
@@ -267,7 +280,7 @@ export const DATOS: Dato[] = [
     id: "delfines-nombres",
     titular: "Los delfines se ponen nombre",
     realce: "se ponen nombre",
-    boceto: "delfin",
+    boceto: "dolphin",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -280,7 +293,7 @@ export const DATOS: Dato[] = [
     id: "mas-alto-por-la-manana",
     titular: "Eres más alto por la mañana que por la noche",
     realce: "más alto por la mañana",
-    boceto: "cuerpo",
+    boceto: "person-standing",
     tema: "Cuerpo",
     color: "var(--dato-rojo)", // por dentro
     mas: [
@@ -293,7 +306,7 @@ export const DATOS: Dato[] = [
     id: "cosquillas",
     titular: "Nadie puede hacerse cosquillas a sí mismo",
     realce: "a sí mismo",
-    boceto: "mano",
+    boceto: "hand-with-fingers-splayed",
     tema: "Cuerpo",
     color: "var(--dato-morado)", // el cerebro
     mas: [
@@ -306,7 +319,7 @@ export const DATOS: Dato[] = [
     id: "plastico-de-burbujas",
     titular: "El plástico de burbujas se inventó para decorar paredes",
     realce: "para decorar paredes",
-    boceto: "burbujas",
+    boceto: "package",
     tema: "Objetos",
     color: "var(--dato-gris)", // el plástico
     mas: [
@@ -319,7 +332,7 @@ export const DATOS: Dato[] = [
     id: "pulpo-por-el-pico",
     titular: "Un pulpo cabe por donde le quepa el pico",
     realce: "por donde le quepa el pico",
-    boceto: "pulpo",
+    boceto: "octopus",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -332,7 +345,7 @@ export const DATOS: Dato[] = [
     id: "antartida-desierto",
     titular: "La Antártida es el desierto más grande del mundo",
     realce: "el desierto más grande del mundo",
-    boceto: "hielo",
+    boceto: "snowflake",
     tema: "El mundo",
     color: "var(--dato-gris)", // el hielo
     mas: [
@@ -345,7 +358,7 @@ export const DATOS: Dato[] = [
     id: "pinguinos-piedra",
     titular: "Los pingüinos ligan regalando piedras",
     realce: "regalando piedras",
-    boceto: "pinguino",
+    boceto: "penguin",
     tema: "Animales",
     color: "var(--dato-tierra)", // la piedra
     mas: [
@@ -359,7 +372,7 @@ export const DATOS: Dato[] = [
     id: "mariposas-patas",
     titular: "Las mariposas saborean con las patas",
     realce: "con las patas",
-    boceto: "mariposa",
+    boceto: "butterfly",
     tema: "Animales",
     color: "var(--dato-naranja)", // las alas
     mas: [
@@ -372,7 +385,7 @@ export const DATOS: Dato[] = [
     id: "cucaracha-sin-cabeza",
     titular: "Una cucaracha vive una semana sin cabeza",
     realce: "sin cabeza",
-    boceto: "cucaracha",
+    boceto: "cockroach",
     tema: "Animales",
     color: "var(--dato-tierra)", // el bicho
     mas: [
@@ -385,7 +398,7 @@ export const DATOS: Dato[] = [
     id: "huesos-al-nacer",
     titular: "Naces con 300 huesos y acabas con 206",
     realce: "acabas con 206",
-    boceto: "hueso",
+    boceto: "bone",
     tema: "Cuerpo",
     color: "var(--dato-gris)", // el hueso
     mas: [
@@ -398,7 +411,7 @@ export const DATOS: Dato[] = [
     id: "nariz-invisible",
     titular: "Tu cerebro te borra la nariz de lo que ves",
     realce: "te borra la nariz",
-    boceto: "cara",
+    boceto: "nose",
     tema: "Cuerpo",
     color: "var(--dato-morado)", // el cerebro
     mas: [
@@ -411,7 +424,7 @@ export const DATOS: Dato[] = [
     id: "soldadura-espacio",
     titular: "En el espacio los metales se pegan solos",
     realce: "se pegan solos",
-    boceto: "metal",
+    boceto: "nut-and-bolt",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // el vacío
     mas: [
@@ -424,7 +437,7 @@ export const DATOS: Dato[] = [
     id: "velcro-cardo",
     titular: "El velcro se copió de un cardo",
     realce: "de un cardo",
-    boceto: "cardo",
+    boceto: "herb",
     tema: "Objetos",
     color: "var(--dato-verde)", // la planta
     mas: [
@@ -437,7 +450,7 @@ export const DATOS: Dato[] = [
     id: "pina-come-boca",
     titular: "La piña te come la boca mientras te la comes",
     realce: "te come la boca",
-    boceto: "pina",
+    boceto: "pineapple",
     tema: "Comida",
     color: "var(--dato-oro)", // la piña
     mas: [
@@ -450,7 +463,7 @@ export const DATOS: Dato[] = [
     id: "lapices-sin-plomo",
     titular: "Los lápices nunca han llevado plomo",
     realce: "nunca han llevado plomo",
-    boceto: "lapiz",
+    boceto: "pencil",
     tema: "Objetos",
     color: "var(--dato-gris)", // el grafito
     mas: [
@@ -463,7 +476,7 @@ export const DATOS: Dato[] = [
     id: "sahara-amazonas",
     titular: "El polvo del Sáhara abona el Amazonas",
     realce: "abona el Amazonas",
-    boceto: "duna",
+    boceto: "desert",
     tema: "El mundo",
     color: "var(--dato-tierra)", // la arena
     mas: [
@@ -476,7 +489,7 @@ export const DATOS: Dato[] = [
     id: "joroba-camello",
     titular: "En la joroba del camello no hay agua, hay grasa",
     realce: "no hay agua, hay grasa",
-    boceto: "camello",
+    boceto: "two-hump-camel",
     tema: "Animales",
     color: "var(--dato-oro)", // el desierto
     mas: [
@@ -490,7 +503,7 @@ export const DATOS: Dato[] = [
     id: "gatos-sin-dulce",
     titular: "Los gatos no notan el sabor dulce",
     realce: "no notan el sabor dulce",
-    boceto: "gato",
+    boceto: "cat",
     tema: "Animales",
     color: "var(--dato-tierra)", // el gato
     mas: [
@@ -503,7 +516,7 @@ export const DATOS: Dato[] = [
     id: "caracol-tres-anos",
     titular: "Un caracol puede dormir 3 años seguidos",
     realce: "3 años seguidos",
-    boceto: "caracol",
+    boceto: "snail",
     tema: "Animales",
     color: "var(--dato-verde)", // la hoja
     mas: [
@@ -516,7 +529,7 @@ export const DATOS: Dato[] = [
     id: "cuello-jirafa",
     titular: "La jirafa tiene los mismos huesos de cuello que tú",
     realce: "los mismos huesos de cuello que tú",
-    boceto: "jirafa",
+    boceto: "giraffe",
     tema: "Animales",
     color: "var(--dato-oro)", // la sabana
     mas: [
@@ -529,7 +542,7 @@ export const DATOS: Dato[] = [
     id: "llorar-en-el-espacio",
     titular: "En el espacio no se puede llorar",
     realce: "no se puede llorar",
-    boceto: "astronauta",
+    boceto: "astronaut",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // el espacio
     mas: [
@@ -542,7 +555,7 @@ export const DATOS: Dato[] = [
     id: "lluvia-de-cristal",
     titular: "Hay un planeta donde llueve cristal",
     realce: "llueve cristal",
-    boceto: "planeta",
+    boceto: "ringed-planet",
     tema: "Espacio",
     color: "var(--dato-mar)", // el azul del planeta
     mas: [
@@ -555,7 +568,7 @@ export const DATOS: Dato[] = [
     id: "esmalte-no-vuelve",
     titular: "El esmalte de los dientes no se regenera",
     realce: "no se regenera",
-    boceto: "diente",
+    boceto: "tooth",
     tema: "Cuerpo",
     color: "var(--dato-gris)", // el diente
     mas: [
@@ -568,7 +581,7 @@ export const DATOS: Dato[] = [
     id: "chocolate-blanco",
     titular: "El chocolate blanco no lleva cacao",
     realce: "no lleva cacao",
-    boceto: "chocolate",
+    boceto: "chocolate-bar",
     tema: "Comida",
     color: "var(--dato-oro)", // la manteca
     mas: [
@@ -581,7 +594,7 @@ export const DATOS: Dato[] = [
     id: "cocodrilo-lengua",
     titular: "Un cocodrilo no puede sacar la lengua",
     realce: "no puede sacar la lengua",
-    boceto: "cocodrilo",
+    boceto: "crocodile",
     tema: "Animales",
     color: "var(--dato-verde)", // el río
     mas: [
@@ -594,7 +607,8 @@ export const DATOS: Dato[] = [
     id: "ketchup-medicina",
     titular: "El kétchup se vendía como medicina",
     realce: "como medicina",
-    boceto: "tomate",
+    boceto: "tomato",
+    escena: "cuerpo",
     tema: "Comida",
     color: "var(--dato-rojo)", // el tomate
     mas: [
@@ -607,7 +621,7 @@ export const DATOS: Dato[] = [
     id: "agujero-ventanilla",
     titular: "Las ventanillas de los aviones tienen un agujero a propósito",
     realce: "un agujero a propósito",
-    boceto: "ventanilla",
+    boceto: "airplane",
     tema: "Objetos",
     color: "var(--dato-mar)", // el cielo
     mas: [
@@ -621,7 +635,7 @@ export const DATOS: Dato[] = [
     id: "estrellas-y-arena",
     titular: "Hay más estrellas que granos de arena en las playas",
     realce: "más estrellas que granos de arena",
-    boceto: "estrellas",
+    boceto: "glowing-star",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // el cielo
     mas: [
@@ -634,7 +648,7 @@ export const DATOS: Dato[] = [
     id: "ojo-avestruz",
     titular: "El ojo de un avestruz es más grande que su cerebro",
     realce: "más grande que su cerebro",
-    boceto: "avestruz",
+    boceto: "bird",
     tema: "Animales",
     color: "var(--dato-tierra)", // la llanura seca
     mas: [
@@ -647,7 +661,7 @@ export const DATOS: Dato[] = [
     id: "elefantes-no-saltan",
     titular: "Los elefantes no pueden saltar",
     realce: "no pueden saltar",
-    boceto: "elefante",
+    boceto: "elephant",
     tema: "Animales",
     color: "var(--dato-gris)", // el elefante
     mas: [
@@ -660,7 +674,7 @@ export const DATOS: Dato[] = [
     id: "platano-radiactivo",
     titular: "Un plátano es un poco radiactivo",
     realce: "un poco radiactivo",
-    boceto: "platano",
+    boceto: "banana",
     tema: "Comida",
     color: "var(--dato-oro)", // el plátano
     mas: [
@@ -673,7 +687,7 @@ export const DATOS: Dato[] = [
     id: "bandera-nepal",
     titular: "La bandera de Nepal no es rectangular",
     realce: "no es rectangular",
-    boceto: "bandera",
+    boceto: "triangular-flag",
     tema: "El mundo",
     color: "var(--dato-rojo)", // la bandera
     mas: [
@@ -686,7 +700,7 @@ export const DATOS: Dato[] = [
     id: "gambas-corazon",
     titular: "Las gambas tienen el corazón en la cabeza",
     realce: "en la cabeza",
-    boceto: "gamba",
+    boceto: "shrimp",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -699,7 +713,7 @@ export const DATOS: Dato[] = [
     id: "nariz-de-perro",
     titular: "La nariz de un perro es como una huella dactilar",
     realce: "como una huella dactilar",
-    boceto: "perro",
+    boceto: "dog",
     tema: "Animales",
     color: "var(--dato-tierra)", // el perro
     mas: [
@@ -712,7 +726,7 @@ export const DATOS: Dato[] = [
     id: "abejas-caras",
     titular: "Las abejas reconocen caras humanas",
     realce: "reconocen caras humanas",
-    boceto: "abeja",
+    boceto: "honeybee",
     tema: "Animales",
     color: "var(--dato-oro)", // la miel
     mas: [
@@ -725,7 +739,7 @@ export const DATOS: Dato[] = [
     id: "cien-rayos-por-segundo",
     titular: "Cada segundo caen 100 rayos en el mundo",
     realce: "100 rayos",
-    boceto: "rayo",
+    boceto: "cloud-with-lightning",
     tema: "Naturaleza",
     color: "var(--dato-naranja)", // el rayo
     mas: [
@@ -752,7 +766,7 @@ export const DATOS: Dato[] = [
     id: "relojes-diez-y-diez",
     titular: "En los anuncios los relojes marcan las 10:10",
     realce: "las 10:10",
-    boceto: "reloj",
+    boceto: "alarm-clock",
     tema: "Objetos",
     color: "var(--dato-gris)", // la esfera
     mas: [
@@ -765,7 +779,8 @@ export const DATOS: Dato[] = [
     id: "conchas-en-el-everest",
     titular: "En la cima del Everest hay conchas de mar",
     realce: "conchas de mar",
-    boceto: "montana",
+    boceto: "mount-fuji",
+    escena: "mar",
     tema: "El mundo",
     color: "var(--dato-mar)", // el mar que hubo
     mas: [
@@ -778,7 +793,7 @@ export const DATOS: Dato[] = [
     id: "renos-ojos-azules",
     titular: "A los renos se les ponen los ojos azules en invierno",
     realce: "los ojos azules",
-    boceto: "reno",
+    boceto: "deer",
     tema: "Animales",
     color: "var(--dato-galaxia)", // el invierno
     mas: [
@@ -791,7 +806,7 @@ export const DATOS: Dato[] = [
     id: "pupilas-de-cabra",
     titular: "Las cabras tienen las pupilas rectangulares",
     realce: "rectangulares",
-    boceto: "cabra",
+    boceto: "goat",
     tema: "Animales",
     color: "var(--dato-tierra)", // el monte
     mas: [
@@ -804,7 +819,7 @@ export const DATOS: Dato[] = [
     id: "hipopotamo-sudor-rojo",
     titular: "Los hipopótamos sudan rojo",
     realce: "sudan rojo",
-    boceto: "hipopotamo",
+    boceto: "hippopotamus",
     tema: "Animales",
     color: "var(--dato-rojo)", // el líquido
     mas: [
@@ -817,7 +832,7 @@ export const DATOS: Dato[] = [
     id: "medusas-sin-nada",
     titular: "Las medusas no tienen cerebro ni corazón",
     realce: "cerebro ni corazón",
-    boceto: "medusa",
+    boceto: "jellyfish",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -830,7 +845,7 @@ export const DATOS: Dato[] = [
     id: "aduana-de-la-luna",
     titular: "Los del Apolo 11 pasaron por la aduana al volver",
     realce: "pasaron por la aduana",
-    boceto: "cohete",
+    boceto: "rocket",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // la Luna
     mas: [
@@ -843,7 +858,8 @@ export const DATOS: Dato[] = [
     id: "pisa-se-torcio-antes",
     titular: "La torre de Pisa se torció antes de acabarla",
     realce: "antes de acabarla",
-    boceto: "torre_inclinada",
+    boceto: "tokyo-tower",
+    escena: "historia",
     tema: "El mundo",
     color: "var(--dato-tierra)", // el suelo blando
     mas: [
@@ -856,7 +872,8 @@ export const DATOS: Dato[] = [
     id: "japon-mascotas",
     titular: "En Japón hay más mascotas que niños",
     realce: "más mascotas que niños",
-    boceto: "gato",
+    boceto: "house-with-garden",
+    escena: "campo",
     tema: "El mundo",
     color: "var(--dato-oro)", // el país
     mas: [
@@ -869,7 +886,7 @@ export const DATOS: Dato[] = [
     id: "esparragos-y-el-pis",
     titular: "Los espárragos cambian el olor del pis",
     realce: "cambian el olor del pis",
-    boceto: "esparrago",
+    boceto: "leafy-green",
     tema: "Cuerpo",
     color: "var(--dato-verde)", // el espárrago
     mas: [
@@ -883,7 +900,8 @@ export const DATOS: Dato[] = [
     id: "atardecer-azul-en-marte",
     titular: "En Marte los atardeceres son azules",
     realce: "son azules",
-    boceto: "planeta",
+    boceto: "sunset",
+    escena: "cielo",
     tema: "Espacio",
     color: "var(--dato-mar)", // el azul del cielo marciano
     mas: [
@@ -896,7 +914,7 @@ export const DATOS: Dato[] = [
     id: "hongo-mas-grande",
     titular: "El ser vivo más grande del mundo es un hongo",
     realce: "es un hongo",
-    boceto: "seta",
+    boceto: "mushroom",
     tema: "Naturaleza",
     color: "var(--dato-verde)", // el bosque
     mas: [
@@ -909,7 +927,7 @@ export const DATOS: Dato[] = [
     id: "tortugas-respiran-por-detras",
     titular: "Hay tortugas que respiran por el culo",
     realce: "por el culo",
-    boceto: "tortuga",
+    boceto: "turtle",
     tema: "Animales",
     color: "var(--dato-tierra)", // el río
     mas: [
@@ -922,7 +940,7 @@ export const DATOS: Dato[] = [
     id: "rayo-hace-cristal",
     titular: "Un rayo convierte la arena en cristal",
     realce: "en cristal",
-    boceto: "rayo",
+    boceto: "high-voltage",
     tema: "Naturaleza",
     color: "var(--dato-naranja)", // el rayo
     mas: [
@@ -935,7 +953,7 @@ export const DATOS: Dato[] = [
     id: "huellas-en-la-luna",
     titular: "Las huellas de la Luna durarán millones de años",
     realce: "millones de años",
-    boceto: "luna",
+    boceto: "footprints",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // la Luna
     mas: [
@@ -948,7 +966,7 @@ export const DATOS: Dato[] = [
     id: "dientes-de-tiburon",
     titular: "Un tiburón gasta 30.000 dientes en su vida",
     realce: "30.000 dientes",
-    boceto: "tiburon",
+    boceto: "shark",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -961,7 +979,7 @@ export const DATOS: Dato[] = [
     id: "un-millon-de-tierras",
     titular: "Dentro del Sol caben 1,3 millones de Tierras",
     realce: "1,3 millones de Tierras",
-    boceto: "sol",
+    boceto: "sun",
     tema: "Espacio",
     color: "var(--dato-naranja)", // el Sol
     mas: [
@@ -974,7 +992,7 @@ export const DATOS: Dato[] = [
     id: "aire-antiguo-en-el-hielo",
     titular: "En el hielo antártico hay aire de hace 800.000 años",
     realce: "aire de hace 800.000 años",
-    boceto: "hielo",
+    boceto: "snowflake",
     tema: "Naturaleza",
     color: "var(--dato-gris)", // el hielo
     mas: [
@@ -987,7 +1005,7 @@ export const DATOS: Dato[] = [
     id: "ojo-de-calamar",
     titular: "El ojo del calamar gigante mide 30 centímetros",
     realce: "30 centímetros",
-    boceto: "calamar",
+    boceto: "squid",
     tema: "Animales",
     color: "var(--dato-mar)", // el fondo del mar
     mas: [
@@ -1000,7 +1018,7 @@ export const DATOS: Dato[] = [
     id: "corazon-cien-mil",
     titular: "Tu corazón late 100.000 veces al día",
     realce: "100.000 veces al día",
-    boceto: "corazon",
+    boceto: "anatomical-heart",
     tema: "Cuerpo",
     color: "var(--dato-rojo)", // el corazón
     mas: [
@@ -1014,7 +1032,7 @@ export const DATOS: Dato[] = [
     id: "andromeda-choque",
     titular: "Nuestra galaxia va a chocar con la de al lado",
     realce: "va a chocar",
-    boceto: "estrellas",
+    boceto: "milky-way",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // el cielo
     mas: [
@@ -1027,7 +1045,7 @@ export const DATOS: Dato[] = [
     id: "arbol-de-diez-mil-anos",
     titular: "Hay un árbol vivo de 9.500 años",
     realce: "de 9.500 años",
-    boceto: "arbol",
+    boceto: "deciduous-tree",
     tema: "Naturaleza",
     color: "var(--dato-verde)", // el árbol
     mas: [
@@ -1040,7 +1058,8 @@ export const DATOS: Dato[] = [
     id: "vida-en-una-cucharada",
     titular: "En una cucharada de tierra hay más vida que gente en el mundo",
     realce: "más vida que gente en el mundo",
-    boceto: "cucharada",
+    boceto: "spoon",
+    escena: "campo",
     tema: "Naturaleza",
     color: "var(--dato-tierra)", // la tierra
     mas: [
@@ -1053,7 +1072,7 @@ export const DATOS: Dato[] = [
     id: "una-abeja-una-gota",
     titular: "Una abeja hace unas gotas de miel en toda su vida",
     realce: "unas gotas de miel",
-    boceto: "miel",
+    boceto: "honey-pot",
     tema: "Comida",
     color: "var(--dato-oro)", // la miel
     mas: [
@@ -1066,7 +1085,7 @@ export const DATOS: Dato[] = [
     id: "flamenco-cabeza-al-reves",
     titular: "Los flamencos comen con la cabeza del revés",
     realce: "del revés",
-    boceto: "flamenco",
+    boceto: "flamingo",
     tema: "Animales",
     color: "var(--dato-rojo)", // el flamenco
     mas: [
@@ -1079,7 +1098,7 @@ export const DATOS: Dato[] = [
     id: "dieciseis-amaneceres",
     titular: "En la Estación Espacial amanece 16 veces al día",
     realce: "16 veces al día",
-    boceto: "astronauta",
+    boceto: "sunrise",
     tema: "Espacio",
     color: "var(--dato-naranja)", // el amanecer
     mas: [
@@ -1092,7 +1111,7 @@ export const DATOS: Dato[] = [
     id: "lengua-oso-hormiguero",
     titular: "La lengua del oso hormiguero mide 60 centímetros",
     realce: "60 centímetros",
-    boceto: "hormiguero",
+    boceto: "ant",
     tema: "Animales",
     color: "var(--dato-tierra)", // el hormiguero
     mas: [
@@ -1105,7 +1124,7 @@ export const DATOS: Dato[] = [
     id: "pepitas-de-manzana",
     titular: "Las pepitas de la manzana llevan cianuro",
     realce: "llevan cianuro",
-    boceto: "manzana",
+    boceto: "red-apple",
     tema: "Comida",
     color: "var(--dato-verde)", // la manzana
     mas: [
@@ -1118,7 +1137,7 @@ export const DATOS: Dato[] = [
     id: "primer-movil",
     titular: "El primer móvil pesaba 790 gramos",
     realce: "790 gramos",
-    boceto: "movil",
+    boceto: "mobile-phone",
     tema: "Objetos",
     color: "var(--dato-gris)", // el aparato
     mas: [
@@ -1131,7 +1150,8 @@ export const DATOS: Dato[] = [
     id: "luna-maletas",
     titular: "Llegamos a la Luna antes que las maletas con ruedas",
     realce: "antes que las maletas con ruedas",
-    boceto: "maleta",
+    boceto: "luggage",
+    escena: "noche",
     tema: "Tecnología",
     color: "var(--dato-galaxia)", // la Luna
     mas: [
@@ -1144,7 +1164,7 @@ export const DATOS: Dato[] = [
     id: "sol-ocho-minutos",
     titular: "El Sol que ves salió hace 8 minutos",
     realce: "hace 8 minutos",
-    boceto: "sol",
+    boceto: "sun",
     tema: "Espacio",
     color: "var(--dato-naranja)", // el Sol
     mas: [
@@ -1162,7 +1182,7 @@ export const DATOS: Dato[] = [
     id: "krakatoa",
     titular: "El Krakatoa se oyó a 4.800 kilómetros",
     realce: "a 4.800 kilómetros",
-    boceto: "volcan",
+    boceto: "volcano",
     tema: "Naturaleza",
     color: "var(--dato-rojo)", // el volcán
     mas: [
@@ -1175,7 +1195,7 @@ export const DATOS: Dato[] = [
     id: "diomede",
     titular: "Rusia y Estados Unidos están a 4 kilómetros",
     realce: "a 4 kilómetros",
-    boceto: "islas",
+    boceto: "desert-island",
     tema: "El mundo",
     color: "var(--dato-mar)", // el estrecho helado
     mas: [
@@ -1188,7 +1208,7 @@ export const DATOS: Dato[] = [
     id: "barajar-cartas",
     titular: "Hay más barajas posibles que átomos en la Tierra",
     realce: "que átomos en la Tierra",
-    boceto: "cartas",
+    boceto: "flower-playing-cards",
     tema: "Números",
     color: "var(--dato-rojo)", // los corazones de la baraja
     mas: [
@@ -1201,7 +1221,7 @@ export const DATOS: Dato[] = [
     id: "medusa-inmortal",
     titular: "Hay una medusa que vuelve a ser cría",
     realce: "vuelve a ser cría",
-    boceto: "medusa",
+    boceto: "jellyfish",
     tema: "Animales",
     color: "var(--dato-mar)", // el mar
     mas: [
@@ -1217,7 +1237,7 @@ export const DATOS: Dato[] = [
     id: "medalla-de-plata",
     titular: "Una medalla de oro olímpica es de plata",
     realce: "es de plata",
-    boceto: "medalla",
+    boceto: "sports-medal",
     tema: "Deporte",
     color: "var(--dato-gris)", // la plata que hay debajo
     mas: [
@@ -1230,7 +1250,8 @@ export const DATOS: Dato[] = [
     id: "caja-negra-naranja",
     titular: "La caja negra de un avión es naranja",
     realce: "es naranja",
-    boceto: "avion",
+    boceto: "airplane",
+    escena: "fuego",
     tema: "Tecnología",
     color: "var(--dato-naranja)", // el color que es
     mas: [
@@ -1243,7 +1264,7 @@ export const DATOS: Dato[] = [
     id: "sagrada-familia",
     titular: "La Sagrada Familia estuvo 137 años sin permiso de obra",
     realce: "137 años sin permiso de obra",
-    boceto: "templo",
+    boceto: "church",
     tema: "Arquitectura",
     color: "var(--dato-tierra)", // la piedra y la obra
     mas: [
@@ -1255,7 +1276,7 @@ export const DATOS: Dato[] = [
     id: "ferrari-rojo",
     titular: "Los Ferrari son rojos porque a Italia le tocó ese color",
     realce: "le tocó ese color",
-    boceto: "coche",
+    boceto: "racing-car",
     tema: "Motor",
     color: "var(--dato-rojo)", // el color del que habla la frase
     mas: [
@@ -1267,7 +1288,8 @@ export const DATOS: Dato[] = [
     id: "caballo-ferrari",
     titular: "El escudo de Ferrari viene de un avión de guerra",
     realce: "de un avión de guerra",
-    boceto: "avion",
+    boceto: "horse",
+    escena: "motor",
     tema: "Motor",
     color: "var(--dato-oro)", // el amarillo de Módena del escudo
     mas: [
@@ -1279,7 +1301,7 @@ export const DATOS: Dato[] = [
     id: "india",
     titular: "El país con más gente ya no es China, es la India",
     realce: "es la India",
-    boceto: "mundo",
+    boceto: "world-map",
     tema: "El mundo",
     color: "var(--dato-naranja)", // el azafrán de su bandera
     mas: [
@@ -1291,7 +1313,7 @@ export const DATOS: Dato[] = [
     id: "cleopatra",
     titular: "Cleopatra vivió más cerca de la Luna que de las pirámides",
     realce: "más cerca de la Luna que de las pirámides",
-    boceto: "piramide",
+    boceto: "crescent-moon",
     tema: "Historia",
     color: "var(--dato-galaxia)", // la Luna, que es lo que se tiñe
     mas: [
@@ -1303,7 +1325,7 @@ export const DATOS: Dato[] = [
     id: "tiburones",
     titular: "Los tiburones son más antiguos que los árboles",
     realce: "más antiguos que los árboles",
-    boceto: "tiburon",
+    boceto: "shark",
     tema: "Naturaleza",
     color: "var(--dato-verde)", // los árboles, que es lo que se tiñe
     mas: [
@@ -1315,7 +1337,7 @@ export const DATOS: Dato[] = [
     id: "venus",
     titular: "En Venus un día dura más que un año",
     realce: "más que un año",
-    boceto: "planeta",
+    boceto: "ringed-planet",
     tema: "Espacio",
     color: "var(--dato-galaxia)", // un planeta
     mas: [
@@ -1327,7 +1349,8 @@ export const DATOS: Dato[] = [
     id: "eiffel",
     titular: "La torre Eiffel es más alta en verano",
     realce: "más alta en verano",
-    boceto: "torre",
+    boceto: "tokyo-tower",
+    escena: "fuego",
     tema: "Ingeniería",
     color: "var(--dato-naranja)", // el calor del verano, que es lo que la estira
     mas: [
@@ -1339,7 +1362,7 @@ export const DATOS: Dato[] = [
     id: "platano-baya",
     titular: "El plátano es una baya y la fresa no",
     realce: "y la fresa no",
-    boceto: "platano",
+    boceto: "strawberry",
     tema: "Naturaleza",
     color: "var(--dato-rojo)", // la fresa, que es lo que se tiñe
     mas: [
@@ -1351,7 +1374,7 @@ export const DATOS: Dato[] = [
     id: "pulpo",
     titular: "Un pulpo tiene 3 corazones y la sangre azul",
     realce: "3 corazones y la sangre azul",
-    boceto: "pulpo",
+    boceto: "octopus",
     tema: "Naturaleza",
     color: "var(--dato-mar)", // la sangre azul
     mas: [
@@ -1363,7 +1386,8 @@ export const DATOS: Dato[] = [
     id: "arboles-estrellas",
     titular: "Hay más árboles que estrellas en nuestra galaxia",
     realce: "más árboles que estrellas",
-    boceto: "arbol",
+    boceto: "deciduous-tree",
+    escena: "noche",
     tema: "Naturaleza",
     color: "var(--dato-galaxia)", // las estrellas de la galaxia, que es lo que se tiñe
     mas: [
@@ -1375,7 +1399,7 @@ export const DATOS: Dato[] = [
     id: "saturno",
     titular: "Saturno flotaría en el agua",
     realce: "flotaría en el agua",
-    boceto: "saturno",
+    boceto: "ringed-planet",
     tema: "Espacio",
     color: "var(--dato-mar)", // la bañera: lo que se tiñe es «flotaría»
     mas: [
@@ -1387,7 +1411,8 @@ export const DATOS: Dato[] = [
     id: "rayo",
     titular: "Un rayo está 5 veces más caliente que el Sol",
     realce: "5 veces más caliente que el Sol",
-    boceto: "rayo",
+    boceto: "high-voltage",
+    escena: "fuego",
     tema: "Espacio",
     color: "var(--dato-naranja)", // el calor, cinco veces el del Sol
     mas: [
@@ -1399,7 +1424,7 @@ export const DATOS: Dato[] = [
     id: "muralla",
     titular: "La muralla china no se ve desde el espacio",
     realce: "no se ve desde el espacio",
-    boceto: "muralla",
+    boceto: "brick",
     tema: "Historia",
     color: "var(--dato-galaxia)", // el espacio desde donde no se ve
     mas: [
@@ -1411,7 +1436,7 @@ export const DATOS: Dato[] = [
     id: "vikingos",
     titular: "Los vikingos nunca llevaron cascos con cuernos",
     realce: "nunca llevaron cascos con cuernos",
-    boceto: "casco_vikingo",
+    boceto: "crossed-swords",
     tema: "Historia",
     color: "var(--dato-mar)", // el mar del norte
     mas: [
@@ -1423,7 +1448,7 @@ export const DATOS: Dato[] = [
     id: "napoleon",
     titular: "Napoleón no era bajo, medía 1,68",
     realce: "medía 1,68",
-    boceto: "bicornio",
+    boceto: "top-hat",
     tema: "Historia",
     color: "var(--dato-morado)", // la púrpura imperial
     mas: [
@@ -1435,7 +1460,7 @@ export const DATOS: Dato[] = [
     id: "guerra-corta",
     titular: "La guerra más corta de la historia duró 38 minutos",
     realce: "38 minutos",
-    boceto: "reloj",
+    boceto: "hourglass-done",
     tema: "Historia",
     color: "var(--dato-naranja)", // el fuego de los cañones
     mas: [
@@ -1447,7 +1472,7 @@ export const DATOS: Dato[] = [
     id: "nintendo",
     titular: "Nintendo empezó haciendo barajas en 1889",
     realce: "haciendo barajas",
-    boceto: "cartas",
+    boceto: "flower-playing-cards",
     tema: "Historia",
     color: "var(--dato-rojo)", // el rojo de Nintendo, que es de siempre
     mas: [
@@ -1459,7 +1484,7 @@ export const DATOS: Dato[] = [
     id: "flamenco",
     titular: "Un flamenco nace gris",
     realce: "nace gris",
-    boceto: "flamenco",
+    boceto: "flamingo",
     tema: "Naturaleza",
     color: "var(--dato-gris)", // gris, literal: es la palabra teñida
     mas: [
@@ -1471,7 +1496,7 @@ export const DATOS: Dato[] = [
     id: "miel",
     titular: "La miel no se estropea nunca",
     realce: "no se estropea nunca",
-    boceto: "miel",
+    boceto: "honey-pot",
     tema: "Naturaleza",
     color: "var(--dato-oro)", // la miel
     mas: [
@@ -1483,7 +1508,7 @@ export const DATOS: Dato[] = [
     id: "groenlandia",
     titular: "Groenlandia es 14 veces más pequeña que África",
     realce: "14 veces más pequeña",
-    boceto: "mundo",
+    boceto: "globe-showing-europe-africa",
     tema: "El mundo",
     color: "var(--dato-mar)", // el hielo
     mas: [
@@ -1495,7 +1520,7 @@ export const DATOS: Dato[] = [
     id: "oxford",
     titular: "Oxford es más antigua que el imperio azteca",
     realce: "más antigua que el imperio azteca",
-    boceto: "edificio",
+    boceto: "classical-building",
     tema: "Historia",
     color: "var(--dato-galaxia)", // el azul Oxford se llama así por algo
     mas: [
@@ -1507,7 +1532,7 @@ export const DATOS: Dato[] = [
     id: "uombat",
     titular: "El uómbat hace la caca cuadrada",
     realce: "la caca cuadrada",
-    boceto: "piedra",
+    boceto: "beaver",
     tema: "Naturaleza",
     color: "var(--dato-tierra)", // marrón, que es lo que es
     mas: [

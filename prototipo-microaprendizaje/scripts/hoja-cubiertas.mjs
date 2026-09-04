@@ -32,7 +32,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { createHash } from "node:crypto";
 import { join } from "node:path";
-import { chromium } from "playwright";
+import { chromium } from "playwright-core";
 
 const ejecuta = promisify(execFile);
 const RAIZ = new URL("..", import.meta.url).pathname;

@@ -32,7 +32,12 @@ import { promisify } from "node:util";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { join } from "node:path";
-import { chromium } from "playwright";
+/* `playwright-core` y no `playwright`: es el que está en `package.json`, y el
+   grande solo añade la descarga de navegadores, que aquí no sirve de nada
+   porque cada `launch` de este guion pasa su `executablePath` a mano. Estuvo
+   importando el grande y se cayó el día que un `npm i` podó lo que no figuraba
+   en las dependencias. */
+import { chromium } from "playwright-core";
 
 const ejecuta = promisify(execFile);
 const RAIZ = new URL("..", import.meta.url).pathname;

@@ -34,7 +34,7 @@
  */
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from "node:fs";
 import { join, basename, extname } from "node:path";
-import { chromium } from "playwright";
+import { chromium } from "playwright-core";
 
 const carpeta = process.argv[2];
 if (!carpeta) {

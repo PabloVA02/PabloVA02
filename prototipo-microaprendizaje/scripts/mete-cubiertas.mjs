@@ -50,7 +50,7 @@
  */
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from "node:fs";
 import { join, basename, extname } from "node:path";
-import { chromium } from "playwright";
+import { chromium } from "playwright-core";
 
 const arg = (nombre, porDefecto) => {
   const i = process.argv.indexOf(nombre);

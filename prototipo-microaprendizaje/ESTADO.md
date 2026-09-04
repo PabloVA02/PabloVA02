@@ -1676,8 +1676,26 @@ con 160 ms de retraso a propósito; entrando a la vez, la caja cambiaría de alt
 mientras se mueve y el movimiento saldría a tirones.
 
 **Sin fotografía, a propósito.** Una imagen de archivo al lado de un dato bueno
-lo empequeñece. En su sitio va el color, uno por entrada, y es lo único que
+lo empequeñece. En su sitio va un dibujo, uno por entrada, y es lo único que
 avisa de que has cambiado de tema antes de leer una palabra.
+
+**Y ese dibujo NO lo dibujamos nosotros.** Se probó y salió mal: Pablo devolvió
+los míos el 4 de septiembre —«están fatal hechos»— y acertaba, porque a ese
+grosor de línea un gato y un perro de frente eran el mismo bulto. Los de ahora
+son de **Fluent Emoji**, de Microsoft, alto contraste, licencia MIT. Están
+empotrados en `src/bocetos.tsx` de uno en uno: el paquete trae mil quinientos y
+usamos 85, y meterlo entero por el cinco por ciento no cabe en el tope de
+dieciséis megas del simulador. El aviso de copyright va en la cabecera de ese
+fichero, que es la única condición de la licencia y por eso no se borra.
+
+**El color vive en la ESCENA, no en el dibujo.** Detrás de cada uno hay un
+círculo de color suave y dos o tres trazos: el mar sus olas azules, el campo su
+línea de suelo, la noche sus estrellas, el motor sus rayas rojas de velocidad.
+Once escenas para cien datos, a propósito —con una por dato serían cien
+pegatinas—. Y cuando la escena discutiría con el dato, manda el dato: el
+atardecer de Marte es azul, así que su círculo es azul aunque el dibujo sea el
+mismo sol poniente de siempre. Eso se dice en el campo `escena` del dato, y hay
+doce excepciones así.
 
 **El tamaño de la letra no se mide, se elige por tramos** según lo que ocupe la
 frase. En los shorts hay un bucle que mide y encoge y cuesta cientos de

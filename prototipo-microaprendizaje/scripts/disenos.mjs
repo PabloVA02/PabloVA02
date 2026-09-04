@@ -34,7 +34,7 @@
    estilos. Lo que se ve es la app con un delta de CSS —no una maqueta dibujada
    aparte—, y ese delta es lo que habría que añadir a `styles.css` si Pablo
    elige esa. */
-import { chromium } from "playwright";
+import { chromium } from "playwright-core";
 
 const OUT = process.argv[2];
 const URL = "file://" + process.argv[3];

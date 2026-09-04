@@ -163,7 +163,7 @@ export function Sabias() {
                       icono ni una ilustración. Ver `bocetos.tsx`. */}
                   {d.boceto && (
                     <div className="sab-boceto">
-                      <Boceto nombre={d.boceto} />
+                      <Boceto nombre={d.boceto} escena={d.escena} />
                     </div>
                   )}
                   <motion.p layoutId={`sab-tema-${d.id}`} className="sab-tema">

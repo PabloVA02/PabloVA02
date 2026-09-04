@@ -28,7 +28,7 @@ import { promisify } from "node:util";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { join } from "node:path";
-import { chromium } from "playwright";
+import { chromium } from "playwright-core";
 
 const ejecuta = promisify(execFile);
 const RAIZ = new URL("..", import.meta.url).pathname;

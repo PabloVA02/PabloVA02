@@ -24,7 +24,7 @@
  */
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from "node:fs";
 import { join, basename, extname } from "node:path";
-import { chromium } from "playwright";
+import { chromium } from "playwright-core";
 
 const [carpeta, slug, titulo] = process.argv.slice(2);
 if (!carpeta || !slug) {

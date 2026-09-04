@@ -12391,15 +12391,37 @@ button {
    página con la mitad de fuerza: tiene que acompañar y no competir con la
    frase, que es lo que se lee. `currentColor` hace todo el trabajo —el dibujo
    no trae color ninguno— y por eso basta con poner aquí el `color`. */
+/* El dibujo del dato. Son dos capas: la ESCENA —la mancha de color y sus
+   trazos— detrás, y el dibujo de Fluent Emoji delante, en la tinta de la
+   página. El color vive solo en la escena; el dibujo nunca se pinta. */
 .sab-boceto {
-  display: grid;
-  place-items: center;
-  margin: 0 auto 26px;
-  width: 44cqw;
-  max-width: 190px;
-  color: rgba(36, 31, 26, 0.5);
+  margin: 0 auto 24px;
+  width: 46cqw;
+  max-width: 196px;
 }
-.sab-boceto svg { width: 100%; height: auto; display: block; }
+.boceto {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+}
+.boceto-escena {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.boceto-linea {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 52%;
+  height: 52%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: rgba(32, 28, 24, 0.82);
+}
 
 .sab-tema {
   margin: 0 0 14px;
