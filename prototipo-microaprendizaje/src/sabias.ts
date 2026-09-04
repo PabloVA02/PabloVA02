@@ -129,94 +129,154 @@ export type Dato = {
 
 export const DATOS: Dato[] = [
   /* ------------------------------------------------------------------------
-     LA TANDA DEL 4 DE SEPTIEMBRE — diez ejemplos de la sección abierta a todo.
-     Van los primeros a propósito: son los que Pablo pidió ver para decir si le
-     gusta cómo quedan. Cada uno lleva su fuente comprobada en el comentario.
+     LA TANDA DEL 4 DE SEPTIEMBRE, SEGUNDO INTENTO.
+
+     La primera fueron diez historias de origen —el mordisco de Apple, el
+     logotipo de Nike, el cruasán vienés, las estrellas Michelin— y Pablo las
+     devolvió: «son un poco ambiguas, no me gustan; me gustaría que fueran
+     datos y cosas más interesantes, de todo tipo pero cosas divertidas de
+     leer».
+
+     Y tenía razón, y el fallo se ve al ponerlas en fila. Todas eran de la
+     misma familia: quién inventó qué y qué quiso decir el que lo hizo. Eso
+     necesita que el lector ya se hubiera hecho la pregunta —¿por qué tiene un
+     mordisco?—, y si no se la había hecho, el titular no le dice nada. Encima
+     la mitad eran negaciones: «no es francés», «no lo inventó Coca-Cola». Una
+     negación te quita algo y no te deja nada en la mano.
+
+     LO QUE SÍ FUNCIONA se ve en las dos que sobrevivieron de aquella tanda y
+     en las que ya había: un hecho FÍSICO, que se puede ver en la cabeza, con
+     un número o una imagen dentro, y que se cuenta entero en una frase. La
+     medalla de oro es de plata. La caja negra es naranja. El pulpo tiene tres
+     corazones. No hay que saber nada antes para que te haga levantar la vista.
+
+     La prueba, para no volver a equivocarse: si el titular se puede repetir de
+     memoria en la mesa de un bar, entra. Si hay que explicar antes de qué va,
+     es un short.
      ------------------------------------------------------------------------ */
   {
-    id: "apple-mordisco",
-    titular: "Apple le dio un mordisco a su manzana para que no pareciera una cereza",
-    realce: "para que no pareciera una cereza",
-    tema: "Marcas",
-    color: "var(--dato-rojo)", // una manzana
+    id: "krakatoa",
+    titular: "El estallido del Krakatoa dio cuatro vueltas a la Tierra",
+    realce: "dio cuatro vueltas a la Tierra",
+    tema: "Naturaleza",
+    color: "var(--dato-rojo)", // el volcán
     mas: [
-      "Lo dibujó Rob Janoff en 1977. Se compró una bolsa de manzanas, las tuvo una semana encima de la mesa y las fue simplificando hasta dejar una silueta. El problema apareció al hacerla pequeña: una manzana entera y redonda, del tamaño de una uña, deja de ser una manzana y pasa a ser una cereza, un tomate o cualquier otra fruta redonda. La solución fue la que se le hace a una manzana en la vida real. Le dio un bocado, y con el bocado se entendía la escala.",
-      "Todo lo demás que has oído se lo han preguntado a él y lo ha ido negando una leyenda tras otra. Que si el pecado original. Que si es un homenaje a Alan Turing, al que encontraron muerto en 1954 con una manzana mordida al lado. Janoff dice que esa última le encanta y que no es verdad. Y el juego de palabras que todo el mundo da por intencionado —«bite», mordisco, y «byte», la unidad de información— tampoco lo era: se lo señaló su director creativo cuando el logotipo ya estaba hecho.",
-      "O sea que el símbolo más reconocible de la informática es una manzana con un mordisco puesto ahí por un motivo de fontanería: que se distinguiera de una cereza a un centímetro de distancia.",
+      "El 27 de agosto de 1883 la isla voló por los aires, y el ruido se oyó con claridad en Rodrigues, una isla perdida del océano Índico que está a cuatro mil ochocientos kilómetros. Para hacerse una idea: de Madrid a Moscú hay tres mil cuatrocientos. Aquello se oyó mil cuatrocientos kilómetros más lejos todavía, y los que lo oyeron pensaron que eran cañonazos de un barco en apuros.",
+      "La onda de presión no se paró ahí. Le dio cuatro vueltas al planeta, y los barómetros de media Europa la fueron registrando cada vez que pasaba por encima, sin que nadie entendiera al principio qué estaban midiendo. En Perth, a tres mil cien kilómetros, la gente salió a la calle a mirar. Y a sesenta y cinco kilómetros del volcán, a los marineros de los barcos que había allí les reventaron los tímpanos.",
+      "Es el sonido más fuerte del que se tiene registro. Nadie ha vuelto a oír nada parecido, y con suerte nadie lo oirá.",
     ],
   },
   {
-    id: "nike-treinta-y-cinco",
-    titular: "El logotipo de Nike costó treinta y cinco dólares",
-    realce: "treinta y cinco dólares",
-    tema: "Marcas",
-    color: "var(--dato-oro)", // el dinero
+    id: "lengua-carpintero",
+    titular: "La lengua del pájaro carpintero le da la vuelta al cráneo por dentro",
+    realce: "le da la vuelta al cráneo por dentro",
+    tema: "Animales",
+    color: "var(--dato-tierra)", // la madera
     mas: [
-      "En 1971 lo dibujó Carolyn Davidson, estudiante de diseño en Portland. Conocía a Phil Knight porque él daba clases de contabilidad en su facultad y ella se había ofrecido a hacerle rótulos por horas. Le pasó una factura de diecisiete horas y media a dos dólares la hora: treinta y cinco dólares. Knight no se enamoró de él —eligió ese porque tenía que elegir alguno y llegaba tarde a la fábrica— y así se quedó.",
-      "Lo interesante es la segunda parte, que casi nadie cuenta. Doce años después, con la empresa ya enorme, la llamaron a una comida, le montaron una fiesta y le dieron un anillo de oro y diamantes con la forma del logotipo. Y un sobre con acciones.",
-      "Ese paquete de acciones vale hoy más de un millón de dólares. La factura sigue siendo de treinta y cinco.",
+      "No acaba en la boca, ni de lejos. Sale por el pico, vuelve a entrar por el agujero de la nariz, se parte en dos ramas, sube por encima de la cabeza, la rodea por detrás y las dos mitades se vuelven a juntar en la nuca. Es tan larga que, enrollada así, le da la vuelta entera al cráneo por dentro.",
+      "Sirve para lo evidente: sacarla varios centímetros dentro de un agujero y pescar las larvas del fondo. Pero lo bueno es lo otro. Cada vez que el pico golpea la madera, los músculos que sujetan ese lazo se tensan alrededor del cráneo y lo mantienen quieto contra la columna.",
+      "O sea que lo que le impide quedarse tonto de tanto martillear es, literalmente, su propia lengua haciéndole de cinturón de seguridad.",
     ],
   },
   {
-    id: "cleopatra-egipcio",
-    titular: "Cleopatra fue la primera de su familia en trescientos años que aprendió egipcio",
-    realce: "la primera de su familia en trescientos años",
+    id: "huellas-koala",
+    titular: "Un koala deja las mismas huellas dactilares que tú",
+    realce: "las mismas huellas dactilares que tú",
+    tema: "Animales",
+    color: "var(--dato-gris)", // el koala
+    mas: [
+      "Es el único animal fuera de los primates que tiene huellas dactilares de verdad, con sus arcos, sus bucles y sus espirales. Y no se parecen un poco a las nuestras: se parecen tanto que al microscopio cuesta separar una de otra.",
+      "Lo vio Maciej Henneberg, antropólogo de la Universidad de Adelaida, a mediados de los noventa, y lo publicó con un título que no se olvida: «Huellas dactilares por homoplasia: koalas y humanos». Él mismo avisó a la policía de que una huella de koala podía pasar por humana. Lo que se cuenta después —que un koala llegó a liar una investigación de verdad— no tiene ni un caso documentado detrás, así que no.",
+      "Lo verdaderamente raro es cómo llegaron ahí. Nuestro linaje y el suyo se separaron hace unos ciento sesenta millones de años. Dos animales que no tienen nada que ver acabaron por su cuenta en el mismo dibujo.",
+    ],
+  },
+  {
+    id: "peste-del-baile",
+    titular: "En 1518, cientos de personas de Estrasburgo bailaron durante dos meses",
+    realce: "bailaron durante dos meses",
     tema: "Historia",
-    color: "var(--dato-morado)", // la púrpura de quien reina
+    color: "var(--dato-morado)", // la ciudad y su locura
     mas: [
-      "Los Ptolomeos no eran egipcios. Eran macedonios: descendientes de un general de Alejandro Magno que se quedó con Egipto al repartirse el imperio, y que llevaban gobernando el país desde el año 305 antes de Cristo. Nueve generaciones de reyes y reinas en un palacio donde se hablaba griego, se escribía en griego y se juzgaba en griego. El idioma del país que gobernaban era, para ellos, el idioma del servicio.",
-      "Plutarco cuenta que ella fue la primera de todos que se molestó en aprenderlo. Y que no paró ahí: hablaba con etíopes, hebreos, árabes, sirios, medos y partos sin necesidad de intérprete, cosa que en una corte de embajadas es menos una elegancia que un arma.",
-      "Así que lo de que Cleopatra era egipcia es falso dos veces. No lo era de sangre, y hasta ella tampoco lo había sido de lengua ninguna de las nueve generaciones anteriores.",
+      "Empezó el 14 de julio con una sola mujer, Frau Troffea, que salió a la calle y se puso a bailar. Sin música y sin parar. Estuvo así todo el día hasta caer agotada, y a la mañana siguiente volvió a levantarse y a empezar, con los pies hinchados y sangrando.",
+      "En una semana había treinta personas más. En un mes, según las crónicas, hasta cuatrocientas. Y las autoridades tomaron la decisión más asombrosa de toda la historia: concluyeron que la cura era bailar hasta que se les pasara, así que les despejaron el mercado de los caballos, les montaron un tablado y les contrataron músicos.",
+      "Duró unos dos meses y se apagó como había venido, sin que nadie haya sabido nunca por qué. Cuántos murieron no está claro: las crónicas de entonces no coinciden entre ellas, y eso hay que dejarlo dicho tal cual.",
     ],
   },
   {
-    id: "ok-falta-de-ortografia",
-    titular: "«OK» empezó siendo una falta de ortografía a propósito",
-    realce: "una falta de ortografía a propósito",
-    tema: "Lengua",
-    color: "var(--dato-gris)", // la tinta del periódico
+    id: "neptuno-una-vuelta",
+    titular: "Neptuno solo ha dado una vuelta al Sol desde que lo descubrimos",
+    realce: "una vuelta al Sol",
+    tema: "Espacio",
+    color: "var(--dato-galaxia)", // un planeta
     mas: [
-      "El 23 de marzo de 1839, en el Boston Morning Post, un redactor llamado Charles Gordon Greene escribió «o.k.» en un artículo de burla contra un periódico rival. Estaba imitando una moda que corría entonces entre los jóvenes cultos de Boston: escribir mal una expresión a posta y después abreviarla. «All correct», todo correcto, se convertía primero en «oll korrect» y luego en dos letras.",
-      "Debería haberse muerto como el resto de aquellas bromas, y estuvo a punto. La salvó una campaña electoral: al año siguiente, los partidarios de Martin Van Buren, al que llamaban «Old Kinderhook» por el pueblo donde había nacido, se dieron cuenta de que las iniciales les servían y salieron a la calle con carteles de «Vote for OK».",
-      "Y de dónde venía exactamente no se supo hasta los años sesenta, cuando un lingüista de Columbia, Allen Walker Read, se dedicó a tumbar una por una todas las demás explicaciones —que si el choctaw, que si el francés, que si un panadero— hasta dar con aquel periódico. La palabra que más se dice en el planeta salió de un chiste tipográfico de una redacción aburrida.",
+      "Tarda ciento sesenta y cinco años terrestres en completar su órbita. Lo encontramos la noche del 23 al 24 de septiembre de 1846, y terminó su primera vuelta el 11 de julio de 2011. O sea que en todo el tiempo que llevamos sabiendo que existe, allí ha pasado un año. Uno.",
+      "Y se encontró de una manera que no se ha repetido con ningún otro planeta: no mirando, sino calculando. Urbain Le Verrier se dio cuenta de que Urano no iba por donde debía, y dedujo con lápiz y papel que tenía que haber algo más grande tirando de él desde más lejos. Mandó las coordenadas por carta a Berlín, y Johann Galle apuntó el telescopio esa misma noche y lo encontró a menos de un grado de donde ponía el papel.",
+      "Es el único planeta que existió primero en un cuaderno.",
     ],
   },
   {
-    id: "cruasan-vienes",
-    titular: "El cruasán no es francés",
-    realce: "no es francés",
+    id: "barajar-cartas",
+    titular: "Hay más maneras de barajar unas cartas que átomos en la Tierra",
+    realce: "que átomos en la Tierra",
+    tema: "Números",
+    color: "var(--dato-rojo)", // los corazones de la baraja
+    mas: [
+      "Cincuenta y dos cartas se pueden ordenar de un número que se escribe con un 8 y sesenta y siete ceros detrás. Los átomos que hay en el planeta entero, contando el mar, el aire y el hierro del centro, son un 1 con unos cincuenta ceros. No es que haya un poco más de barajas: hay cien mil billones de veces más.",
+      "Otra manera de verlo. Si alguien se hubiera puesto a barajar un mazo distinto cada segundo desde el principio del universo, y llevara ahí desde entonces, hoy no habría llegado ni a la milmillonésima parte de todas las combinaciones posibles.",
+      "Así que cada vez que barajas bien una baraja, estás poniendo esas cartas en un orden que casi con toda seguridad no ha existido nunca y no va a volver a existir.",
+    ],
+  },
+  {
+    id: "diomede",
+    titular: "Rusia y Estados Unidos están a cuatro kilómetros",
+    realce: "a cuatro kilómetros",
+    tema: "El mundo",
+    color: "var(--dato-mar)", // el estrecho helado
+    mas: [
+      "En mitad del estrecho de Bering hay dos islas, una enfrente de otra, separadas por tres kilómetros y ochocientos metros de agua. La grande es rusa. La pequeña es estadounidense y tiene un pueblo con escuela. En los inviernos más fríos el mar se hiela entre las dos.",
+      "Y por ese canal pasa la línea internacional de cambio de fecha, así que a la rusa la llaman la isla de Mañana y a la americana la isla de Ayer. La diferencia entre las dos no es de veinticuatro horas, que sería lo lógico, sino de veintiuna: los husos horarios no están repartidos a partes iguales y ahí se nota.",
+      "Desde la playa de una se ve el día siguiente.",
+    ],
+  },
+  {
+    id: "wasabi",
+    titular: "El wasabi de casi cualquier restaurante es rábano teñido de verde",
+    realce: "rábano teñido de verde",
     tema: "Comida",
-    color: "var(--dato-oro)", // la masa dorada
+    color: "var(--dato-verde)", // el colorante
     mas: [
-      "En 1839 un austríaco, August Zang, abrió en el número 92 de la calle Richelieu de París una panadería vienesa. Vendía lo de su tierra, y sobre todo un bollo con forma de media luna que allí se llamaba kipferl y que en Viena llevaba siglos haciéndose. En diez años París estaba llena de imitaciones.",
-      "Lo que sí es francés es lo que le hicieron después. El kipferl se amasaba como un bollo normal; los panaderos parisinos lo pasaron a hojaldre, que es doblar una plancha de mantequilla dentro de la masa una y otra vez hasta dejar cientos de capas. Esa es la técnica que hace que un cruasán se deshaga. La primera receta francesa de cruasán con hojaldre es de 1915, la publicó Sylvain Claudius Goy.",
-      "Y la historia bonita —que lo trajo María Antonieta desde Viena al casarse— no tiene ni un solo papel que la sostenga. Aunque el idioma sí guardó la pista: en cualquier panadería de Francia el cruasán sigue estando en el estante de la viennoiserie. La cosa de Viena.",
+      "El wasabi de verdad es el tallo de una planta que solo crece bien metida en arroyos fríos de montaña, en Japón. Se ralla en el momento, delante del cliente, porque el picor se le va en un cuarto de hora. Con esas condiciones el kilo se pone en cientos de euros.",
+      "Así que lo que llega a la mesa casi siempre es otra cosa: rábano picante europeo, mostaza en polvo y colorante verde, a veces con un uno o un dos por ciento de wasabi de verdad para poder ponerlo en la etiqueta. Los cálculos que se manejan dicen que entre el 95 y el 99 % de lo que se sirve fuera de Japón no lleva wasabi. Y dentro de Japón, alrededor del 95 %.",
+      "Se nota, además, sin ser un experto: lo que pica en el wasabi sube por la nariz y se va enseguida; lo que pica en el rábano se queda en la lengua.",
     ],
   },
   {
-    id: "michelin-neumaticos",
-    titular: "Las estrellas Michelin las inventó una fábrica de neumáticos para vender más",
-    realce: "para vender más",
-    tema: "Comida",
-    color: "var(--dato-rojo)", // la guía roja
+    id: "medusa-inmortal",
+    titular: "Hay una medusa que vuelve a ser cría cuando le conviene",
+    realce: "vuelve a ser cría",
+    tema: "Animales",
+    color: "var(--dato-mar)", // el mar
     mas: [
-      "En 1900, André y Édouard Michelin fabricaban ruedas en un país donde casi nadie tenía coche, así que su problema no era vender neumáticos: era que la gente condujera. Repartieron gratis treinta y cinco mil ejemplares de una guía con mapas, listas de mecánicos, dónde repostar, cómo cambiar una rueda y —al final— dónde dormir y dónde comer. Cuanto más lejos fuera uno a cenar, antes se le gastaban las ruedas.",
-      "Dejó de ser gratis por una escena concreta. André Michelin entró en una tienda de neumáticos y vio sus guías apiladas debajo de un banco de trabajo, haciendo de calzo para que no cojeara. A partir de 1922 costó siete francos, con la idea de que uno solo respeta lo que paga.",
-      "Ciento veinticinco años después, un cocinero puede llorar en televisión por una estrella que reparte una empresa de ruedas. Y la guía sigue siendo roja.",
+      "Se llama Turritopsis dohrnii, mide menos que una uña y hace algo que no hace ningún otro animal conocido. Cuando está herida, cuando pasa hambre o simplemente cuando se hace vieja, se deja caer al fondo, se deshace en un montoncito y vuelve a montarse desde el principio, en la forma de cría que tuvo al nacer.",
+      "Lo que ocurre dentro es todavía más raro: sus células adultas no se mueren y se sustituyen, se convierten en otras distintas. Una que era músculo puede pasar a ser nervio. Y no es un truco de una sola vez: en laboratorio se ha visto rejuvenecer a todas las que se sometieron a la prueba, una y otra vez.",
+      "En el mar se las comen, claro, como a todo. Pero de viejas no se mueren.",
     ],
   },
   {
-    id: "eiffel-antena",
-    titular: "La torre Eiffel se libró del desguace porque servía de antena",
-    realce: "porque servía de antena",
-    tema: "Arquitectura",
-    color: "var(--dato-tierra)", // el hierro pintado
+    id: "forro-del-estomago",
+    titular: "El estómago se cambia el forro cada tres días para no digerirse a sí mismo",
+    realce: "para no digerirse a sí mismo",
+    tema: "Cuerpo",
+    color: "var(--dato-rojo)", // por dentro
     mas: [
-      "Se levantó para la Exposición de 1889 y el permiso del suelo era de veinte años. En 1910 la torre pasaba a ser del ayuntamiento de París, y el ayuntamiento no tenía ninguna obligación de dejarla en pie: había nacido como una atracción de feria y buena parte de los artistas de la ciudad llevaban dos décadas firmando cartas para que la quitaran.",
-      "Lo que la salvó no fue que gustara. Fue que era, con diferencia, lo más alto que había en Francia donde colgar un cable. En 1898 Eugène Ducretet ya había cruzado en morse los cuatro kilómetros que separan la torre del Panteón, y en 1904 el ejército le instaló arriba una estación de radio permanente. Para el año del desguace, aquel hierro se había vuelto material militar.",
-      "La concesión se le renovó a Eiffel setenta años más a partir del 1 de enero de 1910. El monumento más fotografiado del mundo sigue en pie porque a alguien le hacía falta un palo alto.",
+      "Dentro del estómago hay ácido clorhídrico, que es el que se usa para limpiar metal. La pregunta interesante no es cómo deshace la comida, que se entiende sola: es por qué no te deshace a ti, que estás hecho de lo mismo que un filete.",
+      "Son tres defensas trabajando a la vez. Una capa de moco pegada a la pared, de menos de dos décimas de milímetro. Unas células que van soltando bicarbonato dentro de ese moco, de manera que la cara que da al ácido es ácida y la que toca la carne es casi neutra. Y, por si algo se cuela igualmente, un recambio constante: la superficie entera del estómago se cae y se vuelve a hacer cada tres a cinco días.",
+      "Estás estrenando estómago más o menos cada semana.",
     ],
   },
+  /* Las dos que se salvan de la primera tanda: son de esta familia y no de la
+     otra —un hecho físico, con su número, que se cuenta en una frase—, así que
+     se quedan hasta que Pablo diga. */
   {
     id: "medalla-de-plata",
     titular: "Una medalla de oro olímpica es de plata",
@@ -227,18 +287,6 @@ export const DATOS: Dato[] = [
       "El reglamento del Comité Olímpico lo dice con todas las letras: la medalla de primer puesto tiene que ser de plata de ley —al menos un 92,5 %— y llevar por fuera un mínimo de seis gramos de oro. Seis gramos es menos de lo que pesa una moneda de un euro.",
       "Las últimas macizas se repartieron en Estocolmo en 1912, y llevaban unos veinticuatro gramos de oro cada una. Después llegó la guerra, el metal se puso imposible y los Juegos empezaron a crecer: fundir cientos de medallas de oro puro cada cuatro años dejó de tener sentido.",
       "Así que cada vez que un campeón se muerde la medalla para la foto, lo que está mordiendo es plata con seis gramos de barniz caro.",
-    ],
-  },
-  {
-    id: "papa-noel-rojo",
-    titular: "El rojo de Papá Noel no lo inventó Coca-Cola",
-    realce: "no lo inventó Coca-Cola",
-    tema: "Marcas",
-    color: "var(--dato-rojo)", // el traje
-    mas: [
-      "Lo que hizo Coca-Cola en 1931, con los anuncios que pintó Haddon Sundblom, fue fijar la cara: quitarle el aire de duende que tenía hasta entonces y convertirlo en un señor grande, de mejillas coloradas, que parece tu abuelo. Eso sí es suyo, y es la razón de que hoy nos lo imaginemos así.",
-      "El traje ya estaba puesto desde hacía cincuenta años. Thomas Nast lo dibujó de rojo con ribete blanco en la revista Harper's Weekly en 1881. La revista Puck lo sacó de rojo en varias portadas a principios de siglo. Y una marca de agua mineral, White Rock, usó un Papá Noel de rojo en sus anuncios en 1915 y en 1923, años antes de que Coca-Cola empezara.",
-      "La empresa no le puso el traje: le puso la cara, y después lo repartió por el mundo entero. Que tampoco es poco.",
     ],
   },
   {
