@@ -39,8 +39,6 @@ export type Genero = {
   nombre: string;
   /** La línea que explica el cajón cuando se abre. */
   sub: string;
-  /** Qué dibujo le toca, de `glifos-generos.tsx`. */
-  icono: string;
   /** Los que van escritos a mano. */
   libros?: string[];
   /** O la categoría entera, para los cajones que coinciden con una. */
@@ -55,57 +53,10 @@ export const GENEROS: Genero[] = [
     id: "desarrollo",
     nombre: "Desarrollo personal",
     sub: "Cambiar algo que llevas años arrastrando",
-    icono: "escalera",
     libros: [
       "habitos-atomicos", "siete-habitos", "poder-habitos", "sutil-arte", "mindset",
       "monje-ferrari", "cosas-buenas", "invencible", "deja-de-ser-tu", "el-elemento",
       "camino-artista", "guerra-arte", "milagro-manana", "club-5-manana", "busca-sentido",
-    ],
-  },
-  {
-    id: "dinero",
-    nombre: "Dinero e inversiones",
-    sub: "Entender el dinero antes de moverlo",
-    icono: "hucha",
-    libros: [
-      "psicologia-dinero", "padre-rico", "piensa-hazte-rico", "mente-millonaria",
-      "hombre-rico-babilonia", "inversor-inteligente", "bogle-sentido-comun",
-      "millonario-al-lado", "paseo-aleatorio", "dinero-domina-juego", "cisne-negro",
-      "antifragil", "freakonomics", "capital-siglo-xxi", "riqueza-naciones",
-    ],
-  },
-  {
-    id: "habitos",
-    nombre: "Hábitos y rutinas",
-    sub: "Que las cosas salgan sin tener que obligarte",
-    icono: "diana",
-    libros: [
-      "habitos-atomicos", "poder-habitos", "trabajo-profundo",
-      "club-5-manana", "milagro-manana", "semana-4-horas", "flow", "siete-habitos",
-    ],
-  },
-  {
-    id: "mente",
-    nombre: "Mente y emociones",
-    sub: "Cómo funciona por dentro y qué se puede tocar",
-    icono: "cabeza",
-    libros: [
-      "inteligencia-emocional", "pensar-rapido", "poder-ahora", "sentirse-bien",
-      "cuerpo-cuenta", "error-descartes", "intro-psicoanalisis", "busca-sentido",
-      "respira", "flow", "vivir-plenitud", "cerebro-del-nino",
-    ],
-  },
-  {
-    id: "relaciones",
-    nombre: "Gente y relaciones",
-    sub: "Caer mejor, discutir menos, entender al otro",
-    icono: "dos",
-    libros: [
-      "amigos-influir", "influencia", "lenguajes-amor", "maneras-de-amar",
-      "48-leyes-poder", "gottman-pareja", "rompe-barrera-no", "obtenga-el-si",
-      "lenguaje-del-cuerpo", "hombres-no-escuchan", "nunca-comas-solo",
-      "dar-y-recibir", "pre-suasion", "poder-introvertidos",
-      "arte-de-amar", "marte-venus", "cuatro-acuerdos", "cerebro-del-nino", "nudge",
     ],
   },
   {
@@ -118,7 +69,6 @@ export const GENEROS: Genero[] = [
        también lo que se vende muchísimo y no se sostiene, porque un resumen
        nuestro dice dónde falla y ese es justo el servicio. */
     sub: "Deseo, pareja y lo que dicen los datos",
-    icono: "dos",
     libros: [
       "inteligencia-erotica", "nueva-mirada-infidelidad", "gottman-pareja",
       "modelos-manson", "hombres-no-escuchan",
@@ -127,58 +77,11 @@ export const GENEROS: Genero[] = [
       "marte-venus", "veinte-poemas", "come-reza-ama",
     ],
   },
-  {
-    id: "concentracion",
-    nombre: "Concentración",
-    sub: "Recuperar la atención que se ha ido",
-    icono: "reloj",
-    libros: [
-      "trabajo-profundo", "flow", "semana-4-horas", "poder-ahora",
-      "respira", "habitos-atomicos",
-    ],
-  },
-  {
-    id: "liderazgo",
-    nombre: "Liderazgo y empresa",
-    sub: "Montar algo y llevar a un equipo",
-    icono: "bandera",
-    libros: [
-      "cero-a-uno", "lean-startup", "steve-jobs", "principe", "superpronosticadores",
-      "antifragil", "influencia", "semana-4-horas", "siete-habitos", "por-que-fracasan",
-    ],
-  },
-  {
-    id: "sentido",
-    nombre: "Sentido de la vida",
-    sub: "Para qué, cuando ya no basta el cómo",
-    icono: "brujula",
-    libros: [
-      "busca-sentido", "ikigai", "cuatro-acuerdos", "meditaciones", "enquiridion",
-      "brevedad-vida", "sisifo", "poder-ahora", "monje-ferrari", "ser-mortal",
-      "etica-amador", "zaratustra", "aliento-aire",
-    ],
-  },
-  { id: "salud", nombre: "Salud y cuerpo", sub: "Dormir, comer y durar", icono: "manzana", categoria: "Salud" },
-  { id: "historia", nombre: "Historia", sub: "Cómo llegamos hasta aquí", icono: "columna", categoria: "Historia" },
-  { id: "ciencia", nombre: "Ciencia", sub: "De qué está hecho todo esto", icono: "atomo", categoria: "Ciencia" },
-  { id: "filosofia", nombre: "Filosofía", sub: "Las preguntas que no se cierran", icono: "pensar", categoria: "Filosofía" },
-  { id: "literatura", nombre: "Novela", sub: "Las historias que había que leer", icono: "libro", categoria: "Literatura" },
-  { id: "arte", nombre: "Arte y creatividad", sub: "Mirar mejor y ponerse a hacer", icono: "paleta", categoria: "Arte" },
-  { id: "deportes", nombre: "Deportes", sub: "Lo que cuesta llegar y lo que cuesta quedarse", icono: "copa", categoria: "Deportes" },
-  /* Vidas es el cajón que pidió Pablo el 21 de agosto —«me gusta la sección de
-     personalidades»— al mandar veinte fichas de Headway, donde ese cajón junta
-     a Michelle Obama, la princesa Diana, Henry Ford y Cameron Diaz.
-
-     Es el género más transversal de todos y por eso va escrito a mano y no por
-     categoría: sus libros están repartidos en Arte, Ciencia, Historia, Salud,
-     Economía y Deportes, y lo único que comparten es que se leen para saber
-     cómo fue vivir siendo esa persona. Dan igual autobiografías y biografías
-     ajenas: lo que decide es de quién trata, no quién lo firma. */
+  { id: "deportes", nombre: "Deportes", sub: "Lo que cuesta llegar y lo que cuesta quedarse", categoria: "Deportes" },
   {
     id: "vidas",
-    nombre: "Vidas",
+    nombre: "Personalidades",
     sub: "Cómo fue por dentro ser esa persona",
-    icono: "retrato",
     libros: [
       "steve-jobs", "leonardo", "einstein", "feynman", "diario-ana-frank",
       "malala", "mandela", "diarios-frida", "vida-dali", "van-gogh-cartas",
@@ -190,6 +93,50 @@ export const GENEROS: Genero[] = [
       "madame-curie", "just-kids", "confesiones-chef", "frida-herrera",
       "vivir-para-contarla", "espia-traidor", "equipo-rivales",
       "ford-vida-obra", "entre-dos-reinos", "promesa-lapiz",
+    ],
+  },
+  {
+    id: "productividad",
+    nombre: "Productividad",
+    sub: "Hacer lo que ibas a hacer",
+    /* Sale de juntar los dos cajones que se fueron —«Hábitos y rutinas» y
+       «Concentración»— y añadirle los cuatro del catálogo que van justo de
+       esto y no estaban en ninguno: la procrastinación, la disciplina, comprar
+       tiempo y quitar de en medio lo que sobra. */
+    libros: [
+      "habitos-atomicos", "poder-habitos", "siete-habitos", "trabajo-profundo",
+      "club-5-manana", "milagro-manana", "semana-4-horas", "flow",
+      "procrastinacion-steel", "disciplina-es-destino", "recompra-tu-tiempo",
+      "esencialismo",
+    ],
+  },
+  {
+    id: "felicidad",
+    nombre: "Felicidad",
+    sub: "Estar mejor, y saber por qué",
+    /* Los de «Sentido de la vida», que se fue, más los que hablan de estar
+       bien sin prometer que se arregla todo. Los estoicos entran aquí y no en
+       Filosofía porque quien busca esto no busca a Marco Aurelio: busca no
+       amargarse, y da la casualidad de que Marco Aurelio va de eso. */
+    libros: [
+      "ikigai", "cuatro-acuerdos", "meditaciones", "brevedad-vida",
+      "monje-ferrari", "sentirse-bien", "vivir-plenitud", "busca-sentido",
+      "poder-ahora", "respira", "sutil-arte", "alegria-perderse",
+      "enquiridion", "sisifo",
+    ],
+  },
+  { id: "historia", nombre: "Historia", sub: "Cómo llegamos hasta aquí", categoria: "Historia" },
+  { id: "filosofia", nombre: "Filosofía", sub: "Las preguntas que no se cierran", categoria: "Filosofía" },
+  { id: "ciencia", nombre: "Ciencia", sub: "De qué está hecho todo esto", categoria: "Ciencia" },
+  {
+    id: "dinero",
+    nombre: "Dinero e inversiones",
+    sub: "Entender el dinero antes de moverlo",
+    libros: [
+      "psicologia-dinero", "padre-rico", "piensa-hazte-rico", "mente-millonaria",
+      "hombre-rico-babilonia", "inversor-inteligente", "bogle-sentido-comun",
+      "millonario-al-lado", "paseo-aleatorio", "dinero-domina-juego", "cisne-negro",
+      "antifragil", "freakonomics", "capital-siglo-xxi", "riqueza-naciones",
     ],
   },
 ];

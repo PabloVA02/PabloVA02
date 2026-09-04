@@ -116,8 +116,9 @@ export function librosGratisDeHoy(cuantos = 3, hoy = new Date()): Libro[] {
   return salidos;
 }
 
-/** Lo que queda de hoy, escrito como se dice. */
-function quedaDeHoy(ahora: Date): string {
+/** Lo que queda de hoy, escrito como se dice. Lo usan las dos piezas del día:
+ *  la tarjeta grande de quien paga y la tira de los tres gratuitos. */
+export function quedaDeHoy(ahora: Date): string {
   const medianoche = new Date(ahora);
   medianoche.setHours(24, 0, 0, 0);
   const minutos = Math.max(0, Math.round((medianoche.getTime() - ahora.getTime()) / 60000));

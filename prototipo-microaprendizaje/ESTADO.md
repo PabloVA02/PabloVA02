@@ -1289,6 +1289,51 @@ reescribirlos, ya se probó y se volvió atrás.
 Un matiz que sigue en pie: en su app en español una pone «Grow in faith», en
 inglés, que es un descuido suyo. Aquí va traducida, «Crecer en tu fe».
 
+### EL BUSCADOR SE QUEDA EN DIEZ GÉNEROS — 4 de septiembre, noche
+
+«En el buscador elimina todos los que no tienen emoticono y añade desarrollo
+personal, amor y sexo, deportes, en vidas pon personalidades, productividad,
+felicidad, historia, filosofía, ciencia, dinero.»
+
+Eran diecisiete y son diez, en ese orden, y **todos tienen emoticono suyo**:
+
+    Desarrollo personal · Amor y sexo · Deportes · Personalidades ·
+    Productividad · Felicidad · Historia · Filosofía · Ciencia ·
+    Dinero e inversiones
+
+**«Vidas» pasa a llamarse «Personalidades»**, que es como lo llamó él al mandar
+el dibujo de los dos perfiles.
+
+**DOS SON NUEVOS Y HUBO QUE ESCRIBIRLES LA LISTA.** «Productividad» sale de
+juntar los dos cajones que se van —«Hábitos y rutinas» y «Concentración»— más
+los cuatro del catálogo que iban justo de esto y no estaban en ninguno: la
+procrastinación, la disciplina, comprar tiempo y el esencialismo. «Felicidad»
+sale de «Sentido de la vida» más los que hablan de estar bien sin prometer que
+se arregla todo.
+
+**CUATRO ICONOS ESTÁN PRESTADOS DE LAS METAS**, no copiados: se leen de
+`emoticonos-metas.ts` en tiempo de construcción. Duplicar los bytes costaría
+veinte kilos por nada y, peor, el día que él mande otro cohete habría dos
+cohetes distintos en la app. Cuál lleva cada uno está escrito en la cabecera de
+`emoticonos-generos.ts`.
+
+**`glifos-generos.tsx` SE BORRA.** Eran los diecisiete dibujos que hice yo para
+esta parrilla; ya no hay ningún género sin emoticono suyo. Está en el historial
+de git.
+
+**Y HAY QUE SABER LO QUE SE PIERDE**, que esta vez es mucho: de los 418 libros
+del catálogo, **219 ya no se alcanzan desde ningún género del buscador**. Son
+72 de Psicología, 60 de Literatura, 41 de Economía, 28 de Salud y 18 de Arte.
+
+No están perdidos —se llega a ellos por la caja de búsqueda y por los filtros
+de la pantalla de Libros—, pero la manera de encontrarlos paseando ha
+desaparecido. Los tres cajones que más cubrían eran «Novela», «Salud y cuerpo»
+y «Arte y creatividad», y devolverlos recupera unos ciento seis de esos 219.
+
+**Salud podría volver ya**, porque su emoticono existe: la manzana de
+«Disfrutar de una vida sana». Novela y Arte necesitarían uno nuevo. Está sin
+hacer porque él dijo diez y son diez; se decide, no se supone.
+
 ### SEIS EMOTICONOS MÁS, Y AL BUSCADOR — 4 de septiembre, noche
 
 «Más emoticonos; los otros los pones en el buscador.» Vinieron siete, y uno de
@@ -2055,6 +2100,26 @@ le toca.
 Si algún día se quiere claro, el bueno es el crema `#f2ece1` y no el blanco
 puro: es el papel que ya usa la pantalla de lectura, y con él las cubiertas
 claras conservan su canto.
+
+### Y la tira de gratis lleva cuenta atrás
+
+«Ahora un contador en libro diario gratis, uno bonito, no muy aparatoso.»
+
+No aparatoso quiere decir esto: el reloj pequeño y la cifra, en el hueco que ya
+deja el rótulo a su derecha. Sin caja, sin fondo, sin verbo y en gris —un color
+de alarma para decir que quedan cuatro horas es exagerar—.
+
+Y con el mismo texto que la tarjeta grande del día, que ya tenía cuenta atrás:
+`quedaDeHoy()` pasa a exportarse y la usan las dos. Dos maneras de escribir la
+misma cuenta en la misma pantalla se leen como dos cuentas distintas.
+
+Se refresca cada veinte segundos, como la otra. Cada segundo obligaría a
+repintar la tira sesenta veces por minuto para mover un dígito que casi nunca
+cambia.
+
+Es la única urgencia honesta que hay aquí, y por eso está: no hay plazas
+limitadas ni ofertas que expiran, hay medianoche. A las doce cambian los tres
+libros de verdad.
 
 ### «Gratis hoy»: primero pasó a verde, después perdió la etiqueta
 

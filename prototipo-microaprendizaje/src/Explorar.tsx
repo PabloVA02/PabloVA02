@@ -8,7 +8,6 @@ import { TENDENCIAS } from "./libros/tendencias";
 import { SUBTITULOS } from "./libros/subtitulos";
 import { PORTADAS_LIBRO } from "./libros/portadas";
 import { PAGINAS } from "./libros/paginas";
-import { GLIFOS_GENERO } from "./glifos-generos";
 import { EMOTICONOS_GENERO } from "./emoticonos-generos";
 import { GlyphClose, GlyphLupa } from "./glyphs";
 import { pantalla, spring, springSoft } from "./motion";
@@ -446,14 +445,11 @@ function Generos({ onElegir }: { onElegir: (id: string) => void }) {
       </div>
       <div className="genero-parrilla">
         {GENEROS.map((g, i) => {
-          /* MANDA EL EMOTICONO DE PABLO CUANDO LO HAY, y si no, el glifo
-             dibujado. El 4 de septiembre llegaron seis de diecisiete, así que
-             las dos cosas conviven en la misma parrilla y tienen que verse
-             iguales: por eso el emoticono sale a 21 puntos clavados, que es lo
-             que mide el `<svg>` de al lado. Cuando lleguen los once que
-             faltan, esto se queda en una línea y `GLIFOS_GENERO` se borra. */
+          /* Todos los géneros llevan emoticono suyo desde el 4 de septiembre:
+             seis que mandó para esto y cuatro prestados de las metas. Aquí
+             había un respaldo con glifos dibujados por mí para los que no
+             tenían, y se fue con los géneros que no tenían. */
           const suyo = EMOTICONOS_GENERO[g.id];
-          const Icono = GLIFOS_GENERO[g.icono];
           return (
             <motion.button
               key={g.id}
@@ -465,11 +461,7 @@ function Generos({ onElegir }: { onElegir: (id: string) => void }) {
               transition={{ ...spring, delay: 0.04 + Math.min(i, 9) * 0.03 }}
             >
               <span className="genero-icono" aria-hidden>
-                {suyo ? (
-                  <img src={suyo} width={21} height={21} alt="" />
-                ) : Icono ? (
-                  <Icono tamano={21} />
-                ) : null}
+                {suyo ? <img src={suyo} width={21} height={21} alt="" /> : null}
               </span>
               <span className="genero-nombre">{g.nombre}</span>
             </motion.button>

@@ -12866,6 +12866,21 @@ button {
    copia es que coincidan, no el número.
    ========================================================================== */
 
+/* La cuenta atrás del rótulo. Va en el hueco que deja «Libro diario gratis» a
+   su derecha, sin caja y sin fondo: es un dato, no un botón. Y en el gris
+   suave, no en verde ni en naranja —un color de alarma para decir que quedan
+   cuatro horas es exagerar—. */
+.gratis-reloj {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #8d8d8d;
+  font-variant-numeric: tabular-nums;
+}
+
 .gratis-tira { align-items: flex-start; }
 
 .gratis-ficha {

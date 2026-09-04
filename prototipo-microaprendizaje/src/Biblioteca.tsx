@@ -23,7 +23,7 @@ import { TiraColecciones } from "./Colecciones";
 import { Hoja } from "./Hoja";
 import { GestionaTemas } from "./Temas";
 import { COLECCIONES_A_LA_VISTA, type Coleccion } from "./colecciones";
-import { LibroDelDia, libroDeHoy, librosGratisDeHoy } from "./LibroDelDia";
+import { LibroDelDia, libroDeHoy, librosGratisDeHoy, quedaDeHoy } from "./LibroDelDia";
 import { GlyphAzar } from "./Dado";
 import type { Foto } from "./shorts";
 
@@ -244,11 +244,35 @@ type Estado = "todo" | "leyendo" | "guardados" | "terminados";
    -------------------------------------------------------------------------- */
 function LibrosGratis({ onAbrir }: { onAbrir: (l: Libro) => void }) {
   const libros = useMemo(() => librosGratisDeHoy(3), []);
+  /* LA CUENTA ATRÁS. Pablo, el 4 de septiembre: «ahora un contador en libro
+     diario gratis, uno bonito, no muy aparatoso».
+   *
+   * No aparatoso quiere decir esto: el reloj pequeño y la cifra, en el hueco
+   * que ya deja el rótulo a su derecha. Sin caja, sin fondo y sin verbo, que
+   * es exactamente como lo dice la tarjeta grande del día —misma pieza, mismo
+   * texto—: dos maneras de escribir la misma cuenta en la misma pantalla se
+   * leen como dos cuentas distintas.
+   *
+   * Y es la única urgencia honesta que hay aquí: no hay plazas ni ofertas que
+   * expiran, hay medianoche. A las doce cambian los tres libros de verdad.
+   *
+   * Se refresca cada veinte segundos, como la otra. Cada segundo obligaría a
+   * repintar la tira entera sesenta veces por minuto para mover un dígito que
+   * casi nunca cambia. */
+  const [queda, setQueda] = useState(() => quedaDeHoy(new Date()));
+  useEffect(() => {
+    const t = setInterval(() => setQueda(quedaDeHoy(new Date())), 20000);
+    return () => clearInterval(t);
+  }, []);
   if (!libros.length) return null;
   return (
     <section className="bloque gratis">
       <div className="bloque-cabecera">
         <h2>Libro diario gratis</h2>
+        <span className="gratis-reloj">
+          <GlyphReloj tamano={13} />
+          {queda}
+        </span>
       </div>
       {/* La misma tira que «Recomendados»: mismo relleno, mismo hueco y mismo
           anclaje. Pablo: «tiene que ser con el tamaño de nuestros libros, como
