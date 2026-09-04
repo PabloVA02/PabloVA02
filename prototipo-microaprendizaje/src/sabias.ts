@@ -281,6 +281,490 @@ export const DATOS: Dato[] = [
       "La colonia entera funciona como un mercado de piedras.",
     ],
   },
+  /* --- TANDA 2 --------------------------------------------------------- */
+  {
+    id: "mariposas-patas",
+    titular: "Las mariposas saborean con las patas",
+    realce: "con las patas",
+    tema: "Animales",
+    color: "var(--dato-naranja)", // las alas
+    mas: [
+      "Tienen los sensores del gusto repartidos por las patas delanteras, así que para saber si una flor sirve no hace falta que prueben nada: les basta con posarse encima. En cuanto tocan, ya lo saben.",
+      "A las hembras les importa todavía más que a las suyas propias. Antes de poner un huevo van dando saltitos por las hojas, tanteando con las patas, hasta encontrar la planta exacta que la oruga podrá comerse cuando nazca. Se equivocan poquísimo.",
+      "La trompa, que es lo que parece la boca, solo sirve para sorber. Decidir se decide con los pies.",
+    ],
+  },
+  {
+    id: "cucaracha-sin-cabeza",
+    titular: "Una cucaracha puede vivir una semana sin cabeza",
+    realce: "sin cabeza",
+    tema: "Animales",
+    color: "var(--dato-tierra)", // el bicho
+    mas: [
+      "No se desangra, porque su sangre va casi sin presión y el cuello se le cierra solo. No se ahoga, porque no respira por la boca: tiene agujeritos repartidos por todo el cuerpo que llevan el aire directamente a donde hace falta. Y sigue andando, porque el cerebro no manda en las patas: cada tramo del cuerpo tiene su propio nudo de nervios y se apaña.",
+      "Así que un cuerpo decapitado se levanta, camina, se esconde de la luz y reacciona si lo tocas. Lo que no puede hacer es beber.",
+      "Se muere de sed, a los pocos días. De nada más.",
+    ],
+  },
+  {
+    id: "huesos-al-nacer",
+    titular: "Naces con trescientos huesos y de mayor tienes doscientos seis",
+    realce: "de mayor tienes doscientos seis",
+    tema: "Cuerpo",
+    color: "var(--dato-gris)", // el hueso
+    mas: [
+      "No se pierden: se pegan. Un bebé viene con muchas piezas separadas y bastante blandas, porque un esqueleto de una sola pieza no pasaría por donde tiene que pasar al nacer. Con los años esas piezas se van soldando entre ellas hasta quedarse en doscientos seis.",
+      "El cráneo es el ejemplo claro: son varias placas sueltas con huecos blandos entre ellas —la famosa mollera— que dejan que la cabeza se amolde al salir y que luego siga creciendo. No terminan de cerrarse hasta los dos años.",
+      "Y hay una que no acaba de fraguar hasta los veinticinco: la parte de delante del cráneo, justo detrás de la frente.",
+    ],
+  },
+  {
+    id: "nariz-invisible",
+    titular: "Tu nariz está siempre en medio y el cerebro te la borra",
+    realce: "el cerebro te la borra",
+    tema: "Cuerpo",
+    color: "var(--dato-morado)", // el cerebro
+    mas: [
+      "La tienes ahí abajo, en el centro de todo lo que miras, tapando un trozo. Está en el campo de visión de los dos ojos las veinticuatro horas del día. Pero el cerebro decidió hace mucho que eso no es información: no cambia nunca, no avisa de nada, y lo tacha.",
+      "Es lo mismo que hace con el ruido de la nevera o con la sensación de la ropa en la piel. Lo que no varía deja de existir para la cabeza, porque avisar de ello sería gastar atención en algo que no sirve.",
+      "Basta con que alguien la nombre para que vuelva a aparecer. Ya la estás viendo.",
+    ],
+  },
+  {
+    id: "soldadura-espacio",
+    titular: "En el espacio dos piezas de metal limpias se sueldan al tocarse",
+    realce: "se sueldan al tocarse",
+    tema: "Espacio",
+    color: "var(--dato-galaxia)", // el vacío
+    mas: [
+      "Aquí abajo dos trozos de metal no se pegan porque están cubiertos de una capa finísima de óxido y de suciedad que el aire les va poniendo. Esa capa hace de separador. En el vacío no hay aire que la forme, así que si las piezas están de verdad limpias y se aprietan una contra otra, los átomos de un lado no distinguen los del otro y se unen como si nunca hubieran sido dos.",
+      "No es tan fácil como suena, y conviene decirlo: hacen falta superficies muy limpias y algo de presión. Pero pasa lo suficiente como para que sea un quebradero de cabeza de la ingeniería espacial desde los años cuarenta: hay antenas, bisagras y engranajes que se han quedado agarrados ahí arriba y no ha habido manera de moverlos.",
+      "Lo llaman soldadura en frío, y en el espacio se diseña para evitarla, no para usarla.",
+    ],
+  },
+  {
+    id: "velcro-cardo",
+    titular: "El velcro se copió de las bolitas que se te pegan en el pantalón",
+    realce: "las bolitas que se te pegan en el pantalón",
+    tema: "Objetos",
+    color: "var(--dato-verde)", // la planta
+    mas: [
+      "En 1941 un ingeniero suizo, George de Mestral, volvió de cazar con el perro y con los pantalones llenos de esas bolitas secas que se enganchan al pasar entre matorrales. En vez de quitárselas y ya está, metió una debajo del microscopio.",
+      "Lo que vio fueron cientos de ganchitos diminutos, cada uno con la punta doblada, agarrados a los rizos de la tela. Ni pegamento ni nada: ganchos y lazos. Tardó ocho años en fabricar lo mismo en nailon.",
+      "El nombre lo hizo juntando dos palabras francesas: velours, terciopelo, y crochet, gancho. Velcro.",
+    ],
+  },
+  {
+    id: "pina-come-boca",
+    titular: "La piña te come la boca mientras tú te la comes",
+    realce: "te come la boca",
+    tema: "Comida",
+    color: "var(--dato-oro)", // la piña
+    mas: [
+      "Ese escozor en la lengua y en el paladar no es acidez. La piña lleva una sustancia que deshace proteínas, y tu boca está hecha de proteínas. Literalmente te está digiriendo un poquito mientras la masticas.",
+      "Se defiende sola, además: la planta lo usa para que los animales no se coman la fruta antes de tiempo. Tú ganas la pelea porque tienes saliva nueva y células que se reponen en horas; ella pierde porque se acaba.",
+      "Y hay truco para librarse: al calentarla, esa sustancia se estropea. Por eso la piña asada o de lata no pica nada.",
+    ],
+  },
+  {
+    id: "lapices-sin-plomo",
+    titular: "Los lápices nunca han llevado plomo",
+    realce: "nunca han llevado plomo",
+    tema: "Objetos",
+    color: "var(--dato-gris)", // el grafito
+    mas: [
+      "Llevan grafito, que es carbono puro en láminas que se deslizan unas sobre otras: por eso deja marca en el papel al arrastrarlo. De plomo no tiene ni un átomo, y nunca lo ha tenido.",
+      "La culpa es de una confusión de hace siglos. Cuando en el XVI apareció en Inglaterra un filón enorme de grafito, la gente lo tomó por una variedad de plomo —era gris, pesado y manchaba— y lo llamaron plomo negro. El nombre se quedó pegado en medio mundo.",
+      "Un lápiz que se te clave no envenena a nadie. Como mucho deja un punto gris debajo de la piel para toda la vida.",
+    ],
+  },
+  {
+    id: "sahara-amazonas",
+    titular: "El polvo del Sáhara es lo que abona la selva del Amazonas",
+    realce: "abona la selva del Amazonas",
+    tema: "El mundo",
+    color: "var(--dato-tierra)", // la arena
+    mas: [
+      "Cada año el viento levanta millones de toneladas de polvo del Sáhara, las cruza el Atlántico entero y las deja caer sobre Sudamérica. Un satélite de la NASA lo midió: unos veintisiete millones de toneladas llegan a la cuenca del Amazonas.",
+      "Y no es polvo cualquiera. Lleva fósforo, que es justo lo que a la selva se le agota: allí llueve tanto que el suelo se lava constantemente y los nutrientes se van con el agua. Los veintidós mil toneladas de fósforo que trae el polvo compensan casi exactamente lo que la lluvia se lleva.",
+      "Y casi todo sale del mismo sitio: una hondonada seca en el Chad, el fondo de un lago que desapareció, donde el viento levanta lo que dejaron millones de años de criaturas de agua dulce.",
+    ],
+  },
+  {
+    id: "joroba-camello",
+    titular: "En la joroba del camello no hay agua",
+    realce: "no hay agua",
+    tema: "Animales",
+    color: "var(--dato-oro)", // el desierto
+    mas: [
+      "Hay grasa. Es una despensa, no una cantimplora: el animal tira de ella cuando no encuentra comida, y por eso la joroba se le desinfla y se le queda colgando cuando lleva mucho tiempo sin comer.",
+      "Ponerla ahí arriba en vez de repartirla por el cuerpo tiene su lógica en el desierto: con la grasa concentrada en un solo bulto, el resto del cuerpo puede soltar calor sin una manta de aislante por debajo.",
+      "El agua la guarda en la sangre, y ahí sí es un fenómeno: puede beber más de cien litros en diez minutos.",
+    ],
+  },
+  /* --- TANDA 3 --------------------------------------------------------- */
+  {
+    id: "gatos-sin-dulce",
+    titular: "Los gatos no saben lo que es el sabor dulce",
+    realce: "no saben lo que es el sabor dulce",
+    tema: "Animales",
+    color: "var(--dato-tierra)", // el gato
+    mas: [
+      "Les falta la pieza que lo detecta. En su ADN, el trozo encargado de fabricar el sensor del dulce está roto: existe, pero no funciona, y lleva así millones de años. Un gato metido en un bote de azúcar no notaría absolutamente nada.",
+      "Tiene todo el sentido, además. Un animal que solo come carne no necesita reconocer el dulce, porque el dulce en la naturaleza avisa de fruta madura, y eso a un gato no le sirve de nada. Lo que sí tienen finísimo es el sensor de la carne.",
+      "Cuando un gato se vuelve loco con un helado, no es por el azúcar. Es por la grasa.",
+    ],
+  },
+  {
+    id: "caracol-tres-anos",
+    titular: "Un caracol puede dormir tres años seguidos",
+    realce: "tres años seguidos",
+    tema: "Animales",
+    color: "var(--dato-verde)", // la hoja
+    mas: [
+      "Cuando el tiempo se pone imposible —demasiado frío o demasiado seco— se mete en la concha, sella la boca con una tapa de baba que se le endurece como una costra, y se apaga. El corazón le va lentísimo y deja de gastar casi nada.",
+      "Lo normal es que pase así unos meses. Pero si la sequía no acaba, puede aguantar tapiado hasta tres años esperando a que llueva.",
+      "Y en cuanto cae agua encima de la concha, se despierta, rompe la tapa y sale como si no hubiera pasado nada.",
+    ],
+  },
+  {
+    id: "cuello-jirafa",
+    titular: "Tu cuello y el de una jirafa tienen los mismos huesos",
+    realce: "los mismos huesos",
+    tema: "Animales",
+    color: "var(--dato-oro)", // la sabana
+    mas: [
+      "Siete. Tú tienes siete vértebras en el cuello y una jirafa también. La diferencia no es el número, es el tamaño: cada una de las suyas mide hasta treinta centímetros.",
+      "Y no es cosa de las jirafas: casi todos los mamíferos llevan siete, del ratón a la ballena, tengan el cuello que tengan. Es de las cosas más fijas que hay en el diseño de un mamífero.",
+      "Las excepciones se cuentan con los dedos de una mano, y una es el perezoso, que tiene alguna de más para poder girar la cabeza sin moverse del sitio.",
+    ],
+  },
+  {
+    id: "llorar-en-el-espacio",
+    titular: "En el espacio no se puede llorar",
+    realce: "no se puede llorar",
+    tema: "Espacio",
+    color: "var(--dato-galaxia)", // el espacio
+    mas: [
+      "Las lágrimas se fabrican igual, pero no caen. Sin peso que tire de ellas se quedan pegadas al ojo, y en vez de resbalar por la cara van formando una bola de agua que crece ahí mismo, encima de la córnea.",
+      "Escuece, además. Los astronautas cuentan que la bola les tapa la vista y que hay que quitársela con la mano o con una toalla, porque sola no se va a ninguna parte.",
+      "Se puede estar triste en órbita perfectamente. Lo que no se puede es que se te note en la mejilla.",
+    ],
+  },
+  {
+    id: "lluvia-de-cristal",
+    titular: "Hay un planeta donde llueve cristal, y de lado",
+    realce: "llueve cristal, y de lado",
+    tema: "Espacio",
+    color: "var(--dato-mar)", // el azul del planeta
+    mas: [
+      "Se llama HD 189733b y está a sesenta y tres años luz. Visto de lejos es de un azul precioso, casi como la Tierra, y ese azul no es agua: son partículas de silicato flotando en el aire, o sea cristal derretido en gotas microscópicas.",
+      "Ahí arriba hay más de mil grados, así que ese cristal se condensa como se condensa aquí el vapor de agua, y cae. Solo que no cae hacia abajo: hay vientos de siete mil kilómetros por hora, así que va de lado. Una sola gota, a esa velocidad, llega con la energía de un proyectil.",
+      "Es de los planetas mejor estudiados que hay fuera del sistema solar, y desde lejos parece el nuestro.",
+    ],
+  },
+  {
+    id: "esmalte-no-vuelve",
+    titular: "El esmalte de los dientes es lo único de tu cuerpo que no se regenera",
+    realce: "no se regenera",
+    tema: "Cuerpo",
+    color: "var(--dato-gris)", // el diente
+    mas: [
+      "Es el material más duro que fabricas —más que el hueso—, y lo fabricas una sola vez, antes de que el diente salga. Las células que lo hacen desaparecen en cuanto terminan el trabajo. A partir de ahí, lo que se pierde no vuelve.",
+      "Un hueso roto se suelda. Un corte en la piel se cierra. Un trozo de hígado vuelve a crecer. Un trozo de esmalte, no. El cuerpo no tiene forma de reponerlo.",
+      "Por eso un empaste es un parche: se rellena el agujero con otra cosa, porque el material original ya no se puede fabricar.",
+    ],
+  },
+  {
+    id: "chocolate-blanco",
+    titular: "El chocolate blanco no lleva ni una gota de cacao",
+    realce: "ni una gota de cacao",
+    tema: "Comida",
+    color: "var(--dato-oro)", // la manteca
+    mas: [
+      "Lleva manteca de cacao, que es la grasa que se saca del grano, y esa grasa es blanca y no sabe a nada. Lo marrón y lo amargo del chocolate está en la otra mitad del grano, la pasta, y esa no se le pone.",
+      "O sea que es azúcar, leche en polvo y la grasa. Por eso sabe a dulce y a leche y no a chocolate: porque de chocolate, en el sentido que le da todo el mundo, no lleva.",
+      "En Estados Unidos estuvo hasta el año 2002 sin poder llamarse chocolate legalmente.",
+    ],
+  },
+  {
+    id: "cocodrilo-lengua",
+    titular: "Un cocodrilo no puede sacar la lengua",
+    realce: "no puede sacar la lengua",
+    tema: "Animales",
+    color: "var(--dato-verde)", // el río
+    mas: [
+      "La tiene pegada al suelo de la boca por una membrana que le recorre casi todo el largo. No es que no quiera: no tiene por dónde levantarla. Puede abrir las mandíbulas de par en par y la lengua se queda ahí abajo, quieta.",
+      "Le viene bien, porque caza dentro del agua. Con la lengua sellando el fondo de la garganta puede tener la boca abierta bajo el agua sin tragar ni gota.",
+      "Los caimanes sí la mueven un poco. Los cocodrilos, nada.",
+    ],
+  },
+  {
+    id: "ketchup-medicina",
+    titular: "El kétchup se vendía en las farmacias como medicina",
+    realce: "como medicina",
+    tema: "Comida",
+    color: "var(--dato-rojo)", // el tomate
+    mas: [
+      "En 1834 un médico de Ohio, John Cook Bennett, empezó a decir que el tomate curaba la diarrea, la ictericia y la indigestión, y que además protegía del cólera. Vendía su propia salsa como remedio y la anunciaba en los periódicos.",
+      "Luego dio el paso siguiente: se juntó con un vendedor de pastillas, hirvieron la salsa hasta dejarla en pasta, la hicieron bolitas y las pusieron en las boticas como «extracto de tomate en píldoras». Se hizo una moda enorme y salieron imitadores por todas partes.",
+      "Se acabó a la mala. Pillaron a varias empresas vendiendo laxantes con la etiqueta de pastillas de tomate, y hacia 1850 nadie volvió a fiarse.",
+    ],
+  },
+  {
+    id: "agujero-ventanilla",
+    titular: "Las ventanillas de los aviones llevan un agujero a propósito",
+    realce: "un agujero a propósito",
+    tema: "Objetos",
+    color: "var(--dato-mar)", // el cielo
+    mas: [
+      "Ese puntito que hay abajo del todo del cristal no es un defecto ni una grieta. Está puesto ahí de fábrica, y sin él la ventanilla sería más peligrosa.",
+      "Cada ventanilla son tres capas. Arriba, la cabina va con presión; fuera, a diez mil metros, casi no hay. La capa de fuera es la que tiene que aguantar toda esa diferencia, y el agujerito de la capa de en medio es lo que se encarga de que así sea: deja pasar el aire para que la presión empuje contra el cristal exterior y no contra el interior.",
+      "Y de paso sirve para otra cosa que se agradece: por ahí se escapa la humedad, y por eso el cristal no se empaña.",
+    ],
+  },
+  /* --- TANDA 4 --------------------------------------------------------- */
+  {
+    id: "estrellas-y-arena",
+    titular: "Hay más estrellas en el cielo que granos de arena en todas las playas",
+    realce: "que granos de arena en todas las playas",
+    tema: "Espacio",
+    color: "var(--dato-galaxia)", // el cielo
+    mas: [
+      "La cuenta de la arena la han hecho: sumando todas las playas del mundo salen unos siete trillones de granos. Un siete con dieciocho ceros detrás.",
+      "Y las estrellas del universo que podemos ver salen a unos cien mil millones de galaxias con unos cien mil millones de estrellas cada una. Un uno con veintidós o veinticuatro ceros. Aunque se coja el cálculo más tacaño de estrellas y el más generoso de arena, ganan las estrellas por mil veces.",
+      "Lo dijo Carl Sagan en televisión hace cincuenta años y desde entonces se ha comprobado varias veces. Sigue siendo verdad, y por goleada.",
+    ],
+  },
+  {
+    id: "ojo-avestruz",
+    titular: "El ojo de un avestruz es más grande que su cerebro",
+    realce: "más grande que su cerebro",
+    tema: "Animales",
+    color: "var(--dato-tierra)", // la llanura seca
+    mas: [
+      "Cada ojo mide unos cinco centímetros, el más grande de cualquier animal terrestre: más o menos una pelota de billar. El cerebro le cabe en una nuez.",
+      "Y no es una rareza sin sentido. Vive en llanuras abiertas donde lo único que le salva es ver al león antes de que el león la vea a ella, así que la evolución le pagó ojos en vez de sesera.",
+      "Le funciona. Con esos ojos distingue movimiento a varios kilómetros, y corriendo llega a los setenta por hora.",
+    ],
+  },
+  {
+    id: "elefantes-no-saltan",
+    titular: "Los elefantes son el único mamífero que no puede saltar",
+    realce: "no puede saltar",
+    tema: "Animales",
+    color: "var(--dato-gris)", // el elefante
+    mas: [
+      "Para saltar hacen falta dos cosas: pesar poco para lo fuerte que eres, y tener las patas con muelle. Un elefante no tiene ninguna de las dos. Sus huesos van casi rectos, uno encima de otro, como columnas, porque así aguantan las seis toneladas sin partirse. Una columna no rebota.",
+      "Encima le faltan los tendones elásticos que tienen en las patas los animales que saltan, esos que se estiran y devuelven la energía como una goma.",
+      "Nunca tiene las cuatro patas en el aire, ni corriendo. Y aun así alcanza los veinticinco por hora.",
+    ],
+  },
+  {
+    id: "platano-radiactivo",
+    titular: "Un plátano es ligeramente radiactivo",
+    realce: "ligeramente radiactivo",
+    tema: "Comida",
+    color: "var(--dato-oro)", // el plátano
+    mas: [
+      "Por el potasio. Todo el potasio del mundo lleva una pizca de una versión inestable que se desintegra sola, y el plátano está lleno de potasio. Así que sí: el plátano emite radiación, igual que las patatas, las alubias o tú mismo.",
+      "Los que trabajan con radiación lo usan de chiste serio: la «dosis plátano», que es lo que te llevas por comerte uno, y sirve para explicarle a la gente que una cifra de radiación sola no dice nada si no se compara con algo.",
+      "Para igualar una radiografía de pecho harían falta unos mil plátanos. De una sola sentada.",
+    ],
+  },
+  {
+    id: "bandera-nepal",
+    titular: "La bandera de Nepal es la única del mundo que no es rectangular",
+    realce: "la única del mundo que no es rectangular",
+    tema: "El mundo",
+    color: "var(--dato-rojo)", // la bandera
+    mas: [
+      "Son dos triángulos, uno encima de otro, con el borde derecho en zigzag. Vienen de dos banderines que se usaban por separado y que en el siglo pasado se juntaron en uno solo.",
+      "Y la constitución del país no la describe con palabras: la describe con geometría. Hay un anexo con veinticuatro instrucciones de dibujo —traza una línea, marca un punto aquí, une con aquel— para que cualquiera pueda construirla exacta con regla y compás.",
+      "Los dos dibujos de dentro son la Luna y el Sol, y están ahí para decir que el país durará lo que duren los dos.",
+    ],
+  },
+  {
+    id: "gambas-corazon",
+    titular: "Las gambas tienen el corazón en la cabeza",
+    realce: "en la cabeza",
+    tema: "Animales",
+    color: "var(--dato-mar)", // el mar
+    mas: [
+      "Lo que llamamos cabeza en una gamba es en realidad cabeza y tórax pegados en una sola pieza, y ahí dentro lleva casi todo: el corazón, el estómago y buena parte de lo demás. La cola, que es lo que nos comemos, es músculo casi entero.",
+      "Y el corazón no bombea por tuberías cerradas como el tuyo. Suelta la sangre al aire, dentro del cuerpo, y esta va bañando los órganos y volviendo por su cuenta.",
+      "Cuando le quitas la cabeza a una gamba, le estás quitando el corazón, el estómago y el hígado a la vez.",
+    ],
+  },
+  {
+    id: "nariz-de-perro",
+    titular: "La nariz de un perro es tan única como tu huella dactilar",
+    realce: "tan única como tu huella dactilar",
+    tema: "Animales",
+    color: "var(--dato-tierra)", // el perro
+    mas: [
+      "El morro no es liso: está lleno de arrugas, surcos y bultitos que forman un dibujo. Y ese dibujo no se repite en ningún otro perro, ni siquiera entre hermanos de la misma camada.",
+      "Se le queda para toda la vida, igual que las huellas de tus dedos. En algunos países hay registros de perros que se hacen con la huella del morro entintado, como una ficha policial, y hay aplicaciones que la reconocen con la cámara del móvil.",
+      "Es más fiable que el chip, porque no se puede perder ni sacar.",
+    ],
+  },
+  {
+    id: "abejas-caras",
+    titular: "Las abejas reconocen caras humanas",
+    realce: "reconocen caras humanas",
+    tema: "Animales",
+    color: "var(--dato-oro)", // la miel
+    mas: [
+      "Se comprobó con fotos y con agua con azúcar: se les enseñaba una cara concreta y, si acertaban al ir hacia ella, cobraban premio. Aprendieron. Y días después seguían distinguiéndola de otras caras parecidas.",
+      "Lo raro es cómo lo hacen. Su cerebro tiene menos de un millón de neuronas —el tuyo tiene ochenta y seis mil millones— y aun así juntan los ojos, la nariz y la boca en un conjunto y lo recuerdan como una sola cosa. Es parecido a lo que haces tú.",
+      "No es que sepan quién eres. Es que saben que esa combinación de rasgos ya la habían visto antes.",
+    ],
+  },
+  {
+    id: "cien-rayos-por-segundo",
+    titular: "En este momento están cayendo unos cien rayos por segundo en el mundo",
+    realce: "unos cien rayos por segundo",
+    tema: "Naturaleza",
+    color: "var(--dato-naranja)", // el rayo
+    mas: [
+      "En cualquier instante hay unas dos mil tormentas activas repartidas por el planeta, casi todas en el trópico, y entre todas sueltan alrededor de cien relámpagos cada segundo. De esos, unos cuarenta y cuatro tocan el suelo.",
+      "Son ocho millones de rayos al día. Se cuentan de verdad: hay una red de antenas repartida por el mundo que detecta el chasquido de radio que suelta cada descarga y triangula dónde ha caído.",
+      "El sitio donde más caen del planeta es un lago de Venezuela, el Maracaibo, donde hay tormenta casi trescientas noches al año.",
+    ],
+  },
+  {
+    id: "panda-catorce-horas",
+    titular: "Un panda se pasa catorce horas al día comiendo",
+    realce: "catorce horas al día",
+    tema: "Animales",
+    color: "var(--dato-verde)", // el bambú
+    mas: [
+      "Y no le queda otra. Por dentro tiene el aparato digestivo de un carnívoro —corto, hecho para carne— y se ha empeñado en comer bambú, que alimenta poquísimo. Aprovecha alrededor de la sexta parte de lo que traga.",
+      "Así que la cuenta le sale a base de cantidad: entre doce y treinta y ocho kilos de bambú al día, masticando sin parar. Y lo que entra, sale: hace de vientre unas cuarenta veces cada día.",
+      "El resto del tiempo lo pasa durmiendo, porque tampoco le da la energía para mucho más.",
+    ],
+  },
+  /* --- TANDA 5 --------------------------------------------------------- */
+  {
+    id: "relojes-diez-y-diez",
+    titular: "En los anuncios, todos los relojes marcan las diez y diez",
+    realce: "todos los relojes marcan las diez y diez",
+    tema: "Objetos",
+    color: "var(--dato-gris)", // la esfera
+    mas: [
+      "Míralo la próxima vez que veas un reloj en una foto de catálogo, en un escaparate o en un anuncio. Casi siempre son las 10:10, o los 10:09 justos.",
+      "Es porque con las manecillas ahí las dos hacen una uve, y esa uve deja despejado el centro de la esfera, que es justo donde la marca pone su nombre. Además no tapan nada de lo que hay abajo —la fecha, el segundero pequeño— y quedan simétricas, que a la vista le sienta bien.",
+      "Se hace desde hace décadas y en toda la industria a la vez. Los relojes digitales de los anuncios suelen poner las 10:10 también, y ahí ya no hay manecillas que colocar: es puro respeto a la costumbre.",
+    ],
+  },
+  {
+    id: "conchas-en-el-everest",
+    titular: "En la cima del Everest hay conchas de mar",
+    realce: "hay conchas de mar",
+    tema: "El mundo",
+    color: "var(--dato-mar)", // el mar que hubo
+    mas: [
+      "La roca de arriba del todo es caliza, y la caliza se hace en el fondo del mar con los restos de bichos con concha. Dentro hay fósiles de animales marinos de hace unos cuatrocientos cincuenta millones de años.",
+      "Estuvieron en el fondo de un océano que se llamaba Tetis. Luego la India, que era una isla enorme a la deriva, chocó contra Asia y ese fondo marino no tuvo por dónde escapar: se arrugó hacia arriba como una alfombra empujada contra la pared.",
+      "Sigue subiendo, además. Unos milímetros cada año, porque la India todavía empuja.",
+    ],
+  },
+  {
+    id: "renos-ojos-azules",
+    titular: "A los renos les cambia el color de los ojos en invierno",
+    realce: "les cambia el color de los ojos",
+    tema: "Animales",
+    color: "var(--dato-galaxia)", // el invierno
+    mas: [
+      "En verano tienen detrás de la retina una capa que refleja la luz en dorado, como los gatos. En invierno esa misma capa se les pone azul intenso. Es el único mamífero al que se le conoce este cambio, y va y viene con las estaciones.",
+      "Lo que hace el azul es aprovechar mejor la poquísima luz que hay en un invierno ártico, donde el sol no sale durante semanas. Ven mucho peor de nítido, pero ven en una oscuridad donde nosotros no veríamos nada.",
+      "Y ven en ultravioleta, que en la nieve es una ventaja enorme: el pelo del lobo y el liquen que comen absorben esa luz y se les dibujan en negro sobre un campo blanco.",
+    ],
+  },
+  {
+    id: "pupilas-de-cabra",
+    titular: "Las cabras tienen las pupilas rectangulares",
+    realce: "rectangulares",
+    tema: "Animales",
+    color: "var(--dato-tierra)", // el monte
+    mas: [
+      "Una raya horizontal, como una ranura de buzón. Y no es solo de las cabras: la tienen casi todos los animales que pastan y a los que se comen otros —ovejas, caballos, ciervos—, mientras que los que cazan al acecho, como el gato, la tienen vertical.",
+      "Con esa ranura ven casi trescientos cuarenta grados alrededor sin mover la cabeza. Estando agachadas comiendo, tienen medio horizonte controlado.",
+      "Y lo mejor: cuando bajan la cabeza para pastar, los ojos les giran dentro de la cuenca para que la ranura siga estando horizontal. Las dos a la vez, cada una para su lado.",
+    ],
+  },
+  {
+    id: "hipopotamo-sudor-rojo",
+    titular: "Los hipopótamos sudan un líquido rojo",
+    realce: "un líquido rojo",
+    tema: "Animales",
+    color: "var(--dato-rojo)", // el líquido
+    mas: [
+      "Sale transparente y a los pocos minutos se vuelve rojo anaranjado, así que durante siglos se creyó que sudaban sangre. No es sangre ni es sudor: es una sustancia que fabrican en la piel y que hace dos trabajos a la vez.",
+      "El primero es de crema solar. Filtra el ultravioleta, y un animal que se pasa el día metido en un río ecuatorial con la piel desnuda lo necesita. El segundo es de desinfectante: mata bacterias, y a un hipopótamo se le hacen heridas constantemente peleando con otros.",
+      "Con el tiempo pasa de rojo a marrón. Un hipopótamo al sol acaba con la piel del color del barro seco, y no es barro.",
+    ],
+  },
+  {
+    id: "medusas-sin-nada",
+    titular: "Las medusas no tienen cerebro, ni corazón, ni sangre",
+    realce: "cerebro, ni corazón, ni sangre",
+    tema: "Animales",
+    color: "var(--dato-mar)", // el mar
+    mas: [
+      "Tampoco huesos ni pulmones. Son agua en un noventa y cinco por ciento y una capa de gelatina que las mantiene con forma. Si sacas una a la arena, en unas horas no queda casi nada: se evapora.",
+      "Funcionan sin nada de eso porque son finísimas. El oxígeno les entra por la piel a todas las células directamente, así que no hace falta un corazón que lo reparta. Y en vez de cerebro tienen una red de nervios repartida por todo el cuerpo que decide sin jefe.",
+      "Llevan así más de quinientos millones de años, mucho antes que los dinosaurios y que los árboles.",
+    ],
+  },
+  {
+    id: "aduana-de-la-luna",
+    titular: "Los astronautas del Apolo 11 tuvieron que pasar por la aduana",
+    realce: "pasar por la aduana",
+    tema: "Espacio",
+    color: "var(--dato-galaxia)", // la Luna
+    mas: [
+      "El 24 de julio de 1969, al llegar a Honolulu, Armstrong, Aldrin y Collins rellenaron y firmaron un impreso de aduanas de los Estados Unidos como cualquier viajero. El papel existe y se conserva.",
+      "En la casilla de procedencia pone «Luna». En la de mercancía, «muestras de roca y polvo lunar». Y en la pregunta de si traen a bordo algo que pueda propagar una enfermedad, la respuesta escrita es: «Por determinar».",
+      "Es el primer papeleo de una importación traída de otro mundo, y lo firmó también el jefe de aduanas de Hawái.",
+    ],
+  },
+  {
+    id: "pisa-se-torcio-antes",
+    titular: "La torre de Pisa empezó a torcerse antes de estar terminada",
+    realce: "antes de estar terminada",
+    tema: "El mundo",
+    color: "var(--dato-tierra)", // el suelo blando
+    mas: [
+      "Se empezó en 1173 y ya con el tercer piso puesto se estaba hundiendo por un lado: debajo hay arcilla blanda y no aguantaba el peso repartido. Las obras se pararon casi un siglo por una guerra, y ese parón la salvó, porque le dio tiempo al suelo a asentarse.",
+      "Cuando volvieron a construir, ya sabían que estaba torcida. Así que hicieron los pisos de arriba ligeramente curvados hacia el otro lado, intentando enderezarla sobre la marcha. Por eso la torre no está inclinada recta: está un poco doblada, como un plátano.",
+      "Tardaron casi doscientos años en acabarla, y nunca estuvo derecha ni un día.",
+    ],
+  },
+  {
+    id: "japon-mascotas",
+    titular: "En Japón hay más perros y gatos que niños",
+    realce: "más perros y gatos que niños",
+    tema: "El mundo",
+    color: "var(--dato-oro)", // el país
+    mas: [
+      "Las cuentas del país dan alrededor de quince o dieciséis millones de perros y gatos en las casas, y algo menos de quince millones de niños menores de quince años. La diferencia lleva creciendo desde hace más de una década.",
+      "No es una anécdota simpática: es la foto de un país que lleva medio siglo teniendo menos hijos. Cada año nacen menos japoneses que el anterior, y el número de casas donde vive una persona sola con un animal sube en paralelo.",
+      "Hay ropa, hoteles, guarderías y hasta seguros médicos para mascotas. Y carritos de bebé que se venden para llevar al perro.",
+    ],
+  },
+  {
+    id: "esparragos-y-el-pis",
+    titular: "Los espárragos le cambian el olor al pis, pero no todo el mundo lo nota",
+    realce: "no todo el mundo lo nota",
+    tema: "Cuerpo",
+    color: "var(--dato-verde)", // el espárrago
+    mas: [
+      "El espárrago lleva un compuesto de azufre que el cuerpo parte en trozos pequeños y volátiles, y esos trozos salen en el pis a los quince o veinte minutos de comértelo. Rapidísimo.",
+      "Aquí viene lo bueno: hay gente que no lo huele. Ni un poco. Depende de una letra concreta del ADN, en la zona de los genes del olfato, y buena parte de la población la tiene cambiada. Para esa gente el pis huele exactamente igual que siempre.",
+      "Durante años se discutió si unos lo producían y otros no. Resultó ser lo otro: lo produce casi todo el mundo, y lo que cambia es quién puede olerlo.",
+    ],
+  },
   {
     id: "luna-maletas",
     titular: "Llegamos a la Luna antes de ponerle ruedas a las maletas",
