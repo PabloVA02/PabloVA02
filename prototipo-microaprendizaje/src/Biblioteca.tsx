@@ -1209,34 +1209,47 @@ export function Inicio({
 
       </div>
 
-      {/* EL REGALO, SIN RÓTULO. Pablo, el 4 de septiembre: «donde pone tu
-          regalo solo pones el emoticono».
+      {/* EL REGALO, EN UN RECUADRO. Pablo, el 5 de septiembre: «no pongas el
+          círculo ese verde en el regalo, quítalo, y pon en cambio un recuadro
+          al lado tu regalo que envuelva todo y quede muy bien y bonito».
 
-          Era una pastilla verde con un lazo dibujado y las palabras «Tu
-          regalo». Ahora es su propio dibujo del regalo y nada más, en un botón
-          redondo. Se entiende igual —un regalo es un regalo— y deja de ser la
-          pieza más ancha de la pantalla flotando encima de las cubiertas.
+          Tres formas ha tenido este botón. Pastilla verde ancha con un lazo
+          dibujado; después, círculo verde con solo el dibujo de Pablo y las
+          palabras fuera; ahora, un marco fino que envuelve las dos cosas.
 
-          `aria-label` porque sin texto no hay nada que leer en voz alta, y
-          quitarle el nombre a un botón es quitárselo a quien no ve el dibujo.
+          Las palabras VUELVEN, y no es dar marcha atrás. Sin rótulo, el botón
+          dependía de que se reconociera un dibujo de 38 puntos; con marco hay
+          sitio para decirlo, porque lo que ocupaba antes no era el texto, era
+          el relleno verde. El `aria-label` sobra ahora: hay texto que leer.
 
-          Late despacio, que es lo que hace que se mire: quieto, un botón
-          redondo en una esquina es un icono más. */}
+          Y el meneo pasa del botón al dibujo. Latiendo entero, un recuadro con
+          letras se mueve como un anuncio; moviéndose solo el regalo, es el
+          regalo el que llama, que es de lo que se trata. */}
       {onOferta && (
         <motion.button
           className="regalo-flota"
           onClick={onOferta}
-          aria-label="Tu regalo"
-          whileTap={{ scale: 0.94 }}
-          initial={{ opacity: 0, y: 14, scale: 0.9 }}
-          animate={{ opacity: 1, y: 0, scale: [1, 1.05, 1] }}
-          transition={{
-            ...springPop,
-            delay: 0.5,
-            scale: { duration: 2.6, repeat: Infinity, ease: "easeInOut", delay: 1.2 },
-          }}
+          whileTap={{ scale: 0.96 }}
+          initial={{ opacity: 0, y: 14, scale: 0.94 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ ...springPop, delay: 0.5 }}
         >
-          <img src={regaloCaja} width={38} height={40} alt="" />
+          <motion.img
+            className="regalo-flota-caja"
+            src={regaloCaja}
+            width={36}
+            height={38}
+            alt=""
+            animate={{ rotate: [0, -7, 6, -4, 0], scale: [1, 1.06, 1, 1.03, 1] }}
+            transition={{
+              duration: 1.5,
+              repeat: Infinity,
+              repeatDelay: 2.6,
+              ease: "easeInOut",
+              delay: 1.4,
+            }}
+          />
+          <span className="regalo-flota-texto">Tu regalo</span>
         </motion.button>
       )}
 

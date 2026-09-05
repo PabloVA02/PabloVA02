@@ -174,14 +174,19 @@ const cabecera = `import type { Foto } from "../shorts";
    en 2:3 exacto —1024 × 1536 en el original—, que es la proporción a la que
    la casilla de la biblioteca está medida, así que entran sin deformarse.
 
-   Se guardan en WebP a ${ANCHO} puntos de ancho e incrustadas como texto. El
-   ancho no es capricho: la casilla mide 148 puntos y la pantalla del móvil
-   pinta a dos, o sea 296 puntos reales; ${ANCHO} da margen de sobra para la ficha
-   del libro y para una pantalla a tres.
+   Se guardan en WebP a ${ANCHO} puntos de ancho, en \`cubiertas/servir/\`. El
+   ancho no es capricho: el sitio más grande donde se pinta una cubierta es la
+   parrilla de dos columnas, 171 puntos, y la pantalla del móvil pinta a dos,
+   o sea 342 reales; ${ANCHO} da margen para eso y para una pantalla a tres.
 
-   Van en su propio fichero y no en \`portadas.ts\` porque son cadenas de cien
-   mil caracteres: metidas ahí dentro, el fichero de las portadas —que se lee
-   y se edita a menudo— dejaría de poderse leer.
+   VAN COMO FICHEROS, NO COMO TEXTO, y desde el 2 de septiembre. Estaban
+   incrustadas en base64 aquí mismo: veinte megas de código que el navegador
+   se bajaba enteros en la primera visita aunque no se mirase ni una cubierta.
+   Medido: 28 MB la primera carga, 27,8 de ellos JavaScript. Como ficheros, la
+   web las emite sueltas y cada una se baja cuando su ficha se ve.
+
+   El simulador no se entera: su compilación las vuelve a incrustar, porque
+   lleva \`assetsInlineLimit\` sin tope. Lo explica \`scripts/saca-cubiertas.mjs\`.
 
    GENERADO por scripts/mete-cubiertas.mjs. Lo único que se escribe a mano
    aquí es el \`alt\`, y el script lo respeta al regenerar.
@@ -222,7 +227,7 @@ const lista = [...todas.values()].sort((a, b) => a.id.localeCompare(b.id, "es"))
 /* Cada cubierta, a su fichero. El nombre sale de la constante, en minúsculas
    y con guiones, que es lo que hizo `saca-cubiertas.mjs` la primera vez. */
 const SERVIR = "cubiertas/servir";
-mkdirSync(new URL(`../${SERVIR}/`, RAIZ), { recursive: true });
+mkdirSync(new URL(`../../${SERVIR}/`, RAIZ), { recursive: true });
 let bytesEscritos = 0;
 for (const e of lista) {
   const archivo = `${e.constante.toLowerCase().replace(/_/g, "-")}.webp`;
@@ -231,7 +236,15 @@ for (const e of lista) {
      nada que decodificar ni que volver a escribir. */
   if (e.uri.startsWith("data:")) {
     const datos = Buffer.from(e.uri.slice(e.uri.indexOf(",") + 1), "base64");
-    writeFileSync(new URL(`../${e.ruta}`, RAIZ), datos);
+    /* DOS PUNTOS ARRIBA, NO UNO. `RAIZ` es `src/libros/`, así que un solo
+       `../` dejaba las cubiertas en `src/cubiertas/servir/` mientras los
+       `import` de `cubiertas.ts` —que llevan `../../`— seguían apuntando a
+       `cubiertas/servir/`, en la raíz. Resultado: el guion decía «8 escritas»,
+       terminaba sin error, y la app seguía enseñando las viejas. Se cazó el 5
+       de septiembre con la tanda de ocho de Pablo, y llevaba roto desde el 2,
+       que es cuando las cubiertas dejaron de ir incrustadas y pasaron a
+       ficheros; no saltó antes porque no hubo ninguna tanda entre medias. */
+    writeFileSync(new URL(`../../${e.ruta}`, RAIZ), datos);
     bytesEscritos += datos.length;
   } else {
     e.ruta = e.uri;

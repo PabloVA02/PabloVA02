@@ -50,13 +50,15 @@ import { minutosDeLibro } from "./Biblioteca";
       que veía justo quien todavía no ha pagado: un cartel en vez del libro.
       Ahora la tarjeta es la misma para los dos y cambia de rótulo:
 
-        sin suscripción   GRATIS HOY  — en verde, y debajo de los botones la
-                          única condición que hay: se acaba a medianoche.
+        sin suscripción   GRATIS HOY  — y debajo de los botones la única
+                          condición que hay: se acaba a medianoche.
         con suscripción   RECOMENDADO HOY
 
-      El verde es el mismo `#6ddc89` de «Tu regalo», que es el color con el
-      que esta app dice que algo no cuesta nada. Y la oferta no se ha perdido:
-      sigue en la pastilla flotante, que es su sitio.
+      El rótulo va en crema y no en color: aquí encima hay una cubierta a toda
+      pantalla, y dos palabras de color sobre una foto se pelean con ella. El
+      «Gratis hoy» de la tira de abajo sí va en color —azul desde el 5 de
+      septiembre— porque allí se lee sobre el fondo liso. Y la oferta no se ha
+      perdido: sigue en el botón flotante, que es su sitio.
    ========================================================================== */
 
 /** Los que pueden salir: escritos a mano y con cubierta dibujada.

@@ -2199,6 +2199,165 @@ Es la única urgencia honesta que hay aquí, y por eso está: no hay plazas
 limitadas ni ofertas que expiran, hay medianoche. A las doce cambian los tres
 libros de verdad.
 
+### El regalo, en un recuadro, y «Gratis hoy» en azul — 5 de septiembre
+
+Pablo: «no pongas el círculo ese verde en el regalo, quítalo, y pon en cambio
+un recuadro al lado tu regalo que envuelva todo y quede muy bien y bonito, y lo
+de gratis hoy ponlo en azul».
+
+**Tercera forma del botón, y la buena.** Pastilla verde ancha con un lazo
+dibujado → círculo verde de 60 con solo el dibujo → marco fino que envuelve el
+dibujo y las palabras.
+
+Lo que fallaba en el círculo, dicho con lo que ya sabíamos: **el verde era un
+disco de color detrás de un regalo coral y oro**, dos cosas peleando en 60
+puntos. Es la misma lección de «¿Sabías que…?» y de la etiqueta de gratis:
+cuando la pieza ya tiene color propio, un fondo de color no se lo da, se lo
+quita. Ahora el color lo pone el dibujo y la caja solo lo enmarca.
+
+**Los dos colores del marco no se eligieron, se midieron.** Con `sharp`,
+contando píxeles opacos del regalo de Pablo: coral `#fb7563` el 40 % del dibujo
+y oro `#f6c351` el 23 %. El filete y las letras son ese oro, así que el marco es
+el propio lazo del regalo estirado alrededor. Fondo negro cálido —`#241d19` a
+`#171310`— y no el gris de la app: contra un naranja, el gris neutro tira a azul
+y ensucia el dibujo.
+
+**Y las palabras vuelven, que no es dar marcha atrás.** Sin rótulo, el botón
+dependía de que se reconociera un dibujo de 38 puntos. Lo que ocupaba sitio
+antes no era el texto: era el relleno verde. Con el marco caben las dos cosas en
+147 × 54, menos de lo que medía la pastilla original.
+
+El meneo pasa del botón al dibujo. Latiendo entero, un recuadro con letras se
+mueve como un anuncio; moviéndose solo el regalo, llama el regalo.
+
+#### El halo que había que quitar
+
+Llevó media hora un halo coral al 18 % detrás del dibujo, para «asentarlo». Al
+ampliarlo a cuatro aumentos se vio lo que era: **sobre un fondo casi negro, un
+color translúcido no ilumina, oscurece.** Lo que se pintaba no era un rescoldo,
+era una mancha granate alrededor del regalo, como una pegatina despegándose.
+Para que un halo alumbre sobre negro tendría que ir casi opaco, y entonces ya
+no es un halo: es el disco de color que Pablo acababa de quitar.
+
+Queda escrito porque el fallo no se ve a tamaño real y sí a cuatro aumentos.
+**Un adorno de menos de un 25 % de alfa sobre fondo oscuro hay que mirarlo
+ampliado o no se sabe qué se ha pintado.**
+
+#### «Gratis hoy» en azul
+
+Él dejó las dos abiertas el 4 —«en verde o azul»— y al verlo eligió azul. Es
+`#0099ff`, el que ya lleva la app en la barra de progreso, en los botones y en
+la pestaña activa: no entra ningún color nuevo. Sobre `#151515` da **6,1 de
+contraste contra los 5,4 del verde**, que a catorce puntos se nota.
+
+Y suelta el verde, que ahora significa una sola cosa. Con «Gratis hoy» en verde,
+ese color decía a la vez «esto es gratis» y «esto lo has hecho» —la marca de
+leído, el progreso—, o sea que no decía ninguna de las dos.
+
+El rótulo GRATIS HOY de la tarjeta del libro del día **no cambia**: sigue en
+crema. Ahí encima hay una cubierta a toda pantalla y dos palabras de color se
+pelean con ella; en la tira de abajo el fondo es liso y el color se lee limpio.
+El comentario de `LibroDelDia.tsx` decía «en verde» y llevaba tiempo mintiendo
+—el CSS era crema desde antes—; queda corregido de paso.
+
+#### Y una trampa de las capturas
+
+**El aviso del regalo sale solo a los pocos segundos y oscurece la pantalla
+entera.** Dos capturas seguidas del mismo arranque salieron distintas por eso, y
+la segunda parecía un fallo de color. Para mirar el botón hay que disparar
+**antes de los 4 segundos**; pasados, lo que se fotografía está detrás del velo.
+
+### OCHO CUBIERTAS NUEVAS, Y LA PARRILLA A LA MEDIDA DE HEADWAY — 5 de septiembre
+
+Pablo: «tengo estas portadas, sustitúyelas por las que ya están y hazlas del
+mismo tamaño que las de Headway y tal». Zip
+`coleccionelegidaredondeada`, diez PNG de 1024 × 1536 con las esquinas
+redondeadas y transparencia real.
+
+**Las ocho, y a qué libro va cada una.** Su `LEEME.txt` las numera y no las
+nombra con el id del catálogo, así que la correspondencia va escrita aquí:
+
+| suyo | id del catálogo |
+| --- | --- |
+| `01-como-ganar-amigos-B` | `amigos-influir` |
+| `02-el-poder-del-ahora-B` | `poder-ahora` |
+| `03-habitos-atomicos-azul-marino` | `habitos-atomicos` |
+| `04-la-psicologia-del-dinero-A` | `psicologia-dinero` |
+| `05-el-infinito-en-un-junco-A` | `infinito-junco` |
+| `06-el-mundo-de-ayer-A` | `mundo-ayer` |
+| `portada-homo-sapiens` | `sapiens` |
+| `portada-homo-deus` | `homo-deus` |
+
+De Sapiens y Homo Deus mandó **dos versiones de cada una** —la normal y una de
+«fondo suave»— sin decir cuál. Se cogieron **las normales**: las suaves son la
+misma ilustración sobre un degradado lavado, y en una estantería de fondo negro
+se ven descoloridas al lado del resto. Si prefiere las otras, están en el zip y
+es cambiar dos ficheros.
+
+Las ocho anteriores **no se han borrado**: están en
+`cubiertas-originales/retiradas/`, con la fecha en el nombre.
+
+#### Las esquinas: se cuadran, y el redondeo lo pone la app
+
+Venían redondeadas de fábrica, con un radio del **7,1 % del ancho**. La app
+redondea sola, y las dos cosas juntas dejaban ocho cubiertas visiblemente más
+redondas que las otras 330 —se veía a simple vista con «Hábitos atómicos» al
+lado de «Los 7 hábitos»—.
+
+`scripts/cuadra-cubiertas.mjs` les devuelve el rectángulo: rellena cada píxel
+transparente con el color opaco más cercano de su propia fila, que en fondos
+planos como estos es invisible. **Su original con el alfa intacto se guarda en
+`cubiertas-originales/`**; lo que se cuadra es solo la copia que sirve la app.
+
+#### «Del mismo tamaño que las de Headway»: eran 148 y ahora son 171
+
+Medido, no estimado. En `referencia/estantes-promesa/`, que es la única
+parrilla de Headway que tenemos, sus cubiertas ocupan **233 px de una captura
+de 520 de ancho** y llegan a los dos márgenes: unos 168 puntos. Las nuestras
+median 148 y dejaban un claro a la derecha.
+
+La culpa era de un `!important`: `.parrilla .portada` clavaba el ancho a
+`--ficha-ancho` dentro de una columna que ya valía `1fr`. La columna medía 171
+y la cubierta 148, y los 23 que sobraban se sumaban al hueco. Quitado eso salen
+**171 × 256**.
+
+El radio pasa de 7 a 8 por pura proporción: los 7 se midieron sobre una
+cubierta de 148 —un 4,7 % del ancho— y ese mismo 4,7 % sobre 171 son 8.
+
+**El carrusel NO cambia.** Allí 148 es lo que deja asomar la tercera cubierta
+por el borde, que es lo que dice que la tira sigue. Dos medidas para dos cosas
+distintas.
+
+#### DOS FALLOS DEL GUION, y uno llevaba tres días callado
+
+**`mete-cubiertas.mjs` escribía en el sitio equivocado.** `RAIZ` es
+`src/libros/`, así que un solo `../` dejaba las cubiertas en
+`src/cubiertas/servir/` mientras los `import` del módulo —que llevan `../../`—
+seguían apuntando a `cubiertas/servir/`, en la raíz. El guion imprimía «8 de
+esta tanda · 0,2 MB escritos», terminaba con código 0, y la app seguía pintando
+las viejas. **Se cazó mirando la fecha del fichero, no el mensaje del guion.**
+
+Llevaba roto desde el 2 de septiembre, que es cuando las cubiertas dejaron de ir
+incrustadas y pasaron a ficheros; no saltó antes porque entre medias no hubo
+ninguna tanda. Es el mismo patrón que el de `movil.mjs`: **un guion que no
+avisa es peor que uno que falla.**
+
+**Y regeneraba la cabecera de `cubiertas.ts` desde una plantilla vieja**, que
+describía el mundo de antes del 2 de septiembre —«incrustadas como texto»— y
+borraba la explicación de por qué van en ficheros. Cada tanda deshacía esa
+documentación en silencio. La plantilla está puesta al día.
+
+#### Las descripciones había que reescribirlas
+
+El guion conserva el `alt` escrito a mano al regenerar, que normalmente es lo
+que se quiere. Aquí no: **la cubierta cambia, así que la descripción de la
+cubierta vieja pasa a ser mentira.** El `alt` de Sapiens hablaba de un perfil
+humano sobre naranja y la nueva es un puño con una antorcha sobre azul. Las
+ocho reescritas a mano mirando las imágenes.
+
+Regla para la próxima tanda: **si el id ya tenía cubierta, su `alt` hay que
+volver a escribirlo.** Conservarlo solo vale para una cubierta nueva.
+
 ### «Gratis hoy»: primero pasó a verde, después perdió la etiqueta
 
 «Ponme un verde mejor, que pegue con el fondo y sea bonito.» Se le pasaron

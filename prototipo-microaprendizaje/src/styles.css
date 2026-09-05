@@ -9082,11 +9082,11 @@ button {
 
 /* --- «Tu regalo» -------------------------------------------------------- */
 
-/* Flota centrada sobre el contenido, por encima de la barra de pestañas. El
-   verde —#6ddc89, muestreado de la captura— es el único color cálido de una
-   pantalla de grises y azul: destaca sin gritar, y es el que se asocia a que
-   algo está disponible y no cuesta nada. La letra va en verde muy oscuro y no
-   en negro: sobre un verde claro, el negro puro corta. */
+/* Flota centrada sobre el contenido, por encima de la barra de pestañas, y no
+   lo empuja: es lo único de esta pantalla que se apoya encima de las cubiertas
+   en vez de hacerles sitio. Por eso pesa tan poco como puede —una línea de
+   texto, un dibujo y un filete— y por eso el hueco de abajo de la columna
+   (`calc(var(--barra) + 88px)`) está calculado contándola. */
 .regalo-flota {
   position: absolute;
   left: 0;
@@ -9103,30 +9103,69 @@ button {
    * ya sumada UNA vez, y se le añade el aire. Así vale para cualquier móvil. */
   bottom: calc(var(--barra) + 18px);
   z-index: 24;
-  /* REDONDO Y SIN RÓTULO desde el 4 de septiembre. Era una pastilla verde de
-     52 de alto con el lazo y las palabras «Tu regalo», y ocupaba media
-     pantalla flotando encima de las cubiertas.
+  /* UN RECUADRO, NI CÍRCULO NI PASTILLA VERDE. Pablo, el 5 de septiembre: «no
+     pongas el círculo ese verde en el regalo, quítalo, y pon en cambio un
+     recuadro al lado tu regalo que envuelva todo».
    *
-   * El fondo se queda VERDE aunque el dibujo sea coral y oro, y no es
-   * descuido: el verde es el color de «esto no cuesta nada» en toda la app
-   * —la pestaña activa, el «Ver libros», el «Gratis hoy»— y este botón es
-   * justo eso. Coral sobre verde suena a choque escrito, pero el dibujo lleva
-   * su propio contorno oro y a 38 puntos se recorta limpio; se probó también
-   * en gris y en crema, y en los dos el botón dejaba de pedir que lo tocaran.
+   * Tercera forma de este botón y la buena. Primero fue una pastilla verde de
+     52 de alto con un lazo dibujado y las palabras, y ocupaba media pantalla
+     flotando encima de las cubiertas. Después, un círculo verde de 60 con solo
+     el dibujo: más pequeño, pero el verde quedaba de disco de color detrás de
+     un regalo coral y oro, dos cosas distintas peleando en 60 puntos.
    *
-   * 60 de lado: es el mínimo cómodo para un botón que flota solo, y el dibujo
-   * a 38 deja once puntos de aire por lado. */
-  width: 60px;
-  height: 60px;
+   * Ahora el color NO lo pone el fondo, lo pone el dibujo, y la caja solo lo
+   * enmarca. Es la misma lección de «¿Sabías que…?» y de «Gratis hoy»: cuando
+   * la pieza ya tiene color propio, ponerle un fondo de color encima se lo
+   * quita en vez de dárselo.
+   *
+   * DE DÓNDE SALEN LOS DOS COLORES. Muestreados del regalo de Pablo con
+   * `sharp`, contando píxeles opacos: coral #fb7563 el 40 % del dibujo y oro
+   * #f6c351 el 23 %. El filete y las letras son ese oro, así que el marco no
+   * es un color elegido: es el propio lazo del regalo estirado alrededor.
+   *
+   * El fondo es un negro CÁLIDO —#241d19 arriba, #191412 abajo—, no el gris de
+   * la app. Sobre #151515 se lee como una sombra con temperatura, y sostiene
+   * el coral sin apagarlo; en gris neutro el mismo dibujo se ve sucio, porque
+   * el gris tira a azul contra un naranja. El degradado va de más claro arriba
+   * a más oscuro abajo, que es como cae la luz en el resto de la app.
+   *
+   * El oro sobre ese fondo da 10,2 de contraste, o sea de sobra para catorce
+   * puntos y medio en negrita. */
+  width: max-content;
   margin: 0 auto;
-  display: grid;
-  place-items: center;
-  border-radius: 999px;
-  background: #6ddc89;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 15px 8px 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(246, 195, 81, 0.36);
+  background: linear-gradient(180deg, #241d19, #171310);
+  /* Tres sombras y cada una hace una cosa. La de fuera lo despega del fondo.
+     El `inset` claro de arriba es el brillo del canto, y el oscuro de abajo su
+     contrasombra: juntos son lo que hace que el filete parezca grabado en el
+     borde y no dibujado encima. Sin el de abajo, el marco se ve plano. */
+  box-shadow:
+    0 14px 32px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(246, 195, 81, 0.2),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.45);
 }
-/* La caja del aviso: el dibujo de Pablo, con el meneo que ya tenía la caja
-   dibujada. `display: block` para que no le salga el renglón de debajo. */
+.regalo-flota-texto {
+  color: #f6c351;
+  font-size: 14.5px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  /* Sin esto la línea base del texto no cuadra con el centro del dibujo: la
+     caja de la fuente es más alta que sus letras y lo empuja hacia abajo. */
+  line-height: 1;
+}
+/* El dibujo, y nada detrás. Llevó un halo coral al 18 % durante media hora y
+   se quitó al ampliarlo: sobre un fondo casi negro, un color translúcido NO
+   ilumina, oscurece. Lo que se pintaba no era un rescoldo, era una mancha
+   granate alrededor del regalo, como si la pegatina estuviera despegándose.
+   Para que un halo alumbre sobre negro tendría que ir casi opaco, y entonces
+   ya no es un halo: es un disco de color, que es justo lo que Pablo quitó.
+   La caja del regalo trae su propio contorno oro y se recorta sola. */
+.regalo-flota-caja { display: block; }
 .regalo-imagen { display: block; }
 
 /* --- Mi biblioteca: lo tuyo, en tres estados ---------------------------- */
@@ -9231,7 +9270,42 @@ button {
   margin-top: 15px;
 }
 .parrilla .ficha { width: 100%; gap: 0; }
-.parrilla .portada { width: var(--ficha-ancho) !important; height: var(--ficha-alto) !important; border-radius: 7px; }
+/* LA CUBIERTA LLENA SU COLUMNA, Y NO SE QUEDA EN 148. Pablo, el 5 de
+   septiembre, mandando la tanda nueva: «hazlas del mismo tamaño que las de
+   Headway».
+
+   Estaba clavada a `--ficha-ancho` con un `!important` dentro de una columna
+   que ya valía `1fr`. O sea: la columna medía 171 y la cubierta 148, y los 23
+   que sobraban se sumaban al hueco de 16 y dejaban 39 de aire entre las dos
+   portadas, con la de la derecha despegada del margen. Medido en la captura de
+   `referencia/estantes-promesa/`, que es la única parrilla de Headway que
+   tenemos: sus cubiertas miden 233 px en una captura de 520 de ancho, o sea
+   unos 168 puntos, y llegan a los dos márgenes. Las nuestras, 148.
+
+   Con `100 %` y la proporción puesta a mano salen **171 × 256** en un móvil de
+   390, que es la medida de Headway con la holgura de que su captura es de 375.
+
+   Y OJO CON `aspect-ratio`. Hay que declararla aquí aunque más arriba haya una
+   regla `.parrilla .portada` que ya la pone: la de arriba dice `1` —cuadrada,
+   de cuando la parrilla era la estantería— y con `height: auto` sería ella la
+   que mandara. Las dos reglas conviven y la de arriba está muerta menos en
+   esto; su comentario sobre `minmax(0, 1fr)` describe un `grid-template` que
+   este bloque pisa siete mil líneas después.
+
+   El carrusel NO cambia: allí 148 es lo que deja asomar la tercera cubierta
+   por el borde, que es lo que dice que la tira sigue. Son dos medidas para dos
+   cosas distintas, no una incoherencia. */
+.parrilla .portada {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 2 / 3;
+  /* 8 y no 7 porque la cubierta ha crecido. Los 7 del carrusel se midieron en
+     la captura de Headway sobre una cubierta de 148 —el arco toca el filo 13
+     px más abajo, 6,5 puntos—, o sea un 4,7 % del ancho. Sobre los 171 de la
+     parrilla ese mismo 4,7 % son 8. No es una opinión nueva: es el número de
+     antes puesto a la medida de ahora. */
+  border-radius: 8px;
+}
 .guardados .bloque-sub { padding: 0 var(--shell-pad); }
 
 .guardados-vacio {
@@ -12960,7 +13034,21 @@ button {
    que se mira, y una banda de color encima le quita sitio y le tapa el canto
    de arriba.
 
-   Dos palabras en verde dicen lo mismo, y ahora la cubierta entera se ve.
+   Dos palabras de color dicen lo mismo, y ahora la cubierta entera se ve.
+
+   EN AZUL Y NO EN VERDE, desde el 5 de septiembre: él dejó las dos abiertas
+   —«en verde o azul»— y al verlo eligió azul. Y sale mejor de lo que parece:
+
+   · Es el #0099ff que ya lleva la app en la barra de progreso, en los botones
+     y en la pestaña activa. No entra ningún color nuevo.
+   · Sobre el fondo #151515 da 6,1 de contraste, contra los 5,4 del verde. A
+     catorce puntos eso se nota.
+   · Y suelta el verde, que ahora significa una sola cosa. Con «Gratis hoy» en
+     verde, ese color decía a la vez «esto es gratis» y «esto lo has hecho»
+     —la marca de leído, el progreso—, o sea que no decía ninguna de las dos.
+
+   Lo que NO cambia es la palabra: sigue diciendo «Gratis hoy». El color es
+   el tono de voz, no el mensaje.
 
    El renglón se queda con el alto que ocupa la letra y nada más, y va debajo
    de la cubierta y no encima: arriba obligaba a que todas las cubiertas de la
@@ -12969,7 +13057,7 @@ button {
 .gratis-etiqueta {
   order: 1;
   margin-top: 9px;
-  color: var(--verde);
+  color: #0099ff;
   font-size: 14px;
   font-weight: 730;
   letter-spacing: 0.01em;

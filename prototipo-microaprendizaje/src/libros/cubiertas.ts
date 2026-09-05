@@ -8,10 +8,10 @@ import type { Foto } from "../shorts";
    en 2:3 exacto —1024 × 1536 en el original—, que es la proporción a la que
    la casilla de la biblioteca está medida, así que entran sin deformarse.
 
-   Se guardan en WebP a 520 puntos de ancho. El ancho no es capricho: la
-   casilla mide 148 puntos y la pantalla del móvil pinta a dos, o sea 296
-   puntos reales; 520 da margen de sobra para la ficha del libro y para una
-   pantalla a tres.
+   Se guardan en WebP a 520 puntos de ancho, en `cubiertas/servir/`. El
+   ancho no es capricho: el sitio más grande donde se pinta una cubierta es la
+   parrilla de dos columnas, 171 puntos, y la pantalla del móvil pinta a dos,
+   o sea 342 reales; 520 da margen para eso y para una pantalla a tres.
 
    VAN COMO FICHEROS, NO COMO TEXTO, y desde el 2 de septiembre. Estaban
    incrustadas en base64 aquí mismo: veinte megas de código que el navegador
@@ -365,7 +365,6 @@ import YO_SOY_EL_DIEGO from "../../cubiertas/servir/yo-soy-el-diego.webp";
 import ZARATUSTRA from "../../cubiertas/servir/zaratustra.webp";
 import ZONAS_AZULES from "../../cubiertas/servir/zonas-azules.webp";
 
-
 export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
   "1984": {
     local: LIBRO_1984,
@@ -449,7 +448,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: AMIGOS_INFLUIR,
     autor: "Cómo ganar amigos e influir sobre las personas, de Dale Carnegie.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Cómo ganar amigos e influir sobre las personas»: sobre azul, cuatro manos alrededor de una mesa naranja con cafés, un cuaderno y tres bocadillos de diálogo; en el mayor se lee «escuchar abre puertas».",
+    alt: "La cubierta de «Cómo ganar amigos e influir sobre las personas»: sobre crema, un apretón de manos entre un brazo naranja de manga azul y otro amarillo de manga verde; arriba a la derecha, «el arte de conectar con los demás»; el título abajo, en azul marino y azul eléctrico.",
   },
   "amor-liquido": {
     local: AMOR_LIQUIDO,
@@ -1211,7 +1210,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: HABITOS_ATOMICOS,
     autor: "Hábitos atómicos, de James Clear.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Hábitos atómicos»: sobre azul noche, una figura sube una escalera de cuadrados de colores que arranca desperdigada y acaba en una estrella dorada, dentro de un círculo crema.",
+    alt: "La cubierta de «Hábitos atómicos»: sobre azul noche sembrado de puntos azules brillantes, el título en blanco y debajo «cambios pequeños, resultados extraordinarios».",
   },
   "hablo-correr": {
     local: HABLO_CORRER,
@@ -1295,7 +1294,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: HOMO_DEUS,
     autor: "Homo Deus, de Yuval Noah Harari.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Homo Deus»: una mano abierta sostiene un sol dorado con una doble hélice dentro, rodeada de circuitos sobre azul noche.",
+    alt: "La cubierta de «Homo Deus»: sobre morado oscuro, una mano robótica azul sostiene un cerebro rosa coronado por un halo verde limón; el título en blanco y debajo «breve historia del mañana».",
   },
   "homo-sovieticus": {
     local: HOMO_SOVIETICUS,
@@ -1331,7 +1330,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: INFINITO_JUNCO,
     autor: "El infinito en un junco, de Irene Vallejo.",
     licencia: "Obra propia",
-    alt: "La cubierta de «El infinito en un junco»: sobre azul noche, un símbolo de infinito hecho de papiro que recorre templos, vasijas, pinturas rupestres y libros abiertos, con una mata de juncos creciendo en el centro.",
+    alt: "La cubierta de «El infinito en un junco»: sobre crema, un papiro enrollado y retorcido en forma de símbolo de infinito, verde y rojo por dentro; el título en morado y arriba «la invención de los libros en el mundo antiguo».",
   },
   "influencia": {
     local: INFLUENCIA,
@@ -1673,7 +1672,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: MUNDO_AYER,
     autor: "El mundo de ayer, de Stefan Zweig.",
     licencia: "Obra propia",
-    alt: "La cubierta de «El mundo de ayer»: sobre granate, una ventana en arco partida en dos, con una Viena luminosa de cafés y cúpulas a un lado y un andén de tren azulado con una maleta al otro.",
+    alt: "La cubierta de «El mundo de ayer»: sobre azul grisáceo, la silueta granate de una ciudad europea de agujas, cúpulas y tejados con un sol verde limón, que se deshace en fragmentos hacia la derecha; el título en blanco y verde limón, y arriba «memorias de un europeo».",
   },
   "mundo-demonios": {
     local: MUNDO_DEMONIOS,
@@ -1901,7 +1900,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: PODER_AHORA,
     autor: "El poder del ahora, de Eckhart Tolle.",
     licencia: "Obra propia",
-    alt: "La cubierta de «El poder del ahora»: sobre naranja, una ventana blanca abierta por la que se ve un cielo azul con el sol y una línea de mar.",
+    alt: "La cubierta de «El poder del ahora»: sobre lila, una flor de loto de pétalos rosas, naranjas y azules con el pétalo central amarillo, que lleva el título dentro; debajo, dos ondas azules de agua.",
   },
   "poder-de-la-presencia": {
     local: PODER_DE_LA_PRESENCIA,
@@ -1985,7 +1984,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: PSICOLOGIA_DINERO,
     autor: "La psicología del dinero, de Morgan Housel.",
     licencia: "Obra propia",
-    alt: "La cubierta de «La psicología del dinero»: sobre crema, una balanza de dos platos con una casita en uno y unas bolsas de dinero en el otro, con un hilo verde enredado abajo.",
+    alt: "La cubierta de «La psicología del dinero»: sobre rosa pálido, una mano roja de puño azul sostiene una moneda dorada enorme con el título encima en azul marino; arriba a la izquierda, «cómo piensan los ricos», y a la derecha una naranja con su hoja.",
   },
   "pulgar-panda": {
     local: PULGAR_PANDA,
@@ -2111,7 +2110,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: SAPIENS,
     autor: "Sapiens, de Yuval Noah Harari.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Homo Sapiens»: un perfil humano recortado sobre naranja, con una ciudad de noche, un campo de trigo con aldea y una mano en negativo junto a un bifaz.",
+    alt: "La cubierta de «Homo Sapiens»: sobre azul, un puño naranja levanta una antorcha de llama amarilla; el título arriba en azul marino y debajo «de animales a dioses».",
   },
   "secreto-byrne": {
     local: SECRETO_BYRNE,
