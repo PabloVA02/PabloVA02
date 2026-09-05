@@ -2358,6 +2358,35 @@ ocho reescritas a mano mirando las imágenes.
 Regla para la próxima tanda: **si el id ya tenía cubierta, su `alt` hay que
 volver a escribirlo.** Conservarlo solo vale para una cubierta nueva.
 
+#### Tanda 1: cuatro más, el 5 de septiembre por la tarde
+
+Mandó `tanda1.zip`, que trae **las mismas diez de antes más cuatro nuevas**. Las
+ocho ya metidas venían byte a byte idénticas —comprobado con `md5sum`, que es lo
+que hay que hacer antes de volver a procesar nada—, así que solo entraron las
+cuatro:
+
+| suyo | id del catálogo |
+| --- | --- |
+| `07-pensar-rapido-pensar-despacio-B` | `pensar-rapido` |
+| `08-el-poder-de-los-habitos-A` | `poder-habitos` |
+| `09-los-7-habitos-A` | `siete-habitos` |
+| `10-padre-rico-padre-pobre-A-cerdito-simple` | `padre-rico` |
+
+Mismo camino que las ocho, y ya son cuatro pasos fijos:
+
+    1. mover las viejas a cubiertas-originales/retiradas/<id>-<mes>.webp
+    2. node scripts/archiva-cubiertas.mjs <carpeta>      el original con su alfa
+    3. node scripts/cuadra-cubiertas.mjs <carpeta> <copia>   las esquinas
+    4. node scripts/mete-cubiertas.mjs <copia> --ancho 520
+
+Y el quinto, que no es un guion: **reescribir a mano los cuatro `alt`.** El
+dibujo cambió, así que la descripción del anterior pasa a ser mentira.
+
+**El ancho es 520 y no el 480 por defecto**, que es lo que tienen las otras 334.
+Pasar el `--ancho` no es opcional en una sustitución: sin él la cubierta nueva
+entra a menos resolución que sus vecinas y en la parrilla de 171 puntos a tres
+aumentos se nota.
+
 ### LA PANTALLA DE LA OFERTA, CALCADA — 5 de septiembre
 
 Pablo mandó una captura de la pantalla de pago de Headway: «la captura házmela

@@ -1822,7 +1822,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: PADRE_RICO,
     autor: "Padre rico, padre pobre, de Robert Kiyosaki.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Padre rico, padre pobre»: una hucha partida por la mitad, con una caja fuerte y monedas guardadas a un lado y un árbol creciendo desde sus raíces al otro, y dos manos echando una moneda en cada mitad.",
+    alt: "La cubierta de «Padre rico, padre pobre»: sobre azul pálido, una hucha rosa con forma de cerdito y una moneda dorada con el símbolo del dólar que flota atada de un hilo, como un globo; el título en morado y debajo «aprende a hacer que el dinero trabaje para ti».",
   },
   "pajaro-a-pajaro": {
     local: PAJARO_A_PAJARO,
@@ -1852,7 +1852,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: PENSAR_RAPIDO,
     autor: "Pensar rápido, pensar despacio, de Daniel Kahneman.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Pensar rápido, pensar despacio»: la portada partida en diagonal, naranja arriba y azul noche abajo; un avión de papel sube por una línea quebrada y otro baja por una curva larga.",
+    alt: "La cubierta de «Pensar rápido, pensar despacio»: sobre verde menta pálido, un caracol de concha dorada con la espiral azul y, detrás, una vela azul; el título en dos voces —«pensar rápido» en cursiva azul y «pensar despacio» en marrón— y un recuadro blanco con «dos formas de pensar, una mente».",
   },
   "perfume": {
     local: PERFUME,
@@ -1912,7 +1912,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: PODER_HABITOS,
     autor: "El poder de los hábitos, de Charles Duhigg.",
     licencia: "Obra propia",
-    alt: "La cubierta de «El poder de los hábitos»: sobre verde botella, un hombre empuja una ficha de dominó roja en un circuito de fichas que da la vuelta y termina subiendo hacia un sol.",
+    alt: "La cubierta de «El poder de los hábitos»: sobre verde menta pálido, una zapatilla de correr coral con los cordones granate; el título con «HÁBITOS» en grande y en granate, y un bocadillo perfilado con «por qué hacemos lo que hacemos en la vida y en el trabajo».",
   },
   "poder-introvertidos": {
     local: PODER_INTROVERTIDOS,
@@ -2182,7 +2182,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: SIETE_HABITOS,
     autor: "Los 7 hábitos de la gente altamente efectiva, de Stephen Covey.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Los 7 hábitos de la gente altamente efectiva»: sobre naranja, siete arcos de colores con paisajes dentro, un camino claro que los atraviesa y dos personas dándose la mano en el centro.",
+    alt: "La cubierta de «Los 7 hábitos de la gente altamente efectiva»: sobre crema, una hoja verde hace de vela sobre un casco de barco granate; el título en granate y debajo «lecciones magistrales sobre el cambio personal».",
   },
   "siete-lecciones-fisica": {
     local: SIETE_LECCIONES_FISICA,
