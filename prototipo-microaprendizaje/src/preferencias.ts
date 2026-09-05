@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
+import type { Idioma } from "./idiomas";
 
 /* ==========================================================================
    Las preferencias del usuario.
@@ -23,6 +24,11 @@ export type Preferencias = {
   edad: string;
   /** Por dónde llegó a la app. Se pregunta una vez, en la introducción. */
   origen: string;
+  /** EL IDIOMA DE LA INTERFAZ, y no el de los libros. Son dos cosas y por eso
+   *  son dos campos: este lo cambia un interruptor y se ve en el acto; el de
+   *  abajo depende de que alguien escriba 400 resúmenes en otro idioma. */
+  idiomaApp: Idioma;
+  /** El idioma en que están escritos los resúmenes y las historias. */
   idioma: string;
   nivel: string;
   seguidos: string[];
@@ -44,6 +50,7 @@ export const POR_DEFECTO: Preferencias = {
   genero: "Sin decir",
   edad: "Sin decir",
   origen: "Sin decir",
+  idiomaApp: "es",
   idioma: "Español",
   nivel: "Sin definir",
   seguidos: [],
@@ -140,7 +147,12 @@ export function usePreferencias() {
     const raiz = document.documentElement;
     raiz.dataset.tema = tema;
     raiz.style.setProperty("--texto-escala", String(FACTOR[prefs.escala]));
-  }, [tema, prefs.escala]);
+    /* `lang` en la raíz no es decorado: de él dependen el guionado, las
+       comillas tipográficas y, sobre todo, qué voz usa un lector de pantalla.
+       Un texto en inglés dentro de un documento marcado como español se lee
+       con acento español y no se entiende. */
+    raiz.lang = prefs.idiomaApp;
+  }, [tema, prefs.escala, prefs.idiomaApp]);
 
   useEffect(() => escribir(prefs), [prefs]);
 

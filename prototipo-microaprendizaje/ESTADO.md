@@ -2578,6 +2578,99 @@ Ciencia: **dos cerebros en la misma pantalla**, que es justo la colisión contra
 la que avisa la nota del propio fichero. Aguanta hasta que Pablo mande uno; no
 es una solución, es un parche que se ve.
 
+### LOS AJUSTES, REHECHOS ENTEROS, Y EL IDIOMA QUE FUNCIONA — 5 de septiembre
+
+Pablo mandó dos capturas —Headway y Wiser— y dijo: «elimina todo lo que tenemos
+y haz una combinación de diseños entre estas dos, poniendo también los elementos
+que para nosotros son necesarios; el cambio de idioma me gustaría que fuera como
+una pestaña que se abre y ahí puedes cambiarlo automáticamente en la app».
+
+#### La combinación, y por qué esa
+
+| | Headway (oscura) | Wiser (clara) | se coge |
+| --- | --- | --- | --- |
+| fondo | negro | gris claro | **Headway** |
+| estructura | lista pelada | tarjetas por grupo | **Wiser** |
+| flecha | no | chevrón en cada fila | **Wiser** |
+| valor a la derecha | no | sí | **Wiser** |
+| iconos | ninguno | ninguno | **ninguno** |
+| botón final | azul, ancho completo | texto azul | **Headway** |
+| versión | debajo | debajo | las dos |
+
+La estructura de Wiser es la que aguanta quince filas; la lista pelada de
+Headway se lee bien con diez y se vuelve un muro con veinte.
+
+**Se fueron los veinticuatro iconos.** Ninguna de las dos referencias tiene ni
+uno, y con razón: una lista de ajustes se busca **por la palabra**, no por el
+dibujo, y veinticuatro dibujos distintos en columna son ruido con forma de
+ayuda.
+
+**Y se fue la mitad de las filas.** Estaban en veinticuatro repartidas en siete
+grupos: identidad de género, edad, cómo nos conociste, nivel de lectura, temas
+silenciados, sincronizar, descargar sin conexión, valorar en la tienda, proponer
+un tema, preguntas frecuentes, reportar un error, analítica… casi todas
+preguntas que la app hacía y luego no usaba. Quedan **quince en cinco grupos**.
+El fichero viejo está entero en el historial de git.
+
+Lo que se queda por ser nuestro: apariencia y tamaño del texto —los dos cambian
+la app de verdad—, los temas que sigues, el objetivo diario y **los créditos de
+las imágenes**, que no es un capricho legal: es la prueba de que cada fotografía
+se obtuvo como se debía.
+
+Dos cosas en las que NO se copia a ninguna de las dos:
+
+- **El rótulo de cada grupo.** Wiser no los lleva; aquí sí, porque nuestros
+  grupos son cinco y no tres, y cinco tarjetas seguidas sin nombre se leen como
+  una sola lista partida.
+- **«Borrar cuenta» en rojo.** Las dos lo pintan igual que las demás filas, y
+  ahí las dos se equivocan: la fila que borra tu cuenta no puede parecerse a la
+  que abre los términos de uso.
+
+#### EL IDIOMA: qué cambia y qué no
+
+`src/idiomas.ts`, nuevo. Seis idiomas —español, inglés, portugués, francés,
+alemán e italiano—, un diccionario por idioma y un `traduce()` que **cae al
+español** si a un idioma le falta una clave: un hueco se ve raro, pero una
+pantalla que dice «aj.idioma» está rota.
+
+El cambio es **inmediato**: se toca el idioma, se guarda en las preferencias y
+React vuelve a pintar. La pantalla que hay detrás ya está traducida cuando la
+hoja termina de bajar. No hay «Guardar» y no hay que reiniciar.
+
+Traducido hoy: **la pantalla de ajustes entera y la barra de pestañas**. La
+barra es lo que se ve en todas las pantallas, así que es lo primero después de
+los propios ajustes; sin ella, cierras la hoja en inglés y abajo sigue poniendo
+«Libros».
+
+**Y LOS VALORES TAMBIÉN SE TRADUCEN**, que es donde esto se hace mal casi
+siempre: con la app en inglés, una fila que diga «Appearance — Automática» está
+a medio traducir y se ve peor que si no se hubiera traducido nada. El rótulo y
+su valor son una sola frase, así que «Automática», «Normal» y «min» salen del
+diccionario y no de `NOMBRE_APARIENCIA`.
+
+#### DOS FILAS DE IDIOMA, Y NO UNA. Esto es lo importante
+
+    Idioma de la aplicación   ← la interfaz. Funciona.
+    Idioma del contenido      ← los libros. Hoy solo español.
+
+**Ningún interruptor traduce los 400 resúmenes y las 225 historias.** Están
+escritos en español, a mano, uno a uno; traducirlos es volver a escribirlos.
+Meter las dos cosas en una sola fila sería prometer que al tocar «English» la
+app entera pasa a estar en inglés, y no es verdad. Por eso son dos filas, y por
+eso el pie de cada hoja lo dice con todas las letras.
+
+**`lang` en la raíz** se actualiza con el idioma, y no es decorado: de él
+dependen el guionado, las comillas tipográficas y, sobre todo, **qué voz usa un
+lector de pantalla**. Un texto en inglés dentro de un documento marcado como
+español se lee con acento español y no se entiende.
+
+#### Lo que falta, dicho claro
+
+La interfaz traducida es la de ajustes y la barra. **El resto de la app sigue en
+español**: el inicio, el buscador, la biblioteca, el lector. Se traduce igual
+—una clave por texto y `t()` donde estaba la cadena— y es un rato por pantalla,
+no un problema. El mecanismo ya está montado y probado.
+
 ### LA PANTALLA DE LA OFERTA, CALCADA — 5 de septiembre
 
 Pablo mandó una captura de la pantalla de pago de Headway: «la captura házmela

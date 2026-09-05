@@ -18,6 +18,7 @@ import { Estadisticas } from "./Estadisticas";
 import type { Semana } from "./Crecimiento";
 import { Ajustes } from "./Ajustes";
 import { usePreferencias } from "./preferencias";
+import { traduce, type Clave, type Idioma } from "./idiomas";
 import { AntiScroll } from "./AntiScroll";
 import { Lector } from "./Lector";
 import { FinResumen } from "./FinResumen";
@@ -864,6 +865,7 @@ export default function App() {
 
         <BarraPestanas
           visible={CON_BARRA.includes(pantalla)}
+          idioma={preferencias.prefs.idiomaApp}
           activa={
             pantalla === "shorts"
               ? "shorts"
@@ -910,14 +912,22 @@ type Tab = "libros" | "shorts" | "sabias" | "explorar" | "biblioteca";
 function BarraPestanas({
   visible,
   activa,
+  idioma = "es",
   onIr,
 }: {
   visible: boolean;
   activa: Tab;
+  /* LOS RÓTULOS SE TRADUCEN. Es la otra mitad de lo que pidió Pablo el 5 de
+     septiembre: de nada sirve una pestaña de idiomas si al cerrarla la barra
+     de abajo sigue diciendo «Libros». La barra es lo que se ve en todas las
+     pantallas, así que es lo primero que hay que traducir después de los
+     propios ajustes. */
+  idioma?: Idioma;
   onIr: (t: Tab) => void;
 }) {
+  const t = (c: Clave) => traduce(idioma, c);
   const tabs: { id: Tab; nombre: string; Icono: (p: { tamano?: number }) => ReactElement }[] = [
-    { id: "libros", nombre: "Libros", Icono: GlyphLibros },
+    { id: "libros", nombre: t("nav.libros"), Icono: GlyphLibros },
     /* SHORTS ES ESTA, Y SOLO ESTA. Pablo, el 3 de septiembre: «quita los shorts
        antiguos pero no los borres, deja los v2, y le cambias el nombre: le
        pones Shorts con el rayo».
@@ -937,12 +947,12 @@ function BarraPestanas({
        Con la pestaña quitada, `activa` no encuentra a quién marcar cuando se
        entra por `?p=shorts`: la barra sale sin pastilla. Es lo que toca —esa
        pantalla ya no es una sección— y sirve para volver a las que sí. */
-    { id: "sabias", nombre: "Shorts", Icono: GlyphRayo },
+    { id: "sabias", nombre: t("nav.shorts"), Icono: GlyphRayo },
     /* Explorar va en tercer lugar, como en las dos referencias: es la
        pantalla a la que se entra a buscar algo, y buscar viene después de
        mirar lo que te proponen y antes de volver a lo que ya es tuyo. */
-    { id: "explorar", nombre: "Explorar", Icono: GlyphLupa },
-    { id: "biblioteca", nombre: "Biblioteca", Icono: GlyphBiblioteca },
+    { id: "explorar", nombre: t("nav.explorar"), Icono: GlyphLupa },
+    { id: "biblioteca", nombre: t("nav.biblioteca"), Icono: GlyphBiblioteca },
   ];
 
   return (
