@@ -2436,6 +2436,36 @@ tocar el guion de procesado, que estaba bien. Lo que cortaba era una tecla
 puesta encima, y eso no lo dice ningún número de imagen: se ve poniendo la
 cubierta que pinta la app al lado del PNG que él manda.
 
+### LA BARRA DE «SEGUIR LEYENDO», EN AZUL — 5 de septiembre
+
+Pablo: «la barra de seguir leyendo de arriba en la sección libros, ponla del
+azul de gratis hoy». Estaba en el verde `#6ddc89`; ahora es `#0099ff`.
+
+Y el cambio ordena la app en vez de solo cambiar un color. **El azul pasa a ser
+el color del avance y nada más**: la barra de esta pastilla, la que va bajo cada
+cubierta —que ya era `#0099ff` porque salió calcada de una captura de Headway—,
+los botones y la pestaña activa. Con esta barra en verde, el verde tenía que
+decir a la vez «esto es gratis» y «esto lo llevas leído», o sea que no decía
+ninguna de las dos. Es el mismo movimiento que sacó «Gratis hoy» del verde ayer.
+
+**Y una trampa para la próxima vez: la clase es `.curso-*`, no `.seguir-*`.**
+En `styles.css` hay dos juegos de reglas con nombre de «seguir leyendo» y solo
+uno pinta. `.seguir-barra` / `.seguir-relleno` / `.tarjeta-seguir` son de una
+maqueta anterior, medida sobre un vídeo de la referencia, y **no las usa ningún
+componente**: `grep` por `tarjeta-seguir` en `src/*.tsx` no devuelve nada.
+Cambiar ahí el color no habría hecho absolutamente nada y habría costado un
+viaje. Queda avisado en el propio CSS, encima de las reglas muertas.
+
+Se dejan y no se borran porque sus medidas del vídeo —barra de 4 puntos,
+interlínea de 16,5— siguen valiendo si algún día se vuelve a esa forma.
+
+**Cómo se comprueba sin poder verlo.** La barra estaba al 0 % en el contenedor,
+porque el avance sale de `curva.paginas` en el almacenamiento local y ahí no
+había nada: invisible aunque el color fuera el correcto. Se leyó con
+`getComputedStyle(...).backgroundColor` —`rgb(0, 153, 255)`— y para la captura
+se le forzó un `scaleX(0.45)` desde la consola. **Un elemento de ancho cero se
+comprueba por su estilo calculado, no por la foto.**
+
 ### LA PANTALLA DE LA OFERTA, CALCADA — 5 de septiembre
 
 Pablo mandó una captura de la pantalla de pago de Headway: «la captura házmela

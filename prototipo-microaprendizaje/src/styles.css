@@ -1171,6 +1171,11 @@ button {
 }
 .seguir-sub { margin: 0; font-size: 12.5px; color: var(--ink-soft); }
 
+/* OJO: `.seguir-*` y `.tarjeta-seguir` NO LOS PINTA NADIE. Son de la maqueta
+   anterior de «Seguir leyendo», medida sobre un vídeo de la referencia. La
+   pastilla que hay hoy en el inicio usa `.curso-*`, unas ochenta líneas más
+   abajo, y es la que hay que tocar. Se dejan porque las medidas del vídeo
+   —barra de 4 puntos, interlínea de 16,5— siguen valiendo si se vuelve. */
 .seguir-barra {
   margin-top: 5px;
   height: 6px;
@@ -9129,10 +9134,23 @@ button {
   background: rgba(255, 255, 255, 0.14);
   overflow: hidden;
 }
+/* AZUL, EL MISMO #0099ff DE «GRATIS HOY». Pablo, el 5 de septiembre: «la barra
+   de seguir leyendo de arriba en la sección libros, ponla del azul de gratis
+   hoy». Estaba en el verde #6ddc89.
+ *
+ * Y el cambio ordena la app en vez de solo cambiar un color. Este azul es ya el
+ * de la barra de progreso de las cubiertas, el de los botones, el de la pestaña
+ * activa y, desde ayer, el de «Gratis hoy». Con esta barra en verde, el verde
+ * decía a la vez «esto es gratis» y «esto lo llevas leído», o sea que no decía
+ * ninguna de las dos; ahora **el azul es el avance y el verde es otra cosa.**
+ *
+ * Las dos barras de leer quedan además del mismo color: esta, que es el avance
+ * de la pastilla de arriba, y la de debajo de cada cubierta, que ya era
+ * #0099ff porque salió calcada de una captura de Headway. */
 .curso-relleno {
   display: block;
   height: 100%;
-  background: #6ddc89;
+  background: #0099ff;
   transform-origin: left;
 }
 

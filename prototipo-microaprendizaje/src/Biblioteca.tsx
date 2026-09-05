@@ -1029,7 +1029,10 @@ export function Inicio({
 
             La forma sale de su captura: pastilla entera, la cubierta a la
             izquierda, la ceja pequeña encima del título y la barra de avance
-            corriendo por el filo de abajo, en verde. */}
+            corriendo por el filo de abajo. En AZUL desde el 5 de septiembre
+            —lo pidió Pablo—, que es el mismo #0099ff de «Gratis hoy» y de la
+            barra que va bajo cada cubierta. Era verde, y el verde tenía que
+            decir dos cosas a la vez. */}
         <motion.button
           className="pastilla-curso"
           onClick={() => onAbrir(destacado)}
