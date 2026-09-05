@@ -3327,10 +3327,14 @@ button {
 .busca-fila:first-child { border-top: 0; }
 .busca-fila:active { opacity: 0.55; }
 
+/* 44 × 66 y no 44 × 58. Una cubierta es 2:3 exacto, y en una caja de 0,759
+   con `object-fit: cover` se perdían ocho puntos de alto: cuatro por arriba y
+   cuatro por abajo. Ocho de 66 es un 12 %, y en una cubierta el 12 % de arriba
+   suele ser el nombre del autor o la primera línea del título. */
 .busca-mini {
   flex: none;
   width: 44px;
-  height: 58px;
+  height: 66px;
   border-radius: 7px;
   overflow: hidden;
 }
@@ -8994,37 +8998,36 @@ button {
 
 /* --- El botón de guardar de la ficha ------------------------------------ */
 
-/* El botón de guardar: 60 × 58 px en la captura → 30 × 29 puntos, con el
-   filo derecho 11 px por fuera de la cubierta y el de arriba 12 por encima.
-   Lleva relleno #383838 y un filete #606060 de un punto, que es lo que lo
-   despega de una cubierta oscura. */
+/* EL MARCADOR, EN EL RENGLÓN DEL AUTOR Y NO SOBRE LA CUBIERTA.
+ *
+ * Era una pastilla de 30 × 30 con relleno #383838 y filete #606060, pegada a
+ * la esquina de arriba a la derecha y asomando seis puntos por fuera y por
+ * encima. Estaba calcada de la referencia de Headway y bien medida.
+ *
+ * Pablo, el 5 de septiembre: «los libros están cortados por arriba en muchos
+ * casos, no los cortes en absoluto, debes ponerlo tal cual te los paso». Y es
+ * la segunda vez: el 4 sacó de la cubierta el botón de descargar y los tres
+ * puntos con las mismas palabras —«que no tape la portada»— y este se quedó.
+ *
+ * Tapaba unos 24 × 24 de la esquina de CADA cubierta de cada parrilla y cada
+ * tira. En la parrilla de dos columnas son cuatro cubiertas en pantalla y las
+ * cuatro con el pico comido, que es de donde sale su «en muchos casos».
+ *
+ * Ahora hereda de `.ficha-menu` —mismo sitio, mismo tamaño, misma sangría a la
+ * derecha— y no lleva ni fondo ni filete: sobre el fondo de la pantalla no le
+ * hacen falta, y eran justo lo que lo convertía en una pegatina encima del
+ * dibujo. Se queda el azul de guardado, que es lo único que tiene que decir. */
 .ficha-arte { position: relative; }
-.ficha-guardar {
-  position: absolute;
-  top: -6px;
-  right: -6px;
-  z-index: 2;
-  width: 30px;
-  height: 30px;
-  border-radius: 8px;
-  background: #383838;
-  border: 1px solid #606060;
-  display: grid;
-  place-items: center;
-  color: #fff;
-}
-.ficha-guardar svg { width: 16px; height: 16px; }
+.ficha-guardar svg { width: 17px; height: 17px; }
 /* El rebote va en esta capa y no en el botón: escalando la caja se mueven con
    ella el filete y la esquina de la cubierta, y parece que tiembla la ficha. */
 .guardar-icono { display: grid; place-items: center; }
-/* Guardado: azul macizo. Es el mismo azul de la franja de lectura gratuita,
-   que es el único acento de esta pantalla; meter un segundo tono aquí
-   inventaría un color que no está en la referencia. */
-.ficha-guardar[data-guardado="true"] {
-  background: #4397f7;
-  border-color: #4397f7;
-  color: #fff;
-}
+/* Guardado: el icono en azul. Antes era la pastilla entera la que se llenaba
+   de azul macizo; ahora que no hay pastilla, el color va en el trazo. Es el
+   mismo azul de la franja de lectura gratuita, el único acento de esta
+   pantalla. En reposo el marcador va en el gris #8d8d8d que hereda de
+   `.ficha-menu`, o sea el mismo que los tres puntos. */
+.ficha-guardar[data-guardado="true"] { color: #4397f7; }
 /* La hoja del libro: el mismo estado en su botón redondo, que allí es blanco
    con el icono oscuro, así que guardado se le da la vuelta. */
 .detalle-acciones .accion-redonda[data-guardado="true"] {

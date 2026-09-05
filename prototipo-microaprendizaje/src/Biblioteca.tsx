@@ -695,42 +695,24 @@ export function FichaLibro({
       animate={{ opacity: 1, y: 0 }}
       transition={{ ...spring, delay: 0.06 + i * 0.05 }}
     >
+      {/* EL MARCADOR YA NO VA ENCIMA DE LA CUBIERTA. Estaba asomando por la
+          esquina de arriba a la derecha, seis puntos por fuera y por arriba,
+          calcado de la referencia de Headway.
+
+          Pablo, el 5 de septiembre: «los libros están cortados por arriba en
+          muchos casos, no los cortes en absoluto, debes ponerlo tal cual te
+          los paso». Y no es la primera vez: el 4 de septiembre ya sacó de la
+          cubierta el botón de descargar y los tres puntos —«ponlo en otro lado
+          que no tape la portada»—, y el marcador se quedó. Medido, tapaba unos
+          24 × 24 de la esquina de cada cubierta de cada parrilla y cada tira,
+          o sea de casi todas las que se ven a la vez.
+
+          Baja al renglón del autor, que es exactamente donde ya viven los tres
+          puntos de la biblioteca y por el mismo motivo: ese renglón existe,
+          tiene sitio de sobra a la derecha y no tapa nada. Los dos no salen
+          nunca a la vez —el marcador fuera de la biblioteca, los tres puntos
+          dentro—, así que ocupan la misma esquina sin estorbarse. */}
       <div className="ficha-arte">
-        {/* Guardar, asomando por la esquina de arriba a la derecha de la
-            cubierta. En la referencia sobresale seis puntos por fuera y por
-            arriba, y es lo que hace que se lea como una pegatina y no como
-            un icono más.
-
-            Al pulsarlo se pone azul y da un rebote, y sale el aviso de que se
-            ha guardado. El rebote va en el propio icono y no en el botón: si
-            escala la caja, el filete y la esquina de la cubierta se mueven con
-            ella y parece que la ficha entera tiembla.
-
-            Dentro de la biblioteca no se pinta: allí el libro ya está dentro y
-            lo que hay son las dos teclas de abajo. */}
-        {!acciones && (
-          <motion.span
-            className="ficha-guardar"
-            data-guardado={guardado}
-            role="button"
-            tabIndex={-1}
-            aria-label={guardado ? "Quitar de tu biblioteca" : "Guardar en tu biblioteca"}
-            aria-pressed={guardado}
-            onClick={(e) => {
-              e.stopPropagation();
-              onGuardar?.();
-            }}
-            whileTap={{ scale: 0.86 }}
-          >
-            <motion.span
-              className="guardar-icono"
-              animate={guardado ? { scale: [1, 1.34, 1], rotate: [0, -9, 0] } : { scale: 1, rotate: 0 }}
-              transition={springPop}
-            >
-              <GlyphGuardar relleno={guardado} />
-            </motion.span>
-          </motion.span>
-        )}
         <Portada libro={libro} tamano={148} />
       </div>
       {/* LA BARRA DE PROGRESO, DEBAJO DE LA CUBIERTA Y NO ENCIMA.
@@ -770,6 +752,31 @@ export function FichaLibro({
           derecha —los nombres cortos dejan media línea vacía— y no tapa nada. */}
       <div className="ficha-pie">
         <p className="ficha-autor">{libro.autor}</p>
+        {!acciones && (
+          <motion.span
+            className="ficha-menu ficha-guardar"
+            data-guardado={guardado}
+            role="button"
+            tabIndex={-1}
+            aria-label={guardado ? "Quitar de tu biblioteca" : "Guardar en tu biblioteca"}
+            aria-pressed={guardado}
+            onClick={(e) => {
+              e.stopPropagation();
+              onGuardar?.();
+            }}
+            whileTap={{ scale: 0.86 }}
+          >
+            {/* El rebote va en el icono y no en el botón: escalando la caja se
+                mueve con ella el renglón del autor y parece que tiembla. */}
+            <motion.span
+              className="guardar-icono"
+              animate={guardado ? { scale: [1, 1.34, 1], rotate: [0, -9, 0] } : { scale: 1, rotate: 0 }}
+              transition={springPop}
+            >
+              <GlyphGuardar relleno={guardado} />
+            </motion.span>
+          </motion.span>
+        )}
         {acciones && (
           <motion.span
             className="ficha-menu"

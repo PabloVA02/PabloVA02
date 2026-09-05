@@ -2387,6 +2387,55 @@ Pasar el `--ancho` no es opcional en una sustitución: sin él la cubierta nueva
 entra a menos resolución que sus vecinas y en la parrilla de 171 puntos a tres
 aumentos se nota.
 
+### «CORTADOS POR ARRIBA»: ERA EL MARCADOR — 5 de septiembre
+
+Pablo, con las doce cubiertas ya puestas: «los libros están cortados por arriba
+en muchos casos, no los cortes en absoluto, debes ponerlo tal cual te los paso».
+
+**Y no había ningún recorte.** Antes de tocar nada se comprobó, con números:
+
+1. **Las 338 cubiertas son 2:3 exacto.** Ni una fuera.
+2. **Ninguna caja de portada recorta.** Se recorrieron inicio, explorar,
+   biblioteca, la hoja del libro, el perfil y la entrada midiendo cada imagen
+   contra la proporción de su caja. Cero diferencias por encima del 2 %.
+3. **El fichero que sirve la app es el suyo.** Comparadas la webp servida y su
+   PNG al mismo tamaño, la diferencia media es de 2 a 4 sobre 255 —o sea, la
+   compresión— y la peor fila es la primera, el borde suavizado.
+
+Lo que «cortaba» era **el botón del marcador**: una pastilla de 30 × 30 con
+relleno #383838 y filete #606060, pegada a la esquina de arriba a la derecha y
+asomando seis puntos por fuera y por encima. Calcada de Headway y bien medida.
+Tapaba unos **24 × 24 de la esquina de cada cubierta**, y en una parrilla de dos
+columnas eso son las cuatro que se ven a la vez: de ahí su «en muchos casos».
+
+**Y era la segunda vez que lo decía.** El 4 de septiembre sacó de la cubierta el
+botón de descargar y los tres puntos, con estas palabras: «ponlo en otro lado
+**que no tape la portada**». El marcador se quedó porque la petición nombraba la
+biblioteca, y estaba en todas partes.
+
+Ahora baja al **renglón del autor**, que es donde ya viven los tres puntos y por
+el mismo motivo: ese renglón existe, tiene sitio de sobra a la derecha y no tapa
+nada. Los dos no salen nunca a la vez —el marcador fuera de la biblioteca, los
+tres puntos dentro—, así que comparten esquina sin estorbarse. Hereda de
+`.ficha-menu`: mismo tamaño, misma sangría, mismo gris. **Sin fondo ni filete**,
+que eran justo lo que lo hacía una pegatina encima del dibujo; guardado se dice
+tiñendo el trazo de azul en vez de rellenar la pastilla entera.
+
+#### Y de paso, un recorte de verdad
+
+**`.busca-mini` medía 44 × 58.** Una cubierta es 2:3, o sea 44 × 66, y con
+`object-fit: cover` se perdían ocho puntos: **cuatro por arriba y cuatro por
+abajo**. Un 12 %, y el 12 % de arriba de una cubierta suele ser el nombre del
+autor o la primera línea del título. Puesto a 66.
+
+#### Lo que hay que llevarse
+
+**Cuando algo «se ve cortado», lo primero es medir si de verdad está cortado.**
+Aquí la respuesta era que no, y buscar el recorte en la imagen habría llevado a
+tocar el guion de procesado, que estaba bien. Lo que cortaba era una tecla
+puesta encima, y eso no lo dice ningún número de imagen: se ve poniendo la
+cubierta que pinta la app al lado del PNG que él manda.
+
 ### LA PANTALLA DE LA OFERTA, CALCADA — 5 de septiembre
 
 Pablo mandó una captura de la pantalla de pago de Headway: «la captura házmela
