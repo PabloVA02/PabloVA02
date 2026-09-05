@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { GlyphClose, GlyphVisto } from "./glyphs";
-import { LIBROS_RESUMEN } from "./libros/puente";
-import { CURIOSIDADES } from "./historias/curiosidades";
-import { DATOS } from "./sabias";
+import { GlyphClose } from "./glyphs";
+/* Aquí se importaban `LIBROS_RESUMEN`, `CURIOSIDADES`, `DATOS` y `GlyphVisto`
+   para la lista de cuatro puntos —«400 resúmenes», «225 historias»…— con sus
+   vistos verdes. La lista salió el 5 de septiembre al calcar la captura de
+   Headway, donde no hay ninguna: no cabe sin obligar a hacer scroll en una
+   pantalla de pago. Las cuatro cifras se contaban de los propios datos, así
+   que al volver a ponerlas hay que devolver estos cuatro `import`. */
 import pollitoCupon from "./ilustraciones/pollito-cupon.webp";
 import regaloCaja from "./ilustraciones/regalo.webp";
 import { spring, springPop, springSoft } from "./motion";
@@ -261,8 +264,8 @@ export function Oferta({
   reducido: boolean;
   onCerrar: () => void;
 }) {
-  // La caja llega cerrada y se abre sola un instante después: si llegara ya
-  // abierta, el gesto de haber pulsado «Abrir» se perdería.
+  /* La caja llega cerrada y se abre sola un instante después: si llegara ya
+     abierta, el gesto de haber pulsado «Abrir» se perdería. */
   const [abierta, setAbierta] = useState(false);
   useEffect(() => {
     const id = window.setTimeout(() => setAbierta(true), reducido ? 0 : 240);
@@ -278,7 +281,7 @@ export function Oferta({
     >
       <div className="oferta-head">
         <motion.button
-          className="icon-btn"
+          className="oferta-cerrar"
           onClick={onCerrar}
           aria-label="Cerrar"
           initial={{ opacity: 0, scale: 0.7 }}
@@ -290,19 +293,11 @@ export function Oferta({
       </div>
 
       <div className="oferta-cuerpo">
-        <motion.span
-          className="oferta-pastilla"
-          initial={{ opacity: 0, y: -14, scale: 0.8 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ ...springPop, delay: 0.08 }}
-        >
-          Tu cupón
-        </motion.span>
-
         {/* EL POLLITO CON EL CUPÓN, que es lo que se mira primero. Lo mandó
-            Pablo el 4 de septiembre y trae el «44 %» pintado dentro, así que
-            aquí ya no hace falta el titular que contaba el número: lo dice el
-            dibujo, más grande y mejor.
+            Pablo el 4 de septiembre y trae el «44 %» pintado dentro, con las
+            mismas tres líneas que el cartel morado de la captura de Headway
+            —«DESCUENTO PARA TI», el número y «DE DESCUENTO»—, así que encaja
+            en el sitio de su cerebro sin cambiarle nada.
 
             Se columpia despacio, colgando del cupón que sujeta con las dos
             manos. No flota arriba y abajo como la caja: un peso que cuelga de
@@ -312,7 +307,7 @@ export function Oferta({
           <motion.img
             className="oferta-pollito"
             src={pollitoCupon}
-            alt="Un pollito sujetando un cupón del 44 % de descuento"
+            alt={`Un pollito sujetando un cupón del ${DESCUENTO} % de descuento`}
             initial={{ opacity: 0, y: -26, scale: 0.9 }}
             animate={
               reducido || !abierta
@@ -333,52 +328,18 @@ export function Oferta({
           )}
         </div>
 
-        <motion.h1
-          className="oferta-titular"
-          initial={{ opacity: 0, y: 14 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: 0.42 }}
+        {/* EL AHORRO EN EUROS. El cupón dice el tanto por ciento y esto dice lo
+            mismo en dinero, que es como se piensa. La resta se hace aquí y no
+            se escribe a mano: cambiar un precio no puede dejar el ahorro
+            diciendo otra cosa. */}
+        <motion.span
+          className="oferta-ahorro"
+          initial={{ opacity: 0, y: 10, scale: 0.9 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ ...springPop, delay: 0.5 }}
         >
-          Todo Curva, un año
-        </motion.h1>
-
-        {/* LO QUE TE LLEVAS, CONTADO Y NO PROMETIDO.
-
-            Es la pieza que faltaba y la que más pesa: antes de esto la
-            pantalla pedía dinero por una palabra —«la oferta»— y quien no
-            supiera ya lo que hay dentro no tenía con qué comparar el precio.
-            Tres cifras y un renglón lo convierten en algo que se puede pesar.
-
-            LAS CIFRAS SE CUENTAN, NO SE ESCRIBEN. Salen de los propios datos,
-            así que el día que entren cien resúmenes más la pantalla lo dice
-            sola. Un número escrito a mano aquí se queda viejo en una semana y
-            nadie se entera, y ese número es una afirmación sobre lo que
-            alguien está comprando. */}
-        <motion.ul
-          className="oferta-lista"
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: 0.5 }}
-        >
-          {[
-            /* Cada renglón, UNA línea. Dos líneas por punto convertían la
-               lista en un párrafo y la lista deja de contarse de un vistazo,
-               que es justo lo único que tiene que hacer. */
-            [`${LIBROS_RESUMEN.length} resúmenes`, "y dónde falla cada libro"],
-            [`${CURIOSIDADES.length} historias`, "ilustradas, de cinco minutos"],
-            [`${DATOS.length} «¿Sabías que…?»`, "de un vistazo"],
-            ["Sin anuncios", "y sin conexión"],
-          ].map(([que, pie]) => (
-            <li key={que}>
-              <span className="oferta-visto" aria-hidden>
-                <GlyphVisto tamano={12} />
-              </span>
-              <span>
-                <b>{que}</b> {pie}
-              </span>
-            </li>
-          ))}
-        </motion.ul>
+          Ahorra {euros(PRECIO_NORMAL - PRECIO_OFERTA)}/año
+        </motion.span>
 
         <div className="oferta-precios">
           <motion.span
@@ -388,7 +349,6 @@ export function Oferta({
             transition={{ ...springSoft, delay: 0.62 }}
           >
             {euros(PRECIO_NORMAL)}
-            {/* El tachado se DIBUJA: es el gesto de anular el precio viejo */}
             <motion.span
               className="oferta-tachon"
               initial={{ scaleX: 0 }}
@@ -409,51 +369,84 @@ export function Oferta({
         </div>
 
         {/* El precio por mes y no por año es el mismo dinero dicho de la manera
-            en que se piensa el gasto pequeño. Y la comparación es literal, no
-            un decir: a 1,12 no hay café en España que salga por menos. */}
+            en que se piensa el gasto pequeño. */}
         <motion.p
           className="oferta-mes"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ ...springSoft, delay: 1.02 }}
         >
-          Salen <b>{AL_MES} al mes</b>. Menos que un café.
+          solo {AL_MES} al mes
         </motion.p>
       </div>
 
       <div className="oferta-pie">
+        {/* EL BOTÓN, CON LA LETRA PEQUEÑA DENTRO. Es lo que más se copia de su
+            captura y lo que más cambia: la nota de «cancela cuando quieras»
+            estaba fuera, en gris sobre el fondo, que es el sitio donde no la
+            lee nadie. Dentro del azul y debajo de la palabra se lee, y además
+            quita el miedo justo en el instante en que se decide. */}
         <motion.button
-          className="primary-btn oferta-cta"
+          className="oferta-cta"
           onClick={onCerrar}
           whileTap={{ scale: 0.97 }}
           initial={{ opacity: 0, y: 20, scale: 0.96 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ ...springPop, delay: 1.08 }}
         >
-          Quiero mi {DESCUENTO} %
+          <span className="oferta-cta-titulo">Continuar</span>
+          <span className="oferta-cta-pie">
+            Dos pasos para empezar · Se cancela cuando quieras
+          </span>
         </motion.button>
 
         <motion.p
-          className="oferta-nota"
+          className="oferta-seguro"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ ...springSoft, delay: 1.16 }}
         >
-          Cancela cuando quieras · Sin permanencia · Se cobra en la tienda
+          <GlyphEscudo />
+          Se cobra en la tienda
         </motion.p>
 
+        <div className="oferta-filete" />
+
         <motion.div
-          className="pago-enlaces"
+          className="oferta-enlaces"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ ...springSoft, delay: 1.22 }}
         >
-          <button onClick={onCerrar}>Restaurar</button>
-          <button onClick={onCerrar}>Términos</button>
-          <button onClick={onCerrar}>Privacidad</button>
+          <button onClick={onCerrar}>Términos y condiciones</button>
+          <button onClick={onCerrar}>Política de privacidad</button>
+          <button onClick={onCerrar}>Restaurar compra</button>
         </motion.div>
       </div>
     </motion.div>
+  );
+}
+
+/* El escudo con el visto de la línea de la tienda. Va aquí y no en `glyphs`
+   porque solo se usa en esta pantalla: catorce puntos, trazo de 1,6 y las
+   mismas proporciones que el de su captura. */
+function GlyphEscudo() {
+  return (
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden>
+      <path
+        d="M12 3 4.8 5.8v5.4c0 4.3 2.9 8.3 7.2 9.6 4.3-1.3 7.2-5.3 7.2-9.6V5.8L12 3Z"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+      <path
+        d="m8.9 11.9 2.2 2.2 4-4.4"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
   );
 }
 

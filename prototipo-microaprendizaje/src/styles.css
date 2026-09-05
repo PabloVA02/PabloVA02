@@ -5176,125 +5176,108 @@ button {
   font-weight: 720;
 }
 
-/* --- La oferta --- */
+/* --- La oferta, calcada de la captura de Headway del 5 de septiembre -------
+
+   Pablo: «la captura házmela exactamente así o muy parecida, la pantalla del
+   regalo, hazlo exactamente igual». Su captura es de 750 × 1624, o sea un
+   móvil de 375 × 812 a dos, y TODOS los números de aquí abajo están medidos
+   sobre ella con `sharp` y divididos por dos. Donde pone un número, hay una
+   medida; no hay ni uno puesto a ojo.
+
+       fondo de la pantalla    #222222   (no el #151515 de la app)
+       botón                   #0099ff   343 × 56, radio 8
+       pastilla de ahorro      #03bb77   118 × 18
+       filete                  #4e4e4e   343 × 1
+       letra apagada           #7a7a7a
+       subtítulo del botón     #cceaff
+
+   Y el ORDEN es el suyo, de arriba abajo: la X, la ilustración, la pastilla
+   verde del ahorro, la fila de precios, el precio por mes, el botón azul con
+   su subtítulo dentro, la línea de la tienda, el filete y los tres enlaces.
+
+   LO QUE SE FUE PARA QUE FUERA IGUAL: el titular «Todo Curva, un año» y la
+   lista de cuatro puntos con los vistos verdes. En su captura no hay ninguna
+   de las dos cosas, y no es que sobren: es que NO CABEN. El hueco vertical de
+   812 puntos se lo reparten la ilustración (297) y el pie, y meter cuatro
+   renglones más obliga a hacer scroll, que es justo lo que una pantalla de
+   pago no puede pedir. Las dos siguen en el git y son un rato volver a
+   ponerlas si él las quiere.
+   -------------------------------------------------------------------------- */
 
 .oferta {
   flex: 1;
   min-height: 0;
   display: flex;
   flex-direction: column;
-  background: var(--paper);
+  /* El gris de su captura, muestreado. Es más claro que el #151515 de la app
+     y no es un descuido suyo: sobre un negro puro, un botón azul saturado
+     vibra en el borde. Este gris le da suelo. */
+  background: #222;
+  color: #fff;
 }
 
+/* LA X, SIN CÍRCULO. Medida en su captura: el aspa ocupa 15 × 15 y su centro
+   cae a 27,8 puntos del canto izquierdo. La nuestra iba dentro de un botón
+   redondo de fondo claro, que es de la pantalla en crema. */
+/* 33 arriba y no 12: en su captura el aspa arranca a 84 puntos del canto de la
+   pantalla, y la nuestra caía en 63. */
 .oferta-head {
   flex: none;
-  padding: 4px var(--shell-pad) 0;
+  padding: 33px 14px 0;
+}
+/* 15 × 15 exactos, que es lo que mide la suya. El glifo viene a 18 por defecto. */
+.oferta-cerrar svg { width: 15px; height: 15px; }
+.oferta-cerrar {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #fff;
+  cursor: pointer;
 }
 
-/* `container-type` para que el pollito pueda medirse en `cqw` contra el ancho
-   de la pantalla y no contra el de la ventana, que en el simulador no es el
-   mismo. Y `justify-content: center` con `overflow: auto`: centrado mientras
-   quepa, y con scroll en cuanto no quepa —un móvil de 320 con la letra grande
-   del sistema no llega, y ahí es preferible desplazar a recortar el botón. */
 .oferta-cuerpo {
   flex: 1;
   min-height: 0;
+  /* `container-type` para que el pollito se mida contra el ancho de la
+     pantalla y no contra el de la ventana, que en el simulador no coinciden. */
   container-type: inline-size;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0;
-  padding: 0 var(--shell-pad);
+  /* 48 ARRIBA PARA BAJAR 24. Con el contenido centrado, medido contra su
+     captura, todo el bloque caía 24 puntos alto. Un `margin-top` en el primer
+     hijo no sirve: engorda el grupo y el centrado se lo come a partes iguales,
+     así que baja 12 y sube 12. Lo que mueve un grupo centrado es el relleno
+     del contenedor, y lo mueve la MITAD: 48 arriba lo bajan 24 justos. */
+  padding: 48px 16px 0;
+  /* Centrado mientras quepa y con scroll en cuanto no quepa: un móvil pequeño
+     con la letra grande del sistema no llega, y ahí desplazar es mejor que
+     recortar el botón. */
   overflow-y: auto;
   scrollbar-width: none;
 }
 .oferta-cuerpo::-webkit-scrollbar { display: none; }
 
-/* La chapa de arriba. En verde salvia, que es el único acento que no compite
-   con el rojo y el oro del cupón: en barro o en ocre serían tres calores
-   peleándose por la misma pantalla. */
-.oferta-pastilla {
-  position: relative;
-  z-index: 1;
-  padding: 7px 15px;
-  border-radius: 999px;
-  background: var(--sage-veil);
-  color: var(--sage);
-  font-size: 11.5px;
-  font-weight: 760;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
-}
-
-/* EL TITULAR YA NO ES EL DESCUENTO. Era «38 % menos» a 52 puntos; ahora el
-   número está pintado dentro del cupón, mucho más grande, y lo que hace falta
-   aquí es lo que el cupón NO dice: qué se compra. Por eso baja a 27 y pasa a
-   ser una frase. */
-.oferta-titular {
-  margin: 14px 0 0;
-  font-size: 27px;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
-  text-align: center;
-  color: var(--ink);
-}
-
-/* EL POLLITO. Su ancho manda sobre el alto porque el dibujo es más alto que
-   ancho y lo que se agota en un móvil es el alto: a 62 cqw ocupa 232 puntos y
-   deja sitio a la lista, al precio y al botón sin que nada haga scroll. */
-.oferta-pollito {
-  display: block;
-  width: 62cqw;
-  max-width: 244px;
-  height: auto;
-  transform-origin: 50% 6%;
-}
-
-/* LO QUE TE LLEVAS. Alineada a la izquierda dentro de una caja centrada: las
-   listas se leen por el canto de la izquierda, y centrarlas fila por fila
-   obliga a buscar dónde empieza cada una. */
-.oferta-lista {
-  margin: 14px 0 2px;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  gap: 7px;
-  text-align: left;
-}
-.oferta-lista li {
-  display: flex;
-  align-items: flex-start;
-  gap: 9px;
-  font-size: 13.5px;
-  line-height: 1.3;
-  color: var(--ink-soft);
-}
-.oferta-lista b {
-  font-weight: 730;
-  color: var(--ink);
-}
-/* El visto en verde y macizo: es lo único de la lista que va en color, y va
-   en el verde de «esto lo tienes», no en el barro de la oferta. */
-.oferta-visto {
-  flex: none;
-  margin-top: 2px;
-  display: grid;
-  place-items: center;
-  width: 17px;
-  height: 17px;
-  border-radius: 999px;
-  background: var(--sage);
-  color: var(--paper);
-}
-
-/* La escena: la caja al centro y las chispas colocadas desde ese mismo centro */
+/* LA ILUSTRACIÓN. En su captura mide 236 de ancho por 297 de alto; el cerebro
+   con su cartel es más ancho que alto de lo que es nuestro pollito, así que
+   aquí manda EL ALTO —que es lo que se agota en un móvil— y el ancho sale
+   solo: 297 × 0,717 = 213, o sea 57 cqw sobre 375. */
 .oferta-escena {
   position: relative;
   display: grid;
   place-items: center;
-  margin: 12px 0 0;
+}
+.oferta-pollito {
+  display: block;
+  width: 60.5cqw;
+  max-width: 238px;
+  height: auto;
+  transform-origin: 50% 6%;
 }
 
 .regalo-chispa {
@@ -5306,8 +5289,8 @@ button {
 }
 
 /* Los papelillos salen del mismo punto que las estrellas, el centro de la
-   caja, pero estos sí caen: la mezcla de lo que flota y lo que pesa es lo que
-   evita que el estallido parezca un adorno pegado */
+   escena, pero estos sí caen: la mezcla de lo que flota y lo que pesa es lo
+   que evita que el estallido parezca un adorno pegado. */
 .regalo-confeti {
   position: absolute;
   top: 50%;
@@ -5317,63 +5300,148 @@ button {
   pointer-events: none;
 }
 
+/* LA PASTILLA DEL AHORRO. Es la pieza que nos faltaba y la que más trabaja de
+   toda la pantalla: dice en euros lo que el cupón dice en tanto por ciento, y
+   un ahorro en euros se entiende sin hacer ninguna cuenta. La cifra se CALCULA
+   restando los dos precios, así que no puede desmentirlos nunca.
+   118 × 18 en su captura, verde #03bb77. */
+.oferta-ahorro {
+  /* 46 desde el pie de la ilustración, medido entre sus dos cajas: 450 y 496. */
+  margin-top: 46px;
+  padding: 2.5px 11px;
+  border-radius: 5px;
+  background: #03bb77;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 760;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* LA FILA DE PRECIOS. El viejo tachado y en gris, el nuevo en blanco y gordo,
+   los dos en la misma línea de base. */
 .oferta-precios {
   display: flex;
   align-items: baseline;
-  gap: 12px;
-  margin-top: 4px;
+  gap: 11px;
+  margin-top: 18px;
+  /* Sin esto la fila mide 30 de alto por el interlineado y la suya mide 20. */
+  line-height: 1;
 }
-
 .oferta-antes {
   position: relative;
-  font-size: 21px;
-  font-weight: 620;
-  color: var(--ink-soft);
+  font-size: 16px;
+  font-weight: 640;
+  color: #717171;
 }
-
+/* El tachado se DIBUJA de izquierda a derecha: es el gesto de anular el precio
+   viejo, y verlo tacharse dice lo que un tachado ya hecho solo enseña. */
 .oferta-tachon {
   position: absolute;
-  left: -3px;
-  right: -3px;
+  left: -2px;
+  right: -2px;
   top: 52%;
-  height: 2.4px;
+  height: 2px;
   border-radius: 2px;
-  background: var(--clay);
+  background: #717171;
   transform-origin: left center;
 }
-
 .oferta-ahora {
-  font-size: 33px;
-  font-weight: 790;
-  letter-spacing: -0.035em;
+  font-size: 20px;
+  font-weight: 780;
+  letter-spacing: -0.02em;
+  color: #fff;
 }
-
 .oferta-periodo {
-  font-size: 17px;
-  font-weight: 640;
-  color: var(--ink-soft);
+  font-size: 20px;
+  font-weight: 780;
+  letter-spacing: -0.02em;
 }
 
 .oferta-mes {
-  margin-top: 6px;
-  font-size: 14px;
-  color: var(--ink-soft);
+  margin-top: 13px;
+  font-size: 15px;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.92);
 }
-.oferta-mes b { font-weight: 730; color: var(--ink); }
 
 .oferta-pie {
   flex: none;
-  padding: 8px var(--shell-pad) 18px;
+  /* 58 abajo: en su captura los enlaces acaban a 754 de 812, y esos 58 son el
+     hueco del indicador de inicio del iPhone más su aire. */
+  padding: 0 16px 58px;
 }
 
-.oferta-cta { width: 100%; }
-
-.oferta-nota {
-  margin-top: 10px;
-  text-align: center;
+/* EL BOTÓN, CON EL SUBTÍTULO DENTRO. En su captura son 343 × 56 con radio 8, y
+   el subtítulo va DEBAJO de la palabra y dentro del azul, no fuera. Eso es lo
+   que hace que la letra pequeña se lea: puesta fuera, en gris sobre el fondo,
+   es la línea que nadie mira. */
+.oferta-cta {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 8px;
+  background: #0099ff;
+  color: #fff;
+  cursor: pointer;
+}
+.oferta-cta-titulo {
+  font-size: 18px;
+  font-weight: 640;
+  letter-spacing: -0.01em;
+}
+.oferta-cta-pie {
   font-size: 11.5px;
-  color: var(--ink-soft);
+  font-weight: 500;
+  color: #cceaff;
 }
+
+/* La línea de la tienda, con su escudo. Gris #7a7a7a, como los enlaces. */
+.oferta-seguro {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-size: 13.5px;
+  line-height: 1;
+  color: #7a7a7a;
+}
+
+.oferta-filete {
+  height: 1px;
+  margin-top: 17px;
+  background: #4e4e4e;
+}
+
+/* Los tres enlaces, repartidos en tres columnas iguales y alineados a los dos
+   cantos: el primero a la izquierda, el último a la derecha. Van a dos líneas
+   cuando hace falta, igual que en su captura. */
+.oferta-enlaces {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  gap: 8px;
+}
+.oferta-enlaces button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #7a7a7a;
+  font-size: 14px;
+  line-height: 1.15;
+  cursor: pointer;
+}
+.oferta-enlaces button:nth-child(1) { text-align: left; }
+.oferta-enlaces button:nth-child(2) { text-align: center; }
+.oferta-enlaces button:nth-child(3) { text-align: right; }
 
 /* ==========================================================================
    Alta y pago

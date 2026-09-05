@@ -2358,6 +2358,87 @@ ocho reescritas a mano mirando las imágenes.
 Regla para la próxima tanda: **si el id ya tenía cubierta, su `alt` hay que
 volver a escribirlo.** Conservarlo solo vale para una cubierta nueva.
 
+### LA PANTALLA DE LA OFERTA, CALCADA — 5 de septiembre
+
+Pablo mandó una captura de la pantalla de pago de Headway: «la captura házmela
+exactamente así o muy parecida, la pantalla del regalo, hazlo exactamente
+igual». La captura es de **750 × 1624**, o sea un móvil de 375 × 812 a dos.
+
+**Todo lo de aquí está medido, no mirado.** Con `sharp`, sacando la caja de
+tinta de cada bloque y dividiendo por dos:
+
+| | ancho | y | alto |
+| --- | --- | --- | --- |
+| la X | 15 | 84 | 15 |
+| la ilustración | 236 | 154 | **297** |
+| pastilla del ahorro | 118 | 496 | 18 |
+| fila de precios | 200 | 531 | 20 |
+| «solo N al mes» | 136 | 563 | 15 |
+| botón | **343** | 605 | **56** |
+| línea de la tienda | 156 | 686 | 14 |
+| filete | 343 | 717 | 1 |
+| los tres enlaces | 317 | 727 | 28 |
+
+Y los colores, muestreados:
+
+    fondo #222222 · botón #0099ff · ahorro #03bb77 · filete #4e4e4e
+    letra apagada #7a7a7a · subtítulo del botón #cceaff · radio del botón 8
+
+El fondo es **#222222 y no el #151515 de la app**, y no es descuido suyo: sobre
+un negro puro un azul saturado vibra en el borde. Este gris le da suelo.
+
+**El pollito encaja sin tocarlo.** Su cerebro sujeta un cartel morado que dice
+«DESCUENTO PARA TI», el número y «DE DESCUENTO»; el cupón que dibujó Pablo el 4
+de septiembre trae **esas mismas tres líneas**. O sea que el hueco de su
+ilustración lo ocupa la nuestra tal cual. Manda el ALTO —297, que es lo que se
+agota en un móvil— y el ancho sale solo: 297 × 0,717 = 213.
+
+#### Lo que se ganó de su pantalla
+
+**La pastilla del ahorro EN EUROS.** Es la pieza que más trabaja y no la
+teníamos: el cupón dice el tanto por ciento y esto dice lo mismo en dinero, que
+es como se piensa. La cifra se calcula restando los dos precios, así que
+cambiar un precio no puede dejarla mintiendo.
+
+**La letra pequeña, DENTRO del botón.** Nuestro «cancela cuando quieras» estaba
+debajo, en gris sobre el fondo, que es el sitio exacto donde no lo lee nadie.
+Metido en el azul y bajo la palabra, se lee, y quita el miedo justo en el
+instante en que se decide.
+
+#### Lo que se fue para que fuera igual
+
+El titular «Todo Curva, un año» y la lista de cuatro puntos con los vistos
+verdes. En su captura no hay ninguna de las dos, y no es que sobren: **no
+caben.** De los 812 puntos, la ilustración se lleva 297 y el pie 209; cuatro
+renglones más obligan a hacer scroll, y una pantalla de pago no puede pedirlo.
+
+Las dos están en el git y son un rato volver a ponerlas. Lo que hay que devolver
+también son los cuatro `import` de `Regalo.tsx` —`LIBROS_RESUMEN`,
+`CURIOSIDADES`, `DATOS` y `GlyphVisto`—, que es de donde salían las cifras
+contadas de los propios datos; queda dicho en un comentario donde estaban.
+
+#### El truco del relleno, que no es obvio
+
+Medido contra su captura, todo el bloque del cuerpo caía **24 puntos alto**. Un
+`margin-top` en el primer hijo NO lo arregla: engorda el grupo, y un grupo
+centrado se reparte el engorde a partes iguales —baja 12 y sube 12—.
+
+Lo que mueve un grupo centrado es el **relleno del contenedor**, y lo mueve la
+mitad: `padding-top: 48` lo baja 24 justos. Con eso las cajas de la ilustración,
+la pastilla, los precios y el «al mes» cuadran con las suyas dentro de un punto.
+
+El pie queda **6 puntos más arriba** que el suyo y ahí se deja: la diferencia
+sale de que nuestros tres enlaces ocupan 32 de alto y los suyos 28, y cuadrarlo
+significaría apretarles el interlineado por debajo de lo que se lee bien.
+
+#### Cómo se comprueba, que es la parte reutilizable
+
+No a ojo. Se mide **lo mismo en las dos**: en la captura, la caja de tinta de
+cada bloque con `sharp`; en la nuestra, `getBoundingClientRect()` desde
+Playwright con la ventana a 375 × 812. Dos columnas de números al lado, y se
+ajusta hasta que coinciden. Mirar dos pantallas parecidas y decidir cuál está
+bien es justo lo que no funciona.
+
 ### «Gratis hoy»: primero pasó a verde, después perdió la etiqueta
 
 «Ponme un verde mejor, que pegue con el fondo y sea bonito.» Se le pasaron
