@@ -1121,11 +1121,25 @@ export function Inicio({
                   el rótulo de la categoría y su cuenta, porque ahí el número es
                   el resultado de lo que acabas de pulsar. */}
               <h2>{filtro ?? "Para ti"}</h2>
-              {filtro && (
-                <p className="bloque-sub">
-                  {recomendados.length} {recomendados.length === 1 ? "libro" : "libros"}
-                </p>
-              )}
+              {/* EL SUBTÍTULO VUELVE, y esta vez dice otra cosa. Pablo, el 5 de
+                  septiembre: «pon debajo de Para ti un texto pequeño, algo como
+                  según tus preferencias». El que se quitó el día 4 explicaba
+                  cuál de los dos rótulos era —«Recomendados» o «Para ti»—, que
+                  es hablar de nosotros; este dice de dónde salen los libros,
+                  que es lo que le interesa a quien mira.
+
+                  «Según lo que te interesa» y no «según los temas que has
+                  elegido» porque tiene que ser verdad también cuando no se ha
+                  elegido ninguno: sin intereses la tira sale sin ordenar, y una
+                  frase que promete una elección que no existe es mentira.
+
+                  Con el filtro puesto manda la cuenta: ahí el número es el
+                  resultado de lo que acabas de pulsar. */}
+              <p className="bloque-sub">
+                {filtro
+                  ? `${recomendados.length} ${recomendados.length === 1 ? "libro" : "libros"}`
+                  : "Según lo que te interesa"}
+              </p>
             </div>
             {/* Lleva a los mismos filtros de arriba: es el atajo para quien
                 entra queriendo cambiar lo que le proponemos, no para quien
@@ -1171,7 +1185,19 @@ export function Inicio({
         {!filtro && (
           <section className="bloque">
             <div className="bloque-cabecera">
-              <h2>Best sellers</h2>
+              <div>
+                <h2>Best sellers</h2>
+                {/* «VENDIDOS» Y NO «LEÍDOS», que fue lo que pidió Pablo. La
+                    lista sale de `superventas.ts`, y lo que hay ahí son cifras
+                    de VENTAS —estimadas, y por eso no se enseñan—. Cuántos de
+                    esos ejemplares se leyeron no lo sabe nadie, así que «los
+                    más leídos» sería una afirmación que no podemos sostener y
+                    la regla de siempre es que un dato que no se puede
+                    comprobar no se escribe. «De siempre» tampoco es adorno:
+                    esto no es la lista de esta semana, son los superventas
+                    históricos. */}
+                <p className="bloque-sub">Los más vendidos de siempre</p>
+              </div>
             </div>
             <div className="carrusel">
               {superventas.map((l, i) => (

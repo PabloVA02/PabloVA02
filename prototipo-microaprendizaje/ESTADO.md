@@ -2466,6 +2466,45 @@ había nada: invisible aunque el color fuera el correcto. Se leyó con
 se le forzó un `scaleX(0.45)` desde la consola. **Un elemento de ancho cero se
 comprueba por su estilo calculado, no por la foto.**
 
+### SUBTÍTULOS EN «PARA TI» Y «BEST SELLERS» — 5 de septiembre
+
+Pablo: «pon debajo de Para ti un texto pequeño, algo como según tus
+preferencias; best sellers, los más leídos».
+
+    Para ti        Según lo que te interesa
+    Best sellers   Los más vendidos de siempre
+
+Van con `.bloque-sub`, que es la clase que ya existía: blanco de 14 puntos, y el
+blanco no es capricho —está muestreado de una captura suya y da 255 en los tres
+canales—. Debajo de un rótulo de 22 en negrita, 14 ya es «pequeño».
+
+**El de «Para ti» es el segundo intento, y dice otra cosa.** El que se quitó el
+4 de septiembre explicaba cuál de los dos rótulos estabas viendo —«Recomendados»
+o «Para ti»—, que es hablar de nosotros. Este dice **de dónde salen los libros**,
+que es lo que le interesa a quien mira.
+
+Y dice «según lo que te interesa» y no «según los temas que has elegido» porque
+**tiene que ser verdad también cuando no se ha elegido ninguno**: sin intereses
+la tira sale sin ordenar, y una frase que promete una elección que no existe es
+mentira. Con el filtro puesto sigue mandando la cuenta de libros, porque ahí el
+número es el resultado de lo que acabas de pulsar.
+
+#### «Vendidos» y no «leídos», y por qué se le cambió la palabra
+
+Él pidió «los más leídos». La lista sale de `superventas.ts` y lo que hay ahí
+son **cifras de VENTAS**, estimadas —por eso no se enseñan en pantalla—.
+Cuántos de esos ejemplares se leyeron de verdad no lo sabe nadie: es un chiste
+viejo del oficio que *Una breve historia del tiempo* sea el libro más comprado
+y menos terminado de la historia.
+
+O sea que «los más leídos» sería una afirmación que no podemos sostener, y la
+regla de Pablo es la que es: **un dato que no se puede comprobar no se escribe.**
+«De siempre» tampoco es relleno: esto no es la lista de esta semana, son los
+superventas históricos, y sin esa palabra el rótulo promete una actualidad que
+tampoco tenemos.
+
+Si él lo quiere con su palabra, es cambiar tres palabras y ya.
+
 ### LA PANTALLA DE LA OFERTA, CALCADA — 5 de septiembre
 
 Pablo mandó una captura de la pantalla de pago de Headway: «la captura házmela
