@@ -1821,6 +1821,55 @@ detrás a través del texto.
 frase. En los shorts hay un bucle que mide y encoge y cuesta cientos de
 milisegundos; aquí no hace falta, porque no hay que llenar una caja exacta.
 
+## EL COMETA QUE FLOTABA EN EL CORCHO — 5 de septiembre
+
+Un fallo de dato, cazado repasando lo que aún no se ha incorporado, y merece
+quedar escrito porque enseña de qué se equivoca uno cuando escribe rápido.
+
+El short `03` de la serie `como-se-forma-un-cometa` se titulaba «Rosetta pesó
+uno y salió **menos denso que el corcho**», y todo el remate de la página
+colgaba de esa comparación. Está mal, y además al revés:
+
+| | densidad |
+| --- | --- |
+| corcho natural | 120–240 kg/m³, unos 200 de media |
+| núcleo de 67P | **533 ± 6 kg/m³** |
+| agua | 1000 kg/m³ |
+
+O sea que el cometa es **más del doble de denso que el corcho**, no menos. La
+cifra buena es la de Pätzold y los suyos (*Nature*, 2016), medida con el campo
+gravitatorio desde la propia sonda; los **470 kg/m³** que traía el texto eran
+la estimación primera de 2015, que luego se afinó. La porosidad que sale de
+ahí es del 72 al 74 %, o sea **tres cuartas partes**, no «entre setenta y
+ochenta».
+
+Lo que sí es verdad y es igual de sorprendente: con 533 contra los mil del
+agua, **una montaña helada de cuatro kilómetros flotaría**, y sacando casi la
+mitad del cuerpo fuera. Ese es el titular ahora, y el fichero se llama
+`03-rosetta-y-el-agua.md`, para que no quede ningún nombre apuntando a una
+comparación que retiramos.
+
+**Y en la misma página había un segundo dato falso**, en la caja del rayo:
+«hasta 2014 nadie había visto de cerca la superficie de un cometa». Giotto
+fotografió el núcleo del Halley en 1986, Stardust pasó junto al Wild 2 en 2004
+y Deep Impact llegó a golpear el Tempel 1 en 2005. Lo que Rosetta hizo por
+primera vez no fue mirar: fue **quedarse**. Todas las visitas anteriores
+duraron horas; ella acompañó al cometa dos años. Eso es lo que dice el rayo
+hoy.
+
+De paso, una concordancia en el short `02`: «granos… que solo *siente* el
+empujón de la luz» → *sienten*.
+
+**Lo que hay que llevarse de aquí.** Los dos fallos tienen la misma forma: una
+comparación bonita que nadie comprueba porque suena bien. «Menos denso que el
+corcho» y «nadie lo había visto» son frases que se escriben solas. El
+validador `revisa-shorts.mjs` no las coge y no puede cogerlas —mide el molde,
+no el mundo—, así que la única defensa es la de siempre: **la cifra se busca
+antes de escribir la frase que cuelga de ella**, y no al revés.
+
+Los tres de esta serie siguen sin incorporarse a la app: en `curiosidades.ts`
+solo está el número 1. El fallo, por tanto, no llegó a publicarse.
+
 ## LA OFERTA Y LOS OBJETIVOS — 4 de septiembre, noche
 
 Pablo: «cambia el texto y pon Escoge tus objetivos o algo así; pones un texto

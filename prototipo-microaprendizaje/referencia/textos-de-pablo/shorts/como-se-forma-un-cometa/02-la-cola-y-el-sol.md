@@ -28,7 +28,7 @@ Ahora bien, hablar de «la cola» en singular esconde una distinción bonita. Un
 
 La **cola de iones** está formada por gas al que el Sol ha arrancado electrones. Al estar cargado, responde al viento solar de forma inmediata y apunta directamente en dirección opuesta al Sol, recta como si la hubieran trazado con una regla. Suele verse azulada.
 
-La **cola de polvo** está hecha de granos sólidos que no tienen carga eléctrica y que solo siente el empujón suave de la luz. Como pesan más y reaccionan más despacio, cada grano se queda un poco por detrás de donde estaba el cometa cuando lo soltó, y el resultado es una cola blanca y curvada, que va marcando la trayectoria reciente.
+La **cola de polvo** está hecha de granos sólidos que no tienen carga eléctrica y que solo sienten el empujón suave de la luz. Como pesan más y reaccionan más despacio, cada grano se queda un poco por detrás de donde estaba el cometa cuando lo soltó, y el resultado es una cola blanca y curvada, que va marcando la trayectoria reciente.
 
 Así que en una buena fotografía de un cometa hay dos historias a la vez: una raya recta que dice dónde está el Sol, y una curva que dice por dónde ha pasado el cometa.
 
