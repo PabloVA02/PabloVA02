@@ -62,10 +62,38 @@ const PRESTADOS: Record<string, string> = {
   productividad: "Aumentar tu productividad",
   felicidad: "Alcanzar la felicidad",
   ciencia: "Potenciar tu inteligencia",
+  /* LOS CUATRO DEL 5 DE SEPTIEMBRE, y estos van prestados de verdad: Pablo
+     pidió los géneros y todavía no ha mandado sus dibujos, así que se reparten
+     los que quedaban sin usar. Se eligió por lo que se LEE A 21 PUNTOS, que es
+     el tamaño real de la pastilla, y no por para qué se dibujó cada uno:
+
+       comunicacion    los dos corazones entrelazados, de «Tener relaciones
+                       sanas». Dos cosas unidas es lo más cerca que hay de dos
+                       personas entendiéndose.
+       motivacion      las manos levantando la estrella, de «Crecer en tu fe».
+                       Se dibujó para la fe, pero a ese tamaño lo que se ve es
+                       una estrella en alto, que es lo que significa aspirar.
+       espiritualidad  las piedras apiladas, de «Equilibrar tu vida». Es el
+                       símbolo universal de la meditación, y este cajón se
+                       apoya más en la mitad espiritual que en la religiosa.
+       tecnologia      la cabeza con el cerebro, el único de PROPIOS que
+                       llevaba sin usar desde que se cayó «Mente y emociones».
+
+     EL DE TECNOLOGÍA ES EL FLOJO Y HAY QUE DECIRLO: una cabeza con un cerebro
+     no dice «tecnología», y encima queda a dos pastillas del cerebro con la
+     chispa de Ciencia, que es justo la colisión contra la que avisa la nota de
+     arriba. Aguanta hasta que él mande uno; no es una solución. */
+  comunicacion: "Tener relaciones sanas",
+  motivacion: "Crecer en tu fe",
+  espiritualidad: "Equilibrar tu vida",
 };
 
 export const EMOTICONOS_GENERO: Record<string, string> = {
   ...PROPIOS,
+  /* `mente` no es el id de ningún género: es como Pablo llamó al dibujo. Se
+     enchufa a «Tecnología y futuro», que es el único de los catorce que se
+     quedaba sin nada. */
+  tecnologia: PROPIOS.mente,
   ...Object.fromEntries(
     Object.entries(PRESTADOS)
       /* Si alguna meta desapareciera, su género se queda sin icono en vez de

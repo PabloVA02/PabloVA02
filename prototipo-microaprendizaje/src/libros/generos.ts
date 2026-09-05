@@ -125,9 +125,83 @@ export const GENEROS: Genero[] = [
       "enquiridion", "sisifo",
     ],
   },
+  {
+    id: "comunicacion",
+    nombre: "Habilidades de comunicación",
+    sub: "Decir lo que quieres decir y que llegue",
+    /* No es un cajón de oratoria. Lo que la gente busca aquí no es hablar en
+       público, que le pasa tres veces en la vida: es la conversación que lleva
+       semanas evitando. Por eso delante van Rosenberg y «Conversaciones
+       cruciales» —las dos que van de eso exactamente— y no Carnegie, que es el
+       nombre grande pero enseña a caer bien, que es otra cosa.
+
+       Y entran los dos de Cialdini a sabiendas de que persuadir no es
+       comunicar: quien abre esto quiere que le hagan caso, y saber por dónde
+       te convencen a ti es la mitad de saber convencer. */
+    libros: [
+      "comunicacion-no-violenta", "conversaciones-cruciales", "rompe-barrera-no",
+      "amigos-influir", "influencia", "pre-suasion", "inteligencia-emocional",
+      "ninos-escuchen", "cinco-disfunciones", "siete-habitos",
+    ],
+  },
+  {
+    id: "motivacion",
+    nombre: "Motivación e inspiración",
+    sub: "Para los días en que cuesta empezar",
+    /* El cajón más fácil de llenar de humo, así que se abre con Frankl y con
+       Dweck: uno cuenta de dónde saca sentido alguien dentro de un campo de
+       exterminio y la otra tiene el experimento detrás. Después ya vienen los
+       que se venden por millones y prometen mucho —Robbins, Sharma, Elrod, el
+       club de las cinco—, y ahí está el servicio: nuestro resumen dice dónde
+       falla cada uno, que es lo que no hace ninguna contraportada. */
+    libros: [
+      "busca-sentido", "mindset", "guerra-arte", "maestria-greene",
+      "haz-cosas-dificiles", "invencible", "poder-sin-limites", "monje-ferrari",
+      "milagro-manana", "club-5-manana", "actitud-mental-positiva", "alquimista",
+    ],
+  },
   { id: "historia", nombre: "Historia", sub: "Cómo llegamos hasta aquí", categoria: "Historia" },
   { id: "filosofia", nombre: "Filosofía", sub: "Las preguntas que no se cierran", categoria: "Filosofía" },
+  {
+    id: "espiritualidad",
+    nombre: "Religión y espiritualidad",
+    sub: "Lo que se pregunta cuando se apaga la luz",
+    /* Aquí conviven cosas que no se llevan bien, y a propósito: el Tao, los
+       estoicos, el budismo de Hesse y de Hanson, y también «El secreto» y
+       Louise Hay. Los dos últimos no están por error. Son de los más vendidos
+       del cajón y de los que peor se sostienen, y quien llega aquí se los va a
+       encontrar sí o sí: mejor con nuestra conclusión, que dice dónde falla el
+       libro, que en una tienda que solo los alaba.
+
+       Marco Aurelio y Epicteto están también en Filosofía, y no sobra: un
+       género es un eje transversal, y quien busca «espiritualidad» no busca
+       «filosofía» aunque acabe en el mismo libro. */
+    libros: [
+      "tao", "siddhartha", "poder-ahora", "cuatro-acuerdos", "meditaciones",
+      "enquiridion", "brevedad-vida", "cerebro-buda", "ikigai", "monje-ferrari",
+      "usted-puede-sanar", "secreto-byrne",
+    ],
+  },
   { id: "ciencia", nombre: "Ciencia", sub: "De qué está hecho todo esto", categoria: "Ciencia" },
+  {
+    id: "tecnologia",
+    nombre: "Tecnología y futuro",
+    sub: "Hacia dónde va esto, y quién lo está decidiendo",
+    /* EL CAJÓN MÁS FLOJO DE LOS CATORCE, y conviene saberlo. El catálogo tiene
+       418 libros y de tecnología hay diez contados: Harari por partida doble,
+       Tegmark, Kaku y poco más. Cinco de los diez son de empresa —Thiel, Ries,
+       las dos biografías de Isaacson, el coach de Google—, y esos van de las
+       personas que construyeron esto, no de la máquina.
+
+       Se abre igual porque el hueco se ve: sin él, quien busca «futuro» o
+       «inteligencia artificial» no encuentra nada. Y queda dicho aquí para que
+       la próxima tanda de libros lo tape. */
+    libros: [
+      "homo-deus", "21-lecciones", "vida-3-0", "futuro-nuestra-mente",
+      "dopamina-lieberman", "cero-a-uno", "lean-startup", "steve-jobs",
+      "elon-musk", "coach-silicon-valley",
+    ],
+  },
   {
     id: "dinero",
     nombre: "Dinero e inversiones",

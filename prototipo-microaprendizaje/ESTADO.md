@@ -2505,6 +2505,79 @@ tampoco tenemos.
 
 Si él lo quiere con su palabra, es cambiar tres palabras y ya.
 
+### CUATRO GÉNEROS MÁS: CATORCE — 5 de septiembre
+
+Pablo: «añade en la sección del buscador habilidades de comunicación,
+motivación e inspiración, religión y espiritualidad, tecnología y futuro».
+
+| género | libros | dónde se coloca |
+| --- | --- | --- |
+| Habilidades de comunicación | 10 | detrás de Felicidad |
+| Motivación e inspiración | 12 | detrás de Comunicación |
+| Religión y espiritualidad | 12 | detrás de Filosofía |
+| Tecnología y futuro | 10 | detrás de Ciencia |
+
+**No van los cuatro seguidos al final, y es a propósito.** Se meten donde
+pertenecen —comunicación y motivación con el bloque de crecimiento personal;
+espiritualidad al lado de Filosofía; tecnología al lado de Ciencia— manteniendo
+su orden entre ellos. La parrilla es un carril de tres filas que se desplaza a
+lo ancho, y un cajón cae mejor junto a su vecino de tema que en una cola.
+
+«Catorce maneras de entrar» se escribe solo: sale de `GENEROS.length`.
+
+#### Qué lleva cada uno, y por qué
+
+**Comunicación no es oratoria.** Lo que se busca aquí no es hablar en público
+—eso pasa tres veces en la vida—: es la conversación que llevas semanas
+evitando. Por eso delante van Rosenberg y «Conversaciones cruciales», y no
+Carnegie, que es el nombre grande pero enseña a caer bien, que es otra cosa.
+Los dos de Cialdini entran a sabiendas de que persuadir no es comunicar: quien
+abre esto quiere que le hagan caso.
+
+**Motivación es el cajón más fácil de llenar de humo**, así que se abre con
+Frankl y con Dweck —uno cuenta de dónde saca sentido alguien dentro de un campo
+de exterminio, la otra tiene el experimento detrás— y después ya vienen Robbins,
+Sharma y el club de las cinco. Ahí está el servicio: nuestro resumen dice dónde
+falla cada uno.
+
+**En espiritualidad conviven cosas que no se llevan bien**, y también a
+propósito: el Tao y los estoicos junto a «El secreto» y Louise Hay. Los dos
+últimos no están por error: son de los más vendidos del cajón y de los que peor
+se sostienen, y quien llega aquí se los va a encontrar igual. Mejor con nuestra
+conclusión que en una tienda que solo los alaba.
+
+#### TECNOLOGÍA ES EL CAJÓN FLOJO, Y HAY QUE DECIRLO
+
+De 418 libros del catálogo, de tecnología hay **diez contados**: Harari por
+partida doble, Tegmark, Kaku y poco más. **Cinco de los diez son de empresa**
+—Thiel, Ries, las dos biografías de Isaacson, el coach de Google— y esos van de
+las personas que construyeron esto, no de la máquina.
+
+Se abre igual, porque sin él quien busca «futuro» o «inteligencia artificial» no
+encuentra nada. Pero es un hueco del catálogo, no del buscador, y se tapa
+metiendo libros.
+
+#### LOS CUATRO EMOTICONOS SON PRESTADOS, Y UNO ESTÁ MAL
+
+Él no ha mandado los dibujos de estos cuatro, así que se reparten los que
+quedaban sin usar. Se eligió **por lo que se lee a 21 puntos**, que es el tamaño
+real de la pastilla, y no por para qué se dibujó cada uno:
+
+    comunicacion    los dos corazones entrelazados, de «Tener relaciones sanas»
+    motivacion      las manos con la estrella, de «Crecer en tu fe»
+    espiritualidad  las piedras apiladas, de «Equilibrar tu vida»
+    tecnologia      la cabeza con el cerebro, el `mente` de PROPIOS
+
+Los tres primeros funcionan. El de motivación funciona **mejor** de lo que
+promete su nombre: a ese tamaño lo que se ve es una estrella en alto, que es
+exactamente lo que significa aspirar.
+
+**El de tecnología está mal y hay que cambiarlo.** Una cabeza con un cerebro no
+dice «tecnología», y encima cae a dos pastillas del cerebro con la chispa de
+Ciencia: **dos cerebros en la misma pantalla**, que es justo la colisión contra
+la que avisa la nota del propio fichero. Aguanta hasta que Pablo mande uno; no
+es una solución, es un parche que se ve.
+
 ### LA PANTALLA DE LA OFERTA, CALCADA — 5 de septiembre
 
 Pablo mandó una captura de la pantalla de pago de Headway: «la captura házmela
