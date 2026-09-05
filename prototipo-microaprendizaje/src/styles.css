@@ -5280,25 +5280,10 @@ button {
   transform-origin: 50% 6%;
 }
 
-.regalo-chispa {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -12px 0 0 -12px;
-  pointer-events: none;
-}
-
-/* Los papelillos salen del mismo punto que las estrellas, el centro de la
-   escena, pero estos sí caen: la mezcla de lo que flota y lo que pesa es lo
-   que evita que el estallido parezca un adorno pegado. */
-.regalo-confeti {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
-  border-radius: 2px;
-  pointer-events: none;
-}
+/* Aquí estaban `.regalo-chispa` y `.regalo-confeti`, las seis estrellas y los
+   diez papelillos que salían del centro de la escena. Se fueron el 5 de
+   septiembre con su JavaScript: el dibujo de Pablo ya trae cuatro destellos
+   propios, y los de encima los tapaban. */
 
 /* LA PASTILLA DEL AHORRO. Es la pieza que nos faltaba y la que más trabaja de
    toda la pantalla: dice en euros lo que el cupón dice en tanto por ciento, y

@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { GlyphClose } from "./glyphs";
 /* Aquí se importaban `LIBROS_RESUMEN`, `CURIOSIDADES`, `DATOS` y `GlyphVisto`
@@ -62,134 +61,35 @@ const AL_MES = euros(PRECIO_OFERTA / 12);
    Están en el historial de git, con la isométrica entera y el parpadeo.
 
 
-/** Las estrellas que salen disparadas. Solo aparecen con la caja abierta. */
-/* LOS COLORES SALEN DEL DIBUJO, muestreados de su PNG: el rojo del cupón es
-   #f35247 y el amarillo del pollito #fdbb2d. Antes eran los cinco acentos de
-   la app —barro, ocre, ciruela, salvia—, y con el dibujo de Pablo dentro el
-   morado y el verde salían de la nada: seis estrellas de dos colores que no
-   están en el pollito convierten una escena en un adorno pegado alrededor.
-   Ahora todo lo que estalla es de su misma familia. */
-const ROJO_CUPON = "#f35247";
-const ORO_POLLO = "#fdbb2d";
+/* AQUÍ VIVÍAN LAS ESTRELLAS Y EL CONFETI, y se fueron el 5 de septiembre.
+   Pablo: «quítame las animaciones que pones y deja las imágenes como están, y
+   quítame las estrellas que añadiste al lado del pollo».
 
-function Chispas({ reducido }: { reducido: boolean }) {
-  // Colocadas a mano: dos altas, dos medias y dos bajas, y ninguna simétrica
-  // con otra. Un reparto regular alrededor del centro se lee como un reloj.
-  const estrellas = [
-    { x: -104, y: -58, r: 15, t: ROJO_CUPON, d: 0 },
-    { x: 96, y: -70, r: 13, t: ORO_POLLO, d: 0.045 },
-    { x: -128, y: 16, r: 12, t: ORO_POLLO, d: 0.09 },
-    { x: 124, y: 6, r: 14, t: ROJO_CUPON, d: 0.135 },
-    { x: -78, y: 74, r: 11, t: ORO_POLLO, d: 0.18 },
-    { x: 84, y: 82, r: 13, t: ORO_POLLO, d: 0.225 },
-  ];
+   Eran seis estrellas de cinco puntas y diez papelillos que salían disparados
+   del centro de la escena, en el rojo #f35247 del cupón y el amarillo #fdbb2d
+   del pollito, muestreados de su propio dibujo.
 
-  return (
-    <>
-      {estrellas.map((e, i) => (
-        <motion.svg
-          key={i}
-          className="regalo-chispa"
-          viewBox="0 0 24 24"
-          width={e.r * 2}
-          height={e.r * 2}
-          aria-hidden
-          initial={{ x: 0, y: 0, scale: 0, rotate: -60, opacity: 0 }}
-          animate={{ x: e.x, y: e.y, scale: 1, rotate: 0, opacity: 1 }}
-          transition={{
-            type: "spring",
-            stiffness: 240,
-            damping: 15,
-            mass: 0.9,
-            delay: 0.28 + e.d,
-          }}
-        >
-          {/* Flotan a periodos distintos: nunca coinciden dos */}
-          <motion.g
-            animate={reducido ? {} : { y: [0, -3.2, 0], rotate: [0, i % 2 ? 7 : -7, 0] }}
-            transition={{
-              duration: 2.6 + i * 0.37,
-              repeat: Infinity,
-              ease: "easeInOut",
-              delay: 0.9 + e.d,
-            }}
-            style={{ originX: "12px", originY: "12px" }}
-          >
-            <path
-              d="M12 1.6 14.9 8.4 22.2 9.1 16.7 14 18.3 21.2 12 17.4 5.7 21.2 7.3 14 1.8 9.1 9.1 8.4Z"
-              fill={e.t}
-              stroke="var(--ink)"
-              strokeWidth="1.4"
-              strokeLinejoin="round"
-            />
-          </motion.g>
-        </motion.svg>
-      ))}
-    </>
-  );
-}
+   Y ese era justo el problema, visto ahora: **su dibujo YA TRAE destellos**,
+   cuatro chispas de cuatro puntas repartidas alrededor del pollito. Poner seis
+   estrellas más grandes encima no añadía fiesta, tapaba las suyas y convertía
+   un dibujo terminado en un dibujo con adornos pegados alrededor. Es la misma
+   lección de «¿Sabías que…?» y de la etiqueta de «Gratis hoy»: cuando la pieza
+   ya está resuelta, lo de al lado solo le quita sitio.
 
-/**
- * Papelillos. A diferencia de las estrellas, que se quedan flotando, estos
- * tienen gravedad: suben con la tapa, se frenan y caen girando. Dos curvas
- * distintas para el mismo movimiento —`easeOut` al subir, `easeIn` al caer—
- * porque una sola curva para todo el recorrido no es una parábola, es un
- * elemento que se mueve.
- */
-function Confeti({ reducido }: { reducido: boolean }) {
-  if (reducido) return null;
-
-  const trozos = [
-    { x: -118, sube: -78, cae: 96, giro: 420, c: ROJO_CUPON, w: 7, h: 11, t: 1.5, d: 0.2 },
-    { x: -74, sube: -122, cae: 58, giro: -300, c: ORO_POLLO, w: 9, h: 9, t: 1.7, d: 0.26 },
-    { x: -38, sube: -140, cae: 30, giro: 520, c: ORO_POLLO, w: 6, h: 12, t: 1.8, d: 0.22 },
-    { x: -12, sube: -152, cae: 70, giro: -380, c: "#fbedd7", w: 8, h: 8, t: 1.9, d: 0.3 },
-    { x: 22, sube: -134, cae: 44, giro: 340, c: ROJO_CUPON, w: 7, h: 11, t: 1.6, d: 0.24 },
-    { x: 58, sube: -146, cae: 82, giro: -460, c: ORO_POLLO, w: 9, h: 7, t: 1.85, d: 0.34 },
-    { x: 96, sube: -104, cae: 62, giro: 400, c: ORO_POLLO, w: 6, h: 12, t: 1.55, d: 0.2 },
-    { x: 126, sube: -70, cae: 108, giro: -280, c: ROJO_CUPON, w: 8, h: 8, t: 1.45, d: 0.3 },
-    { x: -100, sube: -134, cae: 26, giro: 300, c: "#fbedd7", w: 7, h: 10, t: 1.75, d: 0.38 },
-    { x: 80, sube: -158, cae: 20, giro: -520, c: ORO_POLLO, w: 6, h: 11, t: 1.95, d: 0.42 },
-  ];
-
-  return (
-    <>
-      {trozos.map((p, i) => (
-        <motion.span
-          key={i}
-          className="regalo-confeti"
-          style={{ width: p.w, height: p.h, background: p.c }}
-          initial={{ x: 0, y: 10, rotate: 0, opacity: 0 }}
-          animate={{
-            x: p.x,
-            y: [10, p.sube, p.cae],
-            rotate: p.giro,
-            opacity: [0, 1, 1, 0],
-          }}
-          transition={{
-            duration: p.t,
-            delay: p.d,
-            x: { ease: "easeOut" },
-            y: { times: [0, 0.42, 1], ease: ["easeOut", "easeIn"] },
-            rotate: { ease: "linear" },
-            opacity: { times: [0, 0.06, 0.72, 1] },
-          }}
-        />
-      ))}
-    </>
-  );
-}
+   Están enteras en el historial de git, con su escalonado de 45 ms y los
+   periodos distintos de flotación. */
 
 /* --------------------------------------------------------------------------
    1. El aviso, encima del inicio
    -------------------------------------------------------------------------- */
 
+/* Ya no recibe `reducido`. Lo usaba para no menear la caja cuando el móvil
+   pide menos movimiento; desde que la caja está quieta siempre, no hay
+   movimiento que perdonar. */
 export function AvisoRegalo({
-  reducido,
   onAbrir,
   onCerrar,
 }: {
-  reducido: boolean;
   onAbrir: () => void;
   onCerrar: () => void;
 }) {
@@ -209,15 +109,9 @@ export function AvisoRegalo({
         exit={{ opacity: 0, scale: 0.94, transition: { duration: 0.18 } }}
         transition={{ ...springPop, delay: 0.05 }}
       >
-        {/* Late despacio: está pidiendo que la abras */}
-        <motion.div
-          className="regalo-caja"
-          animate={reducido ? {} : { y: [0, -7, 0], rotate: [-1.6, 1.6, -1.6] }}
-          transition={{
-            y: { duration: 2.7, repeat: Infinity, ease: "easeInOut" },
-            rotate: { duration: 4.1, repeat: Infinity, ease: "easeInOut" },
-          }}
-        >
+        {/* QUIETA. Flotaba y se balanceaba despacio, «pidiendo que la abras».
+            Pablo lo quitó el 5 de septiembre: la imagen se pinta y ya está. */}
+        <div className="regalo-caja">
           {/* EL REGALO ES SUYO DESDE EL 4 DE SEPTIEMBRE. Aquí había una caja
               dibujada por mí, en isométrica y con la tapa que salía despedida
               al abrirse. Pablo mandó ésta —coral y oro, la familia de sus
@@ -228,7 +122,7 @@ export function AvisoRegalo({
               la oferta, y esa la ocupa el pollito desde hace un rato. Lo que
               sí se conserva es el meneo, que es lo que pide que la toques. */}
           <img className="regalo-imagen" src={regaloCaja} width={168} height={179} alt="" />
-        </motion.div>
+        </div>
 
         <motion.h2
           initial={{ opacity: 0, y: 14 }}
@@ -257,21 +151,12 @@ export function AvisoRegalo({
    2. La oferta
    -------------------------------------------------------------------------- */
 
-export function Oferta({
-  reducido,
-  onCerrar,
-}: {
-  reducido: boolean;
-  onCerrar: () => void;
-}) {
-  /* La caja llega cerrada y se abre sola un instante después: si llegara ya
-     abierta, el gesto de haber pulsado «Abrir» se perdería. */
-  const [abierta, setAbierta] = useState(false);
-  useEffect(() => {
-    const id = window.setTimeout(() => setAbierta(true), reducido ? 0 : 240);
-    return () => window.clearTimeout(id);
-  }, [reducido]);
-
+/* Aquí había un estado `abierta` con un temporizador de 240 ms: la pantalla
+   entraba con la caja cerrada y disparaba las estrellas un instante después,
+   para que el estallido se leyera como consecuencia de haber pulsado «Abrir».
+   Sin estrellas que disparar, el temporizador no encendía nada. Y `reducido`
+   se iba con él, que era lo que lo ponía a cero. */
+export function Oferta({ onCerrar }: { onCerrar: () => void }) {
   return (
     <motion.div
       className="oferta"
@@ -280,16 +165,9 @@ export function Oferta({
       exit={{ opacity: 0, y: 24, transition: { duration: 0.2 } }}
     >
       <div className="oferta-head">
-        <motion.button
-          className="oferta-cerrar"
-          onClick={onCerrar}
-          aria-label="Cerrar"
-          initial={{ opacity: 0, scale: 0.7 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ ...springPop, delay: 0.9 }}
-        >
+        <button className="oferta-cerrar" onClick={onCerrar} aria-label="Cerrar">
           <GlyphClose />
-        </motion.button>
+        </button>
       </div>
 
       <div className="oferta-cuerpo">
@@ -304,80 +182,41 @@ export function Oferta({
             algo se balancea, y ese es el gesto que hace creíble que lo esté
             agarrando de verdad. */}
         <div className="oferta-escena">
-          <motion.img
+          {/* QUIETO. Se columpiaba despacio, colgando del cupón, y entraba
+              cayendo desde arriba. Las dos cosas se fueron el 5 de septiembre
+              a petición de Pablo: la imagen se pinta y ya está. */}
+          <img
             className="oferta-pollito"
             src={pollitoCupon}
             alt={`Un pollito sujetando un cupón del ${DESCUENTO} % de descuento`}
-            initial={{ opacity: 0, y: -26, scale: 0.9 }}
-            animate={
-              reducido || !abierta
-                ? { opacity: 1, y: 0, scale: 1 }
-                : { opacity: 1, y: 0, scale: 1, rotate: [0, -2.2, 2.2, -1.2, 0] }
-            }
-            transition={
-              reducido
-                ? { duration: 0.01 }
-                : { ...springPop, delay: 0.1, rotate: { duration: 5.2, repeat: Infinity, ease: "easeInOut", delay: 1 } }
-            }
           />
-          {abierta && (
-            <>
-              <Chispas reducido={reducido} />
-              <Confeti reducido={reducido} />
-            </>
-          )}
         </div>
 
         {/* EL AHORRO EN EUROS. El cupón dice el tanto por ciento y esto dice lo
             mismo en dinero, que es como se piensa. La resta se hace aquí y no
             se escribe a mano: cambiar un precio no puede dejar el ahorro
             diciendo otra cosa. */}
-        <motion.span
-          className="oferta-ahorro"
-          initial={{ opacity: 0, y: 10, scale: 0.9 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ ...springPop, delay: 0.5 }}
-        >
+        <span className="oferta-ahorro">
           Ahorra {euros(PRECIO_NORMAL - PRECIO_OFERTA)}/año
-        </motion.span>
+        </span>
 
         <div className="oferta-precios">
-          <motion.span
-            className="oferta-antes"
-            initial={{ opacity: 0, x: -10 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ ...springSoft, delay: 0.62 }}
-          >
+          {/* El tachado se DIBUJABA de izquierda a derecha. Ahora está puesto
+              y ya: un precio tachado se entiende sin verlo tacharse. */}
+          <span className="oferta-antes">
             {euros(PRECIO_NORMAL)}
-            <motion.span
-              className="oferta-tachon"
-              initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
-              transition={reducido ? { duration: 0.01 } : { ...spring, delay: 0.82 }}
-            />
-          </motion.span>
+            <span className="oferta-tachon" />
+          </span>
 
-          <motion.span
-            className="oferta-ahora"
-            initial={{ opacity: 0, scale: 0.7 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ ...springPop, delay: 0.94 }}
-          >
+          <span className="oferta-ahora">
             {euros(PRECIO_OFERTA)}
             <span className="oferta-periodo">/año</span>
-          </motion.span>
+          </span>
         </div>
 
         {/* El precio por mes y no por año es el mismo dinero dicho de la manera
             en que se piensa el gasto pequeño. */}
-        <motion.p
-          className="oferta-mes"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ ...springSoft, delay: 1.02 }}
-        >
-          solo {AL_MES} al mes
-        </motion.p>
+        <p className="oferta-mes">solo {AL_MES} al mes</p>
       </div>
 
       <div className="oferta-pie">
@@ -386,42 +225,27 @@ export function Oferta({
             estaba fuera, en gris sobre el fondo, que es el sitio donde no la
             lee nadie. Dentro del azul y debajo de la palabra se lee, y además
             quita el miedo justo en el instante en que se decide. */}
-        <motion.button
-          className="oferta-cta"
-          onClick={onCerrar}
-          whileTap={{ scale: 0.97 }}
-          initial={{ opacity: 0, y: 20, scale: 0.96 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ ...springPop, delay: 1.08 }}
-        >
+        {/* El `whileTap` se queda: no es una animación de entrada, es el acuse
+            de que el dedo ha tocado. Sin él un botón parece que no responde. */}
+        <motion.button className="oferta-cta" onClick={onCerrar} whileTap={{ scale: 0.97 }}>
           <span className="oferta-cta-titulo">Continuar</span>
           <span className="oferta-cta-pie">
             Dos pasos para empezar · Se cancela cuando quieras
           </span>
         </motion.button>
 
-        <motion.p
-          className="oferta-seguro"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ ...springSoft, delay: 1.16 }}
-        >
+        <p className="oferta-seguro">
           <GlyphEscudo />
           Se cobra en la tienda
-        </motion.p>
+        </p>
 
         <div className="oferta-filete" />
 
-        <motion.div
-          className="oferta-enlaces"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ ...springSoft, delay: 1.22 }}
-        >
+        <div className="oferta-enlaces">
           <button onClick={onCerrar}>Términos y condiciones</button>
           <button onClick={onCerrar}>Política de privacidad</button>
           <button onClick={onCerrar}>Restaurar compra</button>
-        </motion.div>
+        </div>
       </div>
     </motion.div>
   );

@@ -2439,6 +2439,64 @@ Playwright con la ventana a 375 × 812. Dos columnas de números al lado, y se
 ajusta hasta que coinciden. Mirar dos pantallas parecidas y decidir cuál está
 bien es justo lo que no funciona.
 
+### NADA SE MUEVE SOLO — 5 de septiembre
+
+Pablo, al ver la oferta terminada: «quítame las animaciones que pones y deja las
+imágenes como están, y quítame las estrellas que añadiste al lado del pollo».
+
+**La regla que queda, y vale para toda la app: nada se mueve solo. Las cosas
+responden cuando se las toca.** Lo que se quita es el movimiento en bucle y las
+entradas escalonadas; lo que se queda es el `whileTap`, que no es adorno sino el
+acuse de que el dedo ha llegado —sin él un botón parece averiado— y la entrada y
+salida de cada pantalla, que es la navegación de la app y no de esta pieza.
+
+Lo retirado, con su sitio:
+
+| dónde | qué se movía |
+| --- | --- |
+| la oferta | el pollito se columpiaba y entraba cayendo |
+| la oferta | seis estrellas y diez papelillos disparados desde el centro |
+| la oferta | el tachado del precio viejo se dibujaba de izquierda a derecha |
+| la oferta | pastilla, precios, «al mes», botón, tienda y enlaces entraban escalonados |
+| el aviso | la caja del regalo flotaba y se balanceaba |
+| el inicio | el regalo del botón flotante se sacudía cada pocos segundos |
+| la cabecera | el símbolo de barajar se sacudía solo cada nueve segundos |
+
+#### Por qué las estrellas sobraban, que es lo que importa
+
+Eran seis de cinco puntas en el rojo del cupón y el amarillo del pollito,
+muestreados de su propio dibujo, saliendo del centro escalonadas 45 ms.
+
+Y **su dibujo YA TRAE cuatro destellos** de cuatro puntas repartidos alrededor
+del pollito. Las mías, más grandes, no añadían fiesta: tapaban las suyas y
+convertían un dibujo terminado en un dibujo con adornos pegados alrededor. Es la
+misma lección de «¿Sabías que…?», del recuadro del regalo y de la etiqueta de
+«Gratis hoy»: **cuando la pieza ya está resuelta, lo de al lado solo le quita
+sitio.** Van cuatro veces seguidas.
+
+#### Lo que se llevó por delante, que es más de lo que parece
+
+`Chispas` y `Confeti` enteras, sus dos colores muestreados, `.regalo-chispa` y
+`.regalo-confeti`, y detrás de ellas **el estado `abierta` de la oferta**: un
+temporizador de 240 ms cuyo único trabajo era retrasar el estallido para que se
+leyera como consecuencia de haber pulsado «Abrir». Sin estrellas que disparar no
+encendía nada, y con él se fue el `reducido` que lo ponía a cero —y de paso, el
+`reducido` de `AvisoRegalo`, que solo servía para no menear la caja—.
+
+#### Cómo se comprueba que está quieto
+
+Dos capturas de la misma pantalla separadas 1,6 segundos, y se comparan píxel a
+píxel. Si son idénticas, no se mueve nada; si no, la comparación da la caja
+donde está lo que se mueve y ya se sabe dónde mirar. Así salió el símbolo de
+barajar, que no estaba en la lista y se sacudía en 22 × 18 puntos de la
+cabecera.
+
+Con eso, **inicio, explorar, biblioteca y la oferta están quietas**. Queda una
+sola cosa moviéndose sola en toda la app: **la llama de la racha, en el perfil**,
+que parpadea. Es de antes y no se ha tocado, porque quitarle el parpadeo la
+convierte en un icono y eso ya no es quitar una animación, es cambiar una pieza.
+Si él la quiere quieta también, es un rato.
+
 ### «Gratis hoy»: primero pasó a verde, después perdió la etiqueta
 
 «Ponme un verde mejor, que pegue con el fondo y sea bonito.» Se le pasaron

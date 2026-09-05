@@ -1222,33 +1222,14 @@ export function Inicio({
           sitio para decirlo, porque lo que ocupaba antes no era el texto, era
           el relleno verde. El `aria-label` sobra ahora: hay texto que leer.
 
-          Y el meneo pasa del botón al dibujo. Latiendo entero, un recuadro con
-          letras se mueve como un anuncio; moviéndose solo el regalo, es el
-          regalo el que llama, que es de lo que se trata. */}
+          Y EL MENEO YA NO ESTÁ. El regalo se sacudía cada pocos segundos, y
+          antes de eso latía el botón entero. Pablo lo quitó el 5 de septiembre
+          —«quítame las animaciones que pones y deja las imágenes como están»—.
+          Se queda el `whileTap`, que no es una animación de entrada sino el
+          acuse de que el dedo ha tocado: sin él, un botón parece averiado. */}
       {onOferta && (
-        <motion.button
-          className="regalo-flota"
-          onClick={onOferta}
-          whileTap={{ scale: 0.96 }}
-          initial={{ opacity: 0, y: 14, scale: 0.94 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ ...springPop, delay: 0.5 }}
-        >
-          <motion.img
-            className="regalo-flota-caja"
-            src={regaloCaja}
-            width={36}
-            height={38}
-            alt=""
-            animate={{ rotate: [0, -7, 6, -4, 0], scale: [1, 1.06, 1, 1.03, 1] }}
-            transition={{
-              duration: 1.5,
-              repeat: Infinity,
-              repeatDelay: 2.6,
-              ease: "easeInOut",
-              delay: 1.4,
-            }}
-          />
+        <motion.button className="regalo-flota" onClick={onOferta} whileTap={{ scale: 0.96 }}>
+          <img className="regalo-flota-caja" src={regaloCaja} width={36} height={38} alt="" />
           <span className="regalo-flota-texto">Tu regalo</span>
         </motion.button>
       )}

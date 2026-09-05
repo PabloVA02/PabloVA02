@@ -237,8 +237,13 @@ function tirada(libros: Libro[], ganador: Libro): Libro[] {
    sacar la ficha: dos idas y venidas de dos puntos y para.
 
      · Al tocarlo, siempre.
-     · Y solo, cada nueve segundos, para que se vea que se puede tocar.
      · Con `prefers-reduced-motion`, nunca.
+
+   SE MENEABA SOLO CADA NUEVE SEGUNDOS, «para que se vea que se puede tocar», y
+   eso se fue el 5 de septiembre. Pablo: «quítame las animaciones que pones».
+   La regla que queda, y vale para toda la app: **nada se mueve solo; las cosas
+   responden cuando se las toca.** Un icono que se sacude en bucle en la
+   cabecera es una mosca en la esquina del ojo mientras se lee la pantalla.
    -------------------------------------------------------------------------- */
 
 export function GlyphAzar({
@@ -275,12 +280,6 @@ export function GlyphAzar({
     }
     menear();
   }, [pulsos, menear]);
-
-  useEffect(() => {
-    if (reducido) return;
-    const t = window.setInterval(menear, 9000);
-    return () => window.clearInterval(t);
-  }, [menear, reducido]);
 
   return (
     <motion.svg

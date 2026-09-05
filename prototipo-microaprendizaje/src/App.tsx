@@ -688,7 +688,7 @@ export default function App() {
             />
           )}
           {pantalla === "oferta" && (
-            <Oferta key="oferta" reducido={!!reducido} onCerrar={() => setPantalla("inicio")} />
+            <Oferta key="oferta" onCerrar={() => setPantalla("inicio")} />
           )}
           {pantalla === "shorts" && (
             // Terminar un short no saca de la sección: deja en la siguiente
@@ -797,7 +797,6 @@ export default function App() {
           {avisoRegalo && pantalla === "inicio" && (
             <AvisoRegalo
               key="aviso-regalo"
-              reducido={!!reducido}
               onCerrar={() => setAvisoRegalo(false)}
               onAbrir={() => {
                 setAvisoRegalo(false);
